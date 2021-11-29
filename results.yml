@@ -206,19 +206,19 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: 按公司规模划分的使用情况
     - key: blocks.tools_company_size_heatmap.description
       t: |
         对于每种技术，在不同公司规模范围的受访者中，使用情况如何。
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: 按薪水范围划分的使用情况
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         对于每种技术，在选择不同薪资范围的受访者中，使用情况如何。
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: 按经验年限划分的使用情况
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -232,18 +232,18 @@ translations:
       t: GitHub
 
     # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.title
+    - key: blocks.all_sections_tools_cardinality_by_user
       t: 技术使用基数
     - key: blocks.all_sections_tools_cardinality_by_user.description
       t: 对于每一部分，受访者对前几种技术的使用率(此处的"使用"定义为"会再次使用")。
 
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user
       t: 技术使用基数
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: 对于每一部分，受访者对前几种技术的使用率(此处的"使用"定义为"会再次使用")。
 
     # tools arrows
-    - key: blocks.tools_arrows.title
+    - key: blocks.tools_arrows
       t: 随时间变化
     - key: blocks.tools_arrows.description
       t: |
@@ -254,7 +254,7 @@ translations:
           - 只有一年数据的技术没有显示。
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: 满意度 对比 使用率
     - key: blocks.tools_quadrant.satisfaction.description
       t: |
@@ -277,19 +277,19 @@ translations:
         (请注意，低用户数量可能是由于非著名的技术，也可能是该技术很多受访者已经在使用。)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: 其他工具
     - key: blocks.category_other_tools.description
       t: 此类别中的其他工具（自由填写的答案）。
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} 体验'
     - key: blocks.tool_experience.description
       t: 受访者对 {name} 的体验.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: 积极/消极体验拆分图
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -298,7 +298,7 @@ translations:
           柱状的厚度代表了解某一技术的访问者数量。
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: 随时间变化的体验
     - key: blocks.tools_section_streams.description
       t: |
@@ -308,14 +308,14 @@ translations:
         不包含只有一年数据的技术。
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: 分类概览
     - key: blocks.tools_section_overview.description
       t: |
         对所调查技术的态度的概览。较深的部分代表积极的观点，而较浅的部分对应消极的情绪。
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: 排行
     - key: blocks.tools_experience_ranking.description
       t: 满意度, 关注度, 使用率, 和认知率的排行。
@@ -329,14 +329,14 @@ translations:
         - 认知率：(**总计** - **从未听说过**) / **总计**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: 总体满意度
     - key: blocks.happiness.description
       t: |
         从1(非常不高兴)到5(非常高兴)，开发者对这一类别的整体满意度。
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: 持续关注
     - key: blocks.newsletter.description
       t: |
@@ -348,7 +348,7 @@ translations:
       t: 通知我
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: 使用情况概览
     - key: blocks.features_overview.description
       t: |
@@ -370,7 +370,7 @@ translations:
           你可以在我们的公共 <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a> 中复制粘贴此查询。
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: 使用率变化
     - key: blocks.tools_usage_variations.description
       t: |
@@ -384,7 +384,7 @@ translations:
         请记住，总体使用率较低的工具往往变化更大。
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: 资源推荐
 
     ###########################################################################
