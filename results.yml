@@ -336,7 +336,7 @@ translations:
         从1(非常不高兴)到5(非常高兴)，开发者对这一类别的整体满意度。
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: 持续关注
     - key: blocks.newsletter.description
       t: |
