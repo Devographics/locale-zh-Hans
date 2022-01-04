@@ -512,6 +512,12 @@ translations:
     # Demographics (About You/User Info)
     ###########################################################################
 
+    # age
+    - key: user_info.age
+      t: 年龄
+    - key: user_info.age.description
+      t: 你的年龄是多少岁?
+
     # years of experience
     - key: user_info.years_of_experience
       t: 年限
@@ -559,7 +565,10 @@ translations:
     # gender
     - key: user_info.gender
       t: 性别
-
+    - key: user_info.gender.description
+      t: >
+        你的性别是？
+  
     # skin tone/appearance
     - key: user_info.race_ethnicity
       t: 种族和民族
@@ -584,6 +593,31 @@ translations:
       t: 其他行业
     - key: user_info.industry_sector.others.description
       t: 上述未提及的行业。
+    
+    - key: user_info.country.description
+      t: 你目前居住在哪里？
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: 学历
+    - key: user_info.higher_education_degree.description
+      t: 你有过高等教育的经历吗？
+    
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: 无
+    - key: options.higher_education_degree.yes_related.short
+      t: 有，且专业相关
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: 有，但专业不相关
+
+    # disability status
+    - key: user_info.disability_status
+      t: 残疾状况
+    - key: user_info.disability_status.description
+      t: >
+        如果有的话，你有以下选项中的哪些残疾项？
+        提示：选项包含暂时的残疾或受伤。
 
     ###########################################################################
     # Other Tools

@@ -1,4 +1,4 @@
-locale: en-US
+locale: zh-Hans
 namespace: css
 translations:
     ###########################################################################
@@ -37,6 +37,11 @@ translations:
       t: 排版
     - key: sections.typography.description
       t: 文本排版设置。
+    
+    - key: sections.accessibility.title
+      t: 可访问性
+    - key: sections.accessibility.description
+      t: 可访问性相关技术。 
 
     - key: sections.animations_transforms.title
       t: 动画与过渡
@@ -90,10 +95,20 @@ translations:
     - key: sections.css_in_js_others.title
       t: 其他 CSS-in-JS 库
 
+    - key: sections.tools_others.title
+      t: 其他工具
+    - key: sections.tools_others.description
+      t: 其他 CSS 工具
+
     - key: sections.environments.title
       t: 环境
     - key: sections.environments.description
       t: 你于什么环境下编写 CSS 代码？
+
+    - key: sections.tools_others.title
+      t: 其他工具
+    - key: sections.tools_others.description
+      t: 其他 CSS 工具
 
     ###########################################################################
     # Options

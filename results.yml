@@ -105,6 +105,9 @@ translations:
       t: 大奖
     - key: sections.awards.description
       t: 今年的亮点
+
+    - key: sections.about.title
+      t: 关于
       
     ###########################################################################
     # User Info
