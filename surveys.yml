@@ -1,0 +1,74 @@
+locale: zh-Hans
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.no_preview_surveys
+      t: 没有要预览的调查
+    - key: general.global_nav
+      t: 全球的
+
+    ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: 常见问题
+    - key: faq.create_account
+      t: 为什么我需要创建一个帐户？
+    - key: faq.create_account.description
+      t: 我们需要你创建一个帐户，以避免重复响应，保存你的数据，并在结果发布时通知你。
+    - key: faq.anonymous_survey
+      t: 我可以匿名接受调查吗？
+    - key: faq.anonymous_survey.description
+      t: 是的，你可以用假的(something@example.com)也可以通过非身份电子邮件进行调查，只要你将其保存以备将来访问。
+    - key: faq.questions_required
+      t: 是否需要回答所有问题？
+    - key: faq.questions_required.description
+      t: 不，调查的每个问题都是可选的，可以自由跳过。
+    - key: faq.data_published
+      t: 我的数据会公开吗？
+    - key: faq.data_published.description
+      t: 是的，所有数据都将公开发布，但只有在清除了任何标识信息（电子邮件、用户名、ID等）后才会公开发布。
+    - key: faq.survey_design
+      t: 调查是如何设计的？
+    - key: faq.survey_design.description
+      t: 调查是根据社区反馈设计的，并由专家审查。你可以[在此了解更多信息](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    - key: faq.results_released
+      t: 什么时候公布结果？
+    - key: faq.results_released.description
+      t: 调查结果通常在调查结束后几周公布。
+    - key: faq.survey_deadline
+      t: 调查何时结束？
+    - key: faq.survey_deadline.description
+      t: 此调查计划运行到{date}
+    - key: faq.team
+      t: 谁负责这些调查？
+    - key: faq.team.description
+      t: 调查主要由[我]进行(http://sachagreif.com)与贡献者、翻译人员和志愿者合作。
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: 重新开始
+    - key: bracket.winner
+      t: >
+      胜利者
+    - key: bracket.round
+      t: 圆形的
+    - key: bracket.empty_bracket
+      t: 待定结果（先完成上一轮）
+    - key: bracket.result
+      t: 后果
+    - key: bracket.cancel
+      t: 取消
+
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################

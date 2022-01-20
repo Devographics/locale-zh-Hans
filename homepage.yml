@@ -13,19 +13,19 @@ translations:
 
     - key: homepage.made_by
       t: “关于 State of CSS 调查问卷的幕后人员：”
-    - key: homepage.leave_issue
-      t: 提出 issue
 
     - key: homepage.previous_years
       t: “往年的：”
+
     - key: homepage.intro
       t: >
           ## CSS 正以前所未有的速度发展。
 
           Flexbox （弹性盒模型）、 Grid （网格布局）、 Multi-Column （多列布局）甚至迈入了 CSS-in-JS 这样的全新领域。
 
-          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。我们决定深入样式选择器的世界，帮助大家找到
-          最新趋势，作为桥梁连接“大前端时代”洪流！
+          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。
+          我们决定深入样式选择器的世界，帮助大家找到最新趋势，
+          作为桥梁连接“大前端时代”洪流！
 
     - key: homepage.take_survey
       t: 参与问卷
@@ -45,6 +45,7 @@ translations:
       t: >
           [Nivo](http://nivo.rocks/)： JavaScript data visualization 库以及
           可以创建美观的仪表盘工具 [Mozaik](http://mozaik.rocks/) 的作者。
+
     - key: author.raphael.bio
       t: >
           创建了 [Sidebar](http://sidebar.io) 同时也是采用
