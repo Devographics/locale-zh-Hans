@@ -361,7 +361,7 @@ translations:
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
-      t: '<10'岁
+      t: 小于10岁
     - key: options.age.range_10_18.short
       t: 10-18岁
     - key: options.age.range_18_24.short
@@ -375,7 +375,7 @@ translations:
     - key: options.age.range_55_64.short
       t: 55-64岁
     - key: options.age.range_more_than_65.short
-      t: '>65'岁
+      t: 65岁以上
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -439,7 +439,7 @@ translations:
     - key: options.company_size.range_100_1000.short
       t: 100-1000 个雇员
     - key: options.company_size.range_more_than_1000.short
-      t: '>1000' 个雇员
+      t: 超过 1000 个雇员
 
     # salary
     - key: options.yearly_salary.range_work_for_free
@@ -471,7 +471,7 @@ translations:
     - key: options.yearly_salary.range_100_200.short
       t: 100k-200k 美元
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>200k' 美元
+      t: 超过 200k 美元
 
     # job titles
     - key: options.job_title.cto
@@ -593,7 +593,7 @@ translations:
       t: 双民族混血
     - key: options.race_ethnicity.native_american_islander_australian
       t: 美洲原住民、太平洋岛民或澳洲原住民
-   - key: options.race_ethnicity.not_listed
+    - key: options.race_ethnicity.not_listed
       t: 不在选项中
 
     # Race & Ethnicity (short)
@@ -1095,7 +1095,7 @@ translations:
     - key: resources.people
       t: 人
     - key: resources.people.description
-      t: 您阅读、关注或只想突出强调的人。
+      t: 你阅读、关注或只想突出强调的人。
     # - key: resources.people.others
     #   t: Other People
     # - key: resources.people.others.description
@@ -1104,5 +1104,5 @@ translations:
       t: 人
     - key: resources.people.others.description
       t: >
-        您阅读、关注或只想突出强调的人。
+        你阅读、关注或只想突出强调的人。
         （自由格式字段，逗号分隔的名称） 

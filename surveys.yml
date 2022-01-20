@@ -58,7 +58,7 @@ translations:
       t: 重新开始
     - key: bracket.winner
       t: >
-      胜利者
+          胜利者
     - key: bracket.round
       t: 圆形的
     - key: bracket.empty_bracket

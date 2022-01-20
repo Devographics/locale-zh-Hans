@@ -111,7 +111,7 @@ translations:
     t: 待定
   - key: options.quadrant.analyze.long
     t: |
-      待定: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
+      待定: 使用率高，满意度低。如果你正在使用这些技术，请重新评估它们。
 
   - key: ranges.selector.years_of_experience
     t: 经验年限
@@ -173,7 +173,7 @@ translations:
       我们将这个调查作为一个副业项目进行，但为了使这个项目可持续发展，
       我们一直在寻找能够支持我们的合作伙伴，
       无论是在经济上还是帮助我们传播信息。
-      如果您认为您能在任何方面提供帮助，请不要犹豫[联系我们](mailto:hello@stateofjs.com)！
+      如果你认为你能在任何方面提供帮助，请不要犹豫[联系我们](mailto:hello@stateofjs.com)！
 
   - key: sections.awards.title
     t: 大奖
@@ -393,7 +393,7 @@ translations:
 
         - **规避**: 使用率低，满意度低。目前最好避免使用的技术。
 
-        - **待定**: 使用率高，满意度低。如果您正在使用这些技术，请重新评估它们。
+        - **待定**: 使用率高，满意度低。如果你正在使用这些技术，请重新评估它们。
 
     # category other tools
   - key: blocks.category_other_tools
@@ -551,12 +551,12 @@ translations:
   - key: tool_evaluation.tool_evaluation_wins
     t: 图书馆评价排名
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: 在评估新库时，您优先考虑哪些因素？结果按赢得的锦标赛轮数排列。
+    t: 在评估新库时，你优先考虑哪些因素？结果按赢得的锦标赛轮数排列。
 
   - key: tool_evaluation.tool_evaluation_matchups
     t: 图书馆评估排名（配对）
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: 在评估新库时，您优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
+    t: 在评估新库时，你优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
 
   - key: css_pain_points.css_pain_points_wins
     t: CSS痛点
@@ -571,12 +571,12 @@ translations:
   - key: currently_missing_from_css.currently_missing_from_css_wins
     t: CSS中缺少功能
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: 您现在最希望在CSS中使用哪项功能？结果按赢得的锦标赛轮数排列。
+    t: 你现在最希望在CSS中使用哪项功能？结果按赢得的锦标赛轮数排列。
 
   - key: currently_missing_from_css.currently_missing_from_css_matchups
     t: CSS中缺少功能（匹配）
   - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: 您现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
+    t: 你现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
 
     ###########################################################################
     # Charts
@@ -866,12 +866,12 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      在整个调查结果中，您会发现类似这样的小提示，
+      在整个调查结果中，你会发现类似这样的小提示，
       它们将指出额外的特性和细节。
 
   - key: hints.units_switcher_hint
     t: >
-      您可以使用每个图表右上角的控件在相对百分比和绝对数量之间切换，
+      你可以使用每个图表右上角的控件在相对百分比和绝对数量之间切换，
       以获得相同数据的不同视图。
 
   - key: hints.export_hint
@@ -883,11 +883,11 @@ translations:
   - key: hints.completion_hint
     t: >
       由于所有问题都是可选的，因此有些问题得到的答复少于其他问题。
-      完成指示符（<span class="hint-completion-indicator">◕</span>）会告诉您到底有多少人回答了给定的问题。
+      完成指示符（<span class="hint-completion-indicator">◕</span>）会告诉你到底有多少人回答了给定的问题。
 
   - key: hints.tool_modal_hint
     t: >
-      您可以单击任何技术的名称，
+      你可以单击任何技术的名称，
       来获得额外的详细信息，并更深入地查看其相关数据。
 
   - key: hints.rankings_modes_hint
@@ -903,7 +903,7 @@ translations:
   - key: hints.tshirt_hint
     t: >
       另一个有保证的科学发现是：
-      购买我们的t恤将使您的 JavaScript 知识骤增！
+      购买我们的t恤将使你的 JavaScript 知识骤增！
   
   - key: hints.variants_hint
     t: >

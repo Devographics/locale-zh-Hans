@@ -1,0 +1,79 @@
+locale: zh-Hans
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            忘记你对 CSS 过去的了解。或者至少，准备好重新考虑更多的特性。如果像我一样，你已经写了十多年的 CSS，那么 2020 年的 CSS 看起来和你过去习惯的完全不同。
+
+            代替 breakpoints，我们现在可以利用 CSS Grid 制作动态的响应式布局，以更少的代码行适应任何视口大小。 CSS-in-JS 不依赖于全局样式表，而是让我们将样式与组件放在一起，以构建可主题化的设计系统。
+
+            最重要的是，Tailwind CSS 已经崭露头角，其原子化的 CSS 的思路会对已有的 CSS 编写方式产生颠覆式的影响。
+
+            无论所有这些变化让您想写一篇大肆宣传的博客文章还是愤怒的 Twitter 咆哮，我们都在这里展示数据，突出趋势，并希望引导您度过新的一年！
+
+            ### 团队
+
+            CSS 调查状态由以下人员创建和维护：
+
+            - [Sacha Greif](https://twitter.com/sachagreif)：设计、写作、编码
+            - [Raphaël Benitte](https://twitter.com/benitteraphael)：数据分析、数据可视化
+
+            ### 下载我们的数据
+
+            您可以[下载本次调查的原始 JSON 数据](https://www.kaggle.com/sachag/state-of-css)。如果您最终制作自己的数据可视化，请告诉我们！
+
+            ### 其他链接
+
+            - [CSS 主页状态](https://stateofcss.com)
+            - [JS 状态](https://stateofjs.com)
+
+            ＃＃＃ 谢谢
+
+            感谢所有帮助我们设计调查的人，包括[Chen Hui-Jing](http://chenhuijing.com/)、[Philip Jägenstedt](https://blog.foolip.org/)、[Adam Argyle ](https://nerdy.dev/)、[Ahmad Shadeed](https://www.ishadeed.com/)、[Robert Flack](https://github.com/flackr)、[Dominic Nguyen]( https://www.chromatic.com/)、[Fantasai](http://fantasai.inkedblade.net/) 和 [Kilian Valkhof](https://kilianvalkhof.com/)。
+
+            还要感谢 [Alexey Pyltsyn](https://github.com/lex111) 对翻译的帮助。
+
+            ### 学分和资料
+
+            该站点设置在 IBM Plex Mono 中。问题？回馈？ [取得联系](mailto:hello@stateofjs.com)
+
+            现在，让我们看看今年 CSS 做了什么！
+
+            <span class="conclusion__byline">– Sacha and Raphaël</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T恤衫
+
+    - key: sections.tshirt.description
+      t: |
+          ## Support the survey and look good in the process!
+
+          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+
+          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+
+          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
+    
+    - key: tshirt.about
+      t: 关于T恤衫
+
+    - key: tshirt.description
+      t: |
+          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+
+          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
+          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+
+    - key: tshirt.getit
+      t: 买它
+
+    - key: tshirt.price
+      t: $24
