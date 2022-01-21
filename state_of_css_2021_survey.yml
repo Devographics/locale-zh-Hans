@@ -1,99 +1,17 @@
-locale: en-US
+locale: zh-Hans
+namespace: css
 translations:
     ###########################################################################
-    # Introduction
+    # General
     ###########################################################################
 
-    - key: sections.introduction.description
-      t: |
+    - key: general.survey_intro_css2021
+      t: >
+           嘿 CSS，你最近在做什么？ `@container`？ 
+           还有`@property`？ 哇，你一直很忙！
 
-            木匠需要每年去学习一种新的，更好的方式去锯木头吗？画家会因为自己仍然在使用油漆作画而感到自己落伍了吗？还是说只有我们前端开发者才能体验到前端领域的不断变化？
-            
-            随着容器查询以及更多其他新特性的到来，CSS 的发展变得越来越快。并且为了跟上时代的潮流，我们花了一些时间为调查结果添加了一些新的功能。
-            
-            我们现在可以交叉引用两个数据项，例如按经验水平划分年薪，或按国家/地区划分的性别。您会在整个结果中看到其中一些细分数据，但我们鼓励您使用 [我们的 API](https://api.stateofjs.com/) 或下载 [我们的数据](https://www.kaggle.com/sachag/state-of-css) 进行进一步的探索。如果您最终制作了自己的数据可视化程序，请告诉我们。
 
-            现在，让我们看看今年 CSS 的发展状况！
-
-            *提示：由于时间不够，我们不得不将 2021 年 JavaScript 现状调查推迟到 2022 年 1 月。假期后再见！
-            
-            <span class="conclusion__byline">– Sacha Greif</span>
-          
-    ###########################################################################
-    # Sections Introductions
-    ###########################################################################
-
-    - key: sections.user_info.description
-      t: |
-          今年的调查覆盖了全球 **8,714** 名开发者，并且
-          为了帮助突出不同的声音并揭示更深层次的见解，我们做了一些特别的努力
-          来提供新的分析数据的方式。
-
-    - key: sections.features.description
-      t: |
-          CSS 领域一直很有活力，开发者们正在努力接受当前提出的
-          大量新功能，同时也在期待未来几年 CSS 领域能有更多的创新。
-
-    - key: sections.technologies.description
-      t: |
-          近 50% 的受访者乐于使用一个或多个 CSS-in-JS 库，可以肯定地说
-          它们开辟了一种新的编写样式的方式。也许前端世界中的 CSS 和 JS 两个方面
-          并没有离得那么远？
-
-    - key: sections.tools_others.description
-      t: |
-          选择一项技术通常可以归结为在相互竞争的优先项之间进行一系列艰难的权衡，今年我们尝试使用一种新的括号式的问题格式来捕捉这个过程。
-
-    - key: sections.environments.description
-      t: |
-          在 Web 开发方面，可访问性长期以来一直是最后才考虑的功能，但许多开发人员
-          现在意识到它实际上应该是其他一切功能的基础。
-
-    - key: sections.resources.description
-      t: |
-          高亮显示博客、播客和网站的效果很不错，但今年我们决定更进一步，
-          以实际上组成 CSS 社区的人为特色！
-
-    - key: sections.opinions.description
-      t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
-          无论是今天阻碍您前进的痛点，还是您未来希望使用的功能的缺失，
-          这些都是您向 CSS 发泄和分享您的抱怨的机会！
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: award.feature_adoption_delta_award.comment
-      t: 凭借着在 2021 年 **{value}** 的进步，CSS 比较函数正成为每个 CSS 开发者所选用的特性中的关键部分。
-
-    - key: award.tool_satisfaction_award.comment
-      t: PostCSS 以 **{value}** 的满意度再次位居榜首。
-
-    - key: award.tool_interest_award.comment
-      t: 凭借 **{value}** 的比率，CSS Modules 今年再次成为了 CSS 开发人员最兴趣的技术。
-
-      
-    ###########################################################################
-    # Conclusion
-    ###########################################################################
-
-    - key: sections.conclusion.description
-      t: |
-            <span class="first-line">写 CSS 的方式即将发生根本性的变化</span>
-
-            多年来，编写 web 样式的创新都发生在其他地方：预处理器、JavaScript 框架或编译器。可以肯定的是，CSS 本身也获得了一些受欢迎的改进，例如 [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) 或 [custom properties](https ://developer.mozilla.org/en-US/docs/Web/CSS/--*）。然而，我们在日常开发中仍然需要寻求刚才说的诸如预处理器之类的 CSS 技术的帮助。
-
-            但变化也在发生，CSS 语言正在经历越来越快的变革和更新。
-
-            [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) 将开启一个新的响应式设计的时代，[Cascade Layers](https://developer. mozilla.org/en-US/docs/Web/CSS/@layer) 将使我们开发主题化样式或管理复杂样式变得更加容易。
-
-            当我们再往前看一点，我们还可以看到 [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) 出现，这将让我们结合媒体，容器并支持对单个规则的查询。
-
-            另外，2022 年我们终于看到原生 CSS 嵌套有了一些进展。这会为我们提供一种完全不同于使用 Sass 和 PostCSS 等工具的样式编写方式。
-
-            所有这些加在一起意味着 2022 年很可能是编写 CSS 的方式发生根本性变化的一年。这是一个令人难以置信的激动人心的时期，我们可以拭目以待。
-
-    - key: conclusion.bio
-      t: Web 开发者及 Polypane 的创始人
+           尽管新冠肺炎大流行在整个 2021 年继续让每个人的生活变得更加艰难，
+           但世界各地的开发者们仍然设法让 CSS 不断向前发展。
+           因此，又到了调查 CSS 生态系统并找出答案的时候了，
+           也许在调查中就能学到一些新东西！

@@ -95,7 +95,7 @@ translations:
 
     - key: sections.technologies.description
       t: |
-          典型的新JavaScript库满意度较高，但使用率较低，这有时会使选择适合您需要的技术变得有点棘手。在这里查看数据，可以真正帮助你找到正确的方向。
+          典型的新JavaScript库满意度较高，但使用率较低，这有时会使选择适合你需要的技术变得有点棘手。在这里查看数据，可以真正帮助你找到正确的方向。
 
     - key: sections.javascript_flavors.description
       t: |

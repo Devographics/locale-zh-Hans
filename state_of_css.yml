@@ -9,10 +9,16 @@ translations:
       t: >
           CSS 正在以前所未有的速度发展。
 
+
           Flexbox （弹性布局）、 Grid （栅格布局）、 Multi-Column （多列布局）等等……甚至出现了 CSS-in-JS 这样的全新的技术领域。
 
-          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。我们决定深入样式选择器的世界，帮助大家找到
-          最新趋势，作为桥梁连接“大前端时代”洪流！
+
+          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。
+          我们决定深入样式选择器的世界，帮助大家找到 CSS 最新趋势，
+          作为桥梁连接“大前端时代”洪流！
+
+    - key: general.results.description
+      t: 关于CSS最新趋势的年度调查。
 
     ###########################################################################
     # Sections
@@ -38,15 +44,15 @@ translations:
     - key: sections.typography.description
       t: 文本排版设置。
     
+    - key: sections.animations_transforms.title
+      t: 动画和变换
+    - key: sections.animations_transforms.description
+      t: 动画和变换元素。
+
     - key: sections.accessibility.title
       t: 可访问性
     - key: sections.accessibility.description
       t: 可访问性相关技术。 
-
-    - key: sections.animations_transforms.title
-      t: 动画与过渡
-    - key: sections.animations_transforms.description
-      t: 给元素加上动画或过渡效果。
 
     - key: sections.media_queries.title
       t: 媒体查询
@@ -69,7 +75,7 @@ translations:
       t: 健壮 CSS 的处理器。
 
     - key: sections.pre_post_processors_others.title
-      t: 其他预/后处理
+      t: 其他预/后处理框架
 
     - key: sections.css_frameworks.title
       t: CSS 框架
@@ -80,7 +86,7 @@ translations:
       t: 其他 CSS 框架
 
     - key: sections.css_methodologies.title
-      t: CSS 方法
+      t: CSS 编码方式
     - key: sections.css_methodologies.description
       t: 编写更简洁 CSS 代码的方式
 
@@ -90,7 +96,7 @@ translations:
     - key: sections.css_in_js.title
       t: CSS-in-JS
     - key: sections.css_in_js.description
-      t: 实现 JavaScript 编写 CSS 代码的库
+      t: 使用 JavaScript 编写 CSS 代码的库
 
     - key: sections.css_in_js_others.title
       t: 其他 CSS-in-JS 库
@@ -104,11 +110,6 @@ translations:
       t: 环境
     - key: sections.environments.description
       t: 你于什么环境下编写 CSS 代码？
-
-    - key: sections.tools_others.title
-      t: 其他工具
-    - key: sections.tools_others.description
-      t: 其他 CSS 工具
 
     ###########################################################################
     # Options
@@ -156,6 +157,93 @@ translations:
     - key: options.css_for_email.3.short
       t: 重度使用
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: 营销网站和登录页
+    - key: options.what_do_you_use_css_for.design_systems
+      t: 设计系统
+    - key: options.what_do_you_use_css_for.blogs
+      t: 博客或其他文本密集型网站
+    - key: options.what_do_you_use_css_for.web_apps
+      t: 网络应用
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: 移动应用程序
+    - key: options.what_do_you_use_css_for.css_art
+      t: 插图
+    - key: options.what_do_you_use_css_for.emails
+      t: 电子邮件
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: 印刷文件
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: 浏览器兼容性
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Chrome、Safari、Firefox等的区别。
+    - key: options.css_pain_points.interactions
+      t: 交互
+    - key: options.css_pain_points.interactions.description
+      t: 响应用户输入或其他事件（滚动、悬停等）。 
+    - key: options.css_pain_points.architecture
+      t: 架构与维护
+    - key: options.css_pain_points.architecture.description
+      t: 文件组织、死代码消除、重构等。
+    - key: options.css_pain_points.layout_positioning
+      t: 布局与定位
+    - key: options.css_pain_points.layout_positioning.description
+      t: 设置布局，并确保元素位于你希望的位置。 
+    - key: options.css_pain_points.scoping_specificity
+      t: 样式作用域
+    - key: options.css_pain_points.scoping_specificity.description
+      t: 处理级联、覆盖样式等。
+    - key: options.css_pain_points.responsive_design
+      t: 响应性设计
+    - key: options.css_pain_points.responsive_design.description
+      t: 根据不同的形状因素调整布局和设计。 
+    - key: options.css_pain_points.form_elements_styling
+      t: 表单元素样式
+    - key: options.css_pain_points.form_elements_styling.description
+      t: 自定义表单元素的外观和行为。 
+    - key: options.css_pain_points.performance_issues
+      t: 性能问题 
+    - key: options.css_pain_points.performance_issues.description
+      t: 处理滚动jank、使动画更平滑等。 
+
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: 原生嵌套
+    - key: options.currently_missing_from_css.nesting.description
+      t: 能够在原生CSS中嵌套样式。 
+    - key: options.currently_missing_from_css.parent_selector
+      t: 父选择器
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: 基于父元素的子元素以其为目标的能力。
+    - key: options.currently_missing_from_css.browser_support
+      t: 浏览器支持
+    - key: options.currently_missing_from_css.browser_support.description
+      t: 更好地支持现有功能的浏览器。
+    - key: options.currently_missing_from_css.mixins
+      t: Mixins
+    - key: options.currently_missing_from_css.mixins.description
+      t: 动态分组和重用定义。  
+    - key: options.currently_missing_from_css.color_functions
+      t: 颜色函数
+    - key: options.currently_missing_from_css.color_functions.description
+      t: 用于操纵颜色值的函数。 
+    - key: options.currently_missing_from_css.container_queries
+      t: 容器查询
+    - key: options.currently_missing_from_css.container_queries.description
+      t: 能够基于父容器的维度编写样式。
+    - key: options.currently_missing_from_css.scoping
+      t: 作用域
+    - key: options.currently_missing_from_css.scoping.description
+      t: 能够更具体地说明样式的应用位置。 
+    - key: options.currently_missing_from_css.subgrid
+      t: 子网格布局
+    - key: options.currently_missing_from_css.subgrid.description
+      t: 将更深层次的子栅格嵌套到父栅格中。 
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -175,7 +263,7 @@ translations:
     - key: features.writing_modes
       t: CSS 书写模式 （Writing Modes）
     - key: features.exclusions
-      t: CSS 排除 (Exclusions)
+      t: CSS Exclusions
     - key: features.position_sticky
       t: '<code>position: sticky</code>'
     - key: features.logical_properties
@@ -186,6 +274,16 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: flexbox的间隙属性
+    - key: features.break_rules
+      t: 截断规则
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: 容器查询
+    - key: features.at_container.description
+      t: <code>@container</code>查询
 
     # shapes & graphics
     - key: features.shapes
@@ -193,17 +291,31 @@ translations:
     - key: features.object_fit
       t: <code>object-fit</code>
     - key: features.clip_path
-      t: <code>clip-path</code>
+      t: <<code>clip-path</code>
     - key: features.masks
       t: CSS 遮罩（Masks）
     - key: features.blend_modes
       t: 混合模式 (Blend Modes)
     - key: features.blend_modes.description
-      t: The <code>mix-blend-mode</code> property
-    - key: features.filter_effects #
+      t: <code>mix-blend-mode</code>属性
+    - key: features.filter_effects
       t: CSS 滤镜效果
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
+
+    - key: features.intrinsic_sizing
+      t: Intrinsic Sizing
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
 
     # interactions
     - key: features.scroll_snap
@@ -216,12 +328,14 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
       t: Web 字体 (@font-face)
     - key: features.variables_fonts
-      t: 可变（Variable fonts）
+      t: 可变字体（Variable fonts）
     - key: features.line_breaking
       t: 换行属性 （Line breaking properties）
     - key: features.line_breaking.description
@@ -255,13 +369,31 @@ translations:
 
     # media queries
     - key: features.feature_support_queries
-      t: 特征查询(Feature Support Queries)「<code>@supports</code>」
+      t: 特征查询(Feature Support Queries，即<code>@supports</code>)
     - key: features.prefers_reduced_motion
       t: <code>prefers-reduced-motion</code>
     - key: features.prefers_color_scheme
       t: <code>prefers-color-scheme</code>
     - key: features.color_gamut
       t: <code>color-gamut</code>
+
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: <code>tabindex</code> HTML attribute
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: ARIA HTML属性
+    - key: features.aria_attributes.description
+      t: <code>role</code>, <code>aria-label</code>, etc.
 
     # other features
     - key: features.variables
@@ -273,17 +405,61 @@ translations:
     - key: features.calc
       t: <code>calc()</code>
     - key: features.houdini
-      t: Houdini
+      t: houdini
     - key: features.comparison_functions
       t: CSS 比较函数 （Comparison Functions）
     - key: features.comparison_functions.description
       t: <code>min()</code>、<code>max()</code> 以及 <code>clamp()</code>
 
+    - key: features.at_property
+      t: 自定义属性
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: <code>::marker</code> 伪元素
+
+    # missing features (see also options)
+    - key: features.nesting
+      t: 原生嵌套
+    - key: features.nesting.description
+      t: 能够在原生CSS中嵌套样式。 
+    - key: features.parent_selector
+      t: 父选择器
+    - key: features.parent_selector.description
+      t: 基于父元素的子元素以其为目标的能力。
+    - key: features.browser_support
+      t: 浏览器支持
+    - key: features.browser_support.description
+      t: 更好地支持现有功能的浏览器。
+    - key: features.mixins
+      t: Mixins
+    - key: features.mixins.description
+      t: 动态分组和重用定义。  
+    - key: features.color_functions
+      t: 颜色函数
+    - key: features.color_functions.description
+      t: 用于操纵颜色值的函数。 
+    - key: features.container_queries
+      t: 容器查询
+    - key: features.container_queries.description
+      t: 能够基于父容器的维度编写样式。
+    - key: features.scoping
+      t: 作用域
+    - key: features.scoping.description
+      t: 能够更具体地说明样式的应用位置。 
+    - key: features.subgrid
+      t: 子网格布局
+    - key: features.subgrid.description
+      t: 将更深层次的子栅格嵌套到父栅格中。 
+
     ###########################################################################
     # Units & Selectors
     ###########################################################################
 
-    # units & selectors
     - key: features_others.units
       t: 单位
     - key: features_others.units.description
@@ -396,17 +572,17 @@ translations:
       t: 你曾使用哪些属性选择器？
 
     - key: options.attributes.presence
-      t: div[foo] (存)
+      t: div[foo] 
     - key: options.attributes.equality
-      t: div[foo="bar"] (等)
+      t: div[foo="bar"] 
     - key: options.attributes.starts_with
-      t: div[foo^="bar"] (始)
+      t: div[foo^="bar"] 
     - key: options.attributes.ends_with
-      t: div[foo$="bar"] (末)
+      t: div[foo$="bar"] 
     - key: options.attributes.contains_word
-      t: div[foo~="bar"] (词匹配)
+      t: div[foo~="bar"] 
     - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (词包含)
+      t: div[foo*="bar"] 
 
     - key: features_others.links_urls
       t: 链接/网址
@@ -456,13 +632,13 @@ translations:
     - key: options.form_controls.indeterminate
       t: :indeterminate
     - key: options.form_controls.valid_invalid
-      t: :valid 和 :invalid
+      t: :valid and :invalid
     - key: options.form_controls.user_invalid
       t: :user-invalid
     - key: options.form_controls.in_out_range
-      t: :in-range 和 :out-of-range
+      t: :in-range and :out-of-range
     - key: options.form_controls.required_optional
-      t: :required 和 :optional
+      t: :required and :optional
 
     ###########################################################################
     # Environments
@@ -478,8 +654,17 @@ translations:
     - key: environments.form_factors.description
       t: 在什么设备上进行测试？
 
+    - key: environments.accessibility_features
+      t: 辅助功能
+    - key: environments.accessibility_features.description
+      t: 你通常实施哪些辅助功能？
+    - key: environments.accessibility_features.others
+      t: 其他辅助功能
+    - key: environments.accessibility_features.others
+      t: 你通常实现的其他辅助功能
+
     - key: environments.css_for_print
-      t: CSS for Print
+      t: 用于打印的CSS
     - key: environments.css_for_print.description
       t: 使用过打印样式（print styles）吗？
 
@@ -487,6 +672,23 @@ translations:
       t: CSS for Email 客户端
     - key: environments.css_for_email.description
       t: 有些写过邮件客户端样式吗？
+
+    - key: environments.what_do_you_use_css_for
+      t: 你主要使用CSS做什么？
+    - key: environments.what_do_you_use_css_for.description
+      t: 你通常使用CSS做什么样的项目？
+    - key: environments.what_do_you_use_css_for.others
+      t: 其他类型的项目
+
+    - key: charts.axis_legends.css_for_print
+      t: 频率
+    - key: charts.axis_legends.css_for_email
+      t: 频率
+
+    - key: tools_others.tool_evaluation
+      t: 评估代码库
+    - key: tools_others.tool_evaluation.description
+      t: 对于每个匹配项，选择你在评估新代码库时优先考虑的因素。
 
     ###########################################################################
     # Opinions
@@ -509,7 +711,6 @@ translations:
 
     - key: opinions.selector_nesting_to_be_avoided
       t: 应避免像是「.foo .bar ul li {...}」 这样的选择器嵌套
-
     - key: opinions.selector_nesting_to_be_avoided.title
       t: 选择器嵌套
 
@@ -523,18 +724,58 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: 愉悦感
 
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: 浏览器不兼容
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+         你是否有因为浏览器之间的差异，
+         导致在使用 CSS 时遇到困难？
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: CSS痛点
+    - key: opinions.css_pain_points.description
+      t: 对于每一项，选择你觉得CSS最让人头疼的点。
+
+    - key: opinions_others.css_pain_points.others
+      t: 其他CSS痛点
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
+      t: 你觉得CSS目前缺少什么？
+    - key: opinions.currently_missing_from_css.description
+      t: 对于每个匹配，选择你最希望能够在CSS中使用的功能。
     - key: opinions_others.currently_missing_from_css.others
       t: 目前觉得 CSS 缺少什么？
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: 展望 CSS 的未来。
-
+    - key: opinions_others.currently_missing_from_css.others.note
+      t: >
+          这些结果根据调查内容进行了标准化处理。
+          要查看原始的、未处理的结果，请查看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
+  
     - key: opinions.sum_up_one_word_css
       t: 一个词来形容 CSS
     - key: opinions.sum_up_one_word_css.description
       t: 要用一个词描述 CSS 的话，你觉得是什么？
+
+    - key: happiness.pre_post_processors
+      t: 你对前置/后置处理器的状态有多满意？
+    - key: happiness.css_in_js
+      t: 你对CSS-IN-JS的状态有多满意？
+    - key: happiness.css_frameworks
+      t: 你对CSS框架的现状有多满意？
 
     - key: happiness.state_of_the_web
       t: 总体而言，你对现有 WEB 技术满意吗？
 
     - key: happiness.state_of_css
       t: 总的来讲，你对现有 CSS 满意吗？
+  
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: CSS的第一步
+    - key: resources.first_steps.description
+      t: 刚开始学习CSS时，你最初是如何学习CSS的？

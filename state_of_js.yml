@@ -10,10 +10,12 @@ translations:
           The JavaScript world could use a bit of classification.
 
 
-          自2016年以来，本调查每年从20,000多名开发人员中获取调查数据，以确定JavaScript当前和未来的趋势。
+          自2016年以来，
+          本调查每年从20,000多名开发人员中获取调查数据，以确定JavaScript当前和未来的趋势。
 
 
-          参加调查并帮助我们寻找开发人员接下来需要学习的库，满意度最高的库等等。
+          快来参加调查，
+          帮助我们寻找开发人员接下来需要学习的库，满意度最高的库等等。
 
     ###########################################################################
     # Sections
@@ -45,11 +47,11 @@ translations:
       t: 其他技术特征
 
     - key: sections.patterns.title
-      t: 方式
+      t: 编码方式
     - key: sections.patterns.description
       t: 你喜欢如何编写代码？
 
-    # 在中文中，很难找到一个准确形容JavaScript_flavors的词，因此只能简单翻译为「开发语言」，但「JavaScript 偏好」明显是翻译错误的
+    # 在中文中，很难找到一个准确形容JavaScript_flavors的词，因此只能简单翻译为「开发语言」
     - key: sections.javascript_flavors.title
       t: 开发语言
     - key: sections.javascript_flavors.description
@@ -71,7 +73,7 @@ translations:
       t: 服务端的 JavaScript
 
     - key: sections.testing.title
-      t: 测试
+      t: 测试工具
     - key: sections.testing.description
       t: 代码测试工具
 
@@ -85,34 +87,122 @@ translations:
     - key: sections.build_tools.description
       t: 编译和打包代码
 
+    - key: sections.monorepo_tools.title
+      t: Monorepo 工具
+    - key: sections.monorepo_tools.description
+      t: 用于管理 monorepo 的工具
+      
     - key: sections.tools_others.title
       t: 其他工具
     - key: sections.tools_others.description
-      t: 其他JavaScript工具.
+      t: 其他JavaScript工具
+      
+    - key: sections.other_tools.title
+      t: 其他工具
+    - key: sections.other_tools.description
+      t: 对于这些工具和技术，只需检查你经常使用的工具和技术。
 
     ###########################################################################
     # Options
     ###########################################################################
 
-    # CSS for print
-    - key: options.css_for_print.0
-      t: 我（几乎）没写过打印的样式
-    - key: options.css_for_print.1
-      t: 我偶尔写打印的样式
-    - key: options.css_for_print.2
-      t: 我在许多项目中会把打印用的样式当作一部分来编写
-    - key: options.css_for_print.3
-      t: 我主要就是在写打印用的 CSS
+    # JS pain points
+    # - key: options.js_pain_points.browser_interoperability
+    #   t: Browser Compatibility
+    # - key: options.js_pain_points.browser_interoperability.description
+    #   t: Differences between Chrome, Safari, Firefox, etc.
+    # - key: options.js_pain_points.animations
+    #   t: Animations
+    # - key: options.js_pain_points.animations.description
+    #   t: Managing animations, transitions, etc. using JavaScript.
+    # - key: options.js_pain_points.form_handling
+    #   t: Form Handling
+    # - key: options.js_pain_points.form_handling.description
+    #   t: Creating forms, managing their state and errors, and saving their data. 
+    - key: options.js_pain_points.state_management
+      t: 全局数据管理
+    - key: options.js_pain_points.state_management.description
+      t: 管理复杂应用程序中的全局数据状态。 
+    # - key: options.js_pain_points.performance_issues
+    #   t: Performance Issues
+    # - key: options.js_pain_points.performance_issues.description
+    #   t: Bundle sizes, slow loading, and other performance issues. 
+    - key: options.js_pain_points.managing_dependencies
+      t: 依赖管理
+    - key: options.js_pain_points.managing_dependencies.description
+      t: 管理依赖项、包版本和包大小
+    - key: options.js_pain_points.architecture
+      t: 代码架构
+    - key: options.js_pain_points.architecture.description
+      t: 组织和维护代码仓库。
+    - key: options.js_pain_points.finding_packages
+      t: 查找包
+    - key: options.js_pain_points.finding_packages.description
+      t: 查找和评估JavaScript包。
+    - key: options.js_pain_points.writing_modules
+      t: 编写模块
+    - key: options.js_pain_points.writing_modules.description
+      t: 编写JavaScript模块并将其作为包发布。 
+    - key: options.js_pain_points.debugging
+      t: 调试
+    - key: options.js_pain_points.debugging.description
+      t: 识别和解决代码中的问题。 
+    - key: options.js_pain_points.async_code
+      t: 异步代码
+    - key: options.js_pain_points.async_code.description
+      t: 处理异步函数。 
+    - key: options.js_pain_points.modules_management
+      t: 模块管理
+    - key: options.js_pain_points.modules_management.description
+      t: 编写和导入模块。 
+    - key: options.js_pain_points.date_management
+      t: 日期管理
+    - key: options.js_pain_points.date_management.description
+      t: 处理和操纵日期和时间。 
+    # - key: options.js_pain_points.xxx
+    #   t: 
+    # - key: options.js_pain_points.xxx.description
+    #   t: 
 
-    # CSS for email
-    - key: options.css_for_email.0
-      t: 我（几乎）没写过电子邮件客户端的 CSS
-    - key: options.css_for_email.1
-      t: 我偶尔写电子邮件客户端的 CSS
-    - key: options.css_for_email.2
-      t: 我在许多项目里会把电子邮件客户端的 CSS 当作一部分来编写
-    - key: options.css_for_email.3
-      t: 我主要就是在做电子邮件客户端的 CSS
+
+    # JS missing features
+    - key: options.currently_missing_from_js.static_typing
+      t: 静态类型
+    - key: options.currently_missing_from_js.static_typing.description
+      t: 原生静态类型（类似于TypeScript提供的类型）。
+    - key: options.currently_missing_from_js.standard_library
+      t: 标准库
+    - key: options.currently_missing_from_js.standard_library.description
+      t: 通用实用程序的标准库
+    - key: options.currently_missing_from_js.pattern_matching
+      t: 模式匹配
+    - key: options.currently_missing_from_js.pattern_matching.description
+      t: 提供新的“match”关键字用于模式匹配对象。 
+    - key: options.currently_missing_from_js.pipe_operator
+      t: 管道操作
+    - key: options.currently_missing_from_js.pipe_operator.description
+      t: 一个新的“|>”运算符，用于将一个函数的结果传递给另一个函数。
+    - key: options.currently_missing_from_js.decorators
+      t: 装饰器
+    - key: options.currently_missing_from_js.decorators.description
+      t: 用于元编程或向某一个值添加功能的装饰器。
+    - key: options.currently_missing_from_js.immutable_data_structures
+      t: 不可变的数据结构
+    - key: options.currently_missing_from_js.immutable_data_structures.description
+      t: 新的不可变的数据结构，如'Record'和'Tuple'。
+    - key: options.currently_missing_from_js.better_date_management
+      t: 更好的日期管理
+    - key: options.currently_missing_from_js.better_date_management.description
+      t: 用于处理日期和时间的新的“临时”对象。
+    - key: options.currently_missing_from_js.observable
+      t: 可观察类型
+    - key: options.currently_missing_from_js.observable.description
+      t: 一种新的“可观察”类型，用于对推送的数据源进行建模。
+    # - key: options.currently_missing_from_js.xxx
+    #   t: 
+    # - key: options.currently_missing_from_js.xxx.description
+    #   t: 
+    
 
     ###########################################################################
     # Features
@@ -149,16 +239,17 @@ translations:
 
     # language
     - key: features.proxies
-      t: Proxies
+      t: 代理
     - key: features.async_await
-      t: Async/Await
+      t: 异步/等待
     - key: features.promises
       t: Promises
     - key: features.decorators
       t: Decorators 装饰器
     - key: features.decorators.description
       t: >
-          简单来说，Decorators装饰器是一种将一段代码包装成另一段代码的方法。
+          简单来说，
+          Decorators装饰器是一种将一段代码包装成另一段代码的方法。
     - key: features.dynamic_import
       t: 动态引入
     - key: features.dynamic_import.description
@@ -203,7 +294,7 @@ translations:
 
     # other features
     - key: features.pwa
-      t: Progressive Web Apps (PWA)
+      t: 渐进式Web应用程序（PWA）
     - key: features.wasm
       t: WebAssembly (WASM)
 
@@ -215,13 +306,30 @@ translations:
     - key: features.reactive_programming
       t: 响应式编程
 
+    # upcoming features
+    # - key: features.static_typing
+    #   t: Static Typing
+
+    # - key: features.standard_library
+    #   t: Standard Library
+    
+    # - key: features.pattern_matching
+    #   t: Pattern Matching
+
+    # - key: features.pipe_operator
+    #   t: Pipe Operator
+
+    # - key: features.immutable_data_structures
+    #   t: Immutable Data Structures
+
     ###########################################################################
     # Tools
     ###########################################################################
 
     - key: tools.angular.description
       t: >
-        请注意，此问题仅针对 [Angular](https://angular.io/) 的用户体验，而 *不是* 已经弃用的 [AngularJS](https://angularjs.org/).
+        请注意，此问题仅针对 [Angular](https://angular.io/) 的用户体验，
+        而 *不是* 已经弃用的 [AngularJS](https://angularjs.org/).
 
     ###########################################################################
     # Other Tools
@@ -245,6 +353,10 @@ translations:
     - key: tools_others.package_registries.others.description
       t: 其他答案（自由填写的答案）。
 
+    - key: tools_others.form_factors
+      aliasFor: environments.form_factors
+    - key: tools_others.form_factors.description
+      aliasFor: environments.form_factors.description
     ###########################################################################
     # Opinions
     ###########################################################################
@@ -267,18 +379,39 @@ translations:
     - key: opinions.js_ecosystem_changing_to_fast
       t: JavaScript 生态系统的变化太快了
 
-    - key: opinions.missing_from_js
-      t: 你觉得 JavaScript 目前还缺少什么？
-    - key: opinions.missing_from_js.description
-      t: 您希望有一天在JavaScript中看到的特性。
-      
     - key: opinions_others.missing_from_js.others
       t: 你觉得 JavaScript 目前还缺少什么？
     - key: opinions_others.missing_from_js.others.description
-      t: 您希望有一天在JavaScript中看到的特性。
+      t: 你希望有一天在JavaScript中看到的特性。
 
     - key: happiness.state_of_the_web
-      t: 您对网络技术的总体状况感到满意吗？
+      t: 你对网络技术的总体状况感到满意吗？
 
     - key: happiness.state_of_js
-      t: 您对 JavaScript 的总体状况感到满意吗？
+      t: 你对 JavaScript 的总体状况感到满意吗？
+
+    # Pain Points
+    - key: opinions.js_pain_points
+      t: JavaScript痛点
+    - key: opinions.js_pain_points.description
+      t: 对于每一个匹配，选择你最难以处理的JavaScript方面。
+
+    - key: opinions_others.js_pain_points.others
+      t: 其他JavaScript痛点
+
+    # Missing Features
+    - key: opinions.currently_missing_from_js
+      t: 你觉得JavaScript目前缺少什么？
+    - key: opinions.currently_missing_from_js.description
+      t: 对于每个匹配，选择你最希望在JavaScript中使用的功能。
+    - key: opinions_others.currently_missing_from_js.others
+      t: 其他缺失的功能
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: 使用JavaScript的第一步
+    - key: resources.first_steps.description
+      t: 刚开始学习时，你最初是如何学习JavaScript的？

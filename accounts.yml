@@ -54,6 +54,10 @@ translations:
       t: 注册
     - key: accounts.sign_in
       t: 登录
+    - key: accounts.switch_to_sign_up
+      t: 没有账号？注册
+    - key: accounts.switch_to_sign_in
+      t: 已有账号？登录
     - key: accounts.sign_out
       t: 退出登录
     - key: accounts.cancel
@@ -70,5 +74,6 @@ translations:
       t: 以 {email} 登录
     - key: accounts.questions
       t: >
-          如果你对于我们使用你的数据存在疑问，或者希望我们删除你的数据记录，请
-          发送<a href="mailto:hello@stateofjs.com">邮件</a>获得联系。
+        如果你对于我们使用你的数据存在疑问，
+        或者希望我们删除你的数据记录，
+        请发送<a href="mailto:hello@stateofjs.com">邮件</a>获得联系。
