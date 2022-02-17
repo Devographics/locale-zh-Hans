@@ -1,0 +1,357 @@
+locale: zh-Hans
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.results.description
+      t: 2021年 JavaScript 生态最新趋势的年度调查。
+
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+            <span class="first-letter"在</span> 2021年发生了很多事情. 这项调查实际上一直推迟到2022年! 
+            JavaScript 世界不断的发展，在一系列更快的构建工具和新的后端框架之间。 我们尽最大努力跟上进度，为这项调查提供了一些新的功能 ([关于新功能的更多信息](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) 例如新的问题类型，交叉引用两个数据点的能力 (例如按经验水平划分的年收入)，甚至可以自定义图表来展示您的见解! 在此阅读[今年的新变化](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (英文).
+            然而，这并非一帆风顺。我们不得不处理一个[数据泄漏](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1)问题，幸好它看起来没有造成任何不良后果。我们一直在努力使调查更全面、更容易理解，以及更公正
+
+            尽管该调查只能代表 JavaScript 生态的一小部分，但我们希望您能找到您感兴趣的数据！
+            <span class="conclusion__byline">– Sacha Greif</span>
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: T-shirt
+
+    - key: sections.tshirt.description
+      t: |
+          ## 支持 State of JavaScript 调查
+          糟糕的视频质量、笨重的磁带以及需要倒带，VHS 时代并没有太多值得怀念的地方。 但我们值得怀念的一件事是 90 年代用来装饰空白 VHS 磁带的惊人视觉效果. 
+          但是现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以享受所有这些复古的光芒，同时也能表达你对 JavaScript 的热爱！
+    - key: tshirt.about
+      t: T恤衫
+
+    - key: tshirt.description
+      t: |
+          我们使用由合作伙伴 Cotton Bureau 印制的高品质、超柔软的修身版型三重混纺衬衫。
+    - key: tshirt.getit
+      t: 购买
+
+    - key: tshirt.price
+      t: USD $29 + 邮费
+
+    - key: tshirt.designer.heading
+      t: 关于设计师
+
+    - key: tshirt.designer.name
+      t: Christopher Kirk-Nielsen
+
+    - key: tshirt.designer.bio
+      t: |
+          Chris 来自法国，现居美国，不仅是一位了不起的前端开发人员，还是一位擅长复古风格的天才插画家。 事实上，我们鼓励您也看看他的[其他T恤设计](https://chriskirknielsen.com/designs)!
+          
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          今年，有 **16,085** 名受访者参与了调查。为了突出不同的声音，展现更深刻的见解，我们做了一些特别的努力 来提供新的分析数据的方式。
+    - key: sections.features.description
+      t: |
+          JavaScript 可能发展得很快，但似乎 JavaScript 开发人员的发展速度更快，因为许多相对较新的功能已经显示出很高的采用率。
+    - key: sections.technologies.description
+      t: |
+          今年的结果表明 JavaScript 世界的高度碎片化。虽然这有时会让人头疼，但这些竞争同时也造就了一个非常活跃的生态。
+    - key: sections.tools_others.description
+      t: |
+          选择一项技术通常可以归结为在相互竞争的优先项之间进行一系列艰难的权衡， 今年我们尝试使用一种新的括号式的问题格式来捕捉这个过程。
+    - key: sections.environments.description
+      t: |
+          在 Web 开发方面，可访问性长期以来一直是最后才考虑的功能，但许多开发人员 现在意识到它实际上应该是其他一切功能的基础。
+    - key: sections.resources.description
+      t: |
+          突出展示博客、播客和网站效果不错，但今年我们决定更进一步，突出展示组成 JavaScript 社区的人！
+    - key: sections.opinions.description
+      t: |
+          无论是今天阻碍您前进的痛点，还是希望在未来使用的新功能，这些都是您向 JavaScript 发泄和分享你的抱怨的机会！
+    
+    ###########################################################################
+    # Charts
+    ###########################################################################
+
+    - key: options.features_categories.language
+      aliasFor: sections.language.title
+    - key: options.features_categories.browser_apis
+      aliasFor: sections.browser_apis.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+
+    - key: blocks.tools_quadrant.description
+      t: |
+        此图表显示了每种技术的**满意度** (or **关注度**) over its total **使用率**.
+        可以分为四个象限:
+          - **1**: 使用率低，满意度高。 值得关注的技术。
+          - **2**: 使用率高，满意度高。 可采用的安全技术。
+          - **3**: 使用率低，满意度低。 目前较难推荐的技术。
+          - **4**: 使用率高，满意度低。 如果您目前正在使用这些技术，请重新评估它们。
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          如果您有兴趣了解更多信息, 我们写了一篇[博客文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)涉及调查的性别动态。
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          你可以在[这个项目](https://whatsmissingfromcss.com/)中探索这个问题答案的完整数据集。
+    - key: blocks.source.note
+      t: >
+      
+        此图表汇总了引荐来源网址、URL 参数和自由格式答案的组合。
+        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: 随着 **{value}** 在 2021 年的发展，空值合并运算符 (??) 已迅速成为 JavaScript 不可或缺的一部分。
+
+    - key: award.tool_usage_delta_award.comment
+      t: esbuild 才两岁, 但随着 **{value}** 在过去一年的进步，它已经取得了进展。
+
+    - key: award.tool_satisfaction_award.comment
+      t: Vite 以极高的满意度 **{value}** 位居榜首!
+
+    - key: award.tool_interest_award.comment
+      t: 凭借 **{value}** 的关注度, Vite 再次摘金!
+
+    - key: award.most_write_ins_award.comment
+      t: 许多问题也接受书面回答，并且在**{value}**中提到Elm是最受欢迎的项目。
+
+      
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+            <span class="first-line">与2016年相比，JavaScript 现在的状态要好得多</span>
+            
+            在第一次进行 JS 现状调查时，只有 21% 的人使用了 TypeScript ，而今天有 69%。
+            我们过去常开玩笑说前端每天都会发布一个新框架，**React**和**Vue**现在已经连续6年占据主导地位。报告“JS发展太快”的人比例也从59%降至38%。
+            但这并不是说语言停滞不前。在我们的调查中，**可选链**和**空值合并**API已经迅速成为最常用的新API，尽管它们只有2年的历史。
+            TC39带来了更多的好东西：您报告说日期管理是最缺少的功能，而 Temporal API 最近达到了 [Stage 3] (https://github.com/tc39/proposal-temporal)。
+            工具生态系统也在快速发展，可以说 2021 年是 **Vite** 之年。 Vite 不仅以 98% 的满意度首次亮相，而且在我们的调查中，第一年的使用率已经达到 30%，甚至超过了 esbuild。 Vite 并不是唯一一个试图改善 JavaScript 构建工具状态的人——我们今天跟踪的 12 个工具中有 8 个不到两年！ 虽然 **pnpm**、**Turborepo** 和 **Nx** 在我们跟踪 monorepo 工具的第一年中占据首位，但只有 25% 的人表示对该类别的状态感到满意，这表明仍有很多工作要做。
+            
+            值得关注: 许多新进入者，如**Deno**、**Rome**、**Astro**、**Remix**，以及更多，现在都得到了风险投资支持公司的支持，这或许是脆弱的开源融资环境的可行替代方案。
+            作为[Third Age of JavaScript](https://www.swyx.io/js-third-age/)进入第三个年头，有抱负的开源人士和创业者的机会继续展现，我很高兴看到未来几年会带来什么！
+    - key: conclusion.bio
+      t: Head of DX at Temporal
+      
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: 'My 2021 Pick: '
+    - key: picks.intro
+      t: We asked members of the JavaScript community to share their “pick of the year”
+
+    - key: picks.lee_robinson.name
+      t: SvelteKit
+    - key: picks.lee_robinson.bio
+      t: Director of Developer Relations at Vercel
+    - key: picks.lee_robinson.description
+      t: |
+          SvelteKit is a fresh take on building for the web and has an 
+          incredibly passionate, growing community of supporters. 
+    - key: picks.vadim_makeev.name
+      t: Server-Side Rendering
+    - key: picks.vadim_makeev.bio
+      t: DevRel, Podcaster & Web Standards Advocate
+    - key: picks.vadim_makeev.description
+      t: |
+          The time has come to get our priorities straight. 
+          UX > DX, and it has always been like that. Performance FTW!
+            
+    - key: picks.ben_ilegbodu.name
+      t: Lee Robinson
+    - key: picks.ben_ilegbodu.bio
+      t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+    - key: picks.ben_ilegbodu.description
+      t: |
+          Lee has been great at shepherding and advocating for Next.js. 
+          He's helped me a ton with Next and continues to build excitement 
+          for where it's going
+            
+    - key: picks.shawn_wang.name
+      t: Supabase
+    - key: picks.shawn_wang.bio
+      t: Head of DX at Temporal
+    - key: picks.shawn_wang.description
+      t: |
+          Supabase is making Postgres accessible to more developers and showing 
+          everyone how a small focused team can out-ship peers 10x their size.
+    - key: picks.sarah_drasner.name
+      t: Pawel Kozlowski
+    - key: picks.sarah_drasner.bio
+      t: Director of Engineering, Core Developer Web at Google
+    - key: picks.sarah_drasner.description
+      t: |
+          Pawel Kozlowski is the kind of developer who can be open-minded to different 
+          approaches with humility and curiosity with the interest of improving things.
+    - key: picks.sara_vieira.name
+      t: Paul Henschel
+    - key: picks.sara_vieira.bio
+      t: International Agent of JS Bullshit
+    - key: picks.sara_vieira.description
+      t: |
+          Paul's work on animations and ReactThreeFiber 
+          have made doing any kind of 3D work on the web way easier. 
+    - key: picks.mark_erikson.name
+      t: Ryan Carniato
+    - key: picks.mark_erikson.bio
+      t: Redux Maintainer
+    - key: picks.mark_erikson.description
+      t: |
+          Ryan's reactive JS framework SolidJS hit 1.0, 
+          and he wrote numerous articles analyzing advanced 
+          JS framework implementation concepts.
+    
+    - key: picks.miguel_angel_duran.name
+      t: Vite
+    - key: picks.miguel_angel_duran.bio
+      t: Front End Dev & Twitch Coding Streamer
+    - key: picks.miguel_angel_duran.description
+      t: |
+          In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
+          I'm enjoying Vite. It has a delightful DX, and it's rich in features. 
+      
+    - key: picks.alyssa_nicoll.name
+      t: BroccoDev's Twitch Stream
+    - key: picks.alyssa_nicoll.bio
+      t: Sr. Developer Advocate at Progress
+    - key: picks.alyssa_nicoll.description
+      t: |
+        Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
+        developer, and most importantly teacher. 
+        I always have a blast watching his streams and learning from him.
+      
+    - key: picks.michael_jackson.name
+      t: esbuild
+    - key: picks.michael_jackson.bio
+      t: Co-founder of Remix
+    - key: picks.michael_jackson.description
+      t: |
+        We have been building the Remix compiler on top of esbuild and it 
+        has definitely raised the bar as far as JS bundlers are concerned. 
+        It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+    - key: picks.david_khourshid.name
+      t: Remix
+    - key: picks.david_khourshid.bio
+      t: Pianist and founder of Stately
+    - key: picks.david_khourshid.description
+      t: |
+          Remix is a full-stack web framework that feels old-school, but in a good way, 
+          by putting you on the path to create fast, complex, and accessible modern web apps.
+      
+    - key: picks.kent_c_dodds.name
+      t: Fly.io
+    - key: picks.kent_c_dodds.bio
+      t: Director of Developer Experience, Remix
+    - key: picks.kent_c_dodds.description
+      t: |
+          Fly enabled me (a frontend engineer with a distain for DevOps) 
+          to confidently deploy a real-world, globally-distributed, production-grade 
+          app.
+    - key: picks.tejas_kumar.name
+      t: Joe Haddad
+    - key: picks.tejas_kumar.bio
+      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+    - key: picks.tejas_kumar.description
+      t: |   
+          Joe works on Next.js at Vercel and is constantly looking to proudly 
+          demonstrate its power while actively listening 
+          to feedback from the community to support them better. 
+    - key: picks.wes_bos.name
+      t: TC39 Proposals
+    - key: picks.wes_bos.bio
+      t: JavaScript Teacher & Podcast Host
+    - key: picks.wes_bos.description
+      t: |
+          A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+      
+    - key: picks.scott_tolinkski.name
+      t: SvelteKit
+    - key: picks.scott_tolinkski.bio
+      t: Creator of Level-Up Tuts, co-host of Syntax
+    - key: picks.scott_tolinkski.description
+      t: |   
+          Svelte Kit provides the amazing developer experience of Svelte with all 
+          of the modern features of expected from a web platform. 
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+###########################################################################
+# Sponsors
+###########################################################################
+
+    - key: partners.frontendmasters.description
+      t: Advance your skills with in-depth, modern front-end engineering courses.
+    - key: partners.polypane.description
+      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    - key: partners.google_chrome.description
+      t: Thanks to the Google Chrome team for supporting our work.
+
+###########################################################################
+# FAQ/About
+###########################################################################
+    
+    - key: about.content
+      t: >
+            JS 现状调查于 2021 年 1 月 13 日至 **2022** 年 2 月 2 日进行，收集了 16,085 份回复。该调查由我 [Sacha Greif](https://sachagreif.com/) 在开源贡献者和顾问团队的帮助下进行。 今年的logo和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+            ### 调查目标
+            该调查以及 [State of JavaScript](https://stateofcss.com/) 旨在确定 Web 开发生态中即将出现的趋势，以帮助开发人员做出技术选择。
+            因此，这些调查的重点是预测未来几年会发生什么，而不是分析现在流行什么，这就是为什么并不总是包括目前最普遍的功能或技术。
+            它们也应该被视为**特定开发人员子集的快照**，而不是代表整个生态。
+
+            ### 调查设计
+            该调查的设计部分基于去年的调查，并设有一个公开的反馈期，在 [GitHub](https://github.com/StateOfJS/Monorepo/issues/56) 上讨论了调查大纲。
+            所有调查问题都是可选的。
+
+            ### 调查受众
+            该调查可在线公开访问，并且不会以任何方式过滤或选择受访者。受访者主要是来自过去调查（通过专门的邮件列表提醒）和社交媒体流量。
+            请注意，框架、库等可以自由鼓励其受众参与调查，其中已有框架、库等通过横幅、推文等利用这点规则。流量来源的详细分类包含在“来源”表中。
+            ### 代表性 & 包容性
+            虽然我们认为让每个社区都有发言权很重要，但现实是，像这样的公开调查总是很难恰当地代表每个人。
+            为了平衡这一点，我们正在实行三种不同的策略：
+            - **外展**: 我们一直尝试接触不同的组织（像 BIPOC 或 LGBTQ 组织，或在线教学平台），以尝试使我们自己的受众多样化。
+            
+            - **数据分析**: 通过刻面和变型等特征，我们一直在努力让任何群体的声音更容易浮出水面，无论它在我们的数据中可能多么小众。
+            
+            - **降低壁垒**: 我们正在着力解决调查时间过长、无法访问、加载缓慢、仅限英语等都对调查有着负面影响的问题。并在这个过程中使我们的受众更加多样化。
+            ### 项目资金
+            该项目的资金来源多种多样：
+            - **T恤销售**. 
+            - **图表赞助**: 社区成员可以为调查捐款，以换取他们的名字出现在报告中
+            - **赞助商**: 每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
+            
+            - **其他资金**: 今年，[Google Chrome](https://www.google.com/chrome/) 团队拨出一笔小额预算来帮助聘请 [无障碍顾问](https://fossheim.io/) 进行 JS 和 CSS 调查。
+              尽管有这些资金来源，这些调查总体上仍然主要是一个自筹资金的项目，任何贡献或赞助都将不胜感激。我特别想与更多的浏览器供应商密切合作，因为他们在网络生态系统中扮演着如此重要的角色。
+            ### 技术概述
+            你可以在 [此处](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) 找到有关调查运行方式的更深入的技术概述.
+            - **数据收集**：自定义 [Vulcan.js](http://vulcanjs.org/) 应用程序。
+            - **数据存储/处理**：MongoDB。
+            - **数据 API**：Node.js GraphQL API。
+            - **结果站点**：[Gatsby](https://www.gatsbyjs.com/) React 应用程序。
+            - **数据可视化**：[Nivo](https://nivo.rocks/) React dataviz 库。 
+            - **类型**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue）。

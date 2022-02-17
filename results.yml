@@ -160,6 +160,9 @@ translations:
   - key: sections.technologies.title
     t: 技术
 
+  - key: sections.libraries.title
+    t: 库
+
   - key: sections.conclusion.title
     t: 总结
 
