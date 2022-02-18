@@ -13,7 +13,7 @@ translations:
 
     - key: sections.introduction.description
       t: |
-            <span class="first-letter"在</span> 2021年发生了很多事情. 这项调查实际上一直推迟到2022年! 
+            <span class="first-letter">在</span> 2021年发生了很多事情. 这项调查实际上一直推迟到2022年! 
             JavaScript 世界不断的发展，在一系列更快的构建工具和新的后端框架之间。 我们尽最大努力跟上进度，为这项调查提供了一些新的功能 ([关于新功能的更多信息](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) 例如新的问题类型，交叉引用两个数据点的能力 (例如按经验水平划分的年收入)，甚至可以自定义图表来展示您的见解! 在此阅读[今年的新变化](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (英文).
             然而，这并非一帆风顺。我们不得不处理一个[数据泄漏](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1)问题，幸好它看起来没有造成任何不良后果。我们一直在努力使调查更全面、更容易理解，以及更公正
 
