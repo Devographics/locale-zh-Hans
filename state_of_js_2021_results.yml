@@ -147,7 +147,7 @@ translations:
 
             我们过去常开玩笑说前端每天都会发布一个新框架，**React**和**Vue**现在已经连续6年占据主导地位。报告“JS发展太快”的人比例也从59%降至38%。但这并不是说语言停滞不前。在我们的调查中，**可选链**和**空值合并**API已经迅速成为最常用的新API，尽管它们只有2年的历史。
 
-            TC39带来了更多的好东西：您报告说日期管理是最缺少的功能，而 Temporal API 最近达到了 [Stage 3] (https://github.com/tc39/proposal-temporal)。
+            TC39带来了更多的好东西：您报告说日期管理是最缺少的功能，而 Temporal API 最近达到了 [Stage 3](https://github.com/tc39/proposal-temporal)。
 
             工具生态系统也在快速发展，可以说 2021 年是 **Vite** 之年。 Vite 不仅以 98% 的满意度首次亮相，而且在我们的调查中，第一年的使用率已经达到 30%，甚至超过了 esbuild。 Vite 并不是唯一一个试图改善 JavaScript 构建工具状态的人——我们今天跟踪的 12 个工具中有 8 个不到两年！ 虽然 **pnpm**、**Turborepo** 和 **Nx** 在我们跟踪 monorepo 工具的第一年中占据首位，但只有 25% 的人表示对该类别的状态感到满意，这表明仍有很多工作要做。
             
@@ -383,4 +383,4 @@ translations:
 
             - **数据可视化**：[Nivo](https://nivo.rocks/) React dataviz 库。 
 
-            - **类型**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue）。
+            - **类型**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)。
