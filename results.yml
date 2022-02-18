@@ -374,7 +374,7 @@ translations:
   - key: blocks.tools_arrows.description
     t: |
       每条时间从2016到2020年。较高的点表示更多的人在使用该技术。
-      较右则的点意昧着更多的受访者想要学习它；或者已经使用过并且会再欠使用它。
+      较右则的点意昧着更多的受访者想要学习它；或者已经使用过并且会再次使用它。
   - key: blocks.tools_arrows.note
     t: |
       - 有些线条跳过了几年。
