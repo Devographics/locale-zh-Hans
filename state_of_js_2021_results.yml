@@ -144,12 +144,15 @@ translations:
             <span class="first-line">与2016年相比，JavaScript 现在的状态要好得多</span>
             
             在第一次进行 JS 现状调查时，只有 21% 的人使用了 TypeScript ，而今天有 69%。
-            我们过去常开玩笑说前端每天都会发布一个新框架，**React**和**Vue**现在已经连续6年占据主导地位。报告“JS发展太快”的人比例也从59%降至38%。
-            但这并不是说语言停滞不前。在我们的调查中，**可选链**和**空值合并**API已经迅速成为最常用的新API，尽管它们只有2年的历史。
+
+            我们过去常开玩笑说前端每天都会发布一个新框架，**React**和**Vue**现在已经连续6年占据主导地位。报告“JS发展太快”的人比例也从59%降至38%。但这并不是说语言停滞不前。在我们的调查中，**可选链**和**空值合并**API已经迅速成为最常用的新API，尽管它们只有2年的历史。
+
             TC39带来了更多的好东西：您报告说日期管理是最缺少的功能，而 Temporal API 最近达到了 [Stage 3] (https://github.com/tc39/proposal-temporal)。
+
             工具生态系统也在快速发展，可以说 2021 年是 **Vite** 之年。 Vite 不仅以 98% 的满意度首次亮相，而且在我们的调查中，第一年的使用率已经达到 30%，甚至超过了 esbuild。 Vite 并不是唯一一个试图改善 JavaScript 构建工具状态的人——我们今天跟踪的 12 个工具中有 8 个不到两年！ 虽然 **pnpm**、**Turborepo** 和 **Nx** 在我们跟踪 monorepo 工具的第一年中占据首位，但只有 25% 的人表示对该类别的状态感到满意，这表明仍有很多工作要做。
             
             值得关注: 许多新进入者，如**Deno**、**Rome**、**Astro**、**Remix**，以及更多，现在都得到了风险投资支持公司的支持，这或许是脆弱的开源融资环境的可行替代方案。
+
             作为[Third Age of JavaScript](https://www.swyx.io/js-third-age/)进入第三个年头，有抱负的开源人士和创业者的机会继续展现，我很高兴看到未来几年会带来什么！
     - key: conclusion.bio
       t: Head of DX at Temporal
@@ -319,39 +322,65 @@ translations:
     - key: about.content
       t: >
             JS 现状调查于 2021 年 1 月 13 日至 **2022** 年 2 月 2 日进行，收集了 16,085 份回复。该调查由我 [Sacha Greif](https://sachagreif.com/) 在开源贡献者和顾问团队的帮助下进行。 今年的logo和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
             ### 调查目标
+
             该调查以及 [State of JavaScript](https://stateofcss.com/) 旨在确定 Web 开发生态中即将出现的趋势，以帮助开发人员做出技术选择。
+
             因此，这些调查的重点是预测未来几年会发生什么，而不是分析现在流行什么，这就是为什么并不总是包括目前最普遍的功能或技术。
+
             它们也应该被视为**特定开发人员子集的快照**，而不是代表整个生态。
 
             ### 调查设计
+
             该调查的设计部分基于去年的调查，并设有一个公开的反馈期，在 [GitHub](https://github.com/StateOfJS/Monorepo/issues/56) 上讨论了调查大纲。
+
             所有调查问题都是可选的。
 
             ### 调查受众
+
             该调查可在线公开访问，并且不会以任何方式过滤或选择受访者。受访者主要是来自过去调查（通过专门的邮件列表提醒）和社交媒体流量。
+
             请注意，框架、库等可以自由鼓励其受众参与调查，其中已有框架、库等通过横幅、推文等利用这点规则。流量来源的详细分类包含在“来源”表中。
+
             ### 代表性 & 包容性
+
             虽然我们认为让每个社区都有发言权很重要，但现实是，像这样的公开调查总是很难恰当地代表每个人。
+
             为了平衡这一点，我们正在实行三种不同的策略：
+
             - **外展**: 我们一直尝试接触不同的组织（像 BIPOC 或 LGBTQ 组织，或在线教学平台），以尝试使我们自己的受众多样化。
             
             - **数据分析**: 通过刻面和变型等特征，我们一直在努力让任何群体的声音更容易浮出水面，无论它在我们的数据中可能多么小众。
             
             - **降低壁垒**: 我们正在着力解决调查时间过长、无法访问、加载缓慢、仅限英语等都对调查有着负面影响的问题。并在这个过程中使我们的受众更加多样化。
+
             ### 项目资金
+
             该项目的资金来源多种多样：
-            - **T恤销售**. 
+
+            - **T恤销售**
+
             - **图表赞助**: 社区成员可以为调查捐款，以换取他们的名字出现在报告中
+
             - **赞助商**: 每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
-            
+
             - **其他资金**: 今年，[Google Chrome](https://www.google.com/chrome/) 团队拨出一笔小额预算来帮助聘请 [无障碍顾问](https://fossheim.io/) 进行 JS 和 CSS 调查。
+
               尽管有这些资金来源，这些调查总体上仍然主要是一个自筹资金的项目，任何贡献或赞助都将不胜感激。我特别想与更多的浏览器供应商密切合作，因为他们在网络生态系统中扮演着如此重要的角色。
+
             ### 技术概述
+
             你可以在 [此处](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) 找到有关调查运行方式的更深入的技术概述.
+
             - **数据收集**：自定义 [Vulcan.js](http://vulcanjs.org/) 应用程序。
+
             - **数据存储/处理**：MongoDB。
+
             - **数据 API**：Node.js GraphQL API。
+
             - **结果站点**：[Gatsby](https://www.gatsbyjs.com/) React 应用程序。
+
             - **数据可视化**：[Nivo](https://nivo.rocks/) React dataviz 库。 
+
             - **类型**：[IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue）。
