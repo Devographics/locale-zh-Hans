@@ -7,6 +7,9 @@ translations:
     - key: general.results.description
       t: 2021年 JavaScript 生态最新趋势的年度调查。
 
+    - key: general.livestream_announcement
+      t: 请务必于 2 月 22 日观看我们 [特别调查结果的直播](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) (英语)
+
     ###########################################################################
     # Introduction
     ###########################################################################
@@ -162,26 +165,24 @@ translations:
     ###########################################################################
 
     - key: picks.my_pick
-      t: 'My 2021 Pick: '
+      t: '我的 2021 精选：'
     - key: picks.intro
-      t: We asked members of the JavaScript community to share their “pick of the year”
+      t: 我们请 JavaScript 社区的成员分享他们的 "年度精选"
 
     - key: picks.lee_robinson.name
       t: SvelteKit
     - key: picks.lee_robinson.bio
-      t: Director of Developer Relations at Vercel
+      t: Vercel 的开发者关系负责人
     - key: picks.lee_robinson.description
       t: |
-          SvelteKit is a fresh take on building for the web and has an 
-          incredibly passionate, growing community of supporters. 
+          SvelteKit 是一个构建网络应用的新工具，并且拥有一个充满激情且不断增长的社区。
     - key: picks.vadim_makeev.name
-      t: Server-Side Rendering
+      t: 服务端渲染
     - key: picks.vadim_makeev.bio
       t: DevRel, Podcaster & Web Standards Advocate
     - key: picks.vadim_makeev.description
       t: |
-          The time has come to get our priorities straight. 
-          UX > DX, and it has always been like that. Performance FTW!
+          是时候理清我们的优先级了。用户体验 > 开发者体验，这一直以来都是这样的。性能万岁！
             
     - key: picks.ben_ilegbodu.name
       t: Lee Robinson
@@ -189,9 +190,7 @@ translations:
       t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
     - key: picks.ben_ilegbodu.description
       t: |
-          Lee has been great at shepherding and advocating for Next.js. 
-          He's helped me a ton with Next and continues to build excitement 
-          for where it's going
+          Lee 在指导和倡导 Next.js 方面一直很出色。他在 Next 这里给了我很大的帮助，而且还很乐于继续探索它。
             
     - key: picks.shawn_wang.name
       t: Supabase
@@ -199,33 +198,28 @@ translations:
       t: Head of DX at Temporal
     - key: picks.shawn_wang.description
       t: |
-          Supabase is making Postgres accessible to more developers and showing 
-          everyone how a small focused team can out-ship peers 10x their size.
+          Supabase 使更多的开发者接触到 Postgres ,并向大家展示了一个专注的小团队是如何超越那些规模比它们大 10 倍的同行的。
     - key: picks.sarah_drasner.name
       t: Pawel Kozlowski
     - key: picks.sarah_drasner.bio
       t: Director of Engineering, Core Developer Web at Google
     - key: picks.sarah_drasner.description
       t: |
-          Pawel Kozlowski is the kind of developer who can be open-minded to different 
-          approaches with humility and curiosity with the interest of improving things.
+          Pawel Kozlowski 是那种能够以谦逊和好奇心对不同方法持开放态度的开发者，并且对改进东西感兴趣。
     - key: picks.sara_vieira.name
       t: Paul Henschel
     - key: picks.sara_vieira.bio
       t: International Agent of JS Bullshit
     - key: picks.sara_vieira.description
       t: |
-          Paul's work on animations and ReactThreeFiber 
-          have made doing any kind of 3D work on the web way easier. 
+          Paul 在动画以及 ReactThreeFiber 上的工作使得在 web 上做任何的 3D 工作都变得更容易了。
     - key: picks.mark_erikson.name
       t: Ryan Carniato
     - key: picks.mark_erikson.bio
-      t: Redux Maintainer
+      t: Redux 维护者
     - key: picks.mark_erikson.description
       t: |
-          Ryan's reactive JS framework SolidJS hit 1.0, 
-          and he wrote numerous articles analyzing advanced 
-          JS framework implementation concepts.
+          Ryan 的响应式 JS 框架 SolidJS 已经到 1.0 版本了，他还写了很多文章分析高级 JS 框架的实现概念。
     
     - key: picks.miguel_angel_duran.name
       t: Vite
@@ -233,36 +227,30 @@ translations:
       t: Front End Dev & Twitch Coding Streamer
     - key: picks.miguel_angel_duran.description
       t: |
-          In addition to esbuild and swc, fantastic tools pushing forward the ecosystem, 
-          I'm enjoying Vite. It has a delightful DX, and it's rich in features. 
+          除了 esbuild 和 swc 这些推动生态发展的神奇工具外，我很喜欢 Vite 。它的开发者体验很棒，且有着丰富的特性。
       
     - key: picks.alyssa_nicoll.name
-      t: BroccoDev's Twitch Stream
+      t: BroccoDev 的 Twitch 直播
     - key: picks.alyssa_nicoll.bio
       t: Sr. Developer Advocate at Progress
     - key: picks.alyssa_nicoll.description
       t: |
-        Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer, 
-        developer, and most importantly teacher. 
-        I always have a blast watching his streams and learning from him.
+        Mike Brocchi 最近开始在 Twitch 上直播。他是一位出色的程序员、开发者，最重要的是一位老师。我很喜欢看他的直播并向他学习。
       
     - key: picks.michael_jackson.name
       t: esbuild
     - key: picks.michael_jackson.bio
-      t: Co-founder of Remix
+      t: Remix 的联合创始人
     - key: picks.michael_jackson.description
       t: |
-        We have been building the Remix compiler on top of esbuild and it 
-        has definitely raised the bar as far as JS bundlers are concerned. 
-        It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+        我们一直在 esbuild 的基础上构建 Remix 编译器，它确实提高了 JS 打包器的标准。它的速度快得令人难以置信，而且它的插件 API 可以让我们做任何想做的事情。
     - key: picks.david_khourshid.name
       t: Remix
     - key: picks.david_khourshid.bio
       t: Pianist and founder of Stately
     - key: picks.david_khourshid.description
       t: |
-          Remix is a full-stack web framework that feels old-school, but in a good way, 
-          by putting you on the path to create fast, complex, and accessible modern web apps.
+          Remix 是一个有点老派的全栈框架，但它以一种好的方式让你创建快速、复杂且易于访问的现代 Web 应用。
       
     - key: picks.kent_c_dodds.name
       t: Fly.io
@@ -270,25 +258,21 @@ translations:
       t: Director of Developer Experience, Remix
     - key: picks.kent_c_dodds.description
       t: |
-          Fly enabled me (a frontend engineer with a distain for DevOps) 
-          to confidently deploy a real-world, globally-distributed, production-grade 
-          app.
+          Fly 让我这么一个对 DevOps 不屑一顾的前端开发者能充满信心地部署一个真实的、全球分布的生产级应用。
     - key: picks.tejas_kumar.name
       t: Joe Haddad
     - key: picks.tejas_kumar.bio
       t: Web Developer, Conference Speaker, and Director of DevRel at Xata
     - key: picks.tejas_kumar.description
       t: |   
-          Joe works on Next.js at Vercel and is constantly looking to proudly 
-          demonstrate its power while actively listening 
-          to feedback from the community to support them better. 
+          Joe 在 Vercel 从事 Next.js 的工作，他一直希望自豪地展示它的能力，同时也积极地听取社区的反馈以更好地支持他们。
     - key: picks.wes_bos.name
-      t: TC39 Proposals
+      t: TC39 提案
     - key: picks.wes_bos.bio
       t: JavaScript Teacher & Podcast Host
     - key: picks.wes_bos.description
       t: |
-          A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+          一个 Git 仓库，其中包含了所有被提议添加进 JavaScript 中的内容。阅读人们对这门语言的所有想法，并看到它们经历各个阶段，真的蛮有趣的。
       
     - key: picks.scott_tolinkski.name
       t: SvelteKit
@@ -296,8 +280,7 @@ translations:
       t: Creator of Level-Up Tuts, co-host of Syntax
     - key: picks.scott_tolinkski.description
       t: |   
-          Svelte Kit provides the amazing developer experience of Svelte with all 
-          of the modern features of expected from a web platform. 
+          Svelte Kit 为 Sevelte 提供了奇妙的开发者体验，并拥有一个 Web 平台所期望的所有现代特性。
     - key: picks.xxxx.name
       t:
     - key: picks.xxxx.bio
