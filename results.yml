@@ -112,7 +112,27 @@ translations:
   - key: options.quadrant.analyze.long
     t: |
       待定: 使用率高，满意度低。如果你正在使用这些技术，请重新评估它们。
-
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: 使用率低，满意度高，可以持续观望的技术。
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: 使用率高，满意度高，可以放心使用的技术。
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: 使用率低，满意度低，不建议使用的技术。
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: 使用率高，满意度低，建议重新评估的技术。
+      
   - key: ranges.selector.years_of_experience
     t: 经验年限
   - key: ranges.selector.yearly_salary
@@ -143,6 +163,16 @@ translations:
     t: 癫痫
   - key: options.disability_status_others.aspergers
     t: 阿斯伯格综合症
+  - key: options.disability_status_others.color_blindness
+    t: 色盲
+  - key: options.disability_status_others.anxiety
+    t: 焦虑症
+  - key: options.disability_status_others.dyslexia
+    t: 失读症
+  - key: options.disability_status_others.diabetes
+    t: 糖尿病
+  - key: options.disability_status_others.carpal_tunnel
+    t: 腕道症候群
 
     ###########################################################################
     # Sections
@@ -421,6 +451,18 @@ translations:
 
       柱状的厚度代表了解某一技术的访问者数量。
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: 代码库层级列表
+  - key: blocks.tools_tier_list.description
+    t: |
+      该图表会根据代码库的满意度对代码库进行排名
+      满意度指的是“会再次使用这个库的人数”。
+      请注意，使用率不到 10% 的代码库不包括在内。
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
     # tools section streams
   - key: blocks.tools_section_streams
     t: 随时间变化的体验
@@ -560,26 +602,6 @@ translations:
     t: 图书馆评估排名（配对）
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: 在评估新库时，你优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
-
-  - key: css_pain_points.css_pain_points_wins
-    t: CSS痛点
-  - key: css_pain_points.css_pain_points_wins.description
-    t: CSS的哪一方面你最难处理？结果按赢得的锦标赛轮数排列。
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSS痛点（匹配）
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: CSS的哪一方面你最难处理？左手项对上边项赢得回合数的百分比。
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: CSS中缺少功能
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: 你现在最希望在CSS中使用哪项功能？结果按赢得的锦标赛轮数排列。
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: CSS中缺少功能（匹配）
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: 你现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
 
     ###########################################################################
     # Charts

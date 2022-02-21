@@ -770,7 +770,28 @@ translations:
 
     - key: happiness.state_of_css
       t: 总的来讲，你对现有 CSS 满意吗？
-  
+
+    # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: CSS痛点
+    - key: css_pain_points.css_pain_points_wins.description
+      t: CSS的哪一方面你最难处理？结果按赢得的锦标赛轮数排列。
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: CSS痛点（匹配）
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: CSS的哪一方面你最难处理？左手项对上边项赢得回合数的百分比。
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: CSS中缺少功能
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: 你现在最希望在CSS中使用哪项功能？结果按赢得的锦标赛轮数排列。
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: CSS中缺少功能（匹配）
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: 你现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
+
     ###########################################################################
     # Resources
     ###########################################################################
