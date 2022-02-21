@@ -255,6 +255,42 @@ translations:
     - key: features.dynamic_import.description
       t: >
         例子: <code>await import('/modules/my-module.js')</code>
+    - key: features.promise_all_settled
+      t: Promise.allSettled()
+    - key: features.big_int
+      t: BigInt
+    - key: features.numeric_separators
+      t: Numeric Separators
+    - key: features.string_replace_all
+      t: String.prototype.replaceAll()
+    - key: features.string_match_all
+      t: String.prototype.matchAll()
+    - key: features.logical_assignment
+      t: Logical Assignment
+    - key: features.promise_any
+      t: Promise.any()
+    - key: features.array_at
+      t: Array.prototype.at()
+    - key: features.top_level_await
+      t: Top-Level Await
+    - key: features.intl
+      t: Intl
+    - key: features.custom_elements
+      t: Custom Elements
+    - key: features.shadow_dom
+      t: Shadow DOM
+    - key: features.page_visibility
+      t: Page Visibility API
+    - key: features.broadcast_channel
+      t: Broadcast Channel API
+    - key: features.geolocation
+      t: Geolocation API
+    - key: features.file_system_access
+      t: File System Access API
+    - key: features.web_share
+      t: Web Share API
+    - key: features.webxr
+      t: WebXR
 
     # data structures
     - key: features.maps
@@ -357,6 +393,7 @@ translations:
       aliasFor: environments.form_factors
     - key: tools_others.form_factors.description
       aliasFor: environments.form_factors.description
+
     ###########################################################################
     # Opinions
     ###########################################################################
@@ -384,6 +421,19 @@ translations:
     - key: opinions_others.missing_from_js.others.description
       t: 你希望有一天在JavaScript中看到的特性。
 
+    - key: happiness.front_end_frameworks
+      t: 你当前对前端框架的状态有多满意？
+    - key: happiness.back_end_frameworks
+      t: 你当前对后端框架的状态有多满意？
+    - key: happiness.testing
+      t: 你当前对测试工具的状态有多满意？
+    - key: happiness.mobile_desktop
+      t: 你当前对跨端框架的状态有多满意？
+    - key: happiness.build_tools
+      t: 你当前对构建工具的状态有多满意？
+    - key: happiness.monorepo_tools
+      t: 你当前对 monorepo 工具的状态有多满意？
+
     - key: happiness.state_of_the_web
       t: 你对网络技术的总体状况感到满意吗？
 
@@ -406,6 +456,27 @@ translations:
       t: 对于每个匹配，选择你最希望在JavaScript中使用的功能。
     - key: opinions_others.currently_missing_from_js.others
       t: 其他缺失的功能
+
+    # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: JavaScript 的痛点
+    - key: js_pain_points.js_pain_points_wins.description
+      t: JavaScript 的哪个方面让你最头痛？请按赢得锦标赛的回合数进行排名。
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: JavaScript 的痛点（比较）
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: JavaScript 的哪个方面你最纠结？左侧项目相对于顶部项目赢得的回合百分比。
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: JavaScript 缺失的特性
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: 您现在最希望在 JavaScript 中使用哪个功能？请按赢得锦标赛的回合数进行排名。
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: JavaScript 缺失的特性（比较）
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: 您现在最希望在 JavaScript 中使用哪个功能？左侧项目相对于顶部项目赢得的回合百分比。
 
     ###########################################################################
     # Resources
