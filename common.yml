@@ -1083,13 +1083,13 @@ translations:
 
     # podcasts
     - key: resources.podcasts
-      t: 广播
+      t: 播客
     - key: resources.podcasts.description
       t: 订阅了哪些编程相关的播客？
     - key: resources.podcasts.others
-      t: 其他广播
+      t: 其他播客
     - key: resources.podcasts.others.description
-      t: 其他广播（填写名称）。
+      t: 其他播客（填写名称）。
 
     # people
     - key: resources.people
