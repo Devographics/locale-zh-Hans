@@ -1,52 +1,103 @@
 locale: zh-Hans
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: 于日本手工编码
-    - key: homepage.leave_issue
-      t: 提出 issue
-    - key: homepage.get_in_touch
-      t: 取得联系
+  - key: homepage.hand_coded
+    t: 于日本手工编码
+  - key: homepage.leave_issue
+    t: 提出 issue
+  - key: homepage.get_in_touch
+    t: 取得联系
 
-    - key: homepage.made_by
-      t: “关于 State of CSS 调查问卷的幕后人员：”
+  - key: homepage.made_by
+    t: “关于 State of CSS 调查问卷的幕后人员：”
 
-    - key: homepage.previous_years
-      t: “往年的：”
+  - key: homepage.previous_years
+    t: “往年的：”
 
-    - key: homepage.intro
-      t: >
-          ## CSS 正以前所未有的速度发展。
+  - key: homepage.intro
+    t: >
+      ## CSS 正以前所未有的速度发展。
 
-          Flexbox （弹性盒模型）、 Grid （网格布局）、 Multi-Column （多列布局）甚至迈入了 CSS-in-JS 这样的全新领域。
+      Flexbox （弹性盒模型）、 Grid （网格布局）、 Multi-Column （多列布局）甚至迈入了 CSS-in-JS 这样的全新领域。
 
-          也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。
-          我们决定深入样式选择器的世界，帮助大家找到最新趋势，
-          作为桥梁连接“大前端时代”洪流！
+      也因每年举办的 [State Of JavaScript](https://stateofjs.com) 取得成功后。
+      我们决定深入样式选择器的世界，帮助大家找到最新趋势，
+      作为桥梁连接“大前端时代”洪流！
 
-    - key: homepage.take_survey
-      t: 参与问卷
+  - key: homepage.take_survey
+    t: 参与问卷
 
-    - key: homepage.view_results
-      t: 查看 2019 年调查结果
+  - key: homepage.view_results
+    t: 查看调查结果
 
-    - key: share.help_spread
-      t: 帮忙宣传
+  - key: share.help_spread
+    t: 帮忙宣传
 
-    - key: newsletter.stay_tuned
-      t: 敬请期待
-    - key: newsletter.leave_your_email
-      t: 可以留下你的邮箱地址，方便下次调查开始时通知你
+  - key: homepage.other_surveys
+    t: "其他调查项目："
 
-    - key: author.sacha.bio
-      t: >
-          [Nivo](http://nivo.rocks/)： JavaScript data visualization 库以及
-          可以创建美观的仪表盘工具 [Mozaik](http://mozaik.rocks/) 的作者。
+  - key: homepage.survey_open_now
+    t: 正在开放的调查
 
-    - key: author.raphael.bio
-      t: >
-          创建了 [Sidebar](http://sidebar.io) 同时也是采用
-          React+GraphQL 的开源框架 [VulcanJS](http://vulcanjs.org) 的作者。
+  - key: homepage.survey_preview
+    t: 预览调查
+
+  - key: homepage.most_recent_survey
+    t: 最新
+
+  - key: homepage.current_survey
+    t: 最新的调查
+
+  - key: homepage.past_surveys
+    t: 以往的调查
+
+  - key: homepage.view_questions
+    t: 查看调查问题
+
+  - key: homepage.preview_questions
+    t: 预览调查问题
+
+  - key: newsletter.stay_tuned
+    t: 敬请期待
+
+  - key: newsletter.leave_your_email
+    t: 可以留下你的邮箱地址，方便下次调查开始时通知你
+
+  - key: author.sacha.bio
+    t: >
+      [Nivo](http://nivo.rocks/)： JavaScript data visualization 库以及
+      可以创建美观的仪表盘工具 [Mozaik](http://mozaik.rocks/) 的作者。
+
+  - key: author.raphael.bio
+    t: >
+      创建了 [Sidebar](http://sidebar.io) 同时也是采用
+      React+GraphQL 的开源框架 [VulcanJS](http://vulcanjs.org) 的作者。
+
+  # newsletter
+  - key: homepage.newsletter.stay_tuned
+    t: 不要错过下一次调查
+  - key: homepage.newsletter.leave_your_email
+    t: 留下您的电子邮箱地址，下次调查开始的时候我们将会通知您。
+  - key: homepage.newsletter.email
+    t: 您的电子邮箱地址
+  - key: homepage.newsletter.submit
+    t: 通知我
+
+  # languages
+  - key: languages.available_languages
+    t: "支持的语言："
+  - key: languages.help_us_translate
+    t: 帮助我们将调查翻译成您的语言 →
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+  - key: homepage.leave_issue
+    aliasFor: general.leave_issue
+  - key: homepage.join_discord
+    aliasFor: general.join_discord

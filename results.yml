@@ -13,7 +13,7 @@ translations:
     t: "下一项:"
 
   - key: general.state_of_css_link
-    t: CSS状态
+    t: CSS 现况
 
   - key: general.netlify_link
     t: 由 <a href="{link}">Netlify</a>托管
@@ -59,7 +59,6 @@ translations:
   ###########################################################################
   # Block
   ###########################################################################
-
   - key: block.data_from
     t: 占位符
 
@@ -132,7 +131,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: 使用率高，满意度低，建议重新评估的技术。
-      
+
   - key: ranges.selector.years_of_experience
     t: 经验年限
   - key: ranges.selector.yearly_salary
@@ -394,9 +393,9 @@ translations:
     t: 技术使用基数
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-       对于每一部分，
-       受访者对前几种技术的使用率
-       (此处的"使用"定义为"会再次使用")。
+      对于每一部分，
+      受访者对前几种技术的使用率
+      (此处的"使用"定义为"会再次使用")。
 
   - key: blocks.cardinality.max
     t: 最常见的答案
@@ -566,13 +565,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. 复制“GraphQL Query”文本域的内容，粘贴到[GraphQL API explorer](https://graphiql.stateofjs.com/)的中间面板。
+      1. 复制“GraphQL Query”文本域的内容，粘贴到[GraphQL API explorer](https://graphiql.stateofjs.com/)的中间面板。
 
-         2. 通过使用左侧资源管理器边栏添加一个或多个**过滤器**来修改查询。确保数据的整体结构相同。
+       2. 通过使用左侧资源管理器边栏添加一个或多个**过滤器**来修改查询。确保数据的整体结构相同。
 
-         3. 在资源管理器窗口中，单击播放（“执行查询”）按钮。
+       3. 在资源管理器窗口中，单击播放（“执行查询”）按钮。
 
-         4. 将修改后的查询结果 (`{ data: ... }` ) 复制到上面的“自定义数据”文本字段中并提交。
+       4. 将修改后的查询结果 (`{ data: ... }` ) 复制到上面的“自定义数据”文本字段中并提交。
 
     # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -814,7 +813,6 @@ translations:
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
 
-
   - key: table.percentages_table
     t: 百分比
   - key: table.rankings_table
@@ -934,7 +932,7 @@ translations:
     t: >
       另一个有保证的科学发现是：
       购买我们的t恤将使你的 JavaScript 知识骤增！
-  
+
   - key: hints.variants_hint
     t: >
       一些图表具有额外的选项卡，提供相同数据的补充细分，
@@ -961,11 +959,10 @@ translations:
     t: >
       Thanks for supporting the survey. Your avatar should appear next to the chart you picked
       within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
-    
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donated **${amount}** to sponsor this chart
+      **{name}** donated **${amount}** to sponsor this chart
 
   - key: sponsor.sponsor_button
     t: Sponsor This Chart
@@ -975,14 +972,14 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-        Support this survey financially by donating $10 or more, and get your
-        Twitter avatar featured next to a chart!
+      Support this survey financially by donating $10 or more, and get your
+      Twitter avatar featured next to a chart!
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: "Chart ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+) 
+    t: Sponsor This Chart (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: How It Works
@@ -990,19 +987,18 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
-      
-      
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
-      
-      
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
-      
-      
-      4. You will see a **File Download** page, but you can safely ignore it. 
-      
-      
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**. 
 
+
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+
+
+      3. Once you checkout, you will be able to **provide your Twitter username**. 
+
+
+      4. You will see a **File Download** page, but you can safely ignore it. 
+
+
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
 
   - key: sponsor.faq.title
     t: F.A.Q.
@@ -1023,19 +1019,19 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: What's your refund policy?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees. 
+    t: All donations are refundable within a 1-week period, minus transaction fees.
 
   - key: sponsor.faq.influence.title
     t: Do donations influence the survey contents?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey. 
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
 
   - key: sponsor.faq.feedback.title
     t: Where can I leave feedback/ask questions?
