@@ -483,7 +483,7 @@ translations:
   # Resources
   ###########################################################################
 
-  - key: resources.first_steps
+  - key: resources.first_steps_js
     t: 使用JavaScript的第一步
-  - key: resources.first_steps.description
+  - key: resources.first_steps_js.description
     t: 刚开始学习时，你最初是如何学习 JavaScript 的？

@@ -795,7 +795,7 @@ translations:
   # Resources
   ###########################################################################
 
-  - key: resources.first_steps
+  - key: resources.first_steps_css
     t: CSS的第一步
-  - key: resources.first_steps.description
+  - key: resources.first_steps_css.description
     t: 刚开始学习CSS时，你最初是如何学习CSS的？
