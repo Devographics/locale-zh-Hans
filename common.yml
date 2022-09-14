@@ -169,9 +169,9 @@ translations:
     t: 清除
 
   # partners
-  - key: partners.our_partners
+  - key: sponsors.our_partners
     t: 我们的合作伙伴
-  - key: partners.become_partner
+  - key: sponsors.become_partner
     t: 成为合作伙伴
 
   # 404
