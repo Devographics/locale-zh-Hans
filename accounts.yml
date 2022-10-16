@@ -72,8 +72,16 @@ translations:
       t: 请登录或注册后重试。
     - key: accounts.logged_in_as
       t: 以 {email} 登录
+    - key: accounts.logged_in_as_guest
+      t: 游客登陆
     - key: accounts.questions
       t: >
         如果你对于我们使用你的数据存在疑问，
         或者希望我们删除你的数据记录，
         请发送<a href="mailto:hello@stateofjs.com">邮件</a>获得联系。
+
+    - key: accounts.token_verified
+      t: Token 验证成功，重定向中...
+
+    - key: accounts.your_surveys
+      t: 您的调查
