@@ -98,7 +98,8 @@ translations:
     t: 代码重构
   - key: credits.data_processing
     t: 数据处理
-
+  - key: credits.back_end_development
+    t: 后端开发
   # support
   - key: general.support_from
     t: 在支持下
@@ -189,7 +190,10 @@ translations:
     t: 图表使用 <a href="{link}">Nivo</a> 构建
   - key: general.made_by_devographics
     t: 使用 <a href="{link}">Devographics</a> 制作
-
+  - key: general.view_code_example
+    t: 查看代码示例
+  - key: general.code_example
+    t: "**{featureName}** 代码示例"
   ###########################################################################
   # Nav
   ###########################################################################

@@ -95,42 +95,42 @@ translations:
     t: 评估
   - key: options.quadrant.assess.long
     t: |
-      评估: 使用率较低，满意度较高。值得关注的技术。
+      评估: 使用率较低，留存度较高。值得关注的技术。
   - key: options.quadrant.adopt
     t: 采用
   - key: options.quadrant.adopt.long
     t: |
-      采用: 使用率高，满意度高。可采用安全技术。
+      采用: 使用率高，留存度高。可采用安全技术。
   - key: options.quadrant.avoid
     t: 规避
   - key: options.quadrant.avoid.long
     t: |
-      规避: 使用率低，满意度低。目前最好避免使用的技术。
+      规避: 使用率低，留存度低。目前最好避免使用的技术。
   - key: options.quadrant.analyze
     t: 待定
   - key: options.quadrant.analyze.long
     t: |
-      待定: 使用率高，满意度低。如果你正在使用这些技术，请重新评估它们。
+      待定: 使用率高，留存度低。如果你正在使用这些技术，请重新评估它们。
   - key: options.quadrant.1
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: 使用率低，满意度高，可以持续观望的技术。
+      1: 使用率低，留存度高，可以持续观望的技术。
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: 使用率高，满意度高，可以放心使用的技术。
+      2: 使用率高，留存度高，可以放心使用的技术。
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: 使用率低，满意度低，不建议使用的技术。
+      3: 使用率低，留存度低，不建议使用的技术。
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: 使用率高，满意度低，建议重新评估的技术。
+      4: 使用率高，留存度低，建议重新评估的技术。
 
   - key: ranges.selector.years_of_experience
     t: 经验年限
