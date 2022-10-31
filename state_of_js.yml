@@ -212,31 +212,16 @@ translations:
   # syntax
   - key: features.destructuring
     t: 结构
-  - key: features.destructuring.description
-    t: "例子: `const { foo } = bar`"
   - key: features.spread_operator
     t: 扩展运算符
-  - key: features.spread_operator.description
-    t: "例子: `[...array1, ...array2]`"
   - key: features.arrow_functions
     t: 箭头函数
-  - key: features.arrow_functions.description
-    t: "例子: `const foo = () => {}`"
   - key: features.nullish_coalescing
     t: 空值合并运算符 Nullish Coalescing
-  - key: features.nullish_coalescing.description
-    t: >
-      例子: `const foo = 0 ?? 42`
   - key: features.optional_chaining
     t: 可选链 Optional Chaining
-  - key: features.optional_chaining.description
-    t: >
-      例子: `const dogName = adventurer.dog?.name`
   - key: features.private_fields
     t: 私有属性
-  - key: features.private_fields.description
-    t: >
-      例子: `class ClassWithPrivateField { #privateField }`
 
   # language
   - key: features.proxies
@@ -253,81 +238,6 @@ translations:
       Decorators 装饰器是一种将一段代码包装成另一段代码的方法。
   - key: features.dynamic_import
     t: 动态引入
-  - key: features.dynamic_import.description
-    t: >
-      例子: <code>await import('/modules/my-module.js')</code>
-  - key: features.promise_all_settled
-    t: Promise.allSettled()
-  - key: features.big_int
-    t: BigInt
-  - key: features.numeric_separators
-    t: Numeric Separators
-  - key: features.string_replace_all
-    t: String.prototype.replaceAll()
-  - key: features.string_match_all
-    t: String.prototype.matchAll()
-  - key: features.logical_assignment
-    t: Logical Assignment
-  - key: features.promise_any
-    t: Promise.any()
-  - key: features.array_at
-    t: Array.prototype.at()
-  - key: features.top_level_await
-    t: Top-Level Await
-  - key: features.intl
-    t: Intl
-  - key: features.custom_elements
-    t: Custom Elements
-  - key: features.shadow_dom
-    t: Shadow DOM
-  - key: features.page_visibility
-    t: Page Visibility API
-  - key: features.broadcast_channel
-    t: Broadcast Channel API
-  - key: features.geolocation
-    t: Geolocation API
-  - key: features.file_system_access
-    t: File System Access API
-  - key: features.web_share
-    t: Web Share API
-  - key: features.webxr
-    t: WebXR
-
-  # data structures
-  - key: features.maps
-    t: Maps
-  - key: features.sets
-    t: Sets
-  - key: features.typed_arrays
-    t: Typed Arrays
-  - key: array_prototype_flat
-    t: Array.prototype.flat
-
-  # browser apis
-  - key: features.service_workers
-    t: Service Workers
-  - key: features.local_storage
-    t: LocalStorage
-  - key: features.i18n
-    t: i18n
-  - key: features.web_components
-    t: Web Components
-  - key: features.web_audio
-    t: Web Audio API
-  - key: features.webgl
-    t: WebGL
-  - key: features.web_animations
-    t: Web Animations API
-  - key: features.webrtc
-    t: WebRTC
-  - key: features.web_speech
-    t: Web Speech API
-  - key: features.webvr
-    t: WebVR
-  - key: features.websocket
-    t: Websocket
-  - key: features.fetch
-    t: Fetch API
 
   # other features
   - key: features.pwa
