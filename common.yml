@@ -57,10 +57,10 @@ translations:
   - key: general.preview_survey
     t: 预览问卷 »
   - key: general.finish_survey
-    t: 完成问卷 »
+    t: 完成问卷
   - key: general.next_section
     t: 下一部分
-  - key: general.prev_section
+  - key: general.previous_section
     t: 上一部分
   - key: general.survey_closed
     t: 此问卷调查已结束。
