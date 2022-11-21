@@ -142,7 +142,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.js2021
       t: |
             <span class="first-line">与2016年相比，JavaScript 现在的状态要好得多</span>
             
@@ -157,7 +157,7 @@ translations:
             值得关注: 许多新进入者，如**Deno**、**Rome**、**Astro**、**Remix**，以及更多，现在都得到了风险投资支持公司的支持，这或许是脆弱的开源融资环境的可行替代方案。
 
             作为[Third Age of JavaScript](https://www.swyx.io/js-third-age/)进入第三个年头，有抱负的开源人士和创业者的机会继续展现，我很高兴看到未来几年会带来什么！
-    - key: conclusion.bio
+    - key: conclusion.js2021.bio
       t: Head of DX at Temporal
       
     ###########################################################################
