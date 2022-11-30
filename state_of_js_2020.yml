@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">尽</span>管2020年很糟糕，但 JavaScript 整体上仍然在设法向前发展。得益于像可选链(Optional Chaining)和空值合并运算符(Nullish Coalescing)这样的新特性，语言本身在不断改进，而 TypeScript 的广泛使用将静态类型化普及到了一个新的高度。 

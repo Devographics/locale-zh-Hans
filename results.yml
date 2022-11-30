@@ -540,7 +540,7 @@ translations:
     t: 对不起, 当前数据集不支持 CSV 导出。
   - key: export.graphql
     t: >
-      你可以在我们的公共 <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">public GraphQL API</a> 中复制粘贴此查询。
+      你可以在我们的公共 <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a> 中复制粘贴此查询。
   - key: export.export_json
     t: 获取JSON数据
   - key: export.export_graphql

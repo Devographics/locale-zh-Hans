@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
 
             忘记你对 CSS 过去的了解。或者至少，准备好重新考虑更多的特性。如果像我一样，你已经写了十多年的 CSS，那么 2020 年的 CSS 看起来和你过去习惯的完全不同。
