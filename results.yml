@@ -598,14 +598,14 @@ translations:
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: 图书馆评价排名
+    t: 工具库评价排名
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: 在评估新库时，你优先考虑哪些因素？结果按赢得的锦标赛轮数排列。
+    t: 在评估新工具库时，你优先考虑哪些因素？结果按赢得的锦标赛轮数排列。
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: 图书馆评估排名（配对）
+    t: 工具库评估排名（配对）
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: 在评估新库时，你优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
+    t: 在评估新工具库时，你优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
 
     ###########################################################################
     # Charts
@@ -953,67 +953,65 @@ translations:
   ###########################################################################
 
   - key: sections.sponsor_finish.title
-    t: Thanks
+    t: 谢谢
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      感谢您支持这项调查。您的头像将会在大约一个小时后出现在您选择的图表旁边。如果没有，请[联系我们](mailto:chartsponsor@stateofjs.com)。
 
   - key: sponsor.sponsored_by
     t: >
-      **{name}** donated **${amount}** to sponsor this chart
+      **{name}** 捐赠了 **${amount}** 以赞助本图表。
 
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: 赞助图表
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: 赞助图表 "{title}"
 
   - key: sponsor.sponsor_chart.description
     t: >
-      Support this survey financially by donating $10 or more, and get your
-      Twitter avatar featured next to a chart!
+      通过捐赠 10 美元或者更多，在经济上支持这项调查，你的推特头像就会出现在图表旁边！
 
   - key: sponsor.chart_id
-    t: "Chart ID: "
+    t: "图表 ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+)
+    t: 赞助本图表 (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: 详细流程
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+      1. 当您**点击 "赞助本图表" 按钮**后, 您将会被重定向到我们的合作伙伴 [SendOwl](https://www.sendowl.com/) 的结算页面。 
 
 
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+      2. 然后您就可以**调整**您想捐赠给这个调查的**金额**，10 美元起步。 
 
 
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
+      3. 一旦您结账了，就可以**提供您的推特用户名**了。
 
 
-      4. You will see a **File Download** page, but you can safely ignore it. 
+      4. 您将会看到一个**文件下载**页面，但您可以放心地忽略它。
 
 
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+      5. 网站将在后台重新构建，您的用户名和捐赠数目将在**一个小时内出现在图表旁边**。
 
   - key: sponsor.faq.title
     t: F.A.Q.
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: 我的捐款会被用在什么地方？
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: 您的捐款将有助于支持本调查的维护人员，并有助于雇佣更多贡献者（插画师，无障碍和多样性专家等）。
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: 我的捐款会被公开吗？
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: 会的，您的**推特用户名**会和**您捐赠的数目**一同展示在图表的旁边。
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -1022,19 +1020,19 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: 你们的退款政策是怎样的？
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees.
+    t: 所有的捐款都可以在 1 周内扣除交易费用后退回。
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: 捐赠是否会影响调查的内容？
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+    t: 捐赠是在调查结果公布后进行的，捐赠者对调查报告的内容没有任何影响。
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
+    t: 我可以在哪里留下反馈意见或提问题？
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: 您可以在 [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) 上或者在[我们的 Discord](https://discord.gg/tuWRUWVyJs) 来给予反馈。
