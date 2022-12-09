@@ -5,20 +5,20 @@ translations:
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: 2022年 CSS 生态最新趋势的年度调查。
 
   - key: general.css2022.js2022_banner
-    t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+    t: 2022 年的 JS 生态调查目前正在进行中， 您可以前往[这里参与](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
   - key: general.css2022.results_intro
     t: |
-      CSS keeps progressing at an unprecedented rate. Not only are we seeing new features and properties, but even the language's foundations are being retooled and improved thanks to innovations like nesting and cascade layers. 
+      CSS 正在以前所未有的速度发展。我们不仅看到了新的特性和属性，甚至语言的基础也通过嵌套和级联层的创新得到重新工具化和改进。
 
-      Luckily this year we got help from someone at the forefront of all these changes: W3C working group member [Lea Verou](https://lea.verou.me/) has selected this year's survey questions, with a special focus on highlighting new and upcoming CSS features. 
+      幸运的是，今年我们得到了一些人的帮助：W3C 工作组成员 [Lea Verou](https://lea.verou.me/) 挑选了今年的调查问题，特别关注了新的和即将推出的 CSS 特性。
 
-      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+      更重要的是，调查结果还将帮助浏览器厂商优先考虑它们的路线图，并努力提高浏览器之间的兼容性。
 
-      With all this out of the way, let's see how CSS evolved in 2022!
+      废话不多说，让我们看看 CSS 在 2022 年是如何发展的吧!
 
   ###########################################################################
   # Introduction
@@ -26,15 +26,15 @@ translations:
 
   - key: introduction.css2022
     t: |
-      <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
+      <span class="first-letter">我</span> 们认为，由于 Flexbox、Grid 和 CSS 变量等进步， CSS 已经发展成为一个相当强大的语言。但事实证明，这还不是它的最终形态。
 
-      Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
+      父选择器、原生嵌套、容器查询、级联层……当想到这些即将到来的开挂般的功能时是相当震惊的。
 
-      Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
+      幸运的是，我们有最好的导游可以帮助我们应对这些挑战：[Lea Verou](http://lea.verou.me/) 已经带头设计了今年的调查，希望调查结果将包括所有你应该了解的关键创新。
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
-      P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
+      P.S. 今年还有一个新功能：我们给受访者提供了对调查中提到的所有特性和工具库进行**评论**的功能！请务必在每个图表的侧边栏中查看这些评论。
 
   ###########################################################################
   # Tshirt
@@ -45,34 +45,34 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## 通过 State of CSS T恤来支持调查
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      在糟糕的视频质量、笨重的磁带和不得不倒带之间，VHS 时代并没有太多值得怀念的地方。 但我们*会*错过的一件事是 90 年代用于装饰空白 VHS 磁带的惊人视觉效果。
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      但是现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以享受所有这些复古的光芒，同时也庆祝你对 CSS 的热爱！
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: 关于T恤衫
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      我们使用高品质、超柔软的三重混纺衬衫，修身版型。
 
   - key: tshirt.getit
-    t: Get It
+    t: 买它
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: 29 美元
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: 关于设计师
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Chris 来自法国，现居美国，不仅是一位了不起的前端开发人员，还是一位擅长复古视觉的天才插画家。 事实上，我们鼓励你也看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
 
   ###########################################################################
   # Charts
@@ -101,26 +101,24 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: |
-      The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2022
+      Flexbox 的 `gap` 属性是非常有用的补充功能，它在 2022 年能获得 **{value}** 的提高完全不意外。
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_featured_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
+    t: 总共有 **{value}** 条评论提到，没有其他特性能带来像 SubGrid 这么多的反馈了。
 
   - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, CSS Modules is the only one that maintained a
-      sky-high **{value}** retention ratio.
+      在所有的 CSS-in-JS 解决方案中脱颖而出，CSS Modules 是唯一一个可以保持 **{value}** 这么极高保持率的。
 
   # - key: award.tool_interest_award.comment
   #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
   - key: award.most_write_ins_award.comment
     t: |
-      With **{value}** mentions, the Arc browser was the tool most mentioned in freeform questions by far.
+      Arc 浏览器有 **{value}** 次被提及，是迄今为止在自由提问中被提及最多的工具。
 
   ###########################################################################
   # Conclusion
@@ -128,18 +126,17 @@ translations:
 
   - key: conclusion.css2022
     t: |
-      <span class="first-line">[Last year](https://2021.stateofcss.com/en-US/conclusion/), Kilian predicted that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
+      <span class="first-line">[去年](https://2021.stateofcss.com/en-US/conclusion/)， Kilian 预言我们编写 CSS 的方式将永远改变，而今年的结果验证了他的预言。</span>
 
-      [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible. 
+      [Interop 2022](https://wpt.fyi/interop-2022) 将浏览器聚集在一起，为同一个目标而努力，有几个功能从 "永远不会发生 "变成了 "现在正在发生"。父选择器（:has()）和容器查询（@container）是其中的两个重磅功能。多年来，由于性能的影响，开发者们一直认为这些功能是不可能实现的，但事实证明，这两种功能都是可能的。
 
-      Subgrid on the other hand was always on the roadmap, it was just a very big chunk of work. It is now supported by both Firefox and Safari, and being actively implemented in Chrome, so we will probably see much higher usage next year.
+      另一方面，Subgrid 一直在推进了，它是一项非常大的任务。Firefox 和 Safari 已经支持了，Chrome 也在积极实现中，所以我们明年可能会看到更高的使用率。
 
-      I predict that the stars of 2023 will be native Nesting, and color manipulation.
-      Nesting is currently [the primary reason](https://twitter.com/leaverou/status/806936438797307904) people still use preprocessors, so being able to rely on it natively will be incredibly freeing. 
+      我预测，2023 年的明星功能将是原生嵌套和颜色处理。目前，嵌套是人们仍在使用预处理器的[主要原因](https://twitter.com/leaverou/status/806936438797307904)，因此，能够在原生 CSS 中使用它将是绝佳的体验。
 
-      Working with color in CSS is also about to get a lot more exciting. There is a swath of features being implemented across the board as we speak. By the end of 2023, we will probably be able to rely on wide gamut colors and device independent colors (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), and we'd be able to manipulate them in a basic way through `color-mix()`. 
+      在 CSS 中和颜色打交道也将变得更加令人兴奋。就在我们聊天的时候，有一大波功能正在被实现了。到2023年底，我们可能就能用上广色域颜色和设备独立颜色 (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`)，并且我们能够通过 color-mix() 对它们进行基本操作。
 
-      All of this together means that 2023 is likely to be a very exciting year for CSS. I look forward to all the amazing implementations to come, whether my predictions turn out to be correct or not. What a fantastic time to be writing CSS!
+      所有这些都意味着 2023 年对 CSS 来说可能是非常激动人心的一年。不管我的预测是否正确，我都期待着即将到来的所有令人赞叹的实现。这是个写 CSS 体验很棒的时代！
 
   - key: conclusion.css2022.bio
     t: W3C Technical Architecture Group Member, MIT CSAIL
