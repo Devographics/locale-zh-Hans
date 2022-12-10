@@ -146,105 +146,90 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "我的 2022 精选是："
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: 我们请了 CSS 社区的成员来分享他们的 "年度精选"。
 
   - key: picks.david_east.name
     t: CSS Subgrid
   - key: picks.david_east.bio
-    t: Advocate for building on the web
+    t: 构建 Web 的倡导者
   - key: picks.david_east.description
     t: |
-      CSS Subgrid allows child elements to inherit their parents grid properties. 
-      Soon, it will be much easier to lay elements out to the same grid 
-      lines across the entire page.
+      CSS Subgrid 允许子元素继承其父元素的网格属性。不久后，在整个页面上将元素以相同的网格线布局就会容易得多。
 
   - key: picks.bramus_van_damme.name
-    t: The `:has()` Selector
+    t: `:has()` 选择器
   - key: picks.bramus_van_damme.bio
-    t: Chrome Developer Relations Engineer at Google
+    t: Google Chrome 开发者关系工程师
   - key: picks.bramus_van_damme.description
     t: |
-      You might know this one as the so-called “parent selector” but that name does it 
-      no justice as it only covers a small part of what it can do. 
-      This selector has essentially changed the way I write my CSS.
+      你可能会称之为“父选择器”，但这个名字不完全对，因为它只包括 `:has()` 选择器的一小部分功能。这个选择器实质上改变了我编写 CSS 的方式。
 
   - key: picks.kevin_j_powell.name
     t: Jhey Tompkins
   - key: picks.kevin_j_powell.bio
-    t: CSS Evangelist
+    t: CSS 布道师
   - key: picks.kevin_j_powell.description
     t: |
-      Jhey is always pushing the limits of what we can do with CSS with 
-      fun and impressive demos and Codepens. With all the new features landing in CSS recently, 
-      Jhey is at the forefront of explaining how they work.
+      Jhey 总是通过有趣和令人印象深刻的演示和 Codepen 来提高我们使用 CSS 的上限。
+      随着最近所有新的 CSS 功能的推出，Jhey 正处于解释它们运行原理的最前沿。
 
   - key: picks.samuel_kraft.name
-    t: The `:has()` Selector
+    t: `:has()` 选择器
   - key: picks.samuel_kraft.bio
-    t: Design Engineer
+    t: 设计工程师
   - key: picks.samuel_kraft.description
     t: |
-      The new :has() selector is super powerful and unlocks new styling possibilities. 
-      This great article from Jen Simmons breaks it down with explanations and practical examples.
+      新的 :has() 选择器非常强大，为编写样式解锁了新的可能性。Jen Simmons 的文章通过解释和实际例子对其进行了分解。
 
   - key: picks.josh_comeau.name
     t: Modern CSS
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: 软件开发者/教育家
   - key: picks.josh_comeau.description
     t: |
-      CSS has changed so much over the past few years. 
-      Stephanie shows us how to leverage modern CSS features 
-      to solve old problems in new ways.
+    在过去这些年里，CSS 改变了许多。Stephanie 向我们展示了如何利用现代的 CSS 功能以新的方式解决老问题。
 
   - key: picks.adam_argyle.name
-    t: The `:has()` Selector
+    t: `:has()` 选择器
   - key: picks.adam_argyle.bio
-    t: UI/CSS DevRel at Google
+    t: Google 的 UI/CSS 开发者关系工程师
   - key: picks.adam_argyle.description
     t: |
-      CSS just because even stronger at orchestrating UI interaction across components. 
-      We've barely scratched the surface of the impact of `:has()` on our styles.
+      CSS 在跨组件协调 UI 交互方面变得更强大。我们几乎没有涉及 `:has()` 对样式的影响。
 
   - key: picks.eric_w_bailey.name
-    t: “Style with Stateful, Semantic Selectors” by Ben Myers
+    t: Ben Myers 的 “Style with Stateful, Semantic Selectors”
   - key: picks.eric_w_bailey.bio
-    t: Accessibility advocate and CSS nerd
+    t: 可访问性倡导者和 CSS 痴迷者
   - key: picks.eric_w_bailey.description
     t: |
-      Ben demonstrates how utilizing ARIA 
-      attribute selectors can simply and powerfully tie appearance to state.
+      Ben 展示了如何利用 ARIA 属性选择器简单而强大地将外观与状态联系起来。
 
   - key: picks.michelle_barker.name
     t: Interop 2022
   - key: picks.michelle_barker.bio
-    t: Writer and creator of front-end blog CSS { In Real Life }
+    t: 前端博客 CSS { In Real Life } 的编辑和创作者
   - key: picks.michelle_barker.description
     t: |
-      Interop is a collaboration between all of the major browser vendors, 
-      agreeing 15 key areas of focus for implementation — 
-      including game-changing new CSS features like container queries, 
-      cascade layers and color functions.
+      Interop 是所有主要浏览器厂商之间的合作，在 15 个重点实施领域达成一致——包括容器查询、级联层和颜色函数等改变游戏规则的新 CSS 功能。
 
   - key: picks.gift_egwuenu.name
     t: Learn CSS
   - key: picks.gift_egwuenu.bio
-    t: Developer Advocate at Cloudflare
+    t: Cloudflare 的开发者代表
   - key: picks.gift_egwuenu.description
     t: |
-      My recommended resource for anyone looking to learn CSS from the ground up, 
-      I also use it as a reference everytime I need to look up any CSS property.
+      我向任何想从头开始学习 CSS 的人推荐这个资源。每当我需要查询任何 CSS 属性时，我也会用它作为参考。
 
   - key: picks.ahmad_shadeed.name
-    t: Container Queries
+    t: Container Queries（容器查询）
   - key: picks.ahmad_shadeed.bio
-    t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    t: [Debugging CSS](https://debuggingcss.com/) 的作者, 在 [ishadeed.com](http://ishadeed.com) 发表文章
   - key: picks.ahmad_shadeed.description
     t: |
-      If I would pick one highlight for 2022, it's container queries! 
-      They are finally here in stable browser near you
+      如果我要为 2022 年选择一个亮点，那一定是容器查询！它终于在稳定的浏览器中出现了。
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -254,34 +239,29 @@ translations:
   #   t: |
 
   - key: picks.jen_simmons.name
-    t: The `:has()` Selector
+    t: `:has()` 选择器
   - key: picks.jen_simmons.bio
-    t: Web technologies evangelist at Apple
+    t: Apple 的 Web 科技布道师
   - key: picks.jen_simmons.description
     t: |
-      For two decades, “parent selector” was a top requested feature for CSS. 
-      Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+      二十年来，“父选择器”一直是 CSS 最需要的功能。然后在 2022 年，完全出人意料地，:has() 伪类来解决了这个问题，而且还解决了更多的问题。
 
   - key: picks.sara_soueidan.name
-    t: The `:has()` Selector
+    t: `:has()` 选择器
   - key: picks.sara_soueidan.bio
-    t: Independent inclusive design engineer
+    t: 独立设计工程师
   - key: picks.sara_soueidan.description
     t: |
-      We've been wishing and waiting for CSS container queries for so long. 
-      But then `:has()` arrived shortly after, 
-      and it felt like it was "everything we never knew we always wanted".
+      我们对 CSS 容器查询的希望和等待已经很长时间了。但不久之后，`:has()` 就到来了，感觉就像它是“我们从不知道我们一直想要的东西“。
 
   - key: picks.adam_wathan.name
-    t: Empty CSS Variables
+    t: 空 CSS 变量
   - key: picks.adam_wathan.bio
-    t: Creator of Tailwind CSS
+    t: Tailwind CSS 作者
   - key: picks.adam_wathan.description
     t: |
-      Not many people know this but `--my-var: ;` is totally valid CSS, 
-      and it's way more useful than you think. 
-      We use it in Tailwind CSS all the time to make it 
-      possible to decompose a single CSS property into multiple classes.
+      不是很多人知道，但 `--my-var: ;` 是完全符合标准的CSS，而且它比你想的更有用。
+      我们经常在 Tailwind CSS 中使用它，使其可以将单个 CSS 属性分解为多个类。
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -292,14 +272,11 @@ translations:
   - key: picks.kilian_valkhof.name
     t: Interop 2022
   - key: picks.kilian_valkhof.bio
-    t: Web developer and creator of Polypane
+    t: Web 开发者/Polypane 的创始人
   - key: picks.kilian_valkhof.description
     t: |
-      Started in 2021 as Compat 2021, browser engine makers 
-      have started coordinating which features they prioritize. 
-      Not only is this closing the various feature gaps that exist 
-      between between browsers, it's also increasing the speed with which new 
-      features like @layer lands across browsers.
+      在 2021 年以 Compat 2021 开始，浏览器引擎制造商们已经开始协商他们优先考虑哪些功能。
+      这不仅缩小了浏览器之间存在的各种功能差距，还加快了 `@layer` 等新功能在浏览器中的推出速度。
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -353,13 +330,13 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: 通过深入、现代的前端工程课程提升您的技能。
   - key: sponsors.nijibox.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: 给有志之士的准备的浏览器，轻松建立响应性、可访问性和快速的网站。
   - key: sponsors.renderatl.description
     t: The largest tech conference with a dedicated Design & CSS track.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: 感谢 Google Chrome 团队支持我们的工作。
 
   ###########################################################################
   # FAQ/About
@@ -367,62 +344,62 @@ translations:
 
   - key: about.content
     t: >
-      The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      2022 年 CSS 生态调查从 2022 年 10 月 1 日开始到 11 月 1 日结束，共收集到 14310 份回复。 该调查由我 [Sacha Greif](https://sachagreif.com/) 负责，并得到一个开源贡献者和顾问团队的帮助。
 
-      This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      今年的标志和T恤是重复使用的，去年的标志和T恤是由 [Christopher Kirk-Nielsen]（http://chriskirknielsen.com/）设计和制作的。
 
-      ### Survey Goals
+      ### 调查目标
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+     这项调查，连同 [JavaScript 生态调查](https://stateofjs.com/) 一起，旨在嗅探 Web 开发生态系统中的未来趋势，以帮助开发人员做出技术选择。
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      因此，这些调查的重点是预测未来几年的发展，而不是分析现在流行的东西，这就是为什么目前最普遍的功能或技术并不总是包括在内。
 
-      Aditionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+      此外，调查数据也被浏览器厂商用于优先考虑功能并通知诸如 [Interop 2022](https://wpt.fyi/interop-2022) 的倡议。
 
-      ### Survey Design
+      ### 调查设计
 
-      This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
+      今年，调查设计由 [Lea Verou](https://lea.verou.me/) 领导，感谢 Google Chrome 团队的资助，并在 [GitHub上](https://github.com/orgs/Devographics/projects/1)公开管理。 所有调查问题都是可选的。
 
-      Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
+      此外，今后我们还将通过[工作组邮件列表](https://www.devographics.com/working-group/)协调调查的设计、审查和反馈。
 
-      ### Survey Audience
+      ### 调查对象
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      该调查在网上公开进行，受访者没有经过任何过滤或筛选。受访者主要是过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量的结合。
 
-      ### Project Funding
+      ### 项目资金
 
-      Funding from this project comes from a variety of sources:
+      这个项目的资金来自于以下渠道：
 
-      - **T-shirt sales**. 
+      - **T恤销售**。
 
-      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **赞助链接**: 每页底部的推荐资源链接是由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供的。
 
-      - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+      - **图标赞助**: 从去年开始，任何人都可以选择直接为一个图表赞助 10 美元或更多，并在它旁边显示他们的 Twitter 头像。
 
-      - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+      - **Google**: 今年，[Google Chrome](https://www.google.com/chrome/) 团队拨出预算，聘请 Lea 帮助设计调查，并直接资助我，帮助支持我的工作。
 
-      - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
+      - **Nijibox**: 总部位于日本的 [Nijibox](https://nijibox.jp/) 也选择了赞助我，以帮助使这些年度调查更加长久。
 
-      ### Technical Overview
+      ### 技术概览
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+       你可以在[这里](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)找到关于这些调查是如何运作的更深入的技术概述。 我们的代码是[开源](https://github.com/Devographics/Monorepo/) 的.。
 
-      - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
+      - **数据收集**： 部署在 [Vercel](https://vercel.com/) 的 [Next.js](https://nextjs.org/) 应用。
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
+      - **数据存储/处理**： 运行在 [MongoDB Atlas](https://cloud.mongodb.com/) 上的 MongoDB 和 MongoDB 聚合。
 
-      - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
+      - **数据 API**： 运行在 [Render](https://render.com/) 的 Node.js GraphQL API
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
+      - **调查结果网站**: 运行在 [Netlify](https://netlify.com/) 上的 [Gatsby](https://www.gatsbyjs.com/) React 应用。
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **数据可视化**: [Nivo](https://nivo.rocks/) React 的数据可视化工具库. 
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **字体**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
 
-      ### Feedback
+      ### 反馈
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
-      - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
+      - [报告技术问题](https://github.com/Devographics/Monorepo/issues)
+      - [给明年留个建议](https://github.com/Devographics/surveys/issues/66)
+      - [其他非技术的问题](https://github.com/Devographics/surveys/issues)
+      - [加入我们的 Discord](https://discord.gg/tuWRUWVyJs)
+      - [加入 Devographics 工作组](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
