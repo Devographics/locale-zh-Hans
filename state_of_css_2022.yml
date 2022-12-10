@@ -1,405 +1,405 @@
 locale: zh-Hans
 translations:
-  ###########################################################################
-  # General
-  ###########################################################################
+    ###########################################################################
+    # General
+    ###########################################################################
 
-  - key: general.results.description
-    t: 2022年 CSS 生态最新趋势的年度调查。
+    - key: general.results.description
+        t: 2022年 CSS 生态最新趋势的年度调查。
 
-  - key: general.css2022.js2022_banner
-    t: 2022 年的 JS 生态调查目前正在进行中， 您可以前往[这里参与](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+    - key: general.css2022.js2022_banner
+        t: 2022 年的 JS 生态调查目前正在进行中， 您可以前往[这里参与](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
-  - key: general.css2022.results_intro
-    t: |
-      CSS 正在以前所未有的速度发展。我们不仅看到了新的特性和属性，甚至语言的基础也通过嵌套和级联层的创新得到重新工具化和改进。
+    - key: general.css2022.results_intro
+        t: |
+            CSS 正在以前所未有的速度发展。我们不仅看到了新的特性和属性，甚至语言的基础也通过嵌套和级联层的创新得到重新工具化和改进。
 
-      幸运的是，今年我们得到了一些人的帮助：W3C 工作组成员 [Lea Verou](https://lea.verou.me/) 挑选了今年的调查问题，特别关注了新的和即将推出的 CSS 特性。
+            幸运的是，今年我们得到了一些人的帮助：W3C 工作组成员 [Lea Verou](https://lea.verou.me/) 挑选了今年的调查问题，特别关注了新的和即将推出的 CSS 特性。
 
-      更重要的是，调查结果还将帮助浏览器厂商优先考虑它们的路线图，并努力提高浏览器之间的兼容性。
+            更重要的是，调查结果还将帮助浏览器厂商优先考虑它们的路线图，并努力提高浏览器之间的兼容性。
 
-      废话不多说，让我们看看 CSS 在 2022 年是如何发展的吧!
+            废话不多说，让我们看看 CSS 在 2022 年是如何发展的吧!
 
-  ###########################################################################
-  # Introduction
-  ###########################################################################
+    ###########################################################################
+    # Introduction
+    ###########################################################################
 
-  - key: introduction.css2022
-    t: |
-      <span class="first-letter">我</span> 们认为，由于 Flexbox、Grid 和 CSS 变量等进步， CSS 已经发展成为一个相当强大的语言。但事实证明，这还不是它的最终形态。
+    - key: introduction.css2022
+        t: |
+            <span class="first-letter">我</span> 们认为，由于 Flexbox、Grid 和 CSS 变量等进步， CSS 已经发展成为一个相当强大的语言。但事实证明，这还不是它的最终形态。
 
-      父选择器、原生嵌套、容器查询、级联层……当想到这些即将到来的开挂般的功能时是相当震惊的。
+            父选择器、原生嵌套、容器查询、级联层……当想到这些即将到来的开挂般的功能时是相当震惊的。
 
-      幸运的是，我们有最好的导游可以帮助我们应对这些挑战：[Lea Verou](http://lea.verou.me/) 已经带头设计了今年的调查，希望调查结果将包括所有你应该了解的关键创新。
+            幸运的是，我们有最好的导游可以帮助我们应对这些挑战：[Lea Verou](http://lea.verou.me/) 已经带头设计了今年的调查，希望调查结果将包括所有你应该了解的关键创新。
 
-      <span class="conclusion__byline">– Sacha Greif</span>
+            <span class="conclusion__byline">– Sacha Greif</span>
 
-      P.S. 今年还有一个新功能：我们给受访者提供了对调查中提到的所有特性和工具库进行**评论**的功能！请务必在每个图表的侧边栏中查看这些评论。
+            P.S. 今年还有一个新功能：我们给受访者提供了对调查中提到的所有特性和工具库进行**评论**的功能！请务必在每个图表的侧边栏中查看这些评论。
 
-  ###########################################################################
-  # Tshirt
-  ###########################################################################
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
 
-  - key: sections.tshirt.title
-    t: T-shirt
+    - key: sections.tshirt.title
+        t: T-shirt
 
-  - key: sections.tshirt.description
-    t: |
-      ## 通过 State of CSS T恤来支持调查
+    - key: sections.tshirt.description
+        t: |
+          ## 通过 State of CSS T恤来支持调查
 
-      在糟糕的视频质量、笨重的磁带和不得不倒带之间，VHS 时代并没有太多值得怀念的地方。 但我们*会*错过的一件事是 90 年代用于装饰空白 VHS 磁带的惊人视觉效果。
+          在糟糕的视频质量、笨重的磁带和不得不倒带之间，VHS 时代并没有太多值得怀念的地方。 但我们*会*错过的一件事是 90 年代用于装饰空白 VHS 磁带的惊人视觉效果。
 
-      但是现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以享受所有这些复古的光芒，同时也庆祝你对 CSS 的热爱！
+          但是现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以享受所有这些复古的光芒，同时也庆祝你对 CSS 的热爱！
 
-  - key: tshirt.about
-    t: 关于T恤衫
+    - key: tshirt.about
+        t: 关于T恤衫
 
-  - key: tshirt.description
-    t: |
-      我们使用高品质、超柔软的三重混纺衬衫，修身版型。
+    - key: tshirt.description
+        t: |
+          我们使用高品质、超柔软的三重混纺衬衫，修身版型。
 
-  - key: tshirt.getit
-    t: 买它
+    - key: tshirt.getit
+        t: 买它
 
-  - key: tshirt.price
-    t: 29 美元
+    - key: tshirt.price
+        t: 29 美元
 
-  - key: tshirt.designer.heading
-    t: 关于设计师
+    - key: tshirt.designer.heading
+        t: 关于设计师
 
-  - key: tshirt.designer.name
-    t: Christopher Kirk-Nielsen
+    - key: tshirt.designer.name
+        t: Christopher Kirk-Nielsen
 
-  - key: tshirt.designer.bio
-    t: |
-      Chris 来自法国，现居美国，不仅是一位了不起的前端开发人员，还是一位擅长复古视觉的天才插画家。 事实上，我们鼓励你也看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
+    - key: tshirt.designer.bio
+        t: |
+          Chris 来自法国，现居美国，不仅是一位了不起的前端开发人员，还是一位擅长复古视觉的天才插画家。 事实上，我们鼓励你也看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
 
-  ###########################################################################
-  # Charts
-  ###########################################################################
+    ###########################################################################
+    # Charts
+    ###########################################################################
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
-  - key: options.features_categories.colors
-    aliasFor: sections.colors.title
-  - key: options.features_categories.selectors
-    aliasFor: sections.selectors.title
+    - key: options.features_categories.layout
+        aliasFor: sections.layout.title
+    - key: options.features_categories.shapes_graphics
+        aliasFor: sections.shapes_graphics.title
+    - key: options.features_categories.interactions
+        aliasFor: sections.interactions.title
+    - key: options.features_categories.typography
+        aliasFor: sections.typography.title
+    - key: options.features_categories.accessibility
+        aliasFor: sections.accessibility.title
+    - key: options.features_categories.other_features
+        aliasFor: sections.other_features.title
+    - key: options.features_categories.colors
+        aliasFor: sections.colors.title
+    - key: options.features_categories.selectors
+        aliasFor: sections.selectors.title
 
-  ###########################################################################
-  # Awards
-  ###########################################################################
-
-  - key: award.feature_adoption_delta_award.comment
-    t: |
-      Flexbox 的 `gap` 属性是非常有用的补充功能，它在 2022 年能获得 **{value}** 的提高完全不意外。
-
-  # - key: award.tool_usage_delta_award.comment
-  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
-
-  - key: award.most_commented_featured_award.comment
-    t: 总共有 **{value}** 条评论提到，没有其他特性能带来像 SubGrid 这么多的反馈了。
-
-  - key: award.tool_satisfaction_award.comment
-    t: |
-      在所有的 CSS-in-JS 解决方案中脱颖而出，CSS Modules 是唯一一个可以保持 **{value}** 这么极高保持率的。
-
-  # - key: award.tool_interest_award.comment
-  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
-
-  - key: award.most_write_ins_award.comment
-    t: |
-      Arc 浏览器有 **{value}** 次被提及，是迄今为止在自由提问中被提及最多的工具。
-
-  ###########################################################################
-  # Conclusion
-  ###########################################################################
-
-  - key: conclusion.css2022
-    t: |
-      <span class="first-line">[去年](https://2021.stateofcss.com/en-US/conclusion/)， Kilian 预言我们编写 CSS 的方式将永远改变，而今年的结果验证了他的预言。</span>
-
-      [Interop 2022](https://wpt.fyi/interop-2022) 将浏览器聚集在一起，为同一个目标而努力，有几个功能从 "永远不会发生 "变成了 "现在正在发生"。父选择器（:has()）和容器查询（@container）是其中的两个重磅功能。多年来，由于性能的影响，开发者们一直认为这些功能是不可能实现的，但事实证明，这两种功能都是可能的。
-
-      另一方面，Subgrid 一直在推进了，它是一项非常大的任务。Firefox 和 Safari 已经支持了，Chrome 也在积极实现中，所以我们明年可能会看到更高的使用率。
-
-      我预测，2023 年的明星功能将是原生嵌套和颜色处理。目前，嵌套是人们仍在使用预处理器的[主要原因](https://twitter.com/leaverou/status/806936438797307904)，因此，能够在原生 CSS 中使用它将是绝佳的体验。
-
-      在 CSS 中和颜色打交道也将变得更加令人兴奋。就在我们聊天的时候，有一大波功能正在被实现了。到2023年底，我们可能就能用上广色域颜色和设备独立颜色 (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`)，并且我们能够通过 color-mix() 对它们进行基本操作。
-
-      所有这些都意味着 2023 年对 CSS 来说可能是非常激动人心的一年。不管我的预测是否正确，我都期待着即将到来的所有令人赞叹的实现。这是个写 CSS 体验很棒的时代！
-
-  - key: conclusion.css2022.bio
-    t: W3C Technical Architecture Group Member, MIT CSAIL
-
-  ###########################################################################
-  # Picks
-  ###########################################################################
-
-  - key: picks.my_pick
-    t: "我的 2022 精选是："
-  - key: picks.intro
-    t: 我们请了 CSS 社区的成员来分享他们的 "年度精选"。
-
-  - key: picks.david_east.name
-    t: CSS Subgrid
-  - key: picks.david_east.bio
-    t: 构建 Web 的倡导者
-  - key: picks.david_east.description
-    t: |
-      CSS Subgrid 允许子元素继承其父元素的网格属性。不久后，在整个页面上将元素以相同的网格线布局就会容易得多。
-
-  - key: picks.bramus_van_damme.name
-    t: `:has()` 选择器
-  - key: picks.bramus_van_damme.bio
-    t: Google Chrome 开发者关系工程师
-  - key: picks.bramus_van_damme.description
-    t: |
-      你可能会称之为“父选择器”，但这个名字不完全对，因为它只包括 `:has()` 选择器的一小部分功能。这个选择器实质上改变了我编写 CSS 的方式。
-
-  - key: picks.kevin_j_powell.name
-    t: Jhey Tompkins
-  - key: picks.kevin_j_powell.bio
-    t: CSS 布道师
-  - key: picks.kevin_j_powell.description
-    t: |
-      Jhey 总是通过有趣和令人印象深刻的演示和 Codepen 来提高我们使用 CSS 的上限。
-      随着最近所有新的 CSS 功能的推出，Jhey 正处于解释它们运行原理的最前沿。
-
-  - key: picks.samuel_kraft.name
-    t: `:has()` 选择器
-  - key: picks.samuel_kraft.bio
-    t: 设计工程师
-  - key: picks.samuel_kraft.description
-    t: |
-      新的 :has() 选择器非常强大，为编写样式解锁了新的可能性。Jen Simmons 的文章通过解释和实际例子对其进行了分解。
-
-  - key: picks.josh_comeau.name
-    t: Modern CSS
-  - key: picks.josh_comeau.bio
-    t: 软件开发者/教育家
-  - key: picks.josh_comeau.description
-    t: |
-    在过去这些年里，CSS 改变了许多。Stephanie 向我们展示了如何利用现代的 CSS 功能以新的方式解决老问题。
-
-  - key: picks.adam_argyle.name
-    t: `:has()` 选择器
-  - key: picks.adam_argyle.bio
-    t: Google 的 UI/CSS 开发者关系工程师
-  - key: picks.adam_argyle.description
-    t: |
-      CSS 在跨组件协调 UI 交互方面变得更强大。我们几乎没有涉及 `:has()` 对样式的影响。
-
-  - key: picks.eric_w_bailey.name
-    t: Ben Myers 的 “Style with Stateful, Semantic Selectors”
-  - key: picks.eric_w_bailey.bio
-    t: 可访问性倡导者和 CSS 痴迷者
-  - key: picks.eric_w_bailey.description
-    t: |
-      Ben 展示了如何利用 ARIA 属性选择器简单而强大地将外观与状态联系起来。
-
-  - key: picks.michelle_barker.name
-    t: Interop 2022
-  - key: picks.michelle_barker.bio
-    t: 前端博客 CSS { In Real Life } 的编辑和创作者
-  - key: picks.michelle_barker.description
-    t: |
-      Interop 是所有主要浏览器厂商之间的合作，在 15 个重点实施领域达成一致——包括容器查询、级联层和颜色函数等改变游戏规则的新 CSS 功能。
-
-  - key: picks.gift_egwuenu.name
-    t: Learn CSS
-  - key: picks.gift_egwuenu.bio
-    t: Cloudflare 的开发者代表
-  - key: picks.gift_egwuenu.description
-    t: |
-      我向任何想从头开始学习 CSS 的人推荐这个资源。每当我需要查询任何 CSS 属性时，我也会用它作为参考。
-
-  - key: picks.ahmad_shadeed.name
-    t: Container Queries（容器查询）
-  - key: picks.ahmad_shadeed.bio
-    t: [Debugging CSS](https://debuggingcss.com/) 的作者, 在 [ishadeed.com](http://ishadeed.com) 发表文章
-  - key: picks.ahmad_shadeed.description
-    t: |
-      如果我要为 2022 年选择一个亮点，那一定是容器查询！它终于在稳定的浏览器中出现了。
-
-  # - key: picks.georgedoescode.name
-  #   t:
-  # - key: picks.georgedoescode.bio
-  #   t:
-  # - key: picks.georgedoescode.description
-  #   t: |
-
-  - key: picks.jen_simmons.name
-    t: `:has()` 选择器
-  - key: picks.jen_simmons.bio
-    t: Apple 的 Web 科技布道师
-  - key: picks.jen_simmons.description
-    t: |
-      二十年来，“父选择器”一直是 CSS 最需要的功能。然后在 2022 年，完全出人意料地，:has() 伪类来解决了这个问题，而且还解决了更多的问题。
-
-  - key: picks.sara_soueidan.name
-    t: `:has()` 选择器
-  - key: picks.sara_soueidan.bio
-    t: 独立设计工程师
-  - key: picks.sara_soueidan.description
-    t: |
-      我们对 CSS 容器查询的希望和等待已经很长时间了。但不久之后，`:has()` 就到来了，感觉就像它是“我们从不知道我们一直想要的东西“。
-
-  - key: picks.adam_wathan.name
-    t: 空 CSS 变量
-  - key: picks.adam_wathan.bio
-    t: Tailwind CSS 作者
-  - key: picks.adam_wathan.description
-    t: |
-      不是很多人知道，但 `--my-var: ;` 是完全符合标准的CSS，而且它比你想的更有用。
-      我们经常在 Tailwind CSS 中使用它，使其可以将单个 CSS 属性分解为多个类。
-
-  # - key: picks.christianoliff.bio
-  #   t: Front-end developer for Trimble MAPS
-  # - key: picks.christianoliff.description
-  #   t: |
-  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
-
-  - key: picks.kilian_valkhof.name
-    t: Interop 2022
-  - key: picks.kilian_valkhof.bio
-    t: Web 开发者/Polypane 的创始人
-  - key: picks.kilian_valkhof.description
-    t: |
-      在 2021 年以 Compat 2021 开始，浏览器引擎制造商们已经开始协商他们优先考虑哪些功能。
-      这不仅缩小了浏览器之间存在的各种功能差距，还加快了 `@layer` 等新功能在浏览器中的推出速度。
-
-  # - key: picks.piccalilli_.bio
-  #   t: Freelance designer & dev who runs piccalil.li
-  # - key: picks.piccalilli_.description
-  #   t: |
-  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-  # - key: picks.piccalilli_.bio
-  #   t: Freelance designer & dev who runs piccalil.li
-  # - key: picks.piccalilli_.description
-  #   t: |
-  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-  # - key: picks.sarasoueidan.bio
-  #   t: Independent UI/design engineer
-  # - key: picks.sarasoueidan.description
-  #   t: |
-  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
-
-  # - key: picks.5t3ph.bio
-  #   t: Software Engineer @ Microsoft
-  # - key: picks.5t3ph.description
-  #   t: |
-  #       In this conference talk, Manuel Matuzovic provides thoughtfully
-  #       crafted examples that are engaging, approachable, and actionable.
-
-  # - key: picks.hugogiraudel.bio
-  #   t: Non-binary accessibility & diversity advocate
-  # - key: picks.hugogiraudel.description
-  #   t: |
-  #       Fela is an amazing piece of software.
-  #       It’s pretty powerful, relatively easy to use and very performant
-
-  # - key: picks.foolip.bio
-  #   t: Software Engineer @ Google
-  # - key: picks.foolip.description
-  #   t: |
-  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
-  #       notably bringing flex gap to WebKit,
-  #       which means that soon it will be available on all modern browsers.
-
-  # - key: picks.jina.bio
-  #   t: Design systems advocate and practitioner
-  # - key: picks.jina.description
-  #   t: |
-  #       The media query to reduce motion, which helps avoid
-  #       triggering dizziness and discomfort.
-
-  ###########################################################################
-  # Sponsors
-  ###########################################################################
-
-  - key: sponsors.frontendmasters.description
-    t: 通过深入、现代的前端工程课程提升您的技能。
-  - key: sponsors.nijibox.description
-    t: 给有志之士的准备的浏览器，轻松建立响应性、可访问性和快速的网站。
-  - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
-  - key: sponsors.google_chrome.description
-    t: 感谢 Google Chrome 团队支持我们的工作。
-
-  ###########################################################################
-  # FAQ/About
-  ###########################################################################
-
-  - key: about.content
-    t: >
-      2022 年 CSS 生态调查从 2022 年 10 月 1 日开始到 11 月 1 日结束，共收集到 14310 份回复。 该调查由我 [Sacha Greif](https://sachagreif.com/) 负责，并得到一个开源贡献者和顾问团队的帮助。
-
-      今年的标志和T恤是重复使用的，去年的标志和T恤是由 [Christopher Kirk-Nielsen]（http://chriskirknielsen.com/）设计和制作的。
-
-      ### 调查目标
-
-     这项调查，连同 [JavaScript 生态调查](https://stateofjs.com/) 一起，旨在嗅探 Web 开发生态系统中的未来趋势，以帮助开发人员做出技术选择。
-
-      因此，这些调查的重点是预测未来几年的发展，而不是分析现在流行的东西，这就是为什么目前最普遍的功能或技术并不总是包括在内。
-
-      此外，调查数据也被浏览器厂商用于优先考虑功能并通知诸如 [Interop 2022](https://wpt.fyi/interop-2022) 的倡议。
-
-      ### 调查设计
-
-      今年，调查设计由 [Lea Verou](https://lea.verou.me/) 领导，感谢 Google Chrome 团队的资助，并在 [GitHub上](https://github.com/orgs/Devographics/projects/1)公开管理。 所有调查问题都是可选的。
-
-      此外，今后我们还将通过[工作组邮件列表](https://www.devographics.com/working-group/)协调调查的设计、审查和反馈。
-
-      ### 调查对象
-
-      该调查在网上公开进行，受访者没有经过任何过滤或筛选。受访者主要是过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量的结合。
-
-      ### 项目资金
-
-      这个项目的资金来自于以下渠道：
-
-      - **T恤销售**。
-
-      - **赞助链接**: 每页底部的推荐资源链接是由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供的。
-
-      - **图标赞助**: 从去年开始，任何人都可以选择直接为一个图表赞助 10 美元或更多，并在它旁边显示他们的 Twitter 头像。
-
-      - **Google**: 今年，[Google Chrome](https://www.google.com/chrome/) 团队拨出预算，聘请 Lea 帮助设计调查，并直接资助我，帮助支持我的工作。
-
-      - **Nijibox**: 总部位于日本的 [Nijibox](https://nijibox.jp/) 也选择了赞助我，以帮助使这些年度调查更加长久。
-
-      ### 技术概览
-
-       你可以在[这里](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)找到关于这些调查是如何运作的更深入的技术概述。 我们的代码是[开源](https://github.com/Devographics/Monorepo/) 的.。
-
-      - **数据收集**： 部署在 [Vercel](https://vercel.com/) 的 [Next.js](https://nextjs.org/) 应用。
-
-      - **数据存储/处理**： 运行在 [MongoDB Atlas](https://cloud.mongodb.com/) 上的 MongoDB 和 MongoDB 聚合。
-
-      - **数据 API**： 运行在 [Render](https://render.com/) 的 Node.js GraphQL API
-
-      - **调查结果网站**: 运行在 [Netlify](https://netlify.com/) 上的 [Gatsby](https://www.gatsbyjs.com/) React 应用。
-
-      - **数据可视化**: [Nivo](https://nivo.rocks/) React 的数据可视化工具库. 
-
-      - **字体**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
-
-      ### 反馈
-
-      - [报告技术问题](https://github.com/Devographics/Monorepo/issues)
-      - [给明年留个建议](https://github.com/Devographics/surveys/issues/66)
-      - [其他非技术的问题](https://github.com/Devographics/surveys/issues)
-      - [加入我们的 Discord](https://discord.gg/tuWRUWVyJs)
-      - [加入 Devographics 工作组](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+        t: |
+          Flexbox 的 `gap` 属性是非常有用的补充功能，它在 2022 年能获得 **{value}** 的提高完全不意外。
+
+    # - key: award.tool_usage_delta_award.comment
+    #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+    - key: award.most_commented_featured_award.comment
+        t: 总共有 **{value}** 条评论提到，没有其他特性能带来像 SubGrid 这么多的反馈了。
+
+    - key: award.tool_satisfaction_award.comment
+        t: |
+          在所有的 CSS-in-JS 解决方案中脱颖而出，CSS Modules 是唯一一个可以保持 **{value}** 这么极高保持率的。
+
+    # - key: award.tool_interest_award.comment
+    #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+    - key: award.most_write_ins_award.comment
+        t: |
+          Arc 浏览器有 **{value}** 次被提及，是迄今为止在自由提问中被提及最多的工具。
+
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: conclusion.css2022
+        t: |
+            <span class="first-line">[去年](https://2021.stateofcss.com/en-US/conclusion/)， Kilian 预言我们编写 CSS 的方式将永远改变，而今年的结果验证了他的预言。</span>
+
+            [Interop 2022](https://wpt.fyi/interop-2022) 将浏览器聚集在一起，为同一个目标而努力，有几个功能从 "永远不会发生 "变成了 "现在正在发生"。父选择器（:has()）和容器查询（@container）是其中的两个重磅功能。多年来，由于性能的影响，开发者们一直认为这些功能是不可能实现的，但事实证明，这两种功能都是可能的。
+
+            另一方面，Subgrid 一直在推进了，它是一项非常大的任务。Firefox 和 Safari 已经支持了，Chrome 也在积极实现中，所以我们明年可能会看到更高的使用率。
+
+            我预测，2023 年的明星功能将是原生嵌套和颜色处理。目前，嵌套是人们仍在使用预处理器的[主要原因](https://twitter.com/leaverou/status/806936438797307904)，因此，能够在原生 CSS 中使用它将是绝佳的体验。
+
+            在 CSS 中和颜色打交道也将变得更加令人兴奋。就在我们聊天的时候，有一大波功能正在被实现了。到2023年底，我们可能就能用上广色域颜色和设备独立颜色 (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`)，并且我们能够通过 color-mix() 对它们进行基本操作。
+
+            所有这些都意味着 2023 年对 CSS 来说可能是非常激动人心的一年。不管我的预测是否正确，我都期待着即将到来的所有令人赞叹的实现。这是个写 CSS 体验很棒的时代！
+
+    - key: conclusion.css2022.bio
+        t: W3C Technical Architecture Group Member, MIT CSAIL
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+        t: "我的 2022 精选是："
+    - key: picks.intro
+        t: 我们请了 CSS 社区的成员来分享他们的 "年度精选"。
+
+    - key: picks.david_east.name
+        t: CSS Subgrid
+    - key: picks.david_east.bio
+        t: 构建 Web 的倡导者
+    - key: picks.david_east.description
+        t: |
+            CSS Subgrid 允许子元素继承其父元素的网格属性。不久后，在整个页面上将元素以相同的网格线布局就会容易得多。
+
+    - key: picks.bramus_van_damme.name
+        t: `:has()` 选择器
+    - key: picks.bramus_van_damme.bio
+        t: Google Chrome 开发者关系工程师
+    - key: picks.bramus_van_damme.description
+        t: |
+            你可能会称之为“父选择器”，但这个名字不完全对，因为它只包括 `:has()` 选择器的一小部分功能。这个选择器实质上改变了我编写 CSS 的方式。
+
+    - key: picks.kevin_j_powell.name
+        t: Jhey Tompkins
+    - key: picks.kevin_j_powell.bio
+        t: CSS 布道师
+    - key: picks.kevin_j_powell.description
+        t: |
+            Jhey 总是通过有趣和令人印象深刻的演示和 Codepen 来提高我们使用 CSS 的上限。
+            随着最近所有新的 CSS 功能的推出，Jhey 正处于解释它们运行原理的最前沿。
+
+    - key: picks.samuel_kraft.name
+        t: `:has()` 选择器
+    - key: picks.samuel_kraft.bio
+        t: 设计工程师
+    - key: picks.samuel_kraft.description
+        t: |
+            新的 :has() 选择器非常强大，为编写样式解锁了新的可能性。Jen Simmons 的文章通过解释和实际例子对其进行了分解。
+
+    - key: picks.josh_comeau.name
+        t: Modern CSS
+    - key: picks.josh_comeau.bio
+        t: 软件开发者/教育家
+    - key: picks.josh_comeau.description
+        t: |
+            在过去这些年里，CSS 改变了许多。Stephanie 向我们展示了如何利用现代的 CSS 功能以新的方式解决老问题。
+
+    - key: picks.adam_argyle.name
+        t: `:has()` 选择器
+    - key: picks.adam_argyle.bio
+        t: Google 的 UI/CSS 开发者关系工程师
+    - key: picks.adam_argyle.description
+        t: |
+            CSS 在跨组件协调 UI 交互方面变得更强大。我们几乎没有涉及 `:has()` 对样式的影响。
+
+    - key: picks.eric_w_bailey.name
+        t: Ben Myers 的 “Style with Stateful, Semantic Selectors”
+    - key: picks.eric_w_bailey.bio
+        t: 可访问性倡导者和 CSS 痴迷者
+    - key: picks.eric_w_bailey.description
+        t: |
+            Ben 展示了如何利用 ARIA 属性选择器简单而强大地将外观与状态联系起来。
+
+    - key: picks.michelle_barker.name
+        t: Interop 2022
+    - key: picks.michelle_barker.bio
+        t: 前端博客 CSS { In Real Life } 的编辑和创作者
+    - key: picks.michelle_barker.description
+        t: |
+            Interop 是所有主要浏览器厂商之间的合作，在 15 个重点实施领域达成一致——包括容器查询、级联层和颜色函数等改变游戏规则的新 CSS 功能。
+
+    - key: picks.gift_egwuenu.name
+        t: Learn CSS
+    - key: picks.gift_egwuenu.bio
+        t: Cloudflare 的开发者代表
+    - key: picks.gift_egwuenu.description
+        t: |
+            我向任何想从头开始学习 CSS 的人推荐这个资源。每当我需要查询任何 CSS 属性时，我也会用它作为参考。
+
+    - key: picks.ahmad_shadeed.name
+        t: Container Queries（容器查询）
+    - key: picks.ahmad_shadeed.bio
+        t: [Debugging CSS](https://debuggingcss.com/) 的作者, 在 [ishadeed.com](http://ishadeed.com) 发表文章
+    - key: picks.ahmad_shadeed.description
+        t: |
+            如果我要为 2022 年选择一个亮点，那一定是容器查询！它终于在稳定的浏览器中出现了。
+
+    # - key: picks.georgedoescode.name
+    #   t:
+    # - key: picks.georgedoescode.bio
+    #   t:
+    # - key: picks.georgedoescode.description
+    #   t: |
+
+    - key: picks.jen_simmons.name
+        t: `:has()` 选择器
+    - key: picks.jen_simmons.bio
+        t: Apple 的 Web 科技布道师
+    - key: picks.jen_simmons.description
+        t: |
+            二十年来，“父选择器”一直是 CSS 最需要的功能。然后在 2022 年，完全出人意料地，:has() 伪类来解决了这个问题，而且还解决了更多的问题。
+
+    - key: picks.sara_soueidan.name
+        t: `:has()` 选择器
+    - key: picks.sara_soueidan.bio
+        t: 独立设计工程师
+    - key: picks.sara_soueidan.description
+        t: |
+            我们对 CSS 容器查询的希望和等待已经很长时间了。但不久之后，`:has()` 就到来了，感觉就像它是“我们从不知道我们一直想要的东西“。
+
+    - key: picks.adam_wathan.name
+        t: 空 CSS 变量
+    - key: picks.adam_wathan.bio
+        t: Tailwind CSS 作者
+    - key: picks.adam_wathan.description
+        t: |
+            不是很多人知道，但 `--my-var: ;` 是完全符合标准的CSS，而且它比你想的更有用。
+            我们经常在 Tailwind CSS 中使用它，使其可以将单个 CSS 属性分解为多个类。
+
+    # - key: picks.christianoliff.bio
+    #   t: Front-end developer for Trimble MAPS
+    # - key: picks.christianoliff.description
+    #   t: |
+    #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+    - key: picks.kilian_valkhof.name
+        t: Interop 2022
+    - key: picks.kilian_valkhof.bio
+        t: Web 开发者/Polypane 的创始人
+    - key: picks.kilian_valkhof.description
+        t: |
+            在 2021 年以 Compat 2021 开始，浏览器引擎制造商们已经开始协商他们优先考虑哪些功能。
+            这不仅缩小了浏览器之间存在的各种功能差距，还加快了 `@layer` 等新功能在浏览器中的推出速度。
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.piccalilli_.bio
+    #   t: Freelance designer & dev who runs piccalil.li
+    # - key: picks.piccalilli_.description
+    #   t: |
+    #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+    # - key: picks.sarasoueidan.bio
+    #   t: Independent UI/design engineer
+    # - key: picks.sarasoueidan.description
+    #   t: |
+    #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+    # - key: picks.5t3ph.bio
+    #   t: Software Engineer @ Microsoft
+    # - key: picks.5t3ph.description
+    #   t: |
+    #       In this conference talk, Manuel Matuzovic provides thoughtfully
+    #       crafted examples that are engaging, approachable, and actionable.
+
+    # - key: picks.hugogiraudel.bio
+    #   t: Non-binary accessibility & diversity advocate
+    # - key: picks.hugogiraudel.description
+    #   t: |
+    #       Fela is an amazing piece of software.
+    #       It’s pretty powerful, relatively easy to use and very performant
+
+    # - key: picks.foolip.bio
+    #   t: Software Engineer @ Google
+    # - key: picks.foolip.description
+    #   t: |
+    #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+    #       notably bringing flex gap to WebKit,
+    #       which means that soon it will be available on all modern browsers.
+
+    # - key: picks.jina.bio
+    #   t: Design systems advocate and practitioner
+    # - key: picks.jina.description
+    #   t: |
+    #       The media query to reduce motion, which helps avoid
+    #       triggering dizziness and discomfort.
+
+    ###########################################################################
+    # Sponsors
+    ###########################################################################
+
+    - key: sponsors.frontendmasters.description
+        t: 通过深入、现代的前端工程课程提升您的技能。
+    - key: sponsors.nijibox.description
+        t: 给有志之士的准备的浏览器，轻松建立响应性、可访问性和快速的网站。
+    - key: sponsors.renderatl.description
+        t: The largest tech conference with a dedicated Design & CSS track.
+    - key: sponsors.google_chrome.description
+        t: 感谢 Google Chrome 团队支持我们的工作。
+
+    ###########################################################################
+    # FAQ/About
+    ###########################################################################
+
+    - key: about.content
+        t: >
+            2022 年 CSS 生态调查从 2022 年 10 月 1 日开始到 11 月 1 日结束，共收集到 14310 份回复。 该调查由我 [Sacha Greif](https://sachagreif.com/) 负责，并得到一个开源贡献者和顾问团队的帮助。
+
+            今年的标志和T恤是重复使用的，去年的标志和T恤是由 [Christopher Kirk-Nielsen]（http://chriskirknielsen.com/）设计和制作的。
+
+            ### 调查目标
+
+            这项调查，连同 [JavaScript 生态调查](https://stateofjs.com/) 一起，旨在嗅探 Web 开发生态系统中的未来趋势，以帮助开发人员做出技术选择。
+
+            因此，这些调查的重点是预测未来几年的发展，而不是分析现在流行的东西，这就是为什么目前最普遍的功能或技术并不总是包括在内。
+
+            此外，调查数据也被浏览器厂商用于优先考虑功能并通知诸如 [Interop 2022](https://wpt.fyi/interop-2022) 的倡议。
+
+            ### 调查设计
+
+            今年，调查设计由 [Lea Verou](https://lea.verou.me/) 领导，感谢 Google Chrome 团队的资助，并在 [GitHub上](https://github.com/orgs/Devographics/projects/1)公开管理。 所有调查问题都是可选的。
+
+            此外，今后我们还将通过[工作组邮件列表](https://www.devographics.com/working-group/)协调调查的设计、审查和反馈。
+
+            ### 调查对象
+
+            该调查在网上公开进行，受访者没有经过任何过滤或筛选。受访者主要是过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量的结合。
+
+            ### 项目资金
+
+            这个项目的资金来自于以下渠道：
+
+            - **T恤销售**。
+
+            - **赞助链接**: 每页底部的推荐资源链接是由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供的。
+
+            - **图标赞助**: 从去年开始，任何人都可以选择直接为一个图表赞助 10 美元或更多，并在它旁边显示他们的 Twitter 头像。
+
+            - **Google**: 今年，[Google Chrome](https://www.google.com/chrome/) 团队拨出预算，聘请 Lea 帮助设计调查，并直接资助我，帮助支持我的工作。
+
+            - **Nijibox**: 总部位于日本的 [Nijibox](https://nijibox.jp/) 也选择了赞助我，以帮助使这些年度调查更加长久。
+
+            ### 技术概览
+
+            你可以在[这里](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)找到关于这些调查是如何运作的更深入的技术概述。 我们的代码是[开源](https://github.com/Devographics/Monorepo/) 的.。
+
+            - **数据收集**： 部署在 [Vercel](https://vercel.com/) 的 [Next.js](https://nextjs.org/) 应用。
+
+            - **数据存储/处理**： 运行在 [MongoDB Atlas](https://cloud.mongodb.com/) 上的 MongoDB 和 MongoDB 聚合。
+
+            - **数据 API**： 运行在 [Render](https://render.com/) 的 Node.js GraphQL API
+
+            - **调查结果网站**: 运行在 [Netlify](https://netlify.com/) 上的 [Gatsby](https://www.gatsbyjs.com/) React 应用。
+
+            - **数据可视化**: [Nivo](https://nivo.rocks/) React 的数据可视化工具库. 
+
+            - **字体**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) 和 [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+            ### 反馈
+
+            - [报告技术问题](https://github.com/Devographics/Monorepo/issues)
+            - [给明年留个建议](https://github.com/Devographics/surveys/issues/66)
+            - [其他非技术的问题](https://github.com/Devographics/surveys/issues)
+            - [加入我们的 Discord](https://discord.gg/tuWRUWVyJs)
+            - [加入 Devographics 工作组](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
