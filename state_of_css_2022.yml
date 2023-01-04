@@ -106,7 +106,7 @@ translations:
     # - key: award.tool_usage_delta_award.comment
     # t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
-    - key: award.most_commented_featured_award.comment
+    - key: award.most_commented_feature_award.comment
       t: 总共有 **{value}** 条评论提到，没有其他特性能带来像 SubGrid 这么多的反馈了。
 
     - key: award.tool_satisfaction_award.comment
