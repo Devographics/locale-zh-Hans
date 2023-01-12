@@ -380,10 +380,7 @@ translations:
       t: CTO at Contenda, Memer and Dreamer
     - key: picks.cassidy_williams.description
       t: |   
-        Moriel is an inspiring developer who gives passionate, 
-        interesting talks about internationalization and accessibility, 
-        and some of the things she's built with Vue are SO cool, 
-        everyone should check them out!
+        Moriel 是一个鼓舞人心的开发人员，她对国际化和无障碍问题方面进行了热情洋溢的演讲，她用 Vue 构建的一些东西非常酷，每个人都应该去看看！
 
     # https://www.withdiode.com/
     - key: picks.charlie_gerard.name
@@ -392,9 +389,7 @@ translations:
       t: Senior Developer Advocate at Stripe, Author and Creative Technologist
     - key: picks.charlie_gerard.description
       t: |   
-        Diode is an interactive tool to build and simulate hardware projects in the browser. 
-        As a hardware tinkerer, this is really exciting and the interface built with 
-        Three.js is great!
+        Diode 是一个交互式工具，用于在浏览器中构建和模拟硬件项目。作为一个硬件工程师，这真的很令人兴奋，而且用 Three. js 构建的界面非常棒！
     
     # https://arisa-fukuzaki.dev/
     - key: picks.alba_silvente.name
@@ -403,9 +398,7 @@ translations:
       t: FrontEnd developer working as DevRel at Storyblok
     - key: picks.alba_silvente.description
       t: |   
-        Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
-        she is always thinking about giving back to the community and contributes by giving talks,
-         workshops and articles on the subject. 
+        Arisa 是前端和 Dev Rels 的混合体，是 React 及其生态的爱好者，她总是想着回馈社区，并通过举办相关的讲座、研讨会和文章作出贡献。
     
     # https://github.com/statelyai/xstate
     - key: picks.matt_pocock.name
@@ -414,9 +407,7 @@ translations:
       t: TypeScript educator from the UK, building Total TypeScript.
     - key: picks.matt_pocock.description
       t: | 
-        If I were given something complicated to build from scratch, 
-        like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
-        It's the only library I can rely on to build complex systems.
+        如果让我从头开始构建一些复杂的东西，比如电子表格、所见即所得(WYSIWYG)或视频通话应用，我会使用 XState。这是我唯一可以依赖的构建复杂系统的库。
 
     # https://beta.reactjs.org/
     - key: picks.kathryn_grayson_nanz.name
@@ -425,11 +416,9 @@ translations:
       t: Developer Advocate at Progress
     - key: picks.kathryn_grayson_nanz.description
       t: |   
-        The new React docs are incredibly well-written, accessible for beginners, 
-        and beautifully designed. 
-        Documentation is one of the hardest things to do well, 
-        so this fantastic example is my pick of the year! 
-
+        新的 React 文档写得非常好，对初学者来说很容易理解，而且设计得很好。
+        
+        写文档是最难做好的事情之一，所以这个精彩的范例是我的年度之选！
     
     - key: picks.ryan_carniato.name
       t: Astro
@@ -437,7 +426,7 @@ translations:
       t: Creator of Solid
     - key: picks.ryan_carniato.description
       t: |   
-        While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+        Astro 在过去的几年里一直在推广 “Islands” 架构，在 2022 年它也到了 1.0 了，并带来了按需服务器渲染。用更少的 Javascript 来开发强大的网站从来没有这么轻松过。
 
     - key: picks.theo_browne.name
       t: tRPC
@@ -445,7 +434,7 @@ translations:
       t: Youtube Ranter & CEO @Ping.gg
     - key: picks.theo_browne.description
       t: | 
-        2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+        2022 年是全栈类型安全的重要一年，而 tRPC 应该得到大部分的赞誉。tRPC 是一种少有的库，它让你之前使用的所有东西都感觉。。。很糟糕，说实话。作为一个全栈工程师，我从未感到如此的高效。
 
     - key: picks.sebastien_lorber.name
       t: Remotion
@@ -453,7 +442,7 @@ translations:
       t: This Week In React founder and Docusaurus maintainer
     - key: picks.sebastien_lorber.description
       t: |   
-        The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+        用 React 创建视频的能力是很棒的。我们可以发挥创意，使用任何前沿的网络技术，而不仅仅是 DOM 和 CSS。通过 GitHub Unwrapped 项目，它已经证明了它可以扩展，渲染数以千计的视频，并成为一个了不起的营销工具。
 
     - key: picks.ben_holmes.name
       t: Zod
@@ -461,9 +450,8 @@ translations:
       t: 
     - key: picks.ben_holmes.description
       t: | 
-        Runtime safety came to define 2022 with tRPC's rise to stardom. 
-        Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
-        it's becoming an must-have for any JavaScript developer
+        随着 tRPC 的崛起，运行时安全成为 2022 年的定义。
+        现在，Astro 使用 Zod 进行类型安全的 Markdown，而 Remix 用户使用 Zod 进行表单验证，因此它正成为任何 JavaScript 开发者的必备工具。
 
     - key: picks.tyler_mcginnis.name
       t: TanStack
@@ -471,8 +459,7 @@ translations:
       t: Founder, UI.dev
     - key: picks.tyler_mcginnis.description
       t: | 
-        My JavaScript pick of the year is TanStack, or anything else that 
-        Tanner and Dominik make.
+        我今年的 JavaScript 选择是 TanStack 或者 Tanner 和 Dominik 做的任何东西。
     
     - key: picks.shaundai_person.name
       t: Sarah Drasner
@@ -481,6 +468,7 @@ translations:
     - key: picks.shaundai_person.description
       t: | 
         Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us". 
+        Sarah 继续通过博客文章、公开演讲以及最近出版的书 "Engineering Management for the Rest of Us" 来回馈社区。
 
     - key: picks.xxxx.name
       t:
@@ -496,7 +484,7 @@ translations:
     - key: sponsors.frontendmasters.description
       t: Advance your skills with in-depth, modern front-end engineering courses.
     - key: sponsors.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+      t: 感谢 Google Chrome 团队支持我们的工作。
     - key: sponsors.renderatl.description
       t: This is a tech conference focused on Front-End Engineering.
 
@@ -506,68 +494,68 @@ translations:
     
     - key: about.content
       t: |
-            The 2022 State of JS survey ran from November 21 to December 22 2022, and collected 39,472 responses. The survey is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+            2022 年的 JS 生态调查从 2022 年 11 月 21 日开始到 12 月 22 日结束，共收集到 39472 份回复。 该调查由 [Sacha Greif](https://sachagreif.com/) 和 [Eric Burel](https://www.lbke.fr/) 负责，并得到一个开源贡献者和顾问团队的帮助。
 
-            This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+            今年的标志和T恤是由 [Christopher Kirk-Nielsen]（http://chriskirknielsen.com/）设计的。
 
-            ### Survey Goals
+            ### 调查目标
 
-            This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+            本调查旨在确认 Web 开发生态中即将出现的趋势，以帮助开发者们做出技术选型。
 
-            As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+            因此，调查的重点是预测未来几年会发生什么，而不是分析现在流行什么，这就是为什么目前最普遍的特性或技术并不总是包括在内。
 
-            It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+            它也应该被看作是一个 **特定的开发者子集的缩影**，并不意味着代表整个生态系统。
 
-            ### Survey Design
+            ### 调查设计
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+            这项调查的设计部分基于去年的调查，有一个开放的反馈期，调查大纲在 GitHub 上进行了[讨论](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22)。 
             
-            All survey questions were optional. 
+            所有调查问题都是可选的。
 
-            ### Survey Audience
+            ### 调查对象
 
-            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+            该调查在网上公开进行，受访者没有经过任何过滤或筛选。受访者主要是过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量的结合。
 
-            Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+            请注意，框架和工具库等可以自由地鼓励他们的受众来参与调查，其中一些人确实通过横幅、推特等方式来做了。在 "来源 "图表中包含了流量来源的详细分类。
 
-            ### Representativeness & Inclusivity
+            ### 代表性及包容性
 
-            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+            我们相信让每个社区都有发言权是很重要的，但事实是，像这样的公开调查总是难以恰当地代表每个人，特别是当通过已经带有自己固有偏见的系统运作时。
 
-            In order to counter-balance this, we are implementing three distinct strategies:
+            为了平衡这一点，我们正在实施三个不同的策略：
 
-            - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+            - **外展**: 我们一直尝试接触不同的组织（像 BIPOC 或 LGBTQ 组织，或在线教学平台），以尝试使我们自己的受众多样化。
             
-            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+            - **数据分析**: 通过 facets 和 variants 等特征，我们一直在努力让任何群体的声音更容易浮出水面，无论它在我们的数据中可能多么小众。
             
-            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+            - **降低壁垒**: 调查表太长、无法访问、加载缓慢、只有英文等等问题都会导致我们的努力大打折扣，以至于磨灭社区的积极性，解决这些问题可以降低进入的门槛，并在此过程中使我们的受众更加多样化。
 
-            ### Project Funding
+            ### 项目资金
 
-            Funding from this project comes from a variety of sources:
+            这个项目的资金来自于以下渠道：
 
-            - **T-shirt sales**. 
+            - **T恤销售**. 
 
-            - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+            - **图表赞助**: 社区成员可以为调查捐款，以换取他们的名字出现在报告中。 
 
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+            - **赞助链接**: 每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 和 [RenderATL](https://www.renderatl.com/) 提供。
             
-            - **Other Funding**: this year, [Google](https://www.google.com/) and [Nijibox](https://nijibox.jp/) funded my work on the survey directly.
+            - **其他资金**: 今年 [Google](https://www.google.com/) 和 [Nijibox](https://nijibox.jp/) 直接资助我，帮助支持我的工作。
 
-            Any contribution or sponsorship is greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+            我们非常感谢任何捐款或赞助。我尤其希望与更多的浏览器厂商密切合作，因为他们在 Web 生态中扮演着非常重要的角色。
 
-            ### Technical Overview
+            ### 技术概述
 
-            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
+            你可以在 [此处](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4) 找到有关调查运行方式的更深入的技术概述。
 
-            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+            - **数据收集**: 自定义 [Vulcan.js](http://vulcanjs.org/) 应用程序。
 
-            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+            - **数据存储/处理**: MongoDB 和 MongoDB 聚合。
             
-            - **Data API**: Node.js GraphQL API. 
+            - **数据 API**: Node.js 和 GraphQL API。
             
-            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+            - **调查结果网站**: [Gatsby](https://www.gatsbyjs.com/) React 应用程序。
             
-            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+            - **数据可视化**: [Nivo](https://nivo.rocks/) React dataviz 库。 
             
-            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+            - **字体**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
