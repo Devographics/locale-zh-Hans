@@ -8,7 +8,7 @@ translations:
       t: 2022年 JavaScript 生态最新趋势的年度调查。
 
     - key: general.livestream_announcement
-      t:  请务必于 2 月 22 日观看我们 [特别调查结果的直播](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) (英语)
+      t: 请务必于 2 月 22 日观看我们 [特别调查结果的直播](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) (英语)
 
     ###########################################################################
     # Introduction
@@ -164,8 +164,7 @@ translations:
       随着在 2022 年 **{value}** 的增长，**顶层 await** 已经迅速成为 JavaScript 不可分割的一部分。
 
     - key: award.tool_usage_delta_award.comment
-      t: |
-        虽然只有两年的历史，但随着过去一年 **{value}** 的增长，**Vite** 已经越来越受欢迎了。
+      t: 虽然只有两年的历史，但随着过去一年 **{value}** 的增长，**Vite** 已经越来越受欢迎了。
 
     - key: award.tool_satisfaction_award.comment
       t: Vite 以超高的 **{value}** 留存率占据了榜首位置！
