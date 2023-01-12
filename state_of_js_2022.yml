@@ -160,8 +160,7 @@ translations:
     ###########################################################################
 
     - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2022,  has quickly become an integral part of JavaScript. 
-      随着在 2022 年 **{value}** 的增长，**顶层 await** 已经迅速成为 JavaScript 不可分割的一部分。
+      t: 随着在 2022 年 **{value}** 的增长，**顶层 await** 已经迅速成为 JavaScript 不可分割的一部分。
 
     - key: award.tool_usage_delta_award.comment
       t: 虽然只有两年的历史，但随着过去一年 **{value}** 的增长，**Vite** 已经越来越受欢迎了。
@@ -173,15 +172,13 @@ translations:
       t: 凭着 **{value}** 的感兴趣率，Vite 再次赢得金牌！
 
     - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
-      许多问题也接受投票答案，有 **{value}** 次被提及，且在这里面最受欢迎的是 **Astro**。
+      t: 许多问题也接受投票答案，有 **{value}** 次被提及，且在这里面最受欢迎的是 **Astro**。
 
     - key: award.most_commented_feature_award.comment
       t: 没有其他特性能像 “私有字段” 那样产生 **{value}** 那么多的反馈。
 
     - key: award.most_commented_tool_award.comment
-      t: With **{value}** comments, React showed that it's still the most-discussed library around. 
-      有 **{value}** 次被提及，React 仍然是最有话题性的库。
+      t: 有 **{value}** 次被提及，React 仍然是最有话题性的库。
 
     ###########################################################################
     # Conclusion
@@ -466,7 +463,6 @@ translations:
       t: Senior Software Engineer, Netflix
     - key: picks.shaundai_person.description
       t: | 
-        Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us". 
         Sarah 继续通过博客文章、公开演讲以及最近出版的书 "Engineering Management for the Rest of Us" 来回馈社区。
 
     - key: picks.xxxx.name
