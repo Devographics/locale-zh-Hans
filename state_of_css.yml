@@ -210,37 +210,37 @@ translations:
     t: 处理滚动jank、使动画更平滑等。
 
   # CSS missing features (same as features section)
-  - key: options.currently_missing_from_css.nesting
+  - key: options.css_missing_features.nesting
     t: 原生嵌套
-  - key: options.currently_missing_from_css.nesting.description
+  - key: options.css_missing_features.nesting.description
     t: 能够在原生CSS中嵌套样式。
-  - key: options.currently_missing_from_css.parent_selector
+  - key: options.css_missing_features.parent_selector
     t: 父选择器
-  - key: options.currently_missing_from_css.parent_selector.description
+  - key: options.css_missing_features.parent_selector.description
     t: 基于父元素的子元素以其为目标的能力。
-  - key: options.currently_missing_from_css.browser_support
+  - key: options.css_missing_features.browser_support
     t: 浏览器支持
-  - key: options.currently_missing_from_css.browser_support.description
+  - key: options.css_missing_features.browser_support.description
     t: 更好地支持现有功能的浏览器。
-  - key: options.currently_missing_from_css.mixins
+  - key: options.css_missing_features.mixins
     t: Mixins
-  - key: options.currently_missing_from_css.mixins.description
+  - key: options.css_missing_features.mixins.description
     t: 动态分组和重用定义。
-  - key: options.currently_missing_from_css.color_functions
+  - key: options.css_missing_features.color_functions
     t: 颜色函数
-  - key: options.currently_missing_from_css.color_functions.description
+  - key: options.css_missing_features.color_functions.description
     t: 用于操纵颜色值的函数。
-  - key: options.currently_missing_from_css.container_queries
+  - key: options.css_missing_features.container_queries
     t: 容器查询
-  - key: options.currently_missing_from_css.container_queries.description
+  - key: options.css_missing_features.container_queries.description
     t: 能够基于父容器的维度编写样式。
-  - key: options.currently_missing_from_css.scoping
+  - key: options.css_missing_features.scoping
     t: 作用域
-  - key: options.currently_missing_from_css.scoping.description
+  - key: options.css_missing_features.scoping.description
     t: 能够更具体地说明样式的应用位置。
-  - key: options.currently_missing_from_css.subgrid
+  - key: options.css_missing_features.subgrid
     t: 子网格布局
-  - key: options.currently_missing_from_css.subgrid.description
+  - key: options.css_missing_features.subgrid.description
     t: 将更深层次的子栅格嵌套到父栅格中。
 
   ###########################################################################
@@ -741,13 +741,13 @@ translations:
     t: 其他CSS痛点
 
   # Missing Features
-  - key: opinions.currently_missing_from_css
+  - key: opinions.css_missing_features
     t: 你觉得CSS目前缺少什么？
-  - key: opinions.currently_missing_from_css.description
+  - key: opinions.css_missing_features.description
     t: 对于每个匹配，选择你最希望能够在CSS中使用的功能。
-  - key: opinions_others.currently_missing_from_css.others
+  - key: opinions_others.css_missing_features.others
     t: 目前觉得 CSS 缺少什么？
-  - key: opinions_others.currently_missing_from_css.others.note
+  - key: opinions_others.css_missing_features.others.note
     t: >
       这些结果根据调查内容进行了标准化处理。
       要查看原始的、未处理的结果，请查看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
@@ -781,14 +781,14 @@ translations:
   - key: css_pain_points.css_pain_points_matchups.description
     t: CSS的哪一方面你最难处理？左手项对上边项赢得回合数的百分比。
 
-  - key: currently_missing_from_css.currently_missing_from_css_wins
+  - key: css_missing_features.css_missing_features_wins
     t: CSS中缺少功能
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+  - key: css_missing_features.css_missing_features_wins.description
     t: 你现在最希望在CSS中使用哪项功能？结果按赢得的锦标赛轮数排列。
 
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
+  - key: css_missing_features.css_missing_features_matchups
     t: CSS中缺少功能（匹配）
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+  - key: css_missing_features.css_missing_features_matchups.description
     t: 你现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
 
   ###########################################################################
