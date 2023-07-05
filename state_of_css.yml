@@ -450,10 +450,6 @@ translations:
     t: 作用域
   - key: features.scoping.description
     t: 能够更具体地说明样式的应用位置。
-  - key: features.subgrid
-    t: 子网格布局
-  - key: features.subgrid.description
-    t: 将更深层次的子栅格嵌套到父栅格中。
 
   ###########################################################################
   # Units & Selectors
