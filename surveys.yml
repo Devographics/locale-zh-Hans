@@ -171,8 +171,7 @@ translations:
     - key: bracket.start_over
       t: 重新开始
     - key: bracket.winner
-      t: >
-      获胜者：
+      t: 获胜者：
     - key: bracket.round
       t: 回合
     - key: bracket.empty_bracket
@@ -359,7 +358,7 @@ translations:
     - key: faq.survey_design_css2022
       t: 这项调查是如何设计的？
     - key: faq.survey_design_css2022.description
-      今年，得益于谷歌 [UI 基金](https://web.dev/ui-fund/)的资助，[Lea Verou](https://lea.verou.me/) 得以牵头并管理 GitHub 上的[开放式调查设计流程](https://github.com/orgs/Devographics/projects/1/views/1)。
+      t: 今年，得益于谷歌 [UI 基金](https://web.dev/ui-fund/)的资助，[Lea Verou](https://lea.verou.me/) 得以牵头并管理 GitHub 上的[开放式调查设计流程](https://github.com/orgs/Devographics/projects/1/views/1)。
 
     - key: faq.results_released_css2022
       t: 结果将何时发布？
