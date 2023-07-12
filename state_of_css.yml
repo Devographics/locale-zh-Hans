@@ -110,6 +110,16 @@ translations:
     t: 环境
   - key: sections.environments.description
     t: 你于什么环境下编写 CSS 代码？
+    
+  - key: sections.usage_css.title
+    t: CSS 使用情况
+  - key: sections.usage_css.description
+    t: 你如何使用 CSS。
+
+  - key: sections.resources_css.title
+    t: 资源
+  - key: sections.resources_css.description
+    t: 你会参考哪些 CSS 资源？
 
   ###########################################################################
   # Options
@@ -174,6 +184,8 @@ translations:
     t: 电子邮件
   - key: options.what_do_you_use_css_for.printed_documents
     t: 印刷文件
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: 桌面应用
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -207,7 +219,7 @@ translations:
   - key: options.css_pain_points.performance_issues
     t: 性能问题
   - key: options.css_pain_points.performance_issues.description
-    t: 处理滚动jank、使动画更平滑等。
+    t: 处理滚动卡顿，使动画更加流畅等问题。
 
   # CSS missing features (same as features section)
   - key: options.css_missing_features.nesting
@@ -242,6 +254,62 @@ translations:
     t: 子网格布局
   - key: options.css_missing_features.subgrid.description
     t: 将更深层次的子栅格嵌套到父栅格中。
+
+  - key: options.css_missing_features.native_visually_hidden
+    t: 视觉上隐藏内容
+  - key: options.css_missing_features.native_visually_hidden.description
+    t: 原生支持视觉上隐藏内容。
+
+  - key: options.css_missing_features.generated_content_alt_text
+    t: 生成内容的替代文本
+  - key: options.css_missing_features.generated_content_alt_text.description
+    t: 为生成的（`::before`、 `::after`）内容添加替代文本。
+
+  - key: options.css_missing_features.animate_to_auto
+    t: 动画过渡到 `auto`
+  - key: options.css_missing_features.animate_to_auto.description
+    t: 将元素的尺寸用动画过渡到 `auto`。
+
+  - key: options.css_missing_features.anchored_positioning
+    t: 锚定定位
+  - key: options.css_missing_features.anchored_positioning.description
+    t: 将元素相对于任意其他元素的边缘进行定位。
+
+  - key: options.css_missing_features.wrapping_detection
+    t: 换行检测
+  - key: options.css_missing_features.wrapping_detection.description
+    t: 检测 flex 或 grid 元素何时换行到另一行。
+
+  - key: options.css_missing_features.more_pseudo_elements
+    t: 更多伪元素
+  - key: options.css_missing_features.more_pseudo_elements.description
+    t: 使每个元素拥有不止两个伪元素。
+
+  - key: options.css_missing_features.svg_in_css
+    t: SVG-in-CSS
+  - key: options.css_missing_features.svg_in_css.description
+    t: 在 CSS 代码内支持 SVG 语法（例如 `background`）。
+
+  - key: options.css_missing_features.grid_lines_styling
+    t: 网格线样式化
+  - key: options.css_missing_features.grid_lines_styling.description
+    t: 能够对划分网格的隐形线进行样式设置。
+
+  - key: options.css_missing_features.media_queries_variables
+    t: 媒体查询变量
+  - key: options.css_missing_features.media_queries_variables.description
+    t: 能够在媒体查询中使用变量。
+
+  - key: options.css_missing_features.masonry_layout
+    t: 砖石布局
+  - key: options.css_missing_features.masonry_layout.description
+    t: 原生支持 Pinterest 风格的自由流动网格布局。
+
+  - key: options.css_missing_features.css_toggle
+    t: CSS 开关
+  - key: options.css_missing_features.css_toggle.description
+    t: 将 "可切换值 "与元素关联的方法。
+
 
   ###########################################################################
   # Features
@@ -284,6 +352,9 @@ translations:
   - key: features.at_container.description
     t: <code>@container</code>查询
 
+  - key: features.viewport_percentage_length_units
+    t: 小型、大型和动态视口单位
+
   # shapes & graphics
   - key: features.shapes
     t: CSS 形狀 (Shape)
@@ -302,8 +373,6 @@ translations:
   - key: features.backdrop_filter
     t: <code>backdrop-filter</code>
 
-  - key: features.intrinsic_sizing
-    t: Intrinsic Sizing
   - key: features.intrinsic_sizing.description
     t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
   - key: features.repeating_linear_gradient
@@ -315,6 +384,13 @@ translations:
 
   - key: features.accent_color
     t: <code>accent-color</code>
+
+  - key: features.intrinsic_sizing
+    t: 尺寸局限
+  - key: features.linear_easing_function
+    t: "`linear()` 缓动函数"
+  - key: features.gradient_color_spaces
+    t: 插值颜色空间
 
   # interactions
   - key: features.scroll_snap
@@ -420,6 +496,32 @@ translations:
     t: <code>content-visibility</code>
   - key: features.marker
     t: <code>::marker</code> 伪元素
+    
+  - key: features.css_nesting.description
+    t: 原生 CSS 嵌套，不包括预处理器或后处理器。
+
+  - key: features.trigonometric_functions
+    t: 三角函数
+  - key: features.exponential_functions
+    t: 指数函数
+  - key: features.sign_related_functions
+    t: 符号相关函数
+  - key: features.stepped_value_functions
+    t: 阶跃值函数
+  - key: features.css_nesting
+    t: CSS 嵌套
+  - key: features.shadow_dom_css
+    t: Shadow DOM 特性
+  - key: features.individual_transform_properties
+    t: 单独的 Transform 属性
+  - key: features.comparison_functions
+    t: CSS 比较函数
+  - key: features.math_functions
+    t: CSS 数学函数
+  - key: features.viewport_units
+    t: 视口单位 (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: 级联层次
 
   # missing features (see also options)
   - key: features.nesting
@@ -634,6 +736,73 @@ translations:
     t: :in-range and :out-of-range
   - key: options.form_controls.required_optional
     t: :required and :optional
+    
+  # slider
+  - key: options.css_js_balance.0
+    t: 100% CSS
+  - key: options.css_js_balance.4
+    t: 50%–50%
+  - key: options.css_js_balance.8
+    t: 100% JS
+
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: other_tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    t: 您常用哪些预处理器或后处理器？
+  - key: other_tools.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: options.pre_post_processors.na
+    t: 无
+
+  - key: tools_others.utilities
+    t: 工具
+  - key: tools_others.utilities.description
+    t: 您常用哪些实用程序或工具？
+  - key: tools_others.utilities.others
+    t: 其他工具
+  - key: tools_others.utilities.others.description
+    t: 其他工具 （自由输入）。
+  - key: options.utilities.na
+    t: 无
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.description
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+
+  - key: tools_others.browsers
+    t: 浏览器
+  - key: tools_others.browsers.description
+    t: 在初始开发阶段，您主要使用哪个浏览器？
+  - key: tools_others.browsers.others
+    t: 其他浏览器
+  - key: tools_others.browsers.others.description
+    t: 其他答案 （自由输入）。
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.description
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
+
 
   ###########################################################################
   # Environments
@@ -645,9 +814,22 @@ translations:
     t: 在那些浏览器中进行测试？
 
   - key: environments.form_factors
-    t: 设备
+    t: 测试环境
   - key: environments.form_factors.description
-    t: 在什么设备上进行测试？
+    t: 您会在哪些设备或环境中进行测试？
+  - key: environments.form_factors.others
+    t: 其他测试环境
+  - key: environments.form_factors.others.description
+    t: 您通常在哪些其他设备或环境上进行测试？
+
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
 
   - key: environments.accessibility_features
     t: 辅助功能
@@ -674,6 +856,13 @@ translations:
     t: 你通常使用CSS做什么样的项目？
   - key: environments.what_do_you_use_css_for.others
     t: 其他类型的项目
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: 频率
@@ -721,32 +910,92 @@ translations:
 
   # Browser interoperability question
   - key: opinions_others.browser_interoperability_features.others
-    t: 浏览器不兼容
+    t: 浏览器不兼容性
   - key: opinions_others.browser_interoperability_features.others.description
     t: >
       你是否有因为浏览器之间的差异，
       导致在使用 CSS 时遇到困难？
 
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: usage.interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform.others
+    aliasFor: opinions_others.browser_interoperability_features.others
+
+  - key: usage.interoperability_features_freeform.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+  - key: usage.interoperability_features_freeform.others.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
+
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+
+  - key: options.css_interoperability_features.na
+    t: 无
+
   # Pain Points
   - key: opinions.css_pain_points
-    t: CSS痛点
+    t: CSS 痛点
   - key: opinions.css_pain_points.description
     t: 对于每一项，选择你觉得CSS最让人头疼的点。
 
+  - key: usage.other_pain_points_freeform
+    t: 写 CSS 的时候是否还有其他痛点？
+  - key: usage.other_pain_points_freeform.others
+    aliasFor: usage.other_pain_points_freeform
+
   - key: opinions_others.css_pain_points.others
-    t: 其他CSS痛点
+    t: 其他 CSS 痛点
+    
+  - key: usage.css_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_pain_points.description
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: options.css_pain_points.na
+    t: 无
 
   # Missing Features
   - key: opinions.css_missing_features
-    t: 你觉得CSS目前缺少什么？
+    t: 你觉得 CSS 目前缺少什么？
   - key: opinions.css_missing_features.description
-    t: 对于每个匹配，选择你最希望能够在CSS中使用的功能。
+    t: 对于每个匹配，选择你最希望能够在 CSS 中使用的功能。
   - key: opinions_others.css_missing_features.others
     t: 目前觉得 CSS 缺少什么？
   - key: opinions_others.css_missing_features.others.note
     t: >
       这些结果根据调查内容进行了标准化处理。
       要查看原始的、未处理的结果，请查看 [whatsmissingfromcss.com](http://whatsmissingfromcss.com/)。
+
+  - key: usage.missing_features_freeform
+    t: 您认为 CSS 目前完全缺少哪些功能？
+  - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+
+  - key: usage.css_missing_features
+    t: 缺失的功能
+  - key: usage.css_missing_features.description
+    aliasFor: usage.missing_features_freeform
+
+  - key: options.css_missing_features.na
+    t: 无
+
+  # 
 
   - key: opinions.sum_up_one_word_css
     t: 一个词来形容 CSS
@@ -756,26 +1005,30 @@ translations:
   - key: happiness.pre_post_processors
     t: 你对前置/后置处理器的状态有多满意？
   - key: happiness.css_in_js
-    t: 你对CSS-IN-JS的状态有多满意？
+    t: 你对 CSS-IN-JS 的状态有多满意？
   - key: happiness.css_frameworks
-    t: 你对CSS框架的现状有多满意？
+    t: 你对 CSS 框架的现状有多满意？
 
   - key: happiness.state_of_the_web
-    t: 总体而言，你对现有 WEB 技术满意吗？
+    t: Web 技术现况
+  - key: happiness.state_of_the_web.description
+    t: 您对 Web 技术的整体状况感到满意吗？
 
   - key: happiness.state_of_css
-    t: 总的来讲，你对现有 CSS 满意吗？
+    t: CSS 的现况
+  - key: happiness.state_of_css.description
+    t: 您对 CSS 的整体状况感到满意吗？
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
-    t: CSS痛点
+    t: CSS 痛点
   - key: css_pain_points.css_pain_points_wins.description
-    t: CSS的哪一方面你最难处理？结果按赢得的锦标赛轮数排列。
+    t: CSS 的哪一方面你最难处理？结果按赢得的锦标赛轮数排列。
 
   - key: css_pain_points.css_pain_points_matchups
-    t: CSS痛点（匹配）
+    t: CSS 痛点（匹配）
   - key: css_pain_points.css_pain_points_matchups.description
-    t: CSS的哪一方面你最难处理？左手项对上边项赢得回合数的百分比。
+    t: CSS 的哪一方面你最难处理？左手项对上边项赢得回合数的百分比。
 
   - key: css_missing_features.css_missing_features_wins
     t: CSS中缺少功能
@@ -787,11 +1040,61 @@ translations:
   - key: css_missing_features.css_missing_features_matchups.description
     t: 你现在最希望在CSS中使用哪项功能？左手项对上边项赢得回合数的百分比。
 
+  - key: usage.css_js_balance
+    t: CSS 和 JavaScript 的平衡
+  - key: usage.css_js_balance.description
+    t: 您如何分配编写 CSS（包括 HTML）和 JavaScript 代码的时间？
+
+  - key: usage.css_usage_type
+    t: CSS 使用情况
+  - key: usage.css_usage_type.description
+    t: 您主要在什么样的情况下使用 CSS？
+  - key: usage.css_usage_type.others
+    t: 其他 CSS 使用情况
+
   ###########################################################################
   # Resources
   ###########################################################################
 
   - key: resources.first_steps_css
-    t: CSS的第一步
+    t: CSS 的第一步
   - key: resources.first_steps_css.description
-    t: 刚开始学习CSS时，你最初是如何学习CSS的？
+    t: 刚开始学习 CSS 时，你最初是如何学习 CSS 的？
+
+  - key: resources.learning_methods_css
+    t: CSS 学习方法
+  - key: resources.learning_methods_css.description
+    t: 您用哪些资源学习 CSS？
+
+  # sites & courses
+  - key: resources.sites_courses_css
+    aliasFor: resources.sites_courses
+  - key: resources.sites_courses_css.description
+    t: 您用哪些与 CSS 相关的网站/课程等途径来学习 CSS？
+
+  # podcasts
+  - key: resources.podcasts_css
+    aliasFor: resources.podcasts
+  - key: resources.podcasts_css.description
+    t: 您听哪些与 CSS 相关的播客节目？
+
+  # people
+  - key: resources.people_css.others
+    aliasFor: resources.people.others
+  - key: resources.people_css.others.description
+    t: 您读过或关注哪些在 CSS 生态系统方面工作的人，或者想要特别介绍他们的工作？
+
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      欢迎参加本次调查！第一部分旨在了解您知道哪些 CSS **特性**。
+
+      顺便提一句，如果您想更多地告诉我们有关您的选择的信息，只需单击那个小的“评论”图标即可！
+
+  - key: tools.tools_intro_css
+    t: |
+      接下来的几个部分将重点关注构成 CSS 生态系统的**库**和**框架**。请告诉我们让您感到兴奋的内容！
