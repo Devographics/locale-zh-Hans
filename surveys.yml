@@ -8,6 +8,99 @@ translations:
       t: 没有要预览的调查
     - key: general.global_nav
       t: 全球的
+      
+    - key: general.survey_status_preview
+      t: 预览
+    - key: general.survey_status_open
+      t: 开放
+    - key: general.survey_status_closed
+      t: 结束
+    - key: general.survey_status_hidden
+      t: 隐藏
+
+    - key: general.pick_up_to
+      t: 选择最多 {limit} 个项目。
+
+    - key: general.privacy_policy
+      t: 隐私政策
+    - key: general.privacy_policy.description
+      t: >
+        ### 1. 数据收集
+
+        除了通过调查问题收集的数据外，我们还会收集您的设备、浏览器、操作系统、浏览器版本和来源等信息。
+
+        请注意，所有问题都是完全自愿回答的，我们从不将任何可识别的信息（如电子邮件地址）与您的调查答案相关联。
+
+        ### 2. 邮箱收集
+
+        我们可能会收集您的电子邮件地址用于：
+
+
+        1. 生成一个一键登录链接，之后我们会删除您的电子邮件地址，并只在我们的用户数据库中保留单向哈希值。
+
+        2. 在调查结果可用时与您联系，以及在我们推出未来版本的调查和进行不频繁的公告时与您联系。您可以随时取消订阅我们的邮件列表，并且一旦您的电子邮件发送到我们的电子邮件通讯提供商，您的电子邮件将从我们的记录中删除。
+
+        3. 向您发送您想了解的功能或工具的简要列表。通过我们的交易电子邮件提供商发送电子邮件后，我们将删除您的地址。
+
+
+        当我们收集您的电子邮件地址时，它永远不会与您对调查的回答或您的用户帐户相关联。
+
+        ### 3. Cookies
+
+        我们设置了一个登录 cookie，我们的托管提供商（Vercel）也可能设置自己的 cookie。我们不会设置任何其他 cookie 或使用客户端分析或广告。
+
+        ### 4. 数据使用
+
+        我们处理数据，然后将其用于发布报告。我们还将整个数据集公开发布。
+
+        ### 5. 数据/帐户删除
+
+        如果您希望我们删除您的全部或部分数据，您可以发送电子邮件至 [hello@stateofjs.com](mailto:hello@stateofjs.com) 。
+
+        
+    ###########################################################################
+    # Errors & Messages
+    ###########################################################################
+
+    - key: error.duplicate_response
+      t: 很抱歉，您已经有一个正在进行中的此调查的会话。
+
+    - key: error.report_issue
+      t: 报告问题
+
+    - key: success.data_saved
+      t: 数据保存
+    - key: success.data_saved.description
+      t: 您的数据已保存。
+
+      
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: 使用帐户以继续
+    - key: accounts.create_account.description
+      t: 拥有一个帐户可以让您在**将来访问自己的数据**，并在调查结果发布时得到通知。
+    - key: accounts.create_account.note
+      t: 如果您**已经拥有帐户**，我们将通过电子邮件向您发送一个一键登录链接。
+    - key: accounts.create_account.action
+      t: 使用帐户以继续
+    - key: accounts.your_email
+      t: 您的电子邮件地址
+
+    - key: accounts.continue_as_guest
+      t: 以游客身份继续
+    - key: accounts.continue_as_guest.description
+      t: 匿名参加调查意味着在您结束会话后，您将**无法再访问您的数据**。
+    - key: accounts.continue_as_guest.action
+      t: 以游客身份继续
+
+    - key: accounts.magic_link.no_email
+      t: 请填写您的电子邮件地址
+    - key: accounts.magic_link.success
+      t: 请查看您的收件箱！我们向您发送了一个一键登录链接，请单击它以确认您的帐户并登录。
+
 
     ###########################################################################
     # FAQ
@@ -70,5 +163,259 @@ translations:
 
 
     ###########################################################################
-    # Demographics (About You/User Info)
+    # Form Controls
     ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: 重新开始
+    - key: bracket.winner
+      t: >
+      获胜者：
+    - key: bracket.round
+      t: 回合
+    - key: bracket.empty_bracket
+      t: 待处理的结果（请先完成先前的回合）
+    - key: bracket.result
+      t: 结果
+    - key: bracket.cancel
+      t: 取消
+
+    - key: experience.leave_comment
+      t: 留言（可选）
+    - key: experience.leave_comment_short
+      t: 留言
+    - key: experience.tell_us_more
+      t: ”您回答了“{response}”。请告诉我们更多关于您的选择的理由：“
+    - key: experience.tell_us_more_no_value
+      t: ”您没有选择任何答案，想知道您的理由：“
+
+      
+    ###########################################################################
+    # Response
+    ###########################################################################
+
+    - key: response.completion
+      t: "完成了 {completion}%"
+
+    - key: response.details
+      t: 开始于 {startedAt}，已完成了 {completion}% 。
+
+      
+    ###########################################################################
+    # Reading List
+    ###########################################################################
+
+    - key: readinglist.add_to_list
+      t: 添加到您的阅读列表
+
+    - key: readinglist.added_to_list
+      t: 已填加 ”{label}“ 到您的阅读列表。
+
+    - key: readinglist.title
+      t: 阅读列表
+
+    - key: readinglist.description
+      t: >
+        使用 “+” 按钮将项目保存在此处，您将在调查结束时获得一个链接列表，以便更多地了解它们。
+
+    - key: readinglist.empty
+      t: >
+        您的阅读列表中没有任何项目。
+        请尝试返回调查并使用 “+” 按钮添加您想要了解更多的功能或库。
+
+    - key: readinglist.results
+      t: >
+        以下是一些资源，可帮助您更多地了解您的阅读列表中的项目：
+
+    - key: readinglist.homepage_link
+      t: 主页
+
+    - key: readinglist.receive_copy
+      t: >
+        请输入您的电子邮件地址，以便我们将您的阅读列表副本直接发送到您的收件箱中：
+    - key: readinglist.send_by_email
+      t: 发送
+    - key: readinglist.email_sent
+      t: 谢谢！您的阅读列表已发送到您的收件箱。
+      
+    ###########################################################################
+    # Score & Knowledge Ranks
+    ###########################################################################
+
+    - key: knowledge_rank.your_rank
+      t: ”您的排名：“
+    - key: knowledge_rank.rank1
+      t: 初学者
+    - key: knowledge_rank.rank2
+      t: 学徒
+    - key: knowledge_rank.rank3
+      t: 中级
+    - key: knowledge_rank.rank4
+      t: 专家
+    - key: knowledge_rank.rank5
+      t: 学者
+    - key: knowledge_rank.rank6
+      t: 精英
+
+
+    ###########################################################################
+    # Survey-Specific Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
+      t: |
+        2020 年对每个人来说都是艰难的一年，相比之下，最新的 JavaScript 框架是什么似乎不值一提。
+
+        尽管如此，世界仍然需要继续前进，JavaScript 也是如此。
+        再次感谢您的帮助，我们将尝试构建一个全面的生态系统图像，以更好地了解它的发展方向。
+
+    - key: general.css2021.survey_intro
+      t: |
+        嘿，CSS，最近你在忙些什么？哦，真的吗，`@container` ？还有内在尺寸？还有 `@property`？！哇，你真的很忙呢！
+
+        尽管疫情在整个 2021 年使每个人的生活变得更加艰难，但全球各地的专注贡献者们设法让 CSS 继续向前发展。
+        因此，又到了调查 CSS 生态系统并找出发展方向的时候了。也许在此过程中，您还可以了解一些新事物！
+
+    - key: general.js2021.survey_intro
+      t: |
+        首先，2020 年的奥运会被推迟到了 2021 年，现在 2021 年的 JavaScript 状况调查正在 2022 年进行！
+
+        确实如此：在工作、家庭和世界上所有的动荡之间，有些事情被打乱了。
+
+        尽管年份可能有所偏差，但我们希望调查本身提供的数据仍然像往常一样具有信息量和洞见。
+        别担心，今年年底还会有另一项调查来纠正一切！
+
+    - key: general.graphql2022.survey_intro
+      t: |
+        当 GraphQL 首次推出时，它提供了一种根本不同的构建 API 的方式，具有更多的控制、更细粒度和更大的灵活性。
+
+        然而，这种灵活性带来了额外的复杂性，一批框架、库和服务迅速出现，以帮助定义更好的模式和工作流程。
+
+        现在，我们首次调查 GraphQL 社区，以确定这些众多工具中哪些最受欢迎，以及实际使用哪些功能。在您的帮助下，让我们看看 GraphQL 在 2022 年都做了些什么！
+
+    - key: general.css2022.survey_intro
+      t: |
+        CSS 正以前所未有的速度发展。幸运的是，今年我们得到了站在这些变化最前沿的人的帮助：[Lea Verou](https://lea.verou.me/) 带头选择了今年的问题，并特别强调了新的和即将推出的 CSS 功能。
+        
+        此外，这项调查结果还将帮助浏览器供应商优先制定他们的路线图，并努力实现浏览器之间更好的兼容性。
+
+        说了这么多，现在让我们看看 CSS 在 2022 年是如何发展的！
+
+    - key: general.js2022.survey_intro
+      t: |
+        有一段时间以来，JavaScript 生态系统的现状似乎首次受到了质疑。
+
+        通过 Vite 更快地打包、通过 Astro 实现岛屿架构、通过 Qwik 实现可恢复性… 新的参与者正在挑战老牌技术，这带来了更多的兴奋，但也带来了更多的不确定性。
+
+        因此，让我们再次尝试一起探讨 JavaScript 在 2022 年及以后的发展方向。
+
+    - key: general.css2023.survey_intro
+      t: |
+        为了帮助您跟上 `:has()`、`@container` 和其他新的 CSS 特性，我们今年推出了自己的新功能：**阅读列表**。
+
+        在您填写调查问卷时，您可以将任何您想要了解更多信息的特性添加到书签中，在提交答案后再进行学习。
+
+        今年，[Chen Hui Jing](https://chenhuijing.com/) 接手了调查设计的工作，继续建立在去年 [Lea Verou](https://lea.verou.me/) 所做的工作的基础上。正如往常一样，您在这里的反馈将在帮助浏览器厂商优先考虑其路线图并努力实现浏览器之间更好的兼容性方面发挥关键作用。
+
+        现在把这些都放在一边，让我们看看 CSS 在 2023 年迄今为止如何发展！
+
+
+    ###########################################################################
+    # Survey-Specific FAQs
+    ###########################################################################
+
+    # CSS
+
+    - key: faq.data_used_css
+      t: 这些数据将如何被使用？
+    - key: faq.data_used_css.description
+      t: >
+        收集的所有数据都将公开发布，供任何开发者或公司参考。
+
+        浏览器厂商也会[利用这些数据](https://web.dev/interop-2023/)来优先考虑重点领域并制定其路线图。
+
+    - key: faq.who_should_take_survey_css
+      t: 谁应该参加这项调查？
+    - key: faq.who_should_take_survey_css.description
+      t: >
+        这是一项公开调查，适用于任何写 CSS 的人，无论是作为工作中的常规任务，作为学生，或者只是图一乐！
+
+    - key: faq.survey_goals_css
+      t: 这项调查的目标是什么？
+    - key: faq.survey_goals_css.description
+      t: >
+        这项调查的目标是跟踪即将推出的功能和库的发展，并帮助开发人员决定要专注于哪些新技术。
+
+
+    # CSS 2022
+
+    - key: faq.learn_more_css2022
+      t: 我可以在哪了解更多信息？
+    - key: faq.learn_more_css2022.description
+      t: 您可以在[这里了解去年的调查](https://2021.stateofcss.com/en-US/about/)。
+
+    - key: faq.survey_design_css2022
+      t: 这项调查是如何设计的？
+    - key: faq.survey_design_css2022.description
+      今年，得益于谷歌 [UI 基金](https://web.dev/ui-fund/)的资助，[Lea Verou](https://lea.verou.me/) 得以牵头并管理 GitHub 上的[开放式调查设计流程](https://github.com/orgs/Devographics/projects/1/views/1)。
+
+    - key: faq.results_released_css2022
+      t: 结果将何时发布？
+    - key: faq.results_released_css2022.description
+      t: 该调查将一直进行到 2022 年 10 月底，调查结果将在 11 月初发布。
+
+    - key: faq.data_used_css2022
+      t: 这些数据将如何被使用？
+    - key: faq.data_used_css2022.description
+      t: 所有收集的数据都将公开发布。然后，它将成为开发人员的资源，他们将咨询它来确定他们的技术选择，以及浏览器供应商将使用它来优先考虑重点领域并确定他们的路线图。
+
+
+    # CSS 2023
+
+    - key: faq.how_long_will_survey_take_css2023
+      t: 回答这份调查问卷需要多长时间？
+    - key: faq.how_long_will_survey_take_css2023.description
+      t: >
+        根据您回答的问题数量（所有问题都可以跳过），填写这份调查问卷应该需要大约 10-15 分钟左右的时间。
+
+    - key: faq.learn_more_css2023
+      t: 我可以在哪了解更多信息？
+    - key: faq.learn_more_css2023.description
+      t: 您可以在我们的[我们的公告帖](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk)里了解更多关于该问卷的信息。
+      
+
+    - key: faq.survey_design_css2023
+      t: 这项调查是如何设计的？
+    - key: faq.survey_design_css2023.description
+      t: >
+        今年，得益于 Google [UI 基金](https://web.dev/ui-fund/)的资助，[Chen Hui Jing](https://chenhuijing.com/) 得以协助管理问卷的[开放式设计过程](https://github.com/Devographics/surveys/issues/84)。
+
+    - key: faq.results_released_css2023
+      t: 结果将何时发布？
+    - key: faq.results_released_css2023.description
+      t: 该调查将一直进行到 2023 年 7 月 15 日，调查结果将在随后的几周内公布。
+
+    # JS 2022
+
+    - key: faq.learn_more_js2022
+      t: 我可以在哪了解更多信息？
+    - key: faq.learn_more_js2022.description
+      t: 您可以在[这里了解去年的调查](https://2021.stateofjs.com/en-US/about/)。
+      
+
+    # - key: faq.survey_design_js2022
+    #   t: How was this survey designed?
+    # - key: faq.survey_design_css2022.description
+    #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+
+    - key: faq.results_released_js2022
+      t: 结果将何时发布？
+    - key: faq.results_released_js2022.description
+      t: 该调查将一直进行到 2022 年 12 月 15 日，调查结果将在随后不久公布。
+
+    - key: faq.data_used_js2022
+      t: 这些数据将如何被使用？
+    - key: faq.data_used_js2022.description
+      t: 收集的所有数据将公开发布。这将成为开发人员的资源，他们会参考这些数据来决定他们的技术选择，同时也是浏览器供应商的参考，他们会使用这些数据来确定重点领域并制定产品路线图。
