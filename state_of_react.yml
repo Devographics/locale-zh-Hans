@@ -1,0 +1,383 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React 已经存在一段时间了，很明显它已成为主导的前端框架之一。
+
+      然而，即使如此，React 仍在快速发展，社区也在尽力跟进。
+
+      通过 React 开发者调查，我们希望能够理清这种演变，并帮助开发者在广阔的 React 生态系统中找到自己的方向。
+
+  - key: general.state_of_react.description
+    t: 关于 React 生态系统的年度开发者调查
+
+  - key: features.features_intro_react
+    t: |
+      欢迎参与调查！第一部分旨在了解您了解并使用了哪些官方的 React API。
+
+      顺便提一下，如果您想对您的选择进行更详细的说明，请点击那个小的“评论”图标！
+
+  - key: tools.tools_intro_react
+    t: |
+      接下来的几个部分关注于组成 React 生态系统的**工具库**和**框架**。请告诉我们您对哪些内容感到兴奋！
+
+  # sections
+  - key: sections.components.title
+    t: 组件
+  - key: sections.components.description
+    t: 由 React 提供的特殊组件
+  - key: sections.hooks.title
+    t: Hooks
+  - key: sections.hooks.description
+    t: React 内置的 hooks
+  - key: sections.other_apis.title
+    t: 其他 API
+  - key: sections.other_apis.description
+    t: 其他 API 和功能
+  - key: sections.component_apis.title
+    t: 组件 API
+  - key: sections.component_apis.description
+    t: 操作组件的 API
+  - key: sections.legacy_apis.title
+    t: 遗留的 API
+  - key: sections.legacy_apis.description
+    t: 已弃用的和遗留的 API
+
+  - key: sections.state_management.title
+    t: 状态管理
+  - key: sections.state_management.description
+    t: 用于管理应用程序状态的工具库。
+  - key: sections.data_loading.title
+    t: 数据加载
+  - key: sections.data_loading.description
+    t: 用于加载和管理数据的实用工具。
+  - key: sections.ui_libraries.title
+    t: UI 库
+  - key: sections.ui_libraries.description
+    t: 组件库和其他 UI 工具包。
+  - key: sections.meta_frameworks.title
+    t: 元框架
+  - key: sections.meta_frameworks.description
+    t: 帮助渲染和托管 React 应用程序的框架
+  - key: sections.testing.title
+    t: 测试
+  - key: sections.testing.description
+    t: 测试工具和库
+  - key: sections.mobile_development.title
+    t: 移动开发
+  - key: sections.mobile_development.description
+    t: 移动开发的库和实用工具
+
+  - key: sections.other_tools.title
+    t: 其他工具
+  - key: sections.other_tools.description
+    t: 其他 React 实用工具和库
+
+  - key: sections.usage_react.title
+    t: 使用情况
+  - key: sections.usage_react.description
+    t: 您日常如何使用 React
+
+  # tools
+
+  - key: tools.state_management_others
+    t: Other State Management Libraries
+  - key: tools.state_management_happiness
+    t: Happiness
+  - key: tools.state_management_happiness.description
+    t: How happy are you with the available state management libraries?
+
+  - key: tools.data_loading_others
+    t: Other Data Loading Libraries
+  - key: tools.data_loading_happiness
+    t: Happiness
+  - key: tools.data_loading_happiness.description
+    t: How happy are you with the state of data loading libraries?
+
+  - key: tools.ui_libraries_others
+    t: Other UI Libraries
+  - key: tools.ui_libraries_happiness
+    t: Happiness
+  - key: tools.ui_libraries_happiness.description
+    t: How happy are you with the state of UI libraries?
+
+  - key: tools.meta_frameworks_others
+    t: Other Meta-Frameworks
+  - key: tools.meta_frameworks_happiness
+    t: Happiness
+  - key: tools.meta_frameworks_happiness.description
+    t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.testing_others
+    t: Other Testing Libraries
+  - key: tools.testing_happiness
+    t: Happiness
+  - key: tools.testing_happiness.description
+    t: How happy are you with the current state of testing libraries?
+
+  - key: tools.mobile_development_others
+    t: Other Mobile Development Tools
+  - key: tools.mobile_development_happiness
+    t: Happiness
+  - key: tools.mobile_development_happiness.description
+    t: How happy are you with the current state of mobile development?
+
+  # other tools
+  - key: other_tools.forms.description
+    t: Libraries for generating and validating forms.
+  - key: options.forms.na
+    t: None
+
+  - key: other_tools.build_tools
+    t: Build Tools
+  - key: other_tools.build_tools.description
+    t: Build tools and bundlers.
+
+  - key: other_tools.animation
+    t: Animation
+  - key: other_tools.animation.description
+    t: Libraries to help manage animations and transitions.
+
+  - key: other_tools.auth
+    t: Authentication
+  - key: other_tools.auth.description
+    t: Libraries and services for managing authentication and accounts.
+
+  - key: other_tools.data_visualization
+    t: Data Visualization
+  - key: other_tools.data_visualization.description
+    t: Data visualization and graphics libraries.
+
+  - key: other_tools.css_tools
+    t: CSS Tools & Libraries
+  - key: other_tools.css_tools.description
+    t: CSS libraries, frameworks, and utilities you use to style your React app.
+
+  - key: other_tools.other_frontend_frameworks
+    t: Other Front-end Frameworks
+  - key: other_tools.other_frontend_frameworks.description
+    t: >
+      Other front-end frameworks you either had a positive experience with, 
+      or are interested in learning.
+
+  - key: other_tools.hosting
+    t: Hosting Services
+  - key: other_tools.hosting.description
+    t: Services you use to host your React apps.
+
+  - key: other_tools.backend_language
+    t: Back-end Languages
+  - key: other_tools.backend_language.description
+    t: Which language(s) are your back-end apps written in?
+
+  - key: other_tools.other_services
+    t: Other Services
+  - key: other_tools.other_services.description
+    t: Other services you use with your React apps.
+
+  - key: other_tools.validation
+    t: Schema & Validation Libraries
+  - key: other_tools.validation.description
+    t: Libraries for validating data against a schema.
+
+  - key: other_tools.ai_tools
+    t: AI Tools
+  - key: other_tools.ai_tools.description
+    t: AI tools & services you use to help you write React code.
+
+  - key: other_tools.renderers
+    t: React Renderers
+  - key: other_tools.renderers.description
+    t: Libraries that let you render React to different platforms or environments.
+
+  - key: other_tools.other_tools
+    t: Other Tools
+  - key: other_tools.other_tools.description
+    t: Other tools you use to develop React apps.
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (plain, “vanilla” CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Managing component re-renders
+  - key: options.react_pain_points.testing
+    t: Testing
+  - key: options.react_pain_points.data_loading
+    t: Data loading and async operations
+  - key: options.react_pain_points.state_management
+    t: State management (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Keeping client bundle sizes down
+  - key: options.react_pain_points.server_rendering
+    t: Server-Side Rendering & Server Components
+  - key: options.react_pain_points.css_styling
+    t: CSS & Styling
+  - key: options.react_pain_points.attribute_names
+    t: “Wrong” attribute names such as `className`, `htmlFor`, etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Synthetic events
+  - key: options.react_pain_points.ref_management
+    t: Ref management
+  - key: options.react_pain_points.memoization
+    t: Memoization
+  - key: options.react_pain_points.animations
+    t: Animations & Transitions
+  - key: options.react_pain_points.forms
+    t: Forms
+  - key: options.react_pain_points.typescript
+    t: Lack of official native TypeScript support
+
+  # usage type
+  - key: usage.react_usage_type
+    t: React Usage
+  - key: usage.react_usage_type.description
+    t: In what context do you primarily use React?
+
+  # react version
+
+  - key: usage.react_version
+    t: React Version
+  - key: usage.react_version.description
+    t: Which version of React do you use the most on a daily basis?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.not_sure
+    t: Not sure
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Application Patterns
+  - key: usage.js_app_patterns.description
+    t: Which of the following architecture and rendering patterns have you used **in the last year**?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Apps that run entirely in the browser
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Apps that run entirely on the server, with minimal client-side dynamic behavior
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Pre-rendered static content, with or without a client-side dynamic element
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Dynamically rendering HTML content on the server before rehydrating it on the client
+  - key: options.js_app_patterns.partial_hydration
+    t: Partial Hydration
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Only hydrating some of your components on the client (e.g. React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Progressive Hydration
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Controlling the order of component hydration on the client
+  - key: options.js_app_patterns.islands_architecture
+    t: Islands Architecture
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Progressive Enhancement
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Making sure an app is functional even without JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Generation
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Being able to dynamically augment or modify a static site even after the initial build (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Breaking down server-rendered content in smaller streamed chunks
+  - key: options.js_app_patterns.resumability
+    t: Resumability
+  - key: options.js_app_patterns.resumability.description
+    t: Serializing framework state on the server so the client can resume execution with no duplicated code execution.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Altering rendered HTML at the edge before sending it on to the client
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Micro Frontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: What Do You Use React For?
+
+  - key: usage.react_pain_points
+    t: React Pain Points
+
+  - key: usage.state_of_react
+    t: How happy are you with the current state of React?
+
+  # new features
+  - key: usage.new_features
+    t: New Features
+  - key: usage.new_features.description
+    t: Which of these recent and upcoming new features are you most excited about?
+
+  - key: options.new_features.asset_loading
+    t: Asset Loading
+  - key: options.new_features.asset_loading.description
+    t: Fully integrate Suspense with the loading lifecycle of stylesheets, fonts, and images
+  - key: options.new_features.cache.description
+    t: An API to assist with caching data.
+  - key: options.new_features_react_forget.description
+    t: An automatic reactivity compiler for React
+  - key: options.new_features.new_docs
+    t: New Documentation
+  - key: options.new_features.new_docs
+    t: React's updated documentation site.
+  - key: options.new_features.offscreen_rendering
+    t: Offscreen Rendering
+  - key: options.new_features_offscreen_rendering.description
+    t: Rendering screens in the background without additional performance overhead.
+  - key: options.new_features.use_hook
+    t: >
+      `use` Hook
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` unwraps the value of a promise, but it can be used inside normal components and Hooks, including on the client.
+
+  - key: options.new_features.transition_tracing
+    t: Transition Tracing
+  - key: options.new_features.transition_tracing.description
+    t: Detect when React Transitions become slower and investigate why they may be slow.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Static sites
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Design systems
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Web apps
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Mobile apps
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Desktop apps
+
+  # resources
+  - key: resources.first_steps_react
+    t: First Steps
+  - key: resources.first_steps_react.description
+    t: Which resources did you use to initially learn React?
