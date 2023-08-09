@@ -102,7 +102,7 @@ translations:
     t: 后端开发
   # support
   - key: general.support_from
-    t: 在支持下
+    t: 赞助来源
 
   # footer
   - key: general.privacy_policy

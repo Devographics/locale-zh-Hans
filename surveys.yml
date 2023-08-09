@@ -139,7 +139,7 @@ translations:
     - key: faq.team
       t: 谁负责这些调查？
     - key: faq.team.description
-      t: 调查主要由[我]进行(http://sachagreif.com)与贡献者、翻译人员和志愿者合作。
+      t: 调查主要由[我](http://sachagreif.com)进行与贡献者、翻译人员和志愿者合作。
 
     ###########################################################################
     # Form Controls
