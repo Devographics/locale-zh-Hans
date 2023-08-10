@@ -52,8 +52,16 @@ translations:
     t: 开始问卷 »
   - key: general.continue_survey
     t: 继续填写 »
+  - key: general.completion
+    t: "已完成 {completion}%"
+  - key: general.started_on
+    t: 开始于 {createdAt}
+  - key: general.last_modified_on
+    t: 最后修改于 {updatedAt}
   - key: general.review_survey
     t: 查看已填写 »
+  - key: general.review_answers
+    t: 查看已填写的答案 »
   - key: general.preview_survey
     t: 预览问卷 »
   - key: general.finish_survey
@@ -64,6 +72,8 @@ translations:
     t: 上一部分
   - key: general.survey_closed
     t: 此问卷调查已结束。
+  - key: general.survey_closed_on
+    t: 问卷调查会持续到 {endedAt} 为止。
   - key: general.survey_results
     t: 查看问卷调查结果 »
   - key: general.surveys_available_languages
@@ -78,6 +88,8 @@ translations:
     t: 今年新增
   - key: general.new
     t: 新
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> 是运作 JavaScript、CSS 和 GraphQL 状态调查的集体的新名称。
 
   # credits
   - key: credits.thanks
