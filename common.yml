@@ -269,7 +269,6 @@ translations:
     t: 其他工具
   - key: sections.other_tools.description
     t: 请在这些工具和技术中，选择你常用的。
-
   - key: section.tools_others.title
     aliasFor: section.other_tools.title
   - key: section.tools_others.description
@@ -521,7 +520,7 @@ translations:
     t: 大于 20 万美元
 
   # salary (short versions)
-    - key: options.yearly_salary.na.short
+  - key: options.yearly_salary.na.short
     t: 不清楚
   - key: options.yearly_salary.range_work_for_free.short
     t: 0 美元
