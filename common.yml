@@ -34,6 +34,8 @@ translations:
       <a href="{link}">返回问卷主页</a> 以继续（重新）填写。
   - key: general.take_survey
     t: 选择{name}调查
+  - key: options.na
+    t: 无
 
   # surveys
   - key: general.open_surveys
@@ -94,6 +96,10 @@ translations:
   # credits
   - key: credits.thanks
     t: 特别感谢
+  - key: credits.contributors
+    t: 贡献者
+  - key: credits.contributors.description
+    t: 特别感谢以下人员帮助我们设计调查问卷。
   - key: credits.accessibility
     t: 无障碍咨询
   - key: credits.survey_design
@@ -152,16 +158,28 @@ translations:
 
       另外，如果可以，你可以将此问卷分享给更多人，
       让最终的数据更具代表性：
+  - key: general.thanks2
+    t: >
+      通过分享本调查问卷来帮助我们宣传！点点滴滴都很重要，它将帮助我们的数据更具代表性。
   - key: thanks.learn_more_about
     t: "还有一些你可能感兴趣的功能："
   - key: thanks.knowledge_score
     t: 分数排名
+  - key: thanks.features_score
+    t: 功能得分
+  - key: thanks.quiz_score
+    t: 测验得分
   - key: thanks.score_explanation
     t: >
       你的调查问卷里提到的 <span class="score-number score-number-known">{known}</span> 个提案，
       已有<span class="score-number score-number-total">{total}</span> 个计分, 
       在所有提交者里，
       你的排名是 <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>。
+  - key: thanks.score_explanation_no_ranking
+    t: >
+      在调查问卷中提到的 <span class="score-number
+      score-number-total">{total}</span> 个特性中，你曾听过或者用过 <span class="score-number
+      score-number-known">{known}</span> 个。
   - key: thanks.share_on_twitter
     t: 分享至 Twitter
   - key: thanks.share_score_message
@@ -180,6 +198,12 @@ translations:
     t: 选项
   - key: forms.clear_field
     t: 清除
+  - key: forms.more_options
+    t: 展示更多...
+  - key: forms.less_options
+    t: 显示更少
+  - key: sponsors.with_support_from
+    t: 特别支持
 
   # partners
   - key: sponsors.our_partners
@@ -204,6 +228,8 @@ translations:
     t: 使用 <a href="{link}">Devographics</a> 制作
   - key: general.view_code_example
     t: 查看代码示例
+  - key: general.feature_code_example
+    t: '**{featureName}** 代码示例'
   - key: general.code_example
     t: "**{featureName}** 代码示例"
   ###########################################################################
@@ -244,8 +270,21 @@ translations:
   - key: sections.other_tools.description
     t: 请在这些工具和技术中，选择你常用的。
 
+  - aliasFor: section.other_tools.title
+    key: section.tools_others.title
+  - aliasFor: section.other_tools.description
+    key: section.tools_others.description
+
   - key: sections.report.title
     t: 趋势报告
+  - key: sections.usage.title
+    t: 使用情况
+  - key: sections.finish.title
+    t: 完成调查
+  - key: sections.finish.description
+    t: 完成调查
+  - key: options.other
+    t: 其他...
 
   ###########################################################################
   # Options
@@ -424,6 +463,8 @@ translations:
     t: ">20"
 
   # company size
+  - key: options.company_size.na
+    t: 不清楚
   - key: options.company_size.range_1
     t: 1 个雇员
   - key: options.company_size.range_1_5
@@ -442,6 +483,8 @@ translations:
     t: 超过 1000 个雇员
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: 不清楚
   - key: options.company_size.range_1.short
     t: 1 个雇员
   - key: options.company_size.range_1_5.short
@@ -460,6 +503,8 @@ translations:
     t: 超过 1000 个雇员
 
   # salary
+  - key: options.yearly_salary.na
+    t: 不清楚
   - key: options.yearly_salary.range_work_for_free
     t: 我没有收入
   - key: options.yearly_salary.range_0_10
@@ -476,6 +521,8 @@ translations:
     t: 大于 20 万美元
 
   # salary (short versions)
+    - key: options.yearly_salary.na.short
+    t: 不清楚
   - key: options.yearly_salary.range_work_for_free.short
     t: 0 美元
   - key: options.yearly_salary.range_0_10.short
@@ -725,7 +772,9 @@ translations:
   - key: options.industry_sector.consulting
     t: 咨询服务
   - key: options.industry_sector.travel
-    t: 履行
+    t: 旅行
+  - key: options.industry_sector.tourism
+    t: 观光
   - key: options.industry_sector.insurance
     t: 保险
   - key: options.industry_sector.logistics
@@ -750,6 +799,36 @@ translations:
     t: 运输业
   - key: options.industry_sector.manufacturing
     t: 制造业
+  - key: options.industry_sector.tech_it
+    t: 科技和 IT
+  - key: options.industry_sector.human_resources
+    t: 人力资源
+  - key: options.industry_sector.sports
+    t: 运动
+  - key: options.industry_sector.gaming
+    t: 游戏
+  - key: options.industry_sector.research
+    t: 科研
+  - key: options.industry_sector.law
+    t: 法律
+  - key: options.industry_sector.non_profit
+    t: 非盈利
+  - key: options.industry_sector.art
+    t: 艺术
+  - key: options.industry_sector.crypto
+    t: 加密货币
+  - key: options.industry_sector.aerospace
+    t: 航天
+  - key: options.industry_sector.web3
+    t: Web3
+  - key: options.industry_sector.iot
+    t: 物联网
+  - key: options.industry_sector.gambling
+    t: 赌博
+  - key: options.industry_sector.blockchain
+    t: 区块链
+  - key: options.industry_sector.design
+    t: 设计
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -804,6 +883,8 @@ translations:
     t: 语义标记
   - key: options.accessibility_features.aria_attributes
     t: ARIA HTML 参数
+  - key: options.first_steps.na
+    t: 无
 
   # learning methods
   - key: options.first_steps.books
@@ -827,6 +908,55 @@ translations:
   - key: options.first_steps.mentoring
     t: 有人指导学习
 
+  - key: options.first_steps.documentation
+    t: 文档
+  - key: options.first_steps.blogs
+    t: 博客
+  - key: options.first_steps.view_source
+    t: 看源代码
+  - key: options.first_steps.documentation
+    t: 文档
+  - key: options.first_steps.trial_and_error
+    t: 尝试与错误
+  - key: options.first_steps.forums
+    t: 论坛
+
+  # learning methods
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+
   # degree
   - key: options.higher_education_degree.no_degree
     t: 无
@@ -843,6 +973,22 @@ translations:
   - key: options.higher_education_degree.yes_unrelated.short
     t: 有，非科班出身
 
+  # employment_status
+  - key: options.employment_status.full_time
+    t: 全职
+  - key: options.employment_status.student
+    t: 学生
+  - key: options.employment_status.self_employed
+    t: 自雇
+  - key: options.employment_status.contractor
+    t: 合同
+  - key: options.employment_status.part_time
+    t: 兼职
+  - key: options.employment_status.between_jobs
+    t: 灵活就业
+  - key: options.employment_status.retired
+    t: 退休
+
   # bracket
   - key: options.bracket.round1
     t: 第一轮胜出
@@ -852,6 +998,103 @@ translations:
     t: 第三轮胜出
   - key: options.bracket.combined
     t: 结合的
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: 是，调查结果公布后给我发电子邮件
+
+  # usage type
+  - key: options.usage_type.professionally
+    t: 专业
+  - key: options.usage_type.student
+    t: 作为学生
+  - key: options.usage_type.hobby
+    t: 作为爱好
+
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_11_20
+    t: 11-20%
+  - key: options.percentage_segments.range_21_30
+    t: 21-30%
+  - key: options.percentage_segments.range_31_40
+    t: 31-40%
+  - key: options.percentage_segments.range_41_50
+    t: 41-50%
+  - key: options.percentage_segments.range_51_60
+    t: 51-60%
+  - key: options.percentage_segments.range_61_70
+    t: 61-70%
+  - key: options.percentage_segments.range_71_80
+    t: 71-80%
+  - key: options.percentage_segments.range_81_90
+    t: 81-90%
+  - key: options.percentage_segments.range_91_100
+    t: 91-100%
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.completion_stats.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.completion_stats.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.completion_stats.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.completion_stats.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.completion_stats.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.completion_stats.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.completion_stats.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.completion_stats.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.knowledge_score.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.knowledge_score.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.knowledge_score.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.knowledge_score.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.knowledge_score.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.knowledge_score.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.knowledge_score.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.knowledge_score.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.knowledge_score.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.knowledge_score.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  # source
+  - key: options.source.angular_community
+    aliasFor: Angular Community
+  - key: options.source.work
+    aliasFor: Work
+  - key: options.source.word_of_mouth
+    t: 口口相传
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
 
   ###########################################################################
   # Tools
@@ -943,6 +1186,9 @@ translations:
       虽然我们知道收集和发布这些数据可能是一个敏感问题，
       但我们确实认为获取这些数据以帮助大家做决策是很重要的。
       我们会尽可能在包容性和代表性方面做出努力。
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      为了遵守当地政策，您所在国家或地区的种族或民族数据收集已被禁用。
 
   # disability status
   - key: user_info.disability_status
@@ -961,6 +1207,12 @@ translations:
     t: 从什么渠道找到本调查文件的？
   - key: user_info.email
     t: 你的邮箱地址
+  - key: user_info.email.description
+    t: >
+      您匿名填写了调查问卷。如果您愿意，可以选择输入您的电子邮件，以便日后访问您的数据，并在调查结果公布时收到通知。
+  - key: user_info.email.note
+    t: >
+      我们不会存储任何个人数据，因此在您填写电子邮件地址后，我们将使用该地址生成一个唯一的匿名标识符，然后从我们的记录中删除该地址本身。
   - key: user_info.country
     t: 你的国家或地区
   - key: user_info.country.description
@@ -974,7 +1226,7 @@ translations:
       来查看仓库和公开信息。
 
   - key: user_info.twitter_username
-    t: Twitter用户名
+    t: Twitter 用户名
   - key: user_info.twitter_username.description
     t: >
       我们将来可能会使用你填写的Twitter用户名
@@ -990,11 +1242,43 @@ translations:
   - key: user_info.industry_sector.others.description
     t: 上述未提及的行业。
 
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.description
+    aliasFor: user_info.industry_sector.description
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.description
+
   # degree
   - key: user_info.higher_education_degree
-    t: 学历
+    t: 高等教育学位
   - key: user_info.higher_education_degree.description
     t: 你有过高等教育的经历吗？
+
+  # employment status
+  - key: user_info.employment_status
+    t: 就业状况
+  - key: user_info.employment_status.description
+    t: 您的就业状况如何？
+
+  # completion
+  - key: user_info.completion_stats
+    t: 调查完成情况
+  - key: user_info.completion_stats.description
+    t: 受访者填写了调查问卷的哪些部分？
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: 您希望在调查结果公布时收到通知吗？
+  - key: user_info.receive_notifications.note
+    t: >
+      我们不会存储任何私人数据，因此您的电子邮件地址发送给我们的邮件列表提供商后，将从我们的记录中删除。
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: 我们该如何改进这项调查？
 
   ###########################################################################
   # Other Tools
@@ -1086,6 +1370,8 @@ translations:
     t: 其他 blog 和杂志
   - key: resources.blogs_news_magazines.others.description
     t: 其他 blog 和杂志（填写名称）。
+  - key: options.blogs_news_magazines.na
+    t: 无
 
   # sites & courses
   - key: resources.sites_courses
@@ -1096,6 +1382,8 @@ translations:
     t: 其他网站和课程
   - key: resources.sites_courses.others.description
     t: 其他网站和课程（填写名称）。
+  - key: options.sites_courses.na
+    t: 无
 
   # podcasts
   - key: resources.podcasts
@@ -1106,6 +1394,8 @@ translations:
     t: 其他播客
   - key: resources.podcasts.others.description
     t: 其他播客（填写名称）。
+  - key: options.podcasts.na
+    t: 无
 
   # people
   - key: resources.people
@@ -1122,3 +1412,62 @@ translations:
     t: >
       你阅读、关注或只想突出强调的人。
       （自由格式字段，逗号分隔的名称）
+  - key: options.people.na
+    t: 无
+
+  # other surveys
+  - key: resources.other_surveys
+    t: Other Surveys
+  - key: resources.other_surveys.description
+    t: Which other developer surveys do you participate in?
+  - key: resources.other_surveys.others
+    t: Additional surveys not mentioned above
+  - key: options.other_surveys.na
+    t: None
+
+  # video creators
+  - key: resources.video_creators
+    t: Video Creators
+  - key: resources.video_creators.description
+    t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
+  - key: resources.video_creators.others
+    t: Other Video Creators
+  - key: options.video_creators.na
+    t: None
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: 告诉我们更多...
+
+  - key: followups.description
+    t: |
+      您也可以告诉我们您选择这个答案的原因：
+
+  - key: followups.placeholder
+    t: 其他理由...
+
+  - key: followups.want_to_learn_more
+    t: 我想了解更多
+  - key: followups.not_interested
+    t: 我不感兴趣
+  - key: followups.insufficient_browser_support
+    t: 浏览器支持不足
+  - key: followups.not_needed
+    t: 我不需要
+  - key: followups.hard_to_use
+    t: 难以使用
+  - key: followups.positive_experience
+    t: 我有过一次良好的经历
+  - key: followups.not_powerful
+    t: 它还不够强大
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
