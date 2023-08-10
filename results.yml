@@ -146,6 +146,12 @@ translations:
     t: 论坛
   - key: options.first_steps.view_source
     t: 查看源代码
+  - key: options.first_steps.copy_paste
+    t: 复制/粘贴
+  - key: options.first_steps.trial_and_error
+    t: 尝试与错误
+  - key: options.first_steps.documentation
+    t: 文档
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -172,6 +178,20 @@ translations:
     t: 糖尿病
   - key: options.disability_status_others.carpal_tunnel
     t: 腕道症候群
+  - key: options.disability_status_others.migraine
+    t: 偏头痛
+  - key: options.disability_status_others.speech_impairment
+    t: 语言障碍
+  - key: options.disability_status_others.ocd
+    t: 强迫症
+  - key: options.disability_status_others.chronic_pain
+    t: 慢性疼痛
+  - key: options.disability_status_others.chronic_fatigue
+    t: 慢性疲劳
+  - key: options.disability_status_others.crohn
+    t: 克罗恩病
+  - key: options.disability_status_others.depression
+    t: 抑郁症
 
     ###########################################################################
     # Sections
@@ -292,6 +312,8 @@ translations:
     t: 捷克语
   - key: options.locale.pt-PT
     t: 葡萄牙语
+  - key: options.locale.pt-BR
+    t: 葡萄牙语 (巴西)
   - key: options.locale.it-IT
     t: 意大利语
   - key: options.locale.sv-SE
@@ -318,6 +340,22 @@ translations:
     t: 韩国人
   - key: options.locale.ro-RO
     t: 罗马尼亚语
+  - key: options.locale.am-ET
+    t: 阿姆哈拉语
+  - key: options.locale.ar-EG
+    t: 阿拉伯语
+  - key: options.locale.el-GR
+    t: 希腊语
+  - key: options.locale.gl-ES
+    t: 加利西亚语
+  - key: options.locale.hr-HR
+    t: 克罗地亚语
+  - key: options.locale.hu-HU
+    t: 匈牙利语
+  - key: options.locale.sk-SK
+    t: 斯洛伐克语
+  - key: options.locale.vi-VN
+    t: 越南语
 
     ###########################################################################
     # Features
@@ -387,6 +425,28 @@ translations:
     t: 主页
   - key: blocks.entity.github_link
     t: github
+  - key: blocks.entity.twitter_link
+    t: 推特
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: 博客
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: 名字
+  - key: blocks.people.social_links
+    t: 链接
+  - key: blocks.people.responses
+    t: 答复
 
     # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
@@ -417,7 +477,7 @@ translations:
     # tools quadrant
   - key: blocks.tools_quadrant
     t: 满意度 对比 使用率
-  - key: blocks.tools_quadrant.satisfaction.description
+  - key: blocks.tools_quadrant.description
     t: |
       这张图表显示了每种技术对其总 **用户数量** 的 **满意率**。
       它可以分为四个象限：
@@ -486,6 +546,10 @@ translations:
     # tools experience ranking
   - key: blocks.tools_experience_ranking
     t: 排行
+  - key: blocks.tools_experience_ranking.percentages
+    t: 百分比
+  - key: blocks.tools_experience_ranking.rankings
+    t: 排行
   - key: blocks.tools_experience_ranking.description
     t: 满意度, 关注度, 使用率, 和认知率的排行。
   - key: blocks.tools_experience_ranking.note
@@ -496,6 +560,14 @@ translations:
       - 关注率：**想学习** / (**想学习** + **不感兴趣**)
       - 使用率：(**将再次使用** + **将不再使用**) / **总计**
       - 认知率：(**总计** - **从未听说过**) / **总计**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: 长期比率
+  - key: blocks.tools_experience_linechart.description
+    t: 随着时间的推移，保留率、兴趣率、使用率和认知率都会有所提高。
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
     # happiness
   - key: blocks.happiness
@@ -607,6 +679,10 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: 在评估新工具库时，你优先考虑哪些因素？左手项对上边项赢得回合数的百分比。
 
+  # other
+  - key: blocks.freeform
+    t: (自由提问)
+
     ###########################################################################
     # Charts
     ###########################################################################
@@ -621,6 +697,19 @@ translations:
     t: 受访者百分比
   - key: chart_units.percentage_survey
     t: 调查对象百分比
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "样本的 %"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: 平均 {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+
+  - key: chart_units.percentilesByFacet
+    t: "{axis} 百分比"
 
   - key: charts.average
     t: 平均的
@@ -887,6 +976,16 @@ translations:
     t: 提及最多
   - key: award.most_write_ins_award.description
     t: 颁发给受访者提及最多的项目。
+
+  - key: award.most_commented_feature_award.title
+    t: 被评论最多的功能
+  - key: award.most_commented_feature_award.description
+    t: 授予收到评论最多的功能。
+
+  - key: award.most_commented_tool_award.title
+    t: 被评论最多的工具库
+  - key: award.most_commented_tool_award.description
+    t: 授予收到评论最多的工具库。
 
     ###########################################################################
     # Hints

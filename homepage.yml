@@ -85,12 +85,20 @@ translations:
     t: 您的电子邮箱地址
   - key: homepage.newsletter.submit
     t: 通知我
+  - key: newsletter.email
+    t: 您的电子邮箱地址
+  - key: newsletter.submit
+    t: 通知我
 
   # languages
   - key: languages.available_languages
     t: "支持的语言："
   - key: languages.help_us_translate
     t: 帮助我们将调查翻译成您的语言 →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
 
   # footer
   - key: homepage.made_by_devographics
@@ -101,3 +109,5 @@ translations:
     aliasFor: general.leave_issue
   - key: homepage.join_discord
     aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: '由 [Astro](https://astro.build/) 提供支持'

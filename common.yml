@@ -270,10 +270,10 @@ translations:
   - key: sections.other_tools.description
     t: 请在这些工具和技术中，选择你常用的。
 
-  - aliasFor: section.other_tools.title
-    key: section.tools_others.title
-  - aliasFor: section.other_tools.description
-    key: section.tools_others.description
+  - key: section.tools_others.title
+    aliasFor: section.other_tools.title
+  - key: section.tools_others.description
+    aliasFor: section.other_tools.description
 
   - key: sections.report.title
     t: 趋势报告
