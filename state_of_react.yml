@@ -260,7 +260,8 @@ translations:
   - key: usage.js_app_patterns
     t: 应用模式
   - key: usage.js_app_patterns.description
-    t: **过去一年里**您使用过以下哪些架构和渲染模式？
+    t: > 
+      **过去一年里**您使用过以下哪些架构和渲染模式？
 
   - key: options.js_app_patterns.single_page_app
     t: 单页面应用 (SPA)
