@@ -260,7 +260,7 @@ translations:
   - key: usage.js_app_patterns
     t: 应用模式
   - key: usage.js_app_patterns.description
-    t: > 
+    t: >
       **过去一年里**您使用过以下哪些架构和渲染模式？
 
   - key: options.js_app_patterns.single_page_app
@@ -346,7 +346,7 @@ translations:
     t: React 的自动响应式编译器
   - key: options.new_features.new_docs
     t: 新文档
-  - key: options.new_features.new_docs
+  - key: options.new_features.new_docs.description
     t: React 的最新文档网站。
   - key: options.new_features.offscreen_rendering
     t: 离屏渲染

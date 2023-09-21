@@ -913,8 +913,7 @@ translations:
     t: 博客
   - key: options.first_steps.view_source
     t: 看源代码
-  - key: options.first_steps.documentation
-    t: 文档
+
   - key: options.first_steps.trial_and_error
     t: 尝试与错误
   - key: options.first_steps.forums

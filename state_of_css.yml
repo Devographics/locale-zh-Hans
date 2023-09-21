@@ -110,7 +110,7 @@ translations:
     t: 环境
   - key: sections.environments.description
     t: 你于什么环境下编写 CSS 代码？
-    
+
   - key: sections.usage_css.title
     t: CSS 使用情况
   - key: sections.usage_css.description
@@ -310,7 +310,6 @@ translations:
   - key: options.css_missing_features.css_toggle.description
     t: 将 "可切换值 "与元素关联的方法。
 
-
   ###########################################################################
   # Features
   ###########################################################################
@@ -492,11 +491,9 @@ translations:
     t: <code>@property</code>
   - key: features.at_layer
     t: <code>@layer</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
   - key: features.marker
     t: <code>::marker</code> 伪元素
-    
+
   - key: features.css_nesting.description
     t: 原生 CSS 嵌套，不包括预处理器或后处理器。
 
@@ -514,8 +511,6 @@ translations:
     t: Shadow DOM 特性
   - key: features.individual_transform_properties
     t: 单独的 Transform 属性
-  - key: features.comparison_functions
-    t: CSS 比较函数
   - key: features.math_functions
     t: CSS 数学函数
   - key: features.viewport_units
@@ -736,7 +731,7 @@ translations:
     t: :in-range and :out-of-range
   - key: options.form_controls.required_optional
     t: :required and :optional
-    
+
   # slider
   - key: options.css_js_balance.0
     t: 100% CSS
@@ -744,7 +739,6 @@ translations:
     t: 50%–50%
   - key: options.css_js_balance.8
     t: 100% JS
-
 
   ###########################################################################
   # Other Tools
@@ -803,7 +797,6 @@ translations:
   - key: other_tools.browsers.others.description
     aliasFor: tools_others.browsers.others.description
 
-
   ###########################################################################
   # Environments
   ###########################################################################
@@ -837,7 +830,7 @@ translations:
     t: 你通常实施哪些辅助功能？
   - key: environments.accessibility_features.others
     t: 其他辅助功能
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: 你通常实现的其他辅助功能
 
   - key: environments.css_for_print
@@ -961,7 +954,7 @@ translations:
 
   - key: opinions_others.css_pain_points.others
     t: 其他 CSS 痛点
-    
+
   - key: usage.css_pain_points
     aliasFor: opinions_others.css_pain_points.others
   - key: usage.css_pain_points.description
@@ -995,7 +988,7 @@ translations:
   - key: options.css_missing_features.na
     t: 无
 
-  # 
+  #
 
   - key: opinions.sum_up_one_word_css
     t: 一个词来形容 CSS
@@ -1083,7 +1076,6 @@ translations:
     aliasFor: resources.people.others
   - key: resources.people_css.others.description
     t: 您读过或关注哪些在 CSS 生态系统方面工作的人，或者想要特别介绍他们的工作？
-
 
   ###########################################################################
   # Survey Help
