@@ -18,7 +18,7 @@ translations:
        - 保持会话状态以便继续操作
 
        - 结果公布后，可以通知到你
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       抱歉，此问卷已结束！你仍可以查看已有数据，但不能修改。
   - key: general.survey_read_only
@@ -229,7 +229,7 @@ translations:
   - key: general.view_code_example
     t: 查看代码示例
   - key: general.feature_code_example
-    t: '**{featureName}** 代码示例'
+    t: "**{featureName}** 代码示例"
   - key: general.code_example
     t: "**{featureName}** 代码示例"
   ###########################################################################
@@ -703,19 +703,19 @@ translations:
       不在选项中
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       视觉障碍
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       听力障碍
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       行动不便
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       认知障碍
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       不在选项中
 
