@@ -842,7 +842,7 @@ translations:
     t: 暴露组件 parts (`part` 属性)
 
   - key: features.part_selector
-    t:样式化组件 parts (`::part()`)
+    t: 样式化组件 parts (`::part()`)
 
   - key: features.svg_element
     t: 内联 SVG (`<svg>`)
