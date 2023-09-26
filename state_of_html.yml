@@ -1,0 +1,903 @@
+locale: zh-Hans
+namespace: css
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+  # Intro for stateofhtml.com
+  - key: general.state_of_html.intro
+    # aliasFor: general.html2023.survey_intro # Can we do that?
+    t: |
+      尽管 Web 开发者倾向于关注 JavaScript 和 CSS,但如果没有 HTML 作为基础，就不会有我们现在所做的一切。
+
+      长期以来,HTML 似乎一直没有进化,但情况可能正在发生改变。
+      像 `<selectlist>` 这样的新元素即将到来，很酷的新功能如弹出提示框，以及一系列相关的浏览器 API(Web 组件、PWA 等)。
+
+      今年，[Lea Verou](https://lea.verou.me/) 承担了设计这份全新的调查报告的艰巨任务，内容包括用户体验等各个方面。
+
+      在 [State of JS](http://stateofjs.com/) 和 [State of CSS](https://stateofcss.com/) 的成功基础上,我们推出了**State of HTML**；
+      这是完成三部曲所缺少的最后一块拼图,以便我们可以追踪整个 Web 平台的发展。
+
+      对您的益处：
+      - **浏览器**和标准小组会使用调查结果来**确定路线图的优先次序**。您的回复有助于实现您所关心的功能、优先考虑浏览器不兼容性以及解决平台中的差距。
+      - 了解新的和即将到来的功能;在阅读列表中添加功能，并在最后获得资源列表！
+      - 获取个性化的知识评分，并与其他受访者进行比较。
+
+      调查将持续 3 周，但**在前 9 天内（至 10 月 1 日）**提交的答复将在网络上产生更大的影响、 因为初步数据将用于在此之前截止的某些优先排序工作。
+
+  - key: general.state_of_html.description
+    t: 关于 Web 平台的年度开发者调查
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.forms.title
+    t: 表单
+  - key: sections.forms.description
+    t: 表单相关元素和属性
+
+  - key: sections.interactivity.title
+    t: 交互性
+  - key: sections.interactivity.description
+    t: 可实现更丰富用户交互的应用程序接口。
+
+  - key: sections.web_components.title
+    t: Web 组件
+  - key: sections.web_components.description
+    t: 制作和使用 Web 组件
+
+  - key: sections.content.title
+    t: 内容
+  - key: sections.content.description
+    t: 内嵌、多媒体、数据和其他与内容相关的功能。
+
+  - key: sections.external_content.title
+    t: 外部内容
+  - key: sections.external_content.description
+    t: 内嵌外部资源和其他多媒体 API。
+
+  - key: sections.accessibility.title
+    t: 无障碍
+  - key: sections.accessibility.description
+    t: 让所有人都能访问网站和应用程序。
+
+  - key: sections.mobile_web_apps.title
+    t: 类原生的 Web 应用
+  - key: sections.mobile_web_apps.description
+    t: 编写移动端和桌面端优化的网页应用。
+
+  - key: sections.other_features.title
+    t: 其他功能
+  - key: sections.other_features.description
+    t: 其他 HTML 元素和浏览器 API。
+
+  - key: sections.other_tools.title
+    t: 其他工具和功能
+  - key: sections.other_tools.description
+    t: 您在工作中使用的其他工具或功能。
+
+  - key: sections.usage.title
+    t: 使用情况
+  - key: sections.usage.description
+    t: 您如何使用 HTML。
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # forms
+
+  - key: features.form_controls
+    t: 表单控件
+  - key: features.form_controls.question
+    t: 您使用过哪些表单控件？
+
+  - key: features.form_input_types
+    t: 输入类型
+  - key: features.form_input_types.question
+    t: 您使用过哪些输入类型？
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.form_validation_features
+    t: 表单验证
+  - key: features.form_validation_features.question
+    t: 您使用过以下哪些表单验证功能？
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.forms_pain_points
+    t: 表单痛点
+  - key: features.forms_pain_points.question
+    t: 您在使用 HTML 表单时遇到了哪些痛点？
+  - key: features.forms_pain_points.description
+    t: |
+      想想各种表单控件(例如 `<input>`、`<textarea>`、`<select>`、`<button>` 等)，
+      行为（例如验证、自动完成），通过 JS 处理表单,编辑 API(例如 `contentEditable` )等。
+      任何令您困扰的都可以提出——浏览器支持度，缺少的功能，样式等。
+
+  - key: features.forms_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  # interactivity
+
+  - key: features.dom_attribute_features
+    t: DOM 属性相关方法
+  - key: features.dom_attribute_features.question
+    t: 您使用过下列哪些与 DOM 属性相关的方法？
+
+  - key: features.dom_html_features
+    t: HTML 字符串处理功能
+  - key: features.dom_html_features.question
+    t: 您使用过下列哪些 DOM HTML 字符串处理功能？
+
+  - key: features.dom_methods
+    t: 重组元素的 DOM 方法
+
+  - key: features.dom_moving_element_features
+    t: 移动元素的 DOM 方法
+  - key: features.dom_moving_element_features.question
+    t: 您使用过以下哪些移动 DOM 元素的方法？
+  # - key: options.dom_methods.element_innerhtml.description
+  #   t: |
+  #     `element.innerHTML = rawHTML`
+  # - key: options.dom_methods.element_textcontent.description
+  #   t: |
+  #     `element.textContent = text`
+  # - key: options.dom_methods.element_insert_adjacent_html.description
+  #   t: |
+  #     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  # - key: options.dom_methods.element_insert_adjacent_element.description
+  #   t: |
+  #     `element.insertAdjacentElement("afterend", otherElement)`
+  # - key: options.dom_methods.element_append.description
+  #   t: |
+  #     `parent.append(...children)`
+  # - key: options.dom_methods.element_append_child.description
+  #   t: |
+  #     `parent.appendChild(child)`
+  # - key: options.dom_methods.element_before_after.description
+  #   t: |
+  #     `element.before(otherElement)`
+  # - key: options.dom_methods.element_replace_with.description
+  #   t: |
+  #     Replaced the older `parent.replaceChild(el2, el1)` method.
+  # - key: options.dom_methods.element_replace_child.description
+  #   t: |
+  #     `parent.replaceChild(newChild, oldChild)`
+  # - key: options.dom_methods.element_replace_children.description
+  #   t: |
+  #     `element.replaceChildren(...newChildren)`
+  # - key: options.dom_methods.element_toggle_attribute.description
+  #   t: |
+  #     `element.toggleAttribute("data-selected", isSelected)`
+  # - key: options.dom_methods.document_create_document_fragment.description
+  #   t: |
+  #     `let fragment = document.createDocumentFragment()`
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.interactivity_pain_points
+    t: 交互性痛点
+  - key: features.interactivity_pain_points.question
+    t: 您在动态 HTML 更改方面有哪些痛点？
+  - key: features.interactivity_pain_points.description
+    t: |
+     浏览器不兼容或缺乏支持、功能缺失，以及您在交互式元素和行为（表单除外）、DOM 操作、事件和相关 API 方面遇到的其他问题。
+     交互式元素和行为（表单除外）、DOM 操作、事件和相关 API。
+
+  - key: features.interactivity_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  - key: features.interactivity_techniques
+    t: 交互方法
+  - key: features.interactivity_techniques.question
+    t: 您使用过哪些方法来添加交互性或动态修改 HTML？
+  - key: options.interactivity_techniques.css_for_interactivity
+    t: 用于交互的 CSS（toggles、tabs等）
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: JavaScript DOM 库（jQuery 等）
+  - key: options.interactivity_techniques.js_framework
+    t: JavaScript 框架（React、Vue 等）
+  - key: options.interactivity_techniques.vanilla_js
+    t: 纯 JavaScript（无框架或库）
+  - key: options.interactivity_techniques.web_components
+    t: Web 组件
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  # content
+
+  - key: features.machine_readable_features
+    t: 机器可读的数据
+  - key: features.machine_readable_features.question
+    t: 您使用过以下哪种方法在 HTML 中包含机器可读数据？
+  - key: options.machine_readable_features.rdfa.description
+    t: |
+      `property`、 `typeof`， 等等。
+  - key: options.machine_readable_features.json_ld.description
+    t: |
+      `<script type="application/ld+json">`
+  - key: options.machine_readable_features.microdata.description
+    t: |
+      `itemprop`、 `itemscope`， 等等。
+
+  - key: features.multiple_languages_support
+    t: 多语言支持
+  - key: features.multiple_languages_support.question
+    t: 您经常参与需要支持一种以上语言的项目吗？
+  - key: options.multiple_languages_support.never
+    t: 从来都没有
+  - key: options.multiple_languages_support.infrequently
+    t: 不经常（每年少于一次）
+  - key: options.multiple_languages_support.frequently
+    t: 经常（每年一次以上）
+  - key: options.multiple_languages_support.all_the_time
+    t: 无时无刻
+
+  - key: features.i18n_features
+    t: 国际化功能
+  - key: features.i18n_features.question
+    t: 您使用过以下哪些国际化功能？
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  # - key: options.i18n_features.intl_datetimeformat.description
+  #   t:
+  # - key: options.i18n_features.intl_collator.description
+  #   t:
+  # - key: options.i18n_features.intl_listformat.description
+  #   t:
+  # - key: options.i18n_features.intl_numberformat.description
+  #   t:
+  # - key: options.i18n_features.intl_messageformat.description
+  #   t:
+  # - key: options.i18n_features.intl_pluralrules.description
+  #   t:
+  # - key: options.i18n_features.intl_relative_time_format.description
+  #   t:
+  # - key: options.i18n_features.intl_segmenter.description
+  #   t:
+  # - key: options.i18n_features.intl_localematcher.description
+  #   t:
+
+  - key: features.content_pain_points
+    t: 内容方面的痛点
+  - key: features.content_pain_points.question
+    t: 在管理 HTML 内容方面，您有哪些痛点？
+  - key: features.content_pain_points.description
+    t: |
+      考虑到嵌入（多媒体、iframes、SVG等）、机器可读数据、国际化和本地化、安全和隐私、性能等因素。
+      缺失的功能、浏览器不兼容性以及其他问题都是可以讨论的。
+  - key: features.content_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  # Content
+
+  - key: features.external_content_elements
+    t: 外部内容元素
+  - key: features.external_content_elements.question
+    t: 您使用了下列哪些元素？
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.privacy_security_features
+    t: |
+      安全和隐私功能
+  - key: features.privacy_security_features.question
+    t: |
+      您使用过以下哪些安全和隐私功能？
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.rel_attribute
+    t: 资源提示
+  - key: features.rel_attribute.question
+    t: |
+      您为 `<link>` 的 `rel` 属性使用了其中哪个值？
+
+  # - key: features.external_content_pain_points
+  #   t: External Content Pain Points
+  # - key: features.external_content_pain_points.question
+  #   t: What are your biggest pain points around using external content in HTML?
+  # - key: features.external_content_pain_points.placeholder
+  #   t: |
+  #     Pain point #{index}…
+  # - key: features.external_content_pain_points.description
+  #   t: |
+  #     External content includes `<iframe>`, graphics and multimedia, etc.
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: Web 组件库
+  - key: features.web_components_libraries.question
+    t: 您有使用过 Web 组件库吗？
+
+  - key: features.web_components_features
+    t: 其他 Web 组件功能
+  - key: features.web_components_features.question
+    t: 您使用过以下哪些 Web 组件功能？
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+      `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.using_web_components_pain_points
+    t: 使用 Web 组件的痛点
+  - key: features.using_web_components_pain_points.question
+    t: 在*使用* Web 组件方面，您最大的痛点是什么？
+  - key: features.using_web_components_pain_points.description
+    t: 使用自己或他人制作的 Web 组件。功能缺失、浏览器不兼容等。
+  - key: features.using_web_components_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  - key: features.making_web_components_pain_points
+    t: 制作 Web 组件的痛点
+  - key: features.making_web_components_pain_points.question
+    t: 在*制作*网络组件的过程中，您最大的痛点是什么？
+  - key: features.making_web_components_pain_points.description
+    t: |
+      是什么阻碍了您创建设想的绝妙组件的步伐？功能缺失、浏览器不兼容等。
+  - key: features.making_web_components_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  # Accessibility
+
+  - key: features.accessibility_features
+    t: 无障碍功能
+  - key: features.accessibility_features.question
+    t: 您使用过哪些无障碍功能？
+
+  - key: features.accessibility_tools
+    t: 无障碍工具
+  - key: features.accessibility_tools.question
+    t: 您使用什么工具进行无障碍性测试？
+
+  - key: features.accessibility_pain_points
+    t: 无障碍痛点
+  - key: features.accessibility_pain_points.question
+    t: 在网络无障碍方面，您最大的痛点是什么？
+  - key: features.accessibility_pain_points.placeholder
+    t: |
+      痛点 #{index}…
+
+  - key: features.accessibility_disabilities
+    t: 用户残疾情况
+  - key: features.accessibility_disabilities.question
+    t: 在制作网站时，您会考虑到哪些用户残疾问题？
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    t: 听力障碍
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: 失聪、耳鸣等。
+
+  - key: options.accessibility_disabilities.mobility_impairments
+    t: 行动障碍
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: 关节炎、腕管炎等。
+
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: 学习障碍
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: 阅读障碍、计算障碍等。
+
+  - key: options.accessibility_disabilities.cognitive_impairments
+    t: |
+      其他认知障碍
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      焦虑症、自闭症、强迫症、多动症等。
+
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: 前庭失调
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: 癫痫、眩晕等。
+
+  - key: options.accessibility_disabilities.low_vision
+    t: 低视力
+  - key: options.accessibility_disabilities.low_vision.description
+    t: 失明、高度近视等。
+
+  - key: options.accessibility_disabilities.atypical_vision
+    t: 色觉异常
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: 色盲
+
+  - key: features.accessibility_screenreaders
+    t: 屏幕阅读器
+  - key: features.accessibility_screenreaders.question
+    t: 您使用哪种屏幕阅读器进行无障碍性测试？
+
+  - key: features.accessibility_techniques
+    t: 其他无障碍技术
+  - key: features.accessibility_techniques.question
+    t: 在您的常规无障碍策略中，还有哪些其他技巧？
+
+  - key: options.accessibility_techniques.tabindex
+    t: |
+      使用 `tabindex` 改进焦点顺序
+  - key: options.accessibility_techniques.tabindex.description
+    t: |
+      游动 `tabindex`, `tabindex="0"` 以启用焦点等。
+  - key: options.accessibility_techniques.keyboard_navigation
+    t: 直观的键盘导航
+  - key: options.accessibility_techniques.keyboard_navigation.description
+    t: 除标签顺序外。
+  - key: options.accessibility_techniques.aria_attributes
+    t: ARIA 属性
+  - key: options.accessibility_techniques.aria_attributes.description
+    t: |
+      `role` 和 `aria-*` 属性
+  - key: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      描述性 `alt` 文本
+  - key: options.accessibility_techniques.descriptive_alt_text.description
+    t: 提供描述图片目的或内容的 alt 文本。
+  - key: options.accessibility_techniques.skip_to_content
+    t: 跳转到内容的链接
+  - key: options.accessibility_techniques.skip_to_content.description
+    t: 让用户直接跳转到页面的主要内容。
+  - key: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      `<fieldset>` 和 `<legend>`
+  - key: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      使用 `<fieldset>` 和 `<legend>` 对相关表单元素进行分组。
+  - key: options.accessibility_techniques.headings_hierarchy
+    t: 信息层次结构
+  - key: options.accessibility_techniques.headings_hierarchy.description
+    t: |
+      使用正确表示页面信息层次的标题（`<h1>` - `<h6>`）。
+  - key: options.accessibility_techniques.meaningful_link_text
+    t: 有意义的链接文本
+  - key: options.accessibility_techniques.meaningful_link_text.description
+    t: 确保链接文本在脱离上下文的情况下仍有意义
+  - key: options.accessibility_techniques.form_control_label
+    t: 表单控制标签
+  - key: options.accessibility_techniques.form_control_label.description
+    t: |
+      确保每个表单控件都有一个 `<label>`（或 `aria-label` 等）。
+  - key: options.accessibility_techniques.visible_focus
+    t: 可视焦点环
+  - key: options.accessibility_techniques.visible_focus.description
+    t: 确保焦点环轮廓在需要时清晰可见。
+  - key: options.accessibility_techniques.pointer_alternative
+    t: 不只依赖指针
+  - key: options.accessibility_techniques.pointer_alternative.description
+    t: 确保指针交互（如悬停）有键盘替代方式。
+  - key: options.accessibility_techniques.good_color_contrast
+    t: 足够的对比度
+  - key: options.accessibility_techniques.good_color_contrast.description
+    t: 使用对比度检查器确保足够的色彩对比度。
+  - key: options.accessibility_techniques.color_alternative
+    t: 不仅仅依赖颜色
+  - key: options.accessibility_techniques.color_alternative.description
+    t: 确保不只通过颜色来传递信息。
+  - key: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      `prefers-reduced-motion` 媒体查询
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
+    t: 为喜欢减少动效的用户提供替代 CSS。
+  - key: options.accessibility_techniques.prefers_contrast
+    t: |
+      `prefers-contrast` 媒体查询
+  - key: options.accessibility_techniques.prefers_contrast.description
+    t: 为喜欢增加对比度的用户提供替代 CSS。
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: PWA 功能
+  - key: features.pwa_features.question
+    t: 您是否使用过以下任何一种 PWA 技术/API？
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.local_storage_features
+    t: 本地存储功能
+  - key: features.local_storage_features.question
+    t: 您是否使用过以下方法来存储客户端数据？
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: features.pwa_app_manifest_fields
+    t: 应用程序 Manifest 字段
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      您使用了其中哪些应用程序清单字段（`<link rel="manifest">`）？
+
+  - key: features.native_apps_tools
+    t: 原生应用工具
+  - key: features.native_apps_tools.question
+    t: 您是否使用过这些工具来构建原生应用程序？
+  - key: features.native_apps_tools.description
+    t: 不包括脚本、命令行应用程序、服务器端代码等。
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> 我没有开发过原生应用程序
+  - key: options.native_apps_tools.native_languages
+    t: 原生技术
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, .NET, 等等。
+  - key: options.native_apps_tools.webviews
+    t: 通过 Webviews 加载的网络应用程序
+  - key: options.native_apps_tools.js_frameworks
+    t: 基于 JavaScript 的框架
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron 等等。
+  - key: options.native_apps_tools.other_frameworks
+    t: 非 JavaScript 框架
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter 等等。
+
+  - key: features.mobile_web_apps_pain_points
+    t: 类原生 Web 应用程序的痛点
+  - key: features.mobile_web_apps_pain_points.question
+    t: 在制作类原生的 Web 应用时，您最大的痛点是什么？
+  - key: features.mobile_web_apps_pain_points.description
+    t: Web 平台尚未具备的功能、相关 API 的浏览器差异等。
+  - key: features.mobile_web_apps_pain_points.placeholder
+    t: |
+      痛点 #{index}
+
+  # Other Tools
+
+  - key: other_tools.site_generators
+    t: 网站生成器
+  - key: other_tools.site_generators.question
+    t: 您经常使用哪些静态或动态网站生成器？
+
+  - key: other_tools.ai_tools
+    t: 人工智能工具
+  - key: other_tools.ai_tools.question
+    t: 您经常使用这些人工智能工具中的哪些来帮助您编写代码？
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> 以上都没有
+
+  - key: other_tools.blast_from_the_past
+    t: 来自过去的冲击
+  - key: other_tools.blast_from_the_past.question
+    t: 您使用过以下老式元素吗？
+  - key: other_tools.blast_from_the_past.description
+    t: 来自过去的冲击
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> N以上都没有
+
+  # Usage
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: 浏览器互操作性
+  - key: usage.html_interoperability_features.question
+    t: 由于浏览器差异或缺乏支持，您无法使用哪些现有 HTML 功能或浏览器 API？
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      功能 #{index}
+
+  - key: usage.html_functionality_features
+    t: 功能有限
+  - key: usage.html_functionality_features.question
+    t: 由于其他原因，您无法使用哪些现有的 HTML 功能或浏览器 API？
+  - key: usage.html_functionality_features.description
+    t: |
+      您经常需要使用 JS 来重新创建或增强的现有 HTML 功能就是很好的候选。
+
+      还请说明原因，如缺乏功能、样式设计困难、可访问性差等。
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      功能 #1 (难以样式化)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      功能 #2 (功能有限，无障碍程度低)
+
+  - key: usage.what_do_you_use_html_for
+    t: HTML 使用情况
+  - key: usage.what_do_you_use_html_for.question
+    t: What do you use HTML for?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: 生态影响
+  - key: usage.tools_for_other_developers.question
+    t: 除了您自己，还有多少开发人员使用您创建或维护的库、软件包、组件、应用程序接口等？
+  - key: usage.tools_for_other_developers.description
+    t: |
+      如果您参与的多个项目都被其他开发人员使用，则一起算上。
+      如果您不确定，请选择最接近您的最佳估计值。
+      对于开源代码，npm 下载量可能是一个有用的数据参考点。
+
+  - key: options.tools_for_other_developers.na
+    t: 🚫 没有（只有我）
+  - key: options.tools_for_other_developers.a_few
+    t: 其他几名开发人员（如小型团队中的开发人员）
+  - key: options.tools_for_other_developers.less_than_100
+    t: 不到一百名开发者
+  - key: options.tools_for_other_developers.less_than_1000
+    t: 不到一千名开发者
+  - key: options.tools_for_other_developers.more_than_100
+    t: 数百名开发者
+  - key: options.tools_for_other_developers.more_than_1000
+    t: 数千名开发者
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: 数百万名开发者
+
+  - key: usage.html_missing_elements
+    t: 缺失的元素
+  - key: usage.html_missing_elements.question
+    t: 如果可以在 HTML 中添加 3 个元素，它们是什么？
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: 手风琴（Accordion）
+  - key: options.html_missing_elements.alert
+    t: 警告（Alert）
+  - key: options.html_missing_elements.calendar
+    t: 日历（Calendar）
+  - key: options.html_missing_elements.carousel
+    t: 轮播图（Carousel）
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: 组合框/自动补全
+  - key: options.html_missing_elements.command_palette
+    t: 命令板（Command Palette）
+  - key: options.html_missing_elements.context_menu
+    t: 上下文菜单/右键菜单
+  - key: options.html_missing_elements.datatable
+    t: 数据表（带排序、筛选等功能）
+  - key: options.html_missing_elements.dropdown_menu
+    t: 下拉菜单
+  - key: options.html_missing_elements.image_zoom
+    t: 图片缩放
+  - key: options.html_missing_elements.progress_bar
+    t: 进度条
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: 骨架屏/加载占位符
+  - key: options.html_missing_elements.switch
+    t: 开关（Switch / Toggle）
+  - key: options.html_missing_elements.tabs
+    t: 选项卡（Tabs）
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: 文字提示（Tooltip）
+  - key: options.html_missing_elements.offcanvas
+    t: 画布（Canvas）外区域
+  - key: options.html_missing_elements.spinner
+    t: 加载滚动
+  - key: options.html_missing_elements.segmented_button
+    t: 分段按钮（Segmented Button）
+  - key: options.html_missing_elements.scroll_area
+    t: 无限滚动
+  - key: options.html_missing_elements.icon
+    t: 图标
+  - key: options.html_missing_elements.star_rating
+    t: 星星评分
+
+  - key: usage.html_pain_points_freeform
+    t: 其他痛点
+  - key: usage.html_pain_points_freeform.question
+    t: 在使用 HTML 和相关技术方面还有其他痛点吗？
+
+  - key: usage.html_css_js_balance
+    t: HTML/CSS 与 JavaScript/TypeScript 之间的平衡
+  - key: usage.html_css_js_balance.question
+    t: 您如何分配编写 HTML/CSS 和 JavaScript（或 TypeScript）代码的时间？
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  # other features
+
+  - key: features.foo_attribute
+    t: "`{id}` 属性"
+
+  - key: features.slot_assignment
+    t: 显式插槽分配 (`slot="foo"`)
+
+  - key: features.tabindex
+    t: "`tabindex` 属性"
+
+  - key: features.respimg
+    t: "`srcset` 和 `sizes` 属性"
+
+  - key: features.model_element
+    t: "用于 AR/VR/3D 内容的 `<model>`"
+
+  - key: features.slot_def
+    t: 定义插槽 (`<slot>` 和 `::slotted()`)
+
+  - key: features.controlslist
+    t: "`controlslist` 属性"
+
+  - key: features.popover_api
+    t: 弹出窗口（popover） API
+
+  - key: features.lazy_loading
+    t: 懒加载
+
+  - key: features.sandbox_attr
+    t: "`用于 iframes 的 sandbox` 的属性"
+
+  - key: features.details_element
+    t: "`<details>` 和 `<summary>`"
+
+  - key: features.crossorigin
+    t: "`crossorigin` 属性"
+
+  - key: features.host_css
+    t: 样式化组件 host (`:host`, `:host()`, `:host-context()`)
+
+  - key: features.element_internals
+    t: "`ElementInternals` API"
+
+  - key: features.cors
+    t: 跨源资源共享 (CORS)
+
+  - key: features.csp
+    t: Content-Security Policy (CSP)
+
+  - key: features.structured_data
+    t: 结构化数据（RDFa、Microdata、Microformats）
+
+  - key: features.extended_builtins
+    t: 拓展自带的功能
+
+  - key: features.html_modules
+    t: HTML 模块
+
+  - key: features.accordion
+    t: 专用手风琴
+
+  - key: features.imperative_slot
+    t: 命令式插槽分配
+
+  # - key: features.focusgroup
+  #   t: "`focusgroup` attribute"
+
+  - key: features.form_validation
+    t: 表单验证
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "资源提示：预连接 (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "资源提示：预渲染 (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "资源提示：预加载 (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: 资源提示（全部）
+
+  - key: features.rh_prefetch
+    t: "资源提示：预获取 (`<link rel=prefetch>`)"
+
+  - key: features.declarative_shadow
+    t: 声明式 Shadow DOM (`<template shadowrootmode="open">`)
+
+  - key: features.referrerpolicy
+    t: "`referrerpolicy` 属性"
+
+  - key: features.integrity
+    t: 子资源的完整性 (`integrity` 属性)
+
+  - key: features.pwa_manifest
+    t: PWA manifest
+
+  - key: features.part_attr
+    t: 暴露组件 parts (`part` 属性)
+
+  - key: features.part_selector
+    t:样式化组件 parts (`::part()`)
+
+  - key: features.svg_element
+    t: 内联 SVG (`<svg>`)
+
+  - key: features.math_element
+    t: 内联 MathML (`<math>`)
+
+  - key: features.scoped_element_registries
+    t: 作用域自定义元素注册表
+
+  - key: features.navigation_api
+    t: 导航 API
+
+  - key: features.custom_elements_defining
+    t: 定义自定义元素
+
+  - key: features.decoding
+    t: "`decoding` 属性"
+
+  - key: features.custom_elements_using
+    t: 使用自定义元素
+
+  - key: features.fencedframe
+    t: Fenced frames
+
+  - key: features.credentialless
+    t: 无需凭证的 iframes
+
+  - key: features.media_capture
+    t: HTML 媒体捕获
+
+  - key: features.contenteditable_plaintext
+    t: "用于 `contenteditable` 的 `plaintext-only` 值"
+
+  - key: features.dom_parts
+    t: DOM Parts
+
+  - key: features.fetchpriority
+    t: Fetch 优先级 API (`fetchpriority` 属性)
+
+  - key: features.autocomplete
+    t: '`autocomplete="hint"`'
+
+  - key: features.inert_attribute
+    t: "`inert` 属性"
+
+  - key: features.client_hints
+    t: HTTP 客户端提示
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_html
+    t: |
+      欢迎参与调查！前几部分主要是了解您了解 HTML 的哪些**特性**（以及相关的 API）。
+
+      顺便说一下，如果您想进一步了解调查中的任何项目，可以点击其 "+"图标将其添加到您的阅读列表中！
