@@ -391,3 +391,45 @@ translations:
     t: 这些数据将如何被使用？
   - key: faq.data_used_js2022.description
     t: 收集的所有数据将公开发布。这将成为开发人员的资源，他们会参考这些数据来决定他们的技术选择，同时也是浏览器供应商的参考，他们会使用这些数据来确定重点领域并制定产品路线图。
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: 这些数据将如何被使用？
+  - key: faq.data_used_html2023.description
+    t: >
+      收集到的所有数据都将公开发布，供任何开发人员或公司查阅。浏览器供应商也会[使用这些数据](https://web.dev/interop-2023/)来确定重点领域的优先次序，并为其路线图提供信息。
+
+  - key: faq.survey_goals_html2023
+    t: 此次调查的目标是什么？
+  - key: faq.survey_goals_html2023.description
+    t: >
+      调查的目的是了解开发人员对新 HTML 功能和浏览器 API 的认识，并帮助他们跟踪使用情况的发展变化。
+
+  - key: faq.who_should_take_survey_html2023
+    t: 哪些人应该参加这次调查？
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      这是一项面向所有经常或偶尔制作网站或 Web 应用的人的公开调查，无论是作为工作的一部分，还是作为学生，或者只是为了娱乐都可以！
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: 回答调查问卷需要多长时间？
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
+
+  - key: faq.learn_more_html2023
+    t: 从哪里可以了解更多信息？
+  - key: faq.learn_more_html2023.description
+    t: 您可以在 [我们的公告发布](https://lea.verou.me/blog/2023/design-state-of-html/) 中了解有关此次调查的更多信息。
+
+  - key: faq.survey_design_html2023
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_html2023.description
+    t: >
+      该调查由[Lea Verou](https://lea.verou.me)设计，浏览器供应商以及 [WebDX Community Group](https://www.w3.org/community/webdx/) 等团体也提供了意见。
+
+  - key: faq.results_released_html2023
+    t: 结果什么时候公布？
+  - key: faq.results_released_html2023.description
+    t: 调查将从 9 月 19 日持续到 10 月 10 日，调查结果将在调查结束后不久公布。
