@@ -6,7 +6,7 @@ translations:
   ###########################################################################
   # Intro for stateofhtml.com
   - key: general.state_of_html.intro
-    # aliasFor: general.html2023.survey_intro # Can we do that?
+    aliasFor: general.html2023.survey_intro
     t: |
       尽管 Web 开发者倾向于关注 JavaScript 和 CSS,但如果没有 HTML 作为基础，就不会有我们现在所做的一切。
 
