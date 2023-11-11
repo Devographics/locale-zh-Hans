@@ -82,6 +82,159 @@ translations:
   - key: sections.usage_react.description
     t: 您日常如何使用 React
 
+
+  # features
+
+  - key: features.main_apis_pain_points
+    t: 主要 API 的痛点
+  - key: features.main_apis_pain_points.question
+    t: 您在使用上述 API 时遇到过哪些痛点？
+
+  - key: features.hooks_pain_points
+    t: Hooks 痛点
+  - key: features.hooks_pain_points.question
+    t: 您在使用 hooks 时遇到过哪些痛点？
+
+  - key: features.new_apis_pain_points
+    t: 新 API 的痛点
+  - key: features.new_apis_pain_points.question
+    t: 您在使用新 API 时遇到过哪些痛点？
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`， 通常使用 `<>...</>` 语法表示，可让您在没有包装节点的情况下对元素进行分组。
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` 可让您以编程方式测量 React 树的渲染性能。
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` 让你在开发过程中尽早发现组件中的常见错误。
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` 可让您将某些子元素呈现到 DOM 的不同部分。
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` 让你创建一个组件可以提供或读取的上下文。
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` 可让您的组件通过 ref 向父组件暴露 DOM 节点。
+
+  - key: features.lazy.description
+    t: >
+      `lazy` 可以让你延迟加载组件的代码，直到首次渲染时才加载。
+
+  - key: features.memo.description
+    t: >
+      `memo` 可以让你在组件的 props 不变时跳过重新渲染组件。
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` 可让您创建一个根节点，以便在浏览器 DOM 节点内显示 React 组件。
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` 可让您在浏览器 DOM 节点内显示 React 组件，而该 DOM 节点的 HTML 内容之前是由 `react-dom/server` 生成的。
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` 是一个让您在重新渲染之间缓存函数定义的 React Hook。
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` 是一个让您从组件中读取和订阅上下文的 React Hook。
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` 是一个可让您为 React DevTools 中的自定义 Hook 添加标签的 React Hook。
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` 是一个可让您延迟更新用户界面的一部分的 React Hook。
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` 是一个可让您将组件与外部系统同步的 React Hook。
+
+  - key: features.useid.description
+    t: >
+      `useId` 是一个用于生成可传递给可访问性属性的唯一 ID 的 React Hook。
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` 是一个可让您在两次重新渲染之间缓存计算结果的 React Hook。
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` 是一个可让您为组件添加一个 reducer 的 React Hook。
+
+  - key: features.useref.description
+    t: >
+      `useRef` 是一个可让您引用一个在渲染时不需要的值的 React Hook。
+
+  - key: features.usestate.description
+    t: >
+      `useState` 是一个可让您为组件添加状态变量的 React Hook。
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` 是一个可让您订阅外部存储的 React Hook。
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` 是一个可让您在不阻塞用户界面的情况下更新状态的 React Hook。
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` 可让你在其子元素加载完成前显示回退元素。
+
+  - key: features.use_hook.description
+    t: >
+      `use` 是一个可让您读取 Promise 或上下文等资源的值的 React Hook。
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` 可以让你在不阻塞用户界面的情况下更新状态。
+
+  - key: features.react_server_components.description
+    t: >
+      只在服务器上运行的组件。
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` 标记该组件是在客户端执行的组件。
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` 标记可从客户端代码调用的服务器端函数。
+
+  - key: features.server_actions.description
+    t: >
+     React 内置的服务器修改解决方案。
+
+  - key: features.taint_api.description
+    t: >
+      防止特定对象或值传递给客户端组件。
+
+  - key: features.cache.description
+    t: >
+      `cache` 可以让你缓存数据获取或计算的结果。
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` 是一个可提供上次提交表单的状态信息的 React Hook。
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` 是一个可让您根据表单操作的结果更新状态的 React Hook。
+
   # tools
 
   - key: tools.state_management_others
@@ -328,7 +481,14 @@ translations:
     t: React 的痛点
 
   - key: usage.state_of_react
+    t: 开心程度
+    
+  - key: usage.state_of_react.question
     t: 您对 React 的现状满意吗？
+  - key: usage.usage_pain_points
+    t: 其他痛点
+  - key: usage.usage_pain_points.question
+    t: 还有其他 React 痛点需要提及吗？
 
   # new features
   - key: usage.new_features
@@ -381,3 +541,32 @@ translations:
     t: 第一步
   - key: resources.first_steps_react.description
     t: 您最初学习 React 时使用了哪些资源？
+  - key: resources.learning_methods_react
+    t: 学习方法
+  - key: resources.learning_methods_react.question
+    t: 您在学习 React 时使用了哪些资源？
+
+  - key: resources.blogs_news_magazines_react
+    t: 博客 和 订阅
+  - key: resources.blogs_news_magazines_react.question
+    t: 您会查阅哪些博客、杂志或订阅来了解 React 新闻？
+
+  - key: resources.sites_courses_react
+    t: 站点 和 课程
+  - key: resources.sites_courses_react.question
+    t: 您使用过哪些网站或课程来学习 React？
+
+  - key: resources.podcasts_react
+    t: 播客
+  - key: resources.podcasts_react.question
+    t: 您收听过哪些 React 或 Web 开发播客？
+
+  - key: resources.video_creators_react
+    t: 视频创作者
+  - key: resources.video_creators_react.question
+    t: 您在 YouTube、Twitch 等网站上观看过哪些 React 或 Web 开发视频创作者的视频？
+
+  - key: resources.people_react
+    t: 人
+  - key: resources.people_react.question
+    t: 您阅读、关注或只是想强调 React 社区中的哪些人？
