@@ -8,6 +8,11 @@ translations:
     t: 没有要预览的调查
   - key: general.global_nav
     t: 全球的
+  - key: general.title
+    t: Devographics Surveys
+  - key: general.description
+    t: >-
+      JavaScript 现状调查、CSS 现状调查、HTML 现状调查还有其他开发者调查问卷。
 
   - key: general.survey_status_preview
     t: 预览
@@ -57,6 +62,34 @@ translations:
 
       如果您希望我们删除您的全部或部分数据，您可以发送电子邮件至 [hello@stateofjs.com](mailto:hello@stateofjs.com) 。
 
+  - key: textlist.placeholder
+    t: '项目 {index}…'
+  - key: feature.unimplemented
+    t: 还没有浏览器实现
+  - key: general.skip_question
+    t: 跳过
+  - key: general.unskip_question
+    t: 回答问题
+  - key: general.skip_question.description
+    t: 跳过问题并将其标记为完成
+  - key: general.unskip_question.description
+    t: 不跳过并且要回答
+  - key: years.less_than_one_year
+    t: 少于一年
+  - key: years.years
+    t: 年
+  - key: likert.option.0
+    t: 非常不开心
+  - key: likert.option.1
+    t: 不开心
+  - key: likert.option.2
+    t: 中立
+  - key: likert.option.3
+    t: 开心
+  - key: likert.option.4
+    t: 非常开心
+  - key: general.numeric_input.invalid_input
+    t: 请确认您输入的数字是正确的。
   ###########################################################################
   # Errors & Messages
   ###########################################################################
@@ -87,6 +120,11 @@ translations:
   - key: accounts.your_email
     t: 您的电子邮件地址
 
+  - key: accounts.upgrade_account.action
+    t: 更新您的账号
+  - key: accounts.upgrade_account.description
+    t: >-
+      使用电子邮件地址更新账户可让您在结束会话后访问调查回复。
   - key: accounts.continue_as_guest
     t: 以游客身份继续
   - key: accounts.continue_as_guest.description
@@ -98,6 +136,8 @@ translations:
     t: 请填写您的电子邮件地址
   - key: accounts.magic_link.success
     t: 请查看您的收件箱！我们向您发送了一个一键登录链接，请单击它以确认您的帐户并登录。
+  - key: accounts.magic_link.browser
+    t: '<a href="{link}">点击并打开您的收件箱。</a>'
 
   ###########################################################################
   # FAQ
@@ -168,6 +208,8 @@ translations:
     t: 留言
   - key: experience.tell_us_more
     t: ”您回答了“{response}”。请告诉我们更多关于您的选择的理由：“
+  - key: experience.tell_us_more_generic
+    t: '告诉我们更多关于您的答案：'
   - key: experience.tell_us_more_no_value
     t: ”您没有选择任何答案，想知道您的理由：“
 
@@ -184,7 +226,10 @@ translations:
   ###########################################################################
   # Reading List
   ###########################################################################
-
+  - key: readinglist.prompt
+    t: >
+      您选择了 “{option}”。 如果您想在调查结束时了解有关此功能的更多信息
+      您可以点击上方的 "+"图标，将其添加到您的**阅读列表**。
   - key: readinglist.add_to_list
     t: 添加到您的阅读列表
 
@@ -297,6 +342,41 @@ translations:
       今年，[Chen Hui Jing](https://chenhuijing.com/) 接手了调查设计的工作，继续建立在去年 [Lea Verou](https://lea.verou.me/) 所做的工作的基础上。正如往常一样，您在这里的反馈将在帮助浏览器厂商优先考虑其路线图并努力实现浏览器之间更好的兼容性方面发挥关键作用。
 
       现在把这些都放在一边，让我们看看 CSS 在 2023 年迄今为止如何发展！
+
+
+  - key: general.html2023.survey_intro
+    t: >
+      尽管 Web 开发者倾向于关注 JavaScript 和 CSS,但如果没有 HTML 作为基础，就不会有我们现在所做的一切。
+
+      长期以来，HTML 似乎一直没有进化，但情况可能正在发生改变。
+      像 `<selectlist>` 这样的新元素即将到来，很酷的新功能如弹出提示框，以及一系列相关的浏览器 API(Web 组件、PWA 等)。
+
+      今年，[Lea Verou](https://lea.verou.me/) 承担了设计这份全新的调查报告的艰巨任务，内容包括用户体验等各个方面。
+
+      在 [State of JS](http://stateofjs.com/) 和 [State of CSS](https://stateofcss.com/) 的成功基础上,我们推出了**State of HTML**；
+      这是完成三部曲所缺少的最后一块拼图,以便我们可以追踪整个 Web 平台的发展。
+
+      对您的益处：
+      - **浏览器**和标准小组会使用调查结果来**确定路线图的优先次序**。您的回复有助于实现您所关心的功能、优先考虑浏览器不兼容性以及解决平台中的差距。
+      - 了解新的和即将到来的功能；在阅读列表中添加功能，并在最后获得资源列表！
+      - 获取个性化的知识评分，并与其他受访者进行比较。
+
+      调查将持续 3 周，但**在前 9 天内（至 10 月 1 日）**提交的答复将在网络上产生更大的影响、 因为初步数据将用于在此之前截止的某些优先排序工作。
+  - key: general.react2023.survey_intro
+    t: >
+      React 一经问世，就很显然地将成为 Web 开发中的重要组成部分。
+ 
+ 
+      毕竟，React 被用于构建 Facebook，尽管它引入了一种奇怪的 "JSX" 语法，但开发者们迅速采用了它。更令人印象深刻的是，React 社区在重大变化如函数组件和 hooks 方面保持了连续性。
+ 
+ 
+      但现在已经过去了 10 年，新推出的 React Server Components 承诺将成为自......嗯，自 React 本身以来最大的变革！
+ 
+ 
+      社区还会再跟进吗？还是开发者们会换到 Svelte、Solid 或其他框架？
+ 
+ 
+      让我们一起通过首次 "React 现状" 调查来找出答案！
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -433,3 +513,46 @@ translations:
     t: 结果什么时候公布？
   - key: faq.results_released_html2023.description
     t: 调查将从 9 月 19 日持续到 10 月 10 日，调查结果将在调查结束后不久公布。
+  
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: 这些数据将如何被使用？
+  - key: faq.data_used_react2023.description
+    t: >
+      收集到的所有数据都将公开发布，供任何人查阅。开发人员或公司可利用这些数据确定重点领域的优先次序，并为其路线图提供信息。
+
+  - key: faq.survey_goals_react2023
+    t: 此次调查的目标是什么？
+  - key: faq.survey_goals_react2023.description
+    t: >
+      调查的目的是衡量 React API 以及 React 生态中的库的认知度和受欢迎程度。
+
+  - key: faq.who_should_take_survey_react2023
+    t: 哪些人应该参加这次调查？
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      这是一项面向所有经常或偶尔制作网站或 Web 应用的人的公开调查，无论是作为工作的一部分，还是作为学生，或者只是为了娱乐都可以！
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: 回答调查问卷需要多长时间？
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
+
+  - key: faq.learn_more_react2023
+    t: 从哪里可以了解更多信息？
+  - key: faq.learn_more_react2023.description
+    t: 您可以在 [我们的公告发布](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b) 中了解有关此次调查的更多信息。
+
+  - key: faq.survey_design_react2023
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_react2023.description
+    t: >
+      调查问卷的设计参考了社区通过[公开反馈](https://github.com/Devographics/surveys/issues/85)提供的意见建议。
+
+  - key: faq.results_released_react2023
+    t: 结果什么时候公布？
+  - key: faq.results_released_react2023.description
+    t: 调查将从 10 月 27 日持续到 11 月 15 日，调查结果将在此后不久公布。
