@@ -82,7 +82,6 @@ translations:
   - key: sections.usage_react.description
     t: 您日常如何使用 React
 
-
   # features
 
   - key: features.main_apis_pain_points
@@ -217,7 +216,7 @@ translations:
 
   - key: features.server_actions.description
     t: >
-     React 内置的服务器修改解决方案。
+      React 内置的服务器修改解决方案。
 
   - key: features.taint_api.description
     t: >
@@ -412,7 +411,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: 应用模式
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: >
       **过去一年里**您使用过以下哪些架构和渲染模式？
 
@@ -482,7 +481,7 @@ translations:
 
   - key: usage.state_of_react
     t: 开心程度
-    
+
   - key: usage.state_of_react.question
     t: 您对 React 的现状满意吗？
   - key: usage.usage_pain_points

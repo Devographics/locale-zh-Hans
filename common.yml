@@ -1352,7 +1352,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: 入门学习方法
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: 刚开始入门时，你是如何学习编程的？
   - key: resources.first_steps.others
     t: 其他入门学习方法
@@ -1362,7 +1362,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blog 和杂志
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: 常用的 blog 和杂志？
   - key: resources.blogs_news_magazines.others
     t: 其他 blog 和杂志
@@ -1374,7 +1374,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: 网站和课程
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: 关注了哪些网站和课程？
   - key: resources.sites_courses.others
     t: 其他网站和课程
@@ -1386,7 +1386,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: 播客
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: 订阅了哪些编程相关的播客？
   - key: resources.podcasts.others
     t: 其他播客
@@ -1416,7 +1416,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Other Surveys
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Which other developer surveys do you participate in?
   - key: resources.other_surveys.others
     t: Additional surveys not mentioned above
