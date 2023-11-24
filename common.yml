@@ -127,6 +127,8 @@ translations:
     t: 隐私政策
   - key: general.leave_issue
     t: 遇到问题，发生bug？ 请<a href="{link}" target="_blank">提交 issue</a>。
+  - key: general.leave_issue2
+    aliasFor: homepage.leave_issue
   - key: general.emoji_icons
     t: Emoji 图标来自 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
@@ -291,11 +293,35 @@ translations:
 
   # features
   - key: options.features.never_heard
-    t: 🤷 没听说过/不确定它是什么
+    t: <span aria-hidden="true">🤷</span> 没听说过/不确定它是什么
   - key: options.features.heard
-    t: ✅ 知道它是什么，但是没用过
+    t: <span aria-hidden="true">✅</span> 知道它是什么，但是没用过
   - key: options.features.used
-    t: 👍 用过
+    t: <span aria-hidden="true">👍</span> 用过
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">没听说过/不确定它是什么</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">没听说过</span> » <span class="option-chip option-positive">感兴趣</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">有听说过</span> » <span class="option-chip option-negative">不感兴趣</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">用过</span> » <span class="option-chip option-positive">体验良好</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">用过</span> » <span class="option-chip option-negative">体验糟糕</span>
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: <span aria-hidden="true">🤷</span> 没听说过
+  - key: options.features.heard.short
+    t: <span aria-hidden="true">👀</span> 有听说过
+  - key: options.features.used.short
+    t: <span aria-hidden="true">🤓</span> 用过
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -305,12 +331,12 @@ translations:
   - key: options.features.used.label
     t: 用过
 
-  # features (short versions)
-  - key: options.features.never_heard.short
-    t: 印象模糊
-  - key: options.features.heard.short
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
+    t: 没听说过
+  - key: options.features.heard.label.short
     t: 有听说过
-  - key: options.features.used.short
+  - key: options.features.used.label.short
     t: 用过
 
   # patterns
@@ -327,15 +353,15 @@ translations:
 
   # tools experience
   - key: options.tools.never_heard
-    t: 🤷 我从来没有听说过这个技术
+    t: <span aria-hidden="true">🤷</span> 我从来没有听说过这个技术
   - key: options.tools.interested
-    t: ✅ 我听说过这个技术，且有学习的意向
+    t: <span aria-hidden="true">✅</span> 我听说过这个技术，且有学习的意向
   - key: options.tools.not_interested
-    t: 🚫 我听说过这个技术，但我不感兴趣
+    t: <span aria-hidden="true">🚫</span> 我听说过这个技术，但我不感兴趣
   - key: options.tools.would_use
-    t: 👍 我使用过这个技术，以后也愿意再次使用
+    t:  <span aria-hidden="true">👍</span> 我使用过这个技术，以后也愿意再次使用
   - key: options.tools.would_not_use
-    t: 👎 我使用过这个技术，但以后不愿意再用
+    t: <span aria-hidden="true">👎</span> 我使用过这个技术，但以后不愿意再用
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
@@ -503,7 +529,7 @@ translations:
 
   # salary
   - key: options.yearly_salary.na
-    t: 不清楚
+    t: 🚫 不清楚
   - key: options.yearly_salary.range_work_for_free
     t: 我没有收入
   - key: options.yearly_salary.range_0_10
@@ -518,6 +544,21 @@ translations:
     t: 10 万美元 - 20 万美元
   - key: options.yearly_salary.range_more_than_200
     t: 大于 20 万美元
+    
+  - key: options.yearly_salary.range_0_20
+    t: 0 美元 - 2 万美元
+  - key: options.yearly_salary.range_20_40
+    t: 2 万美元 - 4 万美元
+  - key: options.yearly_salary.range_40_60
+    t: 4 万美元 - 6 万美元
+  - key: options.yearly_salary.range_60_80
+    t: 6 万美元 - 8 万美元
+  - key: options.yearly_salary.range_80_100
+    t: 8 万美元 - 10 万美元
+  - key: options.yearly_salary.range_100_150
+    t: 10 万美元 - 15 万美元
+  - key: options.yearly_salary.range_150_200
+    t: 15 万美元 - 20 万美元
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -660,6 +701,19 @@ translations:
   - key: options.race_ethnicity.not_listed
     t: 不在选项中
 
+  - key: options.race_ethnicity.european
+    t: 欧洲
+  - key: options.race_ethnicity.indian
+    t: 印度
+  - key: options.race_ethnicity.human
+    t: 人类
+  - key: options.race_ethnicity.slav
+    t: 斯拉夫
+  - key: options.race_ethnicity.north_african
+    t: 北非
+  - key: options.race_ethnicity.jewish
+    t: 犹太
+
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
@@ -686,6 +740,8 @@ translations:
     t: 不在选项中
 
   # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 无
   - key: options.disability_status.visual_impairments
     t: >
       视觉障碍（如：失明、色盲等）
@@ -829,6 +885,20 @@ translations:
   - key: options.industry_sector.design
     t: 设计
 
+  - key: options.industry_sector.unemployed
+    t: 无业
+
+  - key: options.industry_sector.recruiting
+    t: 招聘
+  - key: options.industry_sector.agency
+    t: 机构
+  - key: options.industry_sector.business
+    t: 商业
+  - key: options.industry_sector.communication
+    t: 通信
+  - key: options.industry_sector.security
+    t: 安全
+  
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: 文档
@@ -918,8 +988,14 @@ translations:
     t: 尝试与错误
   - key: options.first_steps.forums
     t: 论坛
+  - key: options.first_steps.newsletters
+    t: Newsletters
+  - key: options.first_steps.events
+    t: 线下活动
 
   # learning methods
+  - key: resources.learning_methods
+    t: 学习方法
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
   - key: options.learning_methods.books
@@ -954,6 +1030,10 @@ translations:
     aliasFor: options.first_steps.trial_and_error
   - key: options.learning_methods.forums
     aliasFor: options.first_steps.forums
+  - aliasFor: options.first_steps.newsletters
+    key: options.learning_methods.newsletters
+  - aliasFor: options.first_steps.events
+    key: options.learning_methods.events
 
   # degree
   - key: options.higher_education_degree.no_degree
@@ -1002,6 +1082,8 @@ translations:
     t: 是，调查结果公布后给我发电子邮件
 
   # usage type
+  - key: usage.usage_type
+    t: 以何种方式使用
   - key: options.usage_type.professionally
     t: 专业
   - key: options.usage_type.student
@@ -1074,11 +1156,17 @@ translations:
 
   # source
   - key: options.source.angular_community
-    aliasFor: Angular Community
+    t: Angular 社区
   - key: options.source.work
-    aliasFor: Work
+    t: 工作
   - key: options.source.word_of_mouth
     t: 口口相传
+  - key: options.source.podcast
+    t: 播客
+  - key: options.source.other_online_sources
+    t: 其他线上资源
+  - key: options.source.blog
+    t: 博客
   # - key: options.source.
   #   t:
   # - key: options.source.
@@ -1108,6 +1196,8 @@ translations:
     t: >
       上面所列的选项中，以1 为（很不好）5为（满意）来评分的话，
       你愿意给几分呢？
+  - key: tools.happiness.question
+    t: 您对上述选项的现状满意度如何？
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1188,6 +1278,11 @@ translations:
     t: >
       为了遵守当地政策，您所在国家或地区的种族或民族数据收集已被禁用。
 
+  - key: user_info.race_ethnicity.others
+    t: 其他种族或民族
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
+
   # disability status
   - key: user_info.disability_status
     t: 残疾状况
@@ -1199,6 +1294,9 @@ translations:
   # disability status (other)
   - key: user_info.disability_status.others
     t: 其他残疾状况
+
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
@@ -1245,6 +1343,8 @@ translations:
   - key: usage.industry_sector.description
     aliasFor: user_info.industry_sector.description
   - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
     aliasFor: user_info.industry_sector.description
@@ -1369,7 +1469,10 @@ translations:
   - key: resources.blogs_news_magazines.others.description
     t: 其他 blog 和杂志（填写名称）。
   - key: options.blogs_news_magazines.na
-    t: 无
+    t: 🚫 无
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      博客/newsletter #{index}…
 
   # sites & courses
   - key: resources.sites_courses
@@ -1381,7 +1484,21 @@ translations:
   - key: resources.sites_courses.others.description
     t: 其他网站和课程（填写名称）。
   - key: options.sites_courses.na
-    t: 无
+    t: 🚫 无
+  - key: resources.sites_courses.placeholder
+    t: |
+      网站/课程 #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: 付费课程
+  - key: resources.paid_courses.question
+    t: 您使用过哪些**付费资源**（课程、视频、书籍等）来学习 JavaScript？
+  - key: options.paid_courses.na
+    t: 🚫 无
+  - key: resources.paid_courses.placeholder
+    t: |
+      课程/书籍 #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1393,7 +1510,10 @@ translations:
   - key: resources.podcasts.others.description
     t: 其他播客（填写名称）。
   - key: options.podcasts.na
-    t: 无
+    t: 🚫 无
+  - key: resources.podcasts.placeholder
+    t: |
+      播客 #{index}…
 
   # people
   - key: resources.people
@@ -1411,27 +1531,41 @@ translations:
       你阅读、关注或只想突出强调的人。
       （自由格式字段，逗号分隔的名称）
   - key: options.people.na
-    t: 无
+    t: 🚫 无
+  - key: resources.people.placeholder
+    t: |
+      人 #{index}…
 
   # other surveys
   - key: resources.other_surveys
-    t: Other Surveys
+    t: 其他问卷
   - key: resources.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: 您还参加过哪些开发者调查？
   - key: resources.other_surveys.others
-    t: Additional surveys not mentioned above
+    t: 上述未提及的其他调查
   - key: options.other_surveys.na
-    t: None
+    t: 🚫 无
+    # TODO: temporary fix, this should not be needed in the first place
+  - key: user_info.other_surveys.question
+    t: 您还参加过哪些开发者调查？
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
-    t: Video Creators
+    t: 视频创作者
   - key: resources.video_creators.description
-    t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
+    t: 您在 YouTube、Twitch、TikTok 等以视频为核心的平台上关注的创作者。
   - key: resources.video_creators.others
-    t: Other Video Creators
+    t: 其他视频创作者
   - key: options.video_creators.na
-    t: None
+    t: 🚫 无
+  - key: resources.video_creators.placeholder
+    t: |
+      视频创作者 #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1443,6 +1577,10 @@ translations:
   - key: followups.description
     t: |
       您也可以告诉我们您选择这个答案的原因：
+
+  - key: followups.description.short
+    t: |
+      告诉我们更多：
 
   - key: followups.placeholder
     t: 其他理由...
@@ -1461,6 +1599,16 @@ translations:
     t: 我有过一次良好的经历
   - key: followups.not_powerful
     t: 它还不够强大
+
+  - key: followups.sentiment_interested
+    t: 感兴趣
+  - key: followups.sentiment_not_interested
+    t: 不感兴趣
+  - key: followups.sentiment_positive_experience
+    t: 想再次使用
+  - key: followups.sentiment_negative_experience
+    t: 糟糕的体验
+
   # - key: followups.
   #   t:
   # - key: followups.
@@ -1469,3 +1617,8 @@ translations:
   #   t:
   # - key: followups.
   #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: 了解更多...

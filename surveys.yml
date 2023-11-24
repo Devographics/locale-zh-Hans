@@ -539,7 +539,7 @@ translations:
     t: 回答调查问卷需要多长时间？
   - key: faq.how_long_will_survey_take_react2023.description
     t: >
-      您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
+      根据您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
 
   - key: faq.learn_more_react2023
     t: 从哪里可以了解更多信息？
@@ -556,3 +556,58 @@ translations:
     t: 结果什么时候公布？
   - key: faq.results_released_react2023.description
     t: 调查将从 10 月 27 日持续到 11 月 15 日，调查结果将在此后不久公布。
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript 最初是一种浏览器语言，后来通过 Node.js 征服了服务器。
+
+
+      而到了 2023 年，整个生态系统似乎终于可以尝试弥合这一差距了。无论是 React Server Components 这样的功能，还是 Solid 和 Qwik 这样的框架，抑或是 Next.js 和 Sveltekit 这样的元框架，为客户端提供更好的代码和数据服务方式已成为 JavaScript 的下一个大目标。
+
+
+      或者我们应该说是 TypeScript？在这一点上，我们已经很难将两者区分开来，所以还是不要尝试了。
+
+
+      相反，参与调查来帮助我们弄清哪些是新的、哪些是旧的，以及在未来的岁月里哪些是异步的/等待着我们的！
+
+  - key: faq.data_used_js2023
+    t: 这些数据将如何被使用？
+  - key: faq.data_used_js2023.description
+    t: >
+      收集到的所有数据都将公开发布，供任何人查阅。开发人员或公司可利用这些数据确定重点领域的优先次序，并为其路线图提供信息。
+
+  - key: faq.survey_goals_js2023
+    t: 此次调查的目标是什么？
+  - key: faq.survey_goals_js2023.description
+    t: >
+      调查的目的是衡量 JavaScript 功能和库的认知度和受欢迎程度，以便预测未来趋势。
+
+  - key: faq.who_should_take_survey_js2023
+    t: 哪些人应该参加这次调查？
+  - key: faq.who_should_take_survey_js2023.description
+    t: >
+      这是一项面向所有经常或偶尔制作网站或 Web 应用的人的公开调查，无论是作为工作的一部分，还是作为学生，或者只是为了娱乐都可以！
+
+  - key: faq.how_long_will_survey_take_js2023
+    t: 回答调查问卷需要多长时间？
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: >
+      根据您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
+
+  - key: faq.learn_more_js2023
+    t: 从哪里可以了解更多信息？
+  - key: faq.learn_more_js2023.description
+    t: 您可以在 [我们发布的公告](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah) 中了解有关此次调查的更多信息。
+
+  - key: faq.survey_design_js2023
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_js2023.description
+    t: >
+      调查问卷的设计参考了社区通过[公开反馈](https://github.com/Devographics/surveys/issues/224)提供的意见建议。
+
+  - key: faq.results_released_js2023
+    t: 结果什么时候公布？
+  - key: faq.results_released_js2023.description
+    t: 调查将从 11 月 22 日持续到 12 月 12 日，调查结果将在此后不久公布。

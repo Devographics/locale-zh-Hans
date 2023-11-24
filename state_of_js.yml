@@ -24,6 +24,11 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.features.title
+    t: 特性
+  - key: sections.features.description
+    t: 语法、浏览器 API 和其他特性。
+  
   - key: sections.syntax.title
     t: 语法
   - key: sections.syntax.description
@@ -45,9 +50,9 @@ translations:
     t: 浏览器提供的功能。
 
   - key: sections.other_features.title
-    t: 其他特征
+    t: 其他特性
   - key: sections.other_features.description
-    t: 其他技术特征
+    t: 其他技术特性
 
   - key: sections.patterns.title
     t: 编码方式
@@ -69,6 +74,16 @@ translations:
     t: 数据层
   - key: sections.datalayer.description
     t: 在你的应用中加载和管理数据
+    
+  - key: sections.rendering_frameworks.title
+    t: 渲染框架
+  - key: sections.rendering_frameworks.description
+    t: 帮助渲染和托管应用程序的框架
+
+  - key: sections.meta_frameworks.title
+    t: 元框架
+  - key: sections.meta_frameworks.description
+    t: 帮助渲染和托管应用程序的框架
 
   - key: sections.back_end_frameworks.title
     t: 后端框架
@@ -104,6 +119,30 @@ translations:
     t: 其他工具
   - key: sections.other_tools.description
     t: 对于这些工具和技术，只需检查你经常使用的工具和技术。
+
+  - key: sections.resources_js.title
+    t: 资源
+  - key: sections.resources_js.description
+    t: 您查阅过哪些 JavaScript 资源？
+
+  - key: sections.usage_js.title
+    t: 使用情况
+  - key: sections.usage_js.description
+    t: 您如何使用 JavaScript？
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro
+    t: >
+      欢迎参加调查！第一部分的主要内容是了解您了解 JavaScript 语言的哪些**特性**。 
+      如果您知道某些功能，但尚未使用过，也没关系！
+
+  - key: tools.tools_intro
+    t: >
+      接下来的几个部分将重点介绍构成 JavaScript 生态系统的**库**和**框架**。
+      让我们知道你对什么感到兴奋！
 
   ###########################################################################
   # Options
@@ -167,6 +206,89 @@ translations:
   # - key: options.js_pain_points.xxx.description
   #   t:
 
+  - key: options.top_js_pain_points.state_management
+    aliasFor: options.js_pain_points.state_management
+  - key: options.top_js_pain_points.state_management.description
+    aliasFor: options.js_pain_points.state_management.description
+  - key: options.top_js_pain_points.managing_dependencies
+    aliasFor: options.js_pain_points.managing_dependencies
+  - key: options.top_js_pain_points.managing_dependencies.description
+    aliasFor: options.js_pain_points.managing_dependencies.description
+  - key: options.top_js_pain_points.architecture
+    aliasFor: options.js_pain_points.architecture
+  - key: options.top_js_pain_points.architecture.description
+    aliasFor: options.js_pain_points.architecture.description
+  - key: options.top_js_pain_points.finding_packages
+    aliasFor: options.js_pain_points.finding_packages
+  - key: options.top_js_pain_points.finding_packages.description
+    aliasFor: options.js_pain_points.finding_packages.description
+  - key: options.top_js_pain_points.writing_modules
+    aliasFor: options.js_pain_points.writing_modules
+  - key: options.top_js_pain_points.writing_modules.description
+    aliasFor: options.js_pain_points.writing_modules.description
+  - key: options.top_js_pain_points.debugging
+    aliasFor: options.js_pain_points.debugging
+  - key: options.top_js_pain_points.debugging.description
+    aliasFor: options.js_pain_points.debugging.description
+  - key: options.top_js_pain_points.async_code
+    aliasFor: options.js_pain_points.async_code
+  - key: options.top_js_pain_points.async_code.description
+    aliasFor: options.js_pain_points.async_code.description
+  - key: options.top_js_pain_points.modules_management
+    aliasFor: options.js_pain_points.modules_management
+  - key: options.top_js_pain_points.modules_management.description
+    aliasFor: options.js_pain_points.modules_management.description
+  - key: options.top_js_pain_points.date_management
+    aliasFor: options.js_pain_points.date_management
+  - key: options.top_js_pain_points.date_management.description
+    aliasFor: options.js_pain_points.date_management.description
+
+  - key: options.top_js_pain_points.performance
+    t: 性能
+  - key: options.top_js_pain_points.performance.description
+    t: 编写高性能、高效率的 JavaScript 代码
+
+  - key: options.top_js_pain_points.build_tools
+    t: 构建工具
+  - key: options.top_js_pain_points.build_tools.description
+    t: 管理构建代码的工具
+
+  - key: options.top_js_pain_points.typing
+    t: 类型
+  - key: options.top_js_pain_points.typing.description
+    t: 管理和维护类型
+
+  - key: options.top_js_pain_points.build_tools
+    t: 构建工具
+  - key: options.top_js_pain_points.typing
+    t: 类型
+  - key: options.top_js_pain_points.typescript
+    t: TypeScript
+  - key: options.top_js_pain_points.esm_cjs
+    t: ESM vs CJS
+  - key: options.top_js_pain_points.testing
+    t: 测试
+  - key: options.top_js_pain_points.performance
+    t: 性能
+  - key: options.top_js_pain_points.too_many_choices
+    t: 过多选择
+  - key: options.top_js_pain_points.react
+    t: React
+  - key: options.top_js_pain_points.bundlers
+    t: 打包构建工具
+  - key: options.top_js_pain_points.complexity
+    t: 复杂度
+  - key: options.top_js_pain_points.standard_library
+    t: 标准库
+  - key: options.top_js_pain_points.tooling
+    t: 工具生态
+  - key: options.top_js_pain_points.dependencies
+    t: 依赖
+  - key: options.top_js_pain_points.security
+    t: 安全
+  - key: options.top_js_pain_points.slow
+    t: 慢
+
   # JS missing features
   - key: options.currently_missing_from_js.static_typing
     t: 静态类型
@@ -205,6 +327,187 @@ translations:
   # - key: options.currently_missing_from_js.xxx.description
   #   t:
 
+  - key: options.top_currently_missing_from_js.static_typing
+    aliasFor: options.currently_missing_from_js.static_typing
+  - key: options.top_currently_missing_from_js.static_typing.description
+    aliasFor: options.currently_missing_from_js.static_typing.description
+  - key: options.top_currently_missing_from_js.standard_library
+    aliasFor: options.currently_missing_from_js.standard_library
+  - key: options.top_currently_missing_from_js.standard_library.description
+    aliasFor: options.currently_missing_from_js.standard_library.description
+  - key: options.top_currently_missing_from_js.pattern_matching
+    aliasFor: options.currently_missing_from_js.pattern_matching
+  - key: options.top_currently_missing_from_js.pattern_matching.description
+    aliasFor: options.currently_missing_from_js.pattern_matching.description
+  - key: options.top_currently_missing_from_js.pipe_operator
+    aliasFor: options.currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.pipe_operator.description
+    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.decorators
+    aliasFor: options.currently_missing_from_js.decorators
+  - key: options.top_currently_missing_from_js.decorators.description
+    aliasFor: options.currently_missing_from_js.decorators.description
+  - key: options.top_currently_missing_from_js.immutable_data_structures
+    aliasFor: options.currently_missing_from_js.immutable_data_structures
+  - key: options.top_currently_missing_from_js.immutable_data_structures.description
+    aliasFor: options.currently_missing_from_js.immutable_data_structures.description
+  - key: options.top_currently_missing_from_js.better_date_management
+    aliasFor: options.currently_missing_from_js.better_date_management
+  - key: options.top_currently_missing_from_js.better_date_management.description
+    aliasFor: options.currently_missing_from_js.better_date_management.description
+  - key: options.top_currently_missing_from_js.observable
+    aliasFor: options.currently_missing_from_js.observable
+  - key: options.top_currently_missing_from_js.observable.description
+    aliasFor: options.currently_missing_from_js.observable.description
+
+  - key: options.top_currently_missing_from_js.static_typing
+    t: 静态类型
+  - key: options.top_currently_missing_from_js.standard_library
+    t: 标准库
+  - key: options.top_currently_missing_from_js.operator_overloading
+    t: 运算符重载
+  - key: options.top_currently_missing_from_js.immutable
+    t: 不可变的数据结构
+  - key: options.top_currently_missing_from_js.deep_clone
+    t: 深拷贝
+  - key: options.top_currently_missing_from_js.enums
+    t: 枚举
+  - key: options.top_currently_missing_from_js.decorators
+    t: 装饰器
+  - key: options.top_currently_missing_from_js.multithreading
+    t: 多线程
+  - key: options.top_currently_missing_from_js.pipe_operator
+    t: 管道运算符
+  - key: options.top_currently_missing_from_js.native_observables
+    t: 原生的 Observables
+
+  # What do you use JS for?
+  - key: options.what_do_you_use_js_for.frontend_development
+    t: 前端开发
+  - key: options.what_do_you_use_js_for.backend_development
+    t: 后端开发
+  - key: options.what_do_you_use_js_for.data_analysis
+    t: 数据分析
+  - key: options.what_do_you_use_js_for.machine_learning
+    t: 机器学习
+  - key: options.what_do_you_use_js_for.desktop_apps
+    t: 桌面应用
+  - key: options.what_do_you_use_js_for.mobile_apps
+    t: 移动应用
+  - key: options.what_do_you_use_js_for.embedded_apps
+    t: 嵌入式应用
+  - key: options.what_do_you_use_js_for.game_development
+    t: 游戏开发
+  - key: options.what_do_you_use_js_for.data_visualization
+    t: 数据可视化
+  - key: options.what_do_you_use_js_for.graphics_animation
+    t: 图形和动画
+
+  - key: options.what_do_you_use_js_for.scripting
+    t: 脚本工具
+  - key: options.what_do_you_use_js_for.command_line_tools
+    t: 命令行工具
+  - key: options.what_do_you_use_js_for.developer_tooling
+    t: 开发者工具
+  - key: options.what_do_you_use_js_for.automation
+    t: 自动化
+  - key: options.what_do_you_use_js_for.bots
+    t: 机器人
+  - key: options.what_do_you_use_js_for.testing
+    t: 测试
+  - key: options.what_do_you_use_js_for.browser_extensions
+    t: 浏览器应用
+  - key: options.what_do_you_use_js_for.api
+    t: API 开发
+  - key: options.what_do_you_use_js_for.infrastructure_as_code
+    t: 作为代码的基础设施
+  - key: options.what_do_you_use_js_for.prototyping
+    t: 原型
+
+  # JS App Patterns
+
+  - key: options.js_app_patterns.single_page_app
+    t: 单页面应用 (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: 完全在浏览器中运行的应用
+  - key: options.js_app_patterns.multiple_page_app
+    t: 多页面应用 (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: 完全在服务器上运行的应用程序，客户端动态行为极少
+  - key: options.js_app_patterns.static_site_generation
+    t: 静态站点生成 (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: 预渲染静态内容，可能会携带客户端动态元素
+  - key: options.js_app_patterns.server_side_rendering
+    t: 服务端渲染 (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: 在服务器上动态渲染 HTML 内容，然后再在客户端上重新“注水”
+  - key: options.js_app_patterns.partial_hydration
+    t: 局部注水
+  - key: options.js_app_patterns.partial_hydration.description
+    t: 只在客户端上对某些组件进行注水 (比如 React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: 渐进式注水
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: 控制在客户端上的对组件注水的顺序
+  - key: options.js_app_patterns.islands_architecture
+    t: 岛屿架构
+  - key: options.js_app_patterns.islands_architecture.description
+    t: 在一个静态网站中，通过多个入口点实现动态行为的孤岛 (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: 渐进增强
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: 确保应用程序在没有 JavaScript 的情况下也能正常运行
+  - key: options.js_app_patterns.incremental_static_generation
+    t: 增量静态生成
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: 即使在初始构建之后，也能动态增强或修改静态网站 (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: 流式服务端渲染
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: 将服务器渲染的内容分解为较小的流式块
+  - key: options.js_app_patterns.resumability
+    t: 可恢复性
+  - key: options.js_app_patterns.resumability.description
+    t: 在服务器上序列化框架状态，使客户端能够在没有重复代码执行的情况下恢复执行。
+  - key: options.js_app_patterns.edge_rendering
+    t: 边缘渲染
+  - key: options.js_app_patterns.edge_rendering.description
+    t: 在发送给客户端之前在边缘服务器 (Edge) 修改渲染的 HTML。
+  - key: options.js_app_patterns.partial_prerendering
+    t: 局部预渲染
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: 用一个静态的加载壳来渲染一个路由，同时保持一些部分是动态的
+
+  - key: options.js_app_patterns.micro_frontend
+    t: 微前端
+  - key: options.js_app_patterns.domain_driven_design
+    t: 领域驱动设计
+  - key: options.js_app_patterns.serverless
+    t: 无服务 (Serverless)
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  # slider
+  - key: options.js_ts_balance.0
+    t: 100% JS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
   ###########################################################################
   # Features
   ###########################################################################
@@ -238,6 +541,41 @@ translations:
       Decorators 装饰器是一种将一段代码包装成另一段代码的方法。
   - key: features.dynamic_import
     t: 动态引入
+
+  - key: features.syntax_features
+    t: 语法特性
+  - key: features.syntax_features.question
+    t: 您使用过以下哪些语法特性？
+
+  - key: features.string_features
+    t: 字符串特性
+  - key: features.string_features.question
+    t: 您使用过以下哪些字符串特性？
+
+  - key: features.array_features
+    t: 数组特性
+  - key: features.array_features.question
+    t: 您使用过以下哪些数组特性？
+
+  - key: features.async_features
+    t: 异步特性
+  - key: features.async_features.question
+    t: 您使用过以下哪些异步特性？
+
+  - key: features.browser_api_features
+    t: 浏览器 API
+  - key: features.browser_api_features.question
+    t: 您使用过以下哪些浏览器 API？
+
+  - key: features.language_pain_points
+    t: 语言痛点
+  - key: features.language_pain_points.question
+    t: 关于 JavaScript 语言，您的主要痛点是什么？
+
+  - key: features.browser_apis_pain_points
+    t: 浏览器 API 的痛点
+  - key: features.browser_apis_pain_points.question
+    t: 在浏览器 API 方面，您的主要痛点是什么？
 
   # other features
   - key: features.pwa
@@ -278,6 +616,149 @@ translations:
       请注意，此问题仅针对 [Angular](https://angular.io/) 的用户体验，
       而 *不是* 已经弃用的 [AngularJS](https://angularjs.org/).
 
+  - key: tools.best_of_js_projects.note
+    t: >
+      工具库都是加载自 [Best of JS](https://bestofjs.org/)。
+      如果有缺少的项目，您可以[在此提交](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md)。
+
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: 前端框架满意度
+  - key: tools.front_end_frameworks_happiness.question
+    t: 您对前端框架的现状满意吗？
+
+  - key: tools.front_end_frameworks_pain_points
+    t: 前端框架的痛点
+  - key: tools.front_end_frameworks_pain_points.question
+    t: 在使用前端框架时，您遇到过哪些痛点？
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: 元框架满意度
+  - key: tools.meta_frameworks_happiness.question
+    t: 您对元框架的现状满意吗？
+
+  - key: tools.meta_frameworks_pain_points
+    t: 元框架的痛点
+  - key: tools.meta_frameworks_pain_points.question
+    t: 在使用元框架时，您遇到过哪些痛点？
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: 测试满意度
+  - key: tools.testing_happiness.question
+    t: 您对测试工具的现状满意吗？
+
+  - key: tools.testing_pain_points
+    t: 测试工具的痛点
+  - key: tools.testing_pain_points.question
+    t: 在使用测试工具时，您遇到过哪些痛点？
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: 开发移动端和桌面端的满意度
+  - key: tools.mobile_desktop_happiness.question
+    t: 您对开发移动端和桌面端的工具的现状满意吗？
+
+  - key: tools.mobile_desktop_pain_points
+    t: 开发移动端和桌面端的痛点
+  - key: tools.mobile_desktop_pain_points.question
+    t: 在使用 JavaScript 构建移动端和桌面端应用程序时，您遇到了哪些痛点？
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: 构建工具满意度
+  - key: tools.build_tools_happiness.question
+    t: 您对构建工具的现状满意吗？
+
+  - key: tools.build_tools_pain_points
+    t: 构建工具的痛点
+  - key: tools.build_tools_pain_points.question
+    t: 在使用构建工具时，您遇到了哪些痛点？
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Monorepo 满意度
+  - key: tools.monorepo_tools_happiness.question
+    t: 您对 Monorepo 工具的现状满意吗？
+
+  - key: tools.monorepo_tools_pain_points
+    t: Monorepo 痛点
+  - key: tools.monorepo_tools_pain_points.question
+    t: 在使用 Monorepo 工具时，您遇到了哪些痛点？
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: 工具库
+  - key: tools_others.libraries.description
+    t: 您经常使用哪些工具库？
+  - key: tools_others.libraries.others
+    t: 其他工具库
+  - key: tools_others.libraries.others.description
+    t: 其他答案（自由填写）。
+
+  - key: tools_others.text_editors
+    t: 文字编辑器
+  - key: tools_others.text_editors.description
+    t: 您经常使用哪些文字编辑器？
+  - key: tools_others.text_editors.others
+    t: 其他文字编辑器
+  - key: tools_others.text_editors.others.description
+    t: 其他答案（自由填写）。
+
+  - key: tools_others.utilities
+    t: 工具集
+  - key: tools_others.utilities.description
+    t: 您经常使用哪些工具集？
+  - key: tools_others.utilities.others
+    t: 其他工具集
+  - key: tools_others.utilities.others.description
+    t: 其他工具集（自由填写）。
+
+  - key: tools_others.browsers
+    t: 浏览器
+  - key: tools_others.browsers.description
+    t: 在初始开发过程中，您主要使用哪种浏览器？
+  - key: tools_others.browsers.others
+    t: 其他浏览器
+  - key: tools_others.browsers.others.description
+    t: 其他答案（自由填写）。
+
+  - key: tools_others.build_tools
+    t: 构建工具
+  - key: tools_others.build_tools.description
+    t: 您经常使用哪些构建工具？
+  - key: tools_others.build_tools.others
+    t: 其他构建工具
+  - key: tools_others.build_tools.others.description
+    t: 其他答案（自由填写）。
+
+  - key: tools_others.non_js_languages
+    t: 非 JavaScript 语言
+  - key: tools_others.non_js_languages.description
+    t: 您经常使用哪些非 JavaScript 语言?
+  - key: tools_others.non_js_languages.others
+    t: 其他语言
+  - key: tools_others.non_js_languages.others.description
+    t: 其他答案（自由填写）。
+
+  - key: tools_others.javascript_flavors
+    t: JavaScript 变体
+  - key: tools_others.javascript_flavors.description
+    t: 可编译为 JavaScript 的语言
+  - key: tools_others.javascript_flavors.others
+    t: 其他 JavaScript 变体
+  - key: tools_others.javascript_flavors.others.description
+    t: 其他答案（自由填写）。
+
   ###########################################################################
   # Other Tools
   ###########################################################################
@@ -304,6 +785,239 @@ translations:
     aliasFor: environments.form_factors
   - key: tools_others.form_factors.description
     aliasFor: environments.form_factors.description
+
+  - key: tools_others.backend_as_a_service
+    t: 后端即服务 (BasS) 提供商
+  - key: tools_others.backend_as_a_service.description
+    t: 托管数据并提供客户端 API 以访问数据的服务。
+  - key: tools_others.backend_as_a_service.others
+    t: 其他 BasS 提供商
+
+  - key: tools_others.date_management
+    t: 日期管理
+  - key: tools_others.date_management.description
+    t: 帮助进行日期和时区管理的库。
+  - key: tools_others.date_management.others
+    t: 其他日期管理的库
+
+  - key: tools_others.data_visualization
+    t: 数据可视化
+  - key: tools_others.data_visualization.description
+    t: 帮助图表和其他数据可视化的库。
+  - key: tools_others.data_visualization.others
+    t: 其他数据可视化的库
+
+  - key: tools_others.graphics_animation
+    t: 图形与动画
+  - key: tools_others.graphics_animation.description
+    t: 专用于图形和动画的库。
+  - key: tools_others.graphics_animation.others
+    t: 其他图形与动画的库
+
+  - key: tools_others.data_fetching
+    t: 数据获取
+  - key: tools_others.data_fetching.description
+    t: 管理数据获取和缓存的库。
+  - key: tools_others.data_fetching.others
+    t: 其他数据获取库
+
+  - key: other_tools.libraries
+    aliasFor: tools_others.libraries
+  - key: other_tools.libraries.description
+    aliasFor: tools_others.libraries.description
+  - key: other_tools.libraries.others
+    aliasFor: tools_others.libraries.others
+  - key: other_tools.libraries.others.description
+    aliasFor: tools_others.libraries.others.description
+
+  - key: other_tools.text_editors
+    aliasFor: tools_others.text_editors
+  - key: other_tools.text_editors.description
+    aliasFor: tools_others.text_editors.description
+  - key: other_tools.text_editors.others
+    aliasFor: tools_others.text_editors.others
+  - key: other_tools.text_editors.others.description
+    aliasFor: tools_others.text_editors.others.description
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.description
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.description
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
+
+  - key: other_tools.build_tools
+    aliasFor: tools_others.build_tools
+  - key: other_tools.build_tools.description
+    aliasFor: tools_others.build_tools.description
+  - key: other_tools.build_tools.others
+    aliasFor: tools_others.build_tools.others
+  - key: other_tools.build_tools.others.description
+    aliasFor: tools_others.build_tools.others.description
+
+  - key: other_tools.non_js_languages
+    aliasFor: tools_others.non_js_languages
+  - key: other_tools.non_js_languages.description
+    aliasFor: tools_others.non_js_languages.description
+  - key: other_tools.non_js_languages.others
+    aliasFor: tools_others.non_js_languages.others
+  - key: other_tools.non_js_languages.others.description
+    aliasFor: tools_others.non_js_languages.others.description
+
+  - key: other_tools.javascript_flavors
+    aliasFor: tools_others.javascript_flavors
+  - key: other_tools.javascript_flavors.description
+    aliasFor: tools_others.javascript_flavors.description
+  - key: other_tools.javascript_flavors.others
+    aliasFor: tools_others.javascript_flavors.others
+  - key: other_tools.javascript_flavors.others.description
+    aliasFor: tools_others.javascript_flavors.others.description
+
+  - key: tools_others.backend_frameworks
+    aliasFor: sections.back_end_frameworks.title
+  - key: tools_others.backend_frameworks.description
+    t: 生成 API 和管理后端的框架
+  - key: tools_others.backend_frameworks.others
+    t: 其他后端框架
+
+  - key: other_tools.runtimes
+    aliasFor: tools_others.runtimes
+  - key: other_tools.runtimes.description
+    aliasFor: tools_others.runtimes.description
+  - key: other_tools.runtimes.others
+    aliasFor: tools_others.runtimes.others
+  - key: other_tools.runtimes.others.description
+    aliasFor: tools_others.runtimes.others.description
+
+  - key: other_tools.package_registries
+    aliasFor: tools_others.package_registries
+  - key: other_tools.package_registries.description
+    aliasFor: tools_others.package_registries.description
+  - key: other_tools.package_registries.others
+    aliasFor: tools_others.package_registries.others
+  - key: other_tools.package_registries.others.description
+    aliasFor: tools_others.package_registries.others.description
+
+  - key: other_tools.form_factors
+    aliasFor: tools_others.form_factors
+  - key: other_tools.form_factors.description
+    aliasFor: tools_others.form_factors.description
+
+  - key: other_tools.backend_as_a_service
+    aliasFor: tools_others.backend_as_a_service
+  - key: other_tools.backend_as_a_service.description
+    aliasFor: tools_others.backend_as_a_service.description
+  - key: other_tools.backend_as_a_service.others
+    aliasFor: tools_others.backend_as_a_service.others
+
+  - key: other_tools.date_management
+    aliasFor: tools_others.date_management
+  - key: other_tools.date_management.description
+    aliasFor: tools_others.date_management.description
+  - key: other_tools.date_management.others
+    aliasFor: tools_others.date_management.others
+
+  - key: other_tools.data_visualization
+    aliasFor: tools_others.data_visualization
+  - key: other_tools.data_visualization.description
+    aliasFor: tools_others.data_visualization.description
+  - key: other_tools.data_visualization.others
+    aliasFor: tools_others.data_visualization.others
+
+  - key: other_tools.graphics_animation
+    aliasFor: tools_others.graphics_animation
+  - key: other_tools.graphics_animation.description
+    aliasFor: tools_others.graphics_animation.description
+  - key: other_tools.graphics_animation.others
+    aliasFor: tools_others.graphics_animation.others
+
+  - key: other_tools.data_fetching
+    aliasFor: tools_others.data_fetching
+  - key: other_tools.data_fetching.description
+    aliasFor: tools_others.data_fetching.description
+  - key: other_tools.data_fetching.others
+    aliasFor: tools_others.data_fetching.others
+
+  - key: other_tools.backend_frameworks
+    aliasFor: tools_others.backend_frameworks
+  - key: other_tools.backend_frameworks.description
+    aliasFor: tools_others.backend_frameworks.description
+  - key: other_tools.backend_frameworks.others
+    aliasFor: tools_others.backend_frameworks.others
+
+  - key: other_tools.ai_tools
+    t: AI 工具
+  - key: other_tools.ai_tools.question
+    t: 您经常使用哪些人工智能工具来帮助您编写代码？
+
+  - key: other_tools.hosting
+    t: 托管服务
+  - key: other_tools.hosting.question
+    t: 您使用过哪些服务来托管 JavaScript 应用程序？
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  - key: usage.js_app_patterns
+    t: 应用范式
+  - key: usage.js_app_patterns.question
+    t: 您在**去年**使用过以下哪些架构和渲染模式？
+  - key: usage.js_app_patterns.others
+    t: 其他应用范式
+
+  - key: usage.what_do_you_use_js_for
+    t: JavaScript 使用情况
+  - key: usage.what_do_you_use_js_for.question
+    t: 您使用 JavaScript 来做什么？
+  - key: usage.what_do_you_use_js_for.others
+    t: 其他 JavaScript 用例
+
+  - key: usage.js_ts_balance
+    t: JavaScript/TypeScript 平衡
+  - key: usage.js_ts_balance.question
+    t: 您如何分配编写 JavaScript 和 TypeScript 代码的时间？
+
+  - key: tools_others.edge_runtimes
+    t: JavaScript Edge/Serverless 运行时
+  - key: tools_others.edge_runtimes.question
+    t: 您经常使用哪些边缘或无服务器运行时？
+  - key: tools_others.edge_runtimes.others
+    t: 其他边缘运行时
+  - key: other_tools.edge_runtimes
+    aliasFor: tools_others.edge_runtimes
+  - key: other_tools.edge_runtimes.description
+    aliasFor: tools_others.edge_runtimes.question
+
+  - key: usage.usage_type
+    t: JavaScript 使用情况
+  - key: usage.usage_type.question
+    t: 您主要在什么情况下使用 JavaScript？
+  - key: usage.usage_type.others
+    t: 其他途径
+
+  - key: opinions.pick_of_the_year
+    t: 你的 “年度之选”
+  - key: opinions.pick_of_the_year.description
+    t: 您希望在今年重点推介的专题、图书馆、网站、人物等名称。
+
+  - key: usage.industry_sector_js
+    aliasFor: usage.industry_sector
+  - key: usage.industry_sector_js.question
+    t: 您在哪个行业使用 JavaScript？
+  - key: usage.industry_sector_js.others
+    aliasFor: usage.industry_sector.others
 
   ###########################################################################
   # Opinions
@@ -333,40 +1047,75 @@ translations:
     t: 你希望有一天在 JavaScript 中看到的特性。
 
   - key: happiness.front_end_frameworks
-    t: 你当前对前端框架的状态有多满意？
+    t: 你对前端框架的现状有多满意？
   - key: happiness.back_end_frameworks
-    t: 你当前对后端框架的状态有多满意？
+    t: 你对后端框架的现状有多满意？
   - key: happiness.testing
-    t: 你当前对测试工具的状态有多满意？
+    t: 你对测试工具的现状有多满意？
   - key: happiness.mobile_desktop
-    t: 你当前对跨端框架的状态有多满意？
+    t: 你对跨端框架的现状有多满意？
   - key: happiness.build_tools
-    t: 你当前对构建工具的状态有多满意？
+    t: 你对构建工具的现状有多满意？
   - key: happiness.monorepo_tools
-    t: 你当前对 monorepo 工具的状态有多满意？
+    t: 你对 monorepo 工具的现状有多满意？
+
+  - key: happiness.rendering_frameworks
+    t: 你对渲染工具的现状有多满意？
 
   - key: happiness.state_of_the_web
-    t: 你对网络技术的总体状况感到满意吗？
+    t: Web 技术满意度
+  - key: happiness.state_of_the_web.question
+    t: 你对 Web 技术的总体状况感到满意吗？
 
   - key: happiness.state_of_js
+    t: JavaScript 满意度
+  - key: happiness.state_of_js.question
     t: 你对 JavaScript 的总体状况感到满意吗？
 
   # Pain Points
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: 您最头疼 JavaScript 的哪些方面？
   - key: opinions.js_pain_points
-    t: JavaScript痛点
+    t: JavaScript 痛点
   - key: opinions.js_pain_points.description
     t: 对于每一个匹配，选择你最难以处理的 JavaScript 方面。
 
   - key: opinions_others.js_pain_points.others
-    t: 其他JavaScript痛点
+    t: 其他 JavaScript 痛点
+
+  - key: opinions.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: opinions.top_js_pain_points.description
+    t: Pick the top 3 aspects of JavaScript you struggle with the most.
+  - key: opinions_others.top_js_pain_points.others
+    aliasFor: opinions_others.js_pain_points.others
+  - key: opinions.top_js_pain_points.others
+    aliasFor: opinions_others.js_pain_points.others
 
   # Missing Features
+
+  - key: usage.top_currently_missing_from_js
+    t: 缺失的功能
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
     t: 你觉得 JavaScript 目前缺少什么？
   - key: opinions.currently_missing_from_js.description
     t: 对于每个匹配，选择你最希望在 JavaScript 中使用的功能。
   - key: opinions_others.currently_missing_from_js.others
     t: 其他缺失的功能
+    
+  - key: opinions.top_currently_missing_from_js
+    aliasFor: opinions.currently_missing_from_js
+  - key: opinions.top_currently_missing_from_js.description
+    t: 请选出您最希望在 JavaScript 中使用的 3 大功能。
+  - key: opinions_others.top_currently_missing_from_js.others
+    aliasFor: opinions_others.currently_missing_from_js.others
+  - key: opinions.top_currently_missing_from_js.others
+    aliasFor: opinions_others.currently_missing_from_js.others
 
   # pain points/currently missing (results)
   - key: js_pain_points.js_pain_points_wins
