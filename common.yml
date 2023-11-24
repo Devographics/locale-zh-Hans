@@ -359,7 +359,7 @@ translations:
   - key: options.tools.not_interested
     t: <span aria-hidden="true">🚫</span> 我听说过这个技术，但我不感兴趣
   - key: options.tools.would_use
-    t:  <span aria-hidden="true">👍</span> 我使用过这个技术，以后也愿意再次使用
+    t: <span aria-hidden="true">👍</span> 我使用过这个技术，以后也愿意再次使用
   - key: options.tools.would_not_use
     t: <span aria-hidden="true">👎</span> 我使用过这个技术，但以后不愿意再用
 
