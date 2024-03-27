@@ -544,7 +544,7 @@ translations:
     t: 10 万美元 - 20 万美元
   - key: options.yearly_salary.range_more_than_200
     t: 大于 20 万美元
-    
+
   - key: options.yearly_salary.range_0_20
     t: 0 美元 - 2 万美元
   - key: options.yearly_salary.range_20_40
@@ -898,7 +898,7 @@ translations:
     t: 通信
   - key: options.industry_sector.security
     t: 安全
-  
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: 文档
@@ -1206,55 +1206,55 @@ translations:
   # age
   - key: user_info.age
     t: 年龄
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: 你的年龄是多少岁?
 
   # years of experience
   - key: user_info.years_of_experience
     t: 年限
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: 你已于当前领域工作（研究）多长时间？
 
   # company size
   - key: user_info.company_size
     t: 公司规模
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: 所在公司规模分析
 
   # salary ranges
   - key: user_info.yearly_salary
     t: 薪资
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: 年收入（美元）
 
   # job title
   - key: user_info.job_title
     t: 职位名称
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: 使用一个名词像别人介绍你从事的工作？
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript 熟练程度
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: 对 JavaScript 了解得怎样？
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS 熟练程度
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: 对 CSS 了解得怎样？
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Back-end 熟练程度
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: 对 后端开发 了解得怎样？
 
   # gender
   - key: user_info.gender
     t: 性别
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       你的性别是？
   - key: user_info.gender.note
@@ -1266,7 +1266,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: 种族与民族
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       以下哪个选项描述了你（如果有）？ 请检查所有适用的选项。
   - key: user_info.race_ethnicity.note
@@ -1286,7 +1286,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: 残疾状况
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       如果有的话，你有以下哪些残疾？ 请检查所有选项。
       请注意，这可能包括暂时的残疾或受伤。
@@ -1331,7 +1331,7 @@ translations:
 
   - key: user_info.industry_sector
     t: 行业
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: 你在哪个行业工作？
   - key: user_info.industry_sector.others
     t: 其他行业
@@ -1341,18 +1341,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: 高等教育学位
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: 你有过高等教育的经历吗？
 
   # employment status
