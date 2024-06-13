@@ -28,7 +28,7 @@ translations:
     t: 特性
   - key: sections.features.description
     t: 语法、浏览器 API 和其他特性。
-  
+
   - key: sections.syntax.title
     t: 语法
   - key: sections.syntax.description
@@ -74,7 +74,7 @@ translations:
     t: 数据层
   - key: sections.datalayer.description
     t: 在你的应用中加载和管理数据
-    
+
   - key: sections.rendering_frameworks.title
     t: 渲染框架
   - key: sections.rendering_frameworks.description
@@ -698,7 +698,7 @@ translations:
 
   - key: tools_others.libraries
     t: 工具库
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: 您经常使用哪些工具库？
   - key: tools_others.libraries.others
     t: 其他工具库
@@ -707,7 +707,7 @@ translations:
 
   - key: tools_others.text_editors
     t: 文字编辑器
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: 您经常使用哪些文字编辑器？
   - key: tools_others.text_editors.others
     t: 其他文字编辑器
@@ -716,7 +716,7 @@ translations:
 
   - key: tools_others.utilities
     t: 工具集
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: 您经常使用哪些工具集？
   - key: tools_others.utilities.others
     t: 其他工具集
@@ -725,7 +725,7 @@ translations:
 
   - key: tools_others.browsers
     t: 浏览器
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: 在初始开发过程中，您主要使用哪种浏览器？
   - key: tools_others.browsers.others
     t: 其他浏览器
@@ -734,7 +734,7 @@ translations:
 
   - key: tools_others.build_tools
     t: 构建工具
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: 您经常使用哪些构建工具？
   - key: tools_others.build_tools.others
     t: 其他构建工具
@@ -743,7 +743,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: 非 JavaScript 语言
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: 您经常使用哪些非 JavaScript 语言?
   - key: tools_others.non_js_languages.others
     t: 其他语言
@@ -752,7 +752,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: JavaScript 变体
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: 可编译为 JavaScript 的语言
   - key: tools_others.javascript_flavors.others
     t: 其他 JavaScript 变体
@@ -765,7 +765,7 @@ translations:
 
   - key: tools_others.runtimes
     t: JavaScript 运行时
-  - key: tools_others.runtimes.description
+  - key: tools_others.runtimes.question
     t: 你最常使用哪个引擎/运行时/执行环境？
   - key: tools_others.runtimes.others
     t: 其他运行时
@@ -774,7 +774,7 @@ translations:
 
   - key: tools_others.package_registries
     t: 包管理工具
-  - key: tools_others.package_registries.description
+  - key: tools_others.package_registries.question
     t: 你最常使用哪个包管理工具？
   - key: tools_others.package_registries.others
     t: 其他包管理工具
@@ -788,35 +788,35 @@ translations:
 
   - key: tools_others.backend_as_a_service
     t: 后端即服务 (BasS) 提供商
-  - key: tools_others.backend_as_a_service.description
+  - key: tools_others.backend_as_a_service.question
     t: 托管数据并提供客户端 API 以访问数据的服务。
   - key: tools_others.backend_as_a_service.others
     t: 其他 BasS 提供商
 
   - key: tools_others.date_management
     t: 日期管理
-  - key: tools_others.date_management.description
+  - key: tools_others.date_management.question
     t: 帮助进行日期和时区管理的库。
   - key: tools_others.date_management.others
     t: 其他日期管理的库
 
   - key: tools_others.data_visualization
     t: 数据可视化
-  - key: tools_others.data_visualization.description
+  - key: tools_others.data_visualization.question
     t: 帮助图表和其他数据可视化的库。
   - key: tools_others.data_visualization.others
     t: 其他数据可视化的库
 
   - key: tools_others.graphics_animation
     t: 图形与动画
-  - key: tools_others.graphics_animation.description
+  - key: tools_others.graphics_animation.question
     t: 专用于图形和动画的库。
   - key: tools_others.graphics_animation.others
     t: 其他图形与动画的库
 
   - key: tools_others.data_fetching
     t: 数据获取
-  - key: tools_others.data_fetching.description
+  - key: tools_others.data_fetching.question
     t: 管理数据获取和缓存的库。
   - key: tools_others.data_fetching.others
     t: 其他数据获取库
@@ -824,7 +824,7 @@ translations:
   - key: other_tools.libraries
     aliasFor: tools_others.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.description
+    aliasFor: tools_others.libraries.question
   - key: other_tools.libraries.others
     aliasFor: tools_others.libraries.others
   - key: other_tools.libraries.others.description
@@ -833,7 +833,7 @@ translations:
   - key: other_tools.text_editors
     aliasFor: tools_others.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.description
+    aliasFor: tools_others.text_editors.question
   - key: other_tools.text_editors.others
     aliasFor: tools_others.text_editors.others
   - key: other_tools.text_editors.others.description
@@ -842,7 +842,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -851,7 +851,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description
@@ -860,7 +860,7 @@ translations:
   - key: other_tools.build_tools
     aliasFor: tools_others.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.description
+    aliasFor: tools_others.build_tools.question
   - key: other_tools.build_tools.others
     aliasFor: tools_others.build_tools.others
   - key: other_tools.build_tools.others.description
@@ -869,7 +869,7 @@ translations:
   - key: other_tools.non_js_languages
     aliasFor: tools_others.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.description
+    aliasFor: tools_others.non_js_languages.question
   - key: other_tools.non_js_languages.others
     aliasFor: tools_others.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
@@ -878,7 +878,7 @@ translations:
   - key: other_tools.javascript_flavors
     aliasFor: tools_others.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.description
+    aliasFor: tools_others.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
     aliasFor: tools_others.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
@@ -894,7 +894,7 @@ translations:
   - key: other_tools.runtimes
     aliasFor: tools_others.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.description
+    aliasFor: tools_others.runtimes.question
   - key: other_tools.runtimes.others
     aliasFor: tools_others.runtimes.others
   - key: other_tools.runtimes.others.description
@@ -903,7 +903,7 @@ translations:
   - key: other_tools.package_registries
     aliasFor: tools_others.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.description
+    aliasFor: tools_others.package_registries.question
   - key: other_tools.package_registries.others
     aliasFor: tools_others.package_registries.others
   - key: other_tools.package_registries.others.description
@@ -917,35 +917,35 @@ translations:
   - key: other_tools.backend_as_a_service
     aliasFor: tools_others.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.description
+    aliasFor: tools_others.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
     aliasFor: tools_others.backend_as_a_service.others
 
   - key: other_tools.date_management
     aliasFor: tools_others.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.description
+    aliasFor: tools_others.date_management.question
   - key: other_tools.date_management.others
     aliasFor: tools_others.date_management.others
 
   - key: other_tools.data_visualization
     aliasFor: tools_others.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.description
+    aliasFor: tools_others.data_visualization.question
   - key: other_tools.data_visualization.others
     aliasFor: tools_others.data_visualization.others
 
   - key: other_tools.graphics_animation
     aliasFor: tools_others.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.description
+    aliasFor: tools_others.graphics_animation.question
   - key: other_tools.graphics_animation.others
     aliasFor: tools_others.graphics_animation.others
 
   - key: other_tools.data_fetching
     aliasFor: tools_others.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.description
+    aliasFor: tools_others.data_fetching.question
   - key: other_tools.data_fetching.others
     aliasFor: tools_others.data_fetching.others
 
@@ -1107,7 +1107,7 @@ translations:
     t: 对于每个匹配，选择你最希望在 JavaScript 中使用的功能。
   - key: opinions_others.currently_missing_from_js.others
     t: 其他缺失的功能
-    
+
   - key: opinions.top_currently_missing_from_js
     aliasFor: opinions.currently_missing_from_js
   - key: opinions.top_currently_missing_from_js.description

@@ -761,7 +761,7 @@ translations:
 
   - key: tools_others.utilities
     t: 工具
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: 您常用哪些实用程序或工具？
   - key: tools_others.utilities.others
     t: 其他工具
@@ -773,7 +773,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -781,7 +781,7 @@ translations:
 
   - key: tools_others.browsers
     t: 浏览器
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: 在初始开发阶段，您主要使用哪个浏览器？
   - key: tools_others.browsers.others
     t: 其他浏览器
@@ -791,7 +791,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description
