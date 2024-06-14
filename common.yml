@@ -255,7 +255,7 @@ translations:
   - key: sections.features.title
     t: 特性
   - key: sections.features.description
-    t: 语法，关键字，和其它语言特性。
+    t: 语法，关键字，和其他语言特性。
 
   - key: sections.resources.title
     t: 资料
@@ -291,6 +291,14 @@ translations:
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: 经验
+
+  # other answer
+  - key: options.other
+    t: 其他
+  - key: options.other.placeholder
+    t: 上面未提及的其他项目，以逗号分隔
   # features
   - key: options.features.never_heard
     t: <span aria-hidden="true">🤷</span> 没听说过/不确定它是什么
@@ -322,6 +330,19 @@ translations:
     t: <span aria-hidden="true">👀</span> 有听说过
   - key: options.features.used.short
     t: <span aria-hidden="true">🤓</span> 用过
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -338,6 +359,85 @@ translations:
     t: 有听说过
   - key: options.features.used.label.short
     t: 用过
+
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: 从未听说过此项目的受访者。
+  - key: options.experience.heard.description
+    t: 听说过此项目，但没有使用过此项目的受访者。
+  - key: options.experience.used.description
+    t: 使用过此项目的受访者。
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: 情绪（态度）
+
+  - key: options.sentiment.positive.label
+    t: 积极
+  - key: options.sentiment.neutral.label
+    t: 中立
+  - key: options.sentiment.negative.label
+    t: 消极
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: 积极
+  - key: options.sentiment.neutral.label.short
+    t: 中立
+  - key: options.sentiment.negative.label.short
+    t: 消极
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: 有兴趣了解此技术，或者愿意再次使用它的受访者
+  - key: options.sentiment.neutral.description
+    t: 未对此技术发表看法的受访者
+  - key: options.sentiment.negative.description
+    t: 对此技术不感兴趣，或者使用此技术有糟糕体验的受访者
+
 
   # patterns
   - key: options.patterns.use_never
@@ -459,6 +559,33 @@ translations:
   - key: options.age.range_more_than_65.short
     t: 65岁以上
 
+  # age 2
+  - key: options.age.range_under_20
+    t: 小于20岁
+  - key: options.age.range_20_29
+    t: 20-29岁
+  - key: options.age.range_30_39
+    t: 30-39岁
+  - key: options.age.range_40_49
+    t: 40-49岁
+  - key: options.age.range_50_59
+    t: 50-59岁
+  - key: options.age.range_over_60
+    t: 60岁及以上
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
+
   # years of experience
   - key: options.years_of_experience.range_less_than_1
     t: 少于 1 年
@@ -486,6 +613,43 @@ translations:
     t: 10-20
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20"
+
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: 小于一年
+  - key: options.years_of_experience.range_1_3
+    t: 1-3年
+  - key: options.years_of_experience.range_4_6
+    t: 4-6年
+  - key: options.years_of_experience.range_7_9
+    t: 7-9年
+  - key: options.years_of_experience.range_10_12
+    t: 10-12年
+  - key: options.years_of_experience.range_13_15
+    t: 13-15年
+  - key: options.years_of_experience.range_16_20
+    t: 16-20年
+  - key: options.years_of_experience.range_over_20
+    t: 超过20年
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1年"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3年
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6年
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9年
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12年
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15年
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20年
+  - key: options.years_of_experience.range_over_20.short
+    t: ">20年"
 
   # company size
   - key: options.company_size.na
@@ -1112,6 +1276,27 @@ translations:
   - key: options.percentage_segments.range_91_100
     t: 91-100%
 
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
   - key: options.completion_stats.range_0_10
     aliasFor: options.percentage_segments.range_0_10
   - key: options.completion_stats.range_11_20
@@ -1132,6 +1317,27 @@ translations:
     aliasFor: options.percentage_segments.range_81_90
   - key: options.completion_stats.range_91_100
     aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
 
   - key: options.knowledge_score.range_0_10
     aliasFor: options.percentage_segments.range_0_10

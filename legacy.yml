@@ -1,0 +1,1090 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  # homepage
+  - key: general.why_create_account
+    t: 我为什么需要创建一个账号
+  - key: general.create_account_reasons
+    t: >
+      我们需要您创建账号是为了：
+
+      - 避免重复
+
+      - 授予您能访问您自己的数据的权限
+
+      - 随时保存您的会话
+
+      - 当结果发布时通知您
+  - key: general.survey_closed_detailed
+    t: >
+      抱歉，调查现已结束！您仍然可以查看您的数据，但无法对其进行修改。
+  - key: general.survey_read_only
+    t: >
+      您当前正在以只读模式查看此调查。
+  - key: general.survey_preview
+    t: >
+      此调查处于预览模式。它的问题可能会发生变化，
+      并且所有输入的数据在实际调查开始时会被删除。
+
+  - key: general.survey_read_only_back
+    t: >
+      <a href="{link}">返回</a> 到主调查页面以开始或恢复会话。
+  - key: general.take_survey
+    t: 参与 {name} 调查
+
+  # surveys
+  - key: general.open_surveys
+    t: 进行中的调查
+  - key: general.no_open_surveys
+    t: 当前没有进行中的调查
+  - key: general.closed_surveys
+    t: 关闭的调查
+  - key: general.no_closed_surveys
+    t: 当前没有关闭的调查
+  - key: general.preview_surveys
+    t: 预览调查
+  - key: general.no_preview_surveys
+    t: 没有可用的预览调查
+  - key: general.start_survey
+    t: 开始调查 »
+  - key: general.continue_survey
+    t: 继续调查 »
+  - key: general.review_survey
+    t: 回顾调查 »
+  - key: general.preview_survey
+    t: 预览调查 »
+  - key: general.finish_survey
+    t: 完成调查
+  - key: general.next_section
+    t: 下一节
+  - key: general.previous_section
+    t: 上一节
+  - key: general.survey_closed
+    t: 这项调查现在关闭了
+  - key: general.survey_results
+    t: 查看调查结果 »
+  - key: general.surveys_available_languages
+    t: "调查可选语言:"
+  - key: general.help_us_translate
+    t: 帮助我们翻译调查 »
+  - key: general.translators
+    t: 翻译者
+  - key: general.translation_help
+    t: 翻译需要帮助
+  - key: general.newly_added
+    t: 本年新增
+  - key: general.new
+    t: 新
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> 是举办 State of JavaScript, CSS,和 GraphQL 调查团体的新名字.
+
+  # credits
+  - key: credits.thanks
+    t: 特别感谢
+  - key: credits.contributors
+    t: 贡献者
+  - key: credits.contributors.description
+    t: 特别感谢以下人员帮我们设计调查
+  - key: credits.accessibility
+    t: 无障碍咨询
+  - key: credits.survey_design
+    t: 设计调查
+  - key: credits.logo_design
+    t: 设计Logo
+  - key: credits.mobile_testing
+    t: 移动端测试
+  - key: credits.data_visualizations
+    t: 数据可视化
+  - key: credits.repo_architecture
+    t: 仓库架构
+  - key: credits.code_refactoring
+    t: 代码重构
+  - key: credits.data_processing
+    t: 数据处理
+
+  # support
+  - key: general.support_from
+    t: 来自支持下
+
+  # footer
+  - key: general.privacy_policy
+    t: 隐私政策
+  - key: general.leave_issue
+    t: 遇到问题? 发现bug? <a href="{link}" target="_blank">发issue</a>
+  - key: general.emoji_icons
+    t: Emoji 图标来自于 <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+  # navigation
+  - key: general.table_of_contents
+    t: 目录
+  - key: general.all_questions_optional
+    t: >
+      注意：所有问题都是可选的，不要求 100% 完成。
+  - key: general.data_is_saved
+    t: 每当您导航到上一个或下一个部分时，您的数据都会被保存。
+  - key: general.close_nav
+    t: 关闭菜单
+  - key: general.open_nav
+    t: 打开菜单
+  - key: general.more_actions
+    t: 更多
+  - key: general.skip_to_content
+    t: 跳过
+
+  # thanks
+  - key: general.back
+    t: 返回
+  - key: general.thanks
+    t: >
+      感谢您填写调查问卷！您的数据已保存。
+
+
+      此外，您还可以通过分享此调查来帮助我们宣传。每一位都很重要，这将有助于使我们的数据更有代表性：
+  - key: thanks.learn_more_about
+    t: "您可能想了解更多的一些功能："
+  - key: thanks.knowledge_score
+    t: 知识分数
+  - key: thanks.score_explanation
+    t: >
+      您听说过或使用过<span class="score-number score-number-known">{known}</span>调查中提到的
+      <span class="score-number score-number-total">{total}</span>个功能，其中
+      您在所有受访者的排名是：
+      前 <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>。
+  - key: thanks.share_on_twitter
+    t: 在Twitter中分享
+  - key: thanks.share_score_message
+    t: >
+      我在今年的 #{hashtag} 调查中获得了 {score}% 知识得分！在这里参加调查：{shareUrl}
+  # share
+  - key: general.share_subject
+    t: >
+      {surveyName}调查
+  - key: general.share_text
+    t: >
+      今年的{surveyName}调查开启了! {link}
+
+  # forms
+  - key: forms.select_option
+    t: 选项
+  - key: forms.clear_field
+    t: 清空问题
+
+  # partners
+  - key: sponsors.our_partners
+    t: 我们的合伙人
+  - key: sponsors.become_partner
+    t: 成为合伙人
+
+  # 404
+  - key: notfound.title
+    t: 404 Not Found
+  - key: notfound.description
+    t: 抱歉，我们找不到您要找的内容。
+
+  # other
+  - key: general.join_discord
+    t: 加入我们的<a href="{link}">Discord</a>。
+  - key: general.translator_mode
+    t: 按 option/alt 启用翻译模式。
+  - key: general.charts_nivo
+    t: 使用<a href="{link}">Nivo</a>构建图表。
+  - key: general.made_by_devographics
+    t: 由<a href="{link}">Devographics</a>创建。
+
+  ###########################################################################
+  # Nav
+  ###########################################################################
+
+  - key: nav.surveys
+    t: 调查
+  - key: nav.account
+    t: 账户
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.title
+    t: 关于你
+  - key: sections.user_info.description
+    t: 让我们知道真正的你。
+
+  - key: sections.features.title
+    t: 特性
+  - key: sections.features.description
+    t: 语法、关键字，或者其他语言特性
+
+  - key: sections.resources.title
+    t: 资源
+  - key: sections.resources.description
+    t: 您查阅哪些{topic}资源？
+
+  - key: sections.opinions.title
+    t: 意见
+  - key: sections.opinions.description
+    t: 你感觉{topic}怎么样?
+
+  - key: sections.other_tools.title
+    t: 其他工具
+  - key: sections.other_tools.description
+    t: 对于这些工具和技术，只需检查您经常使用的工具和技术即可。
+
+  - key: sections.report.title
+    t: 趋势报告
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # features
+  - key: options.features.never_heard
+    t: <span aria-hidden="true">🤷</span> 从未听说过/不确定它是什么
+  - key: options.features.heard
+    t: <span aria-hidden="true">✅</span> 知道它是什么，但是没有使用过
+  - key: options.features.used
+    t: <span aria-hidden="true">👍</span> 使用过
+
+  # features (no emoji)
+  - key: options.features.never_heard.label
+    t: 从未听说过/不确定它是什么
+  - key: options.features.heard.label
+    t: 知道它是什么，但是没有使用过
+  - key: options.features.used.label
+    t: 使用过
+
+  # features (short versions)
+  # - key: options.features.never_heard.short
+  #   t: Never heard of it
+  # - key: options.features.heard.short
+  #   t: Know about it
+  # - key: options.features.used.short
+  #   t: Have used it
+
+  # patterns
+  - key: options.patterns.use_never
+    t: 尽可能不使用
+  - key: options.patterns.use_sparingly
+    t: 谨慎使用
+  - key: options.patterns.use_neutral
+    t: 中立
+  - key: options.patterns.use_frequently
+    t: 经常使用
+  - key: options.patterns.use_always
+    t: 尽可能使用
+
+  # tools experience
+  - key: options.tools.never_heard
+    t: <span aria-hidden="true">🤷</span> 从来没听说过它/不确定它是什么
+  - key: options.tools.interested
+    t: <span aria-hidden="true">✅</span> 听说过 > 愿意学习
+  - key: options.tools.not_interested
+    t: <span aria-hidden="true">🚫</span> 听说过 > 不感兴趣
+  - key: options.tools.would_use
+    t: <span aria-hidden="true">👍</span> 使用过 > 将会再次使用
+  - key: options.tools.would_not_use
+    t: <span aria-hidden="true">👎</span> 使用过 > 不会再次使用
+
+  # tools experience (no emoji)
+  - key: options.tools.never_heard.legend
+    t: 从来没听说过它/不确定它是什么
+  - key: options.tools.interested.legend
+    t: 听说过 > 愿意学习
+  - key: options.tools.not_interested.legend
+    t: 听说过 > 不感兴趣
+  - key: options.tools.would_use.legend
+    t: 使用过 > 将会再次使用
+  - key: options.tools.would_not_use.legend
+    t: 使用过 > 不会再次使用
+
+  # tools experience (short versions)
+  - key: options.tools.never_heard.short
+    t: 从来没听说过
+  - key: options.tools.interested.short
+    t: 感兴趣
+  - key: options.tools.not_interested.short
+    t: 不感兴趣
+  - key: options.tools.would_use.short
+    t: 将会再次使用
+  - key: options.tools.would_not_use.short
+    t: 不会再次使用
+
+  # happiness
+  - key: options.happiness.0
+    t: 非常不开心
+  - key: options.happiness.1
+    t: 不开心
+  - key: options.happiness.2
+    t: 中立
+  - key: options.happiness.3
+    t: 开心
+  - key: options.happiness.4
+    t: 非常开心
+
+  # happiness (short version)
+  - key: options.happiness.0.short
+    t: 非常不开心
+  - key: options.happiness.1.short
+    t: 不开心
+  - key: options.happiness.2.short
+    t: 中立
+  - key: options.happiness.3.short
+    t: 开心
+  - key: options.happiness.4.short
+    t: 非常开心
+
+  # opinions
+  - key: options.opinions.0
+    t: 完全不同意
+  - key: options.opinions.1
+    t: 不同意
+  - key: options.opinions.2
+    t: 中立
+  - key: options.opinions.3
+    t: 同意
+  - key: options.opinions.4
+    t: 非常同意
+
+  # age
+  - key: options.age.range_less_than_10
+    t: 小于10岁
+  - key: options.age.range_10_18
+    t: 11-18岁
+  - key: options.age.range_18_24
+    t: 19-24岁
+  - key: options.age.range_25_34
+    t: 25-34岁
+  - key: options.age.range_35_44
+    t: 35-44岁
+  - key: options.age.range_45_54
+    t: 45-54岁
+  - key: options.age.range_55_64
+    t: 55-64岁
+  - key: options.age.range_more_than_65
+    t: 65岁及以上
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<=10"
+  - key: options.age.range_10_18.short
+    t: 11-18
+  - key: options.age.range_18_24.short
+    t: 19-24
+  - key: options.age.range_25_34.short
+    t: 25-34
+  - key: options.age.range_35_44.short
+    t: 35-44
+  - key: options.age.range_45_54.short
+    t: 45-54
+  - key: options.age.range_55_64.short
+    t: 55-64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
+
+  # years of experience
+  - key: options.years_of_experience.range_less_than_1
+    t: 小于一年
+  - key: options.years_of_experience.range_1_2
+    t: 1-2年
+  - key: options.years_of_experience.range_2_5
+    t: 3-5年
+  - key: options.years_of_experience.range_5_10
+    t: 6-10年
+  - key: options.years_of_experience.range_10_20
+    t: 11-20年
+  - key: options.years_of_experience.range_more_than_20
+    t: 超过20年
+
+  # years of experience (short versions)
+  - key: options.years_of_experience.range_less_than_1.short
+    t: <1年
+  - key: options.years_of_experience.range_1_2.short
+    t: 1-2年
+  - key: options.years_of_experience.range_2_5.short
+    t: 3-5年
+  - key: options.years_of_experience.range_5_10.short
+    t: 6-10年
+  - key: options.years_of_experience.range_10_20.short
+    t: 11-20年
+  - key: options.years_of_experience.range_more_than_20.short
+    t: >20年
+
+  # company size
+  - key: options.company_size.range_1
+    t: 一个雇员
+  - key: options.company_size.range_1_5
+    t: 2-5个雇员
+  - key: options.company_size.range_5_10
+    t: 6-10个雇员
+  - key: options.company_size.range_10_20
+    t: 11-20个雇员
+  - key: options.company_size.range_20_50
+    t: 21-50个雇员
+  - key: options.company_size.range_50_100
+    t: 51-100个雇员
+  - key: options.company_size.range_100_1000
+    t: 101-1000个雇员
+  - key: options.company_size.range_more_than_1000
+    t: 超过1000个雇员
+
+  # company size (short versions)
+  - key: options.company_size.range_1.short
+    t: 1
+  - key: options.company_size.range_1_5.short
+    t: 1-5
+  - key: options.company_size.range_5_10.short
+    t: 6-10
+  - key: options.company_size.range_10_20.short
+    t: 11-20
+  - key: options.company_size.range_20_50.short
+    t: 21-50
+  - key: options.company_size.range_50_100.short
+    t: 51-100
+  - key: options.company_size.range_100_1000.short
+    t: 101-1000
+  - key: options.company_size.range_more_than_1000.short
+    t: ">1000"
+
+  # salary
+  - key: options.yearly_salary.range_work_for_free
+    t: 免费工作
+  - key: options.yearly_salary.range_0_10
+    t: $0k-$10k
+  - key: options.yearly_salary.range_10_30
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200
+    t: 超过$200k
+
+  # salary (short versions)
+  - key: options.yearly_salary.range_work_for_free.short
+    t: $0
+  - key: options.yearly_salary.range_0_10.short
+    t: $0-$10k
+  - key: options.yearly_salary.range_10_30.short
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50.short
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100.short
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200.short
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200.short
+    t: ">$200k"
+
+  # Proficiency (generic versions)
+  - key: options.proficiency.0
+    t: 无
+  - key: options.proficiency.1
+    t: 初级
+  - key: options.proficiency.2
+    t: 中级
+  - key: options.proficiency.3
+    t: 高级
+  - key: options.proficiency.4
+    t: 专家
+
+  # Gender
+
+  - key: options.gender.female
+    t: 女
+  - key: options.gender.male
+    t: 男
+  - key: options.gender.non_binary
+    t: 非二元或性别不一致
+  - key: options.gender.questioning
+    t: 不知道
+  - key: options.gender.prefer_not_to_say
+    t: 保密
+  - key: options.gender.not_listed
+    t: 不在选项中
+
+  # Gender (short)
+
+  - key: options.gender.female.short
+    t: 女
+  - key: options.gender.male.short
+    t: 男
+  - key: options.gender.non_binary.short
+    t: 非二元或性别不一致
+  - key: options.gender.questioning.short
+    t: 不知道
+  - key: options.gender.prefer_not_to_say.short
+    t: 保密
+  - key: options.gender.not_listed.short
+    t: 不在选项中
+
+  # Race & Ethnicity
+
+  - key: options.race_ethnicity.white_european
+    t: 白种人
+  - key: options.race_ethnicity.south_asian
+    t: 南亚人
+  - key: options.race_ethnicity.south_east_asian
+    t: 东南亚人
+  - key: options.race_ethnicity.hispanic_latin
+    t: 西班牙裔或拉丁裔
+  - key: options.race_ethnicity.east_asian
+    t: 东亚人
+  - key: options.race_ethnicity.middle_eastern
+    t: 中东人
+  - key: options.race_ethnicity.black_african
+    t: 黑人或非洲人
+  - key: options.race_ethnicity.multiracial
+    t: 多种族
+  - key: options.race_ethnicity.biracial
+    t: 混血
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: 美洲原住民、太平洋岛民或澳大利亚原住民
+  - key: options.race_ethnicity.not_listed
+    t: 不在选项中
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: 白种人
+  - key: options.race_ethnicity.south_asian.short
+    t: 南亚人
+  - key: options.race_ethnicity.south_east_asian.short
+    t: 东南亚人
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: 西班牙裔或拉丁裔
+  - key: options.race_ethnicity.east_asian.short
+    t: 东亚人
+  - key: options.race_ethnicity.middle_eastern.short
+    t: 中东人
+  - key: options.race_ethnicity.black_african.short
+    t: 黑人或非洲人
+  - key: options.race_ethnicity.multiracial.short
+    t: 多种族
+  - key: options.race_ethnicity.biracial.short
+    t: 混血
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: 美洲原住民、太平洋岛民或澳大利亚原住民
+  - key: options.race_ethnicity.not_listed.short
+    t: 不在选项中
+
+  # Disability Status
+  - key: options.disability_status.visual_impairments
+    t: >
+      视力障碍（如：盲、色盲等）
+  - key: options.disability_status.hearing_impairments
+    t: >
+      听力障碍（如：耳聋、耳鸣等）
+  - key: options.disability_status.mobility_impairments
+    t: >
+      行动障碍（如：关节炎、腕管等）
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      认知障碍（如：焦虑、阅读障碍等）
+  - key: options.disability_status.not_listed
+    t: >
+      不在选项中
+
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments
+    t: >
+      视力障碍
+  - key: options.disability_status.hearing_impairments
+    t: >
+      听力障碍
+  - key: options.disability_status.mobility_impairments
+    t: >
+      行动障碍
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      认知障碍
+  - key: options.disability_status.not_listed
+    t: >
+      不在选项中
+
+  # Form Factors
+  - key: options.form_factors.desktop
+    t: 个人电脑
+  - key: options.form_factors.keyboard_only
+    t: 只有键盘的个人电脑
+  - key: options.form_factors.smartphone
+    t: 智能手机
+  - key: options.form_factors.feature_phone
+    t: 功能机
+  - key: options.form_factors.tablet
+    t: 牌匾
+  - key: options.form_factors.smart_watch
+    t: 智能手表
+  - key: options.form_factors.tv
+    t: TV
+  - key: options.form_factors.gaming_console
+    t: 游戏机
+  - key: options.form_factors.screen_reader
+    t: 屏幕阅读器
+  - key: options.form_factors.print
+    t: 打印机
+  - key: options.form_factors.testing_tools
+    t: 测试工具
+  - key: options.form_factors.vision_simulator
+    t: 视觉模拟器
+
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: 电子商务与零售
+  - key: options.industry_sector.news_media
+    t: 新闻、媒体和博客
+  - key: options.industry_sector.healthcare
+    t: 卫生保健
+  - key: options.industry_sector.finance
+    t: 金融
+  - key: options.industry_sector.programming_tools
+    t: 编程和技术工具
+  - key: options.industry_sector.socialmedia
+    t: 社交媒体
+  - key: options.industry_sector.marketing_tools
+    t: 营销/销售/分析行业
+  - key: options.industry_sector.education
+    t: 教育
+  - key: options.industry_sector.real_estate
+    t: 房地产
+  - key: options.industry_sector.government
+    t: 政府
+  - key: options.industry_sector.entertainment
+    t: 娱乐业
+  - key: options.industry_sector.consulting
+    t: 咨询服务业
+  - key: options.industry_sector.travel
+    t: 旅游业
+  - key: options.industry_sector.insurance
+    t: 保险行业
+  - key: options.industry_sector.logistics
+    t: 后勤业
+  - key: options.industry_sector.energy
+    t: 能源行业
+  - key: options.industry_sector.telecommunications
+    t: 电信行业
+  - key: options.industry_sector.student
+    t: 学生
+  - key: options.industry_sector.hospitality
+    t: 医疗行业
+  - key: options.industry_sector.cyber_security
+    t: 网络安全
+  - key: options.industry_sector.construction
+    t: 建筑业
+  - key: options.industry_sector.automotive
+    t: 汽车业
+  - key: options.industry_sector.agriculture
+    t: 农业
+  - key: options.industry_sector.transport
+    t: 运输业
+  - key: options.industry_sector.manufacturing
+    t: 制造业
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: 文档
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: 它是否容易学习和/或有详细的文档？
+  - key: options.tool_evaluation.momentum_popularity
+    t: 流行趋势
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: 目前它是否引起了很多轰动？
+  - key: options.tool_evaluation.user_base_size
+    t: 用户规模
+  - key: options.tool_evaluation.user_base_size.description
+    t: 它是一个有着悠久历史的成熟选择吗？
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: 开发者体验
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: 它是否拥有良好的开发工具、庞大的插件生态系统等？
+  - key: options.tool_evaluation.performance_user_experience
+    t: 用户体验
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: 它是否可以帮助您创建流畅、高性能的用户体验？
+  - key: options.tool_evaluation.creator_team
+    t: 创作者及团队
+  - key: options.tool_evaluation.creator_team.description
+    t: 是否有知名、资金充足或经验丰富的团队支持？
+  - key: options.tool_evaluation.accessibility_features
+    t: 无障碍功能
+  - key: options.tool_evaluation.accessibility_features.description
+    t: 它是否擅长为所有用户创造无障碍体验？
+  - key: options.tool_evaluation.community_inclusivity
+    t: 社区与包容性
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: 它周围是否有一个热情、充满活力的社区？
+
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: 键盘导航
+  - key: options.accessibility_features.compliant_contrast
+    t: 是否符合 WCAG 标准
+  - key: options.accessibility_features.focus_indicators
+    t: 焦点指针
+  - key: options.accessibility_features.skip_to_content_link
+    t: 跳至内容链接
+  - key: options.accessibility_features.color_themes
+    t: 主题色(黑暗模式,高对比度模式等)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: 动画减弱功能(Prefers-reduced-motion)
+  - key: options.accessibility_features.alt_text
+    t: 文字替换(Alt texts)
+  - key: options.accessibility_features.semantic_markup
+    t: 语义标记(Semantic markup)
+  - key: options.accessibility_features.aria_attributes
+    t: ARIA HTML 属性
+
+  # learning methods
+  - key: options.first_steps.books
+    t: 书籍
+  - key: options.first_steps.videos
+    t: 视频
+  - key: options.first_steps.school
+    t: 学校课程
+  - key: options.first_steps.courses_free
+    t: 免费线上课程
+  - key: options.first_steps.courses_paid
+    t: 付费线上课程
+  - key: options.first_steps.podcasts
+    t: 博客
+  - key: options.first_steps.bootcamp
+    t: 编程训练营
+  - key: options.first_steps.on_the_job
+    t: 工作中学习
+  - key: options.first_steps.self_directed
+    t: 自学
+  - key: options.first_steps.mentoring
+    t: 他人辅导
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: 否
+  - key: options.higher_education_degree.yes_related
+    t: 是，在与我当前职业相关的领域
+  - key: options.higher_education_degree.yes_unrelated
+    t: 是，但是在与我当前职业无关的领域
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: 否
+  - key: options.higher_education_degree.yes_related.short
+    t: 是，领域相关
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: 是，领域不相关
+
+  # bracket
+  - key: options.bracket.round1
+    t: 第一回合获胜
+  - key: options.bracket.round2
+    t: 第二回合获胜
+  - key: options.bracket.round3
+    t: 第三回合获胜
+  - key: options.bracket.combined
+    t: 组合
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: 是，当调查结果公布时通过电子邮件告诉我
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.other_tools
+    t: 其他选项
+  - key: tools.other_tools.description
+    t: 上面列表中未提及的当前部分使用的其他选项。
+  - key: tools.happiness
+    t: 总体幸福感
+  - key: tools.happiness.description
+    t: >
+      从一（非常不高兴）到五（非常高兴），
+      您对于上面列出的选项的总体状态有多满意？
+
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
+
+  # age
+  - key: user_info.age
+    t: 年龄
+  - key: user_info.age.question
+    t: 您多少岁？
+
+  # years of experience
+  - key: user_info.years_of_experience
+    t: 从业经验
+  - key: user_info.years_of_experience.question
+    t: 您在该领域工作或学习多久了（以年为单位）？
+
+  # company size
+  - key: user_info.company_size
+    t: 公司大小
+  - key: user_info.company_size.question
+    t: 贵公司规模有多大，员工人数有多大？
+
+  # salary ranges
+  - key: user_info.yearly_salary
+    t: 年薪
+  - key: user_info.yearly_salary.question
+    t: 您年薪多少美元？
+
+  # job title
+  - key: user_info.job_title
+    t: 职位名称
+  - key: user_info.job_title.question
+    t: 你如何向别人介绍自己？
+
+  # javascript proficiency
+  - key: user_info.javascript_proficiency
+    t: JavaScript 熟练度
+  - key: user_info.javascript_proficiency.question
+    t: 您使用 JavaScript 的熟练程度是？
+
+  # css proficiency
+  - key: user_info.css_proficiency
+    t: CSS 熟练度
+  - key: user_info.css_proficiency.question
+    t: 您使用 CSS 的熟练程度是？
+
+  # backend proficiency
+  - key: user_info.backend_proficiency
+    t: 后端熟练度
+  - key: user_info.backend_proficiency.question
+    t: 您后端开发的熟练程度是？
+
+  # gender
+  - key: user_info.gender
+    t: 性别
+  - key: user_info.gender.question
+    t: >
+      以下哪个选项描述了您（如果有）？请选一个。
+  - key: user_info.gender.note
+    t: >
+      虽然我们知道收集和发布多样性数据可能是一个敏感问题， 
+      我们确实认为获取这些数据来帮助衡量和改进调查的包容性和代表性
+      是非常重要的。
+
+  # race & ethnicity
+  - key: user_info.race_ethnicity
+    t: 种族与民族
+  - key: user_info.race_ethnicity.question
+    t: >
+      以下哪个选项描述了您（如果有）？请选一个。
+  - key: user_info.race_ethnicity.note
+    t: >
+      虽然我们知道收集和发布多样性数据可能是一个敏感问题， 
+      我们确实认为获取这些数据来帮助衡量和改进调查的包容性和代表性
+      是非常重要的。
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+        为了遵守当地政策，种族或民族数据的收集
+        已在您所在的国家或地区禁用。
+
+  # disability status
+  - key: user_info.disability_status
+    t: 残疾状况
+  - key: user_info.disability_status.question
+    t: >
+      您有以下哪种残疾（如果有）？请勾选所有适用项。
+      请注意，选项包括暂时的残疾或受伤。
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: 其他伤残状况
+
+  # other info
+  - key: user_info.how_did_user_find_out_about_the_survey
+    t: 您是如何得知这项调查的？
+  - key: user_info.email
+    t: 您的电子邮箱
+  - key: user_info.email.description
+    t: >
+      您已匿名填写了调查问卷。如果您愿意，您可以选择输入电子邮件，以便稍后访问您的数据，并在调查结果发布时收到通知。
+  - key: user_info.email.note
+    t: >
+      我们不存储任何个人数据，因此在您填写您的电子邮件地址后，我们将使用它来生成唯一的匿名标识符，然后从我们的记录中删除该地址本身。
+  - key: user_info.country
+    t: 国家和地区
+  - key: user_info.country.description
+    t: 您目前居住在哪里？
+
+  - key: user_info.github_username
+    t: 你的 Github 用户名
+  - key: user_info.github_username.description
+    t: >
+      我们将来可能会使用 GitHub 用户名
+      来查看代码仓库并交叉引用公开信息。
+
+  - key: user_info.twitter_username
+    t: 你的 Twitter 用户名
+  - key: user_info.twitter_username.description
+    t: >
+      我们将来可能会使用 Twitter 用户名
+      来查看 Twitter 活动并交叉引用公开信息
+      （例如您关注的人员列表）。
+
+  - key: user_info.industry_sector
+    t: 行业
+  - key: user_info.industry_sector.question
+    t: 你在什么行业工作
+  - key: user_info.industry_sector.others
+    t: 其他行业
+  - key: user_info.industry_sector.others.description
+    t: 未在上述选项中的其他行业
+
+  # degree
+  - key: user_info.higher_education_degree
+    t: 学历
+  - key: user_info.higher_education_degree.question
+    t: 你有高等教育学位吗？
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: 您想在调查结果发布时收到通知吗？
+  - key: user_info.receive_notifications.note
+    t: >
+      我们不存储任何私人数据，因此在您的电子邮件地址发送到我们的邮件列表提供商后，
+      它将从我们自己的记录中删除。
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: 我们如何改进这项调查？
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: 库
+  - key: tools_others.libraries.question
+    t: 你经常使用哪些库？
+  - key: tools_others.libraries.others
+    t: 其他库
+  - key: tools_others.libraries.others.description
+    t: 其他答案
+
+  - key: tools_others.text_editors
+    t: 文本编辑器
+  - key: tools_others.text_editors.question
+    t: 你经常使用哪些文本编辑器？
+  - key: tools_others.text_editors.others
+    t: 其他文本编辑器
+  - key: tools_others.text_editors.others.description
+    t: 其他答案
+
+  - key: tools_others.utilities
+    t: 工具集
+  - key: tools_others.utilities.question
+    t: 你经常使用哪些工具集？
+  - key: tools_others.utilities.others
+    t: 其他工具集
+  - key: tools_others.utilities.others.description
+    t: 其他答案
+
+  - key: tools_others.browsers
+    t: 浏览器
+  - key: tools_others.browsers.question
+    t: 在开发过程中您主要使用哪种浏览器？
+  - key: tools_others.browsers.others
+    t: 其他浏览器
+  - key: tools_others.browsers.others.description
+    t: 其他答案
+
+  - key: tools_others.build_tools
+    t: 构建工具
+  - key: tools_others.build_tools.question
+    t: 您主要使用哪种构建工具
+  - key: tools_others.build_tools.others
+    t: 其他构建工具
+  - key: tools_others.build_tools.others.description
+    t: 其他答案
+
+  - key: tools_others.non_js_languages
+    t: 非 JavaScript 语言使用情况
+  - key: tools_others.non_js_languages.question
+    t: 除了 JavaScript 之外，你还是用哪些编程语言？
+  - key: tools_others.non_js_languages.others
+    t: 其他编程语言
+  - key: tools_others.non_js_languages.others.description
+    t: 其他答案
+
+  - key: tools_others.javascript_flavors
+    t: 可编译为 JavaScript 的语言 
+  - key: tools_others.javascript_flavors.question
+    t: 可编译为 JavaScript 的语言 
+  - key: tools_others.javascript_flavors.others
+    t: 其他可编译为 JavaScript 的语言 
+  - key: tools_others.javascript_flavors.others.description
+    t: 其他答案
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  # first steps
+  - key: resources.first_steps
+    t: 入门方式
+  - key: resources.first_steps.question
+    t: 当你入门学习的时候，使用了什么方式？
+  - key: resources.first_steps.others
+    t: 其他入门学习方式
+  - key: resources.first_steps.others.description
+    t: 其他答案
+
+  # blogs & magazines
+  - key: resources.blogs_news_magazines
+    t: 博客和杂志
+  - key: resources.blogs_news_magazines.question
+    t: 你读哪些博客和杂志？
+  - key: resources.blogs_news_magazines.others
+    t: 其他博客和杂志
+  - key: resources.blogs_news_magazines.others.description
+    t: 其他答案
+
+  # sites & courses
+  - key: resources.sites_courses
+    t: 网站和课程
+  - key: resources.sites_courses.question
+    t: 你看那些其他网站和课程
+  - key: resources.sites_courses.others
+    t: 其他网站和课程
+  - key: resources.sites_courses.others.description
+    t: 其他回答
+
+  # podcasts
+  - key: resources.podcasts
+    t: 播客
+  - key: resources.podcasts.question
+    t: 你会听哪些播客？
+  - key: resources.podcasts.others
+    t: 其他播客
+  - key: resources.podcasts.others.description
+    t: 其他回答
+
+  # people
+  - key: resources.people
+    t: 人
+  - key: resources.people.description
+    t: 你关注的人
+  # - key: resources.people.others
+  #   t: Other People
+  # - key: resources.people.others.description
+  #   t: Other answers (freeform field).
+  - key: resources.people.others
+    t: 其他人
+  - key: resources.people.others.description
+    t: >
+      其他您关注的人 
+      （自由格式字段，逗号分隔名称）。
+
+  # other surveys
+  - key: resources.other_surveys
+    t: 其他调查
+  - key: resources.other_surveys.question
+    t: 您还参加了哪些其他开发者调查？
+  - key: resources.other_surveys.others
+    t: 上面未提及的其他调查

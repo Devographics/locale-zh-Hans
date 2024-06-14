@@ -620,75 +620,195 @@ translations:
     t: >
       工具库都是加载自 [Best of JS](https://bestofjs.org/)。
       如果有缺少的项目，您可以[在此提交](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md)。
+  - key: tools.pain_points
+    t: 痛点
+  - key: tools.ratios
+    t: 随时间变化的比率
+  - key: tools.experience
+    t: 使用经验与满意度
+  - key: tools.others
+    t: 其它工具
 
   # front-end frameworks
+  - key: tools.front_end_frameworks_ratios
+    t: 前端框架随时间变化的比率
+  - key: tools.front_end_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.front_end_frameworks_experience
+    t: 前端框架的使用经验与满意度
+  - key: tools.front_end_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.front_end_frameworks.others
+    t: 其他前端框架
+  - key: tools.front_end_frameworks.others.short
+    aliasFor: tools.others
+
   - key: tools.front_end_frameworks_happiness
     t: 前端框架满意度
+  - key: tools.front_end_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.front_end_frameworks_happiness.question
     t: 您对前端框架的现状满意吗？
 
   - key: tools.front_end_frameworks_pain_points
     t: 前端框架的痛点
+  - key: tools.front_end_frameworks_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.front_end_frameworks_pain_points.question
     t: 在使用前端框架时，您遇到过哪些痛点？
 
   # meta-frameworks
 
+  - key: tools.meta_frameworks_ratios
+    t: 元框架随时间变化的比率
+  - key: tools.meta_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.meta_frameworks_experience
+    t: 元框架的使用经验和满意度
+  - key: tools.meta_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.meta_frameworks.others
+    t: 其他元框架
+  - key: tools.meta_frameworks.others.short
+    aliasFor: tools.others
   - key: tools.meta_frameworks_happiness
     t: 元框架满意度
+  - key: tools.meta_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.meta_frameworks_happiness.question
     t: 您对元框架的现状满意吗？
 
   - key: tools.meta_frameworks_pain_points
     t: 元框架的痛点
+  - key: tools.meta_frameworks_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.meta_frameworks_pain_points.question
     t: 在使用元框架时，您遇到过哪些痛点？
 
   # testing
 
+  - key: tools.testing_ratios
+    t: 测试工具随时间变化的比率
+  - key: tools.testing_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.testing_experience
+    t: 测试工具的使用经验和满意度
+  - key: tools.testing_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.testing.others
+    t: 其他测试工具
+  - key: tools.testing.others.short
+    aliasFor: tools.others
   - key: tools.testing_happiness
     t: 测试满意度
+  - key: tools.testing_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.testing_happiness.question
     t: 您对测试工具的现状满意吗？
 
   - key: tools.testing_pain_points
     t: 测试工具的痛点
+  - key: tools.testing_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.testing_pain_points.question
     t: 在使用测试工具时，您遇到过哪些痛点？
 
   # mobile & desktop
 
+  - key: tools.mobile_desktop_ratios
+    t: 移动端和桌面端开发工具随时间变化的比率
+  - key: tools.mobile_desktop_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.mobile_desktop_experience
+    t: 移动端和桌面端开发工具的使用经验和满意度
+  - key: tools.mobile_desktop_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.mobile_desktop.others
+    t: 其他移动端和桌面端开发工具
+  - key: tools.mobile_desktop.others.short
+    aliasFor: tools.others
+
   - key: tools.mobile_desktop_happiness
     t: 开发移动端和桌面端的满意度
+  - key: tools.mobile_desktop_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.mobile_desktop_happiness.question
     t: 您对开发移动端和桌面端的工具的现状满意吗？
 
   - key: tools.mobile_desktop_pain_points
     t: 开发移动端和桌面端的痛点
+  - key: tools.mobile_desktop_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.mobile_desktop_pain_points.question
     t: 在使用 JavaScript 构建移动端和桌面端应用程序时，您遇到了哪些痛点？
 
   # build tools
 
+  - key: tools.build_tools_ratios
+    t: 构建工具随时间变化的比率
+  - key: tools.build_tools_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.build_tools_experience
+    t: 构建工具的使用经验和满意度
+  - key: tools.build_tools_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.build_tools.others
+    t: 其它构建工具
+  - key: tools.build_tools.others.short
+    aliasFor: tools.others
+
   - key: tools.build_tools_happiness
     t: 构建工具满意度
+  - key: tools.build_tools_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.build_tools_happiness.question
     t: 您对构建工具的现状满意吗？
 
   - key: tools.build_tools_pain_points
     t: 构建工具的痛点
+  - key: tools.build_tools_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.build_tools_pain_points.question
     t: 在使用构建工具时，您遇到了哪些痛点？
 
   # monorepo tools
 
+  - key: tools.monorepo_tools_ratios
+    t: Monorepo工具随时间变化的比率
+  - key: tools.monorepo_tools_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.monorepo_tools_experience
+    t: Monorepo工具的使用经验和满意度
+  - key: tools.monorepo_tools_experience.short
+    aliasFor: tools.experience
+
+  - key: tools.monorepo_tools.others
+    t: 其他Monorepo工具
+  - key: tools.monorepo_tools.others.short
+    aliasFor: tools.others
+
   - key: tools.monorepo_tools_happiness
     t: Monorepo 满意度
+  - key: tools.monorepo_tools_happiness.short
+    aliasFor: charts.axis_legends.happiness
   - key: tools.monorepo_tools_happiness.question
     t: 您对 Monorepo 工具的现状满意吗？
 
   - key: tools.monorepo_tools_pain_points
     t: Monorepo 痛点
+  - key: tools.monorepo_tools_pain_points.short
+    aliasFor: tools.pain_points
   - key: tools.monorepo_tools_pain_points.question
     t: 在使用 Monorepo 工具时，您遇到了哪些痛点？
 
@@ -1073,6 +1193,7 @@ translations:
     t: 你对 JavaScript 的总体状况感到满意吗？
 
   # Pain Points
+
   - key: usage.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: usage.top_js_pain_points.question

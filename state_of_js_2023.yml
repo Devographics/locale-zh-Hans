@@ -1,0 +1,543 @@
+# // TODO: 有部分内容没有更新，暂时不翻译
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2023年 JavaScript 生态最新趋势的年度调查。
+
+  - key: general.livestream_announcement
+    t: 请务必于 2 月 22 日观看我们 [特别调查结果的直播](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) (英语)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2023
+    t: |
+
+      <span class="first-letter">我</span>现在应该很清楚，无论好坏，JavaScript 的发展速度并没有减慢。 
+
+      在服务器组件、服务器操作、信号、编译器等方向，我们看到新的技术的出现的速度比我们大多数人能够学习的要快。 
+
+      避免陷入“学不动 JavaScript”境地的技巧是你要从下面这两个选项中选择自己的道路：一条路是，你可以做第一个吃螃蟹的人，不停学习新技术，走在新技术最前沿；另一条路是，放慢脚步，专注于稳定、成熟的技术——并在它们最终冷却后学习新的热点技术。 
+
+      说到慢慢来，您可能想知道为什么这些 2023 年调查结果要在 *2024 年* 六个月后发布。这是因为，启动新的 [state-of-html](https://2023.stateofhtml.com/) 调查、创新新问题格式、收集比以往更多的自由格式数据、重写数据可视化代码逻辑这四件事情工作量过于巨大占用了我们太多时间。 
+
+      希望所有这些工作的结果是值得的。我们确实计划未来加快工作速度。 
+
+      抛开这一切，让我们来看看 JavaScript 最近在做什么！
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T恤衫
+
+  - key: sections.tshirt.description
+    t: |
+      ## 通过 State of JS T恤衫来支持调查
+
+      在糟糕的视频质量、笨重的磁带和不得不倒带之间，VHS 时代并没有太多值得怀念的地方。 但我们*会*错过的一件事是 90 年代用于装饰空白 VHS 磁带的惊人视觉效果。
+
+      但是现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以享受所有这些复古的光芒，同时也庆祝你对 JavaScript 的热爱！
+
+  - key: tshirt.about
+    t: 关于T恤衫
+
+  - key: tshirt.description
+    t: |
+      我们使用高品质、超柔软的三重混纺衬衫，修身版型。
+
+  - key: tshirt.getit
+    t: 买它
+
+  - key: tshirt.price
+    t: 29 美元
+
+  - key: tshirt.designer.heading
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris 来自法国，现定居美国，他不仅是一位出色的前端开发人员，也是一位擅长复古视觉效果的才华横溢的插画家。事实上，我们鼓励您也看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      今年，**23,540** 受访者参与了调查。
+      为了帮助突出不同的声音并呈现更深入的见解，
+      我们提供了更多新方式来分析我们的数据。
+
+  - key: sections.features.description
+    t: |
+      JavaScript 的发展速度可能很快，但 JavaScript 开发人员的发展速度似乎更快，因为许多相对较新的功能已经表现出较高的采用水平。
+
+  - key: sections.technologies.description
+    t: |
+      今年的结果表明 JavaScript 生态的高度碎片化。虽然这有时会引起麻烦，但这些碎片化的竞争确实造就了一个非常有活力的生态系统。
+
+  - key: sections.tools_others.description
+    t: |
+      选择一项技术通常可以归结为在相互竞争的优先事项之间做出一系列艰难的选择，
+      今年我们尝试使用新的问题格式来捕捉这个过程。
+
+  - key: sections.environments.description
+    t: |
+      在 Web 开发方面，可访问性长期以来一直是事后才想到的，
+      但许多开发人员现在意识到，它实际上应该成为其他一切的基础。
+
+  - key: sections.resources.description
+    t: |
+      突出显示博客、播客和网站是一个好的开始，
+      但今年我们决定更进一步，真正突出 JavaScript 社区的组成人员！
+
+  - key: sections.opinions.description
+    t: |
+      无论是当前阻碍您的痛点，还是缺少您希望后续使用的功能，
+      这都是您吐槽 JavaScript 的机会！
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      该图表显示了每种技术的**留存率**和**用户数量**的关系。
+      它可以分为四个象限：
+
+        - **1**：使用率低，留存率高。值得关注的技术。
+
+        - **2**：使用率高，留存率高。采用安全技术。
+
+        - **3**：使用率低，留存率低。目前较难推荐的技术。
+
+        - **4**：使用率高，留存率低。如果您当前正在使用这些技术，请重新评估它们。
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      如果您有兴趣了解更多信息，我们[写了一篇博文](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) 阐述了调查的性别动态。
+
+  - key: blocks.source.note
+    t: >
+
+      此图表汇集了引用者、 URL 参数和自由格式答案的组合。
+
+      - State of JS: [State of JS](https://stateofjs.com) 的邮件列表。
+
+      - State of CSS: State of CSS 的邮件列表; 也匹配 `email`, `by email` 等等。
+
+      - Work: 匹配 `work`, `colleagues`, `coworkers` 等等。
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+
+  - key: award.tool_interest_award.comment
+    t: With a **{value}** interest ratio, Vite once again wins the gold!
+
+  - key: award.most_write_ins_award.comment
+    t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
+
+  - key: award.most_commented_feature_award.comment
+    t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
+
+  - key: award.most_commented_tool_award.comment
+    t: With **{value}** comments, React showed that it's still the most-discussed library around.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2022
+    t: |
+      <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+
+      We saw a continuation of performance-lead innovations, many in reactivity and hydration (or the lack thereof). For example, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+
+      Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+
+      We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+
+      When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+
+      Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+
+  - key: conclusion.js2022.bio
+    t: Director of Engineering and Web Infrastructure, Google
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2022 Pick: "
+  - key: picks.intro
+    t: We asked members of the JavaScript community to share their “pick of the year”
+
+  # https://svelte.dev/blog/announcing-sveltekit-1.0
+  - key: picks.lee_robinson.name
+    t: SvelteKit 1.0
+  - key: picks.lee_robinson.bio
+    t: VP of Developer Experience at Vercel
+  - key: picks.lee_robinson.description
+    t: |
+      Two years in the making, SvelteKit is finally ready for production – 
+      and it has no shortage of amazing features for developers.
+
+  # - key: picks.vadim_makeev.name
+  #   t: Server-Side Rendering
+  # - key: picks.vadim_makeev.bio
+  #   t: DevRel, Podcaster & Web Standards Advocate
+  # - key: picks.vadim_makeev.description
+  #   t: |
+  #       The time has come to get our priorities straight.
+  #       UX > DX, and it has always been like that. Performance FTW!
+
+  # - key: picks.ben_ilegbodu.name
+  #   t: Lee Robinson
+  # - key: picks.ben_ilegbodu.bio
+  #   t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+  # - key: picks.ben_ilegbodu.description
+  #   t: |
+  #       Lee has been great at shepherding and advocating for Next.js.
+  #       He's helped me a ton with Next and continues to build excitement
+  #       for where it's going
+
+  # - key: picks.shawn_wang.name
+  #   t: Supabase
+  # - key: picks.shawn_wang.bio
+  #   t: Head of DX at Temporal
+  # - key: picks.shawn_wang.description
+  #   t: |
+  #       Supabase is making Postgres accessible to more developers and showing
+  #       everyone how a small focused team can out-ship peers 10x their size.
+
+  # - key: picks.sarah_drasner.name
+  #   t: Pawel Kozlowski
+  # - key: picks.sarah_drasner.bio
+  #   t: Director of Engineering, Core Developer Web at Google
+  # - key: picks.sarah_drasner.description
+  #   t: |
+  #       Pawel Kozlowski is the kind of developer who can be open-minded to different
+  #       approaches with humility and curiosity with the interest of improving things.
+
+  # - key: picks.sara_vieira.name
+  #   t: Paul Henschel
+  # - key: picks.sara_vieira.bio
+  #   t: International Agent of JS Bullshit
+  # - key: picks.sara_vieira.description
+  #   t: |
+  #       Paul's work on animations and ReactThreeFiber
+  #       have made doing any kind of 3D work on the web way easier.
+
+  # - key: picks.mark_erikson.name
+  #   t: Ryan Carniato
+  # - key: picks.mark_erikson.bio
+  #   t: Redux Maintainer
+  # - key: picks.mark_erikson.description
+  #   t: |
+  #       Ryan's reactive JS framework SolidJS hit 1.0,
+  #       and he wrote numerous articles analyzing advanced
+  #       JS framework implementation concepts.
+
+  # - key: picks.alyssa_nicoll.name
+  #   t: BroccoDev's Twitch Stream
+  # - key: picks.alyssa_nicoll.bio
+  #   t: Sr. Developer Advocate at Progress
+  # - key: picks.alyssa_nicoll.description
+  #   t: |
+  #     Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer,
+  #     developer, and most importantly teacher.
+  #     I always have a blast watching his streams and learning from him.
+
+  # - key: picks.michael_jackson.name
+  #   t: esbuild
+  # - key: picks.michael_jackson.bio
+  #   t: Co-founder of Remix
+  # - key: picks.michael_jackson.description
+  #   t: |
+  #     We have been building the Remix compiler on top of esbuild and it
+  #     has definitely raised the bar as far as JS bundlers are concerned.
+  #     It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+
+  # - key: picks.david_khourshid.name
+  #   t: Remix
+  # - key: picks.david_khourshid.bio
+  #   t: Pianist and founder of Stately
+  # - key: picks.david_khourshid.description
+  #   t: |
+  #       Remix is a full-stack web framework that feels old-school, but in a good way,
+  #       by putting you on the path to create fast, complex, and accessible modern web apps.
+
+  # - key: picks.kent_c_dodds.name
+  #   t: Fly.io
+  # - key: picks.kent_c_dodds.bio
+  #   t: Director of Developer Experience, Remix
+  # - key: picks.kent_c_dodds.description
+  #   t: |
+  #       Fly enabled me (a frontend engineer with a distain for DevOps)
+  #       to confidently deploy a real-world, globally-distributed, production-grade
+  #       app.
+
+  # - key: picks.tejas_kumar.name
+  #   t: Joe Haddad
+  # - key: picks.tejas_kumar.bio
+  #   t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+  # - key: picks.tejas_kumar.description
+  #   t: |
+  #       Joe works on Next.js at Vercel and is constantly looking to proudly
+  #       demonstrate its power while actively listening
+  #       to feedback from the community to support them better.
+
+  # - key: picks.wes_bos.name
+  #   t: TC39 Proposals
+  # - key: picks.wes_bos.bio
+  #   t: JavaScript Teacher & Podcast Host
+  # - key: picks.wes_bos.description
+  #   t: |
+  #       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+
+  # - key: picks.scott_tolinski.name
+  #   t: SvelteKit
+  # - key: picks.scott_tolinski.bio
+  #   t: Creator of Level-Up Tuts, co-host of Syntax
+  # - key: picks.scott_tolinski.description
+  #   t: |
+  #       Svelte Kit provides the amazing developer experience of Svelte with all
+  #       of the modern features of expected from a web platform.
+
+  # https://astro.build/
+  - key: picks.miguel_angel_duran.name
+    t: Astro
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Astro is a new exciting static site generator. 
+      Zero client JavaScript by default, lazy-loading hydration, 
+      and framework-agnostic. Built on top of Vite, it's blazing fast and easy to use.
+
+  # https://sandpack.codesandbox.io/
+  - key: picks.josh_comeau.name
+    t: Sandpack
+  - key: picks.josh_comeau.bio
+    t: Software developer and educator
+  - key: picks.josh_comeau.description
+    t: |
+      The folks at CodeSandbox open-sourced their ridiculously 
+      powerful in-browser bundler, and packaged 
+      it up in a world-class embedded code editor. Such an amazing tool!
+
+  # https://github.com/tc39/proposal-type-annotations
+  - key: picks.rich_harris.name
+    t: Type Annotations Proposal
+  - key: picks.rich_harris.bio
+    t: Principal Software Engineer, Vercel
+  - key: picks.rich_harris.description
+    t: |
+      I'm going to nominate the type annotations proposal, which was shared with the world this year.
+
+  # https://twitter.com/mooeypoo
+  - key: picks.cassidy_williams.name
+    t: Moriel Schottlender
+  - key: picks.cassidy_williams.bio
+    t: CTO at Contenda, Memer and Dreamer
+  - key: picks.cassidy_williams.description
+    t: |
+      Moriel is an inspiring developer who gives passionate, 
+      interesting talks about internationalization and accessibility, 
+      and some of the things she's built with Vue are SO cool, 
+      everyone should check them out!
+
+  # https://www.withdiode.com/
+  - key: picks.charlie_gerard.name
+    t: Diode
+  - key: picks.charlie_gerard.bio
+    t: Senior Developer Advocate at Stripe, Author and Creative Technologist
+  - key: picks.charlie_gerard.description
+    t: |
+      Diode is an interactive tool to build and simulate hardware projects in the browser. 
+      As a hardware tinkerer, this is really exciting and the interface built with 
+      Three.js is great!
+
+  # https://arisa-fukuzaki.dev/
+  - key: picks.alba_silvente.name
+    t: Arisa Fukuzaki
+  - key: picks.alba_silvente.bio
+    t: FrontEnd developer working as DevRel at Storyblok
+  - key: picks.alba_silvente.description
+    t: |
+      Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
+      she is always thinking about giving back to the community and contributes by giving talks,
+       workshops and articles on the subject.
+
+  # https://github.com/statelyai/xstate
+  - key: picks.matt_pocock.name
+    t: XState
+  - key: picks.matt_pocock.bio
+    t: TypeScript educator from the UK, building Total TypeScript.
+  - key: picks.matt_pocock.description
+    t: |
+      If I were given something complicated to build from scratch, 
+      like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
+      It's the only library I can rely on to build complex systems.
+
+  # https://beta.reactjs.org/
+  - key: picks.kathryn_grayson_nanz.name
+    t: React Beta Docs
+  - key: picks.kathryn_grayson_nanz.bio
+    t: Developer Advocate at Progress
+  - key: picks.kathryn_grayson_nanz.description
+    t: |
+      The new React docs are incredibly well-written, accessible for beginners, 
+      and beautifully designed. 
+      Documentation is one of the hardest things to do well, 
+      so this fantastic example is my pick of the year!
+
+  - key: picks.ryan_carniato.name
+    t: Astro
+  - key: picks.ryan_carniato.bio
+    t: Creator of Solid
+  - key: picks.ryan_carniato.description
+    t: |
+      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+
+  - key: picks.theo_browne.name
+    t: tRPC
+  - key: picks.theo_browne.bio
+    t: Youtube Ranter & CEO @Ping.gg
+  - key: picks.theo_browne.description
+    t: |
+      2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.sebastien_lorber.description
+    t: |
+      The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+
+  - key: picks.ben_holmes.name
+    t: Zod
+  - key: picks.ben_holmes.bio
+    t: Open source maintainer at Astro
+  - key: picks.ben_holmes.description
+    t: |
+      Runtime safety came to define 2022 with tRPC's rise to stardom. 
+      Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
+      it's becoming an must-have for any JavaScript developer
+
+  - key: picks.tyler_mcginnis.name
+    t: TanStack
+  - key: picks.tyler_mcginnis.bio
+    t: Founder, UI.dev
+  - key: picks.tyler_mcginnis.description
+    t: |
+      My JavaScript pick of the year is TanStack, or anything else that 
+      Tanner and Dominik make.
+
+  - key: picks.shaundai_person.name
+    t: Sarah Drasner
+  - key: picks.shaundai_person.bio
+    t: Senior Software Engineer, Netflix
+  - key: picks.shaundai_person.description
+    t: |
+      Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+  - key: sponsors.renderatl.description
+    t: This is a tech conference focused on Front-End Engineering.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      2023 年 State of JavaScript 调查于 2022 年 11 月 22 日至 12 月 12 日进行，收集了 23,540 份结果。该调查由 [Devgraphics](https://devgraphics.com/) 进行，该团队由我 ([Sacha Greif](https://sachagreif.com/)) 和 [Eric Burel](https://www.lbke.fr/），以及受邀专家和开源贡献者组成。 
+
+      State of JavaScript 徽标和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      这项调查的目的是确定网络开发生态系统的未来趋势，以帮助开发人员做出技术选择。 
+
+      因此，该调查的重点是预测未来几年的趋势，而不是分析现在流行的内容，这就是为什么某些功能或技术有时可能会被忽略，即使它们目前很普遍 
+
+      它也应该被视为**特定开发人员子集的快照**，并不意味着代表整个生态系统。 
+
+      ### 调查设计
+
+      该调查部分是根据去年的调查设计的，并有一个开放反馈期，[在 GitHub 上](https://github.com/Devgraphics/surveys/issues?q=is%3Aissue+is%) 讨论了调查大纲3Aopen+标签%3A%22状态+of+JS+2022%22)。 
+
+      所有调查问题都是可选的。
+
+      ### 调查观众
+
+      该调查可在线公开访问，受访者没有以任何方式过滤或选择。受访者主要是过去调查的受访者（通过专门的邮件列表提醒）和通过社交媒体引流而来的人员组成。 
+
+      请注意，框架、库等都可以自由地鼓励其用户参与调查，其中一些框架和库确实通过横幅、推文宣传了本调查。“来源”图表中包含了流量来源的详细分类。 
+
+      ### 项目资金
+
+      该项目的资金来自多种来源：
+
+      - **T 恤销售**。 
+
+      - **赞助链接**：每页底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 和 [RenderATL](https://www.renderatl.com/）提供。
+
+      - **直接资助**：今年，[Google](https://www.google.com/) 资助了我的调查工作。 
+
+      非常感谢任何贡献或赞助。我们特别希望与更多的浏览器供应商密切合作，因为他们在web生态系统中发挥着核心的作用。  
+
+      ### 技术概述
+
+      您可以在[此处](https://dev.to/sachagreif/how-the-devgraphics-surveys-are-run-2023-edition-1p6a)找到有关调查如何进行的更深入的技术概述。

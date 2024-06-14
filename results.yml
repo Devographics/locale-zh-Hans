@@ -74,6 +74,41 @@ translations:
     t: 使用度
   - key: options.experience_ranking.awareness
     t: 认知度
+  - key: ratios.interest
+    aliasFor: options.experience_ranking.interest
+  - key: ratios.usage
+    aliasFor: options.experience_ranking.usage
+  - key: ratios.awareness
+    aliasFor: options.experience_ranking.awareness
+  - key: ratios.retention
+    t: 保留
+  - key: ratios.positivity
+    t: 积极性
+
+  - key: ratios.interest.description
+    t: >
+      **听说过**某个项目的受访者中**积极情绪**的比例
+  - key: ratios.usage.description
+    t: >
+      **使用过**某个项目的受访者比例
+  - key: ratios.awareness.description
+    t: >
+      **听说过或使用过**某个项目的受访者比例
+  - key: ratios.retention.description
+    t: >
+      **使用过**某物品的受访者中**积极情绪**的比例
+  - key: ratios.positivity.description
+    t: >
+      所有受访者中**积极情绪**的比例
+
+  - key: modes.rank
+    t: 排名
+  - key: modes.value
+    t: 值
+  - key: modes.rank.description
+    t: 根据排名排序
+  - key: modes.value.description
+    t: 根据值排序
 
   - key: options.features_mode.grouped
     t: 分组
@@ -254,6 +289,14 @@ translations:
     t: 受访者如何了解到这项调查的？
   - key: user_info.source.note
     t: 这些数据是自报答案、推荐人数据和URL跟踪数据的混合。
+  - key: options.source.other_answers
+    t: 其他来源
+
+  - key: user_info.source_by_gender
+    t: 按来源分列的性别
+
+  - key: user_info.source_by_race_ethnicity
+    t: 按种族来分列的性别
 
   - key: user_info.gender_by_country
     t: 按国家分列的性别
@@ -264,6 +307,15 @@ translations:
     t: 按薪资范围划分的工作年限
   - key: user_info.years_of_experience_by_salary.description
     t: 按薪资范围划分的工作年限。
+  - key: user_info.average_income_by_years_of_experience
+    t: 按经验年限划分的平均收入
+  - key: user_info.average_income_by_years_of_experience.description
+    t: 按经验年限划分的平均收入。
+
+  - key: user_info.average_income_by_company_size
+    t: 按公司大小划分的平均收入
+  - key: user_info.average_income_by_company_size.description
+    t: 按公司大小划分的平均收入
 
   - key: user_info.yearly_salary_by_country
     t: 按国家分列的薪金
@@ -279,6 +331,9 @@ translations:
     t: 经验工资
   - key: user_info.yearly_salary_by_experience.description
     t: 年薪按经验分配，按平均工资降幅排序。
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      年收入：美国vs世界
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: 根据多年经验划分的种族和民族
@@ -439,6 +494,10 @@ translations:
     t: npm
   - key: blocks.entity.youtube_link
     t: YouTube
+  - key: blocks.entity.mdn_link
+    t: MDN
+  - key: blocks.entity.caniuse_link
+    t: CanIUse
 
   # people
   - key: blocks.people.name
@@ -600,8 +659,26 @@ translations:
       <span class="text-teal-darker text-bold">外圈</span>的尺寸代表了了解这个特性的用户数量, 
       <span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
 
-      鼠标悬浮在每个节点上，
-      可以查看详细数据。
+      鼠标悬浮在每个节点上，可以查看详细数据。
+  
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: 随时间变化的比率
+  - key: blocks.features_experience_linechart.description
+    t: 随着时间的推移，评价最高的功能的使用率和认知率。
+  - key: blocks.features_experience_linechart.note
+    t: |
+      每个比率定义如下：
+
+      - 使用情况：（**已使用**）/ **总计**
+      - 认知度：（**使用过** + **了解它**）/ **总计**
+
+  - key: blocks.features_experience_ranking
+    t: 随时间变化的排名
+  - key: blocks.features_experience_ranking.description
+    t: 随着时间的推移使用情况和认知度排名。
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
     # export
   - key: export.export
@@ -617,6 +694,8 @@ translations:
     t: 获取JSON数据
   - key: export.export_graphql
     t: 获取GraphQL查询
+  - key: export.export_filters
+    t: 导出代码
 
   - key: custom_data.heading
     t: 自定义图表
@@ -682,6 +761,13 @@ translations:
   # other
   - key: blocks.freeform
     t: (自由提问)
+  # Reading List
+  - key: features.reading_list
+    t: 阅读列表
+  - key: features.reading_list.description
+    t: >
+      每个项目被添加到受访者的阅读列表中的次数，
+      该功能可让人们在参与调查时了解有关特定主题的更多信息。
 
     ###########################################################################
     # Charts
@@ -721,6 +807,21 @@ translations:
     t: 所有受访者
   - key: charts.facet_responses
     t: “{count}响应”
+  - key: charts.facet_respondents
+    t: "({count}受访者)"
+
+  - key: charts.nth_percentile
+    t: "{percentile}th 百分位数"
+  - key: charts.nth_percentile_value
+    t: "{percentile}th 百分位数: {value}"
+
+  - key: charts.freeform_data
+    t: (自由形式的答案)
+  - key: charts.insufficient_data
+    t: 数据不足
+  - key: charts.insufficient_data.description
+    t: 结果中不包含受访者数量少于 {value} 的结果。
+
 
   - key: charts.axis_legends.years_of_experience
     t: 经验年限
@@ -746,6 +847,14 @@ translations:
     t: 使用率%
   - key: charts.axis_legends.awareness_percentage
     t: 意识%
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
   - key: charts.axis_legends.happiness
     t: 幸福感
   - key: charts.axis_legends.knowledge_score
@@ -758,6 +867,17 @@ translations:
     t: 调查对象百分比
   - key: charts.axis_legends.users_percentage_question
     t: 受访者百分比
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "%受访者数量"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: 基准
@@ -797,25 +917,97 @@ translations:
     t: 高利用率
   - key: charts.tools_arrows.popularity_positive
     t: 越来越受欢迎
-  - key: charts.tools_arrows.negative
+  - key: charts.tools_arrows.popularity_negative
     t: 人气下降
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: 没有回答
+  - key: charts.no_answer.short
+    t: 没有回答
+
+  - key: charts.no_match
+    t: 回答不匹配
+  - key: charts.no_match.short
+    t: 回答不匹配
+  - key: charts.no_match.description
+    t: 无法与选项匹配的自由格式答案
+
+  - key: charts.cutoff_answers
+    t: 过滤掉的答案
+  - key: charts.cutoff_answers.short
+    t: 过滤掉的答案
+  - key: charts.cutoff_answers.description
+    t: 得分低于定义阈值的答案
+
+  - key: charts.other_answers
+    t: 其他答案
+  - key: charts.other_answers.short
+    t: 其他答案
+  - key: charts.other_answers.description
+    t: 其他不在选项中的答案
+
+  - key: charts.overlimit_answers
+    t: 超出限制
+  - key: charts.overlimit_answers.short
+    t: 超出限制
+  - key: charts.overlimit_answers.description
+    t: 超出问题额定数量的答案
+
+  - key: charts.freeform_data
+    t: 自由格式数据
+  - key: charts.freeform_data.description
+    t: 通过自由格式文本字段收集的数据
+
+  - key: charts.tick.links
+    t: 链接
+
+  - key: charts.resources
+    t: 有用的链接
+
+  - key: charts.facets_clarification
+    t: >
+      请注意，上面显示的百分比
+      会受到属于每个组的受访者总数的影响。
+
+  - key: charts.average_clarification
+    t: >
+      请注意，平均值是通过将每个范围的中点值作为近似代表值来计算的。
+
+  - key: charts.share
+    t: 分享图表
+  - key: charts.export
+    t: 导出数据
+
+  - key: charts.mode
+    t: >
+      模式:
+  - key: charts.view
+    t: >
+      视图:
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: 评论
+  - key: comments.comments_for
+    t: 对“{name}”的评论
+  - key: comments.description
+    t: |
+      这些评论是作为调查的一部分提交的 
+      通过主要问题旁边的可选自由格式文本字段。
+  - key: comments.report_abuse
+    t: 报告此评论
+  - key: comments.share
+    t: 分享评论
+
+  - key: comments.filter.experience
+    t: "经验: "
+  - key: comments.filter.sentiment
+    t: "情绪: "
+  - key: comments.filter.all
+    t: All
     ###########################################################################
     # Sharing
     ###########################################################################
@@ -1135,3 +1327,454 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: 您可以在 [GitHub](https://github.com/StateOfJS/Monorepo/issues/69) 上或者在[我们的 Discord](https://discord.gg/tuWRUWVyJs) 来给予反馈。
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: 数据浏览器
+  - key: sections.data_explorer.description
+    t: |
+      通过选择两个问题并查看受访者在它们之间的分布情况，
+      动态探索调查的受众。
+
+  - key: hints.data_explorer
+    t: |
+      这是我们新的数据浏览器的预览版本。如果您发现任何问题或数据不一致，请[告诉我们]({issueLink})。
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** 全部受访者)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} 受访者
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: 额外的受访者
+  - key: explorer.missing_respondents
+    t: 缺少受访者
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 个点代表 {respondentsPerDot} 受访者
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 个点代表 {percentsPerDot}% 的受访者
+  - key: explorer.extra_respondents.tooltip
+    t: 突出显示的点表示结果高于预期。
+  - key: explorer.missing_respondents.tooltip
+    t: 空点表示结果低于预期。
+
+  - key: explorer.units_count
+    t: 数量
+  - key: explorer.units_percentage
+    t: "%"
+
+  - key: explorer.edit
+    t: 编辑参数...
+
+  - key: explorer.get_data
+    t: 获取数据...
+
+  # loading
+
+  - key: explorer.loading.1
+    t: 查询API...
+  - key: explorer.loading.2
+    t: 等待结果...
+  - key: explorer.loading.3
+    t: 仍在工作...
+  - key: explorer.loading.4
+    t: 再坚持一会儿...
+  - key: explorer.loading.5
+    t: 抱歉，这需要一些时间。您可以尝试稍等一下，或[报告问题]({issueLink})。
+  - key: explorer.timeout
+    t: 超时
+  - key: explorer.timeout.description
+    t: API没有及时响应。请稍后重试，或[报告问题]({issueLink})。
+
+  # share
+
+  - key: explorer.share
+    t: 分享...
+  - key: explorer.share.title
+    t: 分享 “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” 来自于 {surveyName} {year} 调查
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} 受访者"
+  - key: explorer.axis_percent
+    t: "{percentCount}% 受访者"
+
+  - key: explorer.x_axis_details
+    t: |
+      在完成问题“{yAxisLabel}”的所有受访者中，**{totalCount}** 受访者为“{xAxisLabel}”选择了“{xQuestionLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** 受访者选择了“{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** 受访者，**1** 点 = **{respondentsPerDot}** 受访者，每行点数为 **{dotsPerLine}** 点
+
+  # controls
+  - key: explorer.dots_per_line
+    t: 每行点数
+  - key: explorer.respondents_per_dot
+    t: 每一点代表的受访者
+  - key: explorer.show_cell_counts
+    t: 展示单元格数量
+  - key: explorer.show_no_answer
+    t: 显示”没有回答“的单元格数量
+
+  - key: explorer.all_fields
+    t: 所有领域
+  - key: explorer.select_item
+    t: 选择项目
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}”受访者选择了“{xAnswerLabel}”。
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** 的“{yAxisLabel}”受访者选择了“{yAnswerLabel}”。
+
+  - key: explorer.count_details.3
+    t: |
+      将该百分比应用于之前的 **{xAxisTotal}** 受访者数据，
+      为我们提供了此交叉点中 **{normalizedCount}** 受访者的预期基线。
+
+  - key: explorer.count_details.4_extra
+    t: |
+      实际计数为 **{cellCount}**，那些额外的 **{normalizedCountDelta}** 受访者已*突出显示*。
+
+  - key: explorer.count_details.4_missing
+    t: |
+      实际计数为 **{cellCount}**，缺少 **{normalizedCountDelta}** 的受访者显示为空点。
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      总体而言，“{xAxisLabel}”受访者的 **{xAxisPercentage}%** 选择了“{xAnswerLabel}”，但是
+      在选择“{yAnswerLabel}”**的**“{yAxisLabel}”受访者中，该百分比攀升至**{bucketPercentage}%**。
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      总体而言，“{xAxisLabel}”受访者的 **{xAxisPercentage}%** 选择了“{xAnswerLabel}”，但是
+      在选择“{yAnswerLabel}”**的**“{yAxisLabel}”受访者中，该百分比下降至**{bucketPercentage}%**。
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      那些额外的 **{normalizedPercentageDelta}%** 受访者已“突出显示”。
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      那些缺失的 **{normalizedPercentageDelta}%** 受访者显示为空点。
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### 额外和缺失的受访者
+
+      上图旨在识别与计算的基线相比
+      显示高于预期或低于预期值的区域。 
+
+      例如，假设有 1000 名 CSS Grid 用户，并且 50% 的调查受访者在一家大公司工作，
+      那么您预计会发现 500 名 CSS Gird 用户在大公司工作。 
+
+      任何高于或低于预期总数的偏差都可能表明两个变量之间存在有趣的相关性，
+      并在图表上用彩色点（对于高于基线的额外受访者）
+      或空点（对于缺失的受访者）突出显示。
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: 比较数据
+  - key: filters.customize_chart
+    t: 增加筛选器...
+  - key: filters.docs
+    t: 文档
+  - key: filters.compare_chart
+    t: 自定义“{chartName}”
+  - key: filters.edit_variant_with_name
+    t: 编辑“{name}”
+  - key: filters.edit_name
+    t: "编辑名称"
+  - key: filters.edit_name.description
+    t: "编辑图表变量名:"
+  - key: filters.create_variant
+    t: 创建新的变量
+  - key: filters.delete_variant
+    t: 删除图表
+  - key: filters.delete_variant_confirm
+    t: 确定要删除图表“{name}”吗?
+  - key: filters.edit_variant
+    t: 编辑选项...
+  - key: filters.filters.description
+    t: |
+      定义过滤器组合来同时比较同一图表的多个版本
+  - key: filters.facets.description
+    t: |
+      选择一个变量并使用它来进一步将图表的每一行分解为多个部分。
+  - key: filters.grid_mode
+    t: 筛选项
+  - key: filters.combined_mode
+    t: 组合
+  - key: filters.facet_mode
+    t: 切面
+  - key: filters.facet
+    t: "切面:"
+
+  - key: filters.facet_view
+    t: 分段条
+  - key: filters.grid_view
+    t: 并排网格
+
+  - key: filters.series.heading
+    t: 列 {index}
+  - key: filters.series.add
+    t: 增加列...
+  - key: filters.series.delete
+    t: 删除列
+  - key: filters.series.year
+    t: |
+      {year}数据
+  - key: filters.series.show_default
+    t: |
+      选择默认列
+  - key: filters.series.no_data
+    t: 没有数据
+
+  - key: filters.condition.add
+    t: 增加筛选项
+  - key: filters.condition.delete
+    t: 删除筛选项
+  - key: filters.condition.and
+    t: 和(and)
+  - key: filters.operators.eq
+    t: 是(is)
+  - key: filters.operators.in
+    t: 包含(is one of)
+  - key: filters.operators.nin
+    t: 不包含(is not one of)
+  - key: filters.value.add
+    t: 增加值
+  - key: filters.value.delete
+    t: 删除值
+
+  - key: filters.legend.default
+    t: 默认
+
+  - key: filters.cancel
+    t: 取消
+  - key: filters.submit
+    t: 更新图表
+  - key: filters.copy_link
+    t: 复制链接
+  - key: filters.get_code
+    t: 获取代码
+
+  - key: filters.presets.title
+    t: "预设:"
+  - key: filters.presets.save
+    t: 保存当前筛选项作为预设...
+  - key: filters.presets.delete
+    t: 删除预设
+  - key: filters.presets.enter_name
+    t: |
+      为你的新预设设置名字:
+  - key: filters.presets.previous_years
+    t: 过去几年
+  - key: filters.presets.gender
+    t: 性别
+  - key: filters.presets.top_countries
+    t: 热门国家/地区
+  - key: filters.presets.salary_low_high
+    t: |
+      低薪 vs 高薪
+  - key: filters.presets.experience_low_high
+    t: |
+      经验少 vs 经验多
+  - key: filters.presets.company_size_low_high
+    t: |
+      小公司 vs 大公司
+
+  - key: filters.facet.select
+    t: 选择一个切面...
+
+  - key: filters.by_x
+    t: By {name}
+
+  - key: filters.vs_x
+    t: Vs. {name}
+
+  - key: dataloader.failed_request
+    t: >
+      糟糕！ API 请求失败并显示以下消息：
+  - key: dataloader.submit_report_prompt
+    t: >
+      提交错误报告让我们了解此问题，
+      我们将尽力修复它：
+  - key: dataloader.submit_issue
+    t: 提交反馈
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: 高级选项
+
+  - key: filters.options.cutoff
+    t: 数据过滤阈值
+  - key: filters.options.cutoff.description
+    t: 从数据中过滤低于此阈值的任何值
+
+  - key: filters.options.limit
+    t: 限制
+  - key: filters.options.limit.description
+    t: 将结果限制为前 n 项
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: 使用网格模式时显示默认（未过滤）数据系列
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      通过...分组：
+  - key: charts.group.experience
+    t: 经验
+  - key: charts.group.sentiment
+    t: 情绪
+
+  - key: charts.display_mode
+    t: >
+      显示模式:
+  - key: charts.display_mode.split
+    t: 拆分视图
+  - key: charts.display_mode.stacked
+    t: 堆叠视图
+
+  - key: charts.order
+    t: >
+      升/降序排序:
+
+  - key: charts.sort_by
+    t: >
+      根据此项排序:
+  - key: charts.sort_by_sort
+    t: >
+      根据"**{sort}**"排序
+  - key: charts.sorted_by_sort_order
+    t: >
+      根据"**{sort}**"", **{order}**排序
+  - key: charts.order.asc
+    t: 升序
+  - key: charts.order.desc
+    t: 降序
+
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: 获取图表数据
+  - key: charts.actions.share
+    t: 分享图表
+
+  - key: charts.vs
+    t: vs.
+
+  - key: charts.custom_variant
+    t: 变量 {index}
+  - key: charts.new_variant_name_prompt
+    t: 为新图表输入一个简短的描述性名称（例如“与收入”、“按性别”等）
+
+  - key: charts.show_all_rows
+    t: 显示全部
+  - key: charts.show_all_rows.x_hidden
+    t: 显示全部（隐藏了 {count} 个）
+
+  - key: charts.metadata.completion
+    t: >
+      **{value}** 完成率（占 {total} 调查参与者的比例）
+  - key: charts.metadata.respondents
+    t: >
+      **{value}** 受访者
+  - key: charts.metadata.average
+    t: >
+      **{value}** 平均数
+  - key: charts.metadata.median
+    t: >
+      **{value}** 中位数
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      **{value}%** 的受访者回答“**{answer}**”
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+     **{value}%** 的受访者有 **{answer}** 情绪
+
+  - key: charts.multiexp.cell_tooltip
+    t: >
+      **{value}%** 的受访者回答“**{experience}**”并有 **{sentiment}** 情绪
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      **{value}%** 的受访者回答“**{experience}**”并且没有选择任何情绪
+
+  ###########################################################################
+  # Raw Freeform Answers
+  ###########################################################################
+
+  - key: answers.answers
+    t: 自由形式的答案
+  - key: answers.answers_for
+    t: 匹配“{name}”的答案
+  - key: answers.description
+    t: |
+      通过自动和手动数据处理的结合，
+      这些自由格式的答案与 **{name}** 关键字相匹配。
+  - key: answers.report_abuse
+    t: 报告此答案

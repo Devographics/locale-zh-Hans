@@ -4,16 +4,15 @@ translations:
   # General
   ###########################################################################
 
+  - key: general.title
+    t: Devographics Surveys
+  - key: general.description
+    t: JavaScript 现状调查、CSS 现状调查、HTML 现状调查还有其他开发者调查问卷。
+
   - key: general.no_preview_surveys
     t: 没有要预览的调查
   - key: general.global_nav
     t: 全球的
-  - key: general.title
-    t: Devographics Surveys
-  - key: general.description
-    t: >-
-      JavaScript 现状调查、CSS 现状调查、HTML 现状调查还有其他开发者调查问卷。
-
   - key: general.survey_status_preview
     t: 预览
   - key: general.survey_status_open
@@ -61,23 +60,34 @@ translations:
       ### 5. 数据/帐户删除
 
       如果您希望我们删除您的全部或部分数据，您可以发送电子邮件至 [hello@stateofjs.com](mailto:hello@stateofjs.com) 。
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
 
   - key: textlist.placeholder
     t: '项目 {index}…'
+
   - key: feature.unimplemented
     t: 还没有浏览器实现
+
   - key: general.skip_question
     t: 跳过
+
   - key: general.unskip_question
     t: 回答问题
+
   - key: general.skip_question.description
     t: 跳过问题并将其标记为完成
+
   - key: general.unskip_question.description
     t: 不跳过并且要回答
+
   - key: years.less_than_one_year
     t: 少于一年
+
   - key: years.years
     t: 年
+
   - key: likert.option.0
     t: 非常不开心
   - key: likert.option.1
@@ -88,8 +98,10 @@ translations:
     t: 开心
   - key: likert.option.4
     t: 非常开心
+
   - key: general.numeric_input.invalid_input
     t: 请确认您输入的数字是正确的。
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################
@@ -136,6 +148,7 @@ translations:
     t: 请填写您的电子邮件地址
   - key: accounts.magic_link.success
     t: 请查看您的收件箱！我们向您发送了一个一键登录链接，请单击它以确认您的帐户并登录。
+
   - key: accounts.magic_link.browser
     t: '<a href="{link}">点击并打开您的收件箱。</a>'
 
@@ -198,10 +211,6 @@ translations:
   - key: bracket.cancel
     t: 取消
 
-  ###########################################################################
-  # Form Controls
-  ###########################################################################
-
   - key: experience.leave_comment
     t: 留言（可选）
   - key: experience.leave_comment_short
@@ -233,6 +242,9 @@ translations:
   - key: readinglist.add_to_list
     t: 添加到您的阅读列表
 
+  - key: readinglist.remove_from_list
+    t: 从您的阅读列表中移除
+
   - key: readinglist.added_to_list
     t: 已填加 ”{label}“ 到您的阅读列表。
 
@@ -246,7 +258,8 @@ translations:
   - key: readinglist.empty
     t: >
       您的阅读列表中没有任何项目。
-      请尝试返回调查并使用 “+” 按钮添加您想要了解更多的功能或库。
+      请尝试返回调查并使用 “+” 按钮
+      添加您想要了解更多的功能或库。
 
   - key: readinglist.results
     t: >
@@ -377,6 +390,16 @@ translations:
  
  
       让我们一起通过首次 "React 现状" 调查来找出答案！
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: |
+      在 Astro、Vite 和 Remix 之中，2022 年掀起了一波 JavaScript 变革浪潮，并在 2023 年随着 Bun、Svelte 5、Tauri 等不断增长。 
+
+      但相对而言，老牌框架也没有停滞不前，Next.js 和 React 凭借服务器组件和服务器操作等创新引领了潮流。 
+
+      因此，在又忙碌了一年之后，现在是时候进行盘点，看看 JavaScript 生态系统的现状了。
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -594,7 +617,8 @@ translations:
     t: 回答调查问卷需要多长时间？
   - key: faq.how_long_will_survey_take_js2023.description
     t: >
-      根据您回答的问题数量而定（所有问题均可选），填写调查表大约需要 15-20 分钟。
+      根据您回答的问题数量而定（所有问题均可选），
+      填写调查表大约需要 15-20 分钟。
 
   - key: faq.learn_more_js2023
     t: 从哪里可以了解更多信息？
