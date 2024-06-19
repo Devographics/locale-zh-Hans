@@ -273,7 +273,7 @@ translations:
   - key: picks.german_jablonski.name
     t: Lexical
   - key: picks.german_jablonski.bio
-    t: [Fluski](https://fluski.com/) 的CEO和创始人
+    t: 笔记和电子表格管理者，[Fluski](https://fluski.com/) 的CEO和创始人
   - key: picks.german_jablonski.description
     t: |
       对于文本编辑器来说，这是不平凡的一年。它巧妙的数据模型和生命周期极大地影响了我的编程方式。
