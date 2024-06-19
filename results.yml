@@ -575,7 +575,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: 代码库层级列表
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       该图表会根据代码库的满意度对代码库进行排名
       满意度指的是“会再次使用这个库的人数”。
@@ -660,7 +660,7 @@ translations:
       <span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
 
       鼠标悬浮在每个节点上，可以查看详细数据。
-  
+
   # features_experience_linechart
   - key: blocks.features_experience_linechart
     t: 随时间变化的比率
@@ -821,7 +821,6 @@ translations:
     t: 数据不足
   - key: charts.insufficient_data.description
     t: 结果中不包含受访者数量少于 {value} 的结果。
-
 
   - key: charts.axis_legends.years_of_experience
     t: 经验年限
@@ -1754,7 +1753,7 @@ translations:
 
   - key: charts.multiexp.cell_group_tooltip.sentiment
     t: >
-     **{value}%** 的受访者有 **{answer}** 情绪
+      **{value}%** 的受访者有 **{answer}** 情绪
 
   - key: charts.multiexp.cell_tooltip
     t: >
