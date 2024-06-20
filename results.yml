@@ -74,6 +74,7 @@ translations:
     t: 使用度
   - key: options.experience_ranking.awareness
     t: 认知度
+
   - key: ratios.interest
     aliasFor: options.experience_ranking.interest
   - key: ratios.usage
@@ -307,6 +308,7 @@ translations:
     t: 按薪资范围划分的工作年限
   - key: user_info.years_of_experience_by_salary.description
     t: 按薪资范围划分的工作年限。
+
   - key: user_info.average_income_by_years_of_experience
     t: 按经验年限划分的平均收入
   - key: user_info.average_income_by_years_of_experience.description
@@ -434,6 +436,12 @@ translations:
     ###########################################################################
     # Tools & Methodologies
     ###########################################################################
+
+  - key: tools.all_items.experience
+    t: Libraries Experience & Sentiment
+
+  - key: tools.all_items.experience.short
+    aliasFor: tools.experience
 
     # general
   - key: tools.links
@@ -654,10 +662,7 @@ translations:
   - key: blocks.features_overview.description
     t: |
       这张图根据分类划分，显示了各种特性的采用率。
-
-      在图中，
-      <span class="text-teal-darker text-bold">外圈</span>的尺寸代表了了解这个特性的用户数量, 
-      <span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
+      在图中，<span class="text-teal-darker text-bold">外圈</span>的尺寸代表了了解这个特性的用户数量, <span class="text-teal text-bold">内圈</span>的尺寸代表了实际使用这个特性的用户数量。
 
       鼠标悬浮在每个节点上，可以查看详细数据。
 
@@ -746,6 +751,8 @@ translations:
     # Recommended Resources
   - key: blocks.recommended_resources
     t: 资源推荐
+  - key: blocks.recommended_events
+    t: 活动推荐
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
@@ -761,6 +768,7 @@ translations:
   # other
   - key: blocks.freeform
     t: (自由提问)
+
   # Reading List
   - key: features.reading_list
     t: 阅读列表
@@ -769,9 +777,9 @@ translations:
       每个项目被添加到受访者的阅读列表中的次数，
       该功能可让人们在参与调查时了解有关特定主题的更多信息。
 
-    ###########################################################################
-    # Charts
-    ###########################################################################
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
   - key: chart_units.respondents
     t: “{count}问题回答者（{percentage}%完成百分比）”
@@ -781,6 +789,8 @@ translations:
     t: 数量
   - key: chart_units.percentage_question
     t: 受访者百分比
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
     t: 调查对象百分比
   - key: chart_units.percentageSurvey
@@ -794,6 +804,9 @@ translations:
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
+  - key: chart_units.facetCounts
+    t: 数量
+
   - key: chart_units.percentilesByFacet
     t: "{axis} 百分比"
 
@@ -801,10 +814,10 @@ translations:
     t: 平均的
   - key: charts.mean
     t: 意思是
-  - key: charts.overall
-    t: 全面的
   - key: charts.all_respondents
     t: 所有受访者
+  - key: charts.overall
+    aliasFor: charts.all_respondents
   - key: charts.facet_responses
     t: “{count}响应”
   - key: charts.facet_respondents
@@ -838,14 +851,19 @@ translations:
     t: 用户百分比
   - key: charts.axis_legends.users_count
     t: 用户数量
+  - key: charts.axis_legends.users_average
+    t: 平均数{axis}
   - key: charts.axis_legends.interest_percentage
     t: 关注度百分比
   - key: charts.axis_legends.satisfaction_percentage
     t: 满意度百分比
+  - key: charts.axis_legends.retention_percentage
+    t: 留存率百分比
   - key: charts.axis_legends.usage_percentage
     t: 使用率%
   - key: charts.axis_legends.awareness_percentage
     t: 意识%
+
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
   - key: chart_units.satisfaction_percentage
@@ -854,6 +872,7 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: chart_units.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
     t: 幸福感
   - key: charts.axis_legends.knowledge_score
@@ -1007,9 +1026,10 @@ translations:
     t: "情绪: "
   - key: comments.filter.all
     t: All
-    ###########################################################################
-    # Sharing
-    ###########################################################################
+
+  ###########################################################################
+  # Sharing
+  ###########################################################################
 
   - key: share.share
     t: 分享
@@ -1065,10 +1085,16 @@ translations:
     t: 项目
   - key: table.percentage_survey
     t: 调查对象百分比
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
   - key: table.percentage_question
     t: 受访者百分比
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
   - key: table.percentage_facet
     t: 受访者百分比
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
   - key: table.count
     t: 计数
   - key: table.year
@@ -1116,6 +1142,9 @@ translations:
   - key: table.interested_percentage
     t: 感兴趣%
 
+  - key: table.not_available
+    t: 无可用数据表。
+
     ###########################################################################
     # Awards
     ###########################################################################
@@ -1142,6 +1171,11 @@ translations:
     t: 采用最多的技术
   - key: award.tool_usage_delta_award.description
     t: 颁发给逐年使用率进步最大的技术。
+
+  - key: award.tool_retention_award.title
+    t: 最高留存率的技术
+  - key: award.tool_retention_award.description
+    t: 颁发给用户留存率最高的技术。
 
   - key: award.tool_satisfaction_award.title
     t: 最高满意度
@@ -1177,6 +1211,11 @@ translations:
     t: 被评论最多的工具库
   - key: award.most_commented_tool_award.description
     t: 授予收到评论最多的工具库。
+
+  - key: award.most_loved_tool_award.title
+    t: 最受喜爱的库
+  - key: award.most_loved_tool_award.description
+    t: 受访者者给予正面意见比例最高的库。
 
     ###########################################################################
     # Hints
@@ -1237,6 +1276,10 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">下图提供了类似于锦标赛式的调查选项，
       我们需要挑选每一轮的获胜者，直到剩下一个最后一个。</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      通过<span class="hint-iconhint-comment-button">评论</span>选项卡，您可以查看调查受访者在填写调查时留下的评论。
 
   ###########################################################################
   # Sponsor Chart
