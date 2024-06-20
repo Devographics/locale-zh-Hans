@@ -9,7 +9,7 @@ translations:
 
   - key: introduction.html2023
     t: >
-      
+
       在 JavaScript 统治 Web、CSS 年年获得新功能的同时，HTML 似乎心甘情愿地保持沉默，把舞台中心让给它的年轻兄弟姐妹。毕竟，一旦 
       你掌握了 `<div>` 和 `<h>`1 到 6，还有什么值得了解的呢？
 
@@ -102,9 +102,9 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.html2023.bio
+  - key: conclusion.html2023.lea_verou.bio
     t: W3C 技术架构组成员和 MIT CSAIL 研究员
-  - key: conclusion.html2023
+  - key: conclusion.html2023.lea_verou
     t: >
       *呼！* 这项调查汇集了来自六大洲数十人的巨大努力。不仅创下了“State of...”调查首次亮相的最多回应记录，其数据收集界面开创了创新，使我们能够前所未有地了解开发人员的态度，并将产生深远的影响。
 
