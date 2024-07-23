@@ -180,7 +180,7 @@ translations:
     t: >
       虽然你肯定能找到很多人抱怨 **Next.js**，但它仍然在元框架的积极性排名中名列前茅，其次是 **Remix** 和 **Astro**。
 
-  #other_tools
+  # other_tools
 
   - key: sections.other_tools.description
     t: |
@@ -230,7 +230,7 @@ translations:
     t: |
       在 React 社区中，成为有影响力的人物并不令人意外，**Dan Abramov** 排名第一 —— 尽管 **Kent C. Dodds** 和 **Theo** 似乎都在挑战这个位置。
 
-  #awards
+  # awards
   - key: sections.awards.description
     t: |
       今年的奖项被一个非常特别的项目主导…… 你能多快猜出它是什么？
@@ -358,7 +358,8 @@ translations:
   - key: picks.sebastien_lorber.name
     t: Remotion
   - key: picks.sebastien_lorber.bio
-    t: [This Week in React](https://thisweekinreact.com/) 的创建者
+    t: |
+      [This Week in React](https://thisweekinreact.com/) 的创建者
   - key: picks.sebastien_lorber.description
     t: |
       在 React 中创建程序化视频的想法继续让我着迷。Remotion 是一个相当低调的项目，它继续缓慢但稳定地增长，成功被开发者关系人员、教育工作者、独立创作者和大型公司（特别是 GitHub 的 Unwrapped 视频活动）采用。

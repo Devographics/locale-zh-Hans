@@ -1,0 +1,10 @@
+# 用于 yaml 校验的配置，与 .github/workflows/yaml-validation.yml 相同
+# 不用翻译 （
+extends: default
+rules:
+  line-length: disable
+  new-line-at-end-of-file: disable
+  trailing-spaces: disable
+  document-start: disable
+  empty-lines: disable
+  truthy: disable
