@@ -102,6 +102,11 @@ translations:
   - key: general.numeric_input.invalid_input
     t: 请确认您输入的数字是正确的。
 
+  - key: general.numeric_input.unit.years
+    t: 年
+  - key: general.numeric_input.unit.years_old
+    t: 岁
+
   ###########################################################################
   # Errors & Messages
   ###########################################################################

@@ -1062,6 +1062,26 @@ translations:
     t: 通信
   - key: options.industry_sector.security
     t: 安全
+    
+  - key: options.industry_sector.ai
+    t: 人工智能 (AI)
+  - key: options.industry_sector.advertising
+    t: 广告业
+  - key: options.industry_sector.cloud_computing
+    t: 云计算
+  - key: options.industry_sector.consumer_electronics
+    t: 消费电子产品
+  - key: options.industry_sector.food
+    t: 食品
+  - key: options.industry_sector.hospitality_tourism
+    t: 接待 / 旅游
+  - key: options.industry_sector.fashion
+    t: 时装
+  - key: options.industry_sector.robotics
+    t: 机器人
+  - key: options.industry_sector.saas
+    t: SaaS (软件及服务)
+
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
