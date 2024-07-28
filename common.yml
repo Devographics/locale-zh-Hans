@@ -360,7 +360,6 @@ translations:
   - key: options.features.used.label.short
     t: 用过
 
-
   # aliases
   - key: options.experience.never_heard.label.short
     aliasFor: options.features.never_heard.label.short
@@ -437,7 +436,6 @@ translations:
     t: 未对此技术发表看法的受访者
   - key: options.sentiment.negative.description
     t: 对此技术不感兴趣，或者使用此技术有糟糕体验的受访者
-
 
   # patterns
   - key: options.patterns.use_never
@@ -613,7 +611,6 @@ translations:
     t: 10-20
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20"
-
 
   # years of experience v2
   - key: options.years_of_experience.range_under_1
@@ -1062,7 +1059,7 @@ translations:
     t: 通信
   - key: options.industry_sector.security
     t: 安全
-    
+
   - key: options.industry_sector.ai
     t: 人工智能 (AI)
   - key: options.industry_sector.advertising
@@ -1081,7 +1078,6 @@ translations:
     t: 机器人
   - key: options.industry_sector.saas
     t: SaaS (软件及服务)
-
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -1566,7 +1562,7 @@ translations:
 
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
-  - key: usage.industry_sector.description
+  - key: usage.industry_sector.question
     aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others

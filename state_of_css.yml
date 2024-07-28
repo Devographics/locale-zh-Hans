@@ -748,10 +748,10 @@ translations:
     aliasFor: sections.pre_post_processors.title
   - key: other_tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.question
     t: 您常用哪些预处理器或后处理器？
   - key: other_tools.pre_post_processors.description
-    aliasFor: tools_others.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.question
   - key: tools_others.pre_post_processors.others
     aliasFor: sections.pre_post_processors_others.title
   - key: other_tools.pre_post_processors.others
@@ -808,7 +808,7 @@ translations:
 
   - key: environments.form_factors
     t: 测试环境
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: 您会在哪些设备或环境中进行测试？
   - key: environments.form_factors.others
     t: 其他测试环境
@@ -818,7 +818,7 @@ translations:
   - key: usage.form_factors
     aliasFor: environments.form_factors
   - key: usage.form_factors.description
-    aliasFor: environments.form_factors.description
+    aliasFor: environments.form_factors.question
   - key: usage.form_factors.others
     aliasFor: environments.form_factors.others
   - key: usage.form_factors.others.description
@@ -826,7 +826,7 @@ translations:
 
   - key: environments.accessibility_features
     t: 辅助功能
-  - key: environments.accessibility_features.description
+  - key: environments.accessibility_features.question
     t: 你通常实施哪些辅助功能？
   - key: environments.accessibility_features.others
     t: 其他辅助功能
@@ -835,17 +835,17 @@ translations:
 
   - key: environments.css_for_print
     t: 用于打印的CSS
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: 使用过打印样式（print styles）吗？
 
   - key: environments.css_for_email
     t: CSS for Email 客户端
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: 有些写过邮件客户端样式吗？
 
   - key: environments.what_do_you_use_css_for
     t: 你主要使用CSS做什么？
-  - key: environments.what_do_you_use_css_for.description
+  - key: environments.what_do_you_use_css_for.question
     t: 你通常使用CSS做什么样的项目？
   - key: environments.what_do_you_use_css_for.others
     t: 其他类型的项目
@@ -853,7 +853,7 @@ translations:
   - key: usage.what_do_you_use_css_for
     aliasFor: environments.what_do_you_use_css_for
   - key: usage.what_do_you_use_css_for.description
-    aliasFor: environments.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.question
   - key: usage.what_do_you_use_css_for.others
     aliasFor: environments.what_do_you_use_css_for.others
 
@@ -911,7 +911,7 @@ translations:
 
   - key: usage.css_interoperability_features
     aliasFor: opinions_others.browser_interoperability_features.others
-  - key: usage.css_interoperability_features.description
+  - key: usage.css_interoperability_features.question
     aliasFor: opinions_others.browser_interoperability_features.others.description
 
   - key: usage.interoperability_features_freeform
@@ -957,7 +957,7 @@ translations:
 
   - key: usage.css_pain_points
     aliasFor: opinions_others.css_pain_points.others
-  - key: usage.css_pain_points.description
+  - key: usage.css_pain_points.question
     aliasFor: usage.other_pain_points_freeform
 
   - key: options.css_pain_points.na
@@ -982,7 +982,7 @@ translations:
 
   - key: usage.css_missing_features
     t: 缺失的功能
-  - key: usage.css_missing_features.description
+  - key: usage.css_missing_features.question
     aliasFor: usage.missing_features_freeform
 
   - key: options.css_missing_features.na
@@ -1009,7 +1009,7 @@ translations:
 
   - key: happiness.state_of_css
     t: CSS 的现况
-  - key: happiness.state_of_css.description
+  - key: happiness.state_of_css.question
     t: 您对 CSS 的整体状况感到满意吗？
 
   # pain points/currently missing (results)
@@ -1035,12 +1035,12 @@ translations:
 
   - key: usage.css_js_balance
     t: CSS 和 JavaScript 的平衡
-  - key: usage.css_js_balance.description
+  - key: usage.css_js_balance.question
     t: 您如何分配编写 CSS（包括 HTML）和 JavaScript 代码的时间？
 
   - key: usage.css_usage_type
     t: CSS 使用情况
-  - key: usage.css_usage_type.description
+  - key: usage.css_usage_type.question
     t: 您主要在什么样的情况下使用 CSS？
   - key: usage.css_usage_type.others
     t: 其他 CSS 使用情况
