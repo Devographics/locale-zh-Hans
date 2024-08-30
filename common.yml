@@ -186,7 +186,7 @@ translations:
     t: 分享至 Twitter
   - key: thanks.share_score_message
     t: >
-      我正在参与#{hashtag}调查问卷，我的分数排名是 {score}% 。点击链接和我一起参与调查问卷： {shareUrl}
+      我正在参与 #{hashtag} 调查问卷，我的分数排名是 {score}%。点击链接和我一起参与调查问卷： {shareUrl}
   # share
   - key: general.share_subject
     t: >
