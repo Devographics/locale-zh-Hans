@@ -184,7 +184,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2023
+  - key: conclusion.css2023.chen_hui_jing
     t: |
       <span class="first-line">随着较新的 CSS 功能的使用趋势上升，CSS 框架的使用呈下降趋势。</span>
 
@@ -198,7 +198,7 @@ translations:
 
       但正如 [Lea Verou](https://lea.verou.me/) 去年提到的，随着像 [Interop](https://wpt.fyi/interop-2023) 这样的倡议将浏览器团结在一起，以前被认为不可能的功能现在有可能成为现实！
 
-  - key: conclusion.css2023.bio
+  - key: conclusion.css2023.chen_hui_jing.bio
     t: Developer Experience Engineer @ Interledger Foundation
 
   ###########################################################################
@@ -341,7 +341,7 @@ translations:
     t: Tailwind CSS 作者
   - key: picks.adam_wathan.description
     t: |
-     一个极快、全能的 CSS 处理工具，处理供应商前缀、压缩以及现代功能转译等，同时也是其他开发者构建 CSS 工具的绝佳平台。
+      一个极快、全能的 CSS 处理工具，处理供应商前缀、压缩以及现代功能转译等，同时也是其他开发者构建 CSS 工具的绝佳平台。
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
