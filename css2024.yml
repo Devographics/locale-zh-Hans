@@ -1,0 +1,558 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2024 年度调查，聚焦 CSS 生态系统的最新趋势。
+
+  - key: general.css2024.survey_intro
+    t: |
+      见证 CSS 飞速发展的过程令人惊叹。过去十年，我们专注于为布局（Flexbox、Grid）和语法（变量）建立坚实的基础。而未来，CSS 将超越大多数人的想象。
+
+      想在 CSS 中计算平方根或余弦？利用这些来构建滚动触发的动画？也许还能将所有这些限定范围，以避免产生任何意外影响？现在，这一切都成为可能，而且还有更多！
+
+      这就是为什么本次调查比以往任何时候都更加重要。它不仅是追踪你个人进步的方式，更是让浏览器厂商了解我们对这一新方向看法的工具。
+
+      所以，再一次，请与我一起参与今年的 CSS 现状调查！
+
+  - key: features.features_intro_css2024
+    t: |
+      欢迎参与调查！第一部分主要是分享你对各种 CSS 特性的使用体验：
+
+      - **从未听说**：这是你第一次看到这个特性——或者你听说过但不清楚它的作用。
+
+      - **听说过**：你读过或学习过这个特性，但还没有实际使用过。
+
+      - **使用过**：你至少使用过一次这个特性，哪怕只是尝试性质的。
+
+      顺便说一下，如果你想详细说明任何选择，只需点击那个小小的"评论"图标！
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2024
+    t: |
+      <span class="first-letter">让</span>我做个预测：我们将会把 2024 年视为"经典 CSS"和"新 CSS"之间的转折点。
+
+      经典 CSS 是我们多年来编写 CSS 的方式：使用有限的特性集，并通过外部工具（如库、预处理器和后处理器）以及严格的方法论来弥补语言的局限性。
+
+      另一方面，新 CSS 是一种拥抱 Subgrid、`:has()`、变量、容器查询以及近年来引入的许多新奇特性的方法。这不仅可以摆脱额外的工具，甚至开始承担一些以前需要复杂 JavaScript 解决方案的任务。
+
+      这一切都归功于浏览器厂商重新承诺要让这些新特性真正发挥作用——我有一种感觉，我们才刚刚触及新 CSS 所能提供的一切的表面。
+
+      <span class="conclusion__byline">—— Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T 恤
+
+  - key: sections.tshirt.description
+    t: |
+      ## 通过购买 CSS 现状 T 恤支持本次调查
+
+      在糟糕的视频质量、笨重的磁带和需要倒带等方面，VHS 时代没有什么值得怀念的。但有一件事我们确实怀念，那就是曾经装饰空白 VHS 磁带的惊艳 90 年代视觉设计。
+
+      现在，多亏了才华横溢的 Christopher Kirk-Nielsen，你可以在享受所有复古风潮的同时，庆祝你对 CSS 的热爱！
+
+  - key: tshirt.about
+    t: 关于这件 T 恤
+
+  - key: tshirt.description
+    t: |
+      我们使用高品质、超柔软的三混纺面料制作修身 T 恤，由我们的合作伙伴 Cotton Bureau 印制。
+
+  - key: tshirt.getit
+    t: 立即购买
+
+  - key: tshirt.price
+    t: 29 美元 + 运费
+
+  - key: tshirt.designer.heading
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris 原籍法国，现居美国，他不仅是一位出色的前端开发者，还是一位专注于复古视觉的才华横溢的插画师。事实上，我们也建议你去看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2024
+    t: |
+      今年的调查吸引了来自世界各地的 **9,704** 名开发者参与。
+
+  - key: sections.features.description.css2024
+    t: |
+      众所周知，CSS 正以前所未有的速度增加新特性——这就是为什么我们今年最终询问了多达 *50* 个特性！
+
+  - key: sections.tools.css2024
+    t: 库与工具
+
+  - key: sections.tools.description.css2024
+    t: |
+      尽管 CSS 的新特性解锁了许多功能，但开发者仍然依赖工具和库来支持他们的工作流程，至少目前是这样。
+
+  - key: sections.usage.description.css2024
+    t: |
+      无论你如何使用 CSS，数据显示确保代码在所有浏览器中都能正常工作仍然是一个需要关注的问题，尤其是对于像 `:has()` 这样的新特性。
+
+  - key: sections.resources.description.css2024
+    t: |
+      请放心：随着大量新 CSS 特性的出现，我们不会很快用完 CSS 博客文章、播客、视频和课程的素材！
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.css2024
+    t: >
+      虽然美国仍然代表了最大的单一群体，但我们很高兴看到其他国家的受访者也有很好的分布——尽管亚洲地区的代表性仍然不足。
+
+  - key: user_info.locale.takeaway.css2024
+    t: >
+      非常感谢我们的志愿翻译人员，使得调查能够以如此多的不同语言呈现！
+
+  - key: user_info.completion_stats.takeaway.css2024
+    t: >
+      尽管调查内容很长，但绝大多数受访者仍然花时间从头到尾完成了整个调查！
+
+  - key: user_info.age.takeaway.css2024
+    t: >
+      CSS 在 Alpha 世代的受访者中表现不佳，可能是因为他们太忙于玩《堡垒之夜》了。
+
+      等等，《堡垒之夜》现在还流行吗……？
+
+  - key: user_info.years_of_experience.takeaway.css2024
+    t: >
+      这张图表揭示，大多数受访者有幸从未需要处理基于 `float` 的定位。
+
+  - key: user_info.company_size.takeaway.css2024
+    t: >
+      公司规模越大，薪资越高。不过，我们的数据显示，如果你够优秀，无论公司规模如何，你都能赚到不错的收入。
+
+  - key: user_info.yearly_salary.takeaway.css2024
+    t: >
+      虽然我们经常听到硅谷六位数薪资的传闻，但现实是全球大多数前端开发者的收入远低于这个水平。当直接比较美国和世界其他地区时，这一点变得尤为明显。
+
+  - key: user_info.higher_education_degree.takeaway.css2024
+    t: >
+      虽然拥有学位确实能让你赚得更多，但事实证明，这个学位不一定要与编程相关——这对我们中那些在人生后期才发现对 Web 开发的热情的人来说是个好消息。
+
+  - key: user_info.gender.takeaway.css2024
+    t: >
+      加拿大、西班牙、英国和美国的女性受访者比例最高。
+
+      我们的数据还显示，女性的收入相对于其他群体有所落后。虽然造成这种情况的原因超出了本报告的范围，但很明显，我们行业中的女性确实面临一些独特的挑战。
+
+  - key: user_info.race_ethnicity.takeaway.css2024
+    t: >
+      非白人受访者更可能年轻且经验较少——这有望预示着行业正在持续多元化。
+
+  - key: user_info.disability_status.takeaway.css2024
+    t: >
+      多亏了无障碍倡导者的持续努力，我们现在接受将残疾（无论是永久性还是暂时性的）作为设计和开发过程中需要考虑的一部分。
+
+  - key: user_info.source.takeaway.css2024
+    t: >
+      虽然大多数受访者是从往年的调查中了解到今年的调查，但 Kevin Powell 也为我们带来了大量的调查参与者。
+
+  # features
+
+  - key: features.all_features
+    t: 特性
+
+  - key: features.all_features.takeaway.css2024
+    t: >
+      滤镜效果（`blur()`、`contrast()` 等）意外成为 2024 年使用最广泛的 CSS 特性，75.4% 的受访者表示使用过；`:has()` 选择器紧随其后，使用率为 72.8%。
+
+      另一方面，从情感评价来看，Subgrid 成为最受欢迎的特性，51.5% 的受访者愿意再次使用它。
+
+      使用最少的特性？不是别的，正是 `hanging-punctuation`，84.7% 的受访者甚至从未听说过它！
+
+  - key: features.reading_list.takeaway.css2024
+    t: >
+      阅读列表让你可以保存那些想在完成调查后进一步了解的项目。
+
+      因此，最鲜为人知的特性 `hanging-punctuation` 也登上了我们阅读列表排行榜的榜首，这并非巧合！
+
+  # tools
+
+  - key: tools.css_frameworks.takeaway.css2024
+    t: >
+      在 CSS 框架和 UI 库方面，Tailwind CSS 继续走在其他更传统竞争对手的前面，独树一帜。
+
+  - key: tools.css_in_js.takeaway.css2024
+    t: >
+      虽然 CSS-in-JS 的一些吸引力可能已被诸如变量等较新的 CSS 特性所取代，但最近在类型化样式和构建时编译方面的创新表明，这个领域仍有很多值得期待的地方。
+
+  - key: tools.pre_post_processors.takeaway.css2024
+    t: >
+      Sass/SCSS 仍然是这里的领导者，但现在它的许多关键特性已被 CSS 本身所吸收，将会很有趣地观察其使用率是否会保持稳定。
+
+  - key: tools.utilities.takeaway.css2024
+    t: >
+      格式化、压缩和以其他方式调整你的 CSS 代码的方法不胜枚举。
+
+  - key: tools.browsers.takeaway.css2024
+    t: >
+      虽然四大主流浏览器主导了这张图表，但 Arc 正在缓慢爬升浏览器排行榜，使用率从去年的 7.8% 上升到了 12%。
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2024
+    t: >
+      屏幕阅读器测试的比例从去年的 16.6% 上升到今年的 19%，这是无障碍性日益重要的一个令人鼓舞的迹象。
+
+  - key: usage.what_do_you_use_css_for.takeaway.css2024
+    t: >
+      虽然这些数据并不令人意外，但它很好地提醒了我们 CSS 可以做的不仅仅是格式化网页。
+
+  - key: usage.industry_sector.takeaway.css2024
+    t: >
+      你知道可以按行业部门筛选本次调查的数据吗？只需在任何其他图表上点击"添加筛选器……"即可！
+
+  - key: usage.usage_type.takeaway.css2024
+    t: >
+      无论你是专业构建网站还是只是业余爱好，使用 CSS 都没有错误的方式！
+
+  - key: usage.design_methodology.takeaway.css2024
+    t: >
+      虽然绝大多数受访者使用 CSS 来实现预先存在的设计，但随着设计应用程序的发展以及 AI 工具能够直接从创意转化为代码，这种情况是否会发生变化将会很有趣。
+
+  - key: usage.css_js_balance.takeaway.css2024
+    t: >
+      即便在 CSS 调查的背景下，结果显示大多数受访者仍然在 JavaScript 生态系统中花费了更多时间。只有时间才能告诉我们，随着 CSS 变得越来越强大，这种情况是否也会发生变化。
+
+  - key: usage.css_interoperability_features.takeaway.css2024
+    t: >
+      没有什么比知道一个新特性可以完美解决你的问题，却因为浏览器支持不佳而无法使用它更令人沮丧的了。
+
+      锚点定位就是这样一个前景广阔的新特性，可惜的是，它目前还没有得到广泛支持。
+
+      另一方面，容器查询[已经可以在基础层面使用](https://web.dev/blog/cq-stable)并且可以投入使用了，尽管它在许多受访者的回答中仍然出现！
+
+  - key: usage.css_missing_features.takeaway.css2024
+    t: >
+      在没有魔法棒可以让我们凭空变出任何想要的 CSS 特性的情况下，我们能期望的最好结果就是这些数据能够推动浏览器厂商朝着正确的方向前进！
+
+      好消息是：条件逻辑、混合（mixins）和瀑布流布局目前都在以某种形式被开发中！
+
+  - key: usage.css_pain_points.takeaway.css2024
+    t: >
+      虽然浏览器支持仍然是永恒的 CSS 痛点，但 Tailwind CSS 也成为了一些人的烦恼来源——而另一些人则抱怨它使用得不够多！
+
+  - key: usage.favorite_new_features.takeaway.css2024
+    t: >
+      期待已久的特性、合理的实现、良好的浏览器支持：`:has()` 拥有一切，成为 2024 年最佳新 CSS 特性排行榜的榜首！
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2024
+    t: >
+      虽然我们确实喜欢抱怨现状，但事实证明，多年来幸福感水平保持着惊人的稳定。
+
+  - key: usage.state_of_css_happiness.takeaway.css2024
+    t: >
+      在 CSS 方面，我们甚至看到了轻微的上升趋势，这证明浏览器厂商、工作组和整个 CSS 社区的辛勤工作并没有被忽视！
+
+  # resources
+
+  - key: resources.blogs_news_magazines.takeaway.css2024
+    t: >
+      尽管 CSS-Tricks 在过去几年经历了所有权变更，但在 CSS 博客排名中仍然保持着第一的位置。
+
+  - key: resources.courses.takeaway.css2024
+    t: >
+      像 MDN 和 YouTube 视频这样的免费资源是学习 CSS 的重要工具，但也值得指出 Josh Comeau 的优秀材料。
+
+  - key: resources.podcasts.takeaway.css2024
+    t: >
+      Syntax 可能暂时保持其榜首地位，但 Web Standards 和 The CSS Podcast 表明，通过专注于特定语言或主题也可以取得相当大的成功。
+
+  - key: resources.video_creators.takeaway.css2024
+    t: >
+      Kevin Powell 再次证明，在 YouTube 上谈论 CSS 时，没有人能够匹敌他的影响力和知名度。
+
+  - key: resources.people.takeaway.css2024
+    t: >
+      虽然 Kevin 再次领先，但看到 Adam、Una、Josh 和 Lea 的工作得到社区的认可也令人欣慰！
+
+  - key: resources.other_surveys.takeaway.css2024
+    t: >
+      你不会惊讶地听到我们认为调查是一种重要的学习工具——因此我们一直在寻找新的竞争者……呃，我是说朋友！
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.most_used_feature_award.comment
+    t: |
+      **滤镜效果**已经存在一段时间了，它们仍然和以前一样有用！
+
+  - key: award.least_used_feature_award.comment
+    t: |
+      `hanging-punctuation` 赢得了最不为人知的 CSS 特性奖！
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      有 {value}% 的受访者对 **Subgrid** 持积极印象，使其在我们的排名中登顶。
+
+  - key: award.most_commented_feature_award.comment
+    t: |
+      **Subgrid** 获得了超过 {value} 条评论，部分原因是它在调查中出现较早，但也因为它确实是一个值得称赞的特性！
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2024.ahmad_shadeed
+    t: |
+
+      <span class="first-line">在过去两年里，CSS 发展如此之快</span>，跟上所有新特性的步伐感觉就像一份全职工作。这意味着有很多主题和想法可以探索和实验。
+
+      例如，在多年的呼声之后，CSS `:has()` 成为了 CSS 最强大的新增功能之一，显著减少了对 JavaScript 的需求。对我来说，这可以比作从使用 CSS 浮动到 Flexbox 的转变，后者允许我们创建几乎任何可以想象的布局。
+
+      CSS **容器尺寸和样式查询**也是构建需要在不同上下文中工作的组件的游戏规则改变者。目前，只有尺寸容器查询在所有主要浏览器中得到完全支持，尽管它们的采用仍然有限。
+
+      展望 2025 年，我希望看到尺寸容器查询得到更广泛的使用，**滚动驱动动画**、样式查询和**锚点定位**在所有浏览器中得到完全支持。我们还能要求什么呢？
+
+  - key: conclusion.css2024.ahmad_shadeed.bio
+    t: 设计工程师，[《调试 CSS》](https://debuggingcss.com/)一书作者
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "我的 2024 年度之选："
+  - key: picks.intro
+    t: 我们邀请了 CSS 社区的成员分享他们的"年度之选"
+
+  - key: picks.chris_coyier.name
+    t: Google 对 CSS 的贡献
+  - key: picks.chris_coyier.bio
+    t: Codepen 创始人 & Shoptalk Show 主持人
+  - key: picks.chris_coyier.description
+    t: |
+      很容易说些关于 Google 最近在 CSS 方面的强劲表现，尤其是去年。Rachel Andrew、Adam Argyle、Bramus Van Damme、Una Kravets、Tab Atkins——他们都在公开做着很酷的大事。
+
+  - key: picks.temani_afif.name
+    t: |
+      `@property` 的广泛可用
+  - key: picks.temani_afif.bio
+    t: |
+      [css-challenges.com](https://css-challenges.com) 的创建者
+  - key: picks.temani_afif.description
+    t: |
+      我可能会说 `@property` 今年来到 Firefox，使这个特性在跨浏览器（自 7 月起）可用，并解锁了许多酷炫功能。
+
+  - key: picks.adam_argyle.name
+    t: |
+      `linear()`
+  - key: picks.adam_argyle.bio
+    t: Google
+  - key: picks.adam_argyle.description
+    t: |
+      linear() 缓动函数为交互带来了令人惊叹的点睛之笔。
+
+  - key: picks.andy_bell.name
+    t: |
+      卡住了：position:sticky 可能失效的所有方式
+  - key: picks.andy_bell.bio
+    t: Piccalilli 和 Set Studio 的设计师、开发者和创始人。
+  - key: picks.andy_bell.description
+    t: |
+      在我所有使用 CSS 的岁月里，`position: sticky` 必须是最令人沮丧的功能之一，但它也极其有用。我一直想写一个指南来帮助人们解决这个问题，幸运的是我不需要了，因为 Kilian 已经完美地完成了这项工作。
+
+  - key: picks.miguel_angel_duran.name
+    t: |
+      `@view-transition`
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch 内容创作者
+  - key: picks.miguel_angel_duran.description
+    t: |
+      新的 `@view-transition` CSS @规则是 2024 年的游戏改变者。它允许开发者用最少的代码创建页面或组件之间的平滑、原生过渡，大大减少了对重 JavaScript 解决方案的依赖。这标志着 Web 开发中构建动态、流畅界面的重大进步！
+
+  - key: picks.sacha_greif.name
+    t: Sara Soueidan
+  - key: picks.sacha_greif.bio
+    t: CSS 现状调查创始人
+  - key: picks.sacha_greif.description
+    t: |
+      尽管我们都在数字领域工作，但重要的是要记住，这一切都是由真实的、有血有肉的人实现的，他们不得不承受世界各地冲突的后果。Sara 最近因战争而流离失所，我只能希望她能够尽快恢复她出色的工作！
+
+  - key: picks.augustin_mauroy.name
+    t: |
+      `:has()`
+  - key: picks.augustin_mauroy.bio
+    t: Web 开发者 & 开源爱好者
+  - key: picks.augustin_mauroy.description
+    t: |
+      `:has` 伪类允许你创造真正有创意的东西。但它也允许你"上游"，例如当你悬停在其中一个子元素上时改变形状的地图。
+
+  - key: picks.lea_verou.name
+    t: 样式查询和 `if()`
+  - key: picks.lea_verou.bio
+    t: Font Awesome 的产品负责人
+  - key: picks.lea_verou.description
+    t: |
+      我的选择是样式查询和内联 `if()`。一旦这两个特性在所有地方都可用，我们用 CSS 变量能做的事情将会提升十倍。
+
+  - key: picks.ahmad_shadeed.name
+    t: 滚动驱动动画
+  - key: picks.ahmad_shadeed.bio
+    t: 设计工程师，[《调试 CSS》](https://debuggingcss.com/)一书作者
+  - key: picks.ahmad_shadeed.description
+    t: |
+      这是一个游戏规则的改变者，很快就会在所有主要浏览器中得到支持。令人难以置信的是，以前需要大量 JavaScript 才能实现的效果，现在只需几行 CSS 就能完成。
+
+  - key: picks.josh_comeau.name
+    t: Temani Afif
+  - key: picks.josh_comeau.bio
+    t: 独立开发者和教育者
+  - key: picks.josh_comeau.description
+    t: |
+      Temani 正在推动 CSS 的极限。他的实验总是让我大开眼界！
+
+  ###########################################################################
+  # 测验
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "问题 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      2003 年 5 月，Dave Shea 推出了一个展示 CSS 灵活性和适应性的网站。那个网站叫什么名字？
+  - key: options.quiz_dave_shea.css_playground
+    t: CSS 游乐场
+  - key: options.quiz_dave_shea.style_jungle
+    t: 样式丛林
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS 禅意花园
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS 禅意花园](https://www.csszengarden.com/)通过展示将标记和样式分离后可能实现的效果，给人留下了深刻印象。
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "问题 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      以下哪个组织负责维护 CSS 规范？
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      W3C 的 [CSS 工作组](https://www.w3.org/groups/wg/css)负责维护 CSS 规范，然后由浏览器厂商实现。
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Advance your skills with in-depth, modern front-end engineering courses.
+  - key: sponsors.polypane.description
+    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+  - key: sponsors.nijibox.description
+    t: UX and Product Development consulting in the heart of Tokyo.
+  - key: sponsors.renderatl.description
+    t: The largest tech conference with a dedicated Design & CSS track.
+  - key: sponsors.google_chrome.description
+    t: Thanks to the Google Chrome team for supporting our work.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_css2024
+    t: 完成这份调查需要多长时间？
+  - key: faq.how_long_will_survey_take_css2024.description
+    t: >
+      根据您回答问题的数量（所有问题都可以跳过），
+      填写调查大约需要 15-20 分钟。
+
+  - key: faq.learn_more_css2024
+    t: 在哪里可以了解更多信息？
+  - key: faq.learn_more_css2024.description
+    t: 您可以在[我们的公告文章](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h)中了解更多关于这项调查的信息。
+
+  - key: faq.survey_design_css2024
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_css2024.description
+    t: >
+      这项调查是通过一个[开放的设计过程](https://github.com/Devographics/surveys/issues/245)设计的，涉及浏览器厂商和 Web 开发社区。
+
+  - key: faq.results_released_css2024
+    t: 结果何时发布？
+  - key: faq.results_released_css2024.description
+    t: 调查时间为 2024 年 8 月 17 日至 9 月 7 日，调查结果将在不久后公布。
+
+  - key: about.content
+    t: >
+      2023 年 CSS 状态调查从 2024 年 8 月 17 日开始至 9 月 12 日结束，共收集到 9704 份回复。该调查由 [Devographics](https://www.devographics.com/) 负责，并得到了开源贡献者和顾问团队的帮助。
+
+
+      CSS 状态调查的 Logo 和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计并制作动画。
+
+
+      ### 调查目标
+
+      本调查旨在确定 Web 开发生态系统中即将出现的趋势，以帮助开发人员做出技术选择。
+
+
+      因此，本调查的重点是预测未来几年的发展趋势，而不是分析目前流行的技术，这也是为什么目前最流行的功能或技术并不总是包括在内的原因。
+
+
+      此外，浏览器供应商还利用调查数据确定功能的优先级，并为 [Interop 2024](https://web.dev/blog/interop-2024) 等计划提供信息。
+
+
+      ### 调查设计
+
+      这项调查是在 [GitHub](https://github.com/Devographics/surveys/issues/245) 上共同设计的。
+
+      ### 调查受众
+
+      调查在网上公开进行，受访者未经任何筛选。受访者主要来自以往调查的受访者（通过专门的邮件列表提醒）和社交媒体流量。
+
+      ### 项目资金
+
+      除 T 恤销售外，该项目的资金来源也多种多样：
+
+      - 我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/)赞助了这项调查，以换取在每个页面底部提供其课程的相关链接。
+
+      - [Google Chrome](https://www.google.com/chrome/)团队今年拨出赞助预算来帮助设计和运行这项调查。
+
+      - [TokyoDev](https://www.tokyodev.com/) 也在持续赞助这项调查。
+
+      ### 技术概览
+
+      您可以在 [此处](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) 找到关于如何运行调查的更深入的技术概述。我们的代码是[开源的](https://github.com/Devographics/Monorepo/)。
+
+      ### 反馈
+
+
+      - [报告技术问题](https://github.com/Devographics/Monorepo/issues)
+
+      - [为明年提出建议](https://github.com/Devographics/surveys/issues/249)
+
+      - [其他非技术性问题](https://github.com/Devographics/surveys/issues)
+
+      - [加入我们的讨论区](https://discord.gg/tuWRUWVyJs)
