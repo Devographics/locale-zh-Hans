@@ -55,12 +55,12 @@ translations:
     t: 根据薪水区分
   - key: tabs.by_gender
     t: 根据性别区分
-
-  ###########################################################################
-  # Block
-  ###########################################################################
-  - key: block.data_from
-    t: 占位符
+  - key: tabs.by_race_ethnicity
+    t: 根据种族和民族区分
+  - key: tabs.low_vs_high_income
+    t: 低收入 vs 高收入
+  - key: tabs.usa_vs_the_world
+    t: 美国 vs 世界
 
     ###########################################################################
     # Options
@@ -279,10 +279,6 @@ translations:
     t: 语言
   - key: user_info.locale.description
     t: 受访者选择了什么语言来填写调查问卷？
-  - key: user_info.locale.note
-    t: >
-      这些数据是在参与调查时根据受访者的设置自动收集的。
-      少于 20 名受访者的语言将不会显示。
 
   - key: user_info.source
     t: 来源
@@ -544,6 +540,8 @@ translations:
     # tools quadrant
   - key: blocks.tools_quadrant
     t: 满意度 对比 使用率
+  - key: tools.scatterplot_overview
+    aliasFor: blocks.tools_quadrant
   - key: blocks.tools_quadrant.description
     t: |
       这张图表显示了每种技术对其总 **用户数量** 的 **满意率**。
@@ -772,10 +770,9 @@ translations:
   # Reading List
   - key: features.reading_list
     t: 阅读列表
-  - key: features.reading_list.description
+  - key: features.reading_list.note
     t: >
-      每个项目被添加到受访者的阅读列表中的次数，
-      该功能可让人们在参与调查时了解有关特定主题的更多信息。
+      每个项目被添加到受访者阅读列表的次数，该功能可让受访者在参与调查时了解更多有关特定主题的信息。
 
   ###########################################################################
   # Charts
@@ -828,7 +825,7 @@ translations:
   - key: charts.nth_percentile_value
     t: "{percentile}th 百分位数: {value}"
 
-  - key: charts.freeform_data
+  - key: charts.freeform_data_indicator
     t: (自由形式的答案)
   - key: charts.insufficient_data
     t: 数据不足
@@ -883,6 +880,8 @@ translations:
     t: 年龄
   - key: charts.axis_legends.users_percentage_survey
     t: 调查对象百分比
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
     t: 受访者百分比
   - key: charts.axis_legends.users_percentageQuestion
@@ -1216,6 +1215,21 @@ translations:
     t: 最受喜爱的库
   - key: award.most_loved_tool_award.description
     t: 受访者者给予正面意见比例最高的库。
+
+  - key: award.most_used_feature_award.title
+    t: 使用最多的功能
+  - key: award.most_used_feature_award.description
+    t: 授予用户比例最高的功能。
+
+  - key: award.least_used_feature_award.title
+    t: 使用最少的功能
+  - key: award.least_used_feature_award.description
+    t: 授予用户比例最低的功能。
+
+  - key: award.most_loved_feature_award.title
+    t: 最受喜爱的功能
+  - key: award.most_loved_feature_award.description
+    t: 授予正面意见比例最高的专题报道。
 
     ###########################################################################
     # Hints
@@ -1634,6 +1648,10 @@ translations:
     t: 包含(is one of)
   - key: filters.operators.nin
     t: 不包含(is not one of)
+  - key: filters.operators.lt
+    t: 小于
+  - key: filters.operators.gt
+    t: 大于
   - key: filters.value.add
     t: 增加值
   - key: filters.value.delete
@@ -1726,6 +1744,12 @@ translations:
     t: 经验
   - key: charts.group.sentiment
     t: 情绪
+  - key: charts.grouped_by_group
+    t: >
+      按 "**{group}**" 分组
+  - key: charts.group_by_group
+    t: >
+      按 "**{group}**" 分组
 
   - key: charts.display_mode
     t: >
@@ -1786,6 +1810,19 @@ translations:
     t: >
       **{value}** 中位数
 
+  - key: charts.filter_by
+    t: >
+      筛选方式：
+  - key: charts.all_filters
+    t: 全部
+  - key: charts.all_filters.description
+    t: 显示全部
+  - key: charts.filter_by_value
+    t: >
+      按 “{value}” 筛选
+  - key: charts.filtered_by_value
+    t: >
+      按 “{value}” 筛选
   ###########################################################################
   # Multi Items Experience Chart
   ###########################################################################
@@ -1820,3 +1857,10 @@ translations:
       这些自由格式的答案与 **{name}** 关键字相匹配。
   - key: answers.report_abuse
     t: 报告此答案
+
+  ###########################################################################
+  # Banners
+  ###########################################################################
+
+  - key: banner.html2024
+    t: HTML 2024 现状调查现已开始！现在就参加调查 →
