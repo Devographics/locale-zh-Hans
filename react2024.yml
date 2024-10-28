@@ -1,0 +1,532 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2024 年度 React 生态系统最新趋势调查报告。
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.react2024.survey_intro
+    t: |
+      让我们面对现实：无论是你还是我，都没有那个毅力和耐心去完全跟上 React 生态系统的发展。每周都有新的 API、新的库甚至新版本发布，实在令人应接不暇。
+
+      幸运的是，有一个人主动承担起了这个重任：他就是 [This Week in React](https://thisweekinreact.com/) 的 Sebastien Lorber。
+
+      Sebastien 慷慨地分享了他的专业知识，确保今年的调查涵盖了所有重要领域。这意味着通过参与这次调查，你不仅能为社区提供宝贵的见解，还能借此机会了解到你可能错过的最新进展。
+
+      所以，让我们再次一起参与今年的 React 生态调查吧！
+
+  - key: features.features_intro.react2024
+    t: |
+      欢迎参加调查！第一部分主要是分享你对各种 React 特性的使用体验：
+
+      - **从未听说**：这是你第一次看到这个特性，或者虽然听说过但完全不知道它是做什么的。
+
+      - **听说过**：你读到过或了解过这个特性，但还没有实际使用过。
+
+      - **使用过**：你至少使用过一次这个特性，哪怕只是尝试性质的。
+
+      顺便说一下，如果你想详细说明你的选择理由，只需点击那个小小的"评论"图标就可以了！
+  - key: tools.tools_intro.react2024
+    t: |
+      调查的下一部分是关于构成 React 生态系统的各种库和框架。
+
+  - key: introduction.react2024
+    t: |
+      <span class="first-letter">R</span>eact 已经存在 11 年了，看看当前 Web 开发的发展速度，这个时间跨度似乎难以想象。
+
+      今天我们之所以还在谈论 React，是因为它一直能够与时俱进，不断发展以应对用户提出的各种挑战。
+
+      事实上，React 不仅仅是在跟进，它还在引领新的创新模式，比如服务器组件（Server Components）和即将推出的编译器。
+
+      需要注意的是，这些数据收集于 2024 年 10 月 27 日至 11 月 15 日期间，这意味着 React 19 以及在此之后的任何新发展都不在本次调查范围内。
+
+      即便如此，这里仍有很多值得探索的内容，从组件库到状态管理技术，再到应用程序模式。让我们一起来看看这份首次 React 社区调查的结果吧！
+
+      *这是一份非官方调查，与 Meta、Vercel 或 React 团队均无关联。*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T 恤
+
+  - key: sections.tshirt.description
+    t: |
+      ## 购买官方 React 生态调查 T 恤支持我们
+
+      它是一个库？一个框架？还是一个正在突变成危险且不稳定实体的未知元素？不管你对 React 有什么看法，你都能在这件融合了动漫和科幻元素的设计中找到共鸣。
+
+  - key: tshirt.about
+    t: 关于这件 T 恤
+
+  - key: tshirt.description
+    t: |
+      我们使用由 Cotton Bureau 合作伙伴印制的高质量 T 恤。
+
+  - key: tshirt.getit
+    t: 立即购买
+
+  - key: tshirt.price
+    t: 32 美元 + 运费
+
+  - key: tshirt.designer.heading
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Chris 原籍法国，现居美国，他不仅是一位出色的前端开发者，还是一位专注于复古视觉风格的才华横溢的插画师。事实上，我们建议你也去看看他的[其他 T 恤设计作品](https://chriskirknielsen.com/designs)！
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.react2024
+    t: |
+      共有 **13,003** 名受访者参与了首次 React 生态调查。虽然这只是整个社区中的一小部分样本，但已足够为我们提供有价值的数据！
+  - key: user_info.country.takeaway
+    t: |
+     大多数受访者来自**美国**和**欧洲**。
+
+  - key: user_info.locale.takeaway
+    aliasFor: user_info.locale.description
+
+  - key: user_info.completion_stats.takeaway
+    aliasFor: user_info.completion_stats.description
+
+  # features
+
+  - key: sections.features.description.react2024
+    t: |
+      我们询问了受访者对 **28** 个不同功能特性的看法，从无处不在的 `useState` 钩子，到较为小众的 API 如 `useDeferredValue`。记得试着按"情感倾向"排序查看！
+
+  - key: features.all_features
+    t: 所有功能特性
+
+  - key: features.all_features.takeaway
+    t: |
+      这张图表总结了调查中所有功能特性相关的问题。主要柱状图展示了受访者的使用经验，然后进一步按照受访者的情感倾向细分。你可以切换分组方式在两种视图之间切换。
+
+  - key: features.reading_list.takeaway
+    t: >
+      **30%** 的受访者在参与调查时至少添加了一个项目到他们的阅读清单中，以便日后深入学习。以下是他们的选择分布情况。
+
+  - key: features.main_apis_items
+    t: 主要 API 的使用经验与情感倾向
+
+  - key: features.main_apis_pain_points.takeaway
+    t: >
+      在最常用的 React API 中，`forwardRef` 是给开发者带来最多困扰的，紧随其后的是 `memo`。值得庆幸的是，React 团队正在推出更好的替代方案。
+
+  - key: features.hooks_items
+    t: Hooks 的使用经验与情感倾向
+
+  - key: features.hooks_pain_points.takeaway
+    t: >
+      不出所料，`useEffect` 和 `useCallback` 被认为是最具问题的 React hooks，主要是由于依赖数组的管理问题。
+
+  - key: features.new_apis_items
+    t: 新 API 的使用经验与情感倾向
+
+  - key: features.new_apis_pain_points.takeaway
+    t: >
+      虽然 React 能够不断发展并保持相关性是它最大的优势之一，但这也是有代价的，像**服务器组件**这样的新 API 确实很难被采用。
+
+  # libraries
+
+  - key: sections.libraries.description.react2024
+    t: |
+      我们重新设计了图表，不仅展示开发者体验，还突出展示了*情感倾向*。一定要探索这些新的分组和排序选项，看看哪些库最受欢迎……或者最不受欢迎！
+
+  - key: tools.all_tools_experience
+    t: 库的使用经验与情感倾向
+
+  - key: tools.all_tools_experience.takeaway
+    t: >
+      在 React 的库和框架中，**Next.js** 和 **TanStack Query** 在整体好评度方面领先。
+
+      请注意，像 `useState` 和 `fetch` 这样的项目也被包含在内，以提供一个基准参考，尽管它们本身并不是库。
+  - key: tools.scatterplot_overview
+    t: 库的留存率与使用率对比
+
+  - key: tools.scatterplot_overview.takeaway
+    t: >
+      在各种库和框架中，**Next.js** 是唯一一个同时具有高留存率和高使用率的项目。相比之下，虽然更多的受访者使用过 **Create React App**，但愿意继续使用它的人要少得多。
+
+  # component libraries
+
+  - key: tools.component_libraries_experience
+    t: 组件库的使用经验与情感倾向
+
+  - key: tools.component_libraries_experience.takeaway
+    t: >
+      **React Aria** 和 **Radix** 在好评度排名中领先，证明了无头组件库（headless）这种方案很有前途。
+
+  # state management
+
+  - key: tools.state_management_experience
+    t: 状态管理的使用经验与情感倾向
+
+  - key: tools.state_management_experience.takeaway
+    t: >
+      除了 **useState** 之外，好评率最高的状态管理解决方案是 **Zustand**。而虽然 **Redux** 仍然拥有庞大的用户群，但它并不那么受欢迎。
+
+  - key: tools.data_loading_experience
+    t: 数据加载的使用经验与情感倾向
+
+  - key: tools.data_loading_experience.takeaway
+    t: >
+      **TanStack Query** 已经在业内掀起波澜有一段时间了，数据显示它的口碑也确实名副其实，在原生 `fetch` API 之后，它是受访者评价最积极的数据加载方案。
+
+  # back-end infrastructure
+
+  - key: tools.meta_frameworks_experience
+    t: 元框架的使用经验与情感倾向
+
+  - key: tools.meta_frameworks_experience.takeaway
+    t: >
+      虽然你肯定能找到很多人在抱怨 **Next.js**，但它仍然在元框架的好评度排名中位居榜首，其后是 **Remix** 和 **Astro**。
+
+  # other_tools
+
+  - key: sections.other_tools.description.react2024
+    t: |
+      React 以专注于 UI 渲染而闻名，同时对应用程序的其他部分保持相对中立的态度，这一点在茁壮成长的生态系统中得到了充分体现！
+
+  - key: sections.usage.description.react2024
+    t: |
+      无论你使用哪个版本，采用什么应用模式，或者属于哪个行业领域，使用 React 都没有对错之分！
+
+  # usage
+
+  - key: usage.js_app_patterns.takeaway
+    t: >
+      尽管现在静态网站生成、服务器端渲染和服务器组件备受关注，但有趣的是，绝大多数 React 用户仍在开发单页应用。
+  - key: usage.react_version.takeaway
+    t: >
+      请注意，本次调查是在 React 19 发布和公告**之前**进行的。
+
+  # resources
+
+  - key: sections.resources.description.react2024
+    t: |
+      React 持续主导市场的一个重要原因是它多年来积累的大量文档、博客文章、视频和其他资源。以下只是其中的一小部分样本！
+
+  - key: resources.learning_methods.takeaway
+    t: |
+      React 团队在新的文档网站上做得非常出色，所以它成为人们学习该框架的首选方式并不令人意外。
+
+  - key: resources.blogs_news_magazines.takeaway
+    t: |
+      虽然这个列表中有许多常见的网站，但值得庆祝的是专注于 React 的媒体，如 **This Week in React** 和 **React Status** 的出现。
+
+  - key: resources.sites_courses.takeaway
+    t: |
+      虽然 **Stack Overflow** 最近经历了一些 AI 相关的争议，但目前它仍然排在榜首。
+
+  - key: resources.podcasts.takeaway
+    t: |
+      **Syntax** 继续在开发者播客领域保持其主导地位。另一个有趣的现象是，前十名中没有任何一个活跃的 React 专题播客。
+
+  - key: resources.video_creators.takeaway
+    t: |
+      虽然 **Theo** 和 **Web Dev Simplified** 都制作 React 相关内容，但有趣的是，尽管 **The Primeagen** 通常不涉及 React 内容，他仍然排在第三位。
+
+  - key: resources.people.takeaway
+    t: |
+      在 React 社区的影响力人物方面，**Dan Abramov** 位居榜首并不令人意外——不过 **Kent C. Dodds** 和 **Theo** 似乎都在挑战这个位置。
+
+  # awards
+
+  - key: sections.awards.description.react2024
+    t: |
+      今年的奖项被一个非常特别的项目主导……你能多快猜出是什么？
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      如果你想了解更多，我们写了一篇[博客文章](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)来讨论调查中的性别动态。
+
+  - key: blocks.source.note
+    t: >
+      这张图表汇总了来源网站、URL 参数和自由形式答案的混合数据。
+
+      - State of JS：来自 [State of JS](https://stateofjs.com) 邮件列表。
+
+      - State of CSS：来自 State of CSS 邮件列表；也匹配"邮件"、"通过邮件"等。
+
+      - 工作：匹配"工作"、"同事"、"同事们"等。
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: 在 2022 年取得了 **{value}** 的增长后，**top-level await** 已经迅速成为 JavaScript 不可或缺的一部分。
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** 仍然是增长最快的工具库，使用率同比增长了 **{value}**！
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite 再次登顶，有 **{value}** 的开发者表示愿意继续使用它！
+
+  - key: award.tool_interest_award.comment
+    t: 你猜是 Vite 吗？差一点，今年 **Vitest** 以 **{value}** 的关注度成为开发者最感兴趣的技术。
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      **Bun** 在开放问题中获得了 **{value}** 次提及，成为被提及最多的技术。
+
+  - key: award.most_commented_tool_award.comment
+    t: React 收到了 **{value}** 条评论，再次证明它是最受关注的库。
+
+  - key: award.most_loved_tool_award.comment
+    t: 有 **{value}** 的开发者对它持积极态度，Vite 横扫本次奖项，成为最受欢迎的技术！
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2024.josh_comeau
+    t: |
+
+      <span class="first-line">多么精彩的一年！</span>
+
+      随着 React Server Components 的推出，我认为这是自 2018 年 React Hooks 首次发布以来，React 最重要的一年。
+
+      在 2018 年之后的 5 年里，Hooks 已经获得了压倒性的采用率。高达 99.5% 的调查受访者已经采用了 `useState`，且不到 2% 的人对此不满意。类组件虽然仍然存在，但已经局限于遗留代码库和偶尔的错误边界组件中。
+
+      不过，我在想……在 Server Components 发布 5 年后的 2028 年，我们都会使用它吗？我不太确定。Server Components 范式需要与打包工具和路由器进行深度集成。这不是大多数开发者可以在当前 React 代码库中逐步采用的东西。
+
+      React 开发者喜欢保持更新：71% 的调查受访者表示他们正在使用 React 18（收集数据时的最新版本）。但与此同时，最广泛使用的 React 环境仍然是 Create React App，尽管它已经正式弃用，自 2022 年 4 月以来就没有新的发布。我们很乐意在新版本 React 发布时进行更新，但并不急于切换到不同的环境；37% 的调查受访者从未使用过 SSR（服务器端渲染），尽管这个选项已经存在了十多年！
+
+      如果让我猜测，我觉得到 2028 年，将会有两个使用率相当的 React 版本广泛流通。一个是带有 Server Components 和 Server Actions 的"全栈"版本，另一个是仅客户端的单页应用版本。
+
+      我们正处在一个有趣的时代！我很期待看到 React 及其生态系统在未来几年的发展。❤️
+
+  - key: conclusion.react2024.josh_comeau.bio
+    t: 软件工程师和教育者。[The Joy of React](https://www.joyofreact.com/) 的创作者
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "我的 2024 年度之选："
+  - key: picks.intro
+    t: 我们邀请 React 社区成员分享他们的"年度之选"
+
+  # https://zustand-demo.pmnd.rs
+  - key: picks.jack_herrington.name
+    t: Zustand
+  - key: picks.jack_herrington.bio
+    t: 首席工程师和 YouTuber
+  - key: picks.jack_herrington.description
+    t: |
+      简单、优雅、可扩展的状态管理工具，完全符合"直接可用"的标准。如今，你可能不需要状态管理，但如果需要，Zustand 是一个很好的起点。
+
+  # https://react.dev/reference/rsc/server-components
+  - key: picks.alex_sidorenko.name
+    t: React Server Components
+  - key: picks.alex_sidorenko.bio
+    t: 在 Twitter 上制作 Next.js 相关的短视频
+  - key: picks.alex_sidorenko.description
+    t: |
+      十一年前，React 通过挑战既定实践重新构想了网络开发。现在，React 正在通过 RSC 再次实现这一目标。
+
+      另外，要特别感谢 Next.js 团队推动这一新愿景向前发展。
+
+  # https://youtube.com/watch?v=zqhE-CepH2g
+  - key: picks.sam_selikoff.name
+    t: |
+      "Mind the Gap" —— Ryan Florence 在 2024 年 Big Sky Dev Con 的演讲
+  - key: picks.sam_selikoff.bio
+    t: 在 Build UI 和 YouTube 上为前端开发者制作视频，Frontend First 播客的共同主持人
+  - key: picks.sam_selikoff.description
+    t: |
+      Ryan 巧妙地展示了 React 新的 "use server" 和 "use client" 指令如何让我们使用统一的范式在网络的两端构建丰富的功能。这是每个 React 开发者必看的内容。
+
+  # https://www.remotion.dev/
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: |
+      [This Week in React](https://thisweekinreact.com/) 的创建者
+  - key: picks.sebastien_lorber.description
+    t: |
+      在 React 中创建可编程视频的想法一直让我着迷。Remotion 是一个相对低调的项目，它在稳步缓慢地发展，已经成功地被开发者关系、教育工作者、独立创作者和大公司（特别是 GitHub 的 Unwrapped 视频活动）所采用。
+
+  # https://buildui.com/posts/instant-search-params-with-react-server-components
+  - key: picks.aurora_scharff.name
+    t: 使用 React Server Components 实现即时搜索参数
+  - key: picks.aurora_scharff.bio
+    t: Inmeta 的 Web 开发者和顾问
+  - key: picks.aurora_scharff.description
+    t: |
+      这篇博文讨论了在使用 Next.js App Router 构建正式应用时可能遇到的问题：处理搜索参数。要让交互表现"完美"出乎意料地困难，文章最后给出了解决方案：useOptimistic。它还通过大量沙盒演示教你关于过渡的知识。
+
+  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.josh_comeau.name
+    t: Pigment CSS
+  - key: picks.josh_comeau.bio
+    t: 软件工程师和教育者。[The Joy of React](https://www.joyofreact.com/) 的创作者
+  - key: picks.josh_comeau.description
+    t: |
+      Material UI 团队正在构建一个下一代的 CSS-in-JS 库，将样式化 API 引入 React Server Components 时代。虽然已经有很多 CSS-in-JS 工具，但这个工具满足了我所有的需求。
+
+  # https://www.propelauth.com/post/nextjs-challenges
+  - key: picks.carl_vitullo.name
+    t: 不是你的错，Next.js 正变得越来越难使用
+  - key: picks.carl_vitullo.bio
+    t: 独立创业者，目前主持 [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526)，同时是 [Reactiflux](https://www.reactiflux.com/) 的社区负责人
+  - key: picks.carl_vitullo.description
+    t: |
+      这是一篇很棒的博文！我认为它准确捕捉了 React 当前的时代精神，清晰地表达了 2024 年生态系统中一直在酝酿的frustration。
+
+  # https://sonner.emilkowal.ski
+  - key: picks.miguel_angel_duran.name
+    t: Sonner
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch 编程主播和内容创作者
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Sonner 是 React 最好的 toast 组件。默认就很漂亮，高度可配置，并且有简单的 API 可以在任何项目中使用。Emil 做了出色的工作。
+
+  # https://docs.expo.dev/router/introduction/
+  - key: picks.lydia_hallie.name
+    t: Expo Router
+  - key: picks.lydia_hallie.bio
+    t: 独立软件工程师和技术内容创作者
+  - key: picks.lydia_hallie.description
+    t: |
+      Expo Router 凭借其在 Web 和原生领域的惊人潜力赢得了我的选择。它是第一个利用 React 全部功能在所有平台上运行的框架，使 React 成为真正的平台无关渲染器。它的基于文件的架构使 Web 开发者更容易适应原生平台，加快开发速度，缩短了在所有设备上的发布时间。
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: 通过深入的现代前端工程课程提升你的技能。
+  - key: sponsors.google_chrome.description
+    t: 感谢 Google Chrome 团队对我们工作的支持。
+  - key: sponsors.tokyodev.description
+    t: 今天就在日本找到你理想的开发者工作。
+  - key: sponsors.renderatl.description
+    t: 专注于 Web 领域的技术大会。
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  # React 2023
+
+  - key: faq.data_used_react2024
+    t: 这些数据将如何使用？
+  - key: faq.data_used_react2024.description
+    t: >
+      所有收集的数据将公开发布供任何人查阅。开发者或公司可以使用它来确定重点领域和制定路线图。
+
+  - key: faq.survey_goals_react2024
+    t: 调查的目标是什么？
+  - key: faq.survey_goals_react2024.description
+    t: >
+      调查的目标是衡量 React API 以及 React 生态系统中各个库的知名度和流行程度。
+
+  - key: faq.who_should_take_survey_react2024
+    t: 谁应该参与这项调查？
+  - key: faq.who_should_take_survey_react2024.description
+    t: >
+      这是一项开放性调查，任何使用 React 的人都可以参加，无论是经常使用还是偶尔使用，无论是工作需要、学生身份，还是仅仅是为了娱乐！
+
+  - key: faq.how_long_will_survey_take_react2024
+    t: 完成调查需要多长时间？
+  - key: faq.how_long_will_survey_take_react2024.description
+    t: >
+      根据你回答的问题数量（所有问题都是可选的），完成调查大约需要 15-20 分钟。
+
+  - key: faq.survey_design_react2024
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_react2024.description
+    t: >
+      该调查是通过一个[开放式反馈主题](https://github.com/Devographics/surveys/issues/250)，收集社区意见后设计的。
+
+  - key: faq.results_released_react2024
+    t: 结果什么时候发布？
+  - key: faq.results_released_react2024.description
+    t: 调查将从 10 月 19 日持续到 11 月 19 日，调查结果将在之后不久发布。
+
+  - key: about.content
+    t: |
+      2024 年 React 现状调查从 2024 年 10 月 27 日持续到 11 月 15 日，收集了 13,003 份回复。结果于 2024 年 7 月 20 日发布。该调查由 [Devographics](https://devographics.com/) 运营，成员包括我（[Sacha Greif](https://sachagreif.com/)）和 [Eric Burel](https://www.lbke.fr/)，以及受邀专家和开源贡献者。
+
+      React 现状的标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      这项调查旨在识别 React 生态系统中的新兴趋势，以帮助开发者做出技术选择。
+
+      因此，调查更关注未来几年的发展趋势，而不是分析当前流行的技术。这就是为什么即使某些功能或技术目前很普及，也可能被省略的原因。
+
+      这也应该被视为**特定开发者群体的一个快照**，而不是代表整个 React 生态系统
+
+      ### 调查设计
+
+      本次调查部分基于去年的调查设计，并在 [GitHub](https://github.com/Devographics/surveys/issues/85) 上进行了公开的反馈讨论。
+
+      所有调查问题都是可选的。
+
+      ### 调查受众
+
+      调查在网上公开进行，respondents 没有经过任何筛选或选择。受访者主要来自往年的调查受众（通过专门的邮件列表通知）和社交媒体流量。
+
+      需要注意的是，各个框架、类库等都可以自由地鼓励其用户参与调查，有些确实通过横幅、推文等方式进行了宣传。详细的流量来源分析包含在"来源"图表中。
+
+      ### 项目资金
+
+      本项目的资金来自多个来源：
+
+      - **T 恤销售**。
+
+      - **赞助链接**：每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
+
+      - **直接资助**：今年，[Google](https://www.google.com/) 和 [TokyoDev](https://www.tokyodev.com/) 资助了我在调查方面的工作。
+
+      我们非常感谢任何形式的贡献或赞助。我们特别希望能够与更多的浏览器厂商密切合作，因为他们在 Web 生态系统中扮演着核心角色。
+
+      ### 技术概览
+
+      你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a)找到关于调查运作方式更深入的技术概述。
+
+      **注意：这不是 React 官方调查，调查团队与 Meta、Vercel 或 React 团队没有任何关联。**
+
+      ### 特别感谢
+
+      特别感谢 Paul McMahon、Marc Grabanski 和 Justin E. Samuels 的持续支持。

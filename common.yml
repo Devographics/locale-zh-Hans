@@ -648,6 +648,38 @@ translations:
   - key: options.years_of_experience.range_over_20.short
     t: ">20年"
 
+  # years of experience v3
+  - key: options.years_of_experience.range_0_4
+    t: 0-4 年
+  - key: options.years_of_experience.range_5_9
+    t: 5-9 年
+  - key: options.years_of_experience.range_10_14
+    t: 10-14 年
+  - key: options.years_of_experience.range_15_19
+    t: 15-19 年
+  - key: options.years_of_experience.range_20_24
+    t: 20-24 年
+  - key: options.years_of_experience.range_25_29
+    t: 25-29 年
+  - key: options.years_of_experience.range_over_30
+    t: 超过 30 年
+
+  # years of experience v3
+  - key: options.years.range_0_4
+    aliasFor: options.years_of_experience.range_0_4
+  - key: options.years.range_5_9
+    aliasFor: options.years_of_experience.range_5_9
+  - key: options.years.range_10_14
+    aliasFor: options.years_of_experience.range_10_14
+  - key: options.years.range_15_19
+    aliasFor: options.years_of_experience.range_15_19
+  - key: options.years.range_20_24
+    aliasFor: options.years_of_experience.range_20_24
+  - key: options.years.range_25_29
+    aliasFor: options.years_of_experience.range_25_29
+  - key: options.years.range_over_30
+    aliasFor: options.years_of_experience.range_over_30
+
   # company size
   - key: options.company_size.na
     t: 不清楚
