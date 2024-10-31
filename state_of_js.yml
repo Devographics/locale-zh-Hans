@@ -110,9 +110,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: 用于管理 monorepo 的工具
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: 其他工具
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: 其他 JavaScript 工具
 
   - key: sections.other_tools.title
@@ -816,269 +816,269 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.libraries
+  - key: tools.libraries
     t: 工具库
-  - key: tools_others.libraries.question
+  - key: tools.libraries.question
     t: 您经常使用哪些工具库？
-  - key: tools_others.libraries.others
+  - key: tools.libraries.others
     t: 其他工具库
-  - key: tools_others.libraries.others.description
+  - key: tools.libraries.others.description
     t: 其他答案（自由填写）。
 
-  - key: tools_others.text_editors
+  - key: tools.text_editors
     t: 文字编辑器
-  - key: tools_others.text_editors.question
+  - key: tools.text_editors.question
     t: 您经常使用哪些文字编辑器？
-  - key: tools_others.text_editors.others
+  - key: tools.text_editors.others
     t: 其他文字编辑器
-  - key: tools_others.text_editors.others.description
+  - key: tools.text_editors.others.description
     t: 其他答案（自由填写）。
 
-  - key: tools_others.utilities
+  - key: tools.utilities
     t: 工具集
-  - key: tools_others.utilities.question
+  - key: tools.utilities.question
     t: 您经常使用哪些工具集？
-  - key: tools_others.utilities.others
+  - key: tools.utilities.others
     t: 其他工具集
-  - key: tools_others.utilities.others.description
+  - key: tools.utilities.others.description
     t: 其他工具集（自由填写）。
 
-  - key: tools_others.browsers
+  - key: tools.browsers
     t: 浏览器
-  - key: tools_others.browsers.question
+  - key: tools.browsers.question
     t: 在初始开发过程中，您主要使用哪种浏览器？
-  - key: tools_others.browsers.others
+  - key: tools.browsers.others
     t: 其他浏览器
-  - key: tools_others.browsers.others.description
+  - key: tools.browsers.others.description
     t: 其他答案（自由填写）。
 
-  - key: tools_others.build_tools
+  - key: tools.build_tools
     t: 构建工具
-  - key: tools_others.build_tools.question
+  - key: tools.build_tools.question
     t: 您经常使用哪些构建工具？
-  - key: tools_others.build_tools.others
+  - key: tools.build_tools.others
     t: 其他构建工具
-  - key: tools_others.build_tools.others.description
+  - key: tools.build_tools.others.description
     t: 其他答案（自由填写）。
 
-  - key: tools_others.non_js_languages
+  - key: tools.non_js_languages
     t: 非 JavaScript 语言
-  - key: tools_others.non_js_languages.question
+  - key: tools.non_js_languages.question
     t: 您经常使用哪些非 JavaScript 语言?
-  - key: tools_others.non_js_languages.others
+  - key: tools.non_js_languages.others
     t: 其他语言
-  - key: tools_others.non_js_languages.others.description
+  - key: tools.non_js_languages.others.description
     t: 其他答案（自由填写）。
 
-  - key: tools_others.javascript_flavors
+  - key: tools.javascript_flavors
     t: JavaScript 变体
-  - key: tools_others.javascript_flavors.question
+  - key: tools.javascript_flavors.question
     t: 可编译为 JavaScript 的语言
-  - key: tools_others.javascript_flavors.others
+  - key: tools.javascript_flavors.others
     t: 其他 JavaScript 变体
-  - key: tools_others.javascript_flavors.others.description
+  - key: tools.javascript_flavors.others.description
     t: 其他答案（自由填写）。
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript 运行时
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: 你最常使用哪个引擎/运行时/执行环境？
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: 其他运行时
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: 其他答案（自由填写的答案）。
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: 包管理工具
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: 你最常使用哪个包管理工具？
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: 其他包管理工具
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: 其他答案（自由填写的答案）。
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
-  - key: tools_others.backend_as_a_service
+  - key: tools.backend_as_a_service
     t: 后端即服务 (BasS) 提供商
-  - key: tools_others.backend_as_a_service.question
+  - key: tools.backend_as_a_service.question
     t: 托管数据并提供客户端 API 以访问数据的服务。
-  - key: tools_others.backend_as_a_service.others
+  - key: tools.backend_as_a_service.others
     t: 其他 BasS 提供商
 
-  - key: tools_others.date_management
+  - key: tools.date_management
     t: 日期管理
-  - key: tools_others.date_management.question
+  - key: tools.date_management.question
     t: 帮助进行日期和时区管理的库。
-  - key: tools_others.date_management.others
+  - key: tools.date_management.others
     t: 其他日期管理的库
 
-  - key: tools_others.data_visualization
+  - key: tools.data_visualization
     t: 数据可视化
-  - key: tools_others.data_visualization.question
+  - key: tools.data_visualization.question
     t: 帮助图表和其他数据可视化的库。
-  - key: tools_others.data_visualization.others
+  - key: tools.data_visualization.others
     t: 其他数据可视化的库
 
-  - key: tools_others.graphics_animation
+  - key: tools.graphics_animation
     t: 图形与动画
-  - key: tools_others.graphics_animation.question
+  - key: tools.graphics_animation.question
     t: 专用于图形和动画的库。
-  - key: tools_others.graphics_animation.others
+  - key: tools.graphics_animation.others
     t: 其他图形与动画的库
 
-  - key: tools_others.data_fetching
+  - key: tools.data_fetching
     t: 数据获取
-  - key: tools_others.data_fetching.question
+  - key: tools.data_fetching.question
     t: 管理数据获取和缓存的库。
-  - key: tools_others.data_fetching.others
+  - key: tools.data_fetching.others
     t: 其他数据获取库
 
   - key: other_tools.libraries
-    aliasFor: tools_others.libraries
+    aliasFor: tools.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.question
+    aliasFor: tools.libraries.question
   - key: other_tools.libraries.others
-    aliasFor: tools_others.libraries.others
+    aliasFor: tools.libraries.others
   - key: other_tools.libraries.others.description
-    aliasFor: tools_others.libraries.others.description
+    aliasFor: tools.libraries.others.description
 
   - key: other_tools.text_editors
-    aliasFor: tools_others.text_editors
+    aliasFor: tools.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.question
+    aliasFor: tools.text_editors.question
   - key: other_tools.text_editors.others
-    aliasFor: tools_others.text_editors.others
+    aliasFor: tools.text_editors.others
   - key: other_tools.text_editors.others.description
-    aliasFor: tools_others.text_editors.others.description
+    aliasFor: tools.text_editors.others.description
 
   - key: other_tools.utilities
-    aliasFor: tools_others.utilities
+    aliasFor: tools.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.question
+    aliasFor: tools.utilities.question
   - key: other_tools.utilities.others
-    aliasFor: tools_others.utilities.others
+    aliasFor: tools.utilities.others
   - key: other_tools.utilities.others.description
-    aliasFor: tools_others.utilities.others.description
+    aliasFor: tools.utilities.others.description
 
   - key: other_tools.browsers
-    aliasFor: tools_others.browsers
+    aliasFor: tools.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.question
+    aliasFor: tools.browsers.question
   - key: other_tools.browsers.others
-    aliasFor: tools_others.browsers.others
+    aliasFor: tools.browsers.others
   - key: other_tools.browsers.others.description
-    aliasFor: tools_others.browsers.others.description
+    aliasFor: tools.browsers.others.description
 
   - key: other_tools.build_tools
-    aliasFor: tools_others.build_tools
+    aliasFor: tools.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.question
+    aliasFor: tools.build_tools.question
   - key: other_tools.build_tools.others
-    aliasFor: tools_others.build_tools.others
+    aliasFor: tools.build_tools.others
   - key: other_tools.build_tools.others.description
-    aliasFor: tools_others.build_tools.others.description
+    aliasFor: tools.build_tools.others.description
 
   - key: other_tools.non_js_languages
-    aliasFor: tools_others.non_js_languages
+    aliasFor: tools.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.question
+    aliasFor: tools.non_js_languages.question
   - key: other_tools.non_js_languages.others
-    aliasFor: tools_others.non_js_languages.others
+    aliasFor: tools.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
-    aliasFor: tools_others.non_js_languages.others.description
+    aliasFor: tools.non_js_languages.others.description
 
   - key: other_tools.javascript_flavors
-    aliasFor: tools_others.javascript_flavors
+    aliasFor: tools.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.question
+    aliasFor: tools.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
-    aliasFor: tools_others.javascript_flavors.others
+    aliasFor: tools.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
-    aliasFor: tools_others.javascript_flavors.others.description
+    aliasFor: tools.javascript_flavors.others.description
 
-  - key: tools_others.backend_frameworks
+  - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
+  - key: tools.backend_frameworks.description
     t: 生成 API 和管理后端的框架
-  - key: tools_others.backend_frameworks.others
+  - key: tools.backend_frameworks.others
     t: 其他后端框架
 
   - key: other_tools.runtimes
-    aliasFor: tools_others.runtimes
+    aliasFor: tools.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.question
+    aliasFor: tools.runtimes.question
   - key: other_tools.runtimes.others
-    aliasFor: tools_others.runtimes.others
+    aliasFor: tools.runtimes.others
   - key: other_tools.runtimes.others.description
-    aliasFor: tools_others.runtimes.others.description
+    aliasFor: tools.runtimes.others.description
 
   - key: other_tools.package_registries
-    aliasFor: tools_others.package_registries
+    aliasFor: tools.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.question
+    aliasFor: tools.package_registries.question
   - key: other_tools.package_registries.others
-    aliasFor: tools_others.package_registries.others
+    aliasFor: tools.package_registries.others
   - key: other_tools.package_registries.others.description
-    aliasFor: tools_others.package_registries.others.description
+    aliasFor: tools.package_registries.others.description
 
   - key: other_tools.form_factors
-    aliasFor: tools_others.form_factors
+    aliasFor: tools.form_factors
   - key: other_tools.form_factors.description
-    aliasFor: tools_others.form_factors.description
+    aliasFor: tools.form_factors.description
 
   - key: other_tools.backend_as_a_service
-    aliasFor: tools_others.backend_as_a_service
+    aliasFor: tools.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.question
+    aliasFor: tools.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
-    aliasFor: tools_others.backend_as_a_service.others
+    aliasFor: tools.backend_as_a_service.others
 
   - key: other_tools.date_management
-    aliasFor: tools_others.date_management
+    aliasFor: tools.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.question
+    aliasFor: tools.date_management.question
   - key: other_tools.date_management.others
-    aliasFor: tools_others.date_management.others
+    aliasFor: tools.date_management.others
 
   - key: other_tools.data_visualization
-    aliasFor: tools_others.data_visualization
+    aliasFor: tools.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.question
+    aliasFor: tools.data_visualization.question
   - key: other_tools.data_visualization.others
-    aliasFor: tools_others.data_visualization.others
+    aliasFor: tools.data_visualization.others
 
   - key: other_tools.graphics_animation
-    aliasFor: tools_others.graphics_animation
+    aliasFor: tools.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.question
+    aliasFor: tools.graphics_animation.question
   - key: other_tools.graphics_animation.others
-    aliasFor: tools_others.graphics_animation.others
+    aliasFor: tools.graphics_animation.others
 
   - key: other_tools.data_fetching
-    aliasFor: tools_others.data_fetching
+    aliasFor: tools.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.question
+    aliasFor: tools.data_fetching.question
   - key: other_tools.data_fetching.others
-    aliasFor: tools_others.data_fetching.others
+    aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools_others.backend_frameworks
+    aliasFor: tools.backend_frameworks
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools_others.backend_frameworks.description
+    aliasFor: tools.backend_frameworks.description
   - key: other_tools.backend_frameworks.others
-    aliasFor: tools_others.backend_frameworks.others
+    aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AI 工具
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: 您经常使用哪些人工智能工具来帮助您编写代码？
 
   - key: other_tools.hosting
@@ -1109,16 +1109,16 @@ translations:
   - key: usage.js_ts_balance.question
     t: 您如何分配编写 JavaScript 和 TypeScript 代码的时间？
 
-  - key: tools_others.edge_runtimes
+  - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless 运行时
-  - key: tools_others.edge_runtimes.question
+  - key: tools.edge_runtimes.question
     t: 您经常使用哪些边缘或无服务器运行时？
-  - key: tools_others.edge_runtimes.others
+  - key: tools.edge_runtimes.others
     t: 其他边缘运行时
   - key: other_tools.edge_runtimes
-    aliasFor: tools_others.edge_runtimes
+    aliasFor: tools.edge_runtimes
   - key: other_tools.edge_runtimes.description
-    aliasFor: tools_others.edge_runtimes.question
+    aliasFor: tools.edge_runtimes.question
 
   - key: usage.usage_type
     t: JavaScript 使用情况
