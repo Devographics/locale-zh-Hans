@@ -1081,9 +1081,9 @@ translations:
   - key: tools.ai_tools.question
     t: 您经常使用哪些人工智能工具来帮助您编写代码？
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: 托管服务
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: 您使用过哪些服务来托管 JavaScript 应用程序？
 
   ###########################################################################
