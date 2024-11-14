@@ -1039,7 +1039,7 @@ translations:
   - key: share.site.title
     t: 探索 {siteTitle} 结果
   - key: share.site.twitter_text
-    t: "探索 {siteTitle} 结果 {link} {hashtag}"
+    t: "探索 {siteTitle} 结果 {link}"
   - key: share.site.subject
     t: "{siteTitle} 调查结果"
   - key: share.site.body
