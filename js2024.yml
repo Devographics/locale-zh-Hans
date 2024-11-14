@@ -267,7 +267,7 @@ translations:
     t: Vercel 的开源捣蛋鬼。Rollup 和 Svelte 的创建者
   - key: picks.rich_harris.description
     t: |
-      如果你对软件的发展方向感兴趣，这个播客是必听的。它会重新点燃你对未来网络开发的乐观情绪。
+      如果你对软件的发展方向感兴趣，这个播客是必听的。它会重新点燃你对未来 Web 开发的乐观情绪。
 
   # https://tldraw.com
   - key: picks.david_khourshid.name

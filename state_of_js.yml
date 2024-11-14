@@ -1267,3 +1267,24 @@ translations:
     t: 使用JavaScript的第一步
   - key: resources.first_steps_js.description
     t: 刚开始学习时，你最初是如何学习 JavaScript 的？
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.who_should_take_survey_js
+    t: 谁应该参加这个调查？
+  - key: faq.who_should_take_survey_js.description
+    t: >
+      这是一个开放的调查，面向任何使用 JavaScript（或 TypeScript）的人，无论是作为工作的一部分、学生，还是仅仅为了娱乐！
+
+  - key: faq.survey_goals_js
+    t: 调查的目标是什么？
+  - key: faq.survey_goals_js.description
+    t: >
+      调查的目标是衡量 JavaScript 特性和库的认知度和流行度，以便预测未来的趋势。
+
+  - key: faq.data_used_js
+    t: 这些数据将如何使用？
+  - key: faq.data_used_js.description
+    t: 所有收集的数据将公开发布。它将成为开发者的资源，供他们参考以做出技术选择，同时也将成为浏览器供应商的资源，用于确定重点领域并指导其路线图。
