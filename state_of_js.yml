@@ -302,9 +302,9 @@ translations:
     t: 模式匹配
   - key: options.currently_missing_from_js.pattern_matching.description
     t: 提供新的 “match” 关键字用于模式匹配对象。
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: 管道操作
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: 一个新的 “|>” 运算符，用于将一个函数的结果传递给另一个函数。
   - key: options.currently_missing_from_js.decorators
     t: 装饰器
@@ -339,10 +339,10 @@ translations:
     aliasFor: options.currently_missing_from_js.pattern_matching
   - key: options.top_currently_missing_from_js.pattern_matching.description
     aliasFor: options.currently_missing_from_js.pattern_matching.description
-  - key: options.top_currently_missing_from_js.pipe_operator
-    aliasFor: options.currently_missing_from_js.pipe_operator
-  - key: options.top_currently_missing_from_js.pipe_operator.description
-    aliasFor: options.currently_missing_from_js.pipe_operator.description
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator.description
+    aliasFor: options.currently_missing_from_js.js_pipeline_operator.description
   - key: options.top_currently_missing_from_js.decorators
     aliasFor: options.currently_missing_from_js.decorators
   - key: options.top_currently_missing_from_js.decorators.description
@@ -376,7 +376,7 @@ translations:
     t: 装饰器
   - key: options.top_currently_missing_from_js.multithreading
     t: 多线程
-  - key: options.top_currently_missing_from_js.pipe_operator
+  - key: options.top_currently_missing_from_js.js_pipeline_operator
     t: 管道运算符
   - key: options.top_currently_missing_from_js.native_observables
     t: 原生的 Observables
@@ -601,7 +601,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
