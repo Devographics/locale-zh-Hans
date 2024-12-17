@@ -56,15 +56,14 @@ translations:
 
       <span class="first-letter">现</span>在应该很清楚了，无论是好是坏，JavaScript 并没有放慢脚步。
 
-      在服务器组件、服务器操作、信号、编译器等方面，我们正在看到新的创新出现得比我们大多数人能处理的速度还要快。
+      诚然， 这三个框架已经经历了很大的演变， 而 2014 年的开发模式在如今看来已经显得相当陈旧。 但考虑到 JavaScript 生态系统以不断变化的特点而闻名， 能够发现某些事物依然保持不变， 这确实令人欣慰 。
 
-      避免可怕的 JavaScript 疲劳的诀窍是记住你可以选择自己的道路：当然，你可以与早期采用者一起生活在最前沿；但你也可以保持较慢的步伐，专注于稳定、成熟的技术——并在几年后新技术冷却下来时再接触它。
+      说到不变， Vite 和 Vitest 仍然在各大排行榜中高居榜首， 引领着一代更新、更简单的工具发展 。
 
-      说到放慢脚步，你可能会想知道为什么这些 2024 年的调查结果在 2024 年已经过去了六个月才发布。事实上，在推出新的 [State of HTML](https://2024.stateofhtml.com/) 调查、创新新的问题格式、收集比以往更多的自由形式数据，以及重写大量数据可视化代码库之间，我们最终的工作量可能有点过于雄心勃勃，至少可以说。
+      另外， 我们新增了一个**元数据**附录， 它将为您提供关于调查受访者和调查本身的更多信息 。 别忘了，您还可以使用**查询构建器**将这些新变量应用到其他图表中 。
 
-      希望所有这些额外的努力都是值得的。而且我们确实计划在未来更快地完成这些工作。
+      说了这么多， 让我们来看看今年 JavaScript 的最新动态吧 ！
 
-      在这一切之后，让我们来发现 JavaScript 最近都在忙些什么吧！
       <span class="conclusion__byline">– Sacha Greif</span>
 
   ###########################################################################
@@ -109,34 +108,45 @@ translations:
   # Sections
   ###########################################################################
 
-  - key: sections.user_info.description
+  - key: sections.user_info.description.js2024
     t: |
-      今年，**23,540** 名受访者参与了调查。为了帮助突出不同的声音并深入挖掘更深层次的见解，我们特别努力提供了新的方式来分解我们的数据。
+      今年共有 **14,015** 名参与者参加了调查。
 
-  - key: sections.features.description
+
+      今年第一次，除了通常的人口统计数据点外，我们还询问了职称，这导致了一些关于这些职称如何与收入、年龄和性别相关的有趣发现。
+
+  - key: sections.features.description.js2024
     t: |
-      今年，我们特别强调识别开发者在 JavaScript 中遇到的问题。正如所料，**缺乏原生类型支持**和**浏览器不一致性**分别占据了各自图表的首位，几乎影响了三分之一的开发者。
+      JavaScript 的新 Set 和 Object 特性虽然还没有普遍采用，但它们将为开发者提供更好的解决方案，减少了对第三方工具库的依赖。
 
-  - key: sections.libraries.description
+
+      我们现在还会在可用时显示每个功能的基线状态 （[Baseline]()）：绿色表示“普遍可用”，蓝色表示“新推出”，白色表示“有限可用”。
+
+  - key: sections.libraries.description.js2024
     t: |
-      我们重新设计了图表，不仅突出了开发者体验，还突出了*感受*。请务必探索这些新的分组和排序选项，以找出哪些库最受喜爱……或最不受喜爱！
+      虽然 JavaScript 生态系统仍然相当分散，但很高兴看到一些最常用的库也是最受赞赏的。
 
-  - key: sections.other_tools.description
+
+      请务必看看我们新的分组和分类选项，以找出哪些库获得最多的喜爱......或最少的！
+
+  - key: sections.other_tools.description.js2024
     t: |
-      尽管 JavaScript 的讨论往往集中在选择哪个框架上，但值得记住的是，除了这些框架之外，还有一整个星系的工具、服务和平台可以探索！
+      这年AI工具在调查中首次亮相，而尽管目前这个领域仍被几名领先者占据，但看到已经存在的选项数量令人印象深刻！
 
-  - key: sections.usage.description
+  - key: sections.usage.description.js2024
     t: |
-      再次看来，TypeScript 似乎已经确立了自己作为默认选择的地位，至少在调查受访者中是如此。但除此之外，JavaScript 的使用仍然像以往一样多样化！
+      今年的调查显示，普通受访者使用 TypeScript，都是通过构建步骤运行代码，并且还没有完全加入 AI 的行列。
 
-  - key: sections.resources.description
+  - key: sections.resources.description.js2024
     t: |
-      我们决定不再提供预定义的选项列表供调查受访者选择，而是简单地提供原始文本字段。这导致今年的资源部分出现了相当多的新条目！
+      虽然不乏精彩的课程、播客和周刊，但视频内容仍在继续占领 JavaScript 内容的半壁江山。
 
-  - key: sections.awards.description
+
+      西班牙语的内容生态也值得强调，因为它对英语在编程世界的传统主导地位提出了有价值的挑战。
+
+  - key: sections.awards.description.js2024
     t: |
-      今年的奖项被一个非常特定的项目所主导……你能多快猜到它是什么？
-
+      您能多*快*猜出哪个项目将在每个类别中拔得头筹？
   ###########################################################################
   # Charts
   ###########################################################################
@@ -172,66 +182,58 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: 在 2022 年，**顶层 await** 的采用率增加了 **{value}**，迅速成为 JavaScript 的重要组成部分。
+    t: 随着 2022 年**{value}**的发展，**顶级等待**已迅速成为 JavaScript 不可或缺的一部分。
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vite** 继续成为增长最快的库，使用量同比增长 **{value}**！
+      就像它的名字那样，**Vite** 继续以创纪录的速度增长，使用率逐年增加**{value}**！
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite 再次位居榜首，**{value}** 的开发者愿意再次使用它！
+    t: Vitest 占据首位，**{value}**的开发人员愿意再次使用它！
 
   - key: award.tool_interest_award.comment
-    t: 你猜到 Vite 了吗？接近了，但今年 **Vitest** 是开发者最感兴趣的技术，兴趣比率为 **{value}**。
+    t: 在 Vite 生态系统中，今年 **Rolldown** 是开发人员最感兴趣的技术，关注比例为**{value}**。
 
   - key: award.most_write_ins_award.comment
-    t: 在自由形式问题中，**Bun** 被提及了 **{value}** 次，成为整体上被提及最多的技术。
+    t: Angular 元框架 **Analog** 被提及 **{value}** 次，是受访者写入最多的库。
 
   - key: award.most_commented_tool_award.comment
-    t: 有 **{value}** 条评论，React 再次证明它是讨论最多的库。
+    t: Angular 可能不是最新的产品，但它仍然是城中的热门话题，受访者对它的评价 **{value}** ！
 
   - key: award.most_loved_tool_award.comment
-    t: 有 **{value}** 的开发者对其持有积极看法，Vite 凭借其最受欢迎的技术地位，再次横扫这些奖项！
+    t: 在所有开发人员中，有 **{value}** 的人对其持肯定态度，因此 Vite 再次荣获最受喜爱技术奖！
 
   ###########################################################################
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.js2024.cassidy_williams
+  - key: conclusion.js2024.fernando_herrera
     t: |
-      <span class="first-line">各位，这是一个多么酷的互联网年份啊。</span>
+      <span class="first-line">几年前，另一项 JS 生态调查让我关注到了 Astro。</span>
 
-      有这么多有趣和令人兴奋的变化正在发生，我边建边看，键盘旁边放着爆米花！
+      我决定尝试一下，在花了几个小时后，我爱上了这项技术。几乎是一见钟情！突然间，我开始用 Astro 重构我的网站、管理工具和其他项目。现在，我可以说 Astro 是迄今为止我最喜欢的框架。
 
-      像 Preact、Solid 和 htmx 这样的“小”库在积极情绪上超过了像 Next.js 这样的庞然大物，这非常有趣。我们开始看到 Angular 有所回升，明年我们会看看这个趋势是否继续。我们看到人们对一些行业宠儿失去了爱。我们看到非常 Rusty 的系统在增长。Astro 在开发者支持方面感觉像是在冲刺。
+      JavaScript 是一个充满活力且不断发展的生态系统，拥有众多库和框架。从可复用组件到客户端、服务器端和静态解决方案，使用原生 JavaScript、社区包、库或框架都有无数种方式来实现你的目标，每种方式都为创新提供了新的机会。 当然，这可能会让人感到不知所措，但正是这种多样性让 JavaScript 变得强大，为你提供了从单一到数百种聪明的成功方法。
 
-      在实际的浏览器功能方面，几乎感觉我们走得太快，世界跟不上。这并不总是坏事，不一定！但我完全同意浏览器支持是我对所有新酷事物的首要关注。
+      不要害怕尝试不同的工具 —— 无论是 Vitest 还是 Jest， React 还是 Solid， Node 还是 Deno， Next.js 还是 Astro， 或者像 [Brisa](https://brisa.build/) 这样完全新的工具。
 
-      话虽如此，我个人很喜欢使用一些新的数组功能，并且越来越多的人支持 PWA。
+      保持好奇心，因为没有其他语言能像 JavaScript 一样提供如此丰富的社区、灵活性和创造力 ！
 
-      明年，让我们提高响应的多样性，让更多人参与开发，并希望所有新的和令人兴奋的变化都偏向于有趣，而不是令人望而生畏！感谢 Sacha 和团队在这里包括我，并再次运行这个精彩而有价值的调查。
+  - key: conclusion.js2024.fernando_herrera.bio
+    t: 开发者、教育家和 YouTuber
 
-      网上见！
-
-  - key: conclusion.js2024.cassidy_williams.bio
-    t: 开发者倡导者，工程师，开源贡献者，以及表情包创作者
-
-  - key: conclusion.js2024.theo_browne
+  - key: conclusion.js2024.shaundai_person
     t: |
-      <span class="first-line">Javascript 正在转向服务器端，而我们对此感到不安。</span>
+      <span class="first-line">就在不到五年前，我第一次发现了使用 TypeScript 的优势。</span>
 
-      在去年调查中，我们看到了像 Next、Nuxt、Remix 和 SvelteKit 这样的服务器渲染框架的快速采用。今年，我们转向了服务器优先的模式，如部分水合和岛屿架构，其采用率翻了一番。
+      我不是唯一一个这样的人；我是众多 JavaScript 开发人员中的一员，他们刚刚开始探索 TypeScript 及其对旨在创建可扩展、可维护的前端系统的团队的益处。 看到 TypeScript 如此迅速地流行起来，我感到非常惊讶！ 我很高兴地看到，大多数调查对象现在都在日常工作中使用 TypeScript。
 
-      像 htmx 这样的框架表明，利用服务器的不仅仅是 Web 开发者。SPA（单页应用）并没有消失（看看 [Inertia](https://inertiajs.com/) 作为证明），但随着这些新模式继续改进，市场似乎也在跟随。
+      如今，我在专业工作和个人项目中常用的技术栈包括 React、TypeScript、Vite 和 Jest。大型团队和快速发展的团队都将赌注押在了这些工具上，并在招聘前端开发人员时寻找这些领域的专业人才。因此，它们被其他组织广泛采用和保留也就不足为奇了。
 
-      这一转变并没有得到一致的喜爱。React 继续增长，但 React 开发者对其方向越来越担忧。走到这一步的过程是……艰难的，但每天都在取得进展。
+      如果你像我一样，宁愿专注于掌握一些基本工具，也不愿不断尝试新的框架和库。同样，你可能会像我一样，在可靠的前端工具发布到稳定版本并解决任何问题之前，暂不采用它们的最新版本。你不是一个人，对于我们这些偏爱久经考验的道路的人来说，这样做有很大的好处。
 
-      我们还看到 React 生态系统之外出现了更多选择。从 [Nuxt](https://roe.dev/blog/nuxt-server-components) 到 [SolidStart](https://docs.solidjs.com/solid-start/reference/server/use-server) 再到 [Astro](https://astro.build/blog/astro-480/#experimental-astro-actions)，所有最好的 React 服务器组件功能都在向每个开发者推出。
-
-      当然，Vite 继续占据主导地位，是应用开发者和框架作者的首选。很难想象如果没有它，我们现在会是什么样子！
-
-  - key: conclusion.js2024.theo_browne.bio
-    t: Ping、uploadthing、create-t3-app 的创建者，以及视频创作者
+  - key: conclusion.js2024.shaundai_person.bio
+    t: 前端高级软件工程师（Netflix）和课程讲师
 
   ###########################################################################
   # Picks
@@ -450,3 +452,306 @@ translations:
       ### 技术概述
 
       您可以在 [这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a) 找到关于如何运行调查的更深入技术概述。
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.js2024
+    t: >
+      和往常一样，美国在受访者中占了很大一部分，在收入中位数方面也名列前茅。
+
+  - key: user_info.age.takeaway.js2024
+    t: >
+      JS 状态受访者的平均年龄为 33.5 岁，结果比 CSS 状态（34.9）和 HTML 状态（35.8）略年轻。
+
+      不出所料，年龄和收入呈正相关；在年轻年龄组中看到更多的性别多样性是令人鼓舞的，因为这可能表明人口统计学的变化。
+
+      有趣的是，年轻的受访者更有可能患有认知障碍和视力障碍，而年长的受访者则更多地受到听力和行动障碍的影响。
+
+  - key: user_info.years_of_experience.takeaway.js2024
+    t: >
+      51% 的受访者拥有 10 年或更短的工作经验 —— 这意味着大多数调查者还不了解现代 JavaScript 框架之前的世界。
+
+      与年龄类似，经验较少的组别也显示出更多的性别多样性
+
+  - key: user_info.company_size.takeaway.js2024
+    t: >
+      规模较大的公司在受访者中仍占相当大的比例，而公司规模仍与收入水平相关。
+
+  - key: user_info.yearly_salary.takeaway.js2024
+    t: >
+      虽然我们经常听到硅谷有六位数薪水的故事，但实际上，全世界大多数前端开发人员的收入要低得多，这一点在直接比较美国和世界其他地区时就会很明显。
+
+  - key: user_info.job_title.takeaway.js2024
+    t: >
+      在 JavaScript 生态系统中，不同的职位名称似乎与前端框架一样多。但一个明显的趋势是，任何带有 “工程师 ”字样的职位都能为你带来更多收入 —— 即使与首席执行官、首席技术官和创始人相比也是如此。另一方面，“开发人员 ”显然处于阶梯的最底层，也许可以考虑印制新的名片......
+
+
+      在人口统计学方面，全栈和前端职位的员工平均年龄最小，前端职位的女性比例也明显较高。
+
+  - key: user_info.higher_education_degree.takeaway.js2024
+    t: >
+      虽然拥有学位能确保你赚得更多，但事实证明，学位并不一定与编程有关。
+
+  - key: user_info.gender.takeaway.js2024
+    t: >
+      与 2023 年相比，我们看到女性和非二元受访者的比例略有增加，部分原因是今年[重新开展了外联工作](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)。
+
+  - key: user_info.race_ethnicity.takeaway.js2024
+    t: >
+      非白人受访者更有可能更年轻、经验更少，这可以解释为什么他们的收入也更低；希望这也表明该行业的年轻群体正在不断多样化。
+
+  - key: user_info.disability_status.takeaway.js2024
+    t: >
+      无论是永久性还是暂时性残疾，对我们中的许多人来说都是日常生活的一部分，尤其是随着年龄的增长，听力和行动不便的情况会更加严重。
+
+      许多患有视力和认知障碍的受访者相对年轻，这也可以解释为什么这些残疾与收入水平相关。
+
+  # features
+
+  - key: features.language_pain_points.takeaway.js2024
+    t: >
+      当被问及他们最头疼 JavaScript 的哪一方面时，绝大多数受访者都提到了缺乏内置类型系统，浏览器支持问题则排在第二位。
+
+  - key: features.browser_apis_pain_points.takeaway.js2024
+    t: >
+      不出所料，浏览器支持不力是浏览器及其 API 方面的最大障碍。Safari 也被强调为一个共同的痛点，浏览器功能文档的整体缺乏也是如此。
+
+  - key: features.reading_list.takeaway.js2024
+    t: >
+      阅读列表可让您保存调查完成后想了解的项目。
+
+      今年，`error.cause`、逻辑赋值和 `Object.groupBy()` 是最能引发受访者好奇心的功能。
+
+  # tools
+
+  - key: tools.all_tools_experience.takeaway.js2024
+    t: >
+      Webpack 是使用最多的 JavaScript 工具，但不是最受喜爱的。这一头衔属于 Vite，它获得了 56% 的好评（注意，今年也有保持中立的选项）。令人吃惊的是，尽管 Vite 推出的时间相对较短，但它也是使用率第三高的工具！
+
+
+      另一方面，React 不仅在最常用排行榜上名列第二，而且在最受喜爱排行榜上也名列第二 —— 这对于一个已经有 10 多年历史的项目来说是相当不容易的！同样值得注意的是，React 的用户主动选择情感的比例也是最高的。
+
+  - key: tools.tools_arrows.takeaway.js2024
+    t: >
+      随着时间的推移，JavaScript 库通常会出现 “回旋镖 ”模式：由于早期的积极推动（直线向右），使用率会增加（直线向上），但用户随后会遇到更多的边缘情况和实际问题，意见会变得更加消极（直线向左）。
+
+
+      因此，看到那些能够逆势而上的项目总是很有意思，比如 Vue 和 Angular，它们都在经历了几年的不景气之后再次获得了积极的评价。
+
+  - key: tools.tier_list.takeaway.js2024
+    t: >
+      遗憾的是，目前还没有单一的 “S 级 ”技术栈，但 SvelteKit 和 Astro 似乎都是启动项目的安全选择，可能还需要使用 Vitest 进行测试，并使用 pnpm 管理你的 monorepo。
+
+  - key: tools.scatterplot_overview.takeaway.js2024
+    t: >
+      值得注意的是，只有三个库的受访者使用率超过 50%，而保留率却大于 50%： React、Jest 和 Vite 是生态系统相对分散的标志。
+
+  # front end frameworks
+
+  - key: tools.front_end_frameworks_ratios.takeaway.js2024
+    t: >
+      去年的大事件是 Vue 在受访者中的原始使用率超过了 Angular。尽管 Angular 在今年取得了进步，但 Vue 还是保住了第二的位置，而且在留存率方面也获得了三位之多！
+
+      与此同时，Svelte 的使用率也在稳步上升，在总体正面评价方面继续名列前茅。
+
+  - key: tools.front_end_frameworks_pain_points.takeaway.js2024
+    t: >
+      作为现任者，React 不得不成为承担多数抱怨的目标。
+
+
+      过于复杂、选择过多、性能不佳和破坏性更改也是常见的主要痛点。
+
+  - key: tools.front_end_frameworks_work.takeaway.js2024
+    t: >
+      虽然受访者在工作中使用哪种前端框架并没有造成收入上的实质性差异，但公司规模却说明了不同的问题。
+
+
+      新的挑战者 Alpine.js、Qwik 和 Solid 正受到小公司的青睐，而 Web Components解决方案 Lit 和 Stencil 则被大公司广泛使用。
+
+  # meta frameworks
+
+  - key: tools.meta_frameworks_ratios.takeaway.js2024
+    t: >
+      就原始使用率而言，Next.js 仍遥遥领先于竞争对手。然而，如果不看 Gatsby，Next.js 的留存率将会是倒数第一。
+
+
+      这说明 Astro 和 SvelteKit 取得了成功，尤其是到目前为止，它们已经成功地让用户感到非常满意。
+
+  - key: tools.meta_frameworks_pain_points.takeaway.js2024
+    t: >
+      就像 React 本身的类别一样，Next.js 作为领导者也首当其冲地受到了批评。
+
+  - key: tools.meta_frameworks_work.takeaway.js2024
+    t: >
+      Gatsby 可能是最不受欢迎的工具之一，但却是最赚钱的工具 —— 这很可能是因为它主要被用于大公司。
+
+
+      另一方面，Astro 仍处于企业应用的起步阶段，而企业应用又与较低的收入相关。
+
+  # testing
+
+  - key: tools.testing_ratios.takeaway.js2024
+    t: >
+      在过去几年中，Vitest 的排名上升趋势如此明显，实属罕见。虽然在使用率方面，它可能 “仅 ”排名第四，但在兴趣、留存率和整体积极性方面，它已经高居榜首，而且没有任何迹象表明它很快就会让出第一的位置。
+
+  - key: tools.testing_pain_points.takeaway.js2024
+    t: >
+      Mocking 是测试带来的最大痛点，其次是复杂设置和配置带来的麻烦，以及测试运行缓慢带来的负担。
+
+  - key: tools.testing_work.takeaway.js2024
+    t: >
+      Vitest 显示了技术生命周期初期的典型迹象：留存率高、兴趣浓厚，但目前在大公司中的采用率较低。
+
+  # mobile desktop
+  - key: tools.mobile_desktop_ratios.takeaway.js2024
+    t: >
+      在过去的十年中，开发移动和桌面应用程序变得越来越普遍，但这并不意味着开发人员一定会对他们的工具感到满意。
+
+
+      虽然 Tauri 和 Expo 在留存率排行榜上名列前茅，但与优秀的本地应用程序相比，其他所有应用程序的留存率都较低。
+
+  - key: tools.mobile_desktop_pain_points.takeaway.js2024
+    t: >
+      JavaScript 代码库在性能方面仍难以与纯粹的原生应用程序相抗衡。Electron 和 React Native 似乎都有各自的缺点。
+
+  - key: tools.mobile_desktop_work.takeaway.js2024
+    t: >
+      同样，像 Tauri 这样的新工具在工作场所似乎主要被经验较少的开发人员所使用，这也说明没有那些包袱有时也是件好事！
+
+  # build tools
+
+  - key: tools.build_tools_ratios.takeaway.js2024
+    t: >
+      与同门兄弟 Vitest 一样，Vite 也在以创纪录的速度扩大市场份额。此外，请务必关注新进入市场的 Rolldown 和 Rspack，它们在排行榜上的起点都很高。
+
+  - key: tools.build_tools_pain_points.takeaway.js2024
+    t: >
+      配置过多历来是构建工具的弊病，但往往也正是这种复杂性造就了这些工具的强大功能。
+
+  - key: tools.build_tools_work.takeaway.js2024
+    t: >
+      Rspack 以某种方式逆势而上，一跃成为大公司的采用对象，这无疑是它采取了非常聪明的策略，成为 webpack 的直接替代品。
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Monorepos 尚未成为网络开发生态系统的主流，但对于那些勇于探索这一新领域的人来说，pnpm 似乎是当之无愧的领跑者。
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Monorepos 仍然很难正确设置。而软件包管理本身，我们也还没有完全搞清楚......不过话说回来，谁又搞清楚了呢？
+
+  - key: tools.monorepo_tools_work.takeaway.js2024
+    t: >
+      由于公司规模通常与代码库规模相关联，因此许多 monorepo 工具被大公司使用也就不足为奇了。
+
+  # usage
+
+  - key: usage.js_ts_balance.takeaway.js2024
+    t: >
+      我们现在已经进入了 TypeScript 时代。67%的受访者表示，他们编写的 TypeScript 代码多于 JavaScript 代码，而最大的一个群体是**只**编写 TypeScript 的人。
+
+  - key: usage.compiled_code_balance.takeaway.js2024
+    t: >
+      2024 年，我们几乎所有的 JavaScript 代码都要经过构建步骤，这一点不足为奇。捆绑程序和构建工具无疑会增加开发过程的复杂性，但它们很可能会继续存在。
+
+  - key: usage.ai_generated_code_balance.takeaway.js2024
+    t: >
+      尽管人们都在谈论 AI 辅助编码，但我们中的大多数人仍然只是很少使用 AI 工具。事实上，有整整 20% 的人根本不使用这些工具来编写代码。
+
+  - key: usage.usage_type.takeaway.js2024
+    t: >
+      了解受访者在什么情况下编写 JavaScript 代码总是有好处的，绝大多数受访者在日常工作中使用 JavaScript。
+
+  - key: usage.what_do_you_use_js_for.takeaway.js2024
+    t: >
+      几乎所有受访者都表示，他们使用 JavaScript 进行前端开发，这与该语言的起源不无关系。
+
+  - key: usage.industry_sector.takeaway.js2024
+    t: >
+      虽然最大的行业部门是为其他开发人员开发工具的开发人员，但收入最高的行业部门却是广告业。
+
+  - key: usage.js_app_patterns.takeaway.js2024
+    t: >
+      尽管现代 JavaScript 元框架现在支持复杂的呈现策略，但最常见的应用模式仍然是最传统的模式：单页面应用和服务器端呈现。
+
+  - key: usage.top_js_pain_points.takeaway.js2024
+    t: >
+      一旦代码库超过一定规模，代码架构就会成为一个令人担忧的问题，因此它在 JavaScript 总体痛点排名中名列前茅也就在情理之中了，其次是状态和依赖性管理。
+
+  - key: usage.js_new_features.takeaway.js2024
+    t: >
+      目前有不少 [TC39 提案](https://github.com/tc39/proposals) 即将成为现实。今年，受访者最感兴趣的是 “时态 ”和 “装饰器”。
+
+  - key: usage.top_currently_missing_from_js.takeaway.js2024
+    t: >
+      虽然社区长期以来一直觉得缺乏原生静态类型，但有趣的是，尽管 Signals 并不是最流行的前端框架的一部分，它却在这份榜单中排名第三。
+
+  - key: usage.native_types_proposal.takeaway.js2024
+    t: >
+      很明显，调查对象想要原生类型，而且他们希望能用类似于 TypeScript 的语法来实现这些类型。
+
+
+      遗憾的是，今年的问题措辞没有明确区分运行时类型和类似于 TypeScript 的类型即注释，因此这两条路线中哪条会获得社区的青睐还有待观察。
+
+  # resources
+
+  - key: resources.courses.takeaway.js2024
+    t: >
+      Udemy has done a great job of drafting popular instructors such as Brad Traversy or Colt Steele to boost its roster of JavaScript courses, and so has Frontend Masters (disclaimer: Frontend Masters financially supports this survey).
+
+
+      It's also worth mentioning You Don't Know JS, a great book available online for free.
+
+  - key: resources.newsletters.takeaway.js2024
+    t: >
+      Newsletters are a great way to stay up to date with the ever-changing JavaScript landscape, and Cooperpress' JavaScript Weekly continues to lead the field.
+
+  - key: resources.podcasts.takeaway.js2024
+    t: >
+      While Syntax retains its crown for now, a new challenge might come in the form of video creators such as The Primeagen and Midudev, who can easily generate audio content in addition to traditional streams.
+
+  - key: resources.video_creators.takeaway.js2024
+    t: >
+      Fireship, Theo, The Primeagen, stand atop the video creator rankings. But it's worth highlighting how vibrant the Spanish-language ecosystem has become, starting with (but not limited to!) Midudev in fourth place overall.
+
+
+      Note that the second tab shows the same rankings, but manually filtered down to Spanish-language creators only.
+
+  - key: resources.people.takeaway.js2024
+    t: >
+      English has long been the dominant language of the tech industry, but in our corner of the world at least Spanish is stepping up to the challenge, with Midudev and Fernando Herrera topping the rankings of most influential developers for non-video channels.
+
+  # metadata
+
+  - key: user_metadata.source.takeaway.js2024
+    t: >
+      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
+
+
+      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) focused on attracting more women developers.
+
+  - key: user_metadata.past_surveys.takeaway.js2024
+    t: >
+      This chart shows which other Devographics surveys this year's respondents had previously taken part in. 
+
+
+      The fact that a sizeable segment of this year's respondents had also taken other surveys points to web development not being quite as fragmented as one might think – even if you primarily write JavaScript, keeping up with CSS and the web platform is still key!
+
+
+      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+
+  - key: user_metadata.past_same_survey_count.takeaway.js2024
+    t: >
+      This chart shows how many times this year's respondents had taken part in a State of JS survey before.
+
+
+      The fact that the largest bucket consists of new respondents means we are successfully reaching a new population, which mitigates bias that might carry over from our existing audience. But it also points to the challenges of getting people to consistently fill out a survey year after year.
+
+
+      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
