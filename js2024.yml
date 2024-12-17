@@ -182,23 +182,23 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: 随着 2022 年**{value}**的发展，**顶级等待**已迅速成为 JavaScript 不可或缺的一部分。
+    t: 随着 2022 年 **{value}** 的发展，**Top-level await** 已迅速成为 JavaScript 不可或缺的一部分。
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      就像它的名字那样，**Vite** 继续以创纪录的速度增长，使用率逐年增加**{value}**！
+      就像它的名字那样，**Vite** 继续以创纪录的速度增长，使用率逐年增加 **{value}** ！
 
   - key: award.tool_satisfaction_award.comment
-    t: Vitest 占据首位，**{value}**的开发人员愿意再次使用它！
+    t: Vitest 位居榜首， **{value}** 的开发者愿意再次使用它！
 
   - key: award.tool_interest_award.comment
-    t: 在 Vite 生态系统中，今年 **Rolldown** 是开发人员最感兴趣的技术，关注比例为**{value}**。
+    t: 在 Vite 生态系统中，今年 **Rolldown** 是开发人员最感兴趣的技术，关注比例为**{value}** 。
 
   - key: award.most_write_ins_award.comment
     t: Angular 元框架 **Analog** 被提及 **{value}** 次，是受访者写入最多的库。
 
   - key: award.most_commented_tool_award.comment
-    t: Angular 可能不是最新的产品，但它仍然是城中的热门话题，受访者对它的评价 **{value}** ！
+    t: Angular 也许不是最新兴的技术，但它仍然是热门话题，有 **{value}** 位受访者发表了评论!
 
   - key: award.most_loved_tool_award.comment
     t: 在所有开发人员中，有 **{value}** 的人对其持肯定态度，因此 Vite 再次荣获最受喜爱技术奖！
@@ -731,14 +731,14 @@ translations:
 
   - key: user_metadata.source.takeaway.js2024
     t: >
-      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
+      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey.
 
 
       We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) focused on attracting more women developers.
 
   - key: user_metadata.past_surveys.takeaway.js2024
     t: >
-      This chart shows which other Devographics surveys this year's respondents had previously taken part in. 
+      This chart shows which other Devographics surveys this year's respondents had previously taken part in.
 
 
       The fact that a sizeable segment of this year's respondents had also taken other surveys points to web development not being quite as fragmented as one might think – even if you primarily write JavaScript, keeping up with CSS and the web platform is still key!
