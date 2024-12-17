@@ -731,27 +731,27 @@ translations:
 
   - key: user_metadata.source.takeaway.js2024
     t: >
-      The majority of respondents knew about the survey from previous years. It's also worth highlighting that the [Angular](https://angular.dev/) and [Nuxt](https://nuxt.com/) homepages featured banners pointing their users to the survey; and that Bluesky came in at number 5 despite this being the first time appearing as a traffic source for the survey. 
+      大多数受访者在前几年就知道这项调查。还值得一提的是，[Angular](https://angular.dev/) 和 [Nuxt](https://nuxt.com/) 主页上都展示了横幅，引导用户参与调查；尽管这是 Bluesky 首次作为调查的流量来源出现，但它排在第 5 位。
 
 
-      We also made special outreach efforts ([full report here](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) focused on attracting more women developers.
+      我们还进行了特别的外联工作（[完整报告在此处](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)），重点是吸引更多女性开发者。
 
   - key: user_metadata.past_surveys.takeaway.js2024
     t: >
-      This chart shows which other Devographics surveys this year's respondents had previously taken part in. 
+      此图表显示了今年的受访者之前参加过哪些其他 Devographics 调查。
 
 
-      The fact that a sizeable segment of this year's respondents had also taken other surveys points to web development not being quite as fragmented as one might think – even if you primarily write JavaScript, keeping up with CSS and the web platform is still key!
+      今年的受访者中有相当一部分还参加过其他调查，这一事实表明，Web 开发并不像人们想象的那么分散——即使你主要编写 JavaScript，跟上 CSS 和 Web 平台仍然是关键！
 
 
-      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+      请注意，我们只能为登录后参加调查的受访者生成此数据点。访客受访者显示为“无答案”。
 
   - key: user_metadata.past_same_survey_count.takeaway.js2024
     t: >
-      This chart shows how many times this year's respondents had taken part in a State of JS survey before.
+      此图表显示了今年的受访者之前参加过多少次 JS 状态调查。
 
 
-      The fact that the largest bucket consists of new respondents means we are successfully reaching a new population, which mitigates bias that might carry over from our existing audience. But it also points to the challenges of getting people to consistently fill out a survey year after year.
+      最大的群体由新受访者组成，这意味着我们成功地接触到了新的人群，这减轻了可能从我们现有受众中延续下来的偏见。但它也指出了让人们年复一年地持续填写调查问卷的挑战。
 
 
-      Note that we can only generate this datapoint for respondents taking the survey while logged-in. Guest respondents appear as “No Answer”.
+      请注意，我们只能为登录后参加调查的受访者生成此数据。访客受访者显示为“无答案”。

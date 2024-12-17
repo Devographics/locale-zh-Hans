@@ -271,21 +271,37 @@ translations:
   - key: sections.awards.description
     t: 今年的亮点
 
+  - key: sections.user_metadata.title
+    t: 元数据
+  - key: sections.user_metadata.description
+    t: 收集有关受访者的额外元数据。
+
     ###########################################################################
     # User Info
     ###########################################################################
 
   - key: user_info.locale
     t: 语言
+    aliases:
+      - user_metadata.locale
   - key: user_info.locale.description
     t: 受访者选择了什么语言来填写调查问卷？
+    aliases:
+      - user_metadata.locale.description
 
   - key: user_info.source
     t: 来源
+    aliases:
+      - user_metadata.source
   - key: user_info.source.description
     t: 受访者如何了解到这项调查的？
+    aliases:
+      - user_metadata.source.description
   - key: user_info.source.note
     t: 这些数据是自报答案、推荐人数据和URL跟踪数据的混合。
+    aliases:
+      - user_metadata.source.note
+
   - key: options.source.other_answers
     t: 其他来源
 
@@ -342,6 +358,55 @@ translations:
     t: 按性别分列的高等教育学位
   - key: user_info.higher_education_degree_by_gender.description
     t: 按性别划分的高等教育学位分布。
+
+  - key: user_metadata.past_surveys
+    t: 之前的调查
+  - key: user_metadata.past_surveys.description
+    t: 受访者之前参加过的 Devographics 调查。
+  # - key: user_metadata.past_surveys.note
+  #   t: Please note that this data does not include respondents taking the survey as guests.
+
+  - key: user_metadata.past_same_survey_count
+    t: 参与人数
+  - key: user_metadata.past_same_survey_count.description
+    t: 受访者参与当前调查的次数。
+  # - key: user_metadata.past_same_survey_count.note
+  #   aliasFor: user_metadata.past_surveys.note
+
+  - key: user_metadata.created_at_date
+    t: 随时间变化的反应
+  - key: user_metadata.created_at_date.description
+    t: 按时间顺序细分的答案提交时间。
+
+  - key: user_metadata.authmode
+    t: 验证
+  - key: user_metadata.authmode.description
+    t: 受访者是否已登录或以访客身份填写调查问卷。
+
+  - key: options.authmode.anonymous
+    t: 访客帐户
+  - key: options.authmode.passwordless
+    t: 登录账户
+
+  - key: user_metadata.device
+    t: 设备
+  - key: user_metadata.device.description
+    t: 使用什么设备进行调查。
+
+  - key: user_metadata.browser
+    t: 浏览器
+  - key: user_metadata.browser.description
+    t: 使用什么浏览器进行调查
+
+  - key: user_metadata.version
+    t: 浏览器版本
+  - key: user_metadata.version.description
+    t: 使用哪个版本的浏览器进行调查。
+
+  - key: user_metadata.os
+    t: 操作系统
+  - key: user_metadata.os.description
+    t: 使用哪个操作系统版本来进行调查。
 
   ###########################################################################
   # Locales
