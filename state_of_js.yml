@@ -1070,9 +1070,9 @@ translations:
     aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools.backend_frameworks
+    t: 后端框架
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools.backend_frameworks.description
+    t: 生成 API 和管理后端开发的框架
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
