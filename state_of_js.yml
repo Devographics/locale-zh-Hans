@@ -488,26 +488,6 @@ translations:
   - key: options.js_app_patterns.pespa
     t: PESPA
 
-  # slider
-  - key: options.js_ts_balance.0
-    t: 100% JS
-  - key: options.js_ts_balance.1
-    t: "|"
-  - key: options.js_ts_balance.2
-    t: "|"
-  - key: options.js_ts_balance.3
-    t: "|"
-  - key: options.js_ts_balance.4
-    t: "50/50"
-  - key: options.js_ts_balance.5
-    t: "|"
-  - key: options.js_ts_balance.6
-    t: "|"
-  - key: options.js_ts_balance.7
-    t: "|"
-  - key: options.js_ts_balance.8
-    t: 100% TS
-
   ###########################################################################
   # Features
   ###########################################################################
@@ -1098,16 +1078,114 @@ translations:
     t: 其他应用范式
 
   - key: usage.what_do_you_use_js_for
-    t: JavaScript 使用情况
+    t: JavaScript 用例
   - key: usage.what_do_you_use_js_for.question
     t: 您使用 JavaScript 来做什么？
   - key: usage.what_do_you_use_js_for.others
     t: 其他 JavaScript 用例
 
+  # js_ts_balance
+
   - key: usage.js_ts_balance
     t: JavaScript/TypeScript 平衡
   - key: usage.js_ts_balance.question
     t: 您如何分配编写 JavaScript 和 TypeScript 代码的时间？
+
+  - key: options.js_ts_balance.0
+    t: 0% TS
+  - key: options.js_ts_balance.1
+    t: "|"
+  - key: options.js_ts_balance.2
+    t: "|"
+  - key: options.js_ts_balance.3
+    t: "|"
+  - key: options.js_ts_balance.4
+    t: "50/50"
+  - key: options.js_ts_balance.5
+    t: "|"
+  - key: options.js_ts_balance.6
+    t: "|"
+  - key: options.js_ts_balance.7
+    t: "|"
+  - key: options.js_ts_balance.8
+    t: 100% TS
+
+  - key: options.js_ts_balance.0.description
+    aliasFor: options.slider.0.description
+  - key: options.js_ts_balance.1.description
+    aliasFor: options.slider.1.description
+  - key: options.js_ts_balance.2.description
+    aliasFor: options.slider.2.description
+  - key: options.js_ts_balance.3.description
+    aliasFor: options.slider.3.description
+  - key: options.js_ts_balance.4.description
+    aliasFor: options.slider.4.description
+  - key: options.js_ts_balance.5.description
+    aliasFor: options.slider.5.description
+  - key: options.js_ts_balance.6.description
+    aliasFor: options.slider.6.description
+  - key: options.js_ts_balance.7.description
+    aliasFor: options.slider.7.description
+  - key: options.js_ts_balance.8.description
+    aliasFor: options.slider.8.description
+
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    t: AI 代码生成
+  - key: usage.ai_generated_code_balance.question
+    t: 在您的代码中，人工智能生成的代码比例是多少？
+  - key: usage.ai_generated_code_balance.prompt
+    t: 包括从ChatGPT或其他聊天机器人复制粘贴的代码。
+
+  # ai_generated_code_balance
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
+  # compiled_code_balance
+
+  - key: usage.compiled_code_balance
+    t: 编译代码平衡
+  - key: usage.compiled_code_balance.question
+    t: 您为浏览器编写的 JavaScript 代码中有多大比例需要经过构建步骤？
+  - key: usage.compiled_code_balance.prompt
+    t: 任何被打包、精简或以其他方式转换的代码，不同于浏览器直接执行的代码。
+
+  # compiled_code_balance
+  - key: options.compiled_code_balance.0
+    t: 0% 编译过
+  - key: options.compiled_code_balance.1
+    t: "|"
+  - key: options.compiled_code_balance.2
+    t: "|"
+  - key: options.compiled_code_balance.3
+    t: "|"
+  - key: options.compiled_code_balance.4
+    t: "50%"
+  - key: options.compiled_code_balance.5
+    t: "|"
+  - key: options.compiled_code_balance.6
+    t: "|"
+  - key: options.compiled_code_balance.7
+    t: "|"
+  - key: options.compiled_code_balance.8
+    t: 100% 编译过
 
   - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless 运行时
@@ -1138,6 +1216,48 @@ translations:
     t: 您在哪个行业使用 JavaScript？
   - key: usage.industry_sector_js.others
     aliasFor: usage.industry_sector.others
+
+  - key: usage.js_sugar_proposal
+    t: JS0/JSSugar
+  - key: usage.js_sugar_proposal.question
+    t: 你怎么看待最近的 JS0/JSSugar 提案？
+  - key: usage.js_sugar_proposal.prompt
+    t: 该提议会将新特性的支持转移到 JSSugar，一个由构建工具解释的JavaScript版本；而浏览器只会支持 JS0，这是一个 JavaScript 语言的子集。
+
+  - key: options.js_sugar_proposal.strongly_oppose
+    t: 强烈反对
+  - key: options.js_sugar_proposal.oppose
+    t: 反对
+  - key: options.js_sugar_proposal.neutral
+    t: 中立
+  - key: options.js_sugar_proposal.support
+    t: 支持
+  - key: options.js_sugar_proposal.strongly_support
+    t: 强烈支持
+
+  - key: usage.native_types_proposal
+    t: 原生类型
+  - key: usage.native_types_proposal.question
+    t: 您希望如何在 JavaScript 中实现原生类型吗？
+
+  - key: options.native_types_proposal.typescript_like_types
+    t: 尽可能与 TypeScript 类似
+  - key: options.native_types_proposal.jsdoc_like_types
+    t: 类似 JSDoc 那样使用注释
+  - key: options.native_types_proposal.no_types
+    t: 我不希望看到它们被实现
+
+  - key: usage.js_new_features
+    t: 新提案
+  - key: usage.js_new_features.question
+    t: 在这些活跃的 JavaScript 提案中，你最感兴趣的是什么？
+  - key: usage.js_new_features.prompt
+    t: 基于当前处于阶段 2.7 和 3 的 [TC39 ECMAScript 提案](https://github.com/tc39/proposals)。
+
+  - key: usage.js_missing_features
+    t: 缺失的功能
+  - key: usage.js_missing_features.question
+    t: 您认为 JavaScript 目前缺少哪些功能？
 
   ###########################################################################
   # Opinions
