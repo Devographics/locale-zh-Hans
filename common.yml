@@ -1618,8 +1618,12 @@ translations:
   # completion
   - key: user_info.completion_stats
     t: 调查完成情况
+    aliases:
+      - user_metadata.completion_stats
   - key: user_info.completion_stats.description
     t: 受访者填写了调查问卷的哪些部分？
+    aliases:
+      - user_metadata.completion_stats.description
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
