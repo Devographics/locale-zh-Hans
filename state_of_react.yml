@@ -30,31 +30,37 @@ translations:
     t: 组件
   - key: sections.components.description
     t: 由 React 提供的特殊组件
+
   - key: sections.hooks.title
     t: Hooks
   - key: sections.hooks.description
     t: React 内置的 hooks
-  - key: sections.other_apis.title
-    t: 其他 API
-  - key: sections.other_apis.description
-    t: 其他 API 和功能
-  - key: sections.component_apis.title
-    t: 组件 API
-  - key: sections.component_apis.description
-    t: 操作组件的 API
-  - key: sections.legacy_apis.title
-    t: 遗留的 API
-  - key: sections.legacy_apis.description
-    t: 已弃用的和遗留的 API
+
+  - key: sections.new_apis.title
+    t: 新特性
+  - key: sections.new_apis.description
+    t: 新加入或实验性的 API 和特性
+
+  - key: sections.component_libraries.title
+    t: 组件库
+  - key: sections.component_libraries.description
+    t: 构建前端应用的砖块
 
   - key: sections.state_management.title
     t: 状态管理
   - key: sections.state_management.description
     t: 用于管理应用程序状态的工具库。
+
   - key: sections.data_loading.title
     t: 数据加载
   - key: sections.data_loading.description
     t: 用于加载和管理数据的实用工具。
+
+  - key: sections.back_end_infrastructure.title
+    t: 后端和基础设施
+  - key: sections.back_end_infrastructure.description
+    t: 打包与提供你的应用
+
   - key: sections.ui_libraries.title
     t: UI 库
   - key: sections.ui_libraries.description
@@ -72,15 +78,21 @@ translations:
   - key: sections.mobile_development.description
     t: 移动开发的库和实用工具
 
-  - key: sections.other_tools.title
-    t: 其他工具
-  - key: sections.other_tools.description
-    t: 其他 React 实用工具和库
+  - key: sections.tools.title
+    t: 其它工具
+  - key: sections.tools.description
+    t: 其它 React 工具库
 
   - key: sections.usage_react.title
     t: 使用情况
   - key: sections.usage_react.description
-    t: 您日常如何使用 React
+    t: 你日常如何使用 React
+
+  - key: tools.data_loading_heading
+    t: 数据加载库
+
+  - key: tools.state_management_heading
+    t: 数据管理库
 
   # features
 
@@ -245,10 +257,18 @@ translations:
 
   - key: tools.data_loading_others
     t: 其他数据加载工具库
-  - key: tools.data_loading_happiness
-    t: 满意度
-  - key: tools.data_loading_happiness.description
-    t: 你对数据加载库的现状有多满意？
+  - key: tools.data_loading_others.question
+    t: 您还使用过哪些其他库来加载数据？
+
+  - key: tools.data_loading_pain_points
+    t: 数据加载痛点
+  - key: tools.data_loading_pain_points.question
+    t: 您在数据加载方面遇到过哪些痛点？
+
+  # - key: tools.data_loading_happiness
+  #   t: 满意度
+  # - key: tools.data_loading_happiness.description
+  #   t: 你对数据加载库的现状有多满意？
 
   - key: tools.ui_libraries_others
     t: 其他 UI 库
@@ -264,12 +284,33 @@ translations:
   - key: tools.meta_frameworks_happiness.description
     t: 你对当前元框架的现状有多满意？
 
+  - key: tools.meta_frameworks_heading
+    t: 元框架
+
+  - key: tools.other_back_end_tools_heading
+    t: 其它后端工具与服务
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: 后端痛点
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: 您在后端和基础设施方面遇到过哪些痛点？
+
+  - key: tools.testing
+    t: 测试库
+  - key: tools.testing.question
+    t: 你是用什么工具库来测试你的 React 应用？
+
   - key: tools.testing_others
     t: 其他测试库
   - key: tools.testing_happiness
     t: 满意度
   - key: tools.testing_happiness.description
     t: 你对当前的测试库现状有多满意？
+
+  - key: tools.mobile_development
+    t: 移动开发
+  - key: tools.mobile_development.question
+    t: 您在移动开发中使用了哪些框架或库？
 
   - key: tools.mobile_development_others
     t: 其他移动开发工具
@@ -279,76 +320,106 @@ translations:
     t: 你对当前移动开发的现状有多满意？
 
   # other tools
-  - key: other_tools.forms.description
-    t: 生成和验证表单的库。
-  - key: options.forms.na
-    t: 无
+  - key: tools.form_libraries
+    t: 表单库
+  # - key: tools.form_libraries.description
+  #   t: Libraries for generating and validating forms.
+  - key: tools.form_libraries.question
+    t: 你用过哪些库来管理表单？
+  - key: options.form_libraries.na
+    t: 没有
 
-  - key: other_tools.build_tools
+  - key: tools.react_form_patterns
+    t: 表单范式
+  - key: tools.react_form_patterns.question
+    t: 您通常喜欢使用哪种表单范式？
+  - key: options.react_form_patterns.form_patterns_controlled
+    t: Controlled 表单组件
+  - key: options.react_form_patterns.form_patterns_uncontrolled
+    t: Uncontrolled 表单组件
+  - key: options.react_form_patterns.form_patterns_both
+    t: 都用，看具体场景
+
+  - key: tools.build_tools
     t: 构建工具
-  - key: other_tools.build_tools.description
-    t: 构建工具和打包工具。
+  # - key: tools.build_tools.description
+  #   t: Build tools and bundlers.
+  - key: tools.build_tools.question
+    t: 你用过哪些构建工具和打包工具？
 
-  - key: other_tools.animation
+  - key: tools.animation_libraries
     t: 动画
-  - key: other_tools.animation.description
-    t: 用于管理动画和过渡效果的库。
+  # - key: tools.animation.description
+  #   t: Libraries to help manage animations and transitions.
+  - key: tools.animation_libraries.question
+    t: 你用过哪些动画库？
 
-  - key: other_tools.auth
+  - key: tools.auth
     t: 身份验证
-  - key: other_tools.auth.description
-    t: 用于管理身份验证和账户的库和服务。
+  # - key: tools.auth.description
+  #   t: Libraries and services for managing authentication and accounts.
+  - key: tools.auth.question
+    t: 您使用哪些库和服务来处理身份验证？
 
-  - key: other_tools.data_visualization
+  - key: tools.data_visualization_libraries
     t: 数据可视化
-  - key: other_tools.data_visualization.description
-    t: 数据可视化和图形库。
+  # - key: tools.data_visualization.description
+  #   t: Data visualization and graphics libraries.
+  - key: tools.data_visualization_libraries.question
+    t: 您使用过哪些数据可视化和图形库？
 
-  - key: other_tools.css_tools
+  - key: tools.css_tools
     t: CSS 工具库
-  - key: other_tools.css_tools.description
-    t: 用于为 React 应用程序添加样式的 CSS 库、框架和工具。
+  # - key: tools.css_tools.description
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: tools.css_tools.question
+    t: 您使用哪些库或框架来设置 React 应用的样式？
 
-  - key: other_tools.other_frontend_frameworks
-    t: 其他前端框架
-  - key: other_tools.other_frontend_frameworks.description
+  - key: tools.other_frontend_frameworks
+    t: 其它前端框架
+  # - key: tools.other_frontend_frameworks.description
+  #   t: >
+  #     Other front-end frameworks
+  - key: tools.other_frontend_frameworks.question
     t: >
-      您对其他前端框架是否有积极的体验，或者是否有兴趣学习其他前端框架？
+      你用过哪些其他前端框架？
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: 托管服务
-  - key: other_tools.hosting.description
-    t: 用于托管 React 应用程序的服务。
+  # - key: tools.hosting.description
+  #   t: Services you use to host your React apps.
+  - key: tools.hosting.question
+    t: 您使用过哪些服务来托管您的 React 应用？
 
-  - key: other_tools.backend_language
+  - key: tools.backend_language
     t: 后端语言
-  - key: other_tools.backend_language.description
-    t: 您的后端应用程序使用哪些语言进行编写？
+  - key: tools.backend_language.question
+    t: 您的后端应用程序是用哪种语言编写的？
 
-  - key: other_tools.other_services
-    t: 其他服务
-  - key: other_tools.other_services.description
-    t: 您在 React 应用中使用的其他服务。
+  - key: tools.other_services
+    t: 其它服务
+  - key: tools.other_services.question
+    t: 您在 React 应用中使用过哪些其他服务？
 
-  - key: other_tools.validation
-    t: 模式和验证库
-  - key: other_tools.validation.description
-    t: 用于根据模式验证数据的库。
+  - key: tools.validation
+    t: 模式与验证库
+  - key: tools.validation.question
+    t: 您使用过哪些库来根据模式验证数据？
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AI 工具
-  - key: other_tools.ai_tools.description
-    t: 您用来帮助编写 React 代码的人工智能工具和服务。
+  - key: tools.ai_tools.question
+    t: 您使用过哪些 AI 工具或服务来帮助您编写 React 代码？
 
-  - key: other_tools.renderers
+  - key: tools.renderers
     t: React 渲染器
-  - key: other_tools.renderers.description
-    t: 可让您将 React 渲染至不同平台或环境的库。
+  - key: tools.renderers.question
+    t: 您使用过哪些库将 React 渲染至不同的平台或环境？
 
-  - key: other_tools.other_tools
-    t: 其他工具
-  - key: other_tools.other_tools.description
-    t: 用于开发 React 应用程序的其他工具。
+  - key: tools.other_tools
+    t: 其它工具
+  - key: tools.tools.question
+    t: 您还使用过哪些其他工具来开发 React 应用程序？
 
   # CSS
   - key: options.css_tools.plain_css

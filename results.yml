@@ -273,8 +273,12 @@ translations:
 
   - key: sections.user_metadata.title
     t: 元数据
+    aliases:
+      - sections._user_metadata.title
   - key: sections.user_metadata.description
     t: 收集有关受访者的额外元数据。
+    aliases:
+      - sections._user_metadata.description
 
     ###########################################################################
     # User Info
@@ -293,14 +297,17 @@ translations:
     t: 来源
     aliases:
       - user_metadata.source
+      - _user_metadata.source
   - key: user_info.source.description
     t: 受访者如何了解到这项调查的？
     aliases:
       - user_metadata.source.description
+      - _user_metadata.source.description
   - key: user_info.source.note
     t: 这些数据是自报答案、推荐人数据和URL跟踪数据的混合。
     aliases:
       - user_metadata.source.note
+      - _user_metadata.source.note
 
   - key: options.source.other_answers
     t: 其他来源
