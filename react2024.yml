@@ -38,17 +38,18 @@ translations:
 
   - key: introduction.react2024
     t: |
-      <span class="first-letter">R</span>eact 已经存在 11 年了，看看当前 Web 开发的发展速度，这个时间跨度似乎难以想象。
 
-      今天我们之所以还在谈论 React，是因为它一直能够与时俱进，不断发展以应对用户提出的各种挑战。
+      <span class="first-letter">对</span>于 React 来说，今年是整合的一年。
 
-      事实上，React 不仅仅是在跟进，它还在引领新的创新模式，比如服务器组件（Server Components）和即将推出的编译器。
+      由于社区仍在为 React Server Components 的推出而忐忑不安，因此没有出现任何重大的破坏性变化是非常值得欢迎的。
 
-      需要注意的是，这些数据收集于 2024 年 10 月 27 日至 11 月 15 日期间，这意味着 React 19 以及在此之后的任何新发展都不在本次调查范围内。
+      相反，React 19 专注于消除我们的许多痛苦，从让 `forwardRef` 过时，到水合错误的差异，再到新的编译器，它让我们的代码性能更强，而我们只需做极少的额外工作。
 
-      即便如此，这里仍有很多值得探索的内容，从组件库到状态管理技术，再到应用程序模式。让我们一起来看看这份首次 React 社区调查的结果吧！
+      尽管 React 本身可能正试图平息事态，但生态系统仍在以迅猛的速度进行创新。例如，在过去的一年中，TanStack 团队利用 TanStack Query 的成功经验创建了 TanStack Start，这是 Next.js 元框架王座的潜在挑战者--尤其是对于那些尚未准备好接受服务器优先的人来说。 
 
-      *这是一份非官方调查，与 Meta、Vercel 或 React 团队均无关联。*
+      但至少现在，让我们喘口气，庆祝一下世界上最流行的 JavaScript 库的相对稳定性。
+
+      *请注意，这是一项非官方调查，与 Meta、Vercel 或 React 团队无关。*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -96,15 +97,53 @@ translations:
 
   - key: sections.user_info.description.react2024
     t: |
-      共有 **13,003** 名受访者参与了首次 React 生态调查。虽然这只是整个社区中的一小部分样本，但已足够为我们提供有价值的数据！
+      **共有 7870** 名受访者参与了第二期 React 现状调查。虽然这只是整个社区的一小部分样本，但仍足以为我们提供有价值的数据！
   - key: user_info.country.takeaway
     t: |
-     大多数受访者来自**美国**和**欧洲**。
+      大多数受访者来自**美国**和**欧洲**。
 
-  - key: user_info.locale.takeaway
+  - key: user_info.age.takeaway.react2024
+    t: |
+      State of React 受访者的平均年龄为 32.4 岁，略低于 State of JS（33.5 岁）和 State of CSS （34.9 岁）。
+
+  - key: user_info.years_of_experience.takeaway.react2024
+    t: |
+      59% 的受访者拥有不到 10 年的工作经验，这意味着他们从来不知道没有 React 的世界（React 本身已有近 12 年的历史！）。
+
+  - key: user_info.company_size.takeaway.react2024
+    t: |
+      44% 的受访者供职于员工人数超过 100 人的公司。
+
+  - key: user_info.yearly_salary.takeaway.react2024
+    t: |
+      调查对象的工资中位数（75,000 美元）略高于 State of JS 的结果（70,000 美元）。然而，美国与世界其他国家的收入差距依然存在。
+
+  - key: user_info.job_title.takeaway.react2024
+    t: |
+      “工程师 “仍然是最赚钱的职称，而 ”开发人员 "仍然处于最底层。
+
+      与最近的[JavaScript 现状调查结果]（https://2024.stateofjs.com/en-US/demographics/#job_title）一样，全栈和前端职位的平均员工年龄最小，前端职位的女性比例也明显较高。
+
+  - key: user_info.higher_education_degree.takeaway.react2024
+    t: |
+      与其他调查显示的结果不同，这次没有高等教育学位似乎与收入水平较低并不相关。
+
+  - key: user_info.gender.takeaway.react2024
+    t: |
+      本期调查的男性比例为 92%，与以往调查的性别比例保持一致，这表明仍需进一步努力扩大调查的覆盖面，确保调查能代表社会的方方面面。
+
+  - key: user_info.race_ethnicity.takeaway.react2024
+    t: |
+      令人鼓舞的是，西班牙裔和拉丁裔受访者的比例从 11% 攀升至 19%，这可能与讲西班牙语和葡萄牙语的流媒体和教育工作者越来越受欢迎相吻合。
+
+  - key: user_info.disability_status.takeaway.react2024
+    t: |
+      无论是永久性的还是暂时性的，残疾是许多人日常生活的一部分，这一点值得我们在开发新应用程序时牢记。
+
+  - key: user_info.locale.takeaway.react2024
     aliasFor: user_info.locale.description
 
-  - key: user_info.completion_stats.takeaway
+  - key: user_info.completion_stats.takeaway.react2024
     aliasFor: user_info.completion_stats.description
 
   # features
@@ -114,36 +153,39 @@ translations:
       我们询问了受访者对 **28** 个不同功能特性的看法，从无处不在的 `useState` 钩子，到较为小众的 API 如 `useDeferredValue`。记得试着按"情感倾向"排序查看！
 
   - key: features.all_features
-    t: 所有功能特性
+    t: 所有特性
 
-  - key: features.all_features.takeaway
+  - key: features.all_features.takeaway.react2024
     t: |
-      这张图表总结了调查中所有功能特性相关的问题。主要柱状图展示了受访者的使用经验，然后进一步按照受访者的情感倾向细分。你可以切换分组方式在两种视图之间切换。
+      本图表概括了调查的所有特性问题。主条形图代表受访者的体验，然后根据受访者的情感进一步细分。您可以更改分组，使两者交替进行。
 
-  - key: features.reading_list.takeaway
+
+      今年值得强调的是 虽然只有 46.4% 的受访者使用过 `createPortal`，但它却是第五大最受喜爱的功能。另一方面，“Taint API ”既是使用率最低的功能，也是最不为人知的功能，这也是情理之中的，因为它仍处于试验阶段。
+
+
+      相反，`useState` 不仅是使用率最高的功能，也是最受喜爱的功能，只有 1.26% 的负面情绪。
+
+  - key: features.reading_list.takeaway.react2024
     t: >
-      **30%** 的受访者在参与调查时至少添加了一个项目到他们的阅读清单中，以便日后深入学习。以下是他们的选择分布情况。
+      **25%** 的受访者在接受调查时在阅读清单中添加了一些项目，以便日后了解更多相关信息。以下是他们选择的细目。
 
   - key: features.main_apis_items
-    t: 主要 API 的使用经验与情感倾向
-
-  - key: features.main_apis_pain_points.takeaway
+    t: 主要 API 的体验与感受
+  - key: features.main_apis_pain_points.takeaway.react2024
     t: >
-      在最常用的 React API 中，`forwardRef` 是给开发者带来最多困扰的，紧随其后的是 `memo`。值得庆幸的是，React 团队正在推出更好的替代方案。
+      与去年一样，`forwardRef` 和 `memo` 是最常见的 React API 中的首要痛点。随着 React 19 的发布并有望缓解这两个问题，我们不妨看看明年的图表会是什么样子。
 
   - key: features.hooks_items
-    t: Hooks 的使用经验与情感倾向
-
-  - key: features.hooks_pain_points.takeaway
+    t: Hooks 的体验与感受
+  - key: features.hooks_pain_points.takeaway.react2024
     t: >
-      不出所料，`useEffect` 和 `useCallback` 被认为是最具问题的 React hooks，主要是由于依赖数组的管理问题。
+      `useEffect` 仍然是最容易出问题的 React Hook，这在很大程度上是由于必须手动管理依赖关系数组。
 
   - key: features.new_apis_items
-    t: 新 API 的使用经验与情感倾向
-
-  - key: features.new_apis_pain_points.takeaway
+    t: 新 API 的体验与感受
+  - key: features.new_apis_pain_points.takeaway.react2024
     t: >
-      虽然 React 能够不断发展并保持相关性是它最大的优势之一，但这也是有代价的，像**服务器组件**这样的新 API 确实很难被采用。
+      **React 服务器组件** 和整体复杂性仍然是使用 React 新特性时的最大痛点。
 
   # libraries
 
@@ -152,108 +194,285 @@ translations:
       我们重新设计了图表，不仅展示开发者体验，还突出展示了*情感倾向*。一定要探索这些新的分组和排序选项，看看哪些库最受欢迎……或者最不受欢迎！
 
   - key: tools.all_tools_experience
-    t: 库的使用经验与情感倾向
+    t: 库的体验与感受
 
-  - key: tools.all_tools_experience.takeaway
+  - key: tools.all_tools_experience.takeaway.react2024
     t: >
-      在 React 的库和框架中，**Next.js** 和 **TanStack Query** 在整体好评度方面领先。
+      在 React 库和框架中，**TanStack Query** 和 **Zustand** 已超过 **Next.js** ，在整体积极性方面处于领先地位。
 
-      请注意，像 `useState` 和 `fetch` 这样的项目也被包含在内，以提供一个基准参考，尽管它们本身并不是库。
+
+      虽然 **Create React App** 可能是使用最多的框架，但它也是最不受欢迎的框架之一，负面意见占 33.1%，仅次于 Redux 的 34.1%。
+
+
+      请注意，`useState` 和 `fetch` 等选项也被列为比较点，尽管它们本身并不是库。
+
   - key: tools.scatterplot_overview
     t: 库的留存率与使用率对比
-
-  - key: tools.scatterplot_overview.takeaway
+  - key: tools.scatterplot_overview.takeaway.react2024
     t: >
-      在各种库和框架中，**Next.js** 是唯一一个同时具有高留存率和高使用率的项目。相比之下，虽然更多的受访者使用过 **Create React App**，但愿意继续使用它的人要少得多。
+      在库和框架中，**Next.js** 仍然是唯一一个同时拥有高留存率和高使用率的项目。尽管如此，**TanStack Query** 似乎随时都有可能进入使用率大于 50% 的象限！
+
+  # component libraries
+
+  - key: sections.libraries.description.react2024
+    t: |
+      We reworked our charts to highlight not just developer experience, but *sentiment*. Be sure to explore these new grouping and sorting options to figure out which libraries get the most love… or the least!
+
+  - key: tools.all_tools_experience
+    t: Libraries Experience & Sentiment
+  - key: tools.all_tools_experience.takeaway.react2024
+    t: >
+      Among React libraries and frameworks, **TanStack Query** and **Zustand** have overtaken **Next.js** to take the lead the way in terms of overall positivity.
+
+
+      And while **Create React App** may be the most used framework, it's also one of the most disliked with 33.1% of negative opinions, right after Redux's 34.1%.
+
+
+      Note that some items such as `useState` and `fetch` were also included as points of comparison, even though they're not libraries themselves.
+
+  - key: tools.scatterplot_overview
+    t: Libraries Retention vs Usage
+  - key: tools.scatterplot_overview.takeaway.react2024
+    t: >
+      Among libraries and frameworks, **Next.js** was still the only item boasting both high retention and high usage. That being said, **TanStack Query** does seem to be on the verge of crossing over into the >50% usage quadrant anytime now!
 
   # component libraries
 
   - key: tools.component_libraries_experience
-    t: 组件库的使用经验与情感倾向
-
-  - key: tools.component_libraries_experience.takeaway
+    t: 组件库的体验与感受
+  - key: tools.component_libraries_experience.takeaway.react2024
     t: >
-      **React Aria** 和 **Radix** 在好评度排名中领先，证明了无头组件库（headless）这种方案很有前途。
+      **React Aria** 和 **Radix** 在积极性方面排名第一，这证明无头组件库有很多优点。
+
+  - key: tools.component_libraries_ratios
+    t: 组件库随时间变化的比重
+  - key: tools.component_libraries_ratios.takeaway.react2024
+    t: >
+      虽然 **MUI** 在使用率方面一直排名第一，但 **shadcn/ui** 的使用率却大幅提升，一年内从 20% 翻番至 42%，并以 80% 的积极性高居榜首！
+
+  - key: tools.animation_libraries.takeaway.react2024
+    t: >
+      **Motion**（前身为 Framer Motion）当之无愧地获得第一名，以庆祝其最近的品牌重塑！
+
+  - key: tools.data_visualization_libraries.takeaway.react2024
+    t: >
+      今年，**Chart.js** 位居榜首。顺便提一下，你知道这项调查的所有图表都是定制的吗？
+
+  - key: tools.form_libraries.takeaway.react2024
+    t: >
+      目前，**React Hook Form** 是最常见的表单库。但随着 TanStack 的日益流行，未来对 **TanStack Forms** 的关注将非常有趣。
+
+  - key: tools.react_form_patterns.takeaway.react2024
+    t: >
+      有趣的是，大多数开发人员都能自如地使用 **controlled** 和 **uncontrolled** 两种形式。
+
+
+      尽管如此，如果你必须只选择一种，那么 **controlled** 表单输入似乎是个不错的选择！
+
+  - key: tools.css_tools.takeaway.react2024
+    t: >
+      是 **Tailwind** 干掉了 CSS-in-JS 吗？还是 CSS 本身迎头赶上了？无论如何，CSS 架构花哨的时代似乎已经过去了，因为前三名都被历史悠久的 CSS 工具占据了。
+
+  - key: tools.component_libraries_pain_points.takeaway.react2024
+    t: >
+      由于 **风格和定制** 问题带来的痛苦，难怪 **Radix** 和 **React Aria** 等 “无头” 库如此受欢迎。
 
   # state management
 
   - key: tools.state_management_experience
-    t: 状态管理的使用经验与情感倾向
-
-  - key: tools.state_management_experience.takeaway
+    t: 状态管理的体验与感受
+  - key: tools.state_management_experience.takeaway.react2024
     t: >
-      除了 **useState** 之外，好评率最高的状态管理解决方案是 **Zustand**。而虽然 **Redux** 仍然拥有庞大的用户群，但它并不那么受欢迎。
+      除了**useState** ，积极性最高的状态管理解决方案是 **Zustand** 。虽然 **Redux** 仍然拥有庞大的用户群，但它并不那么受人喜爱。
+
+  - key: tools.state_management_ratios
+    t: 状态管理随时间变化的比重
+  - key: tools.state_management_ratios.takeaway.react2024
+    t: >
+      **Zustand** 证实了其在积极性方面的领先地位，只有默认的 **useState** 得分更高。在使用率方面，**Zustand** 也有所增长，在过去一年中从 28% 上升到 41%！
+
+  - key: tools.state_management_others.takeaway.react2024
+    t: >
+      虽然 **TanStack Query** 以数据加载库而闻名，但它在管理结果状态方面也做得很好。
+
+  - key: tools.state_management_pain_points.takeaway.react2024
+    t: >
+      状态管理作为一个整体仍然过于复杂，特别是 **Redux** 在受访者中受到的批评很大。
+
+  # data loading
 
   - key: tools.data_loading_experience
-    t: 数据加载的使用经验与情感倾向
-
-  - key: tools.data_loading_experience.takeaway
+    t: 数据加载的体验与感受
+  - key: tools.data_loading_experience.takeaway.react2024
     t: >
-      **TanStack Query** 已经在业内掀起波澜有一段时间了，数据显示它的口碑也确实名副其实，在原生 `fetch` API 之后，它是受访者评价最积极的数据加载方案。
+      **TanStack Query** 已经掀起了一阵波澜，事实证明，它的声誉也反映在了数据中，因为它是受访者感觉最积极的数据加载方案，仅次于本机的 `fetch` API。
+
+  - key: tools.data_loading_ratios
+    t: 数据加载随时间变化的比重
+  - key: tools.data_loading_ratios.takeaway.react2024
+    t: >
+      无论是在使用率还是积极性方面，**TanStack Query** 都在继续增长。特别是兴趣图显示，除了 **tRPC** 之外，它几乎是目前唯一一个仍在吸引受访者的数据加载库！
+
+  - key: tools.data_loading_others.takeaway.react2024
+    t: >
+      除 **ky** 和 **URQL** 外，没有一个新的数据加载库得分超过 10 次提及的最低门槛。
+
+  - key: tools.data_loading_pain_points.takeaway.react2024
+    t: >
+      事实上，**状态管理** 被认为是数据加载时的最大问题，这也许是 **TanStack Query** 受欢迎的原因，因为它迎头解决了这个问题。
+
+
+      然而，总体而言，只有 3% 的受访者分享了痛点，这表明数据加载实际上可能已经成为现代 Web 应用中*不*痛苦的部分之一。
 
   # back-end infrastructure
 
   - key: tools.meta_frameworks_experience
-    t: 元框架的使用经验与情感倾向
-
-  - key: tools.meta_frameworks_experience.takeaway
+    t: 元框架的体验与感受
+  - key: tools.meta_frameworks_experience.takeaway.react2024
     t: >
-      虽然你肯定能找到很多人在抱怨 **Next.js**，但它仍然在元框架的好评度排名中位居榜首，其后是 **Remix** 和 **Astro**。
+      虽然你肯定不难找到抱怨 **Next.js** 的人，但它仍然在元框架的积极性排名中名列前茅，其次是 **Remix** 和 **Astro** 。
+
+  - key: tools.meta_frameworks_ratios
+    t: 元框架随时间变化的比重
+  - key: tools.meta_frameworks_ratios.takeaway.react2024
+    t: >
+      唯一显示出强劲使用率增长的框架是 **Astro**，从 18% 增长到 26%。另外值得注意的是，**TanStack Start** 的首次亮相表现非常抢眼，关注度达到 81%，保留率达到 90%！
+
+  - key: tools.meta_frameworks_others.takeaway.react2024
+    t: >
+      值得注意的是，**Waku** 是在 React 服务器组件问世后发布的少数几个框架之一，目的是从一开始就充分利用这些组件。
+
+  - key: tools.build_tools.takeaway.react2024
+    t: >
+      现在，**Vite** 已经超越了 **Webpack**，考虑到 Webpack 已经存在了很长时间，这一点非常了不起。
+
+  - key: tools.hosting.takeaway.react2024
+    t: >
+      **Vercel** 在排名中遥遥领先，这也是可以理解的，因为它在 React 生态系统中投入了大量资金。
+
+  - key: tools.other_services.takeaway.react2024
+    t: >
+      **Firebase** 仍然是一个流行的数据存储平台，而 **Sentry** 仍然是大多数人进行错误跟踪的首选。
+
+  - key: tools.backend_language.takeaway.react2024
+    t: >
+      不出所料，**TypeScript** 和 **JavaScript** 为大多数 React 应用程序的后端提供了动力，这表明开发人员非常重视将整个代码库保持在同一种语言中。
+
+  - key: tools.back_end_infrastructure_pain_points.takeaway.react2024
+    t: >
+      通常，最常见的痛点是 “过于复杂 ”或 “学习曲线过长 ”等一般性问题，但这次不是。
+
+      **端到端类型安全**（在服务器和客户端之间共享类型，并确保传输的任何数据都符合这些类型）显然是今年后端基础架构的首要问题，这也解释了为什么我们现在看到 **TanStack Start** 和 **tRPC** 等工具来解决这个问题。
 
   # other_tools
 
   - key: sections.other_tools.description.react2024
     t: |
-      React 以专注于 UI 渲染而闻名，同时对应用程序的其他部分保持相对中立的态度，这一点在茁壮成长的生态系统中得到了充分体现！
+      React 以专注于用户界面渲染而闻名，同时对应用程序的其他部分相当不可知，这反映在为填补这些空白而出现的充满活力的生态中！
 
-  - key: sections.usage.description.react2024
+  - key: tools.testing.takeaway.react2024
     t: |
-      无论你使用哪个版本，采用什么应用模式，或者属于哪个行业领域，使用 React 都没有对错之分！
+      今年，**Jest** 和 **Testing Library** 继续保持领先地位。**Bun** 也出现了一些写入，这取决于新运行时的总体成功情况，可能是一次性的异常现象，也可能是未来的征兆。
+
+  - key: tools.renderers.takeaway.react2024
+    t: |
+      不出所料，绝大多数开发者都会在浏览器中渲染应用，但这个问题凸显了 React 生态系统的多样性，从 PDF 到命令行应用程序都有渲染器！
+
+  - key: tools.validation.takeaway.react2024
+    t: |
+      您可能已经猜到，**Zod** 仍然是最常用的验证库。
+
+  - key: tools.auth.takeaway.react2024
+    t: |
+      根据您偏好托管服务还是自托管解决方案，**Auth0** 和 **Auth.js** 都是不错的选择。
+
+  - key: tools.mobile_development.takeaway.react2024
+    t: |
+      虽然 **React Native** 仍占据首位，但 **Expo** 的排名正在迅速上升，在一年内抢占榜首位置也不足为奇。
+
+  - key: tools.other_frontend_frameworks.takeaway.react2024
+    t: |
+      不使用 React 时，React 开发人员会使用什么？原来是 **Angular** 和 **Vue**，就像其他人一样！
 
   # usage
 
-  - key: usage.js_app_patterns.takeaway
+  - key: sections.usage.description.react2024
+    t: |
+      无论您使用的是什么版本，采用的是什么应用模式，属于哪个行业，使用 React 的方法都不会错！
+
+  - key: usage.what_do_you_use_react_for.takeaway.react2024
     t: >
-      尽管现在静态网站生成、服务器端渲染和服务器组件备受关注，但有趣的是，绝大多数 React 用户仍在开发单页应用。
-  - key: usage.react_version.takeaway
+      有趣的是，尽管 React 传统上与复杂的客户端应用相关联，**静态网站** 仍位居第二，这表明 JSX 作为一种简单的模板语言也能发挥巨大作用。
+
+  - key: usage.react_version.takeaway.react2024
     t: >
-      请注意，本次调查是在 React 19 发布和公告**之前**进行的。
+      请注意，该调查是在 React 19 稳定版发布 **之前** 进行的。
+
+  - key: usage.usage_type.takeaway.react2024
+    t: >
+      大多数回应者都在专业环境中使用 React。
+
+  - key: usage.industry_sector.takeaway.react2024
+    t: >
+      **编程和技术工具** 作为一个行业部门，其代表性可能会略微偏高，因为它通常会吸引最有可能填写此类调查的那类开发人员。
+
+  - key: usage.js_app_patterns.takeaway.react2024
+    t: >
+      尽管最近大家都在关注静态网站生成、服务器端渲染和服务器组件，但值得注意的是，绝大多数 React 开发人员仍在开发单页面应用程序。
+
+  - key: usage.new_features.takeaway.react2024
+    t: >
+      由于 `memo` 是一个长期存在的痛点，因此受访者对**React 编译器**最感兴趣也就在情理之中了。
+
+  - key: usage.usage_pain_points.takeaway.react2024
+    t: >
+      **过多的复杂性** 再次成为一个主要问题。新一代工具能否最终减轻我们的痛苦，或者这种复杂性是否只是网络运行方式的自然结果，我们拭目以待。
 
   # resources
 
   - key: sections.resources.description.react2024
     t: |
-      React 持续主导市场的一个重要原因是它多年来积累的大量文档、博客文章、视频和其他资源。以下只是其中的一小部分样本！
+      React 能够持续占据主导地位，其中一个重要原因是它多年来积累了大量的文档、博文、视频和其他资源。以下只是其中的一小部分！
 
-  - key: resources.learning_methods.takeaway
+  - key: resources.learning_methods.takeaway.react2024
     t: |
-      React 团队在新的文档网站上做得非常出色，所以它成为人们学习该框架的首选方式并不令人意外。
+      React 团队在新的 React 文档网站上做得非常出色，因此它成为人们了解该框架的首要途径也就不足为奇了。
 
-  - key: resources.blogs_news_magazines.takeaway
+  - key: resources.blogs_news_magazines.takeaway.react2024
     t: |
-      虽然这个列表中有许多常见的网站，但值得庆祝的是专注于 React 的媒体，如 **This Week in React** 和 **React Status** 的出现。
+      虽然这份名单上有许多常见的人，但值得庆贺的是出现了 React 专门的媒体，如 **This Week in React** 或 **React Status**。
 
-  - key: resources.sites_courses.takeaway
+  - key: resources.courses.takeaway.react2024
     t: |
-      虽然 **Stack Overflow** 最近经历了一些 AI 相关的争议，但目前它仍然排在榜首。
+      **Wes Bos** 和 **Epic React** 的 Kent C. Dodds 等教育工作者的排名几乎与 **Udemy** 或 **freeCodeCamp** 等整个平台的排名一样高，这总是令人印象深刻。
 
-  - key: resources.podcasts.takeaway
+  - key: resources.podcasts.takeaway.react2024
     t: |
-      **Syntax** 继续在开发者播客领域保持其主导地位。另一个有趣的现象是，前十名中没有任何一个活跃的 React 专题播客。
+      **Syntax** 继续保持其在开发播客领域的主导地位，而以 Web 为重点的 React 播客仍然不多，**React Native Radio** 排在非常光荣的第 8 位。
 
-  - key: resources.video_creators.takeaway
+  - key: resources.video_creators.takeaway.react2024
     t: |
-      虽然 **Theo** 和 **Web Dev Simplified** 都制作 React 相关内容，但有趣的是，尽管 **The Primeagen** 通常不涉及 React 内容，他仍然排在第三位。
+      去年，**Fireship** 的排名低得出奇，而现在，这位广受欢迎的 YouTuber 在视频创作者排行榜上名列前茅，超过了 **Theo** 和 **The Primeagen** 。
 
-  - key: resources.people.takeaway
+  - key: resources.people.takeaway.react2024
     t: |
-      在 React 社区的影响力人物方面，**Dan Abramov** 位居榜首并不令人意外——不过 **Kent C. Dodds** 和 **Theo** 似乎都在挑战这个位置。
+      从 17 到 5 的大幅攀升，**shadcn** 正在尽最大努力与自己的库的受欢迎程度相匹配！
+
+  - key: resources.other_surveys.takeaway.react2024
+    t: |
+      许多受访者也参加了 **State of JS** 调查，这一点不足为奇，但值得注意的是，大多数受访者也填写了 **State of CSS** 调查，这表明 JS/CSS 之间的鸿沟可能并不像我们常说的那样大。
 
   # awards
 
   - key: sections.awards.description.react2024
     t: |
       今年的奖项被一个非常特别的项目主导……你能多快猜出是什么？
+
+  # metadata
+
+  - key: user_metadata.source.takeaway.react2024
+    t: >
+      大多数受访者知道前几年的调查或其他调查，但像 **This Week in React** 这样的时事通讯也是一大流量来源。
 
   ###########################################################################
   # Charts
@@ -485,7 +704,7 @@ translations:
 
   - key: about.content
     t: |
-      2024 年 React 现状调查从 2024 年 10 月 27 日持续到 11 月 15 日，收集了 13,003 份回复。结果于 2024 年 7 月 20 日发布。该调查由 [Devographics](https://devographics.com/) 运营，成员包括我（[Sacha Greif](https://sachagreif.com/)）和 [Eric Burel](https://www.lbke.fr/)，以及受邀专家和开源贡献者。
+      2024 年 React 状态调查于 2024 年 10 月 19 日至 11 月 19 日进行，共收到 7870 份回复。调查结果于 2024 年 1 月 29 日发布。该调查由 [Devographics](https://devographics.com/) 负责。
 
       React 现状的标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
 
@@ -499,7 +718,7 @@ translations:
 
       ### 调查设计
 
-      本次调查部分基于去年的调查设计，并在 [GitHub](https://github.com/Devographics/surveys/issues/85) 上进行了公开的反馈讨论。
+      本次调查部分基于去年的调查设计，并在 [GitHub](https://github.com/Devographics/surveys/issues/250) 上进行了公开的反馈讨论。
 
       所有调查问题都是可选的。
 
@@ -517,7 +736,7 @@ translations:
 
       - **赞助链接**：每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
 
-      - **直接资助**：今年，[Google](https://www.google.com/) 和 [TokyoDev](https://www.tokyodev.com/) 资助了我在调查方面的工作。
+      - **直接资助**：今年，[Google](https://www.google.com/)、[GitNation](https://gitnation.com/) 和 [TokyoDev](https://www.tokyodev.com/) 资助了我的调查工作。
 
       我们非常感谢任何形式的贡献或赞助。我们特别希望能够与更多的浏览器厂商密切合作，因为他们在 Web 生态系统中扮演着核心角色。
 
@@ -525,8 +744,8 @@ translations:
 
       你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a)找到关于调查运作方式更深入的技术概述。
 
-      **注意：这不是 React 官方调查，调查团队与 Meta、Vercel 或 React 团队没有任何关联。**
+      **注意：这*不*是一项官方 React 调查，调查团队与 Meta、Vercel 或 React 团队没有任何关联。**
 
       ### 特别感谢
 
-      特别感谢 Paul McMahon、Marc Grabanski 和 Justin E. Samuels 的持续支持。
+      特别感谢 Paul McMahon、Marc Grabanski 和  Sébastien Lorber 的持续支持。
