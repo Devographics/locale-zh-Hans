@@ -534,25 +534,26 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.react2024.josh_comeau
+  - key: conclusion.react2024.sebastien_lorber
     t: |
 
-      <span class="first-line">多么精彩的一年！</span>
+      <span class="first-line">对于 React 开发人员来说，这是一个多么美好的时代！/span>
 
-      随着 React Server Components 的推出，我认为这是自 2018 年 React Hooks 首次发布以来，React 最重要的一年。
+      今年以一个 [React Labs 更新](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024) 和安德鲁·克拉克的一条 [推文](https://x.com/acdlite/status/1758229889595977824) 开始，他在推文中承诺我们再也不需要使用 forwardRef 了——这是 [React 最不受喜欢的功能](../features/#all_features)。快进到现在，这一承诺已经基本实现，React 19 在此过程中引入了许多令人兴奋的新功能。
 
-      在 2018 年之后的 5 年里，Hooks 已经获得了压倒性的采用率。高达 99.5% 的调查受访者已经采用了 `useState`，且不到 2% 的人对此不满意。类组件虽然仍然存在，但已经局限于遗留代码库和偶尔的错误边界组件中。
+      虽然是一次惊险的发布：新版本原定于[六月](https://x.com/acdlite/status/1797668537349328923)发布，当时上演了一场[悬疑剧](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts)，导致发布推迟到十二月。一项优化措施旨在更早地渲染 Suspense 备选方案，意外地在许多客户端应用中引入了 Suspense 邻近节点瀑布问题。幸运的是，React 团队在保留优化的同时，通过引入一个新的[Suspense 邻近节点预热](https://react.dev/blog/2024/04/25/react-19-upgrade-guide#improvements-to-suspense)功能，防止了瀑布问题的发生。
 
-      不过，我在想……在 Server Components 发布 5 年后的 2028 年，我们都会使用它吗？我不太确定。Server Components 范式需要与打包工具和路由器进行深度集成。这不是大多数开发者可以在当前 React 代码库中逐步采用的东西。
+      除了长时间的等待，从我的角度来看，这个版本的采用过程相对平滑。`18.3`版本引入了额外的警告，帮助我们在新版本到来之前做好准备，React 团队在这方面做得非常出色，尽量减少了破坏性变更，并在[升级指南](https://react.dev/blog/2024/04/25/react-19-upgrade-guide)中详细记录了这些变更。当然，我们仍在努力理解所有新的功能和API，但正如我们所熟知和喜爱的那样，客户端的React现在比以往任何时候都要好。
 
-      React 开发者喜欢保持更新：71% 的调查受访者表示他们正在使用 React 18（收集数据时的最新版本）。但与此同时，最广泛使用的 React 环境仍然是 Create React App，尽管它已经正式弃用，自 2022 年 4 月以来就没有新的发布。我们很乐意在新版本 React 发布时进行更新，但并不急于切换到不同的环境；37% 的调查受访者从未使用过 SSR（服务器端渲染），尽管这个选项已经存在了十多年！
+      React 服务器组件和服务器操作的引入为我们带来了新的、强大的内置原语。Next.js，领先的实现，展示了它们的好处，但也突显了路由和缓存方面的新挑战，这在社区中引发了抵触情绪。我个人认为，继续在客户端使用 React，而在合适的情况下采用服务器端功能是完全可以的，一旦最佳实践变得更加清晰，就可以逐步采用这些功能。
 
-      如果让我猜测，我觉得到 2028 年，将会有两个使用率相当的 React 版本广泛流通。一个是带有 Server Components 和 Server Actions 的"全栈"版本，另一个是仅客户端的单页应用版本。
+      但今年不仅仅是关于 React 19 — 这一年还是 React Native 的 [新架构](https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here) 准备好用于生产的重要时刻，标志着跨平台生态系统向前迈进了一大步。我们还得到了 [React 编译器](https://react.dev/blog/2024/10/21/react-compiler-beta-release) 的 beta 版本。最初它被介绍为一个自动 memoizing 编译器，实际上它是一个完整的 React 优化平台，未来将会变得更加强大。
 
-      我们正处在一个有趣的时代！我很期待看到 React 及其生态系统在未来几年的发展。❤️
+      这些新的基础为 2025 年的光明未来奠定了基础。我们才刚刚开始挖掘它们的潜力，未来将有许多具有影响力的特性和集成。类似于引入 Hooks， 我们可能正处于 React 复兴的边缘。
 
-  - key: conclusion.react2024.josh_comeau.bio
-    t: 软件工程师和教育者。[The Joy of React](https://www.joyofreact.com/) 的创作者
+  - key: conclusion.react2024.sebastien_lorber.bio
+    t: |
+      [This Week In React](https://thisweekinreact.com/) 创办者以及 [Docusaurus](https://docusaurus.io/) 的维护者
 
   ###########################################################################
   # Picks
@@ -565,7 +566,7 @@ translations:
 
   # https://zustand-demo.pmnd.rs
   - key: picks.jack_herrington.name
-    t: Zustand
+    t: Tanstack Start
   - key: picks.jack_herrington.bio
     t: 首席工程师和 YouTuber
   - key: picks.jack_herrington.description
@@ -595,26 +596,35 @@ translations:
 
   # https://www.remotion.dev/
   - key: picks.sebastien_lorber.name
-    t: Remotion
+    t: TanStack Router
   - key: picks.sebastien_lorber.bio
     t: |
       [This Week in React](https://thisweekinreact.com/) 的创建者
   - key: picks.sebastien_lorber.description
     t: |
-      在 React 中创建可编程视频的想法一直让我着迷。Remotion 是一个相对低调的项目，它在稳步缓慢地发展，已经成功地被开发者关系、教育工作者、独立创作者和大公司（特别是 GitHub 的 Unwrapped 视频活动）所采用。
+      这款新路由库于 2023 年 12 月发布的 v1 版本证明了类型安全和搜索参数管理方面的创新仍然是可能的。从 2024 年开始，该产品的采用率显著增强，并且社区给予了非常积极的反馈。
 
   # https://buildui.com/posts/instant-search-params-with-react-server-components
   - key: picks.aurora_scharff.name
-    t: 使用 React Server Components 实现即时搜索参数
+    t: |
+      nuqs: React 的类型安全搜索参数状态管理器
   - key: picks.aurora_scharff.bio
     t: Inmeta 的 Web 开发者和顾问
   - key: picks.aurora_scharff.description
     t: |
-      这篇博文讨论了在使用 Next.js App Router 构建正式应用时可能遇到的问题：处理搜索参数。要让交互表现"完美"出乎意料地困难，文章最后给出了解决方案：useOptimistic。它还通过大量沙盒演示教你关于过渡的知识。
+      我的选择是 [François Best](https://bsky.app/profile/francoisbest.com) 和他的库 [nuqs](https://nuqs.47ng.com/)。除了 Next.js 之外，最近还为其他 React 框架提供了支持，它在处理URL查询参数时解决了许多痛点，API 非常流畅且易于使用。
+
+  - key: picks.shaundai_person.name
+    t: CodeTV (formerly Learn with Jason)
+  - key: picks.shaundai_person.bio
+    t: 前端高级软件工程师（Netflix）和课程讲师
+  - key: picks.shaundai_person.description
+    t: |
+      杰森的使命是让编程对每个人来说都变得有趣且易于接触，他在这方面做得非常出色。在其中一个系列中，杰森和3名开发者面临挑战，需要根据简短的编程提示（如“构建一个排行榜”或“构建一个电子商务网站”）来创建应用程序。而他最新的系列是一个网页开发游戏秀，有点像《危险边缘》和《辣根一口》的混合体！
 
   # https://mui.com/blog/introducing-pigment-css/
   - key: picks.josh_comeau.name
-    t: Pigment CSS
+    t: Lucide Icons
   - key: picks.josh_comeau.bio
     t: 软件工程师和教育者。[The Joy of React](https://www.joyofreact.com/) 的创作者
   - key: picks.josh_comeau.description
@@ -647,6 +657,14 @@ translations:
   - key: picks.lydia_hallie.description
     t: |
       Expo Router 凭借其在 Web 和原生领域的惊人潜力赢得了我的选择。它是第一个利用 React 全部功能在所有平台上运行的框架，使 React 成为真正的平台无关渲染器。它的基于文件的架构使 Web 开发者更容易适应原生平台，加快开发速度，缩短了在所有设备上的发布时间。
+
+  - key: picks.sacha_greif.name
+    t: React Scan
+  - key: picks.sacha_greif.bio
+    t: Creator @ Devographics
+  - key: picks.sacha_greif.description
+    t: |
+      当我十多年前第一次看到 React 的演示时，它的主要卖点之一是它可以非常快速地渲染长而复杂的网页。然而，今天，糟糕的性能和过度的重新渲染经常被看作是该框架的弱点。因此，很高兴看到像 [Aiden Bai](https://aiden.mov/) 创建的 [Million](https://million.dev/) 这样的工具通过 React Scan 来应对这一挑战，并为你提供新的方法来提高 React 的性能。
 
   ###########################################################################
   # Sponsors
@@ -704,7 +722,7 @@ translations:
 
   - key: about.content
     t: |
-      2024 年 React 状态调查于 2024 年 10 月 19 日至 11 月 19 日进行，共收到 7870 份回复。调查结果于 2024 年 1 月 29 日发布。该调查由 [Devographics](https://devographics.com/) 负责。
+      2024 年 React 状态调查于 2024 年 10 月 19 日至 11 月 19 日进行，共收到 7870 份回复。调查结果于 2025 年 2 月 10 日发布。该调查由 [Devographics](https://devographics.com/) 负责。
 
       React 现状的标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
 
