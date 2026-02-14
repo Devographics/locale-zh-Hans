@@ -365,7 +365,7 @@ translations:
   - key: features.flexbox_gap
     t: flexbox的间隙属性
   - key: features.viewport_percentage_length_units
-    t: '小型、大型和动态视口单位'
+    t: "小型、大型和动态视口单位"
   - key: features.viewport_percentage_length_units.question
     aliasFor: features.viewport_percentage_length_units
   - key: features.break_rules
@@ -427,7 +427,6 @@ translations:
 
   - key: features.discrete_properties_animations.description
     t: 轻松为对话框和弹出窗口等可删除元素制作进入和退出动画。
-
 
   # media queries
   - key: features.tabindex
@@ -772,7 +771,6 @@ translations:
     aliasFor: tools_others.utilities
   - key: tools.utilities.question
     aliasFor: tools_others.utilities.question
-
 
   - key: tools_others.browsers
     t: 浏览器
@@ -1190,7 +1188,6 @@ translations:
   - key: features.math_features
     aliasFor: sections.math_features.title
 
-
   - key: sections.tshirt.title
 
     t: T恤
@@ -1205,11 +1202,12 @@ translations:
 
   - key: tshirt.description
 
-    t: '我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
+    t:
+      "我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
 
-  
 
-      '
+
+      "
 
   - key: tshirt.getit
 
@@ -1229,11 +1227,12 @@ translations:
 
   - key: tshirt.designer.bio
 
-    t: 'Chris 来自法国，现居美国，不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的才华横溢的插画家。实际上，我们也鼓励您看看他的[其他 T恤设计](https://chriskirknielsen.com/designs)！
+    t:
+      "Chris 来自法国，现居美国，不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的才华横溢的插画家。实际上，我们也鼓励您看看他的[其他 T恤设计](https://chriskirknielsen.com/designs)！
 
-  
 
-      '
+
+      "
 
   - key: features.layout_pain_points
 
@@ -1368,8 +1367,7 @@ translations:
     t: 渐变问题
 
     aliases:
-
-    - features.gradients_issues
+      - features.gradients_issues
 
   - key: features.theming_issues
 
@@ -1413,11 +1411,11 @@ translations:
 
   - key: features.line_height_issues
 
-    t: '`line-height` 问题
+    t: "`line-height` 问题
 
-  
 
-      '
+
+      "
 
   - key: features.font_sizing_issues
 
@@ -1433,11 +1431,11 @@ translations:
 
   - key: features.lack_of_random_function
 
-    t: '缺少 `random()` 函数
+    t: "缺少 `random()` 函数
 
-  
 
-      '
+
+      "
 
   - key: features.excessive_tailwind_use
 
@@ -1464,8 +1462,7 @@ translations:
     t: 自定义/内部框架
 
     aliases:
-
-    - tools.custom_framework
+      - tools.custom_framework
 
   - key: other_tools.pre_post_processors_freeform
 
@@ -1484,40 +1481,35 @@ translations:
     t: 我还没了解或尝试过大多数特性
 
     aliases:
-
-    - options.js_pace_of_change.1
+      - options.js_pace_of_change.1
 
   - key: options.css_pace_of_change.2
 
     t: 我了解过一些特性，但还没尝试过
 
     aliases:
-
-    - options.js_pace_of_change.2
+      - options.js_pace_of_change.2
 
   - key: options.css_pace_of_change.3
 
     t: 我了解并尝试过一些特性
 
     aliases:
-
-    - options.js_pace_of_change.3
+      - options.js_pace_of_change.3
 
   - key: options.css_pace_of_change.4
 
     t: 我了解大多数特性并尝试过其中一些
 
     aliases:
-
-    - options.js_pace_of_change.4
+      - options.js_pace_of_change.4
 
   - key: options.css_pace_of_change.5
 
     t: 我了解并尝试过大多数特性
 
     aliases:
-
-    - options.js_pace_of_change.5
+      - options.js_pace_of_change.5
 
   - key: options.css_interoperability_features.safari_unsupported_features
 
@@ -1661,11 +1653,12 @@ translations:
 
   - key: faq.data_used_css.description
 
-    t: '收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也会[使用这些数据](https://web.dev/interop-2023/)来确定重点领域的优先级并为其路线图提供信息。
+    t:
+      "收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也会[使用这些数据](https://web.dev/interop-2023/)来确定重点领域的优先级并为其路线图提供信息。
 
-  
 
-      '
+
+      "
 
   - key: faq.who_should_take_survey_css
 
@@ -1673,11 +1666,12 @@ translations:
 
   - key: faq.who_should_take_survey_css.description
 
-    t: '这是一项开放的调查，适用于任何编写 CSS 的人，无论是经常还是偶尔，无论是作为工作的一部分、学生，还是仅仅为了好玩！
+    t:
+      "这是一项开放的调查，适用于任何编写 CSS 的人，无论是经常还是偶尔，无论是作为工作的一部分、学生，还是仅仅为了好玩！
 
-  
 
-      '
+
+      "
 
   - key: faq.survey_goals_css
 
@@ -1685,8 +1679,9 @@ translations:
 
   - key: faq.survey_goals_css.description
 
-    t: '调查的目标是跟踪即将推出的特性和库的演变，并帮助开发人员决定关注哪些新技术。
+    t:
+      "调查的目标是跟踪即将推出的特性和库的演变，并帮助开发人员决定关注哪些新技术。
 
-  
 
-      '
+
+      "

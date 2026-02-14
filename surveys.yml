@@ -662,27 +662,27 @@ translations:
   - key: likert.agreement.option.0
     t: 强烈反对
     aliases:
-    - likert.option.0
+      - likert.option.0
 
   - key: likert.agreement.option.1
     t: 反对
     aliases:
-    - likert.option.1
+      - likert.option.1
 
   - key: likert.agreement.option.2
     t: 中立
     aliases:
-    - likert.option.2
+      - likert.option.2
 
   - key: likert.agreement.option.3
     t: 同意
     aliases:
-    - likert.option.3
+      - likert.option.3
 
   - key: likert.agreement.option.4
     t: 强烈同意
     aliases:
-    - likert.option.4
+      - likert.option.4
 
   - key: general.check_all
     t: '选择所有适用的选项。'

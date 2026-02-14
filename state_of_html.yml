@@ -184,8 +184,8 @@ translations:
     t: 您在动态 HTML 更改方面有哪些痛点？
   - key: features.interactivity_pain_points.description
     t: |
-     浏览器不兼容或缺乏支持、功能缺失，以及您在交互式元素和行为（表单除外）、DOM 操作、事件和相关 API 方面遇到的其他问题。
-     交互式元素和行为（表单除外）、DOM 操作、事件和相关 API。
+      浏览器不兼容或缺乏支持、功能缺失，以及您在交互式元素和行为（表单除外）、DOM 操作、事件和相关 API 方面遇到的其他问题。
+      交互式元素和行为（表单除外）、DOM 操作、事件和相关 API。
 
   - key: features.interactivity_pain_points.placeholder
     t: |
@@ -907,9 +907,10 @@ translations:
   - key: tshirt.about
     t: 关于 T 恤
   - key: tshirt.description
-    t: '我们使用高品质、超柔软的三混纺面料，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
-  
-      '
+    t:
+      "我们使用高品质、超柔软的三混纺面料，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
+
+      "
   - key: tshirt.getit
     t: 获取
   - key: tshirt.price
@@ -919,32 +920,33 @@ translations:
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
   - key: tshirt.designer.bio
-    t: 'Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的天才插画师。事实上，我们鼓励您也去看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
-  
-      '
+    t:
+      "Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的天才插画师。事实上，我们鼓励您也去看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
+
+      "
   - key: sections.forms.prompt
     t: 表单相关元素和属性
     aliases:
-    - features.forms.description
+      - features.forms.description
   - key: sections.interactivity.prompt
     t: 实现更丰富用户交互的 API。
     aliases:
-    - features.interactivity.description
+      - features.interactivity.description
   - key: sections.web_components.prompt
     t: 制作和使用 Web 组件。
     aliases:
-    - features.web_components.description
+      - features.web_components.description
   - key: sections.content.prompt
     t: 嵌入、多媒体、数据和其他内容相关功能。
     aliases:
-    - features.content.description
+      - features.content.description
   - key: sections.external_content.prompt
     t: 嵌入外部资源和其他多媒体 API。
   - key: sections.accessibility.prompt
     t: 让所有人都能访问网站和应用程序。
     aliases:
-    - features.accessibility.description
-    - sections.accessibility.description
+      - features.accessibility.description
+      - sections.accessibility.description
   - key: sections.mobile_web_apps.prompt
     t: 编写针对移动端和桌面端优化的 Web 应用。
   - key: sections.other_features.prompt
@@ -954,23 +956,23 @@ translations:
   - key: sections.graphics_multimedia.title
     t: 图形与多媒体
     aliases:
-    - features.graphics_multimedia
+      - features.graphics_multimedia
   - key: sections.graphics_multimedia.title.short
     t: 图形
     aliases:
-    - features.graphics_multimedia.short
+      - features.graphics_multimedia.short
   - key: sections.graphics_multimedia.prompt
     t: 渲染图形和动画。
     aliases:
-    - features.graphics_multimedia.description
+      - features.graphics_multimedia.description
   - key: sections.performance.title
     t: 性能
     aliases:
-    - features.performance
+      - features.performance
   - key: sections.performance.prompt
     t: 让您的网站运行得更快。
     aliases:
-    - features.performance.description
+      - features.performance.description
   - key: sections.security.title
     t: 安全
   - key: sections.security.prompt
@@ -978,11 +980,11 @@ translations:
   - key: sections.system_capabilities.title
     t: 系统功能
     aliases:
-    - features.system_capabilities
+      - features.system_capabilities
   - key: sections.system_capabilities.prompt
     t: 访问设备和系统 API。
     aliases:
-    - features.system_capabilities.description
+      - features.system_capabilities.description
   - key: sections.other_tools.prompt
     t: 其他 Web 平台相关工具。
   - key: features.all_features.description
@@ -990,123 +992,126 @@ translations:
   - key: features.forms_features
     t: 表单体验与情绪
     aliases:
-    - forms.forms_features
+      - forms.forms_features
   - key: features.interactivity_features
     t: 交互性体验与情绪
     aliases:
-    - interactivity.interactivity_features
+      - interactivity.interactivity_features
   - key: features.content_features
     t: 内容体验与情绪
     aliases:
-    - content.content_features
+      - content.content_features
   - key: features.system_capabilities_features
     t: 系统功能体验与情绪
     aliases:
-    - system_capabilities.system_capabilities_features
+      - system_capabilities.system_capabilities_features
   - key: features.performance_features
     t: 性能体验与情绪
     aliases:
-    - performance.performance_features
+      - performance.performance_features
   - key: features.graphics_multimedia_features
     t: 图形与多媒体体验与情绪
     aliases:
-    - graphics_multimedia.graphics_multimedia_features
+      - graphics_multimedia.graphics_multimedia_features
   - key: features.graphics_multimedia_features.short
     t: 图形体验与情绪
     aliases:
-    - graphics_multimedia.graphics_multimedia_features.short
+      - graphics_multimedia.graphics_multimedia_features.short
   - key: features.forms_pain_points.prompt
-    t: '想想各种表单控件（例如 `<input>`、`<textarea>`、`<select>`、`<button>` 等），
-  
+    t:
+      "想想各种表单控件（例如 `<input>`、`<textarea>`、`<select>`、`<button>` 等），
+
       行为（例如验证、自动完成），通过 JS 处理表单，编辑 API（例如 `contentEditable`）等。
-  
+
       任何困扰您的问题都可以——浏览器支持、缺少功能、样式等。
-  
-      '
+
+      "
     aliases:
-    - forms.forms_pain_points.prompt
+      - forms.forms_pain_points.prompt
   - key: features.interactivity_pain_points.prompt
-    t: '浏览器不兼容或缺乏支持、缺少功能以及您面临的其他问题
-  
+    t: "浏览器不兼容或缺乏支持、缺少功能以及您面临的其他问题
+
       围绕交互元素和行为（表单除外）、DOM 操作、事件和相关 API。
-  
-      '
+
+      "
     aliases:
-    - interactivity.interactivity_pain_points.prompt
+      - interactivity.interactivity_pain_points.prompt
   - key: features.content_pain_points.prompt
-    t: '想想内容元素（iframe、标题、表格、章节）、机器可读数据、国际化和本地化等。
-  
+    t:
+      "想想内容元素（iframe、标题、表格、章节）、机器可读数据、国际化和本地化等。
+
       缺少功能、浏览器不兼容以及您面临的其他问题都可以。
-  
-      '
+
+      "
     aliases:
-    - content.content_pain_points.prompt
+      - content.content_pain_points.prompt
   - key: features.graphics_pain_points
     t: 图形与多媒体痛点
     aliases:
-    - graphics_multimedia.graphics_pain_points
+      - graphics_multimedia.graphics_pain_points
   - key: features.graphics_pain_points.short
     t: 图形痛点
     aliases:
-    - graphics_multimedia.graphics_pain_points.short
+      - graphics_multimedia.graphics_pain_points.short
   - key: features.graphics_pain_points.question
     t: 您在渲染图形、视频、动画和其他媒体方面有哪些痛点？
     aliases:
-    - graphics_multimedia.graphics_pain_points.question
+      - graphics_multimedia.graphics_pain_points.question
   - key: features.graphics_pain_points.prompt
-    t: '想想围绕使用 Canvas、SVG、WebGL 和其他 API 渲染图形、渲染动画、图形性能、缺少图形基元或 API 等问题。
-  
-      '
+    t:
+      "想想围绕使用 Canvas、SVG、WebGL 和其他 API 渲染图形、渲染动画、图形性能、缺少图形基元或 API 等问题。
+
+      "
     aliases:
-    - graphics_multimedia.graphics_pain_points.prompt
+      - graphics_multimedia.graphics_pain_points.prompt
   - key: features.graphics_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
   - key: features.performance_pain_points
     t: 性能痛点
     aliases:
-    - performance.performance_pain_points
+      - performance.performance_pain_points
   - key: features.performance_pain_points.question
     t: 您在性能方面有哪些痛点？
     aliases:
-    - performance.performance_pain_points.question
+      - performance.performance_pain_points.question
   - key: features.performance_pain_points.prompt
-    t: '围绕糟糕的性能指标、页面加载缓慢、渲染延迟、动画或滚动卡顿等问题。
-  
-      '
+    t: "围绕糟糕的性能指标、页面加载缓慢、渲染延迟、动画或滚动卡顿等问题。
+
+      "
     aliases:
-    - performance.performance_pain_points.prompt
+      - performance.performance_pain_points.prompt
   - key: features.performance_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
   - key: features.security_pain_points
     t: 安全痛点
     aliases:
-    - security.security_pain_points
+      - security.security_pain_points
   - key: features.security_pain_points.question
     t: 您在安全方面有哪些痛点？
     aliases:
-    - security.security_pain_points.question
+      - security.security_pain_points.question
   - key: features.security_pain_points.prompt
-    t: '待定
-  
-      '
+    t: "待定
+
+      "
     aliases:
-    - security.security_pain_points.prompt
+      - security.security_pain_points.prompt
   - key: features.security_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
   - key: features.using_web_components_pain_points.prompt
     t: 使用您或他人制作的 Web 组件。缺少功能、浏览器不兼容等。
   - key: features.making_web_components_pain_points.prompt
-    t: '是什么阻碍了您创建您设想的出色组件？缺少功能、浏览器不兼容等。
-  
-      '
+    t: "是什么阻碍了您创建您设想的出色组件？缺少功能、浏览器不兼容等。
+
+      "
   - key: features.web_components_common_pain_points
     t: Web 组件痛点
     aliases:
-    - web_components.web_components_common_pain_points
+      - web_components.web_components_common_pain_points
   - key: features.web_components_common_pain_points.question
     t: 您在制作和使用 Web 组件方面最大的痛点是什么？
     aliases:
-    - web_components.web_components_common_pain_points.question
+      - web_components.web_components_common_pain_points.question
   - key: options.web_components_common_pain_points.complex_apis
     t: 过于复杂
   - key: options.web_components_common_pain_points.complex_apis.description
@@ -1122,9 +1127,10 @@ translations:
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity
     t: Shadow DOM CSS 特异性低
   - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
-    t: '例如 `* { margin: 0 }` 会覆盖通过 `::slotted()`、`:host` 等设置的任何边距。
-  
-      '
+    t:
+      "例如 `* { margin: 0 }` 会覆盖通过 `::slotted()`、`:host` 等设置的任何边距。
+
+      "
   - key: options.web_components_common_pain_points.overly_strict_encapsulation
     t: 过于严格的样式封装
   - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
@@ -1148,10 +1154,10 @@ translations:
   - key: features.web_components_other_pain_points
     t: 其他 Web 组件痛点
     aliases:
-    - web_components.web_components_other_pain_points
+      - web_components.web_components_other_pain_points
   - key: features.web_components_other_pain_points.question
     aliases:
-    - web_components.web_components_other_pain_points.question
+      - web_components.web_components_other_pain_points.question
     t: 制作和使用 Web 组件方面还有其他痛点吗？
   - key: features.web_components_other_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
@@ -1204,53 +1210,53 @@ translations:
   - key: features.system_capabilities_pain_points
     t: 系统功能痛点
     aliases:
-    - system_capabilities.system_capabilities_pain_points
+      - system_capabilities.system_capabilities_pain_points
   - key: features.system_capabilities_pain_points.question
     t: 您在访问原生系统和设备功能方面有哪些痛点？
     aliases:
-    - system_capabilities.system_capabilities_pain_points.question
+      - system_capabilities.system_capabilities_pain_points.question
   - key: features.system_capabilities_pain_points.prompt
-    t: '围绕访问设备或操作系统功能、与文件系统交互、匹配原生应用功能集等问题。
-  
-      '
+    t: "围绕访问设备或操作系统功能、与文件系统交互、匹配原生应用功能集等问题。
+
+      "
     aliases:
-    - system_capabilities.system_capabilities_pain_points.prompt
+      - system_capabilities.system_capabilities_pain_points.prompt
   - key: features.system_capabilities_pain_points.placeholder
     aliasFor: features.forms_pain_points.placeholder
   - key: features.landmark_elements
     t: 地标元素 (Landmark elements)
   - key: features.tabindex_attribute
-    t: '`tabindex` 属性'
+    t: "`tabindex` 属性"
   - key: features.respimg_attributes
-    t: '`srcset` 和 `sizes` 属性'
+    t: "`srcset` 和 `sizes` 属性"
   - key: features.controlslist_attribute
-    t: '`controlslist` 属性'
+    t: "`controlslist` 属性"
   - key: features.content_security_policy
     t: 内容安全策略 (CSP)
   - key: features.focusgroup_attribute
-    t: '`focusgroup` 属性'
+    t: "`focusgroup` 属性"
   - key: features.shadow_dom
     t: Shadow DOM
   - key: features.declarative_shadow_dom
     t: 声明式 Shadow DOM
   - key: features.mapviewer_element
-    t: '`<mapviewer>` (内联 MapML)
-  
-      '
+    t: "`<mapviewer>` (内联 MapML)
+
+      "
   - key: features.formdata
     t: FormData API
   - key: features.customizable_select
     t: 可自定义的 Select
   - key: features.fetchpriority_attribute
-    t: '`fetchpriority` 属性'
+    t: "`fetchpriority` 属性"
   - key: features.autocomplete_attribute
-    t: '`autocomplete` 属性'
+    t: "`autocomplete` 属性"
   - key: features.clipboard_api
     t: 剪贴板 API
   - key: features.custom_highlight_api
     t: CSS Custom Highlight API
   - key: features.intl_segmenter
-    t: '`Intl.Segmenter` API'
+    t: "`Intl.Segmenter` API"
   - key: features.filesystem_access
     t: 文件系统访问 API
   - key: features.badging_api
@@ -1284,9 +1290,9 @@ translations:
   - key: other_tools.analytics_tools.question
     t: 您使用哪些分析工具和服务来监控您的网站？
   - key: usage.html_functionality_features.prompt
-    t: '您经常必须使用 JS 重新创建或增强的现有 HTML 功能。
-  
-      '
+    t: "您经常必须使用 JS 重新创建或增强的现有 HTML 功能。
+
+      "
   - key: usage.html_new_features
     t: 新功能
   - key: usage.html_new_features.question
@@ -1326,33 +1332,37 @@ translations:
   - key: options.design_system_strategies.elements_components
     t: 元素/组件
   - key: options.design_system_strategies.elements_components.description
-    t: '可重用的构建块库，如按钮或下拉菜单，以任何技术实现（例如 React、Web 组件等）。
-  
-      '
+    t:
+      "可重用的构建块库，如按钮或下拉菜单，以任何技术实现（例如 React、Web 组件等）。
+
+      "
   - key: options.design_system_strategies.design_tokens
     t: 设计令牌 (Design tokens)
   - key: options.design_system_strategies.design_tokens.description
-    t: '用于颜色、间距和排版等事物的原子变量，例如 `--color-accent-dark`、`--font-heading` 等。
-  
-      '
+    t:
+      "用于颜色、间距和排版等事物的原子变量，例如 `--color-accent-dark`、`--font-heading` 等。
+
+      "
   - key: options.design_system_strategies.utilities
     t: 实用程序类 (Utilities)
   - key: options.design_system_strategies.utilities.description
-    t: '应用单个特定样式或行为的低级 CSS 类，例如 `.visually-hidden`、`.grid-2x2`、`.text-center` 等。
-  
-      '
+    t:
+      "应用单个特定样式或行为的低级 CSS 类，例如 `.visually-hidden`、`.grid-2x2`、`.text-center` 等。
+
+      "
   - key: options.design_system_strategies.guidelines
     t: 指南
   - key: options.design_system_strategies.guidelines.description
-    t: '保持一致性并确保实现某些目标（无障碍、可用性等）的标准和最佳实践。
-  
-      '
+    t: "保持一致性并确保实现某些目标（无障碍、可用性等）的标准和最佳实践。
+
+      "
   - key: options.design_system_strategies.patterns
     t: 模式
   - key: options.design_system_strategies.patterns.description
-    t: '上述所有内容的可复制粘贴的高级排列，可解决常见的 UI/UX 问题，例如导航栏，甚至整个响应式页面布局。
-  
-      '
+    t:
+      "上述所有内容的可复制粘贴的高级排列，可解决常见的 UI/UX 问题，例如导航栏，甚至整个响应式页面布局。
+
+      "
   - key: usage.html_styling_issues
     t: 样式问题
   - key: usage.html_styling_issues.question
@@ -1360,9 +1370,9 @@ translations:
   - key: options.html_styling_issues.validation_errors
     t: 验证错误
   - key: options.html_styling_issues.fieldset_and_legend
-    t: '`<fieldset>` 和 `<legend>`
-  
-      '
+    t: "`<fieldset>` 和 `<legend>`
+
+      "
   - key: opinions.accessibility_is_valued
     t: 无障碍
   - key: opinions.accessibility_is_valued.question
@@ -1436,9 +1446,9 @@ translations:
   - key: opinions.validation_is_important
     t: HTML 验证
   - key: opinions.validation_is_important.question
-    t: '确保我的 HTML 代码通过验证很重要
-  
-      '
+    t: "确保我的 HTML 代码通过验证很重要
+
+      "
   - key: options.validation_is_important.0
     aliasFor: options.opinions.0
   - key: options.validation_is_important.1
@@ -1452,24 +1462,28 @@ translations:
   - key: faq.how_long_will_survey_take_html
     t: 回答调查需要多长时间？
   - key: faq.how_long_will_survey_take_html.description
-    t: '根据您回答的问题数量（所有问题都可以跳过），填写调查问卷大约需要 10-15 分钟。
-  
-      '
+    t:
+      "根据您回答的问题数量（所有问题都可以跳过），填写调查问卷大约需要 10-15 分钟。
+
+      "
   - key: faq.who_should_take_survey_html
     t: 谁应该参加这项调查？
   - key: faq.who_should_take_survey_html.description
-    t: '这是一项开放式调查，针对任何制作网站或 Web 应用程序的人，无论是作为工作的一部分定期或偶尔制作，还是作为学生，或者只是为了好玩！
-  
-      '
+    t:
+      "这是一项开放式调查，针对任何制作网站或 Web 应用程序的人，无论是作为工作的一部分定期或偶尔制作，还是作为学生，或者只是为了好玩！
+
+      "
   - key: faq.data_used_html
     t: 这些数据将如何使用？
   - key: faq.data_used_html.description
-    t: '收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也[使用这些数据](https://web.dev/blog/interop-2024)来确定重点领域的优先级并为其路线图提供信息。
-  
-      '
+    t:
+      "收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也[使用这些数据](https://web.dev/blog/interop-2024)来确定重点领域的优先级并为其路线图提供信息。
+
+      "
   - key: faq.survey_goals_html
     t: 调查的目标是什么？
   - key: faq.survey_goals_html.description
-    t: '调查的目标是衡量对新 HTML 功能和浏览器 API 的认识，并帮助开发人员跟踪其使用情况的演变。
-  
-      '
+    t:
+      "调查的目标是衡量对新 HTML 功能和浏览器 API 的认识，并帮助开发人员跟踪其使用情况的演变。
+
+      "

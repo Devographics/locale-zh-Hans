@@ -1890,25 +1890,28 @@ translations:
   - key: general.back_to_survey
     t: 返回问卷
   - key: general.thanks1
-    t: '感谢填写问卷！你的数据已保存。
+    t: "感谢填写问卷！你的数据已保存。
 
-      '
+      "
   - key: thanks.score_statistics
-    t: '在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个，这使你位于所有受访者中的前 {knowledgeRankingFromTop}。做得好！
+    t:
+      "在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个，这使你位于所有受访者中的前 {knowledgeRankingFromTop}。做得好！
 
-      '
+      "
   - key: thanks.score_statistics_noranking
-    t: '在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个。做得好！
+    t:
+      "在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个。做得好！
 
-      '
+      "
   - key: thanks.points
-    t: '分
+    t: "分
 
-      '
+      "
   - key: thanks.score_awareness_explanation
-    t: '为了公平起见，此百分比仅基于你可以表示你了解的 {awareness_total} 个功能计算
+    t:
+      "为了公平起见，此百分比仅基于你可以表示你了解的 {awareness_total} 个功能计算
 
-      '
+      "
   - key: finish.copy
     t: 复制
   - key: finish.copied
@@ -1918,13 +1921,13 @@ translations:
   - key: finish.goal_heading.description
     t: 今年，我们希望获得至少 **{count} 份调查回复**，以使我们的数据更具代表性并解锁新的见解。
   - key: finish.goal_currently
-    t: '目前：
+    t: "目前：
 
-      '
+      "
   - key: finish.goal_goal
-    t: '目标：
+    t: "目标：
 
-      '
+      "
   - key: finish.goal_responses
     t: 份回复
   - key: finish.share_colleagues
@@ -1934,19 +1937,19 @@ translations:
   - key: finish.share_social
     t: 2. 分享到社交媒体
   - key: general.language_code
-    t: '{language} 代码'
+    t: "{language} 代码"
   - key: sections.overview.title
     t: 概览
   - key: opinions.opinions_intro
     t: 对于以下问题，请让我们知道您对每个陈述的同意程度。
     aliases:
-    - worldview.opinions_intro
+      - worldview.opinions_intro
   - key: options.features.na
     t: 无
   - key: options.experience.comments
     t: 评论
     aliases:
-    - options.sentiment.comments
+      - options.sentiment.comments
   - key: options.slider.0.description
     t: 0%
   - key: options.slider.1.description
@@ -2016,11 +2019,11 @@ translations:
   - key: resources.web_platform_resources
     t: Web 平台资源
     aliases:
-    - other_tools.web_platform_resources
+      - other_tools.web_platform_resources
   - key: resources.web_platform_resources.question
     t: 您参考哪些资源来了解 Web 平台功能？
     aliases:
-    - other_tools.web_platform_resources.question
+      - other_tools.web_platform_resources.question
   - key: options.learning_methods.ai_tools
     t: AI 工具 (ChatGPT, Claude, 等)
   - key: user_info.employment_status.question
@@ -2052,7 +2055,7 @@ translations:
   - key: user_info.years_of_experience.prompt
     t: 无论是作为专业人士、学生、业余爱好者等。
     aliases:
-    - career.years_of_experience.prompt
+      - career.years_of_experience.prompt
   - key: user_info.income_evolution
     t: 收入变化
   - key: user_info.income_evolution.question
@@ -2064,11 +2067,11 @@ translations:
   - key: options.income_evolution.decreased
     t: 减少
   - key: user_info.disability_status.prompt
-    t: '请注意，这可能包括暂时性残疾或受伤。
+    t: "请注意，这可能包括暂时性残疾或受伤。
 
-      '
+      "
     aliases:
-    - health.disability_status.prompt
+      - health.disability_status.prompt
   - key: user_info.how_did_user_find_out_about_the_survey.question
     t: 您从哪里听说这个调查的？
   - key: user_info.country.question
@@ -2088,11 +2091,11 @@ translations:
   - key: user_info.why_did_you_take_the_survey
     t: 调查动机
     aliases:
-    - _user_metadata.why_did_you_take_the_survey
+      - _user_metadata.why_did_you_take_the_survey
   - key: user_info.why_did_you_take_the_survey.question
     t: 您参与这项调查的主要好处是什么？
     aliases:
-    - _user_metadata.why_did_you_take_the_survey.question
+      - _user_metadata.why_did_you_take_the_survey.question
   - key: options.why_did_you_take_the_survey.stay_informed
     t: 它帮助我保持知情并跟上生态系统的步伐。
   - key: options.why_did_you_take_the_survey.interested_in_data
@@ -2116,15 +2119,15 @@ translations:
   - key: options.courses.na
     t: 🚫 无
   - key: resources.courses.placeholder
-    t: '课程/书籍/等 #{index}…
+    t: "课程/书籍/等 #{index}…
 
-      '
+      "
   - key: resources.people.question
     t: 您阅读、关注或只是想强调哪些人？
   - key: resources.video_creators.question
     t: 您关注哪些与编程相关的视频创作者（在 YouTube、Twitch 等上）？
   - key: baseline.baseline
-    t: '基准:'
+    t: "基准:"
   - key: baseline.learn_more
     t: 了解更多
   - key: baseline.support.false

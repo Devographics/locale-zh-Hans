@@ -59,7 +59,7 @@ translations:
     t: 使用**懒加载**的受访者比例，这是在“新近可用”基准状态中使用最多的功能。
 
   - key: figure.figure_content_security_usage.html2025
-    t: **内容安全策略 (Content-Security Policy)** 的使用率同比增长最大。
+    t: 内容安全策略 (Content-Security Policy) 的使用率同比增长最大。
 
   - key: figure.figure_forms_features.html2025
     t: 对评论最多的功能 **datalist** 的评论数量。

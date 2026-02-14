@@ -1409,7 +1409,6 @@ translations:
   - key: faq.data_used_js.description
     t: 所有收集的数据将公开发布。它将成为开发者的资源，供他们参考以做出技术选择，同时也将成为浏览器供应商的资源，用于确定重点领域并指导其路线图。
 
-
   - key: general.state_of_js.title
     t: JavaScript 开发者现状调查
 
@@ -1429,7 +1428,7 @@ translations:
     aliasFor: sections.monorepo_tools.title
 
   - key: tools.back_end_frameworks_intro
-    t: '今年我们重新带回了后端框架部分！'
+    t: "今年我们重新带回了后端框架部分！"
 
   - key: features.set_features
     t: Set 特性
@@ -1470,7 +1469,7 @@ translations:
   - key: tools.back_end_frameworks_ratios
     t: 后端框架随时间变化的比率
     aliases:
-    - back_end_frameworks.back_end_frameworks_ratios
+      - back_end_frameworks.back_end_frameworks_ratios
 
   - key: tools.back_end_frameworks_ratios.short
     aliasFor: tools.ratios
@@ -1490,7 +1489,7 @@ translations:
   - key: tools.back_end_frameworks.others
     t: 其他后端框架
     aliases:
-    - back_end_frameworks.back_end_frameworks_others
+      - back_end_frameworks.back_end_frameworks_others
 
   - key: tools.back_end_frameworks.others.short
     aliasFor: tools.others
@@ -1501,7 +1500,7 @@ translations:
   - key: tools.back_end_frameworks_happiness
     t: 后端框架满意度
     aliases:
-    - back_end_frameworks.back_end_frameworks_happiness
+      - back_end_frameworks.back_end_frameworks_happiness
 
   - key: tools.back_end_frameworks_happiness.short
     aliasFor: charts.axis_legends.happiness
@@ -1512,7 +1511,7 @@ translations:
   - key: tools.back_end_frameworks_pain_points
     t: 后端框架痛点
     aliases:
-    - back_end_frameworks.back_end_frameworks_pain_points
+      - back_end_frameworks.back_end_frameworks_pain_points
 
   - key: tools.back_end_frameworks_pain_points.short
     aliasFor: tools.pain_points
@@ -1520,7 +1519,7 @@ translations:
   - key: tools.back_end_frameworks_pain_points.question
     t: 在使用后端框架时，您遇到了哪些痛点？
     aliases:
-    - back_end_frameworks.back_end_frameworks_pain_points.question
+      - back_end_frameworks.back_end_frameworks_pain_points.question
 
   - key: tools.testing_work
     aliasFor: tools.tools_work
@@ -1531,7 +1530,7 @@ translations:
   - key: tools.testing_others
     t: 其他测试工具
     aliases:
-    - testing.testing_others
+      - testing.testing_others
 
   - key: tools.testing_others.short
     aliasFor: tools.others
@@ -1557,7 +1556,7 @@ translations:
   - key: tools.build_tools_others
     t: 其他构建工具
     aliases:
-    - build_tools.build_tools_others
+      - build_tools.build_tools_others
 
   - key: tools.build_tools.short
     t: 构建工具
@@ -1580,17 +1579,17 @@ translations:
   - key: tools.non_js_languages_features
     t: 非 JavaScript 特性
     aliases:
-    - other_tools.non_js_languages_features
+      - other_tools.non_js_languages_features
 
   - key: tools.non_js_languages_features.question
     t: 您希望 JavaScript/TypeScript 采用其他编程语言的哪些特性？
     aliases:
-    - other_tools.non_js_languages_features.question
+      - other_tools.non_js_languages_features.question
 
   - key: tools.non_js_languages_features.prompt
-    t: '如果可能，请同时注明语言和特性，例如“Rust：模式匹配”'
+    t: "如果可能，请同时注明语言和特性，例如“Rust：模式匹配”"
     aliases:
-    - other_tools.non_js_languages_features.prompt
+      - other_tools.non_js_languages_features.prompt
 
   - key: other_tools.non_js_languages_features_top_features
     t: 非 JavaScript 特性
@@ -1616,7 +1615,7 @@ translations:
   - key: tools.mobile_desktop.question
     t: 您经常使用以下哪些移动端或桌面端应用框架？
     aliases:
-    - other_tools.mobile_desktop.question
+      - other_tools.mobile_desktop.question
 
   - key: tools.monorepo_tools
     aliasFor: sections.monorepo_tools.title
@@ -1627,7 +1626,7 @@ translations:
   - key: tools.monorepo_tools.question
     t: 您经常使用以下哪些 monorepo 工具？
     aliases:
-    - other_tools.monorepo_tools.question
+      - other_tools.monorepo_tools.question
 
   - key: usage.build_step_advantages
     t: 构建步骤的优势
@@ -1725,27 +1724,27 @@ translations:
   - key: opinions.js_ecosystem_changing_to_fast.question
     t: JavaScript 生态系统变化太快了
     aliases:
-    - usage.js_ecosystem_changing_to_fast.question
+      - usage.js_ecosystem_changing_to_fast.question
 
   - key: opinions.prefer_no_build_step
     t: 构建步骤
     aliases:
-    - usage.prefer_no_build_step
+      - usage.prefer_no_build_step
 
   - key: opinions.prefer_no_build_step.question
     t: 我更喜欢在没有构建步骤的情况下使用 JavaScript
     aliases:
-    - usage.prefer_no_build_step.question
+      - usage.prefer_no_build_step.question
 
   - key: usage.js_pace_of_change
     t: 变化速度
     aliases:
-    - features.js_pace_of_change
+      - features.js_pace_of_change
 
   - key: usage.js_pace_of_change.question
     t: 您通常能多好地跟上新的 JavaScript 特性，比如本调查中提到的那些？
     aliases:
-    - features.js_pace_of_change.question
+      - features.js_pace_of_change.question
 
   - key: options.js_pace_of_change.1
     aliasFor: options.css_pace_of_change.1
@@ -1778,7 +1777,7 @@ translations:
     t: 关于 T 恤
 
   - key: tshirt.description
-    t: '我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。'
+    t: "我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。"
 
   - key: tshirt.getit
     t: 获取它
@@ -1793,4 +1792,4 @@ translations:
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
-    t: 'Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位才华横溢的插画家，擅长复古视觉效果。事实上，我们鼓励您也看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！'
+    t: "Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位才华横溢的插画家，擅长复古视觉效果。事实上，我们鼓励您也看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！"

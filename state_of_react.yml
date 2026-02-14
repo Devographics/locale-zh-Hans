@@ -645,7 +645,7 @@ translations:
   - key: sections.main_apis.title
     t: 主要 API
     aliases:
-    - features.main_apis
+      - features.main_apis
 
   - key: sections.main_apis.description
     t: 稳定、成熟的 React 特性
@@ -653,7 +653,7 @@ translations:
   - key: sections.new_apis.title
     t: 新特性
     aliases:
-    - features.new_apis
+      - features.new_apis
 
   - key: sections.new_apis.description
     t: 新引入或实验性的 API 和特性
@@ -661,7 +661,7 @@ translations:
   - key: sections.component_libraries.title
     t: UI 库
     aliases:
-    - tools.component_libraries
+      - tools.component_libraries
 
   - key: sections.component_libraries.description
     t: 前端开发的基石
@@ -669,12 +669,12 @@ translations:
   - key: sections.back_end_infrastructure.title
     t: 后端与基础设施
     aliases:
-    - tools.back_end_infrastructure
+      - tools.back_end_infrastructure
 
   - key: sections.back_end_infrastructure.title.short
     t: 后端
     aliases:
-    - tools.back_end_infrastructure.short
+      - tools.back_end_infrastructure.short
 
   - key: sections.back_end_infrastructure.description
     t: 打包和部署您的应用
@@ -703,90 +703,90 @@ translations:
   - key: tools.all_tools_experience
     t: 库的使用体验和评价
     aliases:
-    - libraries.all_tools_experience
-    - libraries.all_libraries
+      - libraries.all_tools_experience
+      - libraries.all_libraries
 
   - key: tools.component_libraries_others
     t: 其他 UI 库
     aliases:
-    - component_libraries.component_libraries_others
+      - component_libraries.component_libraries_others
 
   - key: tools.component_libraries_others.question
     t: 您还使用了哪些其他组件库？
     aliases:
-    - component_libraries.component_libraries_others.question
+      - component_libraries.component_libraries_others.question
 
   - key: tools.component_libraries_experience
     t: UI 库的使用体验和评价
     aliases:
-    - component_libraries.component_libraries_experience
+      - component_libraries.component_libraries_experience
 
   - key: tools.component_libraries_ratios
     t: UI 库随时间变化趋势
     aliases:
-    - component_libraries.component_libraries_ratios
+      - component_libraries.component_libraries_ratios
 
   - key: tools.component_libraries_pain_points
     t: 组件痛点
     aliases:
-    - react_pain_points.component_libraries_pain_points
-    - component_libraries.component_libraries_pain_points
+      - react_pain_points.component_libraries_pain_points
+      - component_libraries.component_libraries_pain_points
 
   - key: tools.component_libraries_pain_points.question
     t: 您在使用组件时遇到了哪些痛点？
     aliases:
-    - react_pain_points.component_libraries_pain_points.question
-    - component_libraries.component_libraries_pain_points.question
+      - react_pain_points.component_libraries_pain_points.question
+      - component_libraries.component_libraries_pain_points.question
 
   - key: tools.state_management_ratios
     t: 状态管理随时间变化趋势
     aliases:
-    - state_management.state_management_ratios
+      - state_management.state_management_ratios
 
   - key: tools.state_management_others.question
     t: 您还使用了哪些其他库来管理应用状态？
     aliases:
-    - state_management.state_management_others.question
+      - state_management.state_management_others.question
 
   - key: tools.state_management_pain_points
     t: 状态管理痛点
     aliases:
-    - react_pain_points.state_management_pain_points
-    - state_management.state_management_pain_points
+      - react_pain_points.state_management_pain_points
+      - state_management.state_management_pain_points
 
   - key: tools.state_management_pain_points.question
     t: 您在状态管理方面遇到了哪些痛点？
     aliases:
-    - react_pain_points.state_management_pain_points.question
-    - null
-    - state_management.state_management_pain_points.question
+      - react_pain_points.state_management_pain_points.question
+      - null
+      - state_management.state_management_pain_points.question
 
   - key: tools.data_loading_ratios
     t: 数据加载随时间变化趋势
     aliases:
-    - data_loading.data_loading_ratios
+      - data_loading.data_loading_ratios
 
   - key: tools.data_loading_others.question
     t: 您还使用了哪些其他库进行数据加载？
     aliases:
-    - data_loading.data_loading_others.question
+      - data_loading.data_loading_others.question
 
   - key: tools.data_loading_pain_points
     t: 数据加载痛点
     aliases:
-    - react_pain_points.data_loading_pain_points
-    - data_loading.data_loading_pain_points
+      - react_pain_points.data_loading_pain_points
+      - data_loading.data_loading_pain_points
 
   - key: tools.data_loading_pain_points.question
     t: 您在数据加载方面遇到了哪些痛点？
     aliases:
-    - react_pain_points.data_loading_pain_points.question
-    - data_loading.data_loading_pain_points.question
+      - react_pain_points.data_loading_pain_points.question
+      - data_loading.data_loading_pain_points.question
 
   - key: tools.meta_frameworks_ratios
     t: 元框架随时间变化趋势
     aliases:
-    - back_end_infrastructure.meta_frameworks_ratios
+      - back_end_infrastructure.meta_frameworks_ratios
 
   - key: tools.meta_frameworks_heading
     t: 元框架
@@ -797,14 +797,14 @@ translations:
   - key: tools.back_end_infrastructure_pain_points
     t: 后端痛点
     aliases:
-    - react_pain_points.back_end_infrastructure_pain_points
-    - back_end_infrastructure.back_end_infrastructure_pain_points
+      - react_pain_points.back_end_infrastructure_pain_points
+      - back_end_infrastructure.back_end_infrastructure_pain_points
 
   - key: tools.back_end_infrastructure_pain_points.question
     t: 您在后端和基础设施方面遇到了哪些痛点？
     aliases:
-    - react_pain_points.back_end_infrastructure_pain_points.question
-    - back_end_infrastructure.back_end_infrastructure_pain_points.question
+      - react_pain_points.back_end_infrastructure_pain_points.question
+      - back_end_infrastructure.back_end_infrastructure_pain_points.question
 
   - key: tools.testing
     t: 测试库
@@ -815,22 +815,22 @@ translations:
   - key: tools.mobile_development
     t: 移动开发
     aliases:
-    - other_tools.mobile_development
+      - other_tools.mobile_development
 
   - key: tools.mobile_development.question
     t: 您使用过哪些框架或库进行移动开发？
     aliases:
-    - other_tools.mobile_development.question
+      - other_tools.mobile_development.question
 
   - key: tools.form_libraries
     t: 表单库
     aliases:
-    - component_libraries.form_libraries
+      - component_libraries.form_libraries
 
   - key: tools.form_libraries.question
     t: 您使用过哪些库来管理表单？
     aliases:
-    - component_libraries.form_libraries.question
+      - component_libraries.form_libraries.question
 
   - key: options.form_libraries.na
     t: 无
@@ -853,52 +853,52 @@ translations:
   - key: tools.build_tools
     t: 构建工具
     aliases:
-    - back_end_infrastructure.build_tools
+      - back_end_infrastructure.build_tools
 
   - key: tools.build_tools.question
     t: 您使用过哪些构建工具和打包器？
     aliases:
-    - back_end_infrastructure.build_tools.question
+      - back_end_infrastructure.build_tools.question
 
   - key: tools.animation_libraries
     t: 动画
     aliases:
-    - component_libraries.animation_libraries
+      - component_libraries.animation_libraries
 
   - key: tools.animation_libraries.question
     t: 您使用过哪些动画库？
     aliases:
-    - component_libraries.animation_libraries.question
+      - component_libraries.animation_libraries.question
 
   - key: tools.auth
     t: 身份验证
     aliases:
-    - other_tools.auth
+      - other_tools.auth
 
   - key: tools.auth.question
     t: 您使用过哪些库和服务来处理身份验证？
     aliases:
-    - other_tools.auth.question
+      - other_tools.auth.question
 
   - key: tools.data_visualization_libraries
     t: 数据可视化
     aliases:
-    - component_libraries.data_visualization_libraries
+      - component_libraries.data_visualization_libraries
 
   - key: tools.data_visualization_libraries.question
     t: 您使用过哪些数据可视化和图形库？
     aliases:
-    - component_libraries.data_visualization_libraries.question
+      - component_libraries.data_visualization_libraries.question
 
   - key: tools.css_tools
     t: CSS 工具和库
     aliases:
-    - component_libraries.css_tools
+      - component_libraries.css_tools
 
   - key: tools.css_tools.question
     t: 您使用过哪些库或框架来为您的 React 应用设置样式？
     aliases:
-    - component_libraries.css_tools.question
+      - component_libraries.css_tools.question
 
   - key: tools.other_frontend_frameworks
     t: 其他前端框架
@@ -911,42 +911,42 @@ translations:
   - key: tools.hosting
     t: 托管服务
     aliases:
-    - back_end_infrastructure.hosting
+      - back_end_infrastructure.hosting
 
   - key: tools.hosting.question
     t: 您使用过这些服务中的哪些来托管您的 React 应用？
     aliases:
-    - back_end_infrastructure.hosting.question
+      - back_end_infrastructure.hosting.question
 
   - key: tools.backend_language
     t: 后端语言
     aliases:
-    - back_end_infrastructure.backend_language
+      - back_end_infrastructure.backend_language
 
   - key: tools.backend_language.question
     t: 您的后端应用是用什么语言编写的？
     aliases:
-    - back_end_infrastructure.backend_language.question
+      - back_end_infrastructure.backend_language.question
 
   - key: tools.other_services
     t: 其他服务
     aliases:
-    - back_end_infrastructure.other_services
+      - back_end_infrastructure.other_services
 
   - key: tools.other_services.question
     t: 您在 React 应用中还使用了哪些其他服务？
     aliases:
-    - back_end_infrastructure.other_services.question
+      - back_end_infrastructure.other_services.question
 
   - key: tools.validation
     t: 模式 (Schema) 和验证库
     aliases:
-    - other_tools.validation
+      - other_tools.validation
 
   - key: tools.validation.question
     t: 您使用过哪些库来根据模式验证数据？
     aliases:
-    - other_tools.validation.question
+      - other_tools.validation.question
 
   - key: tools.ai_tools
     t: AI 工具
@@ -957,12 +957,12 @@ translations:
   - key: tools.renderers
     t: React 渲染器
     aliases:
-    - other_tools.renderers
+      - other_tools.renderers
 
   - key: tools.renderers.question
     t: 您使用过哪些库将 React 渲染到不同的平台或环境？
     aliases:
-    - other_tools.renderers.question
+      - other_tools.renderers.question
 
   - key: tools.other_tools
     t: 其他工具
@@ -1147,7 +1147,7 @@ translations:
   - key: react_pain_points.excessive_rerendering
     t: 过多的重复渲染
     aliases:
-    - react_pain_points.excesssive_rerendering
+      - react_pain_points.excesssive_rerendering
 
   - key: react_pain_points.nextjs_issues
     t: Next.js 问题

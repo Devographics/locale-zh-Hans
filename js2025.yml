@@ -494,7 +494,7 @@ translations:
     t: |
       SST
   - key: picks.michael_rambeau.bio
-    t: [BestOfJS](https://bestofjs.org/) 创建者
+    t: BestOfJS 创建者
   - key: picks.michael_rambeau.description
     t: |
       仅仅一年前我还不知道 SST，但我开始在一个新的工作项目中使用它，它简直太棒了！它真的值得更多的曝光。
@@ -559,16 +559,16 @@ translations:
     t: Vite 占据榜首，有 **{value}** 的用户对它持积极看法。
 
   - key: award.tool_interest_award.comment
-    t: **Vitest** 再次成为开发者最感兴趣的技术，兴趣比率为 **{value}**。
+    t: Vitest 再次成为开发者最感兴趣的技术，兴趣比率为 **{value}**。
 
   - key: award.most_write_ins_award.comment
     t: Node 版本管理器 **fnm** 获得了 **{value}** 次提及，再次证明了用 Rust 编写的一切都更好。
 
   - key: award.most_commented_tool_award.comment
-    t: **Next.js** 收到了受访者的 **{value}** 条评论，当然没有让人无动于衷。
+    t: Next.js 收到了受访者的 **{value}** 条评论，当然没有让人无动于衷。
 
   - key: award.most_loved_tool_award.comment
-    t: **{value}** 的开发者对 Vite 持积极看法，Vite 再次获得最受喜爱技术奖！
+    t: 有 **{value}** 的开发者对 Vite 持积极看法，Vite 再次获得最受喜爱技术奖！
 
   - key: award.feature_adoption_delta_award.comment
     t: 2022 年 **top-level await** 取得了 **{value}** 的进展，迅速成为 JavaScript 不可或缺的一部分。
