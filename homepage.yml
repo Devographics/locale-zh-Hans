@@ -110,3 +110,94 @@ translations:
     aliasFor: general.join_discord
   - key: homepage.astro_link
     t: "由 [Astro](https://astro.build/) 提供支持"
+
+
+  - key: homepage.results_coming_soon
+
+    t: 结果即将公布……
+
+  - key: newsletter.thanks
+
+    t: 感谢订阅！
+
+  - key: creators.heading
+
+    t: 我们支持的创作者
+
+  - key: creators.description
+
+    t: "我们的调查之所以能够进行，完全归功于开发者社区的持续支持，而在我们力所能及的时候回馈社区也是理所当然的。\n\n\n以下是我们提供资金支持的一些优秀内容创作者和组织，以换取他们帮助宣传调查。\n"
+
+  - key: creators.stephanie_walter.description
+
+    t: 'Stéphanie Walter 是一位居住在卢森堡的资深 UX 研究员、设计师和作家，她擅长将复杂的话题变得清晰易懂。
+
+      '
+
+  - key: creators.afor_digital.description
+
+    t: 'Afor 是西班牙语 Web 开发直播社区的关键人物，她制作引人入胜的编程内容的天赋为她赢得了当之无愧的成功。
+
+      '
+
+  - key: creators.shruti_kapoor.description
+
+    t: '通过写博客、制作 YouTube 视频、在会议上演讲，以及做一个全方位的优秀人才，Shruti 已经成为 React 生态系统中不可或缺的一员有一段时间了。
+
+      '
+
+  - key: creators.codebar.description
+
+    t: 'Codebar 是一个了不起的组织，他们举办通常需要数千美元的研讨会，并免费在线提供，旨在建立一个更具包容性的开发者社区。
+
+      '
+
+  - key: calendar.heading
+
+    t: '{currentYear} 调查
+
+      '
+
+  - key: calendar.feedbackAt
+
+    t: 反馈开始
+
+  - key: calendar.startedAt
+
+    t: 调查开始
+
+  - key: calendar.endedAt
+
+    t: 调查结束
+
+  - key: calendar.releasedAt
+
+    t: 结果发布
+
+  - key: calendar.past_editions
+
+    t: 往期调查
+
+  - key: calendar.ongoing_editions
+
+    t: 进行中的调查
+
+  - key: calendar.upcoming_editions
+
+    t: 即将开始的调查
+
+  - key: calendar.no_editions
+
+    t: 暂无调查。
+
+  - key: calendar.give_feedback
+
+    t: 建议问题 →
+
+  - key: calendar.take_survey
+
+    t: 参与调查 →
+
+  - key: calendar.view_results
+
+    t: 查看结果 →

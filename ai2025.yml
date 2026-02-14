@@ -1,0 +1,321 @@
+locale: zh-Hans
+translations:
+  - key: general.ai2025.devs2025_banner
+    t: >
+      宣布一项针对*非*代码领域的新开发者调查：涵盖健康、爱好、职业等方面！ →
+
+  - key: general.ai2025.survey_intro
+    t: |
+
+      我让 ChatGPT 为这份调查写个介绍——当然不是真的用它，只是为了寻找灵感。
+
+      它写的介绍很棒——简洁、连贯、深思熟虑。现在的问题是，我那凡人这大脑想不出同样好的文案了。
+
+      不知怎么的，我这次忍住了复制粘贴的冲动。然而，说到 Web 开发，我们中的许多人已经接受了新的 AI 霸主，并经常在早餐前生成整个应用程序——至少如果我的社交媒体动态可信的话是这样。
+
+      但今天我想弄清楚*真正*发生了什么。你是如何使用 AI 的？你尝试过哪些工具？机器人的崛起会在 GTA 6 发布之前发生吗？
+
+      我们感谢你的时间和投入，并期待与社区分享结果。让我们一起探索 AI 如何塑造 Web 开发的未来！
+
+      *P.S. 上面有一段实际上是 AI 写的。你能看出是哪一段吗？*
+
+  - key: introduction.ai2025
+    t: |
+
+      午睡有助于缓解时差反应吗？我应该买哪种烙铁？今晚去哪儿吃？
+
+      像许多人一样，我已经开始把生活中的小问题——有时是不那么小的问题——委托给 AI。但是*写代码*呢？AI 准备好接管了吗，还是我们应该再坚持用键盘一阵子？
+
+      现在打开你最喜欢的社交媒体应用，你会发现不缺开发者告诉你他们如何例行公事地在早餐前“vibe code”整个应用程序。
+
+      然而许多问题仍然存在：
+
+      - 开发者在 AI 上花费多少？
+      - 哪些工具最有用？
+      - 在利用 AI 开发 Web 应用时，开发者的最大痛点是什么？
+
+      这首届 **Web 开发 AI 现状** 调查回答了所有这些问题以及更多。此外，我们还试图调查那些对 AI 仍持保留意见的开发者，以便更准确地描绘当前 AI 生态系统的状况。
+
+      我们希望你会发现这份报告和我们一样有趣！
+
+      *请注意，本次调查与 [The State of AI Report](https://www.stateof.ai/) 或 [Vercel State of AI survey](https://vercel.com/state-of-ai) 无关。*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  # FAQ
+
+  - key: faq.results_released_ai2025
+    t: 结果什么时候发布？
+  - key: faq.results_released_ai2025.description
+    t: 调查将于 2025 年 2 月 10 日至 3 月 10 日进行，调查结果将在不久后发布。
+
+  - key: faq.survey_design_ai2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_ai2025.description
+    t: >
+      本次调查的设计是[公开设计过程](https://github.com/Devographics/surveys/issues/278)的结果，涉及 AI 公司、浏览器供应商和 Web 开发社区。
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.ai2025
+    t: |
+      **4,181** 名受访者参与了首届 Web 开发 AI 现状调查。
+
+  # models
+
+  - key: sections.models.description.ai2025
+    t: |
+      整个生态系统建立的基础。
+
+  - key: tools.models_experience.takeaway.ai2025
+    t: |
+      OpenAI 的 **ChatGPT** 仍然受益于其先发优势和巨大的市场份额，使其成为使用率最高（91.2%）和最受喜爱（53.1%）的模型提供商，这并不令人惊讶。
+
+      虽然它在实用性方面拥有巨大的领先优势，但亚军 **Claude** 在积极情绪方面并未落后太远，为 45.9%。
+
+  - key: ai_pain_points.models_pain_points.takeaway.ai2025
+    t: |
+      **幻觉和不准确**是受访者报告的 AI 模型最大的痛点，这很有道理，因为如果输出不可靠，这些工具就失去了所有效用。
+
+      缺乏**处理更大上下文**和将数据保存在内存中的能力也是一个大问题，尤其是在处理大型、现实世界的代码库时。
+
+  # ides
+
+  - key: sections.ides.description.ai2025
+    t: |
+      明日的 AI 驱动的文本编辑器。
+
+  - key: tools.ides_experience.takeaway.ai2025
+    t: |
+      **Cursor** 拥有绝对的知名度领先优势，82.2% 的受访者使用过或听说过它，而亚军 Zed 只有 54.1%。
+
+      在查看关于 Cursor 的自由评论时，似乎主要问题实际上是它的价格，这表明市场可能还有更便宜的替代品的空间。
+
+  - key: ai_pain_points.ides_pain_points.takeaway.ai2025
+    t: |
+      **上下文和内存限制**是目前阻止 Web 开发者使用专用 IDE 进行编码的主要原因，其次是过多的**侵入性建议**以及与 AI IDE 相关的**高成本**。
+
+  # coding_assistants
+
+  - key: sections.coding_assistants.description.ai2025
+    t: |
+      你的个人编程伙伴。
+
+  - key: tools.coding_assistants_experience.takeaway.ai2025
+    t: |
+      虽然 **GitHub Copilot** 在使用率和积极情绪排名中名列前茅并不令人惊讶，但值得注意的是，尽管 **Supermaven** 在使用率方面仅排名第 4，但其积极情绪量排名第二。这种差异通常是新星升起的迹象，可能会在未来一年掀起波澜。
+
+  - key: ai_pain_points.coding_assistants_pain_points.takeaway.ai2025
+    t: |
+      再一次，**幻觉和不准确**被证明是更广泛采用的一大障碍。
+
+      就像 IDE 一样，编码助手具有**有限的上下文窗口**也是一个主要问题。
+
+  # code_generation
+
+  - key: sections.code_generation.description.ai2025
+    aliasFor: sections.code_generation.prompt
+
+  - key: tools.code_generation_experience.takeaway.ai2025
+    t: |
+      凭借 Vercel 的力量，**v0** 迅速在这个新兴的行业领域确立了领导地位。但 StackBlitz 的 **Bolt** 也不甘落后，当然值得关注。
+
+  - key: ai_pain_points.code_generation_pain_points.takeaway.ai2025
+    t: |
+      代码生成工具似乎生成的**代码质量差**，通常根本无法按预期工作，或者根本无法工作。
+
+  # other_tools
+
+  - key: sections.other_tools.description.ai2025
+    t: 其他 AI 工具
+
+  - key: other_tools.ai_programming_languages.takeaway.ai2025
+    t: |
+      正如对 Web 开发调查所预期的那样，AI 工具最常与 JavaScript 和 TypeScript 结合使用。
+
+  - key: other_tools.image_generation.takeaway.ai2025
+    t: |
+      内置于 ChatGPT 已被证明是 **Dall-E** 的一大优势，使其领先于 **Stable Diffusion** 和 **Midjourney** 等成熟的竞争对手。
+
+  - key: other_tools.ai_libraries_sdks.takeaway.ai2025
+    t: |
+      在 v0 和 **Vercel AI SDK** 之间，Vercel 尽管没有将 AI 作为其主要关注点，但在 AI 领域表现相当不错。
+
+  - key: other_tools.ai_browser_apis.takeaway.ai2025
+    t: |
+      AI 模型将来很有可能会被嵌入到我们的 Web 浏览器中——如果发生这种情况，像翻译或动态总结内容这样的事情可能只是一个 API 调用的距离。
+
+  # usage
+
+  - key: sections.usage.description.ai2025
+    t: |
+      开发者如何使用 AI。
+
+  - key: usage.ai_uses.takeaway.ai2025
+    t: 正如在开发者调查中所预期的那样，**代码生成**被列为最常见的 AI 用途。另一方面，尽管**图像生成**是生成式 AI 的原始用例，但只有 38% 的受访者表示使用过它。
+
+  - key: usage.ai_generated_code_balance.takeaway.ai2025
+    t: 我们大多数人还没有完全“vibe coding”，大多数受访者（69%）通过 AI 生成的代码不到 25%——只有少数人（8%）生成的代码超过 75%。
+
+  - key: usage.ai_generated_code_refactoring.takeaway.ai2025
+    t: 即使使用 AI 生成代码，绝大多数（76%）开发者表示，在准备使用之前，他们必须重构至少一半的输出代码。
+
+  - key: usage.ai_code_refactoring_reasons.takeaway.ai2025
+    t: |
+      重构的首要原因是外观问题，例如可读性差、变量重命名和过度重复。
+
+      许多受访者还使用自由形式的“其他答案”字段表示，生成的代码通常根本无法按预期工作。
+
+  - key: usage.ai_code_generation_frequency.takeaway.ai2025
+    t: |
+      这张图表显示了 AI 在我们日常工作流程中的嵌入程度，46% 的受访者每天多次或更多次使用 AI 生成代码。
+
+  - key: usage.ai_other_tasks_frequency.takeaway.ai2025
+    t: |
+      与代码生成相比，AI 用于其他任务（研究、总结、翻译等）的频率相对较低——这很有道理，因为编码仍然是我们花费最多时间的事情。
+
+  - key: usage.ai_generated_code_type.takeaway.ai2025
+    t: |
+      最常生成的代码类型被证明是辅助函数，其次是前端组件，这两者都是相当独立的，使其成为代码生成的良好候选者。
+
+      许多人还使用 AI 为现有代码添加文档或注释，这是一个意想不到的用例。
+
+  - key: usage.ai_personal_expenses.takeaway.ai2025
+    t: |
+      我不确定 AI 公司从哪里获得现金来运行他们的服务器农场，但有一件事是肯定的——它不是来自个人开发者，大多数受访者目前没有在 AI 工具和服务上花费任何自己的钱。
+
+  - key: usage.ai_company_expenses.takeaway.ai2025
+    t: |
+      有趣的是，公司支出遵循马蹄形模式，有些公司不在 AI 上花钱——除非他们花费超过 5000 美元！这种定价模式是否被证明对 AI 公司可持续还有待观察。
+
+      请注意，受访者在自由评论中还指出，他们可能并不总是能够获得这些信息。
+
+  - key: usage.industry_sector.takeaway.ai2025
+    t: |
+      不要犹豫，在任何*其他*图表上使用我们内置的 **查询构建器** 来根据任何特定行业部门过滤这些调查结果。
+
+  - key: usage.ai_running_locally.takeaway.ai2025
+    t: |
+      尽管涉及困难，许多受访者已经尝试在本地运行自己的 AI 模型，还有许多其他人有兴趣尝试。
+
+      这可能成为新模型的关键差异化因素，因为这表明了对更好地控制 AI 工具的强烈需求。
+
+  - key: usage.ai_pain_points.takeaway.ai2025
+    t: |
+      在 AI 痛点方面，整体代码质量差排名第一。
+
+  - key: usage.ai_missing_features.takeaway.ai2025
+    t: |
+      当今模型缺少的主要东西是将整个代码库保存在内存中的能力，如果 AI 工具旨在帮助我们维护应用程序，而不仅仅是原型化它们，这将证明是关键。
+
+  - key: usage.ai_happiness.takeaway.ai2025
+    t: |
+      尽管调查强调了各种痛点，但受访者总体上对 2025 年 Web 开发 AI 的状况持相当积极的态度。
+    aliases:
+      - happiness.ai_happiness.takeaway.ai2025
+
+  # resources
+
+  - key: sections.resources.description.ai2025
+    t: 开发者如何学习 AI
+
+  # opinions
+
+  - key: sections.opinions.description.ai2025
+    t: 提出更深层的问题
+
+  - key: opinions.integral_workflow.takeaway.ai2025
+    t: |
+      尽管 AI 工具绝不完美，但受访者之间存在强烈的共识，即它们已经成为日常编码工作流程中不可或缺的一部分。
+
+  - key: opinions.more_productive.takeaway.ai2025
+    t: |
+      同样，大多数受访者同意 AI 工具成功地提高了他们的生产力。
+
+  - key: opinions.ai_reliance_worse_developers.takeaway.ai2025
+    t: |
+      然而，今天的这种生产力提升可能会在明天付出代价：过度依赖 AI 工具很可能会最终降低整个行业的整体技能水平！
+
+  - key: opinions.job_security_threat.takeaway.ai2025
+    t: |
+      无论如何，普通受访者并不担心 AI 会抢走他们的工作——时间会证明这是自信还是狂妄。
+
+  - key: opinions.existential_risk.takeaway.ai2025
+    t: |
+      受访者在 AI 安全话题上存在分歧，许多人（包括我自己）还不确定 AI 是否真的对人类构成风险。
+
+  - key: opinions.reach_agi.takeaway.ai2025
+    t: |
+      “AGI”是一个模糊的目标，通常被吹捧为“指日可待”。但总体而言，受访者对在不久的将来实现它仍持怀疑态度。
+
+  # conclusion
+
+  - key: conclusion.ai2025.ashok_gelal.bio
+    t: 开发者和创始人，[Msty](https://msty.app/)
+
+  - key: conclusion.ai2025.ashok_gelal
+    t: |
+      就像我们要中的许多人一样，起初我对 AI 非常怀疑。AI 到底是真正的游戏规则改变者，还是像 NFT、Crypto、Web3 等众多其他东西一样只是昙花一现？
+
+      然后 OpenAI 推出了 ChatGPT。不久之后，当我七年级的侄女提到她的老师计划在课堂上使用它时，我知道这次有些不同。
+
+      有一段时间我认为 OpenAI 会席卷整个市场——但是天哪，我很高兴我错了！
+
+      来自 DeepSeek 的最新推理模型、来自 Google Gemini 的令人难以置信的图像生成能力、来自 Anthropic 的 MCP 工具等表明，这仅仅是开始，AI 创新正以前所未有的速度发生。
+
+      作为在该模型之上构建应用程序的人，我非常兴奋地看到这一切将把我们带向何方。AI 会取代我们吗？我不确定。但我相信那些学会如何使用它的人肯定会有优势。
+
+      我没有赶上最初的互联网繁荣，所以我不会错过这次。现在请原谅，我需要去看看刚刚发布的新模型，据说比现有的任何东西都更快、更便宜、更好！
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.google_chrome.description
+    t: 感谢 Google Chrome 团队支持我们的工作。
+
+  - key: sponsors.tokyodev.description
+    t: 今天就在日本找到你梦想的开发者工作。
+
+  - key: sponsors.neon.description
+    t: 用 Postgres 释放尖端 AI 应用。
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.ai2025
+    t: |
+      2025 年 Web 开发 AI 现状调查于 2025 年 2 月 10 日至 3 月 10 日进行，共收集了 4,181 份回复。结果于 2025 年 4 月 15 日发布。本次调查由 [Devographics](https://devographics.com/) 运营，并得到受邀领域专家和开源贡献者的帮助。
+
+      ### 调查目标
+
+      创建本次调查旨在确定使用 AI 进行 Web 开发的未来趋势，以帮助开发者做出更好的技术选择。
+
+      ### 调查设计
+
+      本次调查是与社区合作设计的，并设有一个公开反馈期，期间在 [GitHub 上](https://github.com/Devographics/surveys/issues/278) 讨论了调查大纲。
+
+      所有调查问题均为选填。
+
+      ### 调查受众
+
+      本次调查在线公开访问，受访者未经过任何方式的筛选或选择。受访者主要是过去 Devographics 调查（如 [State of JS](https://stateofjs.com/)、[State of CSS](https://stateofcss.com/) 等）的受访者（通过专用邮件列表通知）和社交媒体流量的混合体。
+
+      虽然本次调查对所有开发者开放，无论他们是否使用 AI，但调查本身的主题可能会使受访者群体偏向于对 AI 感兴趣的开发者。
+
+      这也应被视为**特定开发者子集的快照**，并不意味着代表整个生态系统。
+
+      ### 项目资金
+
+      本项目的资金来自我们合作伙伴的赞助。
+
+      非常感谢任何贡献或赞助。我们特别希望能与更多浏览器供应商密切合作，因为他们在 Web 生态系统中扮演着如此核心的角色。
+
+      ### 技术概览
+
+      你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于调查如何运行的更深入的技术概览。

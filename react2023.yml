@@ -473,3 +473,137 @@ translations:
       ### 特别鸣谢
 
       特别感谢 Paul McMahon、Marc Grabanski 和 Justin E. Samuels 的持续支持。
+
+  - key: sections.user_info.description.react2023
+    t: |
+      **13,003** 名受访者参与了首次 State of React 调查。虽然这只是整个社区的一小部分样本，但足以为我们提供有价值的数据！
+
+  - key: sections.features.description.react2023
+    t: |
+      我们询问了受访者对 **28** 个不同特性的看法，从无处不在的 Hooks（如 `useState`）到更小众的 API（如 `useDeferredValue`）。记得尝试按 "sentiment" 排序！
+
+  - key: sections.libraries.description.react2023
+    t: |
+      我们重新设计了图表，不仅突出显示开发者的使用经验，还包括他们的*感受*。一定要探索这些新的分组和排序选项，了解哪些库最受欢迎……或最不受欢迎！
+
+  - key: sections.other_tools.description.react2023
+    t: |
+      React 以专注于 UI 渲染而闻名，同时对应用程序的其他部分保持相当中立的态度，这反映在为填补这些空白而涌现的充满活力的生态系统中！
+
+  - key: sections.usage.description.react2023
+    t: |
+      无论你使用哪个版本、采用什么应用程序模式，或者属于哪个行业领域，使用 React 都没有错误的方式！
+
+  - key: sections.resources.description.react2023
+    t: |
+      React 持续主导的一个重要原因是它多年来积累的大量文档、博客文章、视频和其他资源。这里只是其中的一小部分样本！
+
+  - key: sections.awards.description.react2023
+    t: |
+      今年的奖项被一个非常特别的项目主导…… 你能多快猜出它是什么？
+
+  - key: picks.my_pick.react2023
+    t: "我的 2023 年度之选："
+
+  - key: faq.data_used_react2023
+    t: 这些数据将如何被使用？
+  - key: faq.data_used_react2023.description
+    t: |
+      所有收集到的数据都将公开发布，供任何人查阅。开发者或公司可以使用这些数据来确定重点领域并为他们的路线图提供信息。
+
+  - key: faq.survey_goals_react2023
+    t: 调查的目标是什么？
+  - key: faq.survey_goals_react2023.description
+    t: |
+      调查的目标是衡量 React API 以及 React 生态系统中库的知名度和受欢迎程度。
+
+  - key: faq.who_should_take_survey_react2023
+    t: 谁应该参与这项调查？
+  - key: faq.who_should_take_survey_react2023.description
+    t: |
+      这是一项开放的调查，适用于任何使用 React 的人，无论是经常使用还是偶尔使用，无论是作为工作的一部分、作为学生，还是仅仅为了好玩！
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: 完成调查需要多长时间？
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: |
+      取决于你回答多少问题（所有问题都是可选的），填写调查大约需要 15-20 分钟。
+
+  - key: faq.learn_more_react2023
+    t: 我在哪里可以了解更多信息？
+  - key: faq.learn_more_react2023.description
+    t: 你可以在[我们的公告文章](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b)中了解更多关于此调查的信息。
+
+  - key: faq.survey_design_react2023
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_react2023.description
+    t: |
+      这项调查是在社区的投入下通过一个[公开反馈帖](https://github.com/Devographics/surveys/issues/85)设计的。
+
+  - key: faq.results_released_react2023
+    t: 结果什么时候发布？
+  - key: faq.results_released_react2023.description
+    t: 调查将于 10 月 27 日至 11 月 15 日进行，结果将在之后不久发布。
+
+  - key: about.content.react2023
+
+    t: |
+      2023 年 State of React 调查于 2023 年 10 月 27 日至 11 月 15 日进行，共收集了 13,003 份回复。结果于 2024 年 7 月 20 日发布。该调查由 [Devographics](https://devographics.com/) 运营，这是一个由我（[Sacha Greif](https://sachagreif.com/)）和 [Eric Burel](https://www.lbke.fr/) 组成的集体，以及受邀专家和开源贡献者。
+
+      State of React 的标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      创建这个调查的目的是为了识别 React 生态系统中即将出现的趋势，以帮助开发者做出技术选择。
+
+      因此，调查的重点是预测未来几年可能出现的情况，而不是分析现在流行的东西，这就是为什么有时会忽略某些特性或技术，即使它们目前广泛使用。
+
+      它也应该被视为**特定开发者子集的快照**，并不意味着代表整个 React 生态系统。
+
+      ### 调查设计
+
+      调查的设计部分基于去年的调查，并有一个开放的反馈期，在此期间[在 GitHub 上](https://github.com/Devographics/surveys/issues/85)讨论了调查大纲。
+
+      所有调查问题都是可选的。
+
+      ### 调查受众
+
+      该调查在网上公开访问，受访者没有经过任何筛选或选择。受访者主要是过去调查的受访者（通过专门的邮件列表通知）和社交媒体流量的混合。
+
+      请注意，框架、库等可以自由鼓励他们的受众参与调查，有些确实通过横幅、推文等方式利用了这一点。详细的流量来源明细包含在"来源"图表中。
+
+      ### 项目资金
+
+      该项目的资金来自多个来源：
+
+      - **T 恤销售**。
+
+      - **赞助链接**：每个页面底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
+
+      - **直接资助**：今年，[Google](https://www.google.com/) 和 [TokyoDev](https://www.tokyodev.com/) 资助了我在调查上的工作。
+
+      我们非常感谢任何贡献或赞助。我们特别希望与更多的浏览器供应商密切合作，因为它们在 Web 生态系统中扮演着如此重要的角色。
+
+      ### 技术概述
+
+      你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于如何运行调查的更深入的技术概述。
+
+      **注意：这*不是*官方的 React 调查，调查团队也不隶属于 Meta、Vercel 或 React 团队。**
+
+      ### 特别鸣谢
+
+      特别感谢 Paul McMahon、Marc Grabanski 和 Justin E. Samuels 的持续支持。
+
+  - key: general.react2023.survey_intro
+
+    t: |
+      React 一经推出，就很明显它将成为 Web 领域的一件大事。
+
+      毕竟它是用来构建 Facebook 的，尽管有这个奇怪的 "JSX" 东西，开发者们还是很快采用了它。更令人印象深刻的是，社区在函数组件和 Hooks 等重大变革中依然坚持了下来。
+
+      但现在 10 年过去了，新推出的 React 服务器组件有望成为自……好吧，自 React 本身以来最大的变化！
+
+      社区会再次跟随吗？还是开发者会跳槽到 Svelte、Solid 或其他东西？
+
+      让我们通过第一次 State of React 调查一起来找出答案！
+

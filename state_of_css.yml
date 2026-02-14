@@ -271,7 +271,7 @@ translations:
   - key: options.css_missing_features.browser_support.description
     t: 更好地支持现有功能的浏览器。
   - key: options.css_missing_features.mixins
-    t: Mixins
+    t: 混入 (Mixins)
   - key: options.css_missing_features.mixins.description
     t: 动态分组和重用定义。
   - key: options.css_missing_features.color_functions
@@ -361,7 +361,7 @@ translations:
   - key: features.writing_modes
     t: CSS 书写模式 （Writing Modes）
   - key: features.exclusions
-    t: CSS Exclusions
+    t: CSS 排除 (Exclusions)
   - key: features.flexbox_gap
     t: flexbox的间隙属性
   - key: features.viewport_percentage_length_units
@@ -490,7 +490,7 @@ translations:
   - key: features.browser_support.description
     t: 更好地支持现有功能的浏览器。
   - key: features.mixins
-    t: Mixins
+    t: 混入 (Mixins)
   - key: features.mixins.description
     t: 动态分组和重用定义。
   - key: features.color_functions
@@ -1189,3 +1189,504 @@ translations:
     aliasFor: sections.selectors.title
   - key: features.math_features
     aliasFor: sections.math_features.title
+
+
+  - key: sections.tshirt.title
+
+    t: T恤
+
+  - key: sections.tshirt.description
+
+    t: "## 购买 State of CSS T恤来支持调查\n\n除了画质差、体积大、还得倒带之外，VHS 时代没什么好怀念的。但我们*确实*怀念的一件事是过去用来装饰空白 VHS 录像带的精彩 90 年代视觉效果。\n\n现在，感谢才华横溢的 Christopher Kirk-Nielsen，您可以享受这种复古的酷感，同时庆祝您对 CSS 的热爱！\n"
+
+  - key: tshirt.about
+
+    t: 关于 T恤
+
+  - key: tshirt.description
+
+    t: '我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
+
+  
+
+      '
+
+  - key: tshirt.getit
+
+    t: 购买
+
+  - key: tshirt.price
+
+    t: 29 美元 + 运费
+
+  - key: tshirt.designer.heading
+
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+
+    t: 'Chris 来自法国，现居美国，不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的才华横溢的插画家。实际上，我们也鼓励您看看他的[其他 T恤设计](https://chriskirknielsen.com/designs)！
+
+  
+
+      '
+
+  - key: features.layout_pain_points
+
+    t: 布局痛点
+
+  - key: features.layout_pain_points.question
+
+    t: 您在布局方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.shapes_graphics_pain_points
+
+    t: 图形与图像痛点
+
+  - key: features.shapes_graphics_pain_points.question
+
+    t: 您在图形与图像方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.interactions_pain_points
+
+    t: 交互痛点
+
+  - key: features.interactions_pain_points.question
+
+    t: 您在交互方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.typography_pain_points
+
+    t: 排版痛点
+
+  - key: features.typography_pain_points.question
+
+    t: 您在排版方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.animations_transforms_pain_points
+
+    t: 动画与变换痛点
+
+  - key: features.animations_transforms_pain_points.question
+
+    t: 您在动画与变换方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.accessibility_pain_points
+
+    t: 无障碍痛点
+
+  - key: features.accessibility_pain_points.question
+
+    t: 您在无障碍方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.colors_pain_points
+
+    t: 颜色痛点
+
+  - key: features.colors_pain_points.question
+
+    t: 您在处理颜色方面遇到的最大 CSS 痛点是什么？
+
+  - key: features.other_features_pain_points
+
+    t: 其他特性痛点
+
+  - key: features.other_features_pain_points.question
+
+    t: 对于上述特性，您遇到的最大 CSS 痛点是什么？
+
+  - key: features.math_features_pain_points
+
+    t: 数学特性痛点
+
+  - key: features.math_features_pain_points.question
+
+    t: 您在数学特性方面遇到的最大 CSS 痛点是什么？
+
+  - key: sections.other_tools.title
+
+    t: 其他工具
+
+  - key: sections.other_tools.description
+
+    t: 其他 CSS 相关工具。
+
+  - key: features.flexbox_issues
+
+    t: Flexbox 问题
+
+  - key: features.height_issues
+
+    t: 高度问题
+
+  - key: features.overflow_issues
+
+    t: 溢出问题
+
+  - key: features.positioning_issues
+
+    t: 定位问题
+
+  - key: features.alignment_issues
+
+    t: 对齐问题
+
+  - key: features.centering_issues
+
+    t: 居中问题
+
+  - key: features.hard_to_memorize
+
+    t: 记忆正确的语法
+
+  - key: features.z_index_issues
+
+    t: Z-index 问题
+
+  - key: features.scrolling_issues
+
+    t: 滚动问题
+
+  - key: features.table_layouts_issues
+
+    t: 表格布局问题
+
+  - key: features.shape_issues
+
+    t: 形状绘制问题
+
+  - key: features.svg_issues
+
+    t: SVG 问题
+
+  - key: features.gradient_issues
+
+    t: 渐变问题
+
+    aliases:
+
+    - features.gradients_issues
+
+  - key: features.theming_issues
+
+    t: 主题问题
+
+  - key: features.contrast_issues
+
+    t: 对比度问题
+
+  - key: features.dark_mode_issues
+
+    t: 暗黑模式问题
+
+  - key: features.color_spaces_issues
+
+    t: 颜色空间问题
+
+  - key: features.color_variables_issues
+
+    t: 颜色变量问题
+
+  - key: features.color_manipulation_issues
+
+    t: 颜色操作问题
+
+  - key: features.color_syntax_issues
+
+    t: 颜色语法问题
+
+  - key: features.new_color_spaces_adoption_issues
+
+    t: 新颜色空间采用缓慢
+
+  - key: features.scrolling_issues
+
+    t: 滚动问题
+
+  - key: features.scrollbar_issues
+
+    t: 滚动条问题
+
+  - key: features.line_height_issues
+
+    t: '`line-height` 问题
+
+  
+
+      '
+
+  - key: features.font_sizing_issues
+
+    t: 字体大小问题
+
+  - key: features.handling_units
+
+    t: 单位处理
+
+  - key: features.math_is_hard
+
+    t: 数学困难
+
+  - key: features.lack_of_random_function
+
+    t: '缺少 `random()` 函数
+
+  
+
+      '
+
+  - key: features.excessive_tailwind_use
+
+    t: 过度使用 Tailwind
+
+  - key: options.what_do_you_use_css_for.pdf_documents
+
+    t: PDF 文档
+
+  - key: features.blend_modes.question
+
+    aliasFor: features.blend_modes
+
+  - key: features.gradient_color_spaces.question
+
+    aliasFor: features.gradient_color_spaces
+
+  - key: features.trigonometric_functions.question
+
+    aliasFor: features.trigonometric_functions
+
+  - key: options.css_frameworks.custom_framework
+
+    t: 自定义/内部框架
+
+    aliases:
+
+    - tools.custom_framework
+
+  - key: other_tools.pre_post_processors_freeform
+
+    aliasFor: sections.pre_post_processors_others.title
+
+  - key: usage.css_pace_of_change
+
+    t: 变化速度
+
+  - key: usage.css_pace_of_change.question
+
+    t: 您通常能多好地跟上新的 CSS 特性，比如本次调查中提到的那些？
+
+  - key: options.css_pace_of_change.1
+
+    t: 我还没了解或尝试过大多数特性
+
+    aliases:
+
+    - options.js_pace_of_change.1
+
+  - key: options.css_pace_of_change.2
+
+    t: 我了解过一些特性，但还没尝试过
+
+    aliases:
+
+    - options.js_pace_of_change.2
+
+  - key: options.css_pace_of_change.3
+
+    t: 我了解并尝试过一些特性
+
+    aliases:
+
+    - options.js_pace_of_change.3
+
+  - key: options.css_pace_of_change.4
+
+    t: 我了解大多数特性并尝试过其中一些
+
+    aliases:
+
+    - options.js_pace_of_change.4
+
+  - key: options.css_pace_of_change.5
+
+    t: 我了解并尝试过大多数特性
+
+    aliases:
+
+    - options.js_pace_of_change.5
+
+  - key: options.css_interoperability_features.safari_unsupported_features
+
+    t: Safari 问题
+
+  - key: usage.css_general_pain_points
+
+    aliasFor: opinions_others.css_pain_points.others
+
+  - key: usage.css_general_pain_points.question
+
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: options.css_general_pain_points.layout_and_positioning_issues
+
+    t: 布局与定位
+
+  - key: options.css_general_pain_points.excessive_tailwind_use
+
+    t: 过度使用 Tailwind
+
+  - key: options.css_general_pain_points.hard_to_memorize
+
+    t: 难以记忆的语法
+
+  - key: options.state_of_the_web_happiness.0
+
+    aliasFor: options.happiness.0
+
+  - key: options.state_of_the_web_happiness.1
+
+    aliasFor: options.happiness.1
+
+  - key: options.state_of_the_web_happiness.2
+
+    aliasFor: options.happiness.2
+
+  - key: options.state_of_the_web_happiness.3
+
+    aliasFor: options.happiness.3
+
+  - key: options.state_of_the_web_happiness.4
+
+    aliasFor: options.happiness.4
+
+  - key: options.state_of_css_happiness.0
+
+    aliasFor: options.happiness.0
+
+  - key: options.state_of_css_happiness.1
+
+    aliasFor: options.happiness.1
+
+  - key: options.state_of_css_happiness.2
+
+    aliasFor: options.happiness.2
+
+  - key: options.state_of_css_happiness.3
+
+    aliasFor: options.happiness.3
+
+  - key: options.state_of_css_happiness.4
+
+    aliasFor: options.happiness.4
+
+  - key: usage.baseline_awareness
+
+    t: Baseline 认知度
+
+  - key: usage.baseline_awareness.question
+
+    t: 测验时间！Web Platform Baseline 是……
+
+  - key: options.baseline_awareness.text_formatting
+
+    t: 一组新的文本布局特性
+
+  - key: options.baseline_awareness.performance_testing_tool
+
+    t: 一个浏览器内性能测试工具
+
+  - key: options.baseline_awareness.supported_apis
+
+    t: 一组所有主流浏览器都支持的 Web 特性和 API
+
+  - key: options.baseline_awareness.code_examples
+
+    t: 一组可跨项目重用的代码示例
+
+  - key: options.baseline_awareness.no_idea
+
+    t: 我不知道
+
+  - key: usage.gamechanger_feature
+
+    t: 改变游戏规则的特性
+
+  - key: usage.gamechanger_feature.question
+
+    t: 在过去 5 年中，哪个特性对您编写 CSS 的方式影响最大？
+
+  - key: features.layout.description
+
+    aliasFor: sections.layout.description
+
+  - key: features.shapes_graphics.description
+
+    aliasFor: sections.shapes_graphics.description
+
+  - key: features.interactions.description
+
+    aliasFor: sections.interactions.description
+
+  - key: features.typography.description
+
+    aliasFor: sections.typography.description
+
+  - key: features.accessibility.description
+
+    aliasFor: sections.accessibility.description
+
+  - key: features.other_features.description
+
+    aliasFor: sections.other_features.description
+
+  - key: features.colors.description
+
+    aliasFor: sections.colors.description
+
+  - key: features.selectors.description
+
+    aliasFor: sections.selectors.description
+
+  - key: features.math_features.description
+
+    aliasFor: sections.math_features.description
+
+  - key: faq.data_used_css
+
+    t: 这些数据将如何使用？
+
+  - key: faq.data_used_css.description
+
+    t: '收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也会[使用这些数据](https://web.dev/interop-2023/)来确定重点领域的优先级并为其路线图提供信息。
+
+  
+
+      '
+
+  - key: faq.who_should_take_survey_css
+
+    t: 谁应该参加这项调查？
+
+  - key: faq.who_should_take_survey_css.description
+
+    t: '这是一项开放的调查，适用于任何编写 CSS 的人，无论是经常还是偶尔，无论是作为工作的一部分、学生，还是仅仅为了好玩！
+
+  
+
+      '
+
+  - key: faq.survey_goals_css
+
+    t: 调查的目标是什么？
+
+  - key: faq.survey_goals_css.description
+
+    t: '调查的目标是跟踪即将推出的特性和库的演变，并帮助开发人员决定关注哪些新技术。
+
+  
+
+      '

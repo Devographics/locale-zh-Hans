@@ -1,0 +1,488 @@
+locale: zh-Hans
+namespace: graphql
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.state_of_graphql.intro
+      t: |
+          自 2015 年 9 月 Facebook 最初创建以来，许多开发者已经接受 GraphQL 作为构建 API 的一种新的、有前途的方式。
+
+          然而，仍然存在许多问题：到底什么时候需要 GraphQL？你应该手写 GraphQL API 还是从数据库生成？它会取代 REST 吗？
+
+          年度 GraphQL 开发者现状调查旨在回答这些问题，以及更多！
+
+    - key: general.state_of_graphql.description
+      t: GraphQL 生态系统的年度开发者调查
+    ###########################################################################
+    # Survey
+    ###########################################################################
+
+    - key: features.graphql_features_intro
+      t: >
+          欢迎参加调查！第一部分主要是了解您了解 GraphQL 及其生态系统的哪些**特性**。
+          如果您知道某些东西但从未使用过，那也没关系！
+
+    - key: tools.graphql_tools_intro
+      t: >
+          接下来的几个部分将重点介绍构成 GraphQL 生态系统的**库**和**服务**。让我们知道您对什么感兴趣！
+
+    - key: usage.bracket_intro
+      t: >
+          下一个问题使用特殊的**对决**格式！对于每一组对决，请选择您认为对您最重要的项目
+          （请注意，每一位受访者的对决组合都是随机的）。
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.graphql_language.title
+      t: 语言
+    - key: sections.graphql_language.description
+      t: GraphQL 的词汇表。
+    - key: sections.directives.title
+      t: 指令
+    - key: sections.directives.description
+      t: 增强您的 GraphQL 字段。
+    - key: sections.security_performance.title
+      t: 安全与性能
+    - key: sections.security_performance.description
+      t: 让您的 API 更健壮。
+    - key: sections.other_features.title
+      t: 其他特性
+
+    - key: sections.graphql_servers.title
+      t: GraphQL 服务器
+    - key: sections.graphql_servers.description
+      t: 您如何驱动您的 API。
+    - key: sections.graphql_clients.title
+      t: GraphQL 客户端
+    - key: sections.graphql_clients.description
+      t: 查询您的 API。
+    - key: sections.api_generators.title
+      t: API 生成器
+    - key: sections.api_generators.description
+      t: 为您创建 API 的 ORM、CMS 和其他工具。
+    - key: sections.web_frameworks.title
+      t: Web 框架
+    - key: sections.web_frameworks.description
+      t: 您与 GraphQL 结合使用的 Web 框架。
+    - key: sections.graphql_code_generators.title
+      t: 代码与模式生成器
+    - key: sections.graphql_code_generators.description
+      t: 为您编写部分代码的生成器、模式构建器和其他库。
+    - key: sections.schema_builders.title
+      t: 模式构建器
+    - key: sections.schema_builders.description
+      t: 帮助您构建全部或部分 GraphQL 模式的库和实用程序。
+    - key: sections.usage_graphql.title
+      t: GraphQL 使用情况
+    - key: sections.usage_graphql.description
+      t: 您如何使用 GraphQL。
+
+    - key: sections.tools_others.title
+      t: 其他工具
+    - key: sections.tools_others.description
+      t: 其他 GraphQL 工具。
+
+    - key: sections.resources_graphql.title
+      t: 资源
+    - key: sections.resources_graphql.description
+      t: 您查阅哪些 GraphQL 资源？
+
+    ###########################################################################
+    # Features
+    ###########################################################################
+
+    # common features
+    - key: features.custom_directives
+      t: 自定义指令
+    - key: features.custom_scalars
+      t: 自定义标量
+    - key: features.fragments
+      t: 片段
+    - key: features.unions
+      t: 联合类型
+    - key: features.interfaces
+      t: 接口
+
+    # directives
+    - key: features.at_skip
+      t: '@skip'
+    - key: features.at_include
+      t: '@include'
+    - key: features.at_deprecated
+      t: '@deprecated'
+    - key: features.at_specified_by
+      t: '@specifiedBy'
+    - key: features.at_defer
+      t: '@defer'
+    - key: features.at_stream
+      t: '@stream'
+
+    # security & performance
+    - key: features.persisted_queries
+      t: 持久化查询
+    - key: features.query_allowlisting
+      t: 查询白名单
+    - key: features.query_allowlisting.description
+      t: 仅接受来自预定义列表的查询。
+
+    - key: features.query_timeouts
+      t: 查询超时
+    - key: features.query_rate_limit
+      t: 查询速率限制
+    - key: features.query_depth_limit
+      t: 查询深度限制
+    - key: features.query_amount_limit
+      t: 查询数量限制
+    - key: features.query_amount_limiting.description
+      t: 对作为查询参数传递的任何分页计数设置上限。
+    - key: features.query_cost_analysis
+      t: 查询成本分析
+    - key: features.query_cost_analysis.description
+      t: 在决定是否允许查询之前分析一组因素。
+
+    - key: features.disabling_introspection
+      t: 禁用内省
+    - key: features.disabling_introspection.description
+      t: 在生产环境中禁用内省。
+    - key: features.ip_allowlisting
+      t: IP 白名单
+    - key: features.ip_allowlisting.description
+      t: 仅允许预定义的一组 IP 地址访问 API。
+    - key: features.require_authentication
+      t: 要求身份验证
+    - key: features.require_authentication.description
+      t: 在任何 API 访问之前要求身份验证。
+      
+    # other features
+    - key: features.graphql_subscriptions
+      t: GraphQL 订阅
+    - key: features.live_queries
+      t: 实时查询
+    - key: features.apollo_federation
+      t: Apollo Federation
+    - key: features.schema_stitching
+      t: Schema 拼接
+
+    ###########################################################################
+    # Tools
+    ###########################################################################
+
+    - key: tools.no_client
+      t: 无客户端
+    - key: tools.no_client.description
+      t: 没有专用的 GraphQL 客户端（使用 Fetch、Axios 等发送原始 HTTP 请求）
+
+    ###########################################################################
+    # Other Tools
+    ###########################################################################
+
+    - key: tools_others.server_languages
+      t: 服务器语言
+    - key: tools_others.server_languages.description
+      t: 您使用哪种语言编写 GraphQL 后端？
+    - key: tools_others.server_languages.others
+      t: 其他服务器语言
+
+    - key: tools_others.combining_schemas
+      t: 合并 Schema
+    - key: tools_others.combining_schemas.description
+      t: 您使用哪些工具来组合、聚合或合并来自不同 API 的 GraphQL Schema？
+    - key: tools_others.combining_schemas.others
+      t: 其他用于合并 Schema 的工具
+
+    - key: tools_others.graphql_ides
+      t: GraphQL IDE
+    - key: tools_others.graphql_ides.description
+      t: 帮助您查询 GraphQL API 的应用程序和服务。
+    - key: tools_others.graphql_ides.others
+      t: 其他 GraphQL IDE
+
+    - key: tools_others.web_frameworks
+      t: Web 框架
+    - key: tools_others.web_frameworks.description
+      t: 您与 GraphQL 结合使用的 Web 框架。
+    - key: tools_others.web_frameworks.others
+      t: 其他 Web 框架
+
+    - key: tools_others.databases
+      t: 数据库
+    - key: tools_others.databases.description
+      t: 您与 GraphQL 结合使用哪些数据库？
+    - key: tools_others.databases.others
+      t: 其他数据库
+
+    - key: tools_others.other_tools
+      t: 其他 GraphQL 工具
+    - key: tools_others.other_tools.description
+      t: 您使用的其他工具、库或服务
+    - key: tools_others.other_tools.others
+      t: 之前未提及的其他 GraphQL 工具
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
+    - key: usage.graphql_experience
+      t: GraphQL 经验
+    - key: usage.graphql_experience.description
+      t: 您使用 GraphQL 多久了？
+
+    - key: usage.api_type
+      t: API 类型
+    - key: usage.api_type.description
+      t: 您将 GraphQL 用于哪种类型的 API？
+    - key: usage.api_type.others
+      t: 其他类型的 API
+
+    - key: usage.client_type
+      t: API 客户端
+    - key: usage.client_type.description
+      t: 什么样的客户端连接到您的 API？
+    - key: usage.client_type.others
+      t: 其他类型的客户端
+
+    - key: usage.data_sources
+      t: 数据源
+    - key: usage.data_sources.description
+      t: 您的 GraphQL API 消耗哪种数据源？
+    - key: usage.data_sources.others
+      t: 其他数据源
+
+    - key: usage.code_generation_type
+      t: 代码生成类型
+    - key: usage.code_generation_type.description
+      t: 如果您使用代码生成，您倾向于哪种方法？
+    - key: usage.code_generation_type.others
+      t: 其他类型的代码生成
+    - key: usage.code_generation_target
+      t: 代码生成目标
+    - key: usage.code_generation_target.description
+      t: 您通过程序生成代码库的哪些部分？
+    - key: usage.code_generation_target.others
+      t: 其他代码生成目标
+
+    - key: usage.industry_sector_graphql
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_graphql.description
+      t: 您在哪个行业领域使用 GraphQL？
+    - key: usage.industry_sector_graphql.others
+      aliasFor: usage.industry_sector.others
+
+    - key: usage.graphql_strong_points
+      t: GraphQL 强项
+    - key: usage.graphql_strong_points.description
+      t: 您喜欢使用 GraphQL 的主要原因是什么？
+    - key: usage.graphql_strong_points.others
+      t: 其他 GraphQL 强项
+
+    - key: usage.graphql_pain_points
+      t: GraphQL 痛点
+    - key: usage.graphql_pain_points.description
+      t: 使用 GraphQL 时您的主要痛点是什么？
+    - key: usage.graphql_pain_points.others
+      t: 其他 GraphQL 痛点
+
+    - key: happiness.graphql_servers
+      t: 您对 GraphQL 服务器的总体状况有多满意？
+    - key: happiness.graphql_clients
+      t: 您对 GraphQL 客户端的总体状况有多满意？
+    - key: happiness.api_generators
+      t: 您对 API 生成器的总体状况有多满意？
+    - key: happiness.schema_builders
+      t: 您对模式构建器的总体状况有多满意？
+    - key: happiness.state_of_graphql
+      t: 您对 GraphQL 生态系统的总体状况有多满意？
+
+    ###########################################################################
+    # Opinions
+    ###########################################################################
+
+    # - key: opinions.graphql_better_than_rest
+    #   t: GraphQL is superior to REST
+    # - key: opinions.always_prefer_graphql_apis
+    #   t: I always prefer working with GraphQL APIs
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps_graphql
+      t: GraphQL 的第一步
+    - key: resources.first_steps_graphql.description
+      t: 开始时，您最初是如何学习 GraphQL 的？
+    - key: resources.first_steps_graphql.others
+      t: 其他初始学习方法
+
+    # sites & courses
+    - key: resources.sites_courses_graphql
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_graphql.description
+      t: 您使用哪些与 GraphQL 相关的网站/课程/等来了解 GraphQL？
+
+    # podcasts
+    - key: resources.podcasts_graphql.others
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_graphql.others.description
+      t: 您收听哪些与 GraphQL 相关的播客？
+
+    # people
+    - key: resources.people_graphql.others
+      aliasFor: resources.people
+    - key: resources.people_graphql.others.description
+      t: 您阅读、关注或只想因其在 GraphQL 生态系统中的工作而强调的人。
+
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    - key: options.graphql_experience.range_less_than_1
+      t: 少于一年
+    - key: options.graphql_experience.range_1_2
+      t: 1 到 2 年
+    - key: options.graphql_experience.range_3_5
+      t: 3 到 5 年
+    - key: options.graphql_experience.range_6_10
+      t: 6 到 10 年
+    - key: options.graphql_experience.range_more_than_10
+      t: 超过 10 年
+
+    - key: options.api_type.public_apis
+      t: 面向第三方开发者的公开 API
+    - key: options.api_type.personal_apis
+      t: 面向您自己的网站和/或应用程序的公开 API
+    - key: options.api_type.private_apis
+      t: 供内部使用的私有、未公开 API
+      
+    - key: options.client_type.browsers
+      t: 浏览器
+    - key: options.client_type.mobile_devices
+      t: 原生移动应用
+    - key: options.client_type.desktop_apps
+      t: 原生桌面应用
+    - key: options.client_type.other_servers
+      t: 其他服务器
+
+    - key: options.data_sources.static_files
+      t: 静态文件 (YAML, Markdown 等)
+    - key: options.data_sources.databases
+      t: 数据库
+    - key: options.data_sources.spreadsheets
+      t: 电子表格
+    - key: options.data_sources.cmses
+      t: CMSes
+    - key: options.data_sources.rest_apis
+      t: REST API (Swagger/OpenAPI, json-schema, oData 等)
+    - key: options.data_sources.other_graphql_apis
+      t: 其他 GraphQL API
+    - key: options.data_sources.other_api_protocols
+      t: 其他 API 协议 (gRPC, SOAP, Apache Thrift 等)
+
+    - key: options.code_generation_type.code_first
+      t: 代码优先 (JS, TS, JSON 等)
+    - key: options.code_generation_type.schema_first
+      t: 模式优先 (GraphQL SDL 优先)
+    - key: options.code_generation_type.database_first
+      t: 数据库优先
+
+    - key: options.code_generation_target.graphql_schema
+      t: GraphQL 模式 (SDL)
+    - key: options.code_generation_target.non_graphql_typings
+      t: 非 GraphQL 类型定义 (例如 TypeScript)
+    - key: options.code_generation_target.server_resolvers
+      t: 服务器解析器
+    - key: options.code_generation_target.fragments_or_queries
+      t: 客户端片段和/或查询
+    - key: options.code_generation_target.client_code
+      t: 其他客户端代码 (例如 React hooks)
+
+    - key: options.graphql_strong_points.avoiding_overfetching
+      t: 避免过度获取
+    - key: options.graphql_strong_points.avoiding_overfetching.description
+      t: 通过指定您确切需要的数据来保持 API 响应更小。
+    - key: options.graphql_strong_points.introspection
+      t: 内省与 API 文档
+    - key: options.graphql_strong_points.introspection.description
+      t: 创建可改善开发者体验的自文档化 API。
+    - key: options.graphql_strong_points.tooling_ecosystem
+      t: 工具与生态系统
+    - key: options.graphql_strong_points.tooling_ecosystem.description
+      t: 使用 GraphQL 的不同工具、服务和库。
+    - key: options.graphql_strong_points.type_checking
+      t: 类型检查
+    - key: options.graphql_strong_points.type_checking.description
+      t: 对 API 中的每个对象强制执行和验证类型。
+    - key: options.graphql_strong_points.api_aggregation
+      t: 组合不同的 API
+    - key: options.graphql_strong_points.api_aggregation.description
+      t: 能够组合不同的 API Schema。
+    - key: options.graphql_strong_points.aggregating_requests
+      t: 聚合请求
+    - key: options.graphql_strong_points.aggregating_requests.description
+      t: 客户端只需发出一次请求。
+    - key: options.graphql_strong_points.community
+      t: 社区
+    - key: options.graphql_strong_points.community.description
+      t: 活跃在 GraphQL 领域的人们。
+    - key: options.graphql_strong_points.fragment_colocation
+      t: 片段共置
+    - key: options.graphql_strong_points.fragment_colocation.description
+      t: 能够将组件的数据需求与其放在一起。
+
+    - key: options.graphql_pain_points.performance
+      t: 性能
+    - key: options.graphql_pain_points.performance.description
+      t: 性能问题，例如 n+1 问题。
+    - key: options.graphql_pain_points.security
+      t: 安全
+    - key: options.graphql_pain_points.security.description
+      t: 安全问题，例如无限嵌套查询。
+    - key: options.graphql_pain_points.combining_schemas
+      t: 组合不同的 Schema
+    - key: options.graphql_pain_points.combining_schemas.description
+      t: 能够组合不同的 API Schema。
+    - key: options.graphql_pain_points.api_versioning
+      t: API 版本控制
+    - key: options.graphql_pain_points.api_versioning.description
+      t: 处理已弃用的字段和其他版本控制问题。
+    - key: options.graphql_pain_points.file_upload
+      t: 文件上传
+    - key: options.graphql_pain_points.file_upload.description
+      t: 能够通过您的 GraphQL API 上传文件。
+    - key: options.graphql_pain_points.testing
+      t: 测试
+    - key: options.graphql_pain_points.testing.description
+      t: 测试您的 GraphQL API。
+    - key: options.graphql_pain_points.error_handling
+      t: 错误处理
+    - key: options.graphql_pain_points.error_handling.description
+      t: 返回错误并在客户端管理它们。
+    - key: options.graphql_pain_points.client_side_caching
+      t: 客户端缓存
+    - key: options.graphql_pain_points.client_side_caching.description
+      t: 在客户端缓存数据、更新缓存、乐观 UI 等。
+
+    # learning methods
+    - key: options.first_steps_graphql.books
+      t: 书籍
+    - key: options.first_steps_graphql.videos
+      t: 视频和截屏视频
+    - key: options.first_steps_graphql.school
+      t: 学校和高等教育
+    - key: options.first_steps_graphql.courses_free
+      t: 在线课程（免费）
+    - key: options.first_steps_graphql.courses_paid
+      t: 在线课程（付费）
+    - key: options.first_steps_graphql.podcasts
+      t: 播客
+    - key: options.first_steps_graphql.bootcamp
+      t: 编程训练营
+    - key: options.first_steps_graphql.on_the_job
+      t: 在职培训
+    - key: options.first_steps_graphql.self_directed
+      t: 自主学习 (Google, Stack Overflow 等)
+    - key: options.first_steps_graphql.mentoring
+      t: 导师指导

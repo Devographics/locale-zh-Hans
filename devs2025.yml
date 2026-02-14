@@ -1,0 +1,590 @@
+locale: zh-Hans
+translations:
+  - key: general.devs2025.survey_intro
+    t: |
+
+      对于开发者来说，2025 年是一个奇怪的时期。AI 正在改变我们的工作方式，我们要面对大规模裁员，并且在技术社区的一些角落里正在发生持续的政治氛围转变。
+
+      因此，虽然一遍又一遍地询问你最喜欢的 JavaScript 框架固然很好，但我们认为现在是时候探讨一些更大的问题，以帮助理解当下的时刻：你是谁？除了编码你还做什么？你相信什么，又在期待什么？
+
+      欢迎来到这首届开发者现状调查，在这里我们将询问所有*非*代码相关的事情。
+
+      像往常一样，每个问题都是可选的，所以如果你觉得不舒服，可以随意跳过任何问题。另外请注意，由此产生的数据集将公开提供。话虽如此，我们当然希望你能看到这项调查的价值，我们迫不及待地想更好地了解你！
+
+  - key: introduction.devs2025
+    t: |
+
+      “这些问题感觉真的很私人”；“这将太具争议性了”；“你应该坚持做编程调查”。
+
+      这是当我第一次提出运行一个完全致力于工作场所问题、健康、爱好和其他与代码无关的主题的开发者调查的想法时，收到的一些初步反馈。
+
+      但我很高兴我坚持了下来。这项调查的 8,717 名受访者证明了它在开发者社区引起了共鸣——尤其是女性参与率远高于以往的调查，这表明人们对这些较少讨论的问题有需求。
+
+      当你浏览数据时，请务必查看受访者在参与调查时留下的许多评论（<span class="icon-inline icon-inline-comment">comment</span> 图标），他们在评论中更详细地分享了他们的个人故事和想法。
+
+      说完这些，请享受首届开发者现状调查的结果！
+
+      *注意：由于涉及的数据量很大，这些结果将分两部分发布。请先享受第一部分！*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: general.devs2025.css2025_banner
+    t: |
+      参加 CSS 现状调查并测试你的 CSS 知识！ →
+
+  # FAQ
+
+  - key: faq.how_long_will_survey_take_devs2025
+    t: 这项调查需要多长时间？
+  - key: faq.how_long_will_survey_take_devs2025.description
+    t: >
+      这项调查大约需要 15 分钟完成。请注意，所有问题都是可选的。
+
+  - key: faq.results_released_devs2025
+    t: 结果什么时候发布？
+  - key: faq.results_released_devs2025.description
+    t: 调查将于 2025 年 4 月 15 日至 5 月 15 日进行，调查结果将在不久后发布。
+
+  - key: faq.survey_design_devs2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_devs2025.description
+    t: >
+      这项调查的设计是涉及 Web 开发社区的[公开设计过程](https://github.com/Devographics/surveys/issues/279)的结果。
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.devs2025
+    t: 8,717 名开发者参与了首届开发者现状调查。
+
+  - key: user_info.country.takeaway.devs2025
+    t: |
+      美国与其他国家开发者之间的收入中位数差距仍然很大，这至少部分是由硅谷的高薪和高生活成本驱动的。
+
+  - key: user_info.gender.takeaway.devs2025
+    t: |
+      15% 的女性参与率可能感觉很小，但至少比[其他调查](https://2024.stateofjs.com/en-US/demographics/#gender)高得多，后者往往徘徊在 6% 左右。
+
+      虽然数据揭示了性别收入差距，但还需要进一步的研究来断定这是否由于性别歧视或其他相关因素。
+
+  - key: user_info.race_ethnicity.takeaway.devs2025
+    t: |
+      查看种族和民族数据表明，非白人群体往往更年轻，这是一个在[其他调查](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity)中也存在的反复出现的趋势。
+
+      它还突显了不同种族群体的性别构成可能截然不同。
+
+  - key: user_info.relationship_status.takeaway.devs2025
+    t: |
+      大多数受访者在三十多岁时找到了生活伴侣，尽管与其他国家相比，在某些国家这样做似乎更具挑战性。
+
+      在看性别时，非二元性别受访者的单身比例远高于男性或女性。
+
+  - key: user_info.number_of_kids.takeaway.devs2025
+    t: |
+      大多数受访者没有孩子，而那些成为父母的人往往在生活中相对较晚。
+
+      与男性相比，女性和非二元性别受访者的孩子平均数量也较少。
+
+  # career
+
+  - key: sections.career.description.devs2025
+    t: 到目前为止你的职业和工作经验。
+
+  - key: career.years_of_experience.takeaway.devs2025
+    t: |
+      更多的经验与更高的薪水相关——直到某一点。超过 15 年的经验后，收益变得相对较小。
+
+  - key: career.higher_education_degree.takeaway.devs2025
+    t: |
+      拥有学位会带来更高的收入，但有趣的是，它不一定必须与编程相关。
+
+  - key: career.how_many_jobs.takeaway.devs2025
+    t: |
+      受访者平均为 4.2 个雇主工作过。虽然为更多雇主工作与更高的收入相关，但在控制经验年限时，这种相关性变弱了。
+
+  - key: career.employment_status.takeaway.devs2025
+    t: |
+      虽然自由职业者和独立承包商的收入低于全职员工，但令人惊讶的是，成为创始人或企业家并不会带来显著的收入增长。
+
+      公司员工也是过去一年收入最有可能增长的群体。
+
+  - key: career.career_issues.takeaway.devs2025
+    t: |
+      很明显，这里报告的前三个问题都是相互关联的：糟糕的管理导致工作与生活的平衡问题，进而导致倦怠。
+
+      性别似乎确实对职业问题有影响，女性和非二元性别受访者在每一个问题上的发生率都更高，尤其是在**歧视**（35%）和**心理健康问题**（62%）方面。
+
+  - key: career.discrimination_issues.takeaway.devs2025
+    t: |
+      虽然我们经常从性别或种族的角度考虑歧视，但最常报告的因素实际上是年龄，这是最终会影响我们所有人的事情。
+
+      按年龄段细分歧视的前 5 个原因表明，年龄歧视在 50 岁以后变得尤为普遍。
+
+  - key: career.negative_impacts.takeaway.devs2025
+    t: |
+      在所有受访者中，非对抗性的方法，如避开同事、改变行为甚至辞职，是应对工作场所问题最常见的策略。
+
+      数据还清楚地显示了性别的影响，女性和非二元性别受访者作为一个整体，遭受每种负面影响的比率都高于男性。
+
+      另一方面，种族和民族似乎没有同样明确的影响。事实上，因工作场所问题而辞职或寻求治疗的非白人受访者稍微*少*一些——尽管还需要进一步的研究来确定这是因为他们觉得没必要；还是因为他们想这么做但没有条件。
+
+  - key: career.laid_off.takeaway.devs2025
+    t: |
+      尽管有科技行业低迷的传言，但大多数受访者从未被解雇过。
+
+      在按裁员最多的国家排名时，拥有对雇主有利的劳动法的美国位居榜首；而法国和日本等国家则位于榜单底部。
+
+  # workplace
+
+  - key: sections.workplace.description.devs2025
+    t: 你当前的工作场所。
+
+  - key: workplace.company_size.takeaway.devs2025
+    t: |
+      大公司有能力支付更高的薪水，这并不令人惊讶。不仅如此，如果受访者在大公司工作，他们的收入在过去一年中更有可能增加。
+
+  - key: workplace.job_title.takeaway.devs2025
+    t: |
+      正如在[其他调查](https://2024.stateofjs.com/en-US/demographics/#job_title)中所见，与“仅仅”是开发人员相比，拥有工程师头衔与更高的收入相关。
+
+      另一点值得注意的是：总的来说，前端职位比其他职位具有更多的性别多样性。
+
+  - key: workplace.yearly_income.takeaway.devs2025
+    t: |
+      与世界其他地区相比，美国继续提供更高的薪水。
+
+  - key: workplace.income_evolution.takeaway.devs2025
+    t: |
+      尽管担心行业低迷，但只有 9% 的受访者报告过去一年的收入有所下降。
+
+      挪威、爱尔兰和南非的受访者最有可能看到收入增加。
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
+    t: |
+      虽然受访者总体上需要投递 4 份工作申请才能找到目前的工作，但随着受访者经验年限的增加，这个数字会减少。
+
+      话虽如此，在经验曲线的高端确实略有增加，这可以用年龄歧视来解释，或者是因为技能过时使得求职更加困难。
+
+  - key: workplace.job_finding_methods.takeaway.devs2025
+    t: |
+      在申请时与公司有更私人的联系（相对于通过招聘板或社交媒体）与更高的收入相关。
+
+      唯一的例外是通过开源工作被录用，这与招聘人员或推荐等更直接的方法相关的收入水平相同。
+
+  - key: workplace.remote_work_policy.takeaway.devs2025
+    t: |
+      缺乏远程工作与较低的收入中位数和较低的工作满意度（按 1 到 5 的等级表示）都相关。
+
+  - key: workplace.work_hours_per_week.takeaway.devs2025
+    t: |
+      你工作得越多，赚得就越多，至少在一定程度上是这样。印度是最努力工作的国家，每周工作时间中位数为 45 小时，而大多数其他国家都集中在 40 小时左右。
+
+  - key: workplace.job_happiness.takeaway.devs2025
+    t: |
+      开发人员总体上对他们的工作相当满意——前提是他们能挺过前 10 年。
+
+  - key: workplace.workplace_perks.takeaway.devs2025
+    t: |
+      与不善社交的电脑呆子的刻板印象相反，事实证明我们最看重的实际上是彼此；与同事的关系是开发人员在工作场所最享受的第一大项。
+
+  - key: workplace.workplace_difficulties.takeaway.devs2025
+    t: |
+      归根结底，我们都需要谋生，而糟糕的薪酬是当今开发人员面临的首要工作场所问题。
+
+  # technology
+
+  - key: sections.technology.description.devs2025
+    t: 你使用的应用程序、语言和平台。
+
+  # - key: technology.mobile_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  # - key: technology.desktop_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  - key: technology.programming_languages.takeaway.devs2025
+    t: |
+      虽然鉴于 Clojure、Elm、Ruby 或 Scala 这些语言似乎带来的收入溢价，学习它们可能很诱人，但也必须承认，这些语言往往由经验更丰富的开发人员使用，这可能解释了差异。
+
+  - key: technology.productivity_apps.takeaway.devs2025
+    t: |
+      谈到生产力应用程序时，值得一提的是 **Obsidian** 令人印象深刻的表现，尽管甚至不是问题预定义选项的一部分，但它总体排名第 6。
+
+      像 **Azure DevOps** 和 **Jira** 这样的工具倾向于在较大的公司使用，而 **Linear** 和 **Trello** 在较小的组织中更受欢迎。
+
+  - key: technology.chat_apps.takeaway.devs2025
+    t: |
+      我和你一样惊讶地发现 **Google Chat** 仍然存在，但它仅靠填写答案就排在第 9 位。
+
+  - key: technology.social_media.takeaway.devs2025
+    t: |
+      将社交媒体应用程序与年龄对比显示，Bluesky 和 Mastodon 用户可能每次从椅子上站起来都需要伸展一下——或者可能喜欢回忆拨号上网和磁带的日子。
+
+      另一方面，TikTok 倾向于年轻人，这很有道理，因为你需要更年轻的身体甚至才能*尝试*其中一些舞蹈。
+
+  - key: technology.community_involvement.takeaway.devs2025
+    t: |
+      这并不奇怪，视频是受访者跟上社区的主要方式。令人遗憾的是，面对面的活动仍然相当少见。
+
+      虽然 RSS 订阅是一个流行的填写答案，但这些受访者的年龄中位数对该特定技术的未来来说并不是好兆头。
+
+      在观察性别动态时，女性和非二元性别受访者不太可能依赖视频内容和参与公共在线平台，但更有可能参与较小规模的聊天室和聚会。
+
+  - key: technology.community_contributions.takeaway.devs2025
+    t: |
+      在观察社区参与度与性别的关系时，女性和非二元性别受访者似乎不太可能参与在线空间，但更有可能参加现场活动——这可能表明未能建立足够包容的在线社区。
+
+  - key: technology.open_source_involvement.takeaway.devs2025
+    t: |
+      虽然近一半的受访者向开源项目贡献了代码，但事实证明，这个数字掩盖了真正的性别鸿沟，**51%** 的男性贡献了代码，但只有 **36%** 的非男性受访者贡献了代码。
+
+  # health
+
+  - key: sections.health.description.devs2025
+    t: 健康与健身。
+
+  - key: health.age.takeaway.devs2025
+    t: |
+      在按性别查看年龄中位数时，女性和非二元性别受访者往往比男性稍微年轻一些。
+
+  - key: health.disability_status.takeaway.devs2025
+    t: |
+      按年龄查看残疾情况表明，虽然心理健康和神经多样性状况是最常见的问题，但一旦过了 60 岁，听力损失就会变得更加普遍。
+
+      一些残疾，如视力障碍，在男性中也更常见，而心理健康问题和慢性疾病在女性中比例过高。
+
+  - key: health.health_issues.takeaway.devs2025
+    t: |
+      睡眠不佳是受访者中最常报告的健康问题，这可能与各种屏幕在我们的生活中扮演的重要角色有关。
+
+      在按性别检查前六大健康问题时，一些问题——如心理健康状况和偏头痛——对女性和非二元性别受访者的影响率也高于总体人群。
+
+  - key: health.sleep_quantity.takeaway.devs2025
+    t: |
+      正如预期的那样，有孩子确实会影响平均睡眠时间——尽管没有人们想象的那么多。
+
+      年龄也起作用，年长的受访者往往睡得稍微少一些。
+
+  - key: health.sleep_measures.takeaway.devs2025
+    t: |
+      受访者正在尝试一系列策略来改善睡眠（这与“睡眠不佳”是最常报告的健康问题一致），但这些努力似乎并没有影响每晚睡眠时间的中位数。
+
+      由于睡眠数量是一个很难改变的指标，专注于睡眠*质量*可能会更有效——尽管这当然更难准确测量。
+
+  # worldview
+
+  - key: sections.worldview.description.devs2025
+    t: 世界观、政治和时事。
+
+  - key: worldview.global_issues.takeaway.devs2025
+    t: |
+      **气候变化**是整个地球的一个大问题，但美国受访者也强调了**日益严重的威权主义**，而乌克兰的邻国波兰则可以理解地担心**地缘政治紧张局势**。
+
+      虽然你可能认为年轻一代更进步，但令人震惊的是，这里的情况并非一定如此，至少在几个关键问题上不是这样。
+
+      20 岁以下的受访者最有可能表示**缺乏言论自由**和**传统价值观的侵蚀**是主要问题，而最*不可能*表示**日益严重的不容忍**是一个问题——所有这些往往与现代保守派政治观点一致。
+
+      老年人群体也往往更关心**日益严重的威权主义**，40 岁以上的年龄组将其列为首要关注点。
+
+      最后，在将**获得医疗保健**列为首要任务之一的受访者中，女性比例过高，这再次呼应了持续存在的政治担忧，尤其是在美国。
+
+  - key: worldview.happiness_factors.takeaway.devs2025
+    t: |
+      **身体健康**可能是全球最重要的幸福因素，但印度和俄罗斯也很突出，因为它们也非常重视**职业发展**，就俄罗斯而言，还有**财富和物质财富**。
+
+      在看人口因素时，非二元性别受访者将**爱好**放在第一位，将**家庭**放在比男性和女性低得多的位置；将幸福因素与年龄对比表明，随着受访者年龄的增长，**友谊**和**爱好**通常被**家庭**取代。
+
+  - key: worldview.relocation.takeaway.devs2025
+    t: |
+      **日本**在开发人员最想搬迁的地方的总体排名中名列前茅，尽管按受访者国家细分显示，受访者也倾向于喜欢地理位置相近的目的地或语言相同的国家。
+
+  - key: worldview.overall_happiness.takeaway.devs2025
+    t: |
+      受访者总体上相对快乐，但当受访者睡眠不足（或睡眠*过多*）时，幸福感中位数会下降。
+
+      虽然绝对收入似乎不影响幸福感，但收入*减少*肯定会影响；没有处于恋爱关系中也会影响。
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2025
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2025
+    t: 世界观、政治和时事。
+
+  - key: hobbies.hobbies.takeaway.devs2025
+    t: |
+      **电子游戏**在开发者调查的排名中占主导地位并不奇怪——甚至有一些受访者在填空题中写了**编程**作为他们最喜欢的爱好。
+
+      年长的受访者更有可能选择**电影/电视**而不是电子游戏，而在 60 岁以上的人群中，**阅读**实际上排在第一位。
+
+      数据还显示，爱好仍然遵循性别路线：与男性相比，女性更有可能提到**艺术和手工艺**，不太可能提到**电子游戏**。
+
+  - key: hobbies.physical_activity.takeaway.devs2025
+    t: |
+      **徒步旅行/散步**和**力量训练**在各地都很受欢迎，但当看体育活动与性别的关系时，**瑜伽**作为女性比男性更有可能练习的项目脱颖而出。
+
+  - key: hobbies.favorite_musical_artists.takeaway.devs2025
+    t: |
+      谁能想到 **Linkin Park** 在 2025 年还在活跃？
+
+      按受访者年龄中位数绘制艺术家图表，提示我们如果想融入我们的年轻朋友应该听什么（**Charli XCX**, **Twenty One Pilots**），以及应该不惜一切代价避免什么（**Pink Floyd**）。
+
+      也存在性别差异，女性和非二元性别受访者更喜欢 **Chappell Roan** 和 **Taylor Swift** 等艺术家。
+
+  - key: hobbies.favorite_movies.takeaway.devs2025
+    t: |
+      **沙丘**在这里领跑排名，证明了这部电影作为电影杰作的地位。
+
+      查看基于性别的列表，**魔法坏女巫 (Wicked)** 作为女性和非二元性别受访者中的第一名脱颖而出。
+
+  - key: hobbies.favorite_tv.takeaway.devs2025
+    t: |
+      **人生切割术 (Severance)** 将作为电视叙事的高潮载入史册，其关于工作/生活平衡和职场异化的主题显然引起了调查受访者的共鸣。
+
+      动画，特别是像 **葬送的芙莉莲** 和 **我独自升级** 这样的日本节目在年轻受访者中很受欢迎，但像 **老友记** 和 **办公室** 这样的老情景喜剧经典也很受欢迎。
+
+      在看性别时，除了第九名之外，列表相当相似，第九名是截然相反的 **侠探杰克 (Reacher)** 和 **使女的故事 (The Handmaid's Tale)**。
+
+  - key: hobbies.favorite_video_games.takeaway.devs2025
+    t: |
+      **博德之门 3** 以拥有极其丰富的内容而闻名，这一点反映在尽管它于 2023 年发布，但在这里排名第一的事实中。
+
+      事实证明，**星露谷物语** 在女性和非二元性别受访者中很受欢迎，尽管在男性中没有进入前 20 名，但它排名第二。
+
+  - key: hobbies.video_game_platforms.takeaway.devs2025
+    t: |
+      尽管 macOS 作为主要桌面选项在受访者中[更普遍](/en-US/technology/#desktop_os)，但 **Windows** 在游戏方面仍然是主导平台。
+
+      年轻一代最有可能在 PC 上玩游戏，而年长的受访者倾向于喜欢游戏机的易用性。
+
+  # metadata
+
+  - key: _user.metadata.source.takeaway.devs2025
+    t: |
+      虽然大多数受访者来自我们现有的受众和邮件列表，但 **Josh Comeau** 在他的通讯中提到这项调查也是一个巨大的推动力。
+
+      在查看每个来源的性别细分时，[滚雪球抽样](https://github.com/Devographics/surveys/issues/258)被证明在推动更多女性参与调查方面非常有效，赞助像 [Cassidy Williams](https://cassidoo.co/) 这样的创作者也是如此，她在她的每周通讯中特别介绍了这项调查。
+    aliases:
+      - user.metadata.source.takeaway.devs2025
+
+  # figures
+
+  - key: figure.figure_gender.devs2025
+    t: 在指定了性别的受访者中，女性和非二元性别的百分比。
+
+  - key: figure.figure_career_issues_discrimination.devs2025
+    t: 报告在职业生涯中经历过歧视的男性与女性/非二元性别受访者的百分比差异。
+
+  - key: figure.figure_discrimination_therapy.devs2025
+    t: 报告因工作场所问题而寻求治疗的男性与女性/非二元性别受访者的百分比差异。
+
+  - key: figure.figure_company_size_income_evolution.devs2025
+    t: 在大型（1000+ 员工）公司工作的受访者中，过去一年收入增加的百分比。
+
+  - key: figure.figure_job_title_income.devs2025
+    t: 包含“工程师”的职位与包含“开发人员”的职位之间的平均工资差异。
+
+  - key: figure.figure_yearly_salary_usa_world.devs2025
+    t: 美国平均工资与世界其他地区之间的差异。
+
+  - key: figure.figure_job_finding_application_count.devs2025
+    t: 受访者找到当前工作所需的工作申请数量中位数。
+
+  - key: figure.figure_remote_work_policy_happiness.devs2025
+    t: 允许远程工作的公司与不允许远程工作的公司之间，受访者平均工作幸福感（5 分制）的差异。
+
+  - key: figure.figure_community_involvement.devs2025
+    t: RSS 订阅用户的年龄中位数（相比之下，调查受访者的总体年龄为 35 岁）。
+
+  - key: figure.figure_open_source_involvement.devs2025
+    t: 贡献开源代码的男性与女性/非二元性别受访者的百分比差异。
+
+  - key: figure.figure_sleep_quantity.devs2025
+    t: 受访者每晚的平均睡眠小时数。
+
+  - key: figure.figure_global_issues.devs2025
+    t: 将日益严重的威权主义列为关注点的美国受访者的百分比。
+
+  - key: figure.figure_relocation_japan.devs2025
+    t: 将日本列为潜在搬迁目的地的受访者人数。
+
+  - key: figure.figure_favorite_musical_artists_pink_floyd.devs2025
+    t: 受访者中 Pink Floyd 听众的年龄中位数。
+
+  - key: figure.xxx.devs2025
+    t:
+
+  - key: figure.xxx.devs2025
+    t:
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      在日本找工作
+
+  - key: tokyodev.relocation.description
+    t: |
+      搬到日本不一定只是个梦想。TokyoDev 的“来日本开发者速成课程”涵盖了诸如在日本公司工作是什么样的、你可以期望赚多少钱、有哪些签证可用以及获得这些签证有多难等内容。
+
+  - key: frontendmasters.learning_path
+    t: |
+      成为高级 Web 开发者的道路
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      想要提升你的职业生涯？深入研究 JavaScript、React、Web 性能、CSS、部署网站、TypeScript 和函数式编程，今天就从初级晋升为高级。
+
+  - key: storyblok.technologies
+    t: React? Vue? Astro? JS?
+
+  - key: storyblok.technologies.description
+    t: |
+      没关系，我们说 JSON。Storyblok 是一个 Headless CMS，可与所有现代框架和平台配合使用，因此你可以完全自由地为你的项目选择最佳选项。几分钟内即可开始！
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: sections.lola_odelola.title
+    t: “重新分配权力和利润”
+  - key: sections.lola_odelola.title.short
+    t: Lola Odelola
+  - key: sections.declan_chidlow.title
+    t: “没有新鲜血液就没有未来”
+  - key: sections.declan_chidlow.title.short
+    t: Declan Chidlow
+  - key: sections.josh_comeau.title
+    t: “事情并没有看起来那么糟糕”
+  - key: sections.josh_comeau.title.short
+    t: Josh Comeau
+  - key: sections.anjana_vakil.title
+    t: “软件实际上是关于人的”
+  - key: sections.anjana_vakil.title.short
+    t: Anjana Vakil
+
+  - key: sections.to_be_continued.title
+    t: 待续……
+
+  - key: conclusion.devs2025.sacha_greif.bio
+    t: 数据调酒师 @ Devographics
+
+  - key: conclusion.devs2025.sacha_greif
+    t: |
+      如果我告诉你我们甚至还没有探索完通过这项调查收集的数据的*一半*，我想你会理解为什么我不得不将这份报告分成两部分。
+
+      接下来的部分将包括**健康**（普通开发者睡多少小时？）、**爱好**（最流行的电子游戏是什么？）和**世界观**（如果可以选择去任何地方，你会搬到哪里？）。
+
+      但别担心——你不用等太久就能深入了解这份报告的第二部分。如果你想确保不错过它，请在下面留下你的电子邮件，一旦发布我们会立即通知你！
+
+  - key: conclusion.devs2025.anjana_vakil.bio
+    t: 自由工程师、教育家和 DevRel 顾问
+
+  - key: conclusion.devs2025.anjana_vakil
+    t: |
+      作为软件开发人员，我们倾向于认为我们所做的是关于编程、性能和拉取请求的。但归根结底，软件实际上是关于**人**的。而人是复杂的。
+
+      大多数调查受访者报告说他们的[生活](../worldview/#overall_happiness)和[工作](../workplace/#job_happiness)很幸福，但这肯定不全是彩虹和独角兽。大多数人也遇到过[倦怠](../career/#career_issues)、工作与生活平衡或心理健康方面的问题，许多人指出有毒的工作场所文化和糟糕的管理是原因。许多人感受到了过度工作的强烈内部和外部压力，以及对工作条件缺乏控制。
+
+      许多开发人员，包括我自己，也经历过基于年龄、性别、性取向或残疾的[歧视](../career/#discrimination_issues)。总体而言，尤其对于边缘化人群来说，在我们的专业社区中似乎越来越感到焦虑、无力和孤立。
+
+      有时，尤其是最近，我想知道：还有希望吗？这些调查结果似乎强调了我在长达十年的科技职业生涯中反复学到的一个教训：我们要共同解决这许多问题并建立更好的软件行业，只有一种方法：**团结**。
+
+      在当前的经济现实中，许多开发人员（以及一般的劳动者）觉得雇主将他们视为可以剥削的消耗性“资源”，而不是具有内在价值的队友。**集体行动**是我们劳动者可以抵消这种权力不平衡的方式。无论是通过工会和集体诉讼等正式机制，还是通过讨论薪水、在社交媒体上发声或填写这份调查等非正式机制，我们都需要**彼此联系**，以阐明这些问题并推动变革。
+
+      对于行业或世界来说，都没有简单的解决办法，但**优先考虑人的因素**的需求似乎比以往任何时候都更加紧迫。作为个人和社区，我们有责任将我们的同理心、沟通、宽容和关怀技能提高 10 倍。编程是容易的部分。
+
+  - key: conclusion.devs2025.josh_comeau.bio
+    t: 独立黑客
+
+  - key: conclusion.devs2025.josh_comeau
+    t: |
+      科技行业在过去几年一直动荡不安，这已经不是什么秘密了。作为一名软件开发人员起步从来都不容易，但如今这感觉是不可能的；即使是拥有多年经验的开发人员也报告说他们正在努力寻找工作。
+
+      然而，这些调查结果表明，情况并没有看起来那么糟糕。我们都看到了关于大规模科技裁员的头条新闻，但只有[少数开发人员](../career/#laid_off)报告在过去一年中被解雇（即使对于初级开发人员也是如此！）。
+
+      大多数开发人员表示[他们的薪水在过去一年中有所增加](../workplace/#income_evolution)，只有 9% 的人表示他们的薪酬减少了。初级开发人员的中位数只提交了[ 10 份申请](../workplace/#job_finding_application_count)就找到了目前的职位。只有[ 14% 的受访者](../workplace/#job_happiness)表示他们对自己的工作不满意或非常不满意。
+
+      科技行业仍然存在重大问题（例如，几乎一半的女性/非二元性别受访者报告[面临基于性别或性别认同的歧视](../career/#discrimination_issues)），所以我并不是说一切都很好😅。
+
+      但网上的主流观点是，软件开发正面临来自 AI 的生存威胁，我们正在被 LLM 取代。我认为如果这是真的，这些调查结果看起来会非常不同。
+
+  - key: conclusion.devs2025.declan_chidlow.bio
+    t: 前端开发人员、设计师、作家
+
+  - key: conclusion.devs2025.declan_chidlow
+    t: |
+      一个行业很容易由既定者定义，但没有新鲜血液就没有未来。
+
+      进入这个行业是一项艰巨的任务。又一份申请。又一天。1000 多名申请人。AI 视频“面试”。很明显，招聘板只不过是一个数字游戏，[人脉才是关键](../workplace/#job_finding_methods)。对于经验较少的人来说，找到工作所需的[申请数量](../workplace/#job_finding_application_count)最高，我只能想知道，随着公司继续笨拙地试图用 AI 取代初级人员，我们是否会看到这个数字进一步上升。
+
+      人们说健康被年轻人浪费了。说到初级人员，这确实[看起来是这样](../worldview/#happiness_factors)，20 岁以下的人群是唯一没有将“身体健康”列为主要幸福来源的人群。开发人员似乎是一群有责任心的人，我们的[世界观](../worldview/)表明我们确实关心全球问题。
+
+      把目光转向回复的元数据，开发人员在[浏览器使用](../metadata/#browser)方面似乎比普通民众更加多样化。Chrome 占 36%，Firefox 占 14%，Safari 占 13%，Edge 占 2%。相比之下，[Statcounter](https://gs.statcounter.com/browser-market-share/) 将全球使用率定为 Chrome 68%，Safari 16%，Edge 5%，Firefox 2%。在[使用的桌面操作系统](../technology/#desktop_os)分类中也可以看到类似的多样性，macOS 和 Linux 正在蚕食 Windows 通常的市场份额。
+
+      在未来的调查中，我希望能看到来自更多样化群体的回复，并听到代表性不足群体的经历，尤其是这样我可以向他们学习。我也非常希望能看到回复中更多的地理差异，因为美国往往主导着开发讨论。
+
+      从行业的角度来看，我梦想组织像对待待办事项清单一样看待这些调查，并专注于概述的缺陷。
+
+  - key: conclusion.devs2025.lola_odelola.bio
+    t: 软件工程师，[Blackgirl.tech](https://blackgirl.tech/) 创始人
+
+  - key: conclusion.devs2025.lola_odelola
+    t: |
+      回顾 2025 年开发者现状调查的数据，有几个数据点引起了我的兴趣。我是一名个体经营的黑人英籍尼日利亚顺性别女性，患有 ADHD 和丛集性头痛，也就是说我跨越了几个交叉点。这是我阅读和解释这些数据的背景。
+
+      我的一些经历在数据中得到了呼应。例如，21% 的黑人或非洲受访者报告[面临工作场所歧视](../career/#discrimination_issues)，无论性别如何。这也是我在英国和美国公司工作时经历过的事情，即使在表面上看起来多元化的团队中也是如此。
+
+      话虽如此，在全球范围内收集种族和民族数据很棘手，因为对种族有多种理解。重要的是要知道我是黑人顺性别女性，但如果我在尼日利亚，受雇于尼日利亚公司，“黑人”就没有那么有意义了。
+
+      由于我经历过的歧视，我认为我的个体经营是一种通融，这样我就可以在尽可能安全的环境中做我关心的工作。
+
+      但这伴随着它自己的一系列挑战，15% 的个体经营受访者[报告过去一年收入下降](../career/#employment_status)，我也发现自己属于这一群体。
+
+      这一切都发生在工人权利在全球范围内受到攻击的时候：当西方政府试图取消工作场所保护（特别是对残疾人）时，全球南方的科技工人正在被大型科技公司剥削和低薪。
+
+      我希望通过更多的集体工人行动和联盟看到这种变化，不同角色的工人塑造他们的劳动条件和他们构建的产品，以更公正的方式重新分配权力和利润。
+
+      在未来，收集更多关于国籍的数据可以帮助提供种族以外的更多背景——改善调查中非洲和南亚国家的代表性不足也是如此。这将让我们更多地了解谁在全球科技中掌握权力。
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.devs2025
+    t: |
+      2025 年开发者现状调查于 2025 年 4 月 15 日至 5 月 15 日进行，共收集了 8,717 份回复。结果于 2025 年 6 月 20 日发布。该调查由 [Devographics](https://devographics.com/) 运营。
+
+      ### 调查目标
+
+      创建这项调查旨在更多地了解开发者生活的非技术方面。
+
+      ### 调查设计
+
+      这项调查是与社区合作设计的，并设有一个公开反馈期，期间在 [GitHub 上](https://github.com/Devographics/surveys/issues/279) 讨论了调查大纲。
+
+      所有调查问题都是可选的。
+
+      ### 调查受众
+
+      该调查在线公开访问，受访者未经过任何方式的筛选或选择。受访者主要是过去 Devographics 调查（如 [State of JS](https://stateofjs.com/)、[State of CSS](https://stateofcss.com/) 等）的受访者（通过专用邮件列表通知）和社交媒体流量的混合体。
+
+      这也应被视为**特定开发者子集的快照**，并不意味着代表整个生态系统。
+
+      ### 项目资金
+
+      该项目的资金来自我们的合作伙伴，这些合作伙伴列在调查的主页上。
+
+      ### 技术概览
+
+      你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于调查如何运行的深入技术概览。
+
+      ### 联系方式
+
+      取得联系的最佳方式是[加入我们的公共 Discord](https://discord.com/invite/zRDb35jfrt)，或者你也可以[在 Bluesky 上找到我](https://bsky.app/profile/sachagreif.com)。

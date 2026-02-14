@@ -1408,3 +1408,389 @@ translations:
     t: 这些数据将如何使用？
   - key: faq.data_used_js.description
     t: 所有收集的数据将公开发布。它将成为开发者的资源，供他们参考以做出技术选择，同时也将成为浏览器供应商的资源，用于确定重点领域并指导其路线图。
+
+
+  - key: general.state_of_js.title
+    t: JavaScript 开发者现状调查
+
+  - key: tools.front_end_frameworks
+    aliasFor: sections.front_end_frameworks.title
+
+  - key: tools.back_end_frameworks
+    aliasFor: sections.back_end_frameworks.title
+
+  - key: tools.meta_frameworks
+    aliasFor: sections.meta_frameworks.title
+
+  - key: tools.testing
+    aliasFor: sections.testing.title
+
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+
+  - key: tools.back_end_frameworks_intro
+    t: '今年我们重新带回了后端框架部分！'
+
+  - key: features.set_features
+    t: Set 特性
+
+  - key: features.set_features.question
+    t: 您使用过以下哪些 Set 特性？
+
+  - key: features.object_features
+    t: Object 特性
+
+  - key: features.object_features.question
+    t: 您使用过以下哪些 Object 特性？
+
+  - key: tools.tools_work
+    t: 工作中使用
+
+  - key: tools.tools_work.question
+    t: 您在工作环境中使用以下哪些工具？
+
+  - key: tools.front_end_frameworks_work
+    aliasFor: tools.tools_work
+
+  - key: tools.front_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.front_end_frameworks_others
+    aliasFor: tools.front_end_frameworks.others
+
+  - key: tools.meta_frameworks_work
+    aliasFor: tools.tools_work
+
+  - key: tools.meta_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.meta_frameworks_others
+    aliasFor: tools.meta_frameworks.others
+
+  - key: tools.back_end_frameworks_ratios
+    t: 后端框架随时间变化的比率
+    aliases:
+    - back_end_frameworks.back_end_frameworks_ratios
+
+  - key: tools.back_end_frameworks_ratios.short
+    aliasFor: tools.ratios
+
+  - key: tools.back_end_frameworks_experience
+    t: 后端框架的使用经验与满意度
+
+  - key: tools.back_end_frameworks_experience.short
+    aliasFor: tools.experience
+
+  - key: toolsback_end_frameworks_work
+    aliasFor: tools.tools_work
+
+  - key: tools.back_end_frameworks_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.back_end_frameworks.others
+    t: 其他后端框架
+    aliases:
+    - back_end_frameworks.back_end_frameworks_others
+
+  - key: tools.back_end_frameworks.others.short
+    aliasFor: tools.others
+
+  - key: tools.back_end_frameworks_others
+    aliasFor: tools.meta_frameworks.others
+
+  - key: tools.back_end_frameworks_happiness
+    t: 后端框架满意度
+    aliases:
+    - back_end_frameworks.back_end_frameworks_happiness
+
+  - key: tools.back_end_frameworks_happiness.short
+    aliasFor: charts.axis_legends.happiness
+
+  - key: tools.back_end_frameworks_happiness.question
+    t: 从 1（非常不满意）到 5（非常满意），您对后端框架的现状有多满意？
+
+  - key: tools.back_end_frameworks_pain_points
+    t: 后端框架痛点
+    aliases:
+    - back_end_frameworks.back_end_frameworks_pain_points
+
+  - key: tools.back_end_frameworks_pain_points.short
+    aliasFor: tools.pain_points
+
+  - key: tools.back_end_frameworks_pain_points.question
+    t: 在使用后端框架时，您遇到了哪些痛点？
+    aliases:
+    - back_end_frameworks.back_end_frameworks_pain_points.question
+
+  - key: tools.testing_work
+    aliasFor: tools.tools_work
+
+  - key: tools.testing_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.testing_others
+    t: 其他测试工具
+    aliases:
+    - testing.testing_others
+
+  - key: tools.testing_others.short
+    aliasFor: tools.others
+
+  - key: tools.mobile_desktop_work
+    aliasFor: tools.tools_work
+
+  - key: tools.mobile_desktop_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.mobile_desktop_others
+    t: 其他移动端和桌面端工具
+
+  - key: tools.mobile_desktop_others.short
+    aliasFor: tools.others
+
+  - key: tools.build_tools_work
+    aliasFor: tools.tools_work
+
+  - key: tools.build_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.build_tools_others
+    t: 其他构建工具
+    aliases:
+    - build_tools.build_tools_others
+
+  - key: tools.build_tools.short
+    t: 构建工具
+
+  - key: tools.monorepo_tools_work
+    aliasFor: tools.tools_work
+
+  - key: tools.monorepo_tools_work.question
+    aliasFor: tools.tools_work.question
+
+  - key: tools.monorepo_tools_others
+    t: 其他 Monorepo 工具
+
+  - key: tools.monorepo_tools.short
+    t: Monorepo
+
+  - key: tools.non_js_languages.prompt
+    t: 除了 JavaScript 或 TypeScript 之外。
+
+  - key: tools.non_js_languages_features
+    t: 非 JavaScript 特性
+    aliases:
+    - other_tools.non_js_languages_features
+
+  - key: tools.non_js_languages_features.question
+    t: 您希望 JavaScript/TypeScript 采用其他编程语言的哪些特性？
+    aliases:
+    - other_tools.non_js_languages_features.question
+
+  - key: tools.non_js_languages_features.prompt
+    t: '如果可能，请同时注明语言和特性，例如“Rust：模式匹配”'
+    aliases:
+    - other_tools.non_js_languages_features.prompt
+
+  - key: other_tools.non_js_languages_features_top_features
+    t: 非 JavaScript 特性
+
+  - key: other_tools.non_js_languages_features_top_languages
+    t: 按语言分类的非 JavaScript 特性
+
+  - key: tools.data_visualization.prompt
+    t: 帮助图表和其他数据可视化的库。
+
+  - key: tools.graphics_animation.prompt
+    t: 专注于图形和动画的库。
+
+  - key: tools.backend_frameworks.question
+    t: 您使用哪些后端框架？
+
+  - key: tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+
+  - key: other_tools.mobile_desktop
+    aliasFor: sections.mobile_desktop.title
+
+  - key: tools.mobile_desktop.question
+    t: 您经常使用以下哪些移动端或桌面端应用框架？
+    aliases:
+    - other_tools.mobile_desktop.question
+
+  - key: tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+
+  - key: other_tools.monorepo_tools
+    aliasFor: sections.monorepo_tools.title
+
+  - key: tools.monorepo_tools.question
+    t: 您经常使用以下哪些 monorepo 工具？
+    aliases:
+    - other_tools.monorepo_tools.question
+
+  - key: usage.build_step_advantages
+    t: 构建步骤的优势
+
+  - key: usage.build_step_advantages.question
+    t: 您觉得使用构建步骤的主要优势是什么？
+
+  - key: usage.build_step_advantages.prompt
+    t: 任何代码打包、压缩等，而不是浏览器直接执行的代码。
+
+  - key: options.build_step_advantages.types
+    t: 静态类型
+
+  - key: options.build_step_advantages.types.description
+    t: TypeScript 等。
+
+  - key: options.build_step_advantages.developer_experience
+    t: 更好的开发体验
+
+  - key: options.build_step_advantages.developer_experience.description
+    t: 热模块重载等。
+
+  - key: options.build_step_advantages.transpilation
+    t: 模板/组件转译
+
+  - key: options.build_step_advantages.transpilation.description
+    t: JSX、Vue 组件、Svelte 组件等。
+
+  - key: options.build_step_advantages.bundling
+    t: 打包
+
+  - key: options.build_step_advantages.bundling.description
+    t: 将多个文件打包成单个负载。
+
+  - key: options.build_step_advantages.optimization
+    t: 代码优化
+
+  - key: options.build_step_advantages.optimization.description
+    t: 压缩、Tree-shaking、代码分割等。
+
+  - key: options.build_step_advantages.compatibility
+    t: 浏览器兼容性
+
+  - key: options.build_step_advantages.compatibility.description
+    t: Polyfills、Shims 等。
+
+  - key: options.build_step_advantages.assets
+    t: 资源处理
+
+  - key: options.build_step_advantages.assets.description
+    t: 处理非 JS 资源，如 CSS、图像等。
+
+  - key: options.build_step_advantages.linting
+    t: 代码检查
+
+  - key: options.build_step_advantages.linting.description
+    t: 强制执行 linter、格式化程序等。
+
+  - key: options.build_step_advantages.environment_support
+    t: 环境管理
+
+  - key: options.build_step_advantages.environment_support.description
+    t: 支持环境变量、不同配置等。
+
+  - key: options.build_step_advantages.all_of_the_above
+    t: 以上所有
+
+  - key: options.build_step_advantages.no_advantages
+    t: 没有优势
+
+  - key: picks.state_of_js.intro
+    t: 我们邀请 JavaScript 社区成员分享他们的“年度之选”
+
+  - key: options.native_types_proposal.runtime_types
+    t: 运行时类型
+
+  - key: options.native_types_proposal.runtime_types.description
+    t: 浏览器在运行时解析的类型。
+
+  - key: options.native_types_proposal.type_annotations
+    t: 类型注解
+
+  - key: options.native_types_proposal.type_annotations.description
+    t: 编译器级别的类似 TypeScript 的类型注解，在打包过程中会被剥离。
+
+  - key: options.native_types_proposal.jsdoc_types
+    t: 类似 JSDoc 的类型
+
+  - key: options.native_types_proposal.jsdoc_types.description
+    t: 编写为代码注释的类似 JSDoc 的类型。
+
+  - key: options.native_types_proposal.no_opinion
+    t: 无意见
+
+  - key: opinions.js_ecosystem_changing_to_fast.question
+    t: JavaScript 生态系统变化太快了
+    aliases:
+    - usage.js_ecosystem_changing_to_fast.question
+
+  - key: opinions.prefer_no_build_step
+    t: 构建步骤
+    aliases:
+    - usage.prefer_no_build_step
+
+  - key: opinions.prefer_no_build_step.question
+    t: 我更喜欢在没有构建步骤的情况下使用 JavaScript
+    aliases:
+    - usage.prefer_no_build_step.question
+
+  - key: usage.js_pace_of_change
+    t: 变化速度
+    aliases:
+    - features.js_pace_of_change
+
+  - key: usage.js_pace_of_change.question
+    t: 您通常能多好地跟上新的 JavaScript 特性，比如本调查中提到的那些？
+    aliases:
+    - features.js_pace_of_change.question
+
+  - key: options.js_pace_of_change.1
+    aliasFor: options.css_pace_of_change.1
+
+  - key: options.js_pace_of_change.2
+    aliasFor: options.css_pace_of_change.2
+
+  - key: options.js_pace_of_change.3
+    aliasFor: options.css_pace_of_change.3
+
+  - key: options.js_pace_of_change.4
+    aliasFor: options.css_pace_of_change.4
+
+  - key: options.js_pace_of_change.5
+    aliasFor: options.css_pace_of_change.5
+
+  - key: tabs.top_features
+    t: 热门特性
+
+  - key: tabs.top_languages
+    t: 热门语言
+
+  - key: sections.tshirt.title
+    t: T 恤
+
+  - key: sections.tshirt.description
+    t: "## 通过 State of JavaScript T 恤支持调查\n\n在糟糕的视频质量、笨重的录像带和必须倒带之间，VHS 时代没有什么值得怀念的。但有一件事我们*确实*怀念，那就是过去装饰空白 VHS 录像带的惊人 90 年代视觉效果。\n\n但现在，感谢才华横溢的 Christopher Kirk-Nielsen，您可以享受所有这些复古的酷炫，同时庆祝您对 JavaScript 的热爱！\n"
+
+  - key: tshirt.about
+    t: 关于 T 恤
+
+  - key: tshirt.description
+    t: '我们使用高品质、超柔软的三混纺衬衫，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。'
+
+  - key: tshirt.getit
+    t: 获取它
+
+  - key: tshirt.price
+    t: 32 美元 + 运费
+
+  - key: tshirt.designer.heading
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: 'Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位才华横溢的插画家，擅长复古视觉效果。事实上，我们鼓励您也看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！'

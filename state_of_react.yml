@@ -640,3 +640,609 @@ translations:
     t: 人
   - key: resources.people_react.question
     t: 您阅读、关注或只是想强调 React 社区中的哪些人？
+
+
+  - key: sections.main_apis.title
+    t: 主要 API
+    aliases:
+    - features.main_apis
+
+  - key: sections.main_apis.description
+    t: 稳定、成熟的 React 特性
+
+  - key: sections.new_apis.title
+    t: 新特性
+    aliases:
+    - features.new_apis
+
+  - key: sections.new_apis.description
+    t: 新引入或实验性的 API 和特性
+
+  - key: sections.component_libraries.title
+    t: UI 库
+    aliases:
+    - tools.component_libraries
+
+  - key: sections.component_libraries.description
+    t: 前端开发的基石
+
+  - key: sections.back_end_infrastructure.title
+    t: 后端与基础设施
+    aliases:
+    - tools.back_end_infrastructure
+
+  - key: sections.back_end_infrastructure.title.short
+    t: 后端
+    aliases:
+    - tools.back_end_infrastructure.short
+
+  - key: sections.back_end_infrastructure.description
+    t: 打包和部署您的应用
+
+  - key: sections.tools.title
+    t: 其他工具
+
+  - key: sections.tools.description
+    t: 其他 React 实用工具和库
+
+  - key: tools.data_loading_heading
+    t: 数据加载库
+
+  - key: tools.state_management_heading
+    t: 状态管理库
+
+  - key: features.main_apis_ratios
+    t: 主要 API 随时间变化趋势
+
+  - key: features.hooks_ratios
+    t: Hooks 随时间变化趋势
+
+  - key: features.new_apis_ratios
+    t: 新 API 随时间变化趋势
+
+  - key: tools.all_tools_experience
+    t: 库的使用体验和评价
+    aliases:
+    - libraries.all_tools_experience
+    - libraries.all_libraries
+
+  - key: tools.component_libraries_others
+    t: 其他 UI 库
+    aliases:
+    - component_libraries.component_libraries_others
+
+  - key: tools.component_libraries_others.question
+    t: 您还使用了哪些其他组件库？
+    aliases:
+    - component_libraries.component_libraries_others.question
+
+  - key: tools.component_libraries_experience
+    t: UI 库的使用体验和评价
+    aliases:
+    - component_libraries.component_libraries_experience
+
+  - key: tools.component_libraries_ratios
+    t: UI 库随时间变化趋势
+    aliases:
+    - component_libraries.component_libraries_ratios
+
+  - key: tools.component_libraries_pain_points
+    t: 组件痛点
+    aliases:
+    - react_pain_points.component_libraries_pain_points
+    - component_libraries.component_libraries_pain_points
+
+  - key: tools.component_libraries_pain_points.question
+    t: 您在使用组件时遇到了哪些痛点？
+    aliases:
+    - react_pain_points.component_libraries_pain_points.question
+    - component_libraries.component_libraries_pain_points.question
+
+  - key: tools.state_management_ratios
+    t: 状态管理随时间变化趋势
+    aliases:
+    - state_management.state_management_ratios
+
+  - key: tools.state_management_others.question
+    t: 您还使用了哪些其他库来管理应用状态？
+    aliases:
+    - state_management.state_management_others.question
+
+  - key: tools.state_management_pain_points
+    t: 状态管理痛点
+    aliases:
+    - react_pain_points.state_management_pain_points
+    - state_management.state_management_pain_points
+
+  - key: tools.state_management_pain_points.question
+    t: 您在状态管理方面遇到了哪些痛点？
+    aliases:
+    - react_pain_points.state_management_pain_points.question
+    - null
+    - state_management.state_management_pain_points.question
+
+  - key: tools.data_loading_ratios
+    t: 数据加载随时间变化趋势
+    aliases:
+    - data_loading.data_loading_ratios
+
+  - key: tools.data_loading_others.question
+    t: 您还使用了哪些其他库进行数据加载？
+    aliases:
+    - data_loading.data_loading_others.question
+
+  - key: tools.data_loading_pain_points
+    t: 数据加载痛点
+    aliases:
+    - react_pain_points.data_loading_pain_points
+    - data_loading.data_loading_pain_points
+
+  - key: tools.data_loading_pain_points.question
+    t: 您在数据加载方面遇到了哪些痛点？
+    aliases:
+    - react_pain_points.data_loading_pain_points.question
+    - data_loading.data_loading_pain_points.question
+
+  - key: tools.meta_frameworks_ratios
+    t: 元框架随时间变化趋势
+    aliases:
+    - back_end_infrastructure.meta_frameworks_ratios
+
+  - key: tools.meta_frameworks_heading
+    t: 元框架
+
+  - key: tools.other_back_end_tools_heading
+    t: 其他后端工具和服务
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: 后端痛点
+    aliases:
+    - react_pain_points.back_end_infrastructure_pain_points
+    - back_end_infrastructure.back_end_infrastructure_pain_points
+
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: 您在后端和基础设施方面遇到了哪些痛点？
+    aliases:
+    - react_pain_points.back_end_infrastructure_pain_points.question
+    - back_end_infrastructure.back_end_infrastructure_pain_points.question
+
+  - key: tools.testing
+    t: 测试库
+
+  - key: tools.testing.question
+    t: 您使用哪些库来测试您的 React 应用？
+
+  - key: tools.mobile_development
+    t: 移动开发
+    aliases:
+    - other_tools.mobile_development
+
+  - key: tools.mobile_development.question
+    t: 您使用过哪些框架或库进行移动开发？
+    aliases:
+    - other_tools.mobile_development.question
+
+  - key: tools.form_libraries
+    t: 表单库
+    aliases:
+    - component_libraries.form_libraries
+
+  - key: tools.form_libraries.question
+    t: 您使用过哪些库来管理表单？
+    aliases:
+    - component_libraries.form_libraries.question
+
+  - key: options.form_libraries.na
+    t: 无
+
+  - key: tools.react_form_patterns
+    t: 表单模式
+
+  - key: tools.react_form_patterns.question
+    t: 您通常更喜欢使用哪种表单模式？
+
+  - key: options.react_form_patterns.form_patterns_controlled
+    t: 受控表单组件
+
+  - key: options.react_form_patterns.form_patterns_uncontrolled
+    t: 非受控表单组件
+
+  - key: options.react_form_patterns.form_patterns_both
+    t: 两者皆有，视情况而定
+
+  - key: tools.build_tools
+    t: 构建工具
+    aliases:
+    - back_end_infrastructure.build_tools
+
+  - key: tools.build_tools.question
+    t: 您使用过哪些构建工具和打包器？
+    aliases:
+    - back_end_infrastructure.build_tools.question
+
+  - key: tools.animation_libraries
+    t: 动画
+    aliases:
+    - component_libraries.animation_libraries
+
+  - key: tools.animation_libraries.question
+    t: 您使用过哪些动画库？
+    aliases:
+    - component_libraries.animation_libraries.question
+
+  - key: tools.auth
+    t: 身份验证
+    aliases:
+    - other_tools.auth
+
+  - key: tools.auth.question
+    t: 您使用过哪些库和服务来处理身份验证？
+    aliases:
+    - other_tools.auth.question
+
+  - key: tools.data_visualization_libraries
+    t: 数据可视化
+    aliases:
+    - component_libraries.data_visualization_libraries
+
+  - key: tools.data_visualization_libraries.question
+    t: 您使用过哪些数据可视化和图形库？
+    aliases:
+    - component_libraries.data_visualization_libraries.question
+
+  - key: tools.css_tools
+    t: CSS 工具和库
+    aliases:
+    - component_libraries.css_tools
+
+  - key: tools.css_tools.question
+    t: 您使用过哪些库或框架来为您的 React 应用设置样式？
+    aliases:
+    - component_libraries.css_tools.question
+
+  - key: tools.other_frontend_frameworks
+    t: 其他前端框架
+
+  - key: tools.other_frontend_frameworks.question
+    t: '您还使用过哪些其他前端框架？
+
+      '
+
+  - key: tools.hosting
+    t: 托管服务
+    aliases:
+    - back_end_infrastructure.hosting
+
+  - key: tools.hosting.question
+    t: 您使用过这些服务中的哪些来托管您的 React 应用？
+    aliases:
+    - back_end_infrastructure.hosting.question
+
+  - key: tools.backend_language
+    t: 后端语言
+    aliases:
+    - back_end_infrastructure.backend_language
+
+  - key: tools.backend_language.question
+    t: 您的后端应用是用什么语言编写的？
+    aliases:
+    - back_end_infrastructure.backend_language.question
+
+  - key: tools.other_services
+    t: 其他服务
+    aliases:
+    - back_end_infrastructure.other_services
+
+  - key: tools.other_services.question
+    t: 您在 React 应用中还使用了哪些其他服务？
+    aliases:
+    - back_end_infrastructure.other_services.question
+
+  - key: tools.validation
+    t: 模式 (Schema) 和验证库
+    aliases:
+    - other_tools.validation
+
+  - key: tools.validation.question
+    t: 您使用过哪些库来根据模式验证数据？
+    aliases:
+    - other_tools.validation.question
+
+  - key: tools.ai_tools
+    t: AI 工具
+
+  - key: tools.ai_tools.question
+    t: 您使用过哪些 AI 工具或服务来帮助您编写 React 代码？
+
+  - key: tools.renderers
+    t: React 渲染器
+    aliases:
+    - other_tools.renderers
+
+  - key: tools.renderers.question
+    t: 您使用过哪些库将 React 渲染到不同的平台或环境？
+    aliases:
+    - other_tools.renderers.question
+
+  - key: tools.other_tools
+    t: 其他工具
+
+  - key: tools.tools.question
+    t: 您还使用过哪些其他工具来开发 React 应用？
+
+  - key: usage.react_usage_type.question
+    t: 您主要在什么情况下使用 React？
+
+  - key: usage.react_version.question
+    t: 您日常最常使用哪个版本的 React？
+
+  - key: options.react_version.react_v19x
+    t: 19.x
+
+  - key: options.react_version.react_canary
+    t: Canary
+
+  - key: usage.what_do_you_use_react_for.question
+    t: 您用 React 来做什么？
+
+  - key: usage.meta_involvement_opinion
+    t: Meta 的参与
+
+  - key: usage.meta_involvement_opinion.question
+    t: 您如何描述您对 Meta 参与 React 的感受？
+
+  - key: options.meta_involvement_opinion.0
+    t: 非常消极
+
+  - key: options.meta_involvement_opinion.1
+    t: 消极
+
+  - key: options.meta_involvement_opinion.2
+    t: 中立
+
+  - key: options.meta_involvement_opinion.3
+    t: 积极
+
+  - key: options.meta_involvement_opinion.4
+    t: 非常积极
+
+  - key: usage.vercel_involvement_opinion
+    t: Vercel 的参与
+
+  - key: usage.vercel_involvement_opinion.question
+    t: 您如何描述您对 Vercel 参与 React 的感受？
+
+  - key: options.vercel_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+
+  - key: options.vercel_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+
+  - key: options.vercel_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+
+  - key: options.vercel_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+
+  - key: options.vercel_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  - key: usage.react_foundation_involvement_opinion
+    t: React 基金会的参与
+
+  - key: usage.react_foundation_involvement_opinion.question
+    t: 您如何描述您对 React 基金会参与 React 的感受？
+
+  - key: options.react_foundation_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+
+  - key: options.react_foundation_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+
+  - key: options.react_foundation_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+
+  - key: options.react_foundation_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+
+  - key: options.react_foundation_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  - key: usage.new_features.question
+    t: 您对这些最近和即将推出的新特性中的哪些最感兴趣？
+
+  - key: options.what_do_you_use_react_for.static_sites.description
+    t: 服务器交互极少的预生成网站
+
+  - key: options.what_do_you_use_react_for.design_systems.description
+    t: React 组件的自定义库
+
+  - key: options.what_do_you_use_react_for.web_apps.description
+    t: 具有复杂交互、状态、路由等的 Web 应用
+
+  - key: options.what_do_you_use_react_for.mobile_apps.description
+    t: 使用 React 或 React Native 的移动应用
+
+  - key: options.what_do_you_use_react_for.desktop_apps.description
+    t: 在桌面本地运行的应用
+
+  - key: options.what_do_you_use_react_for.hybrid_sites
+    t: 混合网站
+
+  - key: options.what_do_you_use_react_for.hybrid_sites.description
+    t: 带有动态客户端组件的传统网站（例如电子商务网站）
+
+  - key: react_pain_points.end_to_end_type_safety
+    t: 端到端类型安全
+
+  - key: react_pain_points.create_react_app_issues
+    t: Create React App 问题
+
+  - key: react_pain_points.webpack_issues
+    t: Webpack 问题
+
+  - key: react_pain_points.firebase_issues
+    t: Firebase 问题
+
+  - key: react_pain_points.pricing_issues
+    t: 高成本
+
+  - key: react_pain_points.aws_issues
+    t: AWS 问题
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL 问题
+
+  - key: react_pain_points.css_in_js_issues
+    t: CSS-in-JS 问题
+
+  - key: react_pain_points.tailwind_issues
+    t: Tailwind 问题
+
+  - key: react_pain_points.mui_issues
+    t: MUI 问题
+
+  - key: react_pain_points.styled_components_issues
+    t: Styled Components 问题
+
+  - key: react_pain_points.prop_drilling
+    t: Prop 逐层传递 (Prop drilling)
+
+  - key: react_pain_points.caching
+    t: 缓存
+
+  - key: react_pain_points.graphql_issues
+    t: GraphQL 问题
+
+  - key: react_pain_points.apollo_issues
+    t: Apollo 问题
+
+  - key: react_pain_points.optimistic_updates
+    t: 乐观更新
+
+  - key: react_pain_points.cancelling_requests
+    t: 无法取消请求
+
+  - key: react_pain_points.rules_of_hooks
+    t: Hooks 规则
+
+  - key: react_pain_points.hooks_disallowed_conditional_logic
+    t: 不允许的条件逻辑
+
+  - key: react_pain_points.excessive_rerendering
+    t: 过多的重复渲染
+
+  - key: react_pain_points.dependency_arrays
+    t: 依赖数组
+
+  - key: react_pain_points.context_api
+    t: Context API
+
+  - key: react_pain_points.context_api_rerendering
+    t: 过多的 Context 重复渲染
+
+  - key: react_pain_points.react_lack_of_signals
+    t: 缺乏 Signals
+
+  - key: react_pain_points.excessive_rerendering
+    t: 过多的重复渲染
+    aliases:
+    - react_pain_points.excesssive_rerendering
+
+  - key: react_pain_points.nextjs_issues
+    t: Next.js 问题
+
+  - key: react_pain_points.vercel_issues
+    t: Vercel 问题
+
+  - key: react_pain_points.hooks_issues
+    t: Hooks 问题
+
+  - key: react_pain_points.redux_issues
+    t: Redux 问题
+
+  - key: react_pain_points.mobx_issues
+    t: MobX 问题
+
+  - key: react_pain_points.global_state_management
+    t: 全局状态管理
+
+  - key: react_pain_points.synchronization_issues
+    t: 同步问题
+
+  - key: react_pain_points.reactivity_issues
+    t: 响应式问题
+
+  - key: react_pain_points.side_effects_issues
+    t: 副作用问题
+
+  - key: react_pain_points.cache_issues
+    t: 缓存问题
+
+  - key: faq.data_used_react
+    t: 这些数据将被如何使用？
+
+  - key: faq.data_used_react.description
+    t: '收集的所有数据将公开发布，供任何人查阅。开发者或公司可以使用它来确定重点关注领域并为其路线图提供信息。
+
+      '
+
+  - key: faq.survey_goals_react
+    t: 本次调查的目标是什么？
+
+  - key: faq.survey_goals_react.description
+    t: '本次调查的目标是衡量 React API 以及 React 生态系统中库的知名度和受欢迎程度。
+
+      '
+
+  - key: faq.who_should_take_survey_react
+    t: 谁应该参与这项调查？
+
+  - key: faq.who_should_take_survey_react.description
+    t: '这是一项开放式调查，面向所有使用 React 的人，无论是经常使用还是偶尔使用，无论是作为工作的一部分、学生还是仅仅为了好玩！
+
+      '
+
+  - key: faq.how_long_will_survey_take_react
+    t: 回答调查需要多长时间？
+
+  - key: faq.how_long_will_survey_take_react.description
+    t: '取决于您回答多少问题（所有问题都是可选的），填写调查问卷大约需要 15-20 分钟。
+
+      '
+
+  - key: sections.tshirt.title
+    t: T 恤
+
+  - key: sections.tshirt.description
+    t: '## 购买官方 State of React T 恤支持调查
+
+  
+      它是一个库？一个框架？还是一个即将变异成危险、不稳定实体的未知元素？无论您对 React 有什么感觉，您都会在这个呼应动漫和科幻小说的设计中找到共鸣。
+
+      '
+
+  - key: tshirt.about
+    t: 关于 T 恤
+
+  - key: tshirt.description
+    t: '我们使用合作伙伴 Cotton Bureau 印制的高质量 T 恤。
+
+      '
+
+  - key: tshirt.getit
+    t: 获取
+
+  - key: tshirt.price
+    t: 32 美元 + 运费
+
+  - key: tshirt.designer.heading
+    t: 关于设计师
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: 'Chris 最初来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的天才插画家。实际上，我们鼓励您也看看他的[其他 T 恤设计](https://chriskirknielsen.com/designs)！
+
+      '

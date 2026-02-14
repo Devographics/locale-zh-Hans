@@ -1,0 +1,365 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2025 年度 HTML 生态系统最新趋势调查。
+
+  - key: general.html2025.survey_intro
+    t: |
+      2023 年，在 JS 现状和 CSS 现状调查已经进行了几年之后，我们意识到缺少了一些东西：那个将一切结合在一起的技术怎么样了？
+
+      毕竟，HTML 现在不仅仅是标签和属性，还包括用于动态更新、丰富嵌入、性能提示、模板和组件等的 API。
+
+      首届 HTML 现状调查由 Web 超级巨星 [Lea Verou](https://lea.verou.me/) 领导，以 21,000 名受访者打破了新调查的所有先前记录，并引入了改进所有未来调查的新 UI 范式。
+
+      今年，随着 Lea 重掌舵手，我们添加了 ✨35 个新功能✨，并引入了两个新部分：**图形与多媒体**和**性能**。
+
+      此外，与往届一样，浏览器供应商在决定其路线图时将考虑今年的结果，因此参与调查有助于塑造 Web 的未来！
+
+      准备好了吗？预备，开始！
+
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
+  - key: introduction.html2025
+    t: |
+      如果你想了解 Web 平台在过去几年中变得多么强大，看看这项调查涵盖的类别列表就知道了。
+
+      表单、图形、性能功能、与各种系统和设备 API 交互的方法、无障碍……有人能跟踪这一切真是个奇迹！
+
+      值得庆幸的是，至少有一个人做到了：[Lea Verou](https://lea.verou.me/)，她在 2023 年设计了调查的原始版本后，今年再次加入我们对其进行了更新。
+
+      而且，我们今年重点关注的一个领域是分析围绕各种痛点领域收集的大量自由形式的答案。
+
+      你现在将能够更深入地挖掘分类数据，以及访问（并搜索）受访者的原始答案。
+
+      如果没有别的，这应该有助于我们意识到我们都在同一条船上，分享着同样的挫折——但也分享着同样的希望！
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: faq.survey_design_html2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_html2025.description
+    t: >
+      这项调查的设计是涉及浏览器供应商和 Web 开发社区的[公开设计过程](https://github.com/Devographics/surveys/issues/253)的结果。
+
+  - key: faq.results_released_html2025
+    t: 结果什么时候发布？
+  - key: faq.results_released_html2025.description
+    t: 调查将于 2025 年 7 月 15 日至 8 月 15 日进行，调查结果将在 2025 年 9 月 15 日左右发布。
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_lazy_loading_usage.html2025
+    t: 使用**懒加载**的受访者比例，这是在“新近可用”基准状态中使用最多的功能。
+
+  - key: figure.figure_content_security_usage.html2025
+    t: **内容安全策略 (Content-Security Policy)** 的使用率同比增长最大。
+
+  - key: figure.figure_forms_features.html2025
+    t: 对评论最多的功能 **datalist** 的评论数量。
+
+  ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.customizable_select.html2025
+    t: |
+      **可定制的 Select** 目前可能还没有得到广泛支持，但这是一个值得了解的功能。虽然只有 **7.1%** 的受访者使用过，但 **89%** 的使用过它的开发者报告了积极的体验。
+
+      鉴于 `<select/>` 元素一直很难设置样式，最终能够根据你的需要定制它而无需求助于基于 JavaScript 的黑客手段，这是一个可喜的改进！
+
+  - key: highlight.jpeg_xl.html2025
+    t: |
+      在“JIF/GIF”发音惨败和名称令人困惑的“PNG”（“pee-en-gee”？“ping”？）之后，负责图像格式命名的人这次决定保持简单：采用已经流行的 JPEG 并添加一个“XL”使其更酷。
+
+      但这并不意味着更大，因为与名称相反，JPEG XL 图像实际上比无聊的旧 JPEG *更小*——同时还能以某种方式向后兼容。别问我这是怎么做到的。
+
+  - key: highlight.hidden_until_found.html2025
+    t: |
+      你知道浏览器现在可以玩捉迷藏了吗？`hidden="until-found"` 属性允许你隐藏一个元素，直到用户触发它，例如通过点击指向它的锚链接。
+
+      目前该功能肯定处于“隐藏”状态，**79.4%** 的受访者甚至从未听说过它。浏览器支持仍然稀缺（看着你，Safari！）。但是一旦互操作性得到改善，它可能最终值得添加到你的工具带中。
+
+  - key: highlight.popover_api.html2025
+    t: |
+      **Popover API** 从今年开始“新近可用”，这意味着它现在在所有四个主要浏览器中都受支持。这使得现在是学习它如何帮助你摆脱黑客式的 JavaScript 代码并用漂亮的声明式 API 替换它的最佳时机！
+
+  - key: highlight.blocking_render.html2025
+    t: |
+      我们这些关心控制网站加载方式的人（FOUC - Flash of Unstyled Content）会很高兴了解 `blocking="render"`。顾名思义，此属性可以使 `<link>`、`<script>` 或 `<style>` 标签阻止页面的渲染，直到它们完全加载。
+
+      浏览器支持还没有完全到位——但这绝对是会让 Web 加载 UX 更加流畅的东西，一旦它得到广泛支持。
+
+  - key: highlight.element_internals.html2025
+    t: |
+      如果你编写 Web 组件，你一定经常需要指定自定义伪类、默认 ARIA 参数，或者使组件像常规表单元素一样行为？
+
+      **ElementInternals** 可以做到这一切，甚至更多！最好的部分？它广泛可用，自 2023 年以来所有浏览器都支持！
+
+  - key: highlight.payment_request_api.html2025
+    t: |
+      “我最喜欢的胡萝卜蛋糕食谱？当然，我会告诉你的！但首先，你有兴趣买个新床垫吗？或者买双鞋？”。
+
+      广告似乎是网络不可避免的一部分，尤其是当你试图烘焙新糕点时。但 **PaymentRequest API** 可能是迈向使浏览器集成微支付成为现实的第一步。仅凭这一事实就值得关注。
+
+  - key: highlight.search_element.html2025
+    t: |
+      `<search>` 元素是那些不需要花费太多精力就能添加到最佳实践列表中的简单胜利之一。第 1 步：使用它来表示应用程序中的任何搜索字段。第 2 步：好吧，真的就是这样！
+
+      现在所有四个主要浏览器都支持它，真的没有理由不使用它。
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: forms.forms_features.takeaway.html2025
+    t: |
+      令人惊讶的是，`<input type="color"/>` 是今年使用最多的表单相关功能，**41.8%** 的受访者报告使用过它。
+
+      但当查看积极情绪时，基本 UI 构建块如自动完成（`<datalist>`）和下拉菜单（Customizable Select）位居榜首，这表明开发人员重视可定制和可根据需求调整的功能。
+
+  - key: forms.forms_pain_points.takeaway.html2025
+    t: |
+      默认表单控件 UI 元素的**样式和定制**仍然是一个巨大的绊脚石，近**一半**的痛点是关于它的。
+
+      **表单验证**也是一个问题，尤其是在涉及更高级的用例时，例如基于另一个字段的值验证一个字段。
+
+  - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
+    t: |
+      **JPEG XL** 和 **ctx.drawElement()** 是获得最多积极情绪的两个新功能，而像增强现实或扩展现实 API 这样更复杂的领域得分并不高——这再次表明开发人员首先对使他们日常生活更轻松的原语感兴趣。
+
+  - key: graphics_multimedia.graphics_pain_points.takeaway.html2025
+    t: |
+      SVG 一直是 Web 的黑马，长期被浏览器供应商忽视，但几乎在每个网站上都在使用。因此，它在这里占据主导地位也就不足为奇了，四分之一的痛点是关于它的。
+
+  - key: content.content_features.takeaway.html2025
+    t: |
+      最喜欢和最不喜欢的功能都与安全相关：**Sanitizer API** 获得了最多的积极评价，而 **Content-Security Policy** 位居挫折榜首。
+
+      这种对比凸显了减少摩擦并与现有工作流程清晰集成的安全机制是如何受到欢迎的，而那些强加严格策略、需要细致配置或破坏以前工作代码的机制可能会产生怨恨。
+
+  - key: content.content_pain_points.takeaway.html2025
+    t: |
+      数据描绘了一幅非常清晰的画面：目前最紧迫的内容痛点是 **HTML 重用**，包括跨页面重用和同一页面内重用。尽管这已经可以通过构建工具和基于组件的前端框架实现，但似乎对平台原生功能有巨大的需求。
+
+  - key: interactivity.interactivity_features.takeaway.html2025
+    t: |
+      对于简单但可定制的、用于常见事物的声明性原语有巨大的需求，这一类别中每个 HTML 功能的大比例积极情绪都证明了这一点。
+
+  - key: interactivity.interactivity_pain_points.takeaway.html2025
+    t: |
+      这里提到的大比例浏览器支持问题发出了一个明确的信息：“我们喜欢你们给我们的所有这些新功能——现在让它们在任何地方都能工作，这样我们才能真正使用它们！”。
+
+  - key: performance.performance_features.takeaway.html2025
+    t: |
+      响亮而清晰：`srcset` 和 `sizes` 的开发体验可以改进！这两个极端都围绕着它，`srcset`/`sizes` 本身位居挫折榜首，而 `sizes="auto` 是最受欢迎的功能——因为它减轻了一些痛苦。
+
+  - key: performance.performance_pain_points.takeaway.html2025
+    t: |
+      Web 的全部意义在于让人们访问遥远的内容。鉴于此，**加载**数据经常被视为事后的想法确实感觉有点奇怪，除了稍微好一点的旋转动画外，在过去 30 年里几乎没有取得什么进展。
+
+  - key: web_components.web_components_features.takeaway.html2025
+    t: |
+      我们再次看到声明性解决方案盛行，**声明性自定义元素**位居情绪榜首。
+
+  - key: web_components.web_components_pain_points.takeaway.html2025
+    t: |
+      我们知道**扩展内置元素**是一个长期请求的功能，这些结果验证了这一点，因为它是这里最具体的痛点话题（在围绕复杂性、依赖 JS 和无障碍的更抽象的话题之后）。
+
+  - key: web_components.web_components_other_pain_points.takeaway.html2025
+    t: |
+      与往年相比，同样的主题仍然存在：高认知开销、与框架组件相比不足，以及 Shadow DOM 更多的是问题而不是解决方案。
+
+  - key: system_capabilities.system_capabilities_features.takeaway.html2025
+    t: |
+      打开和保存文件是最基本的应用程序功能之一，然而直到最近，对于 Web 应用程序来说还是无法实现的——直到 **File System Access API**。因此，它在积极情绪排行榜上名列前茅也就不足为奇了。
+
+      另一方面，像 **WebUSB**、**Web Bluetooth** 或 **WebNFC** 这样的设备 API 收集的兴趣最少，再次证实了最受关注的功能是那些解决基本、常见问题的功能。
+
+  - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
+    t: |
+      数据描绘了一幅非常生动的画面：这里的头号痛点既不是人体工程学，也不是限制，而是**浏览器支持**，更具体地说，是一个特定的供应商，许多开发人员认为它阻碍了 Web 平台的进步。
+
+  # a11y
+
+  - key: accessibility.accessibility_features.takeaway.html2025
+    t: |
+      **地标元素**（`<main>`、`<nav>` 等）虽然不是很新或令人兴奋，但它们仍然是 Web 无障碍的基础。
+
+  - key: accessibility.accessibility_pain_points.takeaway.html2025
+    t: |
+      虽然在无障碍方面存在技术差距（例如跨根 ARIA），但每当我们询问它时，一个反复出现的主题是，主要痛点围绕着*人*，涉及工作场所优先级、教育和认知开销的问题位居榜首。
+
+  - key: accessibility.accessibility_techniques.takeaway.html2025
+    t: |
+      虽然像 alt 文本或正确的标题层次结构这样的事情已经成为大多数前端开发人员的第二天性，但像 `prefers-` 媒体查询集这样的新工具尚未真正成为主流。
+
+  - key: accessibility.accessibility_disabilities.takeaway.html2025
+    t: |
+      很高兴看到，除了考虑到视力障碍用户外，与去年相比，更多的开发人员也考虑到了非典型色觉和行动障碍。
+
+  - key: accessibility.accessibility_screenreaders.takeaway.html2025
+    t: |
+      像 VoiceOver 或 Chrome DevTools 这样易于访问的工具再次战胜了更专业的选项。尽管许多开发人员仍然不使用任何类型的屏幕阅读器（还要注意，39% 的调查受访者完全跳过了这个问题）。
+
+  - key: accessibility.accessibility_tools.takeaway.html2025
+    t: |
+      与去年的结果相比，浏览器开发工具的使用率大幅跃升，超过 Lighthouse 成为领先的无障碍测试工具。
+
+  # usage
+  - key: usage.html_interoperability_features.takeaway.html2025
+    t: |
+      Web 平台的状态与实际的现实世界采用之间总是存在一点滞后，所以 **Popover API** 仍然位居榜首也就不足为奇了。但别搞错了，这个功能现在正式拥有“新近可用”的基准状态，这意味着以后跨浏览器使用它应该不再是一个问题。
+
+  - key: usage.html_functionality_features.takeaway.html2025
+    t: |
+      表单控件和其他交互元素再次被认为是限制最大的。随着可定制选择的解决，看起来也许日期选择器应该是下一个目标。
+
+  - key: usage.html_missing_elements.takeaway.html2025
+    t: |
+      今年 **datatable** 再次成为最受欢迎的新元素。虽然拥有内置的过滤、排序、搜索等功能肯定很棒，但这似乎不是很快就会成为现实的事情。
+
+      另一方面，其他期待已久的功能（如原生 **switch** 元素）正在取得进展，这解释了它在排名中的下降。
+
+  - key: usage.html_styling_issues.takeaway.html2025
+    t: |
+      表单输入位居最难设置样式的元素榜首，这不足为奇。值得庆幸的是，[可定制的 select 元素](https://developer.chrome.com/blog/a-customizable-select)正在开发中，尽管[浏览器支持](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/)仍然滞后。
+
+  - key: usage.component_strategies.takeaway.html2025
+    t: |
+      很难否认 JavaScript 组件已成为在 Web 上构建 UI 的主导范式。是的，处理所有这些相互竞争的前端框架可能会很混乱——但这是我们知道的（甚至可能喜欢的？）混乱，这一事实使得 Web 组件很难在第四名之外获得进展。
+
+  - key: usage.design_system_strategies.takeaway.html2025
+    t: |
+      设计系统已成为大多数大型项目的要求，这一事实反映在所有这些不同方法的流行中。
+
+  - key: usage.html_css_js_balance.takeaway.html2025
+    t: |
+      正如上面的“组件策略”图表所示，JavaScript 是我们生成的许多 HTML 代码的事实上的载体。这解释了为什么我们花这么多时间编写它！
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2025
+    t: |
+      虽然平均调查受访者主要致力于动态 Web 应用程序，但我们许多人也花时间创建博客或其他文本密集型网站，这让人回想起 HTML 作为面向文档语言的根源。
+
+  - key: usage.html_pain_points_freeform.takeaway.html2025
+    t: |
+      当更普遍地看待 Web 平台痛点时，浏览器支持脱颖而出——尤其是在涉及 Apple 生态系统时。
+
+      因此，像 [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) 标签这样的社区倡议一直在获得动力，而在供应商方面，[Interop](https://web.dev/blog/interop-2025) 每年都在朝着正确的方向迈进。
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2025
+    t: |
+      鉴于缺乏工作场所的支持经常被认为是实施适当无障碍实践的障碍，很高兴看到至少在调查受访者中，情况似乎正在好转，与去年相比，两个“同意”条都有所增加。
+
+  - key: opinions.validation_is_important.takeaway.html2025
+    t: |
+      在处理现代 Web 开发的混乱时，很容易忘记 HTML 验证。但受访者同意它仍然是该过程的重要组成部分。
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2025
+    t: |
+      尽管有像 [Baseline](https://web-platform-dx.github.io/web-features/) 这样的伟大举措，但[跟上 Web 平台](https://css-tricks.com/how-to-keep-up-with-new-css-features/)仍然是一个挑战。希望这项调查至少能有一点帮助！
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2025
+    t: |
+      在 2025 年做浏览器供应商并不容易。开发人员抱怨平台停滞不前，所以你引入新功能和 API……结果开发人员现在又抱怨缺乏跨浏览器支持！
+
+      这就是为什么 [Interop](https://web.dev/blog/interop-2025) 在过去几年中已成为该过程的关键部分。它让浏览器供应商有机会在功能兼容性方面进行协调，并避免他们所有的辛勤工作因互操作性差而被破坏。
+
+  - key: opinions.browser_interoperability_pace.takeaway.html2025
+    t: |
+      这些互操作性努力的结果反映在这张图表中，**75%** 的受访者同意事情正在以前所未有的速度发展。
+
+  - key: opinions.web_platform_right_direction.takeaway.html2025
+    t: |
+      同样，**77%** 的受访者对 Web 平台的总体方向持积极态度。
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2025.lea_verou.name
+    t: Dr Lea Verou
+  - key: conclusion.html2025.lea_verou.bio
+    t: 演讲者、作家、屡获殊荣的网络架构顾问
+  - key: conclusion.html2025.lea_verou
+    t: >
+      我们经常期望最耀眼的功能会吸引最多的开发人员兴趣。像 AI 驱动的 API、3D/XR/AR 或设备 API 之类的东西。然而年复一年，脱颖而出的绝不是花哨的东西。几乎……平庸：下拉菜单。组合框。弹出框。对话框。表单验证。加载和保存文件。模板。安全地显示用户生成的内容。图标。
+
+      ### 使 API 可用
+
+      “但是——其中许多已经存在了！”你可能会反对。它们确实存在——但是当内置 UI 无法定制或设置样式时，它实际上是不可用的。开发人员无论如何都被迫重新创建它。
+
+
+      一旦这枚硬币掉落（一旦意识到这一点），它就解释了大部分调查结果。它解释了为什么 **Customizable Select** 荣登榜首。为什么像 popovers 和 invokers 这样的低级原语如此受欢迎。为什么 **SVG** 和 **在 canvas 上绘制 HTML** 的排名远高于 AR/VR。甚至为什么 **扩展内置元素** 成为如此主要的 Web 组件痛点。
+
+
+      毕竟：在失去理智之前，你能重建多少次按钮或下拉菜单？你有多大信心你做对了？
+
+
+      结果是，构建专业的交互式 UI 仍然需要拼凑许多第三方解决方案，即使对于专有平台中常规的事情也是如此。
+
+      ### 滞后的变化
+
+      这一发现并不新鲜。在[第一届 HTML 现状](https://2023.stateofhtml.com/)中，我们已经看到了样式和定制是多么关键，尤其是在表单方面。今年的深入分析证实了这一点并没有改变——事实上，信号更响亮了。
+
+
+      但事情*确实*变得更好了！2023 年讨论的功能现在已经在主要浏览器中发布。那时不切实际的其他功能——比如 **Popover API**——现在得到了普遍支持。
+
+
+      然而，Popover 仍然位居浏览器支持投诉榜首。为什么？虽然实施的速度加快了，但集体认知滞后了。现在开发人员信任支持所需的时间比浏览器发布它的时间还要长！
+
+      ### LLM 的影响
+
+      AI 生成代码的兴起是一个促成因素。LLM 对现代 Web 平台功能出奇地精通，并且*本可以*帮助推动社区向前发展，但在推荐内容方面过于保守。实际上，这甚至可能*减缓*采用！如何大规模解决这个问题仍然是一个悬而未决的问题。与此同时，明确的浏览器支持说明确实有帮助，谁知道呢，如果有足够多的开发者这样做，问题甚至可能会自行解决。
+
+      ### 展望未来
+
+      展望未来，前景一片光明。许多突出的痛点正在积极解决中，有些甚至已经发布。即使是以前被认为是死胡同的可扩展内置组件，也通过围绕自定义属性的早期工作看到了潜在的进展。
+
+
+      所有这些原语都指向同一个方向：一个正稳步变得更灵活、更具表现力且更符合开发人员实际构建 UI 方式的 Web 平台。
+
+
+      Web 上的进步很少是戏剧性的，但它是累积的。每一个新原语都减少了对变通方法、库和脆弱黑客手段的需求。当这些基本要素到位时，这种影响将无处不在。
+
+  - key: about.content.html2025
+    t: |
+      2025 年 HTML 现状调查于 2025 年 7 月 19 日至 9 月 1 日进行，共收集了 6,223 份回复。
+
+      该调查主要由 [Lea Verou](https://lea.verou.me/) 设计，并通过 [GitHub 上的公开讨论](https://github.com/Devographics/surveys/issues/253)进行协作设计。
+
+      调查基础设施由 [Sacha Greif](https://sachagreif.com/) 运营，并得到开源贡献者和顾问团队的帮助。
+
+      今年的标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      创建这项调查旨在确定 Web 开发生态系统的未来趋势，以帮助开发人员做出技术选择。
+
+      因此，调查侧重于预测未来几年即将发生的事情，而不是分析现在流行的东西，这就是为什么目前最普遍的功能或技术并不总是包含在内的原因。
+
+      这也应被视为**特定开发者子集的快照**，并不意味着代表整个生态系统。
+
+      该调查在线公开访问，受访者未经过任何方式的筛选或选择。
+
+      ### 项目资金
+
+      该项目的资金来自多种渠道：
+
+      - **T 恤销售**。
+
+      - **赞助链接**：每页底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
+
+      - **其他资金**：[Google](https://www.google.com/) 和 [TokyoDev](https://www.tokyodev.com/) 也资助了调查工作。
+
+      ### 技术概览
+
+      你可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于调查如何运行的更深入的技术概览。

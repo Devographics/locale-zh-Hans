@@ -1,0 +1,522 @@
+locale: zh-Hans
+translations:
+  - key: general.css2025.html2025_banner
+    t: |
+      参与 HTML 现状调查，共同塑造 Web 的未来！
+
+  - key: general.css2025.survey_intro
+    t: |
+      对于 2025 年的 CSS 愿望清单，我只有一项：慢一点！
+
+      经过多年的快速创新，现在感觉浏览器供应商是时候放慢脚步，巩固现有成果，修复浏览器不一致性，让我们其他人赶上进度了。
+
+      毕竟，我们可能听说过 subgrid、`:has()`、滚动驱动动画以及所有其他最近的 CSS 改进——但我们中有多少人能说自己真正使用过所有这些功能，更不用说掌握它们了？
+
+      这就是为什么今年的调查如此有趣。这将是一个机会，看看过去几年的新 CSS 补充中，哪些已经被社区采用，哪些仍然在我们的待办事项清单上。
+
+      所以再一次，请加入我，参与今年的 CSS 现状调查！
+
+  - key: introduction.css2025
+    t: |
+      <span class="first-letter">人</span>们对采用所有这些新奇的 CSS 功能反应迟钝是可以理解的。毕竟，我们真的需要它们吗？即使我们需要，它们在不同浏览器中的工作是否可靠？
+
+      但是，随着 Baseline 指标一个接一个地变绿，并且对新功能和属性的满意度保持高位，即使是我们中最不情愿的人也不得不承认，像 `:has()`、`aspect-ratio` 和级联层（Cascade Layers）这样的功能已经在我们的样式表中赢得了一席之地。
+
+      唯一的问题是*何时*。太早，你会一头撞上早期采用者的痛点。太晚，你会错过节省时间的改进。
+
+      值得庆幸的是，现在有一个强大的工具和资源生态系统致力于回答这个问题——从本次调查开始！
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: features.features_intro_css2025
+    aliasFor: features.features_intro_css2024
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2025
+    t: |
+      今年的调查覆盖了全球 **5,506** 名开发者。
+
+  - key: sections.features.description.css2025
+    t: |
+      CSS 正以创纪录的速度添加新功能，这已不是秘密——这就是为什么我们要询问今年不少于 *50* 个新功能的原因！
+
+  - key: sections.tools.css2025
+    t: 库和工具
+
+  - key: sections.tools.description.css2025
+    t: |
+      尽管 CSS 的新功能解锁了许多能力，但开发者仍然依赖工具和库来支持他们的工作流程，至少目前是这样。
+
+  - key: sections.usage.description.css2025
+    t: |
+      无论你如何使用 CSS，数据显示，确保代码在所有浏览器中正常工作仍然是一个令人担忧的问题，特别是对于像 `:has()` 这样的较新功能。
+
+  - key: sections.resources.description.css2025
+    t: |
+      请放心：随着大量新 CSS 功能的推出，我们的 CSS 博客文章、播客、视频和课程素材短期内不会枯竭！
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # - key: user_info.country.takeaway.css2025
+  #   t: >
+  #     The survey remains U.S.-centric, but European countries continue
+
+  - key: features.all_features.takeaway.css2025
+    t: >
+      在调查包含的所有功能中，`:has()` 既是使用最多的，也是最受喜爱的。同样值得指出的是：**Subgrid** 在最受喜爱排名中位居第二，而 `aspect-ratio` 在使用率中排名第二，在好感度中排名第三。
+
+
+      在 **Subgrid** 之后，`line-clamp` 获得的评论最多，其中许多来自对该功能持负面意见的受访者。
+
+
+      使用最少的功能是 `sibling-count` 和 `sibling-index`，这很有道理，因为它们的浏览器支持仍然非常新且有限。总体上最不受欢迎的功能是**三角函数**……毫无疑问是因为“三角学”部分！
+
+
+      最后，请务必按 **“广泛可用” Baseline 状态**进行过滤，以查看目前有哪些功能可供使用！
+
+  - key: features.features_ratios_over_time.takeaway.css2025
+    t: >
+      观察随时间变化的趋势和背景，会发现一幅相当有趣的画面。同比增长最大的功能是 `text-wrap: pretty`，而*认知度*增长最大的是 `light-dark()`。
+
+
+      **颜色函数**在使用率方面也排在图表底部，这可能意味着它们尚未找到受众。
+
+
+      最后，“欣赏”选项卡让我们看到对某个功能感兴趣的受访者与实际使用过该功能的受访者在积极性方面的差异。**锚点定位（Anchor positioning）**显示出 **-12%** 的下降，这可能意味着 API 并不像人们预期的那样用户友好。
+
+  - key: features.layout_pain_points.takeaway.css2025
+    t: >
+      虽然 **Grid** 无疑很强大，但这种强大也伴随着陡峭的学习曲线，这使得使用这个相当复杂的功能成为一个真正的痛点。
+
+
+      在排名的更下方，处理高度、溢出、定位和对齐仍然是 CSS 开发者的常见问题。
+
+  - key: features.shapes_graphics_pain_points.takeaway.css2025
+    t: >
+      既然我们对矩形已经相当适应了，我们开始将目光投向更广阔的三角形、圆形和多边形世界。遗憾的是，仅使用 CSS 绘制这些**复杂形状**仍然很困难。
+
+
+      这就是为什么我们需要求助于 **SVG**——虽然它也有自己的问题。
+
+  - key: features.colors_pain_points.takeaway.css2025
+    t: >
+      许多受访者希望 CSS 能超越浅色/深色二分法，真正提供更多工具来管理成熟的主题，并在选择颜色时更好地确保适当的**对比度**。
+
+
+      虽然像 `oklch()` 这样的新色彩空间确实很强大，但它们也带来了一系列自己的问题。
+
+  - key: features.interactions_pain_points.takeaway.css2025
+    t: >
+      当我们中的许多人正在等待对**滚动驱动动画**更好的浏览器支持时，其他人指出了像**轮播**这样的新交互模式可能存在的**可访问性问题**。
+
+
+      另一个常见的痛点是“动画到 `auto`”的困难，值得庆幸的是，这[现在已经成为可能](https://developer.chrome.com/docs/css-ui/animate-to-height-auto)！
+
+  - key: features.typography_pain_points.takeaway.css2025
+    t: >
+      在浏览器中控制垂直文本对齐（即**行距**）一直是一个问题，这种状况持续了我记忆中的所有时间。值得庆幸的是，`text-box-edge` 和 `text-box-trim` 承诺给我们提供更细粒度的工具来正确设置在线排版。
+
+  - key: features.math_features_pain_points.takeaway.css2025
+    t: >
+      许多受访者对 `calc()` 有怨言，尤其是在计算中处理单位时。
+
+  - key: features.other_features_pain_points.takeaway.css2025
+    t: >
+      这里并不令人惊讶，**浏览器支持**仍然是本节中提到的 CSS 功能的首要痛点。
+
+  - key: features.reading_list.takeaway.css2025
+    t: >
+      鲜为人知的 `::target-text`（只有 82% 的受访者从未听说过它）在受访者最好奇的功能阅读清单排名中位居榜首。
+
+  # other_tools
+
+  - key: tools.css_frameworks.takeaway.css2025
+    t: >
+      Tailwind 在框架排名中名列前茅，它似乎对经验稍欠缺的开发者（中位经验 10 年）更有吸引力，而经验更丰富的受访者则使用自定义或内部框架（中位经验 15 年）。
+
+
+      话虽如此，同样值得注意的是，**47%** 的调查受访者要么不使用框架，要么完全跳过了这个问题。
+
+  - key: tools.css_in_js.takeaway.css2025
+    t: >
+      **CSS Modules** 相当轻量级的风格继续受到欢迎，而 **Styled Components** 仍然保持在第二位。
+
+  - key: tools.pre_post_processors.takeaway.css2025
+    t: >
+      **Sass** 仍然是第一名，但随着 CSS 本身采用越来越多预处理器的功能，预处理器的总体使用率正在缓慢下降。
+
+  - key: tools.utilities.takeaway.css2025
+    t: >
+      使用 **Prettier** 对任何开发者来说都是一个安全的选择——但下面的列表包含许多其他值得一试的鲜为人知的工具。
+
+  - key: tools.browsers.takeaway.css2025
+    t: >
+      说到浏览器，四大浏览器之所以成为四大是有原因的，与去年相比，它们保持了几乎相同的使用数据。
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2025
+    t: >
+      虽然测试环境逐年变化不大，但令人鼓舞的是，使用仅键盘和屏幕阅读器进行测试的受访者略有增加。
+
+
+      同样有趣的是，与公司规模相比，大公司往往以更高的比率使用屏幕阅读器进行测试。
+
+  - key: usage.what_do_you_use_css_for.takeaway.css2025
+    t: >
+      虽然 CSS 最初是作为文档布局系统出现的，但现在很清楚，交互式应用程序代表了它的主要用例——这一事实无疑推动了该语言最近的演变。
+
+  - key: usage.industry_sector.takeaway.css2025
+    t: >
+      我们中的许多人正在构建供开发者社区内部使用的工具，这使得采用新功能变得容易得多，而不必太担心浏览器兼容性。
+
+  - key: usage.css_interoperability_features.takeaway.css2025
+    t: >
+      **锚点定位（Anchor Positioning）**不仅保持了第一的位置，而且引用它的受访者比例几乎翻了一番。
+
+
+      **视图过渡 API（View Transition API）**也攀升至第三位，而**容器样式查询**在排名中大幅上升了 **11 位**。
+
+
+      另一方面，**CSS 嵌套**和 `:has()` 均有所下降，这很有道理，因为这些功能现在已在所有主流浏览器中得到支持。
+
+  - key: usage.css_missing_features.takeaway.css2025
+    t: >
+      **Mixins** 仍然是开发者最希望拥有的功能，紧随其后的是**瀑布流布局（Masonry Layout）**。长期以来，这两种功能都可以通过预处理器或 JavaScript 等变通方法实现，但如果能看到 CSS 原生支持它们就太好了！
+
+  - key: usage.css_general_pain_points.takeaway.css2025
+    t: >
+      **浏览器支持**可能仍然是 2025 年主要的 CSS 痛点，但只有相对较少的 10% 的受访者提到这一点，这证明了该领域最近的改进。
+
+  - key: usage.favorite_new_features.takeaway.css2025
+    t: >
+      虽然 `:has()` 仍然是第一名，但它确实失去了一些优势，因为 **视图过渡 API（View Transition API）**，特别是**锚点定位（Anchor Positioning）**（上升了 8 位）开始得到更广泛的采用。
+
+  - key: usage.gamechanger_feature.takeaway.css2025
+    t: >
+      每一个新的 CSS 功能都有其用途，但只有少数是真正的颠覆者。事实证明，**Grid**、`:has()` 和 **CSS 嵌套**是近年来最大程度改变我们编写 CSS 方式的功能。
+
+  - key: usage.baseline_awareness.takeaway.css2025
+    t: >
+      我们想看看受访者对 Baseline 浏览器兼容性指标有多熟悉（您可以在整个调查结果中看到它的使用！）。
+
+
+      尽管我们以假答案的形式设置了巧妙的陷阱，但绝大多数人都成功通过了这个问题！特别是年轻的受访者对 Baseline 表现出更高的认知度，这无疑归功于最近 Baseline 集成到了 Fortnite 中（……开个玩笑）。
+
+  - key: usage.css_pace_of_change.takeaway.css2025
+    t: >
+      采用新功能通常是一个多阶段的过程：首先，你在几个月或几年的时间里多次听说它，直到你对它的功能有一个扎实的了解。然后，你可能会在实验性的副业项目中尝试它，最后才在生产中采用它。
+
+
+      这张图表显示，我们大多数人正处于这一旅程的中间，只了解并尝试了本次调查中介绍的部分功能集。
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2025
+    t: >
+      过去几年，对 Web 的满意度一直相当稳定，既没有上升也没有下降。
+
+  - key: usage.state_of_css_happiness.takeaway.css2025
+    t: >
+      另一方面，对 CSS 的满意度在近年来显示出明显的上升趋势，这恰好与该语言自身的快速改进步伐相吻合。
+
+  # resources
+  - key: resources.podcasts.takeaway.css2025
+    t: >
+      **Syntax** 仍然统治着播客领域，它甚至设法增加了可观的 **+8%** 听众！
+
+
+      值得一提的是 **Kevin Powell 的播客**和 **Podrocket**，它们都上升了 4 位。
+
+  - key: resources.video_creators.takeaway.css2025
+    t: >
+      **Kevin Powell** 已经在 YouTube 上确立了 CSS 之王的地位，但像 **Theo** 和 **The Primeagen** 这样更关注通用的创作者正在紧随其后。
+
+
+      **Syntax** 也继续成功向视频转型，与去年相比增加了 **5%** 和 **5 个名次**。
+
+  - key: resources.people.takeaway.css2025
+    t: >
+      **Josh**、**Kevin**、**Adam** 和 **Una** 继续主导 CSS 影响者排名的榜首——事实证明，即使我不提他们的姓氏，你也知道我在说谁。
+
+  - key: resources.web_platform_resources.takeaway.css2025
+    t: >
+      **MDN** 是一个很棒的免费学习 CSS 的资源，但绝不是唯一的资源，正如这个简短的有用链接列表所示。
+
+  - key: resources.other_surveys.takeaway.css2025
+    t: >
+      虽然受访者大多参与其他的“现状”调查以及 **Stack Overflow** 调查，但 **JetBrains 开发者生态系统调查**也值得了解。
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.most_used_feature_award.comment
+    t: |
+      凭借 {value} 的使用率，`:has()` 已被社区广泛采用！
+
+  - key: award.least_used_feature_award.comment
+    t: |
+      只有 {value} 的使用率，`sibling-count` 离主流还很远。
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      有 {value} 的受访者对 `:has()` 持积极印象，它占据了我们排名的榜首。
+
+  - key: award.most_hated_feature_award.comment
+    t: |
+      只有 {value} 的受访者真正讨厌三角学，但这足以让**三角函数**在受欢迎程度方面排在倒数第一 :(
+
+  - key: award.largest_awareness_progression_award.comment
+    t: |
+      与去年相比，又有 {value} 的受访者不再对 `light-dark()` 一无所知！
+
+  - key: award.largest_usage_progression_award.comment
+    t: |
+      随着 {value} 的使用率增长，`text-wrap: pretty` 表现得相当不错！
+
+  - key: award.most_commented_feature_award.comment
+    t: |
+      **Subgrid** 获得了超过 {value} 条评论，部分原因是它出现在调查的早期，但也因为它绝对是一个值得称赞的功能！
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_css2025
+    aliasFor: faq.how_long_will_survey_take_css2024
+  - key: faq.how_long_will_survey_take_css2025.description
+    aliasFor: faq.how_long_will_survey_take_css2024.description
+
+  - key: faq.learn_more_css2025
+    t: 我在哪里可以了解更多信息？
+  - key: faq.learn_more_css2025.description
+    t: 您可以在[我们的公告文章](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h)中了解有关此调查的更多信息。
+
+  - key: faq.survey_design_css2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_css2025.description
+    t: >
+      这项调查是作为一个[开放设计过程](https://github.com/Devographics/surveys/issues/289)的结果而设计的，涉及浏览器供应商和 Web 开发社区。
+
+  - key: faq.results_released_css2025
+    t: 结果什么时候公布？
+  - key: faq.results_released_css2025.description
+    t: 调查将于 2025 年 6 月 1 日至 7 月 1 日进行，调查结果将在不久后公布。
+
+  - key: about.content.css2025
+    t: >
+      2025 年 CSS 现状调查于 2025 年 6 月 1 日至 7 月 15 日进行，收集了 5,506 份回复。该调查由 [Devographics](https://www.devographics.com/) 运营，并得到了一组开源贡献者和顾问的帮助。
+
+
+      CSS 现状调查的 Logo 和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计和制作动画。
+
+
+      ### 调查目标
+
+      创建本调查旨在识别 Web 开发生态系统中的未来趋势，以帮助开发者做出技术选择。
+
+
+      因此，本调查侧重于预测未来几年的发展，而不是分析当前流行的内容，这就是为什么目前最广泛使用的功能或技术并不总是包含在内。
+
+
+      此外，调查数据也被浏览器供应商用于确定功能的优先级，并为 [Interop 2025](https://web.dev/blog/interop-2025) 等计划提供信息。
+
+
+      ### 调查设计
+
+      本调查是[在 GitHub 上](https://github.com/Devographics/surveys/issues/245)协作设计的。
+
+      ### 调查受众
+
+      该调查在网上公开访问，受访者未经过任何方式的过滤或筛选。受访者主要是过去调查的受访者（通过专用邮件列表通知）和社交媒体流量的混合体。
+
+      ### 项目资金
+
+      除 T 恤销售外，该项目的资金来自多种渠道：
+
+      - 我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 赞助了本次调查，作为交换，我们在每页底部展示了他们课程的相关链接。
+
+      - [Google Chrome](https://www.google.com/chrome/) 团队今年预留了一笔赞助预算，以帮助设计和运行本次调查。
+
+      - [TokyoDev](https://www.tokyodev.com/) 也在持续赞助本次调查。
+
+      ### 技术概览
+
+      您可以[在此](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到有关调查如何运行的更深入的技术概览。我们的代码是[开源的](https://github.com/Devographics/Monorepo/)。
+
+      ### 反馈
+
+
+      - [报告技术问题](https://github.com/Devographics/Monorepo/issues)
+
+      - [为明年提出建议](https://github.com/Devographics/surveys/issues/249)
+
+      - [其他非技术问题](https://github.com/Devographics/surveys/issues)
+
+      - [加入我们的 Discord](https://discord.gg/tuWRUWVyJs)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2025
+    t: "我的 2025 精选： "
+  - key: picks.intro
+    t: 我们邀请 CSS 社区成员分享他们的“年度精选”
+
+  # https://linear-easing-generator.netlify.app/
+  - key: picks.josh_comeau.name
+    t: |
+      `linear()` 缓动生成器
+  - key: picks.josh_comeau.bio
+    t: 独立开发者和教育家
+  - key: picks.josh_comeau.description
+    t: |
+      描述：`linear()` 计时函数已迅速成为我最喜欢的现代功能之一，而这个可爱的工具使得从 JS 逻辑快速生成 CSS 弹性动画变得非常容易！
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/if
+  - key: picks.ahmad_shadeed.name
+    t: |
+      `if()`
+  - key: picks.ahmad_shadeed.bio
+    t: 设计工程师，[debuggingcss.com](https://debuggingcss.com) 作者
+  - key: picks.ahmad_shadeed.description
+    t: |
+      结合 `:has()` 和样式查询，`if()` 将帮助我们在 CSS 中做更多的条件处理。
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
+  - key: picks.kilian_valkhof.name
+    t: |
+      `text-wrap: balance;`
+  - key: picks.kilian_valkhof.bio
+    t: "[Polypane](https://polypane.app/) 的创建者"
+  - key: picks.kilian_valkhof.description
+    t: |
+      我不记得上一次引入一个新的 CSS 属性是什么时候了，我可以把它添加到任何新旧样式表中。这是一个神奇的一行代码，可以让你的标题更漂亮，而且没有任何副作用。把它添加到你的 CSS 重置中吧！
+
+    # https://codepen.io/thebabydino/pen/LEExpVg
+  - key: picks.ana_tudor.name
+    t: 组合功能
+  - key: picks.ana_tudor.bio
+    t: CSS 疯狂科学家
+  - key: picks.ana_tudor.description
+    t: |
+      我的选择与其说是改变事物的单一功能，不如说是多种功能结合使用的方式。
+
+      例如，subgrid + 新的 `corner-shape`（或 `shape()` clip-path 函数）来获得依赖内容且具有凹形圆角的形状，而不一定是圆形的。
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+  - key: picks.amit_sheen.name
+    t: CSS 数学函数
+  - key: picks.amit_sheen.bio
+    t: Web 开发者 & 创意编码员
+  - key: picks.amit_sheen.description
+    t: |
+      数学是宇宙的语言，是生命本身的语言，没有它，我们将无法清晰地描述、测量或构建任何东西。
+
+      因此，我们现在可以在 CSS 中原生使用这些函数的事实只会增强我们的能力，并开启一个充满新可能性的世界。
+
+  # https://miocene.io/
+  - key: picks.sacha_greif.name
+    t: Julia Miocene
+  - key: picks.sacha_greif.bio
+    t: State of CSS 维护者
+  - key: picks.sacha_greif.description
+    t: |
+      当你连续几天调试布局或样式表单时，很容易忘记前端编码本身也可以是一种享受。Julia 的惊人作品很好地提醒了我们，如果你愿意花时间去寻找，就能在 CSS 中发现乐趣和创造力。
+
+  # https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+  - key: picks.julia_miocene.name
+    t: View Transition API
+  - key: picks.julia_miocene.bio
+    t: 产品设计师，UX 工程师，纯 CSS 动画师
+  - key: picks.julia_miocene.description
+    t: |
+      我的年度精选是 View Transition API。它帮助我摆脱了 JS 代码和复杂的动画技巧。现在我可以轻松地为生成的内容和用户交互制作动画 ✨
+
+  # https://modern-fluid-typography.vercel.app/
+  - key: picks.ana_rodrigues.name
+    t: |
+      字体 Clamp 生成器
+  - key: picks.ana_rodrigues.bio
+    t: "[Hactar.is](https://hactar.is/) 的前端开发者"
+  - key: picks.ana_rodrigues.description
+    t: |
+      我的年度精选是人们创建和分享的所有字体 clamp 生成器。它们的优点在于它们各不相同，因此可以适应不同的学习风格。特别是，如果仅仅阅读文档并不能帮助理解某些东西是如何工作的。
+
+  # https://piccalil.li/blog/
+  - key: picks.saron_yitbarek.name
+    t: Picalilli
+  - key: picks.saron_yitbarek.bio
+    t: Apple 的 Web 布道者
+  - key: picks.saron_yitbarek.description
+    t: |
+      我关注 Piccalili 已经有一段时间了，我喜欢他们既有免费的技术文章，也有更深入的付费课程，这样你可以选择适合自己的学习方式。作为一个企业，他们非常周到地理解 Web 社区，并做出合乎道德的商业决策，这使他们能够做出伟大的工作，而不会因为赚钱的方式而感到不适。
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+  - key: picks.sara_joy.name
+    t: |
+      `light-dark()` 函数
+  - key: picks.sara_joy.bio
+    t: 前端开发者
+  - key: picks.sara_joy.description
+    t: |
+      一旦在 CSS 中使用了 `color-scheme`，使用 `light-dark()` 根据当前使用的是浅色模式还是深色模式来声明颜色就变得顺理成章了。我目前很喜欢关注[这个讨论帖](https://github.com/w3c/csswg-drafts/issues/10577)，关于我们未来可能使用什么进一步的逻辑来查询 color-scheme 并有条件地更改 CSS。
+
+  - key: frontendmasters.learning_path
+    t: |
+      成为高级 Web 开发者的道路
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      想提升你的职业生涯吗？深入研究 JavaScript、React、Web 性能、CSS、部署网站、TypeScript 和函数式编程，今天就从初级晋升为高级。
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_has_usage.css2025
+    t: 使用过 `:has()` 的受访者百分比。
+
+  - key: figure.figure_light_dark_awareness.css2025
+    t: 听说过 `light-dark()` 的受访者同比增长百分比。
+
+  - key: figure.figure_css_in_js.css2025
+    t: 使用 CSS-in-JS 库的调查受访者百分比。
+
+  - key: figure.figure_anchor_positioning.css2025
+    t: 希望能使用锚点定位（Anchor Positioning）的受访者同比增长百分比。
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2025.amit_sheen
+    t: |
+
+      <span class="first-line">这不是我们过去熟知的 CSS（这是一件好事）。</span>
+
+      浏览调查结果，很明显 CSS 不再“只是”一种样式语言。它的方向发生了根本性的转变，在布局、动效、兼容性，当然还有可访问性方面发挥着更大的作用。这种转变有助于重新定义 CSS 的身份，它不再是一种遗留的样式语言，而是一个现代的、富有表现力的工具集，最终得到了它应得的认可。
+
+      这种转变改变了我们编写 CSS 的方式。交互式 Web 应用程序已取代静态页面成为主要用例，原生语言功能正在取代许多框架和预处理器的抽象，而跨浏览器更广泛的支持使开发者有信心探索新功能。人们现在更愿意尝试，在新功能出现后不久就进行测试，因为他们相信标准和工具的改进将使采用过程更加顺畅。
+
+      这种转变的另一个象征，也是本次调查没有详细阐述的，是重新设计的 CSS Logo。对我来说，它代表着新篇章的开始：这门语言已经从徽章上去掉了数字“3”，也随之去掉了被锚定在过去版本的观念。取而代之的是一个新鲜、现代的标志，标志着自信和准备迈向更光明的未来。
+
+      即使有了这种更新的感觉，调查也提醒我们 CSS 仍然存在的不足之处。尽管取得了进步，许多受访者仍然在复杂的布局问题和变化速度中挣扎，并表示控制高度、溢出和对齐可能会令人沮丧。人们显然渴望 mixins、瀑布流布局和条件逻辑等功能，这些功能将把更多预处理器的便利性带入语言本身。虽然浏览器差异不再主导投诉列表，但它们并没有完全消失，所以仍有工作要做。
+
+      除了这些挑战，调查还突出了几个成功之处。`:has` 选择器、容器查询和 `subgrid` 已经从愿望清单变成了日常实践，受访者将它们列为最受欢迎的功能。Baseline 指标和 Interop 项目等新举措增强了人们对新功能将迅速成熟的信心，使早期采用感觉风险更小。对语言及其生态系统日益增长的信任有助于解释为什么对 CSS 的满意度持续攀升，即使对 Web 技术的总体满意度保持稳定。
+
+      展望未来，这一刻感觉像是一个开始而不是结束。调查显示，一个社区已经准备好采用新工具，渴望解决剩余的差距，并确信该语言将继续发展。如果我们继续保持这种好奇心和协作精神，CSS 将以我们今天难以想象的方式继续发展，下一次调查将反映出更加丰富的景观。
+
+      如果说 2025 年是关于稳定不可能的事情，那么 2026 年可能就是关于实现期待已久的梦想。对于那些热爱 CSS 的人来说，现在是尝试、学习和帮助塑造未来的最佳时机。
+
+  - key: conclusion.css2025.amit_sheen.bio
+    t: Web 开发者 & 创意编码员

@@ -1,0 +1,440 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2025年React生态系统最新趋势年度调查。
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.react2025.survey_intro
+    t: |
+      鉴于 React 最初出自一家以“快速行动，打破常规”为座右铭的公司，讽刺的是，React 的发展方针可以概括为“稳扎稳打”。
+
+      React 团队在将框架演进到当前的现代状态方面做得非常出色，逐步引入了像服务器组件（Server Components）这样的创新，然后让社区按照自己的节奏采用（或不采用！）。
+
+      今年，期待已久的编译器（Compiler）终于要正式亮相了。而在管理方面，事情也在向前推进，最近推出了 [React 基金会](https://react.dev/blog/2025/10/07/introducing-the-react-foundation)。
+
+      因此，无论您是处于 React 新特性的前沿，还是以较慢的速度采用创新，都请再次加入我们，通过参与今年的 React 现状调查，一起弄清楚 React 的发展方向！
+
+  - key: features.features_intro.react2025
+    t: |
+      欢迎参加调查！第一部分主要是分享您对各种 React 特性的体验：
+
+
+      - **从未听说过**：这是您第一次看到这个——或者您听说过但不知道它是做什么的。
+
+      - **听说过**：您读过或了解过这个，但还没有实际使用过。
+
+      - **使用过**：您至少使用过一次，哪怕只是为了试玩。
+
+
+      顺便说一句，如果您想告诉我们更多关于您的选择，只需点击那个小小的“评论”图标！
+
+  - key: tools.tools_intro.react2025
+    t: |
+      调查的下一部分是关于构成 React 生态系统的各种库和框架。
+
+  - key: introduction.react2025
+    t: |
+      <span class="first-letter">年</span>复一年，React 逆网络开发领域不断变化的趋势而行，固执地拒绝过时，并与时俱进——甚至有时领先于时代。
+
+
+      随着生成式 AI 依赖现有的代码库来生成新代码，React 会不会变得更加根深蒂固，实际上成为第一个“永恒的框架”？
+
+
+      我们在一段时间内无法知道这个问题的答案，所以在那个时候到来之前，我们能做的最好的事情就是继续发布像这样的调查，以跟踪生态系统的发展方向。
+
+
+      尽管本期调查由于在年底较晚时候进行，参与度较低，但它仍然提供了一些有趣的见解，我迫不及待地想让您看看！
+
+
+      *请注意，这是一项非官方调查，与 Meta、Vercel、React 团队或 React 基金会无关。*
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.survey_design_react2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_react2025.description
+    t: >
+      该调查是在社区的参与下通过[公开反馈帖](https://github.com/Devographics/surveys/issues/262)设计的。
+
+  - key: faq.results_released_react2025
+    t: 结果何时公布？
+  - key: faq.results_released_react2025.description
+    t: 调查将于10月25日至11月25日进行，调查结果将在之后不久公布。
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: features.all_features.takeaway.react2025
+    t: |
+      虽然这里没有什么大的惊喜，但有趣的是，**Server Components** 和 **Server Functions** 分别是第三和第四最不受欢迎的功能，这对于一套本应为 React 下一次向更完整的全栈框架演进铺平道路的新 API 来说，是令人不安的。
+
+  - key: features.main_apis_ratios.takeaway.react2025
+    t: |
+      React 是一个成熟的库，这转化为其主要 API 的使用曲线相当可预测。
+
+  - key: features.hooks_ratios.takeaway.react2025
+    t: |
+      说到 hooks，[useId](https://react.dev/reference/react/useId) 的采用率一直在迅速增长。虽然 [useEffect](https://react.dev/reference/react/useEffect) 仍然是使用最多的 hooks API 之一，但它也是满意度比率最低的一个，证实了许多开发者对该 hook 挑剔的反应式模型的看法。
+
+  - key: features.new_apis_ratios.takeaway.react2025
+    t: |
+      虽然 **Server Components** 和 **Server Functions** 的受欢迎程度都在缓慢增长，但 [Suspense](https://react.dev/reference/react/Suspense) 是采用率最高的新特性。
+
+
+      它还拥有很高的满意度，遗憾的是，上述服务器 API 并非如此。
+
+  - key: features.main_apis_pain_points.takeaway.react2025
+    t: |
+      `forwardRef` 长期以来一直是 React 开发者的心头大患，这就是为什么看到它[在 React 19 中被弃用](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop)是如此令人欣喜的消息。
+    aliases:
+      - react_pain_points.main_apis_pain_points.takeaway.react2025
+
+  - key: features.hooks_pain_points.takeaway.react2025
+    t: |
+      React 开发者再一次清晰而响亮地表达了他们对 `useEffect` 的恼火。
+    aliases:
+      - react_pain_points.hooks_pain_points.takeaway.react2025
+
+  - key: features.new_apis_pain_points.takeaway.react2025
+    t: |
+      正如之前的图表所预示的那样，受访者对 **Server Components** 有不少抱怨。
+    aliases:
+      - react_pain_points.new_apis_pain_points.takeaway.react2025
+
+  - key: features.reading_list.takeaway.react2025
+    t: |
+      `<ViewTransition>` API 可能目前仅在 React Canary 中可用，但它已经在受访者中引起了极大的好奇，同样引起好奇的还有 `<Profiler>`。
+
+  - key: libraries.all_libraries.takeaway.react2025
+    t: |
+      **TanStack Query** 获得了总体上最积极的评价，**TanStack Start** 紧随其后，排在 **Zustand**、**shadcn/ui** 和 **create-vite** 之后。
+
+      与最近 [State of JavaScript 调查](https://2025.stateofjs.com/en-US/libraries/)的结果相呼应，**Next.js** 在这里也是评论最多的库。
+
+  - key: libraries.tools_ratios_over_time.takeaway.react2025
+    t: |
+      **shadcn/ui** 是使用率上升最快的项目，两年内从 20% 增长到了 56%。
+
+      同时，**TanStack Start** 尽管是一个相对较新的项目，但也引起了巨大反响，仅用一年时间认知度就从 55% 上升到了 81%！
+
+  - key: component_libraries.component_libraries_ratios.takeaway.react2025
+    t: |
+      虽然 **MUI**（即 Material UI）在作为使用率方面仍排名第一，但 **shadcn/ui** 增长迅速，即将超越它占据首位。
+
+  - key: component_libraries.component_libraries_cardinalities.takeaway.react2025
+    t: |
+      很大一部分用户根本不使用任何组件库——而与此同时，那些*确实*使用组件库的用户可能会尝试多种选择。这表明该领域尚未完全定型，新进入者仍有空间大展拳脚。
+
+  - key: component_libraries.component_libraries_others.takeaway.react2025
+    t: |
+      **Base UI** 是竞争激烈的无头 UI 库领域的另一个进入者——换句话说，这些 UI 库提供组件行为，但将样式留给您自己处理。由于团队中有许多 **Radix** 的老手，如果您正在寻找这类库，它绝对值得一试。
+
+  - key: component_libraries.animation_libraries.takeaway.react2025
+    t: |
+      并非每个项目都需要花哨的动画，但对于那些需要的项目，**Motion** 已确立自己作为一个重要的选择。
+
+  - key: component_libraries.data_visualization_libraries.takeaway.react2025
+    t: |
+      尽管不是 React 专用的图表库，**Chart.js** 仍然在排名中名列前茅。
+
+
+      想猜猜*我们*在这里看到的图表使用的是什么库吗？是个陷阱题，它们都是从头开始手写的！
+
+  - key: component_libraries.form_libraries.takeaway.react2025
+    t: |
+      没人喜欢处理表单，但当您不得不处理时，**React Hook Forms** 至少能让整个过程不那么痛苦。
+
+  - key: component_libraries.react_form_patterns.takeaway.react2025
+    t: |
+      关于受控与非受控表单组件的争论其实并不存在。受访者主要在两种模式之间切换；但如果非要选一个，受控表单是明显的赢家。
+
+  - key: component_libraries.css_tools.takeaway.react2025
+    t: |
+      CSS-in-JS 曾风光一时，但 **Tailwind** 的出现，以及过去几年 CSS 本身的巨大改进，对其受欢迎程度造成了巨大打击。
+
+  - key: component_libraries.component_libraries_pain_points.takeaway.react2025
+    t: |
+      开发者似乎对 **Tailwind** 爱恨交加，一些人将其视为痛点，而另一些人则将其视为解决 UI 麻烦的答案。
+
+  - key: state_management.state_management_ratios.takeaway.react2025
+    t: |
+      **Redux** 及其继任者 **Redux Toolkit** 长期以来一直是最广泛使用的状态管理解决方案，但 **Zustand** 正在迅速获得地盘。而且由于它也是用户满意度最高的，可以说它应该被视为该类别的领导者。
+
+  - key: state_management.state_management_cardinalities.takeaway.react2025
+    t: |
+      许多受访者根本不使用状态管理工具，这表明像 `useState` 或 `useContext` 这样的第一方 API 通常足以完成工作。
+
+  - key: state_management.state_management_others.takeaway.react2025
+    t: |
+      虽然 **TanStack Query** 可能被认为是一个数据查询库，但它也能处理状态管理的事实使其成为该类别的一个很好的补充。
+
+  - key: state_management.state_management_pain_points.takeaway.react2025
+    t: |
+      一个好的状态管理解决方案必须找到一个微妙的平衡：太受限，它就不会提供足够的能力被采用。太复杂，开发体验就会受到影响。
+
+  - key: data_loading.data_loading_ratios.takeaway.react2025
+    t: |
+      **TanStack Query** 可能还不是最广泛使用的数据加载库，但它在拥有最高满意度比率的同时迅速攀升，使其成为一个轻松的选择。
+
+  - key: data_loading.data_loading_cardinalities.takeaway.react2025.takeaway.react2025
+    t: |
+      与状态管理类似，许多受访者在涉及数据加载时（尚未）看到引入专用库的必要性。
+
+  - key: data_loading.data_loading_others.takeaway.react2025
+    t: |
+      原生 `fetch` 函数在紧要关头仍然能完成工作！
+
+  - key: data_loading.data_loading_pain_points.takeaway.react2025
+    t: |
+      缓存是那些*听起来*很简单的事情之一（只要在某些东西改变时更新缓存，对吧？），但在实践中掌握起来总是相当棘手。在客户端加载和管理数据时，这无疑是一个令人担忧的问题。
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.takeaway.react2025
+    t: |
+      **TanStack Start** 2024年才刚刚推出，2025年刚脱离测试阶段，但该框架已经开始占据一席之地，这得益于 **TanStack Query** 在数据加载类别的成功。
+
+
+      上述成功可能会以牺牲 **Next.js** 为代价，Next.js 目前可能仍是该类别的领导者，但在过去几年中，其满意度一直在危险地下降。
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.note.react2025
+    t: |
+      我们决定将 **React Router** 添加到图表中，因为它的[框架模式](https://reactrouter.com/start/modes)意味着它现在可以作为独立的元框架使用。
+
+
+      但 **Remix** 也在图表上的事实确实相当令人困惑，必须在下一版调查中重新考虑。
+
+  - key: back_end_infrastructure.back_end_infrastructure_cardinalities.takeaway.react2025
+    t: |
+      再一次，许多受访者完全避开了这一类别。
+
+  - key: back_end_infrastructure.meta_frameworks_others.takeaway.react2025
+    t: |
+      **TanStack Router** 完善了 TanStack 三重奏，在这里也有不错的表现。
+
+  - key: back_end_infrastructure.build_tools.takeaway.react2025
+    t: |
+      在“现状”系列调查中，**Vite** 首次取代 **Webpack** 成为第一大构建工具！
+
+  - key: back_end_infrastructure.hosting.takeaway.react2025
+    t: |
+      **Vercel** 在击败规模大得多的 **AWS** 方面做得非常出色，至少在 React 用户中是这样。然而，**Cloudflare** 已经在向托管市场采取重大举措，并且很快可能会对两者构成威胁。
+
+  - key: back_end_infrastructure.other_services.takeaway.react2025
+    t: |
+      除了作为一个很棒的错误跟踪服务外，**Sentry** 还通过收购 [Syntax](https://syntax.fm/) 播客等营销举措确保了巨大的市场份额。
+
+  - key: back_end_infrastructure.backend_language.takeaway.react2025
+    t: |
+      尽管 Node.js 已经存在很长时间了，但过去在后端语言方面，情况通常是群雄逐鹿。但风向已经变了，如今编写全栈 JavaScript 应用程序变得顺理成章，尤其是在能够共享类型和代码的情况下。
+
+  - key: back_end_infrastructure.back_end_infrastructure_pain_points.takeaway.react2025
+    t: |
+      说到这个，确保**端到端类型安全**实际上是受访者在后端仍然面临的最大障碍。
+
+  - key: tools.testing.takeaway.react2025
+    t: |
+      虽然 **Vitest** 即将确立自己作为 React 首选测试解决方案的地位，但目前 **Jest** 仍然排名第一。
+
+  - key: tools.renderers.takeaway.react2025
+    t: |
+      React 首先可能是一个 Web 开发库，但这张图表是一个很好的提醒，它实际上可以用在更多不同的环境中！
+
+  - key: tools.validation.takeaway.react2025
+    t: |
+      “你使用验证库吗？” “是的，**Zod**，用起来很愉快” “……等等，你用的是哪个来着？”
+
+  - key: tools.auth.takeaway.react2025
+    t: |
+      **Auth0** 值得注意的是，它依赖第三方服务为您处理身份验证，这种易用性似乎将其推到了排名的首位。
+
+  - key: tools.mobile_development.takeaway.react2025
+    t: |
+      **React Native** 依然强劲，而 **Expo** 只是在这一成功的基础上提供了更多的可能性。
+
+  - key: usage.what_do_you_use_react_for.takeaway.react2025
+    t: |
+      大多数受访者仍然使用 React 来构建**Web 应用程序**，这并不令人惊讶。但图表也显示，**设计系统**现在已成为 Web 开发过程中不可或缺的一部分。
+
+  - key: usage.react_version.takeaway.react2025
+    t: |
+      虽然调查受访者往往比整个社区更关注最新动态，但看到如此多的人已经升级到 React 19 仍然值得注意。
+
+  - key: usage.js_app_patterns.takeaway.react2025
+    t: |
+      虽然像 Next.js 这样的现代框架将精细渲染作为其主要卖点之一，但重要的是要注意，大多数受访者仍然依赖三大渲染模式（SPA、SSR 和 SSG）。
+
+  - key: usage.new_features.takeaway.react2025
+    t: |
+      我们大多数人都对 **React Compiler** 感到兴奋，它承诺在不需要我们付出任何重大努力的情况下提高性能。
+
+
+      相反，尽管 **Server Components** 也可以帮助提高 Web 应用程序的性能，但其推出过程有时会让开发者感到头疼——再加上该功能目前已经推出几年了——这解释了人们对其相对缺乏热情的原因。
+
+  - key: react_pain_points.usage_pain_points.takeaway.react2025
+    t: |
+      在性能方面，React 一直采取有点“主厨推荐”的方式：只要相信框架最清楚，不用担心管理每一次重新渲染。
+
+
+      然而，当开发者*确实*需要更精细的控制时，他们很快就会陷入令人沮丧的境地。所以我们只能希望新的 [React Compiler](https://react.dev/learn/react-compiler) 能帮助缓解其中的一些痛点。
+
+  - key: usage.meta_involvement_opinion.takeaway.react2025
+    t: |
+      很少有科技公司在其历史上产生的戏剧性事件比 Meta 更多。但这并没有转化为对其 React 管理的负面看法，大多数受访者对该公司持中立或积极的看法。
+
+  - key: usage.vercel_involvement_opinion.takeaway.react2025
+    t: |
+      对于 React 生态系统中的另一个大玩家 Vercel 来说，情况并非完全如此。
+
+
+      虽然大多数人仍然持中立态度，但负面意见确实超过了正面意见，受访者将对锁定的担忧、推动不需要的功能以及创始人有争议的政治立场作为他们持负面看法的动机。
+
+  - key: usage.react_foundation_involvement_opinion.takeaway.react2025
+    t: |
+      与 Meta 或 Vercel 相比，关于最近宣布的 [React 基金会](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) 的情绪绝大多数是积极的，这表明社区欢迎这种向更开放和中立治理迈进的举措。
+
+  - key: usage.state_of_react.takeaway.react2025
+    t: |
+      虽然可以观察到整体幸福感略有下降的趋势，但现在断定这是值得担心的事情还是仅仅是数据中的一个小插曲还为时过早。您得等到明年再来看看才能知道！
+
+  - key: resources.learning_methods.takeaway.react2025
+    t: |
+      新的 React 文档比原来的还要好，这种质量解释了为什么它们仍然是学习 React 的最佳方式。
+
+
+      但是越来越多地，开发者不再直接查阅文档，而是依赖 AI 工具与文档进行交互，这种情况[已经对某些项目产生了意想不到的影响](https://www.leanware.co/insights/tailwind-ai-crisis)。
+
+  - key: resources.blogs_news_magazines.takeaway.react2025
+    t: |
+      Sebastien Lorber 的 **This Week in React** 自上次调查以来上升了两位，确立了自己作为权威 React 新闻来源的地位！
+
+  - key: resources.courses.takeaway.react2025
+    t: |
+      尽管像 **Udemy** 和 **Frontend Masters**（本次调查的赞助商）这样的大型机构在排名中名列前茅，但很高兴看到像 **Wes Bos** 和 Josh Comeau（凭借 **The Joy of React**）这样的个人教师仍然能够占有一席之地。
+
+  - key: resources.podcasts.takeaway.react2025
+    t: |
+      像往常一样，**Syntax** 在播客领域占据主导地位。然而，许多受访者根本不听编程播客，这可能是由于 YouTube 开发者内容的日益普及。
+
+  - key: resources.video_creators.takeaway.react2025
+    t: |
+      得益于涵盖 Web 开发和 AI 新闻各个方面的频繁上传，**Theo** 成功领先并巩固了他的优势。
+
+  - key: resources.people.takeaway.react2025
+    t: |
+      在视频内容无处不在的时代，很高兴看到那些选择更传统沟通方式的开发者仍然能够建立追随者群体。
+
+  - key: resources.other_surveys.takeaway.react2025
+    t: |
+      鉴于“现状”系列调查共享一个共同的邮件列表，它们的受众也有很多重叠也就不足为奇了。
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2025.aurora_scharff
+    t: |
+
+      <span class="first-line">2025年对 React 来说是重要的一年。</span>
+
+
+      React 19 于 2024 年底发布，许多人担心 React 会将客户端抛在脑后。在社区施压后，[Create-React-App 终于在 2 月被停用](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)，因为它在 React 19 中崩溃了。到了 5 月，[Remix 宣布](https://remix.run/blog/wake-up-remix) Remix 3 将不再依赖 React。与此同时，[Dan Abramov](https://overreacted.io/) 回归，为我们要来了关于 React Server Components 的博客文章和 [RSC Explorer](https://rscexplorer.dev/)，解释了 RSC 背后的目的以及它们的实际工作原理。
+
+
+      然而问题依然存在：React 将何去何从？
+
+
+      10 月的 React Conf 回答了这个问题。[React 基金会](https://react.dev/blog/2025/10/07/introducing-the-react-foundation)宣布成立，为 React 提供了一个超越任何单一公司的家。[Compiler 1.0](https://react.dev/blog/2025/10/07/react-compiler-1) 趋于稳定，这样我们就可以停止在代码中到处使用 `useMemo` 和 `useCallback` 了。React 19.2 发布了 `useEffectEvent` 和 `<Activity>`；而 React Canary 中的 `<ViewTransition>` 让流畅的动画变得触手可及。
+
+
+      [Ricky Hanlon 的异步演示](https://www.youtube.com/watch?v=B_2E96URooA)汇集了团队多年来一直致力于的所有工作，[Async React 工作组](https://github.com/reactwg/async-react/discussions)正在帮助库跟上这些模式。显然，客户端 React 不会消失。
+
+
+      毕竟，在生产环境中，SPA 的数量仍然超过 SSR 应用，TanStack Query 仍然是异步状态管理的默认选择，而 TanStack Start 正在成为 Next.js 的一个有前途的客户端优先替代方案。作为一个例子，[T3 Chat 最近进行了迁移](https://x.com/theo/status/1997406196660400228)以利用其 SPA 行为。
+
+
+      关于服务端的观点更加分歧，越来越多的指令（`"use cache"`、`"use workflow"`）引发了争论和[很棒的梗](https://x.com/DavidKPiano/status/1981470720166154567)，而[12 月的 CVE](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components) 提醒我们 RSC 仍在成熟中。在服务端优先方面，Next.js 推出了 [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components) 作为一种全新的方法，而 [RedwoodSDK](https://rwsdk.com/) 则全力投入 RSC。
+
+
+      React 也已成为您提示 UI 时的默认输出。Andrej Karpathy 在 2 月创造了 [“vibe coding”](https://x.com/karpathy/status/1886192184808149383) 一词，像 [v0](https://v0.app/)、[Cursor](https://cursor.com/)、[Lovable](https://lovable.dev/) 和 [Bolt.new](https://bolt.new/) 这样的工具使之成为现实，赋予任何人构建应用程序并使用 [shadcn/ui](https://ui.shadcn.com/) 作为首选来实现愿景的能力。
+
+
+      要跟上的东西很多，但 [Theo Browne](https://www.youtube.com/@t3dotgg) 转向了 AI，并不知何故向他不断增长的受众涵盖了所有这些内容，值得庆幸的是 [This Week in React](https://thisweekinreact.com/) 也不断出现在我们的收件箱中。
+
+
+      因此，尽管 2025 年有其混乱的一面，但 React 仍然处于一个很好的位置。我很高兴能比以往任何时候都更快地发布产品，作为从事开发者教育的人，我很好奇 AI 会如何重塑我们学习的方式。迫不及待地想看看接下来会发生什么！
+
+  - key: conclusion.react2025.aurora_scharff.bio
+    t: [certificates.dev](https://certificates.dev/) 的 React 认证负责人，React & Next.js 教育家
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content.react2025
+    t: |
+      2025 年 React 现状调查于 2025 年 11 月 19 日至 2026 年 1 月 13 日进行，收集了 3,760 份回复。结果于 2025 年 2 月 15 日公布。本次调查由 [Devographics](https://devographics.com/) 运营。
+
+      React 现状标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      本次调查旨在识别 React 生态系统中即将出现的趋势，以帮助开发者做出技术选择。
+
+      因此，调查的重点是预测未来几年的发展，而不是分析目前流行的内容，这就是为什么有时会省略即使目前广泛使用的功能或技术的原因。
+
+      这也应被视为**特定开发者子集的快照**，并不意味着代表整个 React 生态系统。
+
+      ### 调查设计
+
+      调查的设计部分基于去年的调查，并有一个公开反馈期，在此期间调查大纲在 [GitHub 上](https://github.com/Devographics/surveys/issues/262)进行了讨论。
+
+      所有调查问题都是可选的。
+
+      ### 调查受众
+
+      调查在网上公开访问，受访者没有经过任何方式的过滤或选择。受访者主要由过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量混合而成。
+
+      请注意，框架、库等可以自由鼓励其受众参与调查，其中一些确实通过横幅、推文等方式利用了这一点。流量来源的详细分类包含在元数据部分的“来源”图表中。
+
+      ### 项目资金
+
+      本项目的资金来自多种渠道：
+
+      - **T 恤销售**。
+
+      - **赞助链接**：每页底部的推荐资源链接由我们的合作伙伴 [Frontend Masters](https://frontendmasters.com/) 提供。
+
+      - **直接资助**：今年，[Google](https://www.google.com/)、[GitNation](https://gitnation.com/)、[Algolia](https://www.algolia.com/)、[Storyblok](https://www.storyblok.com/)、[JetBrains](https://www.jetbrains.com/webstorm/) 和 [TokyoDev](https://www.tokyodev.com/) 资助了我进行调查的工作。
+
+      非常感谢任何贡献或赞助。我们特别希望能与更多浏览器供应商密切合作，因为他们在网络生态系统中扮演着如此核心的角色。
+
+      ### 技术概览
+
+      您可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于调查如何运行的更深入的技术概览。
+
+      **注意：这不是一项官方的 React 调查，调查团队与 Meta、Vercel 或 React 团队无关。**
+
+      ### 特别鸣谢
+
+      特别感谢 Paul McMahon、Marc Grabanski 和 Sébastien Lorber。

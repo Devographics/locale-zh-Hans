@@ -1936,3 +1936,652 @@ translations:
 
   - key: banner.html2024
     t: HTML 2024 现状调查现已开始！现在就参加调查 →
+
+
+  - key: general.disclaimer.representation
+    t: 这项调查主要通过在线平台分发，每个平台都有其固有的人口统计偏差。因此，它代表了这些特定社区的构成，可能不代表整个开发者社区。
+
+  - key: results.ongoing_survey
+    t: 现已开放
+
+  - key: general.other_editions
+    t: 其他版本
+
+  - key: general.previous_editions
+    t: 往期版本
+
+  - key: general.other_surveys
+    t: 其他调查
+
+  - key: general.all_editions
+    t: 查看更多…
+
+  - key: tabs.by_salary_experience_fixed
+    t: vs. 收入 (同等经验)
+
+  - key: tabs.spanish
+    t: 西班牙语
+
+  - key: tabs.outreach
+    t: 外联
+
+  - key: tabs.men_vs_non_men
+    t: 男性 vs 非男性
+
+  - key: tabs.white_vs_non_white
+    t: 白人 vs 非白人
+
+  - key: tabs.by_age
+    t: 按年龄
+
+  - key: tabs.vs_age
+    t: vs. 年龄
+
+  - key: tabs.by_remote_work_policy
+    t: 按远程工作
+
+  - key: tabs.vs_job_happiness
+    t: vs. 工作满意度
+
+  - key: tabs.developers_engineers
+    t: 开发人员 vs 工程师
+
+  - key: tabs.by_os
+    t: 按操作系统
+
+  - key: tabs.vs_company_size
+    t: vs. 公司规模
+
+  - key: tabs.all_pain_points
+    t: 所有痛点
+
+  - key: tabs.limitations
+    t: 局限性
+
+  - key: tabs.browser_support
+    t: 浏览器支持
+
+  - key: tabs.features
+    t: 特性
+
+  - key: tabs.all_topics
+    t: 所有主题
+
+  - key: ratios.positivityRelative
+    t: 积极性
+
+  - key: ratios.appreciation
+    t: 欣赏度
+
+  - key: ratios.positivityRelative.description
+    t: 在所有表达了观点的受访者中，**积极观点**的比例。
+
+  - key: ratios.appreciation.description
+    t: "**兴趣**（“听说过”的受访者中的**积极观点**）与**满意度**（“使用过”的受访者中的**积极观点**）之间的差距，以百分点为单位。"
+
+  - key: user_metadata.past_surveys.note
+    t: 以访客身份参加调查的受访者显示为“未回答”。
+    aliases:
+      - _user_metadata.past_surveys.note
+
+  - key: user_metadata.past_editions
+    t: 往期版本
+    aliases:
+      - _user_metadata.past_editions
+
+  - key: user_metadata.past_editions.description
+    t: 受访者参加过的往期调查。
+    aliases:
+      - _user_metadata.past_editions.description
+
+  - key: user_info.completion_stats
+    t: 调查完成度
+    aliases:
+      - user_metadata.completion_stats
+      - _user_metadata.completion_stats
+
+  - key: user_info.completion_stats.description
+    t: 受访者完成调查的比例。
+    aliases:
+      - user_metadata.completion_stats.description
+      - _user_metadata.completion_stats.description
+
+  - key: user_info.skipped
+    t: 跳过的问题
+    aliases:
+      - _user_metadata.skipped
+
+  - key: user_info.skipped.description
+    t: 哪些问题被跳过的频率最高。
+    aliases:
+      - _user_metadata.skipped.description
+
+  - key: user_metadata.past_same_survey_count.note
+
+    aliasFor: user_metadata.past_surveys.note
+
+  - key: options.job_title.ceo
+    t: CEO
+
+  - key: options.job_title.co_founder
+    t: 创始人/联合创始人
+
+  - key: options.job_title.consultant
+    t: 顾问
+
+  - key: options.job_title.student
+    t: 学生
+
+  - key: options.job_title.freelancer
+    t: 自由职业者
+
+  - key: options.job_title.cto
+    t: CTO
+
+  - key: options.job_title.engineering_manager
+    t: 工程经理
+
+  - key: options.job_title.director_of_engineering
+    t: 工程总监
+
+  - key: options.job_title.software_development_manager
+    t: 软件开发经理
+
+  - key: options.job_title.head_of_engineering
+    t: 工程主管
+
+  - key: options.job_title.head_of_development
+    t: 开发主管
+
+  - key: options.job_title.head_of_product
+    t: 产品主管
+
+  - key: options.job_title.software_architect
+    t: 软件架构师
+
+  - key: options.job_title.solution_architect
+    t: 解决方案架构师
+
+  - key: options.job_title.frontend_architect
+    t: 前端架构师
+
+  - key: options.job_title.technical_lead
+    t: 技术主管
+
+  - key: options.job_title.frontend_lead
+    t: 前端主管
+
+  - key: options.job_title.lead
+    t: 主管
+
+  - key: options.job_title.software_engineer
+    t: 软件工程师
+
+  - key: options.job_title.frontend_engineer
+    t: 前端工程师
+
+  - key: options.job_title.backend_engineer
+    t: 后端工程师
+
+  - key: options.job_title.fullstack_engineer
+    t: 全栈工程师
+
+  - key: options.job_title.junior_engineer
+    t: 初级工程师
+
+  - key: options.job_title.senior_engineer
+    t: 高级工程师
+
+  - key: options.job_title.lead_engineer
+    t: 首席工程师
+
+  - key: options.job_title.systems_engineer
+    t: 系统工程师
+
+  - key: options.job_title.developer
+    t: 开发人员
+
+  - key: options.job_title.frontend_developer
+    t: 前端开发人员
+
+  - key: options.job_title.backend_developer
+    t: 后端开发人员
+
+  - key: options.job_title.fullstack_developer
+    t: 全栈开发人员
+
+  - key: options.job_title.junior_developer
+    t: 初级开发人员
+
+  - key: options.job_title.senior_developer
+    t: 高级开发人员
+
+  - key: options.job_title.lead_developer
+    t: 首席开发人员
+
+  - key: options.job_title.programmer
+    t: 程序员
+
+  - key: options.job_title.senior_programmer
+    t: 高级程序员
+
+  - key: options.job_title.manager
+    t: 经理
+
+  - key: options.job_title.project_manager
+    t: 项目经理
+
+  - key: options.job_title.product_manager
+    t: 产品经理
+
+  - key: options.job_title.computer_scientist
+    t: 计算机科学家
+
+  - key: options.job_title.creative_technologist
+    t: 创意技术专家
+
+  - key: options.job_title.data_scientist
+    t: 数据科学家
+
+  - key: options.job_title.designer
+    t: 设计师
+
+  - key: options.job_title.head_of_design
+    t: 设计主管
+
+  - key: options.job_title.head_of_technology
+    t: 技术主管
+
+  - key: features.pain_points
+    t: 痛点
+
+  - key: features.pain_points.default
+    t: 总体上最主要的痛点主题。
+
+  - key: features.pain_points.limitations
+    t: 与因功能或平台限制而无法实现目标相关的最主要痛点主题。
+
+  - key: features.pain_points.interop_issues
+    t: 与浏览器支持差或其他浏览器/平台不兼容相关的最主要痛点主题。
+
+  - key: features.pain_points.features
+    t: 对应特定 Web 平台特性的最主要痛点主题。
+
+  - key: features.all_features
+    t: 所有特性
+
+  - key: features.features_ratios_over_time
+    t: 随时间变化的特性
+
+  - key: features.features_ratios_over_time.description
+    t: |
+      此图表显示了多年来特性趋势的细分，并根据基于经验和情绪数据的六个关键比率进行了组织。
+
+      然后，您可以隔离整个特性集的子部分，无论是通过将特性限制为特定部分，还是通过突出显示顶部/底部项目，甚至对于任何给定指标而言同比增长或下降幅度最大的项目。
+
+  - key: tools.all_sections
+    t: 所有部分
+
+  - key: blocks.entity.threads_link
+    t: Threads
+
+  - key: blocks.entity.bluesky_link
+    t: Bluesky
+
+  - key: tools.tools_ratios_over_time
+    t: 随时间变化的比率
+    aliases:
+      - libraries.tools_ratios_over_time
+
+  - key: export.debug
+    t: 调试
+
+  - key: blocks.multiple
+    t: 多选
+
+  - key: chart_units.medianByFacet
+    t: 中位数
+
+  - key: charts.average_value
+    t: '平均值: {value}'
+
+  - key: charts.facet_detail
+    t: ({count} / {totalRespondents} 受访者)
+
+  - key: charts.facet_detail_answers
+    t: ({count} / {totalAnswers} 回答)
+
+  - key: charts.average.used
+    t: “已使用”平均值
+
+  - key: charts.average.positive
+    t: “积极”平均值
+
+  - key: charts.average.negative
+    t: “消极”平均值
+
+  - key: charts.average_value
+    t: '平均值: {value}'
+
+  - key: charts.multiple_data
+    t: 多项选择
+
+  - key: charts.multiple_data.description
+    t: 受访者可以为此问题提交多个答案
+
+  - key: charts.no_data
+    t: 抱歉，此查询未返回任何数据。
+
+  - key: charts.show_neutral_sentiment
+    t: 显示中立
+
+  - key: charts.other_bucket.previous_edition.percents.positive
+    t: |
+      比上次调查高 +{value}%
+
+  - key: charts.other_bucket.previous_edition.percents.negative
+    t: |
+      比上次调查低 -{value}%
+
+  - key: charts.other_bucket.different_serie.percents.positive
+    t: |
+      比左侧图表高 +{value}%
+
+  - key: charts.other_bucket.different_serie.percents.negative
+    t: |
+      比左侧图表低 -{value}%
+
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      排名上升 +{value}
+
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      排名下降 -{value}
+
+  - key: charts.subsets.filters
+    t: |
+      筛选:
+
+  - key: charts.subsets.presets
+    t: |
+      预设:
+
+  - key: charts.subsets.top_items
+    t: 热门项目
+
+  - key: charts.subsets.top_items.description
+    t: 突出显示今年得分最高的项目
+
+  - key: charts.subsets.bottom_items
+    t: 底部项目
+
+  - key: charts.subsets.bottom_items.description
+    t: 突出显示今年得分最低的项目
+
+  - key: charts.subsets.largest_increase
+    t: 最大增幅
+
+  - key: charts.subsets.largest_increase.description
+    t: 突出显示过去一年增幅最大的项目
+
+  - key: charts.subsets.largest_decrease
+    t: 最大降幅
+
+  - key: charts.subsets.largest_decrease.description
+    t: 突出显示过去一年降幅最大的项目
+
+  - key: charts.subsets.sections
+    t: |
+      部分:
+
+  - key: charts.nested_toggle
+    t: |
+      视图:
+
+  - key: charts.nested_toggle.nested
+    t: |
+      嵌套
+
+  - key: charts.nested_toggle.flat
+    t: |
+      平铺
+
+  - key: comments.filter.clear
+    t: 清除
+
+  - key: comments.filter.no_items
+    t: 无项目。
+
+  - key: comment.like.description
+    t: 点赞此评论
+
+  - key: comments.filter.show
+    t: 显示筛选器
+
+  - key: comments.filter.hide
+    t: 隐藏筛选器
+
+  - key: comments.filter.by_keyword
+    t: 热门关键词
+
+  - key: comments.filter.by_keyword.description
+    t: 根据提到的热门关键词进行筛选。
+
+  - key: comments.filter.by_token
+    t: 其他主题
+
+  - key: comments.filter.by_token.description
+    t: 根据提到的其他主题进行筛选。
+
+  - key: comments.filter.by_search
+    t: 搜索
+
+  - key: comments.filter.by_search.description
+    t: 使用自定义关键词搜索。
+
+  - key: comments.filter.by_answer
+    t: 选择的答案
+
+  - key: comments.filter.by_answer.description
+    t: 根据受访者选择的答案进行筛选。
+
+  - key: comments.filter.by_experience
+    t: 经验
+
+  - key: comments.filter.by_experience.description
+    t: 根据受访者对主要项目的经验进行筛选。
+
+  - key: comments.filter.by_sentiment
+    t: 情绪
+
+  - key: comments.filter.by_sentiment.description
+    t: 根据受访者对主要项目的情绪进行筛选。
+
+  - key: share.bluesky
+    t: 分享至 Bluesky
+
+  - key: share.mastodon
+    t: 分享至 Mastodon
+
+  - key: award.most_hated_feature_award.title
+    t: 最令人讨厌的特性
+
+  - key: award.most_hated_feature_award.description
+    t: 授予负面观点比例最高的特性。
+
+  - key: award.largest_awareness_progression_award.title
+    t: 认知度增幅最大
+
+  - key: award.largest_awareness_progression_award.description
+    t: 授予认知度同比增长最大的特性。
+
+  - key: award.largest_usage_progression_award.title
+    t: 使用率增幅最大
+
+  - key: award.largest_usage_progression_award.description
+    t: 授予使用率同比增长最大的特性。
+
+  - key: filters.optional
+    t: (可选)
+
+  - key: filters.axis1
+    t: 变量 1
+
+  - key: filters.axis2
+    t: 变量 2
+
+  - key: filters.axis1.description
+    t: |
+      选择您要分析的主要变量（纵轴）。
+
+  - key: filters.axis2.description
+    t: |
+      选择另一个变量与第一个变量进行比较（横轴）。
+
+  - key: filters.code
+    t: 筛选代码
+
+  - key: filters.import_code
+    t: 导入代码
+
+  - key: filters.paste_filters_code
+    t: 在此处粘贴筛选代码
+
+  - key: filters.bucketsFilter.eq
+    t: 为“{value}”的项目
+
+  - key: filters.bucketsFilter.in
+    t: 为“{value}”之一的项目
+
+  - key: filters.bucketsFilter.nin
+    t: 不为“{value}”之一的项目
+
+  - key: filters.bucketsFilter.hasTags
+    t: 标记为“{value}”的项目
+
+  - key: charts.facet_median
+    t: (中位数)
+
+  - key: charts.facet_average
+    t: (平均值)
+
+  - key: charts.metadata.answers
+    t: |
+      **{value}** 个问题回答
+
+  - key: charts.metadata.limit
+    t: |
+      显示前 **{value}** 个项目
+
+  - key: charts.metadata.cutoff
+    t: |
+      仅显示回答数超过 **{value}** 的项目
+
+  - key: charts.metadata.sort_asc
+    t: |
+      按 **{value}** **升序**排列
+
+  - key: charts.metadata.sort_desc
+    t: |
+      按 **{value}** **降序**排列
+
+  - key: charts.average.marker
+    t: |
+      平均值: **{value}**
+
+  - key: charts.median.marker
+    t: |
+      中位数: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: 切换中位数
+
+  - key: charts.marker.toggle.median
+    t: 切换平均值
+
+  - key: charts.filter_by.sections
+    t: |
+      类别:
+
+  - key: charts.filter_by.baseline
+    t: |
+      基准状态:
+
+  - key: charts.toggle_view
+    t: |
+      显示:
+
+  - key: answers.answers_for_count
+    t: |
+      {count} 个匹配“{name}”的答案
+
+  - key: answers.alphabetical
+    t: 按字母顺序
+
+  - key: answers.length
+    t: 答案长度
+
+  - key: answers.keyword
+    t: |
+      关键词:
+
+  - key: answers.keyword_count
+    t: |
+      {count} 个结果
+
+  - key: tools.cardinalities
+    t: 项目数量
+
+  - key: tools.cardinalities.description
+    t: 受访者使用过此类别中的多少项目。
+
+  - key: highlight.heading.feature
+    t: |
+      特性亮点:
+
+  - key: highlight.heading.library
+    t: |
+      库亮点:
+
+  - key: highlight.description
+    t: 我们重点介绍我们认为您应该了解的有趣特性或库。
+
+  - key: highlight.resources
+    t: 有用资源
+
+  - key: sponsors.neon.description
+    t: 使用 Postgres 释放尖端 AI 应用程序的潜力。
+
+  - key: sponsors.frontendmasters.description
+    t: 通过深入的现代前端工程课程提升您的技能。
+
+  - key: sponsors.polypane.description
+    t: 为雄心勃勃的开发者打造的浏览器。轻松构建响应式、无障碍且快速的网站。
+
+  - key: sponsors.nijibox.description
+    t: 位于东京中心的 UX 和产品开发咨询。
+
+  - key: sponsors.renderatl.description
+    t: 拥有专门的设计与 CSS 赛道的最大型科技会议。
+
+  - key: sponsors.google_chrome.description
+    t: 感谢 Google Chrome 团队支持我们的工作。
+
+  - key: sponsors.tokyodev.description
+    t: 今天就在日本找到您梦想的开发者工作。
+
+  - key: sponsors.gitnation.description
+    t: 直接从早期采用者和技术作者那里了解最新趋势。
+
+  - key: sponsors.algolia.description
+    t: 使用 Algolia 的 API 优先设计在任何地方部署快速且可扩展的 AI 搜索。
+
+  - key: sponsors.storyblok.description
+    t: 使用不妨碍您的 CMS 产生更大、更快的市场影响。
+
+  - key: sponsors.jetbrains.description
+    t: 提供卓越开发者体验的丰富工具套件。
+
+  - key: sponsors.webstorm.description
+    t: 使用拥有您所需一切的 JavaScript IDE 享受更高效的编码。

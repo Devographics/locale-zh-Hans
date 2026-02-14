@@ -1,0 +1,958 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_ai.description
+    t: 关于 Web 开发者如何使用 AI 的年度调查
+
+  - key: general.state_of_ai.intro
+    t: |
+      如果社交媒体可信的话，AI 革命已经席卷了 Web 开发领域，我们许多人在早餐前就能生成完整的应用程序，并在此过程中赚取数百万美元。
+
+      但这真的是正在发生的事情吗？或者 AI 只是另一个不会从根本上改变事物的昙花一现的时尚？或者介于两者之间？
+
+      通过参加年度 Web 开发 AI 现状调查帮助我们弄清楚这一点，让我们一起探索 AI 如何塑造 Web 开发的未来！
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      调查的第一部分是关于您使用或听说过的 AI 工具。
+
+  # models
+
+  - key: sections.models.title
+    t: 模型提供商
+  - key: sections.models.prompt
+    t: 通用 AI 应用程序和/或模型。
+
+  - key: tools.models_experience
+    t: 模型使用体验和看法
+
+  - key: tools.models_others
+    t: 其他模型
+  - key: tools.models_others.question
+    t: 您目前正在使用哪些其他模型？
+
+  - key: tools.models_pain_points
+    t: 模型提供商痛点
+    aliases:
+      - models.models_pain_points
+      - ai_pain_points.models_pain_points
+  - key: tools.models_pain_points.question
+    t: 在使用 AI 模型时，您遇到了哪些痛点？
+    aliases:
+      - models.models_pain_points.question
+      - ai_pain_points.models_pain_points.question
+
+  - key: options.ai_pain_points.context_limitations
+    t: 上下文和记忆限制
+  - key: options.ai_pain_points.high_cost
+    t: 高昂的金钱成本
+  - key: options.ai_pain_points.outdated_information
+    t: 过时的信息
+  - key: options.ai_pain_points.misunderstanding_prompt
+    t: 误解提示词
+  - key: options.ai_pain_points.rate_limiting
+    t: 速率和使用限制
+  - key: options.ai_pain_points.inconsistent_results
+    t: 结果不一致
+  - key: options.ai_pain_points.poor_reliability
+    t: 可靠性差
+  - key: options.ai_pain_points.overly_generic_answers
+    t: 过于通用的回答
+  - key: options.ai_pain_points.overconfidence
+    t: 过度自信
+  - key: options.ai_pain_points.hallucinations_inaccuracies
+    t: 幻觉和不准确
+  - key: options.ai_pain_points.code_generation_issues
+    t: 生成的代码质量差
+  - key: options.ai_pain_points.lack_of_understanding
+    t: 缺乏对提示词的理解
+  - key: options.ai_pain_points.poor_response_quality
+    t: 回复质量差
+  - key: options.ai_pain_points.prompt_engineering_difficulty
+    t: 提示词工程困难
+  - key: options.ai_pain_points.slow_response_time
+    t: 响应时间慢
+  - key: options.ai_pain_points.outdated_knowledge
+    t: 过时的知识
+  - key: options.ai_pain_points.limited_reasoning_ability
+    t: 推理能力有限
+  - key: options.ai_pain_points.overly_verbose_responses
+    t: 过于冗长的回复
+  - key: options.ai_pain_points.bad_ui_ux
+    t: 糟糕的 UI/UX
+  - key: options.ai_pain_points.tool_integration_issues
+    t: 工具集成问题
+  - key: options.ai_pain_points.intrusive_suggestions
+    t: 侵入性或分散注意力的建议
+  - key: options.ai_pain_points.code_modification_problems
+    t: 不擅长修改代码
+  - key: options.ai_pain_points.tool_setup_issues
+    t: 工具设置问题
+  - key: options.ai_pain_points.overrated_hype
+    t: 被高估了
+  - key: options.ai_pain_points.stuck_in_loops
+    t: 陷入循环
+  - key: options.ai_pain_points.poor_suggestions
+    t: 糟糕的建议
+  - key: options.ai_pain_points.lack_of_codebase_knowledge
+    t: 缺乏代码库感知
+  - key: options.ai_pain_points.limited_usefulness
+    t: 实用性有限
+  - key: options.ai_pain_points.free_plan_limitations
+    t: 免费计划限制
+  - key: options.ai_pain_points.ethical_concerns
+    t: 道德伦理担忧
+  - key: options.ai_pain_points.slow_performance
+    t: 性能缓慢
+
+  - key: options.ai_pain_points.cursor_pain_points
+    t: Cursor 问题
+
+  # coding_assistants
+
+  - key: sections.coding_assistants.title
+    t: 编码助手
+  - key: sections.coding_assistants.prompt
+    t: 在整个开发过程中提供帮助的 AI 工具。
+
+  - key: tools.coding_assistants_experience
+    t: 编码助手使用体验和看法
+
+  - key: tools.coding_assistants_others
+    t: 其他编码助手
+  - key: tools.coding_assistants_others.question
+    t: 您目前正在使用哪些其他编码助手？
+
+  - key: tools.coding_assistants_pain_points
+    t: 编码助手痛点
+    aliases:
+      - coding_assistants.coding_assistants_pain_points
+      - ai_pain_points.coding_assistants_pain_points
+  - key: tools.coding_assistants_pain_points.question
+    t: 在使用编码助手时，您遇到了哪些痛点？
+    aliases:
+      - coding_assistants.coding_assistants_pain_points.question
+      - ai_pain_points.coding_assistants_pain_points.question
+
+  # code_generation
+
+  - key: sections.code_generation.title
+    t: 代码生成
+  - key: sections.code_generation.prompt
+    t: 用于生成新代码库或代码片段的 AI 工具。
+
+  - key: tools.code_generation_experience
+    t: 代码生成使用体验和看法
+
+  - key: tools.code_generation_others
+    t: 其他代码生成工具
+  - key: tools.code_generation_others.question
+    t: 您目前正在使用哪些其他代码生成工具？
+
+  - key: tools.code_generation_pain_points
+    t: 代码生成痛点
+    aliases:
+      - code_generation.code_generation_pain_points
+      - ai_pain_points.code_generation_pain_points
+  - key: tools.code_generation_pain_points.question
+    t: 在使用代码生成工具时，您遇到了哪些痛点？
+    aliases:
+      - code_generation.code_generation_pain_points.question
+      - ai_pain_points.code_generation_pain_points.question
+
+  # ides
+
+  - key: sections.ides.title
+    t: IDE 和编辑器
+  - key: sections.ides.prompt
+    t: 专注于 AI 集成的 IDE 或代码编辑器。
+
+  - key: tools.ides_experience
+    t: IDE 使用体验和看法
+
+  - key: tools.ides_others
+    t: 其他 IDE
+  - key: tools.ides_others.question
+    t: 您目前正在使用哪些其他 IDE？
+
+  - key: tools.ides_pain_points
+    t: IDE 痛点
+    aliases:
+      - ides.ides_pain_points
+      - ai_pain_points.ides_pain_points
+  - key: tools.ides_pain_points.question
+    t: 在使用专注于 AI 的 IDE 和编辑器时，您遇到了哪些痛点？
+    aliases:
+      - ides.ides_pain_points.question
+      - ai_pain_points.ides_pain_points.question
+
+  # image_generation
+
+  - key: sections.image_generation.title
+    t: 图像生成
+  - key: sections.image_generation.prompt
+    t: 用于生成和编辑图像的 AI 工具。
+
+  - key: tools.image_generation_experience
+    t: 图像生成使用体验和看法
+
+  - key: tools.image_generation_others
+    t: 其他图像生成工具
+  - key: tools.image_generation_others.question
+    t: 您目前正在使用哪些其他图像生成工具？
+
+  # ai_programming_languages
+
+  - key: other_tools.ai_programming_languages
+    t: 编程语言
+    aliases:
+      - tools.ai_programming_languages
+  - key: other_tools.ai_programming_languages.question
+    t: 您在哪些编程语言中使用 AI 工具？
+    aliases:
+      - tools.ai_programming_languages.question
+
+  - key: other_tools.image_generation
+    t: 图像生成
+    aliases:
+      - tools.image_generation
+  - key: other_tools.image_generation.question
+    t: 您使用哪些 AI 工具或模型来生成图像？
+    aliases:
+      - tools.image_generation.question
+
+  # chatgpt
+
+  - key: tools.chatgpt.prompt
+    t: 包括所有 OpenAI GPT 模型
+
+  # ai_libraries_sdks
+
+  - key: other_tools.ai_libraries_sdks
+    t: 库和 SDK
+    aliases:
+      - tools.ai_libraries_sdks
+  - key: other_tools.ai_libraries_sdks.question
+    t: 您使用哪些 AI 库和 SDK？
+    aliases:
+      - tools.ai_libraries_sdks.question
+
+  # ai_browser_apis
+
+  - key: other_tools.ai_browser_apis
+    t: 浏览器 API
+    aliases:
+      - tools.ai_browser_apis
+  - key: other_tools.ai_browser_apis.question
+    t: 您最希望看到浏览器原生支持哪些 AI API？
+    aliases:
+      - tools.ai_browser_apis.question
+
+  # ai_tools_others
+
+  - key: other_tools.ai_tools_others
+    t: 其他工具
+    aliases:
+      - tools.ai_tools_others
+  - key: other_tools.ai_tools_others.question
+    t: 您使用哪些目前尚未提到的其他 AI 工具？
+    aliases:
+      - tools.ai_tools_others.question
+
+  # ai_generated_code_balance
+
+  - key: usage.ai_generated_code_balance
+    t: AI 代码生成
+  - key: usage.ai_generated_code_balance.question
+    t: 您编写的代码中有多少比例是 AI 生成的？
+  - key: usage.ai_generated_code_balance.prompt
+    t: 包括从 ChatGPT 或其他聊天机器人复制粘贴的代码。
+
+  - key: options.ai_generated_code_balance.0
+    t: 0% AI
+  - key: options.ai_generated_code_balance.1
+    t: "|"
+  - key: options.ai_generated_code_balance.2
+    t: "|"
+  - key: options.ai_generated_code_balance.3
+    t: "|"
+  - key: options.ai_generated_code_balance.4
+    t: "50%"
+  - key: options.ai_generated_code_balance.5
+    t: "|"
+  - key: options.ai_generated_code_balance.6
+    t: "|"
+  - key: options.ai_generated_code_balance.7
+    t: "|"
+  - key: options.ai_generated_code_balance.8
+    t: 100% AI
+
+  # - key: options.ai_generated_code_balance.1.short
+  #   t: 12.5%
+  # - key: options.ai_generated_code_balance.2.short
+  #   t: 25%
+  # - key: options.ai_generated_code_balance.3.short
+  #   t: 37.5%
+  # - key: options.ai_generated_code_balance.5.short
+  #   t: 62.5%
+  # - key: options.ai_generated_code_balance.6.short
+  #   t: 75%
+  # - key: options.ai_generated_code_balance.7.short
+  #   t: 87.5%
+
+  # ai_generated_code_refactoring
+
+  - key: usage.ai_generated_code_refactoring
+    t: AI 代码重构
+  - key: usage.ai_generated_code_refactoring.question
+    t: 在使用 AI 生成代码时，您在使用前重写或重构的比例是多少？
+  - key: usage.ai_generated_code_refactoring.prompt
+    t: >
+      0% 重构：您按原样使用代码，只做极少更改；100% 重构：您重写所有或几乎所有代码。
+  # - key: options.ai_generated_code_refactoring.0
+  #   t: I use the code as-is, or almost as-is
+  # - key: options.ai_generated_code_refactoring.1
+  #   t: I only change a couple things
+  # - key: options.ai_generated_code_refactoring.2
+  #   t: I change around half of the code
+  # - key: options.ai_generated_code_refactoring.3
+  #   t: I rewrite most of the code
+  # - key: options.ai_generated_code_refactoring.4
+  #   t: I rewrite all, or almost all the code
+
+  - key: options.ai_generated_code_refactoring.0
+    t: 0% 重构
+  - key: options.ai_generated_code_refactoring.1
+    t: "|"
+  - key: options.ai_generated_code_refactoring.2
+    t: "|"
+  - key: options.ai_generated_code_refactoring.3
+    t: "|"
+  - key: options.ai_generated_code_refactoring.4
+    t: "50%"
+  - key: options.ai_generated_code_refactoring.5
+    t: "|"
+  - key: options.ai_generated_code_refactoring.6
+    t: "|"
+  - key: options.ai_generated_code_refactoring.7
+    t: "|"
+  - key: options.ai_generated_code_refactoring.8
+    t: 100% 重构
+
+  # ai_code_refactoring_reasons
+
+  - key: usage.ai_code_refactoring_reasons
+    t: 重构原因
+  - key: usage.ai_code_refactoring_reasons.question
+    t: 需要您重构 AI 生成代码的主要原因是什么？
+
+  - key: options.ai_code_refactoring_reasons.excessive_repetition
+    t: 过度重复
+  - key: options.ai_code_refactoring_reasons.performance_issues
+    t: 性能问题
+  - key: options.ai_code_refactoring_reasons.outdated_imports
+    t: 过时的导入
+  - key: options.ai_code_refactoring_reasons.security_issues
+    t: 安全问题
+  - key: options.ai_code_refactoring_reasons.variable_renaming
+    t: 变量重命名
+  - key: options.ai_code_refactoring_reasons.improving_readability
+    t: 可读性差
+
+  - key: options.ai_code_refactoring_reasons.faulty_code
+    t: 错误的代码
+  - key: options.ai_code_refactoring_reasons.hallucinations_inaccuracies
+    aliasFor: options.ai_pain_points.hallucinations_inaccuracies
+  - key: options.ai_code_refactoring_reasons.code_generation_issues
+    aliasFor: options.ai_pain_points.poor_generated_code
+  - key: options.ai_code_refactoring_reasons.poor_generated_code_style
+    t: 糟糕的代码风格
+  - key: options.ai_code_refactoring_reasons.not_matching_requirements
+    t: 不符合需求
+  - key: options.ai_code_refactoring_reasons.codebase_compatibility
+    t: 与代码库不兼容
+  - key: options.ai_code_refactoring_reasons.context_limitations
+    t: 缺乏上下文
+  - key: options.ai_code_refactoring_reasons.incomplete_implementation
+    t: 不完整的代码
+  - key: options.ai_code_refactoring_reasons.over_engineering
+    t: 过度设计
+  - key: options.ai_code_refactoring_reasons.gaining_better_understanding
+    t: 获得更好的理解
+  - key: options.ai_code_refactoring_reasons.outdated_knowledge
+    t: 过时的代码
+  - key: options.ai_code_refactoring_reasons.excessive_comments
+    t: 过多的注释
+  - key: options.ai_code_refactoring_reasons.code_readability
+    t: 可读性差
+  - key: options.ai_code_refactoring_reasons.phantom_api_usage
+    t: 使用编造的 API
+
+  # ai_personal_expenses
+
+  - key: usage.ai_personal_expenses
+    t: 个人支出
+  - key: usage.ai_personal_expenses.question
+    t: 您个人每月在 AI 工具上花费多少（美元）？
+  - key: usage.ai_personal_expenses.prompt
+    t: 如果是个体经营者，请包括个人和专业支出。
+
+  - key: options.ai_personal_expenses.range_0
+    t: $0
+    aliases:
+      - options.ai_company_expenses.range_0
+  - key: options.ai_personal_expenses.range_1_20
+    t: $1-$20
+    aliases:
+      - options.ai_company_expenses.range_1_20
+  - key: options.ai_personal_expenses.range_21_50
+    t: $20-$50
+    aliases:
+      - options.ai_company_expenses.range_21_50
+  - key: options.ai_personal_expenses.range_51_100
+    t: $50-$100
+    aliases:
+      - options.ai_company_expenses.range_51_100
+  - key: options.ai_personal_expenses.range_101_500
+    t: $100-$500
+    aliases:
+      - options.ai_company_expenses.range_101_500
+  - key: options.ai_personal_expenses.range_501_1000
+    t: $500-$1000
+    aliases:
+      - options.ai_company_expenses.range_501_1000
+  - key: options.ai_personal_expenses.range_1001_5000
+    t: $1000-$5000
+    aliases:
+      - options.ai_company_expenses.range_1001_5000
+  - key: options.ai_personal_expenses.range_over_5000
+    t: 超过 $5000
+    aliases:
+      - options.ai_company_expenses.range_over_5000
+
+  # ai_company_expenses
+
+  - key: usage.ai_company_expenses
+    t: 公司支出
+  - key: usage.ai_company_expenses.question
+    t: 贵公司每月在 AI 工具上花费多少（美元）？
+  - key: usage.ai_company_expenses.prompt
+    t: 如果是个体经营者，请随意跳过此问题。
+
+  # ai_code_generation_frequency
+
+  - key: usage.ai_code_generation_frequency
+    t: 代码生成频率
+  - key: usage.ai_code_generation_frequency.question
+    t: 您多久使用一次 AI 工具来生成或重构代码？
+  - key: options.ai_code_generation_frequency.0
+    t: 从不
+    aliases:
+      - options.ai_other_tasks_frequency.0
+  - key: options.ai_code_generation_frequency.1
+    t: 每年几次
+    aliases:
+      - options.ai_other_tasks_frequency.1
+  - key: options.ai_code_generation_frequency.2
+    t: 每月几次
+    aliases:
+      - options.ai_other_tasks_frequency.2
+  - key: options.ai_code_generation_frequency.3
+    t: 每周几次
+    aliases:
+      - options.ai_other_tasks_frequency.3
+  - key: options.ai_code_generation_frequency.4
+    t: 每天几次
+    aliases:
+      - options.ai_other_tasks_frequency.4
+  - key: options.ai_code_generation_frequency.5
+    t: 每小时几次
+    aliases:
+      - options.ai_other_tasks_frequency.5
+  - key: options.ai_code_generation_frequency.6
+    t: 经常
+    aliases:
+      - options.ai_other_tasks_frequency.6
+
+  # ai_other_tasks_frequency
+
+  - key: usage.ai_other_tasks_frequency
+    t: 其他任务频率
+  - key: usage.ai_other_tasks_frequency.question
+    t: 除了代码生成之外，您多久使用一次 AI 工具处理其他任务？
+
+  - key: usage.ai_other_tasks_frequency.prompt
+    t: 研究、学习新技能、总结文档等。
+
+  # ai_project_type
+  - key: usage.ai_project_type
+    t: 用例
+  - key: usage.ai_project_type.question
+    t: 您在什么样的项目中使用 AI 工具？
+
+  - key: options.ai_project_type.frontend_development
+    aliasFor: options.what_do_you_use_js_for.frontend_development
+  - key: options.ai_project_type.backend_development
+    aliasFor: options.what_do_you_use_js_for.backend_development
+  - key: options.ai_project_type.data_analysis
+    aliasFor: options.what_do_you_use_js_for.data_analysis
+  - key: options.ai_project_type.machine_learning
+    aliasFor: options.what_do_you_use_js_for.machine_learning
+  - key: options.ai_project_type.desktop_apps
+    aliasFor: options.what_do_you_use_js_for.desktop_apps
+  - key: options.ai_project_type.mobile_apps
+    aliasFor: options.what_do_you_use_js_for.mobile_apps
+  - key: options.ai_project_type.embedded_apps
+    aliasFor: options.what_do_you_use_js_for.embedded_apps
+  - key: options.ai_project_type.game_development
+    aliasFor: options.what_do_you_use_js_for.game_development
+  - key: options.ai_project_type.data_visualization
+    aliasFor: options.what_do_you_use_js_for.data_visualization
+  - key: options.ai_project_type.graphics_animation
+    aliasFor: options.what_do_you_use_js_for.graphics_animation
+  - key: options.ai_project_type.scripting
+    aliasFor: options.what_do_you_use_js_for.scripting
+  - key: options.ai_project_type.command_line_tools
+    aliasFor: options.what_do_you_use_js_for.command_line_tools
+  - key: options.ai_project_type.developer_tooling
+    aliasFor: options.what_do_you_use_js_for.developer_tooling
+  - key: options.ai_project_type.automation
+    aliasFor: options.what_do_you_use_js_for.automation
+  - key: options.ai_project_type.bots
+    aliasFor: options.what_do_you_use_js_for.bots
+  - key: options.what_do_you_use_js_for.testing
+    aliasFor: options.what_do_you_use_js_for.testing
+  - key: options.ai_project_type.browser_extensions
+    aliasFor: options.what_do_you_use_js_for.browser_extensions
+  - key: options.ai_project_type.api
+    aliasFor: options.what_do_you_use_js_for.api
+  - key: options.ai_project_type.infrastructure_as_code
+    aliasFor: options.what_do_you_use_js_for.infrastructure_as_code
+  - key: options.ai_project_type.prototyping
+    aliasFor: options.what_do_you_use_js_for.prototyping
+
+  # # what_tasks_do_you_use_ai_for
+  # - key: usage.what_tasks_do_you_use_ai_for
+  #   t: AI Tasks
+  # - key: usage.what_tasks_do_you_use_ai_for.question
+  #   t: For which specific tasks do you most commonly use AI tools?
+
+  # - key: options.what_tasks_do_you_use_ai_for.writing_code
+  #   t: Writing code
+  # - key: options.what_tasks_do_you_use_ai_for.debugging
+  #   t: Debugging existing code
+  # - key: options.what_tasks_do_you_use_ai_for.refactoring
+  #   t: Refactoring or optimizing code
+  # - key: options.what_tasks_do_you_use_ai_for.documentation
+  #   t: Generating documentation
+  # - key: options.what_tasks_do_you_use_ai_for.testing
+  #   t: Testing code
+  # - key: options.what_tasks_do_you_use_ai_for.learning
+  #   t: Learning new skills
+
+  - key: usage.ai_generated_code_type
+    t: 生成的代码
+  - key: usage.ai_generated_code_type.question
+    t: 您使用 AI 工具生成什么样的代码？
+
+  - key: options.ai_generated_code_type.helper_functions
+    t: 辅助函数
+  - key: options.ai_generated_code_type.frontend_components
+    t: 前端组件
+  - key: options.ai_generated_code_type.css_code
+    t: CSS 代码
+  - key: options.ai_generated_code_type.core_app_logic
+    t: 核心应用逻辑
+  - key: options.ai_generated_code_type.api_integrations
+    t: API 集成代码
+  - key: options.ai_generated_code_type.documentation_comments
+    t: 文档和注释
+  - key: options.ai_generated_code_type.tests
+    t: 测试
+
+  - key: options.ai_generated_code_type.configuration_code
+    t: 配置代码
+  - key: options.ai_generated_code_type.boilerplate_code
+    t: 样板代码
+  - key: options.ai_generated_code_type.database_queries
+    t: 数据库查询
+
+    # ai_uses
+
+  - key: usage.ai_uses
+    t: 使用案例
+  - key: usage.ai_uses.question
+    t: 您使用 AI 工具做什么？
+
+  - key: options.ai_uses.code_generation
+    t: 代码生成
+    aliases:
+      - options.ai_browser_apis.code_generation
+
+  - key: options.ai_uses.code_generation.description
+    t: 根据提示词生成或重构代码。
+    aliases:
+      - options.ai_browser_apis.code_generation.description
+
+  - key: options.ai_uses.translation
+    t: 翻译
+    aliases:
+      - options.ai_browser_apis.translation
+
+  - key: options.ai_uses.translation.description
+    t: 将内容从一种语言翻译成另一种语言。
+    aliases:
+      - options.ai_browser_apis.translation.description
+
+  - key: options.ai_uses.language_detection
+    t: 语言检测
+    aliases:
+      - options.ai_browser_apis.language_detection
+
+  - key: options.ai_uses.language_detection.description
+    t: 检测文本所用的语言。
+    aliases:
+      - options.ai_browser_apis.language_detection.description
+
+  - key: options.ai_uses.summarization
+    t: 总结
+    aliases:
+      - options.ai_browser_apis.summarization
+
+  - key: options.ai_uses.summarization.description
+    t: 将文本或数据集总结为其主要主题。
+    aliases:
+      - options.ai_browser_apis.summarization.description
+
+  - key: options.ai_uses.text_generation
+    t: 文本生成
+    aliases:
+      - options.ai_browser_apis.text_generation
+
+  - key: options.ai_uses.text_generation.description
+    t: 根据提示词生成文本。
+    aliases:
+      - options.ai_browser_apis.text_generation.description
+
+  - key: options.ai_uses.image_generation
+    t: 图像生成
+    aliases:
+      - options.ai_browser_apis.image_generation
+
+  - key: options.ai_uses.image_generation.description
+    t: 根据提示词生成图像
+    aliases:
+      - options.ai_browser_apis.image_generation.description
+
+  - key: options.ai_uses.speech_generation
+    t: 语音生成
+    aliases:
+      - options.ai_browser_apis.speech_generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: 根据提示词或文本生成语音。
+    aliases:
+      - options.ai_browser_apis.speech_generation.description
+
+  - key: options.ai_uses.speech_recognition
+    t: 语音识别
+    aliases:
+      - options.ai_browser_apis.speech_recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: 将录制或实时语音转录为文本。
+    aliases:
+      - options.ai_browser_apis.speech_recognition.description
+
+  - key: options.ai_uses.computer_vision
+    t: 计算机视觉
+    aliases:
+      - options.ai_browser_apis.computer_vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: 检测照片或视频流中的项目。
+    aliases:
+      - options.ai_browser_apis.computer_vision.description
+
+  - key: options.ai_uses.sentiment_analysis
+    t: 情感分析
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: 根据情感对文本数据进行分类。
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis.description
+
+  - key: options.ai_uses.caption_generation
+    t: 字幕生成
+    aliases:
+      - options.ai_browser_apis.caption_generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: 为图像或视频生成标题或字幕。
+    aliases:
+      - options.ai_browser_apis.caption_generation.description
+
+  - key: options.ai_uses.learning_research
+    t: 学习与研究
+    aliases:
+      - options.ai_browser_apis.learning_research
+
+  - key: options.ai_uses.learning_research.description
+    t: 学习新技能或研究某个主题。
+    aliases:
+      - options.ai_browser_apis.learning_research.description
+
+  - key: options.ai_uses.no_browser_ai_apis
+    t: 无
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
+
+  - key: options.ai_uses.code_assistance
+    t: 代码审查与协助
+  - key: options.ai_uses.search_information_gathering
+    t: 搜索与信息收集
+  - key: options.ai_uses.text_processing
+    t: 文本处理
+  - key: options.ai_uses.not_using
+    t: 目前未使用
+  - key: options.ai_uses.data_manipulation_processing
+    t: 数据处理
+
+  # ai_pain_points
+  - key: usage.ai_pain_points
+    t: 痛点
+  - key: usage.ai_pain_points.question
+    t: 在使用 AI 工具时，您最大的痛点是什么？
+
+  - key: options.ai_pain_points.misunderstood_prompt
+    t: 提示词理解
+  - key: options.ai_pain_points.misunderstood_prompt.description
+    t: AI 无法正确理解提示词。
+
+  - key: options.ai_pain_points.poor_generated_code
+    t: 代码质量
+  - key: options.ai_pain_points.poor_generated_code.description
+    t: 代码性能低、过度重复、导入过时等。
+
+  - key: options.ai_pain_points.training_data_concerns
+    t: 版权担忧
+  - key: options.ai_pain_points.training_data_concerns.description
+    t: 担心在受版权保护的材料上进行训练。
+
+  - key: options.ai_pain_points.integration_difficulties
+    t: 集成困难
+  - key: options.ai_pain_points.integration_difficulties.description
+    t: 难以将 AI 工具与现有工作流程集成。
+
+  - key: options.ai_pain_points.costs
+    t: 财务成本
+  - key: options.ai_pain_points.costs.description
+    t: AI 工具太贵。
+
+  - key: options.ai_pain_points.environmental_impact
+    t: 环境影响
+  - key: options.ai_pain_points.environmental_impact.description
+    t: 担心 AI 工具的能源消耗。
+
+  - key: options.ai_pain_points.lack_of_context
+    t: 缺乏上下文
+  - key: options.ai_pain_points.lack_of_context.description
+    t: AI 没有考虑到整个项目的上下文
+
+  - key: options.ai_pain_points.lack_of_memory
+    t: 缺乏记忆
+  - key: options.ai_pain_points.lack_of_memory.description
+    t: AI 没有长期的记忆
+
+  - key: options.ai_pain_points.privacy_concerns
+    t: 隐私担忧
+  - key: options.ai_pain_points.privacy_concerns.description
+    t: 担心私有代码或数据泄露给 AI 提供商。
+
+  # ai_running_locally
+
+  - key: usage.ai_running_locally
+    t: 本地 AI
+  - key: usage.ai_running_locally.question
+    t: 您尝试过在自己的机器上本地运行 AI 模型吗？
+
+  - key: options.ai_running_locally.no_not_interested
+    t: 没有，我不感兴趣
+  - key: options.ai_running_locally.no_but_interested
+    t: 没有，但我想尝试
+  - key: options.ai_running_locally.yes_interested
+    t: 是的
+
+  - key: options.ai_running_locally.no_not_interested.short
+    t: 不，不感兴趣
+  - key: options.ai_running_locally.no_but_interested.short
+    t: 不，但感兴趣
+
+  # ai_missing_features
+
+  - key: usage.ai_missing_features
+    t: 缺失的功能
+  - key: usage.ai_missing_features.question
+    t: 您觉得 AI 工具目前缺少哪些功能？
+
+  - key: options.ai_missing_features.larger_context_window
+    t: 更大的上下文窗口
+  - key: options.ai_missing_features.large_codebase_support
+    t: 支持更大的代码库
+  - key: options.ai_missing_features.up_to_date_knowledge
+    t: 最新的知识
+  - key: options.ai_missing_features.better_accuracy
+    t: 更高的准确性
+  - key: options.ai_missing_features.self_evaluation
+    t: 自我评估
+  - key: options.ai_missing_features.higher_intelligence
+    t: 更高的智能
+  - key: options.ai_missing_features.system_integration
+    t: 更好的工具集成
+  - key: options.ai_missing_features.truthfulness
+    t: 真实性
+  - key: options.ai_missing_features.user_interaction
+    t: 更好的 UI/UX
+  - key: options.ai_missing_features.customization
+    t: 更多定制化
+
+  # ai_happiness
+
+  - key: usage.ai_happiness
+    t: 满意度
+    aliases:
+      - happiness.ai_happiness
+  - key: usage.ai_happiness.question
+    t: 您对 Web 开发 AI 工具的现状满意吗？
+    aliases:
+      - happiness.ai_happiness.question
+
+  # existential_risk
+
+  - key: opinions.existential_risk
+    t: 生存风险
+  - key: opinions.existential_risk.question
+    t: AI 对人类构成生存风险
+
+  # integral_workflow
+
+  - key: opinions.integral_workflow
+    t: 工作流集成
+  - key: opinions.integral_workflow.question
+    t: AI 工具已成为我工作流程中不可或缺的一部分
+
+  # more_productive
+
+  - key: opinions.more_productive
+    t: 生产力
+  - key: opinions.more_productive.question
+    t: AI 工具让我效率大大提高
+
+  # job_security_threat
+
+  - key: opinions.job_security_threat
+    t: 工作保障
+  - key: opinions.job_security_threat.question
+    t: AI 工具对我的工作保障构成威胁
+
+  # ai_reliance_worse_developers
+
+  - key: opinions.ai_reliance_worse_developers
+    t: AI 依赖
+  - key: opinions.ai_reliance_worse_developers.question
+    t: 依赖 AI 工具会导致开发人员整体技能下降
+
+  # interested_in_developing_tools
+
+  - key: opinions.interested_in_developing_tools
+    t: 开发工具
+  - key: opinions.interested_in_developing_tools.question
+    t: 我对开发 AI 工具感兴趣，而不仅仅是使用它们
+
+  # reach_agi
+
+  - key: opinions.reach_agi
+    t: 达到 AGI
+  - key: opinions.reach_agi.question
+    t: 我们将在未来 10 年内达到 AGI（“真正的”、有思维的人工智能）
+
+  # courses
+
+  - key: resources.ai_courses
+    t: 课程
+  - key: resources.ai_courses.question
+    t: 您使用过哪些课程或资源来了解更多关于 AI 的信息？
+
+  # newsletters
+
+  - key: resources.ai_newsletters
+    t: 通讯
+  - key: resources.ai_newsletters.question
+    t: 您阅读哪些通讯来了解最新的 AI 新闻？
+
+  # podcasts
+
+  - key: resources.ai_podcasts
+    t: 播客
+  - key: resources.ai_podcasts.question
+    t: 您收听哪些播客来了解 AI？
+
+  # video_creators
+
+  - key: resources.ai_video_creators
+    t: 视频创作者
+  - key: resources.ai_video_creators.question
+    t: 您在 YouTube、Twitch 等平台上关注哪些视频创作者来了解 AI？
+
+  # people
+
+  - key: resources.ai_people
+    t: 人物
+  - key: resources.ai_people.question
+    t: 您在其他社交媒体上关注谁来了解 AI？
+  - key: resources.ai_people.description
+    t: 开发人员、有影响力的人、专家等。
+
+  - key: user_info.years_of_experience.state_of_ai
+    t: 工作年限
+
+  - key: user_info.years_of_experience.state_of_ai.question
+    t: 您作为开发人员工作或学习了多少年？
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_ai
+    t: 调查需要多长时间？
+  - key: faq.how_long_will_survey_take_ai.description
+    t: 完成此调查大约需要 15 分钟。
+
+  - key: faq.who_should_take_survey_ai
+    t: 谁应该参加调查？
+  - key: faq.who_should_take_survey_ai.description
+    t: 本调查适用于所有经验水平的 Web 开发人员，包括目前不使用 AI 工具的人员。
+
+  - key: faq.survey_goals_ai
+    t: 调查的目标是什么？
+  - key: faq.survey_goals_ai.description
+    t: 本调查的目标是确定现代 AI 工具如何影响 Web 开发。
+
+  - key: faq.data_used_ai
+    t: 收集的数据将如何使用？
+  - key: faq.data_used_ai.description
+    t: 收集的数据将用于发布免费的在线报告，完整的数据集也将[按需](https://discord.gg/2E7bbgnrJJ)免费提供。
+
+  - key: faq.team
+    t: 谁在进行这项调查？
+  - key: faq.team.description
+    t: 这项调查由 [Devographics](https://devographics.com/) 团队在志愿者和社区的帮助下进行。

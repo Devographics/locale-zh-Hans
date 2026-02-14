@@ -1,0 +1,1604 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_devs.description
+    t: 关于其他一切的开发者调查
+
+  - key: general.state_of_devs.intro
+    t: |
+
+      虽然一遍又一遍地询问您最喜欢的 JavaScript 框架很好，但我们认为是时候探讨生活中更重要的问题了：您是谁？除了写代码，您还做什么？您的信仰和愿景是什么？
+
+      这就是“开发者现状调查”的主旨。这一次，它是关于除了代码之外的一切。
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      调查的第一部分是关于您使用或听说过的 AI 工具。
+
+  - key: sections.career.title
+    t: 职业生涯
+  - key: sections.career.prompt
+    t: 您目前的职业生涯和工作经验。
+
+  - key: sections.workplace.title
+    t: 工作场所
+  - key: sections.workplace.prompt
+    t: 您目前的工作场所。
+
+  - key: sections.technology.title
+    t: 技术
+  - key: sections.technology.prompt
+    t: 您使用的应用程序、语言和平台。
+
+  - key: sections.health.title
+    t: 健康
+  - key: sections.health.prompt
+    t: 健康与健身。
+
+  - key: sections.worldview.title
+    t: 世界观
+  - key: sections.worldview.prompt
+    t: 世界观、政治和时事。
+
+  - key: sections.hobbies.title
+    t: 爱好
+  - key: sections.hobbies.prompt
+    t: 您的其他热情所在。
+
+  # employment_status
+  - key: career.employment_status
+    aliasFor: user_info.employment_status
+  - key: career.employment_status.question
+    aliasFor: user_info.employment_status.question
+
+  # how_many_jobs
+  - key: career.how_many_jobs
+    t: 雇主数量
+  - key: career.how_many_jobs.question
+    t: 迄今为止，您为多少位雇主工作过？
+  - key: career.how_many_jobs.prompt
+    t: 仅包括受薪开发人员职位。
+
+  - key: options.how_many_jobs.range_1
+    t: 1
+  - key: options.how_many_jobs.range_2
+    t: 2
+  - key: options.how_many_jobs.range_3
+    t: 3
+  - key: options.how_many_jobs.range_4
+    t: 4
+  - key: options.how_many_jobs.range_5
+    t: 5
+  - key: options.how_many_jobs.range_6_10
+    t: 6-10
+  - key: options.how_many_jobs.range_11_20
+    t: 11-20
+  - key: options.how_many_jobs.range_over_20
+    t: 超过 20
+  # career_issues
+
+  - key: career.career_issues
+    t: 职场问题
+  - key: career.career_issues.question
+    t: 在您的职业生涯中，您遇到过以下哪些职场问题？
+
+  - key: career.career_issues.commentPrompt
+    t: |
+      如果您愿意，请告诉我们更多关于您遇到的具体问题。
+
+      ⚠️ 警告：您的评论**将会公开**，因此请确保不要包含任何可用于识别您或您公司身份的信息。
+
+  - key: options.career_issues.harassment
+    t: 骚扰
+  - key: options.career_issues.harassment.description
+    t: 制造敌对工作环境的不受欢迎行为。
+
+  - key: options.career_issues.sexual_harassment
+    t: 性骚扰
+  - key: options.career_issues.sexual_harassment.description
+    t: 制造敌对工作环境的具有性性质的不受欢迎行为。
+
+  - key: options.career_issues.non_sexual_harassment
+    t: 非性骚扰
+  - key: options.career_issues.non_sexual_harassment.description
+    t: 制造敌对工作环境的其他针对性骚扰形式。
+
+  - key: options.career_issues.gender_discrimination
+    t: 性别歧视
+  - key: options.career_issues.gender_discrimination.description
+    t: 因性别而受到歧视。
+
+  - key: options.career_issues.race_discrimination
+    t: 种族歧视
+  - key: options.career_issues.race_discrimination.description
+    t: 因种族而受到歧视。
+
+  - key: options.career_issues.discrimination
+    t: 歧视
+  - key: options.career_issues.discrimination.description
+    t: 基于个人特征受到歧视。
+
+  - key: options.career_issues.mental_health_issues
+    t: 心理健康问题
+  - key: options.career_issues.mental_health_issues.description
+    t: 工作场所引发的心理健康问题，如压力或焦虑。
+
+  - key: options.career_issues.excessive_overtime
+    t: 工作与生活平衡问题
+  - key: options.career_issues.excessive_overtime.description
+    t: 过度加班、缺乏工作与生活的界限等。
+
+  - key: options.career_issues.underpaid_work
+    t: 工资不足
+  - key: options.career_issues.underpaid_work.description
+    t: 薪水或收入不足。
+
+  - key: options.career_issues.burnout
+    t: 职业倦怠
+  - key: options.career_issues.burnout.description
+    t: 对工作感到不知所措，导致缺乏动力或抑郁。
+
+  - key: options.career_issues.job_insecurity
+    t: 工作不安全感
+  - key: options.career_issues.job_insecurity.description
+    t: 害怕失去工作；或难以找到新工作。
+
+  - key: options.career_issues.bad_management
+    t: 管理不善
+  - key: options.career_issues.bad_management.description
+    t: 由于管理不善导致的整体不良工作环境。
+
+  - key: options.career_issues.boredom
+    t: 厌倦
+
+  # discrimination_issues
+
+  - key: career.discrimination_issues
+    t: 歧视
+  - key: career.discrimination_issues.question
+    t: 您是否曾在工作场所因以下任何因素而遭受歧视？
+
+  - key: options.discrimination_issues.gender
+    t: 性别或性别认同
+  - key: options.discrimination_issues.sexual_orientation
+    t: 性取向
+  - key: options.discrimination_issues.race
+    t: 种族
+  - key: options.discrimination_issues.religion
+    t: 宗教或精神信仰
+  - key: options.discrimination_issues.age
+    t: 年龄
+  - key: options.discrimination_issues.political_views
+    t: 政治信仰或派别
+  - key: options.discrimination_issues.caregiving_status
+    t: 照护责任
+  - key: options.discrimination_issues.caregiving_status.description
+    t: 如怀孕、育儿、照顾老人等。
+  - key: options.discrimination_issues.disability
+    t: 残疾
+  - key: options.discrimination_issues.disability.description
+    t: 包括身体、精神或神经多样性状况。
+
+  - key: options.discrimination_issues.country_citizenship
+    t: 原籍国
+  - key: options.discrimination_issues.appearance_body
+    t: 外貌或身体特征
+
+  - key: career.discrimination_issues.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # negative_impacts
+
+  - key: career.negative_impacts
+    t: 负面影响
+  - key: career.negative_impacts.question
+    t: 针对职场问题，您是否采取过以下任何行动？
+
+  - key: options.negative_impacts.changing_appearance
+    t: 改变了外貌或着装方式
+  - key: options.negative_impacts.changing_appearance.short
+    t: 改变外貌
+
+  - key: options.negative_impacts.changing_behavior
+    t: 改变了说话、行为或表达自己的方式
+  - key: options.negative_impacts.changing_behavior.short
+    t: 改变行为
+
+  - key: options.negative_impacts.reported_someone
+    t: 向管理层或人力资源部门报告了该问题
+  - key: options.negative_impacts.reported_someone.short
+    t: 向 HR 报告问题
+
+  - key: options.negative_impacts.isolating_yourself
+    t: 回避或疏远同事
+  - key: options.negative_impacts.isolating_yourself.short
+    t: 回避同事
+
+  - key: options.negative_impacts.internal_transfer
+    t: 申请调到另一个团队或部门
+  - key: options.negative_impacts.internal_transfer.short
+    t: 申请调岗
+
+  - key: options.negative_impacts.time_off
+    t: 请假或休假
+  - key: options.negative_impacts.time_off.short
+    t: 请假
+
+  - key: options.negative_impacts.quitting_job
+    t: 辞职
+  - key: options.negative_impacts.quitting_job.short
+    t: 辞职
+
+  - key: options.negative_impacts.shifting_careers
+    t: 改变职业或行业
+  - key: options.negative_impacts.shifting_careers.short
+    t: 转行
+
+  - key: options.negative_impacts.seeking_counseling
+    t: 寻求治疗、咨询或心理健康支持
+  - key: options.negative_impacts.seeking_counseling.short
+    t: 寻求治疗
+
+  - key: options.negative_impacts.engaging_legal_counsel
+    t: 咨询法律顾问
+  - key: options.negative_impacts.engaging_legal_counsel.short
+    t: 法律顾问
+
+  - key: options.negative_impacts.scaling_back
+    t: 减少了工作时间或担任了要求较低的职位
+  - key: options.negative_impacts.scaling_back.short
+    t: 减少工作时间
+
+  - key: options.negative_impacts.taking_medicine
+    t: 服用治疗压力、焦虑、抑郁等的药物
+  - key: options.negative_impacts.taking_medicine.short
+    t: 服用药物
+
+  - key: career.negative_impacts.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # past_year_conferences
+
+  - key: career.past_year_conferences
+    t: 会议
+  - key: career.past_year_conferences.question
+    t: 过去一年您参加了多少次会议？
+
+  - key: career.past_year_meetups_events
+    t: 聚会与活动
+  - key: career.past_year_meetups_events.question
+    t: 过去一年您参加了多少次聚会和本地活动？
+
+  - key: options.past_year_conferences.range_0
+    t: 无
+    aliases:
+      - options.past_year_meetups_events.range_0
+  - key: options.past_year_conferences.range_1
+    t: 1
+    aliases:
+      - options.past_year_meetups_events.range_1
+  - key: options.past_year_conferences.range_2_5
+    t: 2-5
+    aliases:
+      - options.past_year_meetups_events.range_2_5
+  - key: options.past_year_conferences.range_6_10
+    t: 6-10
+    aliases:
+      - options.past_year_meetups_events.range_6_10
+  - key: options.past_year_conferences.range_11_15
+    t: 11-15
+    aliases:
+      - options.past_year_meetups_events.range_11_15
+  - key: options.past_year_conferences.range_more_than_15
+    t: 超过 15 次
+    aliases:
+      - options.past_year_meetups_events.range_more_than_15
+
+  # laid_off
+
+  - key: career.laid_off
+    t: 裁员
+  - key: career.laid_off.question
+    t: 您曾经被裁员过吗？
+
+  - key: options.laid_off.yes_past_year
+    t: 是的，在过去 12 个月内
+  - key: options.laid_off.yes_before
+    t: 是的，在此之前
+  - key: options.laid_off.no
+    t: 我从未被裁员过
+
+  # WORKPLACE
+
+  - key: workplace.company_size
+    aliasFor: user_info.company_size
+  - key: workplace.company_size.question
+    aliasFor: user_info.company_size.question
+
+  - key: workplace.job_title
+    aliasFor: user_info.job_title
+  - key: workplace.job_title.question
+    aliasFor: user_info.job_title.question
+
+  - key: workplace.income_evolution
+    aliasFor: user_info.income_evolution
+  - key: workplace.income_evolution.question
+    aliasFor: user_info.income_evolution.question
+
+  - key: workplace.remote_work_policy
+    t: 远程工作
+  - key: workplace.remote_work_policy.question
+    t: 下列哪项最能描述您雇主的远程工作政策？
+
+  - key: options.remote_work_policy.no_remote_work
+    t: 不允许远程工作
+  - key: options.remote_work_policy.no_remote_work.description
+    t: 所有员工必须到办公室上班。
+  - key: options.remote_work_policy.hybrid
+    t: 混合模式
+  - key: options.remote_work_policy.hybrid.description
+    t: 允许部分远程工作，但员工必须定期到办公室上班。
+  - key: options.remote_work_policy.up_to_employee
+    t: 由员工决定
+  - key: options.remote_work_policy.up_to_employee.description
+    t: 员工可以选择远程工作还是在办公室工作。
+  - key: options.remote_work_policy.fully_remote
+    t: 完全远程
+  - key: options.remote_work_policy.fully_remote.description
+    t: 所有员工完全远程工作。
+  - key: options.remote_work_policy.na
+    t: 🚫 不适用
+  - key: options.remote_work_policy.na.description
+    t: 独立工作者
+
+  - key: options.remote_work_policy.depends_on_role
+    t: 取决于职位
+  - key: options.remote_work_policy.mostly_remote
+    t: 大部分远程
+  - key: options.remote_work_policy.hybrid_remote_work
+    t: 混合模式
+  - key: options.remote_work_policy.freelance_self_employed
+    t: 自由职业者/自雇人士
+  - key: options.remote_work_policy.remote_based_on_distance
+    t: 基于与公司的距离
+
+  - key: workplace.work_hours_per_week
+    t: 工作时间
+  - key: workplace.work_hours_per_week.question
+    t: 在典型的一周中，您工作多少小时？
+
+  - key: options.work_hours_per_week.range_under_30
+    t: 30 小时以下
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50
+  - key: options.work_hours_per_week.range_over_50
+    t: 50 小时以上
+
+  - key: workplace.job_happiness
+    t: 工作满意度
+  - key: workplace.job_happiness.question
+    t: 您对目前的工作有多满意？
+
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
+
+  # - key: workplace.job_ai_threat
+  #   t: a
+
+  # workplace_difficulties
+
+  - key: workplace.workplace_difficulties
+    t: 职场困难
+  - key: workplace.workplace_difficulties.question
+    t: 您当前雇主的工作环境有哪些负面方面？
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: 与同事的关系
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: 骚扰、沟通不畅等。
+
+  - key: options.workplace_difficulties.company_culture
+    t: 公司文化
+  - key: options.workplace_difficulties.company_culture.description
+    t: 有毒的文化、不良的工作习惯等。
+
+  - key: options.workplace_difficulties.working_conditions
+    t: 工作条件
+  - key: options.workplace_difficulties.working_conditions.description
+    t: 设备陈旧、空间狭窄等。
+
+  - key: options.workplace_difficulties.job_security
+    t: 工作保障
+  - key: options.workplace_difficulties.job_security.description
+    t: 工作保障差、短期合同等。
+
+  - key: options.workplace_difficulties.work_content
+    t: 工作内容
+  - key: options.workplace_difficulties.work_content.description
+    t: 任务无趣、任务与职位描述不符、空闲时间过多等。
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: 工作与生活平衡
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: 职业倦怠、过度加班、强制性公司活动等。
+
+  - key: options.workplace_difficulties.compensation
+    t: 薪酬
+  - key: options.workplace_difficulties.compensation.description
+    t: 薪酬不足
+
+  - key: options.workplace_difficulties.training
+    t: 培训与职业发展
+  - key: options.workplace_difficulties.training.description
+    t: 缺乏培训和发展机会
+
+  - key: options.workplace_difficulties.bad_management
+    t: 管理不善
+  - key: options.workplace_difficulties.in_person_work
+    t: 现场工作要求
+  - key: options.workplace_difficulties.lack_of_human_contact
+    t: 缺乏人际接触
+  - key: options.workplace_difficulties.bureaucracy
+    t: 过度官僚主义
+
+    # workplace_perks
+
+  - key: workplace.workplace_perks
+    t: 职场福利
+  - key: workplace.workplace_perks.question
+    t: 您喜欢当前工作场所的哪些方面？
+
+  - key: options.workplace_perks.coworker_relations
+    aliasFor: options.workplace_difficulties.coworker_relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: 与同事关系良好
+
+  - key: options.workplace_perks.company_culture
+    aliasFor: options.workplace_difficulties.company_culture
+  - key: options.workplace_perks.company_culture.description
+    t: 积极的公司文化、注重质量等。
+
+  - key: options.workplace_perks.working_conditions
+    aliasFor: options.workplace_difficulties.working_conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: 良好的工作环境、现代化的设备等。
+
+  - key: options.workplace_perks.job_security
+    aliasFor: options.workplace_difficulties.job_security
+  - key: options.workplace_perks.job_security.description
+    t: 工作稳定、长期合同等。
+
+  - key: options.workplace_perks.work_content
+    aliasFor: options.workplace_difficulties.work_content
+  - key: options.workplace_perks.work_content.description
+    t: 有趣的任务、令人满足的工作等。
+
+  - key: options.workplace_perks.work_life_balance
+    aliasFor: options.workplace_difficulties.work_life_balance
+  - key: options.workplace_perks.work_life_balance.description
+    t: 不加班、弹性工作时间等。
+
+  - key: options.workplace_perks.compensation
+    aliasFor: options.workplace_difficulties.compensation
+  - key: options.workplace_perks.compensation.description
+    t: 薪酬优厚
+
+  - key: options.workplace_perks.training
+    aliasFor: options.workplace_difficulties.training
+  - key: options.workplace_perks.training.description
+    t: 公司提供的培训和技能发展
+
+  - key: options.workplace_perks.remote_work_benefit
+    t: 远程工作福利
+
+  # job_finding_application_count
+
+  - key: workplace.job_finding_application_count
+    t: 申请数量
+  - key: workplace.job_finding_application_count.question
+    t: 在获得当前工作之前，您申请了多少个职位？
+
+  - key: options.job_finding_application_count.range_0
+    t: 无（未申请）
+  - key: options.job_finding_application_count.range_1
+    t: 1
+  - key: options.job_finding_application_count.range_2_5
+    t: 2-5
+  - key: options.job_finding_application_count.range_5_10
+    t: 5-10
+  - key: options.job_finding_application_count.range_10_50
+    t: 10-50
+  - key: options.job_finding_application_count.range_50_100
+    t: 50-100
+  - key: options.job_finding_application_count.range_over_100
+    t: 100+
+
+  # job_finding_methods
+
+  - key: workplace.job_finding_methods
+    t: 求职方式
+  - key: workplace.job_finding_methods.question
+    t: 您是如何找到当前工作的？
+
+  - key: options.job_finding_methods.job_board
+    t: 招聘网站
+  - key: options.job_finding_methods.direct_application
+    t: 直接向公司申请
+  - key: options.job_finding_methods.recruiter
+    t: 招聘人员
+  - key: options.job_finding_methods.personal_network
+    t: 个人人脉
+  - key: options.job_finding_methods.referral
+    t: 推荐
+  - key: options.job_finding_methods.linkedin
+    t: LinkedIn
+  - key: options.job_finding_methods.social_media
+    t: 其他社交媒体 (Facebook, X 等)
+  - key: options.job_finding_methods.internal_transfer
+    t: 内部晋升或调动
+  - key: options.job_finding_methods.open_source_community
+    t: 开源或社区参与
+  - key: options.job_finding_methods.company_founder
+    t: 创办公司或自雇
+
+  - key: options.job_finding_methods.contacted_by_company
+    t: 被公司联系
+  - key: options.job_finding_methods.internship
+    t: 实习
+  - key: options.job_finding_methods.through_university
+    t: 通过大学
+  - key: options.job_finding_methods.merger_acquisition
+    t: 合并或收购
+  - key: options.job_finding_methods.career_fair
+    t: 招聘会
+
+  # - key: workplace.how_much_can_you_be_yourself_at_work
+  #   t:
+
+  # technology
+
+  # mobile_os
+  - key: technology.mobile_os
+    t: 移动操作系统
+  - key: technology.mobile_os.question
+    t: 您最常使用哪种移动操作系统？
+  # - key: technology.mobile_os.prompt
+  #   t: 包括工作使用和个人使用。
+
+  - key: options.mobile_os.ios
+    t: iOS
+  - key: options.mobile_os.android
+    t: Android
+  - key: options.mobile_os.no_smartphone
+    t: 我没有智能手机
+
+  # desktop_os
+  - key: technology.desktop_os
+    t: 桌面操作系统
+  - key: technology.desktop_os.question
+    t: 您最常使用哪种桌面操作系统？
+  # - key: technology.desktop_os.question
+  #   aliasFor: technology.mobile_os.prompt
+
+  - key: options.desktop_os.mac_os
+    t: macOS
+  - key: options.desktop_os.windows
+    t: Windows
+  - key: options.desktop_os.linux
+    t: Linux
+
+  # programming_languages
+  - key: technology.programming_languages
+    t: 编程语言
+  - key: technology.programming_languages.question
+    t: 您使用哪些编程语言编写代码？
+
+  # ai_tools
+  - key: technology.ai_tools
+    t: AI 工具
+  - key: technology.ai_tools.question
+    t: 您经常使用哪些 AI 工具？
+
+  # productivity_apps
+  - key: technology.productivity_apps
+    t: 生产力应用
+  - key: technology.productivity_apps.question
+    t: 您经常使用哪些生产力应用？
+
+  # chat_apps
+  - key: technology.chat_apps
+    t: 消息应用
+  - key: technology.chat_apps.question
+    t: 您经常使用哪些消息应用？
+
+  # social_media
+  - key: technology.social_media
+    t: 社交媒体
+  - key: technology.social_media.question
+    t: 您经常使用哪些社交媒体网站？
+
+  # community_involvement
+
+  - key: technology.community_involvement
+    t: 社区参与
+  - key: technology.community_involvement.question
+    t: 您使用以下哪些方式参与开发者社区？
+
+  - key: options.community_involvement.meetups
+    t: 本地聚会
+  - key: options.community_involvement.conferences
+    t: 会议
+  - key: options.community_involvement.forums
+    t: 在线平台 (GitHub, Stack Overflow 等)
+  - key: options.community_involvement.chatrooms
+    t: 在线聊天室 (Discord, Slack 等)
+  - key: options.community_involvement.social_media
+    t: 社交媒体
+  - key: options.community_involvement.newsletters
+    t: 通讯订阅
+  - key: options.community_involvement.videos
+    t: 视频 (YouTube 等)
+  - key: options.community_involvement.streaming
+    t: 直播 (Twitch 等)
+  - key: options.community_involvement.podcasts
+    t: 播客
+
+  - key: options.community_involvement.blogs_websites
+    t: 博客与网站
+  - key: options.community_involvement.rss_feeds
+    t: RSS 订阅
+
+  # community_contributions
+
+  - key: technology.community_contributions
+    t: 社区贡献
+  - key: technology.community_contributions.question
+    t: 在过去 12 个月中，您使用了以下哪些方式为社区做出贡献？
+
+  - key: options.community_contributions.conference
+    t: 参加了聚会或会议
+  - key: options.community_contributions.talk
+    t: 发表了演讲
+  - key: options.community_contributions.blog_post
+    t: 写了博客文章
+  - key: options.community_contributions.answer_question
+    t: 回答了问题或 issue
+  - key: options.community_contributions.financial_support
+    t: 资助了开发者或项目
+  - key: options.community_contributions.event_organization
+    t: 组织了活动
+  - key: options.community_contributions.open_source_contribution
+    t: 贡献了开源软件
+
+  - key: options.community_contributions.mentoring
+    t: 导师指导
+
+  # open_source_involvement
+  - key: technology.open_source_involvement
+    t: 开源
+  - key: technology.open_source_involvement.question
+    t: 在您的职业生涯中，您是如何参与开源软件的？
+
+  - key: options.open_source_involvement.regular_use
+    t: 我使用过开源软件
+  - key: options.open_source_involvement.code_contribution
+    t: 我为开源项目贡献过代码
+  - key: options.open_source_involvement.documentation
+    t: 我贡献过文档或其他非代码资源
+  - key: options.open_source_involvement.submit_issues
+    t: 我提交过 issue 或 bug 报告
+  - key: options.open_source_involvement.created_projects
+    t: 我创建或维护过开源项目
+  - key: options.open_source_involvement.documentation
+    t: 我资助过开源项目
+  - key: options.open_source_involvement.na
+    t: 没有参与
+
+  # health
+
+  - key: health.health_issues
+    t: 健康问题
+  - key: health.health_issues.question
+    t: 您正在经历哪些持续的健康问题？
+
+  - key: options.health_issues.poor_sleep
+    t: 睡眠质量差
+  - key: options.health_issues.weight_issues
+    t: 体重问题
+  - key: options.health_issues.respiratory_issues
+    t: 呼吸系统问题
+  - key: options.health_issues.diabetes
+    t: 糖尿病
+  - key: options.health_issues.chronic_fatigue
+    t: 慢性疲劳
+  - key: options.health_issues.heart_disease
+    t: 心脏病
+  - key: options.health_issues.cancer
+    t: 癌症
+  - key: options.health_issues.mental_health_issues
+    t: 心理健康问题
+  - key: options.health_issues.substance_abuse_issues
+    t: 药物滥用问题
+  - key: options.health_issues.back_pain
+    t: 背痛
+  - key: options.health_issues.wrist_hand_pain
+    t: 手腕/手部疼痛
+  - key: options.health_issues.other_joint_pain
+    t: 其他关节疼痛
+  - key: options.health_issues.skin_issues
+    t: 皮肤问题
+  - key: options.health_issues.headaches
+    t: 头痛和偏头痛
+
+  - key: options.health_issues.gastrointestinal_issues
+    t: 胃肠道问题
+  - key: options.health_issues.high_blood_pressure
+    t: 高血压
+
+  # sleep_quantity
+  - key: health.sleep_quantity
+    t: 睡眠时长
+  - key: health.sleep_quantity.question
+    t: 平均而言，您每晚睡多少小时？
+
+  - key: options.sleep_quantity.range_5_or_less
+    t: 5 小时或更少
+  - key: options.sleep_quantity.range_6
+    t: 6
+  - key: options.sleep_quantity.range_7
+    t: 7
+  - key: options.sleep_quantity.range_8
+    t: 8
+  - key: options.sleep_quantity.range_9
+    t: 9
+  - key: options.sleep_quantity.range_10
+    t: 10
+  - key: options.sleep_quantity.more_than_10
+    t: 10 小时或更多
+
+  # sleep_bedtime
+  - key: health.sleep_bedtime
+    t: 就寝时间
+  - key: health.sleep_bedtime.question
+    t: 您通常几点睡觉？
+
+  - key: health.sleep_wakeuptime
+    t: 起床时间
+  - key: health.sleep_wakeuptime.question
+    t: 您通常几点起床？
+
+  - key: health.sleep_measures
+    t: 睡眠策略
+  - key: health.sleep_measures.question
+    t: 您尝试过哪些方法来改善睡眠（如果有）？
+
+  - key: options.sleep_measures.consistent_bedtime
+    t: 固定的就寝时间
+  - key: options.sleep_measures.darkened_curtains
+    t: 遮光窗帘
+  - key: options.sleep_measures.sleep_mask
+    t: 眼罩
+  - key: options.sleep_measures.avoid_screens
+    t: 睡前避免看屏幕
+  - key: options.sleep_measures.screen_dimming
+    t: 睡前调暗屏幕
+  - key: options.sleep_measures.earplugs
+    t: 耳塞
+  - key: options.sleep_measures.sleeping_pills
+    t: 安眠药
+  - key: options.sleep_measures.supplements
+    t: 补充剂
+
+  - key: options.sleep_measures.exercise
+    t: 运动
+  - key: options.sleep_measures.meditation_relaxation
+    t: 冥想和放松
+  - key: options.sleep_measures.sleep_environment
+    t: 良好的睡眠环境
+  - key: options.sleep_measures.noise_machine
+    t: 白噪音机
+  - key: options.sleep_measures.cpap_machine
+    t: 呼吸机 (CPAP)
+  - key: options.sleep_measures.cannabis_cbd
+    t: 大麻或 CBD
+  - key: options.sleep_measures.reading_books
+    t: 阅读
+  - key: options.sleep_measures.sound_therapy
+    t: 声音疗法
+  - key: options.sleep_measures.better_sleep_schedule
+    t: 更好的睡眠时间表
+  - key: options.sleep_measures.audiobooks_podcasts
+    t: 有声读物或播客
+  - key: options.sleep_measures.music
+    t: 音乐
+  - key: options.sleep_measures.controlling_light_exposure
+    t: 控制光照
+
+  # worldview
+
+  - key: worldview.left_right
+    t: 左派 vs 右派
+  - key: worldview.left_right.question
+    t: 在左派与右派的经济轴线上，您的立场在哪里？
+
+  - key: options.left_right.0
+    t: 极左
+  - key: options.left_right.4
+    t: 中间派
+  - key: options.left_right.8
+    t: 极右
+
+  # policies
+
+  # - key: worldview.policies
+  #   t: 政策
+  # - key: worldview.policies.question
+  #   t: 您在多大程度上同意或不同意实施这些政策提案？
+
+  # - key: options.policies.ubi
+  #   t: 全民基本收入
+  # - key: options.policies.ubi.description
+  #   t: 政府为所有公民提供的最低收入保障
+
+  # - key: options.policies.free_trade
+  #   t: 自由贸易
+  # - key: options.policies.free_trade.description
+  #   t: 各国之间限制极少的自由贸易。
+
+  # - key: options.policies.universal_health_care
+  #   t: 全民医疗保健
+  # - key: options.policies.universal_health_care.description
+  #   t: 无论个人财富如何，都能免费获得医疗保健。
+
+  # - key: options.policies.open_borders
+  #   t: 开放边境
+  # - key: options.policies.open_borders.description
+  #   t: 各国之间人员的自由流动。
+
+  # - key: options.policies.drug_legalization
+  #   t: 毒品去罪化
+  # - key: options.policies.drug_legalization.description
+  #   t: 减少或消除对大多数毒品的管制或惩罚。
+
+  # - key: options.policies.hate_speech_regulations
+  #   t: 仇恨言论法规
+  # - key: options.policies.hate_speech_regulations.description
+  #   t: 对某些形式的攻击性言论进行刑事处罚。
+
+  # - key: options.policies.affirmative_action
+  #   t: 平权行动
+  # - key: options.policies.affirmative_action.description
+  #   t: 为特定弱势群体增加机会。
+
+  # - key: options.policies.separation_church_state
+  #   t: 政教分离
+  # - key: options.policies.separation_church_state.description
+  #   t: 确保政府不偏袒任何一种宗教。
+
+  # - key: options.policies.progressive_taxation
+  #   t: 高边际税率
+  # - key: options.policies.progressive_taxation.description
+  #   t: 对最高收入者征收更高的税率。
+
+  # - key: options.policies.lgbtq_equality
+  #   t: 支持 LGBTQ 的政策
+  # - key: options.policies.lgbtq_equality.description
+  #   t: 旨在改善 LGBTQ 群体生活的政策（同性婚姻等）。
+
+  # - key: options.policies.reduced_government_size
+  #   t: 缩减政府规模
+  # - key: options.policies.reduced_government_size.description
+  #   t: 缩减政府规模并扩大私营部门。
+
+  # - key: options.policies.dei_initiatives
+  #   t: DEI 倡议
+  # - key: options.policies.dei_initiatives.description
+  #   t: 旨在增加组织多样性和包容性的倡议。
+
+  # - key: options.policies.business_regulation
+  #   t: 商业监管
+  # - key: options.policies.business_regulation.description
+  #   t: 旨在监管公司运营方式的政策。
+
+  # - key: options.policies.interventionism
+  #   t: 外国干涉主义
+  # - key: options.policies.interventionism.description
+  #   t: 介入其他国家的内政。
+
+  # - key: options.policies.climate_action
+  #   t: 气候行动
+  # - key: options.policies.climate_action.description
+  #   t: 旨在减少全球变暖的政策（驾驶禁令、限制汽车等）。
+
+  # - key: options.policies.politics_free_workplace
+  #   t: 无政治工作场所
+  # - key: options.policies.politics_free_workplace.description
+  #   t: 禁止在工作场所讨论政治话题。
+
+  # - key: worldview.policies_statements
+  #   t: 政治观点
+  # - key: worldview.policies_statements.question
+  #   t: 您在多大程度上同意或不同意以下陈述？
+
+  # - key: options.policies_statements.ubi
+  #   t: 所有公民都应获得政府提供的全民基本收入。
+
+  # - key: options.policies_statements.free_trade
+  #   t: 各国之间的贸易限制应降至最低。
+
+  # - key: options.policies_statements.universal_health_care
+  #   t: 每个人都应该能够免费获得医疗保健，无论财富如何。
+
+  # - key: options.policies_statements.open_borders
+  #   t: 边境应对逃离战争或贫困的人开放。
+
+  # - key: options.policies_statements.drug_legalization
+  #   t: 大多数毒品应合法化以供个人使用。
+
+  # - key: options.policies_statements.hate_speech_regulations
+  #   t: 某些形式的仇恨言论应被定为违法。
+
+  # - key: options.policies_statements.affirmative_action
+  #   t: 历史上处于不利地位的群体应获得特殊机会。
+
+  # - key: options.policies_statements.separation_church_state
+  #   t: 政府不应偏袒任何一种宗教。
+
+  # - key: options.policies_statements.progressive_taxation
+  #   t: 最高收入者应被征收非常高的税率。
+
+  # - key: options.policies_statements.lgbtq_equality
+  #   t: 同性伴侣应该能够结婚。
+
+  # - key: options.policies_statements.reduced_government_size
+  #   t: 政府规模通常应缩减，以支持私营部门。
+
+  # - key: options.policies_statements.dei_initiatives
+  #   t: 增加组织的多样性和包容性很重要。
+
+  # - key: options.policies_statements.business_regulation
+  #   t: 公司应能够在最少的监管下运营。
+
+  # - key: options.policies_statements.interventionism
+  #   t: 介入其他国家的内政有时是必要的。
+
+  # - key: options.policies_statements.climate_action
+  #   t: 需要采取强有力的行动（汽车禁令、驾驶限制等）来应对气候变化。
+
+  # - key: options.policies_statements.politics_free_workplace
+  #   t: 工作场所应禁止讨论政治话题。
+
+  # - key: options.policies_statements.gender_spectrum
+  #   t: 应该教导孩子们性别是一个谱系。
+
+  # - key: options.policies_statements.cultural_diversity
+  #   t: 文化和种族多样性总体上对一个国家是有利的。
+
+  # - key: options.policies_statements.individual_rights
+  #   t: 为了维护法律和秩序，有时牺牲个人权利是必要的。
+
+  # - key: options.policies.ai_regulation
+  #   t: AI 法规
+
+  - key: worldview.global_issues
+    t: 全球议题
+  - key: worldview.global_issues.question
+    t: 目前您最关心哪些全球议题？
+
+  - key: options.global_issues.climate_change
+    t: 气候变化
+  - key: options.global_issues.global_pandemics
+    t: 全球流行病
+  - key: options.global_issues.refugees_immigration
+    t: 难民与移民危机
+  - key: options.global_issues.economic_inequality
+    t: 经济不平等
+  - key: options.global_issues.healthcare_access
+    t: 医疗保健获取
+  - key: options.global_issues.geopolitical_tensions
+    t: 地缘政治紧张局势
+  - key: options.global_issues.ai_threats
+    t: AI 威胁
+  - key: options.global_issues.rising_authoritarianism
+    t: 威权主义抬头
+  - key: options.global_issues.rising_intolerance
+    t: 不宽容现象抬头
+  - key: options.global_issues.erosion_traditional_values
+    t: 传统价值观受到侵蚀
+  - key: options.global_issues.globalization
+    t: 全球化
+  - key: options.global_issues.lack_of_free_speech
+    t: 缺乏言论自由
+
+  - key: options.global_issues.war_and_conflict
+    t: 战争与冲突
+  - key: options.global_issues.gaza_israel_conflict
+    t: 加沙冲突
+  - key: options.global_issues.trump
+    t: 特朗普
+  - key: options.global_issues.lgbtq_rights
+    t: LGBTQ 权利
+
+  # # companies_opinion
+
+  # - key: worldview.companies_opinion
+  #   t: 公司
+  # - key: worldview.companies_opinion.question
+  #   t: 您对以下公司有什么看法？
+
+  # happiness_factors
+  - key: worldview.happiness_factors
+    t: 幸福因素
+  - key: worldview.happiness_factors.description
+    t: 哪些因素最能影响您的个人幸福感？
+
+  - key: options.happiness_factors.health
+    t: 身体健康
+  - key: options.happiness_factors.career_progress
+    t: 职业发展
+  - key: options.happiness_factors.romantic_relationships
+    t: 恋爱关系
+  - key: options.happiness_factors.other_relationships
+    t: 友谊
+  - key: options.happiness_factors.hobbies
+    t: 爱好
+  - key: options.happiness_factors.family
+    t: 家庭
+  - key: options.happiness_factors.community
+    t: 社区
+  - key: options.happiness_factors.material_possessions
+    t: 财富和物质财产
+  - key: options.happiness_factors.living_environment
+    t: 生活环境
+  - key: options.happiness_factors.religion_spirituality
+    t: 宗教和/或精神信仰
+
+  - key: options.happiness_factors.pets
+    t: 宠物
+  - key: options.happiness_factors.exercise
+    t: 运动
+  - key: options.happiness_factors.freedom
+    t: 自由
+
+  # overall_happiness
+
+  - key: worldview.overall_happiness
+    t: 总体幸福感
+    aliases:
+      - happiness.overall_happiness
+  - key: worldview.overall_happiness.question
+    t: 总的来说，您最近过得幸福吗？
+    aliases:
+      - happiness.overall_happiness.question
+
+  # # personal_hope
+
+  # - key: worldview.personal_hope
+  #   t: 个人希望
+  # - key: worldview.personal_hope.question
+  #   t: 我对我和我家人的未来充满希望
+
+  # # country_hope
+
+  # - key: worldview.country_hope
+  #   t: 国家希望
+  # - key: worldview.country_hope.question
+  #   t: 我对我们国家的未来充满希望
+
+  # # world_hope
+
+  # - key: worldview.world_hope
+  #   t: 世界希望
+  # - key: worldview.world_hope.question
+  #   t: 我为世界的未来感到充满希望
+
+  # relocation
+
+  - key: worldview.relocation
+    t: 移居
+    aliases:
+      - country.relocation
+  - key: worldview.relocation.question
+    t: 如果您有机会在另一个国家生活几年，您想去哪里？
+    aliases:
+      - country.relocation.question
+
+  # hobbies
+
+  - key: hobbies.physical_activity
+    t: 体育活动
+  - key: hobbies.physical_activity.question
+    t: 您经常进行以下哪些体育活动？
+
+  - key: options.physical_activity.climbing
+    t: 攀岩
+  - key: options.physical_activity.martial_arts
+    t: 武术
+  - key: options.physical_activity.running
+    t: 跑步
+  - key: options.physical_activity.strength_training
+    t: 力量训练
+  - key: options.physical_activity.swimming
+    t: 游泳
+  - key: options.physical_activity.yoga
+    t: 瑜伽
+  - key: options.physical_activity.gymnastics
+    t: 体操
+  - key: options.physical_activity.golf
+    t: 高尔夫
+  - key: options.physical_activity.tennis
+    t: 网球
+  - key: options.physical_activity.soccer
+    t: 足球
+  - key: options.physical_activity.biking
+    t: 骑行
+  - key: options.physical_activity.hiking_walking
+    t: 徒步/散步
+
+  - key: options.physical_activity.dancing
+    t: 跳舞
+  - key: options.physical_activity.basket_ball
+    t: 篮球
+  - key: options.physical_activity.badminton
+    t: 羽毛球
+  - key: options.physical_activity.pilates
+    t: 普拉提
+  - key: options.physical_activity.volleyball
+    t: 排球
+  - key: options.physical_activity.rowing
+    t: 划船
+  - key: options.physical_activity.padel
+    t: 板式网球
+  - key: options.physical_activity.skiing
+    t: 滑雪
+
+  - key: health.physical_activity_frequency
+    t: 运动频率
+  - key: health.physical_activity_frequency.question
+    t: 通常，您每周运动几天？
+
+  - key: options.physical_activity_frequency.0
+    t: 0
+  - key: options.physical_activity_frequency.1
+    t: 1
+  - key: options.physical_activity_frequency.2
+    t: 2
+  - key: options.physical_activity_frequency.3
+    t: 3
+  - key: options.physical_activity_frequency.4
+    t: 4
+  - key: options.physical_activity_frequency.5
+    t: 5
+  - key: options.physical_activity_frequency.6
+    t: 6
+  - key: options.physical_activity_frequency.7
+    t: 7
+
+  - key: hobbies.hobbies
+    t: 爱好
+  - key: hobbies.hobbies.question
+    t: 您的爱好是什么？
+
+  - key: options.hobbies.woodworking
+    t: 木工/DIY
+  - key: options.hobbies.table_top_gaming
+    t: 桌面游戏
+  - key: options.hobbies.video_games
+    t: 电子游戏
+  - key: options.hobbies.music
+    t: 演奏音乐
+  - key: options.hobbies.cooking
+    t: 烹饪
+  - key: options.hobbies.reading
+    t: 阅读
+  - key: options.hobbies.arts_and_crafts
+    t: 手工艺
+  - key: options.hobbies.electronics
+    t: 电子产品
+  - key: options.hobbies.gardening
+    t: 园艺
+  - key: options.hobbies.camping
+    t: 露营
+  - key: options.hobbies.sports_exercise
+    t: 体育/运动
+  - key: options.hobbies.movies_tv
+    t: 电影/电视
+
+  - key: options.hobbies.programming
+    t: 编程
+  - key: options.hobbies.photography
+    t: 摄影
+  - key: options.hobbies.hiking_walking
+    t: 徒步或散步
+  - key: options.hobbies.writing
+    t: 写作
+  - key: options.hobbies.travel
+    t: 旅行
+  - key: options.hobbies.dancing
+    t: 跳舞
+  - key: options.hobbies.3d_printing
+    t: 3D 打印
+  - key: options.hobbies.language_learning
+    t: 语言学习
+
+  # hobbies_frequency
+
+  - key: hobbies.hobbies_frequency
+    t: 爱好频率
+  - key: hobbies.hobbies_frequency.question
+    t: 您多久能进行一次爱好活动？
+
+  - key: options.hobbies_frequency.once_a_year_less
+    t: 一年一次或更少
+  - key: options.hobbies_frequency.few_times_per_year
+    t: 一年几次
+  - key: options.hobbies_frequency.few_times_per_month
+    t: 一个月几次
+  - key: options.hobbies_frequency.few_times_per_week
+    t: 一周几次
+  - key: options.hobbies_frequency.every_day
+    t: 每天
+
+  # video_game_platforms
+
+  - key: hobbies.video_game_platforms
+    t: 电子游戏平台
+  - key: hobbies.video_game_platforms.question
+    t: 您在哪些平台上玩电子游戏？
+
+  - key: options.video_game_platforms.nintendo_switch
+    t: Switch
+  - key: options.video_game_platforms.playstation
+    t: Playstation
+  - key: options.video_game_platforms.xbox
+    t: XBox
+  - key: options.video_game_platforms.pc
+    t: PC
+  - key: options.video_game_platforms.mac
+    t: macOS
+  - key: options.video_game_platforms.ios
+    t: iOS
+  - key: options.video_game_platforms.android
+    t: Android
+  - key: options.video_game_platforms.steamdeck
+    t: Steamdeck
+  - key: options.video_game_platforms.retro_emulation_console
+    t: 复古模拟游戏机
+
+  # favorite_video_games
+
+  - key: hobbies.favorite_video_games
+    t: 最喜欢的电子游戏
+  - key: hobbies.favorite_video_games.question
+    t: 最近您最喜欢的电子游戏有哪些？
+  - key: hobbies.favorite_video_games.prompt
+    t: 过去 12 个月内您玩过的游戏。
+
+  # favorite_musical_artists
+
+  - key: hobbies.favorite_musical_artists
+    t: 最喜欢的音乐
+  - key: hobbies.favorite_musical_artists.question
+    t: 最近您最喜欢的音乐艺术家有哪些？
+  - key: hobbies.favorite_musical_artists.prompt
+    t: 过去 12 个月内您听过的艺术家。
+
+  # favorite_movies
+
+  - key: hobbies.favorite_movies
+    t: 最喜欢的电影
+  - key: hobbies.favorite_movies.question
+    t: 最近您最喜欢的电影有哪些？
+  - key: hobbies.favorite_movies.prompt
+    t: 过去 12 个月内您看过的电影。
+
+  # favorite_tv
+
+  - key: hobbies.favorite_tv
+    t: 最喜欢的电视节目
+  - key: hobbies.favorite_tv.question
+    t: 最近您最喜欢的电视节目有哪些？
+  - key: hobbies.favorite_tv.prompt
+    t: 过去 12 个月内您看过的电视/流媒体节目。
+
+    # musical_genres
+
+  - key: hobbies.musical_genres
+    t: 音乐
+  - key: hobbies.musical_genres.question
+    t: 您最喜欢的音乐流派是什么？
+
+  - key: options.musical_genres.rock
+    t: 摇滚
+  - key: options.musical_genres.hip_hop
+    t: 嘻哈
+  - key: options.musical_genres.pop
+    t: 流行
+  - key: options.musical_genres.edm
+    t: 电子舞曲 (EDM)
+  - key: options.musical_genres.country
+    t: 乡村音乐
+  - key: options.musical_genres.classical
+    t: 古典音乐
+  - key: options.musical_genres.jazz
+    t: 爵士
+  - key: options.musical_genres.latin
+    t: 拉丁
+  - key: options.musical_genres.soul
+    t: 灵魂乐
+  - key: options.musical_genres.funk
+    t: 放克
+  - key: options.musical_genres.reggae
+    t: 雷鬼
+  - key: options.musical_genres.metal
+    t: 金属
+  - key: options.musical_genres.kpop
+    t: K-pop
+  - key: options.musical_genres.soundtracks
+    t: 原声带
+
+  # user_info
+
+  - key: user_info.number_of_kids
+    t: 子女数量
+  - key: user_info.number_of_kids.question
+    t: 您有几个孩子？
+
+  - key: options.number_of_kids.range_0
+    t: 无
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 个或更多
+
+  - key: user_info.relationship_status
+    t: 情感状态
+  - key: user_info.relationship_status.question
+    t: 您目前的情感状态是？
+
+  - key: options.relationship_status.single
+    t: 单身
+  - key: options.relationship_status.in_a_relationship
+    t: 恋爱中
+  - key: options.relationship_status.its_complicated
+    t: 复杂
+  - key: options.relationship_status.divorced_separated
+    t: 离异或分居
+  - key: options.relationship_status.married
+    t: 已婚
+  - key: options.relationship_status.polyamorous
+    t: 多角恋
+  - key: options.relationship_status.widowed
+    t: 丧偶
+
+  # FAQ
+
+  - key: faq.who_should_take_survey_devs
+    t: 谁应该参加这项调查？
+  - key: faq.who_should_take_survey_devs.description
+    t: >
+      这项调查适用于任何作为开发人员、程序员或工程师工作或学习的人，无论其经验水平或背景如何。
+
+  - key: faq.survey_goals_devs
+    t: 这项调查的目标是什么？
+  - key: faq.survey_goals_devs.description
+    t: >
+      这项调查的目标是全面了解开发者生态系统，超越单纯的技术趋势。
+
+  - key: faq.data_used_devs
+    t: 收集的数据将如何使用？
+  - key: faq.data_used_devs.description
+    t: >
+      基于收集到的数据，我们将发布一份详细报告并免费提供。此外，完整的数据集也可以[按需](https://discord.gg/2E7bbgnrJJ)免费获取。
+
+  # tabs
+  - key: tabs.vs_sleep_quantity
+    t: 对比睡眠时长
+  - key: tabs.vs_income_evolution
+    t: 对比收入变化
+  - key: tabs.vs_relationship_status
+    t: 对比情感状态
+  - key: tabs.vs_number_of_kids
+    t: 对比子女数量
+
+  # relocation countries
+
+  - key: options.relocation.AFG
+    aliasFor: options.country.AFG
+  - key: options.relocation.DZA
+    aliasFor: options.country.DZA
+  - key: options.relocation.ARG
+    aliasFor: options.country.ARG
+  - key: options.relocation.ARM
+    aliasFor: options.country.ARM
+  - key: options.relocation.AUS
+    aliasFor: options.country.AUS
+  - key: options.relocation.AUT
+    aliasFor: options.country.AUT
+  - key: options.relocation.BGD
+    aliasFor: options.country.BGD
+  - key: options.relocation.BEL
+    aliasFor: options.country.BEL
+  - key: options.relocation.BLR
+    aliasFor: options.country.BLR
+  - key: options.relocation.BIH
+    aliasFor: options.country.BIH
+  - key: options.relocation.BRA
+    aliasFor: options.country.BRA
+  - key: options.relocation.BGR
+    aliasFor: options.country.BGR
+  - key: options.relocation.CAN
+    aliasFor: options.country.CAN
+  - key: options.relocation.CRI
+    aliasFor: options.country.CRI
+  - key: options.relocation.HRV
+    aliasFor: options.country.HRV
+  - key: options.relocation.CHE
+    aliasFor: options.country.CHE
+  - key: options.relocation.CHL
+    aliasFor: options.country.CHL
+  - key: options.relocation.CHN
+    aliasFor: options.country.CHN
+  - key: options.relocation.COD
+    aliasFor: options.country.COD
+  - key: options.relocation.COL
+    aliasFor: options.country.COL
+  - key: options.relocation.CIV
+    aliasFor: options.country.CIV
+  - key: options.relocation.CYP
+    aliasFor: options.country.CYP
+  - key: options.relocation.CZE
+    aliasFor: options.country.CZE
+  - key: options.relocation.DEU
+    aliasFor: options.country.DEU
+  - key: options.relocation.GRC
+    aliasFor: options.country.GRC
+  - key: options.relocation.DNK
+    aliasFor: options.country.DNK
+  - key: options.relocation.EGY
+    aliasFor: options.country.EGY
+  - key: options.relocation.EST
+    aliasFor: options.country.EST
+  - key: options.relocation.ETH
+    aliasFor: options.country.ETH
+  - key: options.relocation.FIN
+    aliasFor: options.country.FIN
+  - key: options.relocation.FRA
+    aliasFor: options.country.FRA
+  - key: options.relocation.GEO
+    aliasFor: options.country.GEO
+  - key: options.relocation.GHA
+    aliasFor: options.country.GHA
+  - key: options.relocation.HKG
+    aliasFor: options.country.HKG
+  - key: options.relocation.HUN
+    aliasFor: options.country.HUN
+  - key: options.relocation.IND
+    aliasFor: options.country.IND
+  - key: options.relocation.IDN
+    aliasFor: options.country.IDN
+  - key: options.relocation.IRL
+    aliasFor: options.country.IRL
+  - key: options.relocation.ISL
+    aliasFor: options.country.ISL
+  - key: options.relocation.IRN
+    aliasFor: options.country.IRN
+  - key: options.relocation.IRQ
+    aliasFor: options.country.IRQ
+  - key: options.relocation.ITA
+    aliasFor: options.country.ITA
+  - key: options.relocation.ISR
+    aliasFor: options.country.ISR
+  - key: options.relocation.JPN
+    aliasFor: options.country.JPN
+  - key: options.relocation.KEN
+    aliasFor: options.country.KEN
+  - key: options.relocation.LTU
+    aliasFor: options.country.LTU
+  - key: options.relocation.LVA
+    aliasFor: options.country.LVA
+  - key: options.relocation.LUX
+    aliasFor: options.country.LUX
+  - key: options.relocation.MDA
+    aliasFor: options.country.MDA
+  - key: options.relocation.MEX
+    aliasFor: options.country.MEX
+  - key: options.relocation.MMR
+    aliasFor: options.country.MMR
+  - key: options.relocation.NPL
+    aliasFor: options.country.NPL
+  - key: options.relocation.MKD
+    aliasFor: options.country.MKD
+  - key: options.relocation.NOR
+    aliasFor: options.country.NOR
+  - key: options.relocation.NLD
+    aliasFor: options.country.NLD
+  - key: options.relocation.NGA
+    aliasFor: options.country.NGA
+  - key: options.relocation.NZL
+    aliasFor: options.country.NZL
+  - key: options.relocation.POL
+    aliasFor: options.country.POL
+  - key: options.relocation.PRT
+    aliasFor: options.country.PRT
+  - key: options.relocation.PAK
+    aliasFor: options.country.PAK
+  - key: options.relocation.PER
+    aliasFor: options.country.PER
+  - key: options.relocation.PHL
+    aliasFor: options.country.PHL
+  - key: options.relocation.ROU
+    aliasFor: options.country.ROU
+  - key: options.relocation.RUS
+    aliasFor: options.country.RUS
+  - key: options.relocation.SAU
+    aliasFor: options.country.SAU
+  - key: options.relocation.SRB
+    aliasFor: options.country.SRB
+  - key: options.relocation.SGP
+    aliasFor: options.country.SGP
+  - key: options.relocation.SVK
+    aliasFor: options.country.SVK
+  - key: options.relocation.SVN
+    aliasFor: options.country.SVN
+  - key: options.relocation.ZAF
+    aliasFor: options.country.ZAF
+  - key: options.relocation.KOR
+    aliasFor: options.country.KOR
+  - key: options.relocation.ESP
+    aliasFor: options.country.ESP
+  - key: options.relocation.SWE
+    aliasFor: options.country.SWE
+  - key: options.relocation.TWN
+    aliasFor: options.country.TWN
+  - key: options.relocation.TZA
+    aliasFor: options.country.TZA
+  - key: options.relocation.THA
+    aliasFor: options.country.THA
+  - key: options.relocation.TUR
+    aliasFor: options.country.TUR
+  - key: options.relocation.UGA
+    aliasFor: options.country.UGA
+  - key: options.relocation.UKR
+    aliasFor: options.country.UKR
+  - key: options.relocation.URY
+    aliasFor: options.country.URY
+  - key: options.relocation.ARE
+    aliasFor: options.country.ARE
+  - key: options.relocation.GBR
+    aliasFor: options.country.GBR
+  - key: options.relocation.SCT
+    aliasFor: options.country.SCT
+  - key: options.relocation.USA
+    aliasFor: options.country.USA
+  - key: options.relocation.VEN
+    aliasFor: options.country.VEN
+  - key: options.relocation.VNM
+    aliasFor: options.country.VNM

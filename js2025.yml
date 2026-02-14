@@ -1,0 +1,652 @@
+locale: zh-Hans
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: finish.share_message.js2025
+    t: 2025年 JavaScript 现状调查现已开启！{link}
+
+  - key: general.results.description
+    t: 2025年 JavaScript 生态系统最新趋势年度调查。
+
+  ###########################################################################
+  # Survey Intro
+  ###########################################################################
+
+  - key: general.js2025.survey_intro
+    t: |
+      JavaScript，你还好吗？今年你几乎没有创造任何新的前端框架。
+
+
+      经过十年的快速迭代，很明显生态系统在过去几年中已经稳定下来。例如，你知道“新秀” Svelte 已经 *9 岁*了吗？在 JavaScript 框架的年份里，这基本上算是古代了！
+
+
+      相反，主要的战斗已经转移到了元框架领域，Astro 正在认真尝试夺取 Next.js 的皇冠——而在构建工具领域，Vite 超越 webpack 似乎只是时间问题。
+
+
+      或者也许 Rust 生态系统中会出现完全不同的东西并突然接管一切，让我们当之无愧的和平与安宁时代提前结束。
+
+
+      无论发生什么，有一件事是肯定的：你可以通过参加今年的 JavaScript 现状调查来帮助我们弄清楚这一切！
+
+  - key: introduction.js2025
+    t: |
+      备受期待的任天堂 Switch 2 最近发布时，距离初代 Switch 已经过去了八年。
+
+
+      你能想象那些可怜的游戏开发者是什么感觉吗？八年漫长的岁月都要为同一个平台开发，没有新 API，没有新功能，没有新 bug，没有破坏构建的新版本……那些可怜的灵魂！
+
+
+      值得庆幸的是，这是*我们*永远不必担心的事情，因为 JavaScript 之神继续确保每一年都带来新的问……我是说，*创新*！
+
+
+      所以请再次加入我，回顾这些调查结果，回顾 2025 年为我们准备的一切。
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Survey FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_js2025
+    t: 完成调查需要多长时间？
+  - key: faq.how_long_will_survey_take_js2025.description
+    t: >
+      取决于您回答多少问题（所有问题都可以跳过），
+      填写调查大约需要 15-20 分钟。
+
+  - key: faq.survey_design_js2025
+    t: 这项调查是如何设计的？
+  - key: faq.survey_design_js2025.description
+    t: >
+      这项调查是涉及浏览器供应商和 Web 开发社区的[公开设计过程](https://github.com/Devographics/surveys/issues/307)的结果。
+
+  - key: faq.results_released_js2025
+    t: 结果何时公布？
+  - key: faq.results_released_js2025.description
+    t: 调查将于 2025 年 10 月 1 日至 11 月 1 日进行，调查结果将在之后不久公布。
+
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview_1_frontend_fatigue.js2025
+    t: |
+      前端框架
+
+  - key: overview_2_whats_next.js2025
+    t: |
+      元框架
+
+  - key: overview_3_back_in_business.js2025
+    t: |
+      后端框架
+
+  - key: overview_4_build_it.js2025
+    t: |
+      构建工具
+
+  - key: overview_5_static_typing.js2025
+    t: |
+      静态类型
+
+  - key: overview_6_other_languages.js2025
+    t: |
+      其他语言
+
+  - key: overview_7_conclusion.js2025
+    t: |
+      ### 现已开启
+      ## 2025年 React 现状调查
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: features.js_new_features.takeaway.js2025
+    t: >
+      虽然 **Temporal** 仍然排名第一，但兴奋度比去年有所下降，这很有道理，因为它已开始从理论提案过渡到在 Firefox 中实际实现。
+
+  - key: features.top_currently_missing_from_js.takeaway.js2025
+    t: >
+      前 5 名的排名没有变化，但值得注意的是，与去年相比，对 **Signals** 的兴趣确实略有下降。
+
+  - key: features.native_types_proposal.takeaway.js2025
+    t: >
+      虽然 32% 的受访者希望 JavaScript 在浏览器中支持**运行时类型**，但如果官方真的支持类型，似乎更可能是通过**类似 TypeScript 的类型注解**，这排在第一位。
+
+  - key: features.js_pace_of_change.takeaway.js2025
+    t: >
+      这个问题的目的是大致了解受访者对新特性的跟进情况，结果显示我们大多数人都很难了解——更不用说尝试——新的语言特性。希望这些调查结果能对此有所帮助！
+
+  - key: features.reading_list.takeaway.js2025
+    t: >
+      **阅读列表**让受访者可以在调查后了解更多关于特定项目的信息，今年我们对其进行了调整，除了允许受访者手动选择项目外，还支持根据调查答案自动添加项目。
+
+      这一变化导致列表更加侧重于库，而前几年则包含更多特性。
+
+  - key: libraries.all_tools_experience.takeaway.js2025
+    t: >
+      **Vite** 几年来一直是最受喜爱的库，但它现在已经超过 **React** 成为第二大最常使用的项目，并且似乎准备好在明年占据榜首。
+
+
+      与此同时，虽然 **Next.js** 是第 13 位最受喜爱的项目，但它也是第 5 位最令人讨厌的项目，并且产生的评论总数最多——这表明该框架的两极分化程度有多严重。
+
+  - key: libraries.tools_arrows.takeaway.js2025
+    t: >
+      JavaScript 库通常随着时间的推移表现出“回旋镖”模式：受到早期积极情绪的推动（线向右移动），使用量增加（线向上射出），但用户随后会面临更多边缘情况和实际问题，观点可能会变得更加消极（线向左偏转）。
+
+
+      这意味着任何向右移动的项目（如 **Vue.js**）甚至只是保持垂直的项目（如 **Astro**）都值得关注！
+
+  - key: libraries.tier_list.takeaway.js2025
+    t: >
+      凭借超过 90% 的满意度，**Hono** 和 **Bun** 今年当之无愧地进入了 S 级。
+
+  - key: libraries.tools_ratios_over_time.takeaway.js2025
+    t: >
+      相对使用量增长最大的奖项归属于 **Vitest** 和 **Playwright**，两者的使用量均同比增长了 **14** 个百分点。
+
+
+      与此同时，**Rolldown** 的知名度大幅提升，从 **33%** 上升到 **51%**。在满意度方面，**Next.js** 下降幅度最大，从 **68%** 降至 **55%**。
+
+
+      最后，有趣的是，**Preact** 和 **React** 在实际使用过它们的受访者中的表现要比那些仅听说过这些库的受访者好得多（如认可度标签所示）。
+
+  - key: libraries.scatterplot_overview.takeaway.js2025
+    t: >
+      随着今年后端框架的加入，**Express** 加入了 **Vite**、**React** 和 **Jest** 的行列，进入了令人垂涎的右上象限。但 **Vue.js**、**Storybook** 和 **Vitest** 紧随其后！
+
+  # front_end_frameworks
+
+  - key: front_end_frameworks.front_end_frameworks_ratios.takeaway.js2025
+    t: >
+      尽管人们都在谈论前端生态系统一直处于动荡之中，但在过去的一年里，情况一直非常稳定，除了 **Alpine.js** and **HTMX** 互换位置外，使用排名没有任何变化。
+
+
+      满意度方面也是如此，除了 **Qwik** 的排名继续下滑。
+
+
+      另一个明显缺乏新炒作的地方是兴趣标签页，除了 **Solid** 和 **Preact**，自去年以来没有其他框架取得进展。
+
+  - key: front_end_frameworks.front_end_frameworks_others.takeaway.js2025
+    t: >
+      撇开不太属于前端框架类别的 **Astro** 和已经存在了一段时间的 **Ember** 不谈，这里最令人兴奋的新进入者必须是 **Ripple**，它承担了成为前端领域新星的艰巨任务。
+
+  - key: front_end_frameworks.front_end_frameworks_cardinalities.takeaway.js2025
+    t: >
+      受访者在其职业生涯中平均只使用了 **2.6** 个不同的前端框架，这再次表明，精疲力竭的 Web 开发者每个月都在框架之间跳来跳去的形象已经不再准确了。
+
+  - key: front_end_frameworks.front_end_frameworks_happiness.takeaway.js2025
+    t: >
+      虽然略有下降，但前端幸福感多年来一直非常稳定。
+
+  - key: front_end_frameworks.front_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      作为主导框架也意味着 **React** 在前端开发者面临的困难清单中名列前茅。
+
+
+      其他经常出现的问题包括性能差、状态管理以及现代前端生态系统的纯粹复杂性。
+
+  # meta_frameworks
+
+  - key: meta_frameworks.meta_frameworks_ratios.takeaway.js2025
+    t: >
+      **Next.js** 继续获得地盘并主导元框架类别，但矛盾的是，它的满意度同时也正在下降。这不是一个好迹象，因为它的满意度比率现在与领导者 **Astro** 有 **39%** 的差距。
+
+
+      只要看一眼知名度图表，就足以看出 Astro 是一个多么危险的竞争对手，在短短几年内从默默无闻变成了强有力的竞争者。
+
+  - key: meta_frameworks.meta_frameworks_others.takeaway.js2025
+    t: >
+      许多受访者质疑为什么调查提供的选项中没有 **TanStack Start**。原因很简单，在调查启动时，该框架还没有脱离测试阶段！
+
+
+      值得庆幸的是，受访者能够通过在“其他元框架”字段中提及该项目来纠正这一遗漏，这是一个明确的信号，表明 TanStack Start 将在明年的“官方”排名中强势登场。
+
+  - key: meta_frameworks.meta_frameworks_cardinalities.takeaway.js2025
+    t: >
+      受访者并没有使用那么多不同的元框架，这在一个仍然由一两个解决方案主导的类别中是可以预料的。
+
+  - key: meta_frameworks.meta_frameworks_happiness.takeaway.js2025
+    t: >
+      看看对 Next.js 满意度的下降最终是否会转化为整体幸福感的下降将会很有趣，但至少到目前为止，情况似乎并非如此。
+
+  - key: meta_frameworks.front_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      就其本质而言，元框架跨越了客户端和服务器之间的鸿沟，这导致了许多复杂的问题。
+
+
+      虽然 **Next.js** 提供了不少解决这些问题的方法，但拥有所有这些能力的缺点是其学习曲线和整体开发体验有时会受到影响。
+
+  # back_end_frameworks
+
+  - key: back_end_frameworks.back_end_frameworks_ratios.takeaway.js2025
+    t: >
+      在缺席调查三年后，确实是时候回顾一下后端框架了。毫无疑问，**Express** 在使用方面仍然是领导者，即使 **Nest** 正在以不错的速度进步。
+
+
+      但当切换到满意度标签页时，情况就更有趣了，前三个项目（**Hono**、**Nitro** 和 **ElysiaJS**）都是新进入者，使这成为未来几年最令人兴奋的类别之一。
+
+  - key: back_end_frameworks.back_end_frameworks_others.takeaway.js2025
+    t: >
+      **oRPC** 提供类型安全的 API，与 TypeScript 巨变之前创建的传统后端解决方案相比，这是一个很大的卖点。
+
+  - key: back_end_frameworks.back_end_frameworks_cardinalities.takeaway.js2025
+    t: >
+      受访者倾向于使用相对较少的后端框架，这可能就是为什么 **Express** 仍然如此占主导地位的原因：一旦你选择了一个后端，你就不太可能特意去尝试新的选项。
+
+  - key: back_end_frameworks.back_end_frameworks_pain_points.takeaway.js2025
+    t: >
+      虽然 **Express** 在首次发布 *15 年* 后仍被广泛使用，但有些人开始希望后端生态系统能够转向更现代的替代方案。
+
+
+      在提供类型安全、兼容 TypeScript 的 API 方面尤其如此，这是那个古老的框架从未打算做的事情。
+
+  # testing
+
+  - key: testing.testing_ratios.takeaway.js2025
+    t: >
+      虽然 **Jest** 长期以来一直作为最常用的测试工具享有舒适的地位，但 **Vitest** 的排名攀升得如此之快，以至于在未来的一年里看到它超越 Jest 也不足为奇，尤其是在 Jest 的满意度呈下降趋势的情况下。
+
+
+      与此同时，**Storybook** 是一个试图尽力解决用户挫败感的项目的有趣案例研究。与去年相比，它仍然显示出轻微的满意度下降，但下降速度已经放缓，情况可能很快就会好转。
+
+  - key: testing.testing_others.takeaway.js2025
+    t: >
+      虽然 **Deno** 的测试运行器没有包含在调查的主要选项中，但它在自由形式的提及中排名第一。
+
+  - key: testing.testing_cardinalities.takeaway.js2025
+    t: >
+      虽然到目前为止其他类别的工具使用量都在 1-2 个左右，但在测试方面，受访者平均使用了高达 **4.4** 个工具，这表明人们可能仍在寻找那个完美的测试运行器，并且该领域的情况远未尘埃落定。
+
+  - key: testing.testing_happiness.takeaway.js2025
+    t: >
+      幸福感保持稳定，在过去三年中略有上升。
+
+  - key: testing.testing_pain_points.takeaway.js2025
+    t: >
+      **Mocking** 仍然是开发者的主要痛点，**配置**和设置紧随其后。
+
+  # build_tools
+
+  - key: build_tools.build_tools_ratios.takeaway.js2025
+    t: >
+      我真的以为今年 **Vite** 终于会超过 **webpack** 夺得最常用构建工具的宝座，但看起来这可能还得再等一年。
+
+
+      **Turbopack** 在使用方面也显示出很大的进步，毫无疑问得益于与 Next.js 捆绑在一起。话虽如此，与 Next.js 类似，它的满意度相当令人担忧。
+
+
+      另一方面，**Rolldown** 的满意度有所提高，并且在兴趣方面排名第一。
+
+
+      最后，**Bun** 在所有类别中都表现出色，对于这样一个雄心勃勃的新项目来说，这确实是一个了不起的成就。
+
+  - key: build_tools.build_tools_others.takeaway.js2025
+    t: >
+      受访者再次提到了 **Deno**，这为在 2026 年将其纳入主要调查选项提供了强有力的理由。
+
+  - key: build_tools.build_tools_cardinalities.takeaway.js2025
+    t: >
+      与测试工具类似，受访者一直在尝试不少不同的构建工具。**Vite** 是否会让这成为过去还有待观察。
+
+  - key: build_tools.build_tools_happiness.takeaway.js2025
+    t: >
+      构建工具的幸福感保持稳定。
+
+  - key: build_tools.build_tools_pain_points.takeaway.js2025
+    t: >
+      虽然 Vite 确实让情况变得更好了，但在构建工具方面，**配置**和设置仍然是最紧迫的问题。
+
+    # other_tools
+
+  - key: other_tools.libraries.takeaway.js2025
+    t: >
+      **Zod** 同比增长很大。由于这里展示的许多库都专注于日期管理，随着 **Temporal** 在浏览器中得到更好的支持，看看这张图表如何演变将会很有趣。
+
+  - key: other_tools.graphics_animation.takeaway.js2025
+    t: >
+      **Chart.js** 去年是一个手动填写的选项，而今年作为官方选项被纳入调查后，它一路飙升至第一名。
+
+  - key: other_tools.utilities.takeaway.js2025
+    t: >
+      如今，每个有自尊心的 JavaScript 开发者似乎都在使用 **ESLint** 和 **Prettier**。
+
+  - key: other_tools.runtimes.takeaway.js2025
+    t: >
+      **Node.js** 和浏览器占据榜首并不令人震惊，但 **Bun** 的第三名是项目增长的一个好迹象。
+
+  - key: other_tools.hosting.takeaway.js2025
+    t: >
+      尽管 **Vercel** 的声誉有时两极分化，但它在确立自己作为仅次于 **AWS** 的重要托管选项方面做得非常出色。
+
+  - key: other_tools.edge_runtimes.takeaway.js2025
+    t: >
+      虽然 **Cloudflare** 在托管图表中排名第五，但在该图表中它仅次于 **AWS Lambda**，这使其成为这两个领域强有力的竞争者。
+
+  - key: other_tools.text_editors.takeaway.js2025
+    t: >
+      **VS Code** 长期以来一直主导着文本编辑器排名，但 **Cursor** 凭借其 AI 驱动编码的承诺，不知何故成功超越了所有其他竞争对手。
+
+  - key: other_tools.mobile_desktop.takeaway.js2025
+    t: >
+      **React Native** 在这里处于领先地位，但 **Expo** 和 **Tauri** 也值得关注！
+
+  - key: other_tools.monorepo_tools.takeaway.js2025
+    t: >
+      **pnpm** 是 monorepo 类别中明显的领导者。
+
+  - key: other_tools.non_js_languages.takeaway.js2025
+    t: >
+      当我们不写 JavaScript 时，我们大多数人会转向 **Python** 和 **PHP**。
+
+  - key: other_tools.non_js_languages_features_top_features.takeaway.js2025
+    t: >
+      今年我们还询问了受访者他们希望在 JavaScript 中看到哪些*特性*，同时也指出了该特性来自哪种语言。
+
+
+      第二个标签页显示了哪些语言出现得最频繁。虽然 **Rust** 在之前的“非 JavaScript 语言”图表中仅是第 7 大常用语言，但它在这里排名第一，证明了它对 JavaScript 生态系统的巨大影响。
+
+  # usage
+
+  - key: usage.js_ts_balance.takeaway.js2025
+    t: >
+      完全用 TypeScript 编写代码的开发者比例持续增加，可能很快就会代表大多数受访者。
+
+  - key: usage.compiled_code_balance.takeaway.js2025
+    t: >
+      编写类型化代码的一个自然结果（至少在今天）是依赖构建步骤，这对我们绝大多数人来说都是如此。
+
+  - key: usage.build_step_advantages.takeaway.js2025
+    t: >
+      如果我们*确实*想设想一个无需构建的未来，那么第一步无疑是 JavaScript 中的原生类型支持。
+
+  - key: usage.ai_generated_code_balance.takeaway.js2025
+    t: >
+      虽然受访者尚未用 AI 生成大部分代码，但平衡正在迅速转变，作为 AI 输出结果的代码比例同比从 20% 增加到 29%。
+
+  - key: usage.what_do_you_use_js_for.takeaway.js2025
+    t: >
+      尽管 JavaScript 的用例数量不断增加，但前端开发目前仍然是使用该语言的最常见原因。
+
+  - key: usage.industry_sector.takeaway.js2025
+    t: >
+      鉴于调查关注即将到来的趋势和早期特性，其最大的受众群体是为其他程序员构建工具和产品的开发者，这是有道理的。
+
+  - key: usage.js_app_patterns.takeaway.js2025
+    t: >
+      现代 JavaScript 框架现在可能支持各种渲染模式，但事实证明，最简单的模式至今仍然是最受欢迎的。
+
+  - key: usage.top_js_pain_points.takeaway.js2025
+    t: >
+      我们现在拥有几乎所有我们需要的工具；挑战在于知道如何正确使用它们。
+
+  - key: usage.state_of_the_web_happiness.takeaway.js2025
+    t: >
+      幸福感再次稳定。
+
+  - key: usage.state_of_js_happiness.takeaway.js2025
+    t: >
+      幸福感水平再次保持不变。
+
+  # resources
+
+  - key: resources.courses.takeaway.js2025
+    t: >
+      看到像 **Wes Bos** 和 **Fireship** 这样的独立开发者如何利用他们的追随者与 **Udemy** 或 **O'Reily** 等大得多的实体竞争，总是很有趣。
+
+  - key: resources.newsletters.takeaway.js2025
+    t: >
+      时事通讯缺乏社交媒体的内置分享机制，因此发展起来可能相当困难。这解释了为什么像 **JavaScript Weekly** 和 **CSS-Tricks** 这样长期存在的现有者仍然位居榜首。
+
+  - key: resources.podcasts.takeaway.js2025
+    t: >
+      随着播客和视频内容之间的界限变得越来越模糊，**Syntax** 仍然保持着其作为受访者最喜欢的编程相关音频来源的地位。
+
+  - key: resources.video_creators.takeaway.js2025
+    t: >
+      虽然这些排名可能在很大程度上取决于视频创作者是否与自己的受众分享了调查，但 **Fireship**、**Theo** 和 **The Primeagen** 似乎稳固地占据了编程 YouTube 的前三名。
+
+  - key: resources.people.takeaway.js2025
+    t: >
+      虽然 **Midudev** 拥有自己庞大的视频影响力，而其他“著名”开发者则与成功的开源项目相关联，但值得注意的是，**Josh Comeau** 当之无愧的成功几乎完全归功于他优秀的博客质量，这是对更老派的在线创建教学内容方式的回归。
+
+  - key: resources.other_surveys.takeaway.js2025
+    t: >
+      虽然填写太多的在线调查无疑会导致可怕的“调查疲劳”（去看医生吧！），但如果适度消费，它们仍然是了解生态系统的好工具。
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.js2025
+    t: "我的 2025 年度之选："
+  - key: picks.intro
+    t: 我们邀请 JavaScript 社区成员分享他们的“年度之选”
+
+  - key: picks.aurora_scharff.name
+    t: |
+      演讲：Next.js at the speed of Bun
+  - key: picks.aurora_scharff.bio
+    t: Web 开发者
+  - key: picks.aurora_scharff.description
+    t: |
+      我的选择是 Lydia Hallie 在 Next.js Conf 上关于 Bun 的演讲。他们正在做非常令人兴奋的事情，而且她最擅长解释高级话题 :)
+
+  - key: picks.ankita_kulkarni.name
+    t: |
+      Delba Oliveira
+  - key: picks.ankita_kulkarni.bio
+    t: 技术教育家
+  - key: picks.ankita_kulkarni.description
+    t: |
+      我的年度之选是 Next.js 团队的 Delba Oliveira。她在整个生态系统中的工作都非常出色。她拥有一种罕见的能力，能让复杂的话题感觉简单，同时始终如一地为现代 Next.js、React 和 JS 提供极具实用性的指导。
+
+  - key: picks.shaundai_person.name
+    t: |
+      Bree Hall
+  - key: picks.shaundai_person.bio
+    t: Netflix 高级软件工程师
+  - key: picks.shaundai_person.description
+    t: |
+      我的选择是 Bree Hall，她一直做得很好，我们很幸运能有她作为社区的一员。
+
+  - key: picks.sam_selikoff.name
+    t: |
+      RSC Explorer
+  - key: picks.sam_selikoff.bio
+    t: Next.js 团队
+  - key: picks.sam_selikoff.description
+    t: |
+      服务器组件通过允许你不仅向浏览器发送惰性 HTML，还可以发送数据结构（对象、数组、日期、映射）、Promise（甚至是递归的）、新的 React 树（及其源代码）和服务器函数引用，从而扩展了服务器渲染 React 的能力。这是一种序列化格式，Dan 的 RSC Explorer 确实能帮助你理解这一点。
+
+  - key: picks.sacha_greif.name
+    t: |
+      Kit Langton
+  - key: picks.sacha_greif.bio
+    t: Devographics 调查创建者
+  - key: picks.sacha_greif.description
+    t: |
+      Kit 的网站是展示结合了精美视觉效果、强大功能和惊人内容（特别是关于 [TypeScript](https://types.kitlangton.com/) 和 [Effect](https://www.effect.institute/) 库）的项目的绝佳案例。
+
+  - key: picks.declan_chidlow.name
+    t: |
+      Web Origami
+  - key: picks.declan_chidlow.bio
+    t: 前端开发者、设计师、作家
+  - key: picks.declan_chidlow.description
+    t: |
+      Web Origami 自称是“JavaScript 表达式的简洁方言”，是一个在 2025 年步入正轨的项目。它提供了一种非常直观的方式来转换数据、构建网站以及直接从 shell 调用 JavaScript。它连接表达式和路径，以实现强大、直观的数据操作。
+
+  - key: picks.jenn_schiffer.name
+    t: |
+      The Atproto Dev Community
+  - key: picks.jenn_schiffer.bio
+    t: 著名蜡烛制造商和卡拉 OK 专业人士
+  - key: picks.jenn_schiffer.description
+    t: |
+      我认为 atproto 开发者社区值得关注——其中一个官方 SDK 是 TypeScript！另外还要向 [Jason Lengstorf](https://jason.energy/) 和所有参与 [this](https://bsky.app/profile/codetv.dev/post/3lzgoi3nzh223) 的人致敬。
+
+  - key: picks.michael_rambeau.name
+    t: |
+      SST
+  - key: picks.michael_rambeau.bio
+    t: [BestOfJS](https://bestofjs.org/) 创建者
+  - key: picks.michael_rambeau.description
+    t: |
+      仅仅一年前我还不知道 SST，但我开始在一个新的工作项目中使用它，它简直太棒了！它真的值得更多的曝光。
+
+  - key: picks.adam_argyle.name
+    t: |
+      Observable
+  - key: picks.adam_argyle.bio
+    t: The CSS Podcast 联合主持人
+  - key: picks.adam_argyle.description
+    t: |
+      Observable 让你构建交互式文档，将每个块视为产生某种东西的函数。它完全是异步的，功能超级强大，制作东西非常有趣，并为 [Nerdy Notebook](http://nerdy.dev/notebook) 提供动力。
+
+  ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.solid.html2025
+    t: |
+      **Solid** 可能只有 10% 的受访者使用，但它*连续五年*拥有最高的满意度，这一事实应该足以让我们关注它的动态。
+
+
+      更重要的是，Solid 的创建者 [Ryan Carniato](https://dev.to/ryansolid) 在很大程度上负责普及了 **signals** 等概念，并且也是[解释](https://dev.to/this-is-learning/javascript-frameworks-heading-into-2026-2hel)其他前端框架复杂性的最佳人选之一。
+
+  - key: highlight.astro.html2025
+    t: |
+      **Astro** 仔细研究了其他静态站点生成器在做什么，取其精华，去其糟粕。结果是一个既让人感觉简单又强大的框架，因此获得了最高的满意度排名。
+
+
+      最近[与 Cloudflare 联手](https://blog.cloudflare.com/astro-joins-cloudflare/)，想想 Astro 团队接下来会给我们展示什么，真是令人兴奋！
+
+  - key: highlight.elysia.html2025
+    t: |
+      周围有很多后端框架，但 **Elysia** 是唯一一个建立在 [Bun](https://bun.com/) 之上的框架。
+
+
+      利用一个全新的运行时可能是一个冒险的赌注，但鉴于 Bun 自身日益增长的受欢迎程度，这个赌注似乎可能会得到回报。如果有的话，这肯定被证明是一个有趣的实验！
+
+  - key: highlight.bun_test.html2025
+    t: |
+      经过多年对更统一工具链的期盼，看起来 JavaScript 开发者可能终于开始如愿以偿了。
+
+
+      **Bun test** 只是测试运行器被烘焙到运行时中的一个例子，[Node](https://nodejs.org/api/test.html) 和 [Deno](https://docs.deno.com/runtime/fundamentals/testing/) 也提供了它们自己的等效项。
+
+  - key: highlight.rolldown.html2025
+    t: |
+      虽然 **Vite** 团队主要以 Vite 闻名，但它也一直在悄悄开发 **Rolldown**，作为一个更快的、基于 Rust 的打包器。
+
+
+      现在 [Vite 本身使用 Rolldown](https://vite.dev/blog/announcing-vite8-beta)，该项目无疑将在构建工具生态系统中发挥核心作用。
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vitest** 和 **Playwright** 在受访者中的使用率均增加了 **{value}**。
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite 占据榜首，有 **{value}** 的用户对它持积极看法。
+
+  - key: award.tool_interest_award.comment
+    t: **Vitest** 再次成为开发者最感兴趣的技术，兴趣比率为 **{value}**。
+
+  - key: award.most_write_ins_award.comment
+    t: Node 版本管理器 **fnm** 获得了 **{value}** 次提及，再次证明了用 Rust 编写的一切都更好。
+
+  - key: award.most_commented_tool_award.comment
+    t: **Next.js** 收到了受访者的 **{value}** 条评论，当然没有让人无动于衷。
+
+  - key: award.most_loved_tool_award.comment
+    t: **{value}** 的开发者对 Vite 持积极看法，Vite 再次获得最受喜爱技术奖！
+
+  - key: award.feature_adoption_delta_award.comment
+    t: 2022 年 **top-level await** 取得了 **{value}** 的进展，迅速成为 JavaScript 不可或缺的一部分。
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2025.daniel_roe
+    t: |
+      <span class="first-line">TypeScript 已经赢了。</span>
+
+      不是作为打包器，而是作为一种语言。Deno 和 Bun 已经支持它很长时间了。现在，类型剥离意味着你可以在稳定的 Node.js 版本中原生编写它。如果“类型作为注释”提案通过，你甚至能够在浏览器中编写它。
+
+      ……Vite 的时代已经到来。今年，我们看到 Vite 的下载量超过了 webpack。随之而来的是，Vitest 的使用量激增。现在似乎是加入新 Vite 工具链的好时机，而 2026 年有望成为这发生的一年——随着 Rolldown 的稳定发布，为新的、更快的 Vite 提供动力，以及一体化“Vite+”的承诺。
+
+      我们的工具比以往任何时候都好。然而，我们都在问的存在主义问题却截然不同：AI 呢？
+
+      AI 势必将改变我们消费文档、编写代码、做出架构选择等的方式。公司正将一切押在新的开发模式上。对于我们绝大多数人来说，编码代理正在改变我们与代码交互的方式。
+
+      这是好事吗？
+
+      显然，到 2025 年底，只有不到 30% 的代码是 AI 生成的。Cursor 和 Zed 的受欢迎程度正在飙升，即使它们还远未取代 VSCode 成为最常用的 IDE。像 Claude、Gemini 和 Copilot 这样基于代理的方法正在快速增长。
+
+      对于我们这些开发者来说，无论我们使用什么工具，知道什么是“好”将比以往任何时候都重要。掌握新的语言特性将更加重要。知道在哪些库的基础上构建，而不是从头开始“氛围编码”（vibe coding）一切，也将同样重要。
+
+      现在已经可以在一天内启动一个新项目——或者轻松迁移现有项目。这对框架和库的作者来说是一个挑战。我们需要确保我们的工具继续为开发者服务。我们不能指望惯性。
+
+      这是所有用户都应该乐观的一个理由。
+
+      让我们看看 2026 年会带来什么。我希望是更快的工具、更好的开发体验，以及技术作为力量倍增器来增强我们自己的代理权和选择的力量。
+
+  - key: conclusion.js2025.daniel_roe.bio
+    t: 开源维护者和创始人，领导 Nuxt 核心团队。
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.js2025
+    t: |
+      2025 年 JavaScript 现状调查于 2025 年 9 月 24 日至 11 月 10 日进行，收集了 13,002 份回复。结果于 2026 年 2 月 3 日公布。本次调查由 [Devographics](https://devographics.com/) 运营。
+
+      JavaScript 现状标志和 T 恤由 [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) 设计。
+
+      ### 调查目标
+
+      本次调查旨在识别 Web 开发生态系统中即将出现的趋势，以帮助开发者做出技术选择。
+
+      因此，调查的重点是预测未来几年的发展，而不是分析目前流行的内容，这就是为什么有时会省略即使目前广泛使用的功能或技术的原因。
+
+      这也应被视为**特定开发者子集的快照**，并不意味着代表整个生态系统。
+
+      ### 调查设计
+
+      调查的设计部分基于去年的调查，并有一个公开反馈期，在此期间调查大纲在 [GitHub 上](https://github.com/Devographics/surveys/issues/255)进行了讨论。
+
+      所有调查问题都是可选的。
+
+      ### 调查受众
+
+      调查在网上公开访问，受访者没有经过任何方式的过滤或选择。受访者主要由过去调查的受访者（通过专门的邮件列表提醒）和社交媒体流量混合而成。
+
+      请注意，框架、库等可以自由鼓励其受众参与调查，其中一些确实通过横幅、推文等方式利用了这一点。流量来源的详细分类包含在元数据页面的“来源”图表中。
+
+      ### 项目资金
+
+      除了 T 恤销售外，该项目的资金来自以下赞助商：
+
+      - [Google](https://www.google.com/chrome/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [TokyoDev](https://www.tokyodev.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Frontend Masters](https://frontendmasters.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Algolia](https://www.algolia.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [Storyblok](https://www.storyblok.com/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+      - [JetBrains](https://www.jetbrains.com/webstorm/?utm_source=stateofjs&utm_medium=website&utm_campaign=js2025)
+
+      非常感谢任何贡献或赞助。我们特别希望能与更多浏览器供应商密切合作，因为他们在网络生态系统中扮演着如此核心的角色。
+
+      ### 技术概览
+
+      您可以在[这里](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a)找到关于调查如何运行的更深入的技术概览。

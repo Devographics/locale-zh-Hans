@@ -900,3 +900,576 @@ translations:
       欢迎参与调查！前几部分主要是了解您了解 HTML 的哪些**特性**（以及相关的 API）。
 
       顺便说一下，如果您想进一步了解调查中的任何项目，可以点击其 "+"图标将其添加到您的阅读列表中！
+  - key: sections.tshirt.title
+    t: T 恤
+  - key: sections.tshirt.description
+    t: "## 通过 State of HTML T 恤支持调查\n\n你是否怀念 90 年代中期的美好时光？那是 HTML 为王的时代，VHS 录像带封面印着充满未来感、色彩斑斓的艺术作品。\n\n坏消息是，即使拥有 2024 年的技术，你也无法回到过去重温那些辉煌岁月。但你可以做的是穿上这款超棒的原创复古 T 恤，它由才华横溢的 Christopher Kirk-Nielsen 设计。\n"
+  - key: tshirt.about
+    t: 关于 T 恤
+  - key: tshirt.description
+    t: '我们使用高品质、超柔软的三混纺面料，修身剪裁，由我们的合作伙伴 Cotton Bureau 印刷。
+  
+      '
+  - key: tshirt.getit
+    t: 获取
+  - key: tshirt.price
+    t: 32 美元 + 运费
+  - key: tshirt.designer.heading
+    t: 关于设计师
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+  - key: tshirt.designer.bio
+    t: 'Chris 来自法国，现居美国，他不仅是一位出色的前端开发人员，还是一位擅长复古视觉效果的天才插画师。事实上，我们鼓励您也去看看他的 [其他 T 恤设计](https://chriskirknielsen.com/designs)！
+  
+      '
+  - key: sections.forms.prompt
+    t: 表单相关元素和属性
+    aliases:
+    - features.forms.description
+  - key: sections.interactivity.prompt
+    t: 实现更丰富用户交互的 API。
+    aliases:
+    - features.interactivity.description
+  - key: sections.web_components.prompt
+    t: 制作和使用 Web 组件。
+    aliases:
+    - features.web_components.description
+  - key: sections.content.prompt
+    t: 嵌入、多媒体、数据和其他内容相关功能。
+    aliases:
+    - features.content.description
+  - key: sections.external_content.prompt
+    t: 嵌入外部资源和其他多媒体 API。
+  - key: sections.accessibility.prompt
+    t: 让所有人都能访问网站和应用程序。
+    aliases:
+    - features.accessibility.description
+    - sections.accessibility.description
+  - key: sections.mobile_web_apps.prompt
+    t: 编写针对移动端和桌面端优化的 Web 应用。
+  - key: sections.other_features.prompt
+    t: 其他 HTML 元素和浏览器 API。
+  - key: sections.usage.prompt
+    t: 您如何使用 HTML。
+  - key: sections.graphics_multimedia.title
+    t: 图形与多媒体
+    aliases:
+    - features.graphics_multimedia
+  - key: sections.graphics_multimedia.title.short
+    t: 图形
+    aliases:
+    - features.graphics_multimedia.short
+  - key: sections.graphics_multimedia.prompt
+    t: 渲染图形和动画。
+    aliases:
+    - features.graphics_multimedia.description
+  - key: sections.performance.title
+    t: 性能
+    aliases:
+    - features.performance
+  - key: sections.performance.prompt
+    t: 让您的网站运行得更快。
+    aliases:
+    - features.performance.description
+  - key: sections.security.title
+    t: 安全
+  - key: sections.security.prompt
+    t: 保护您的代码免受攻击。
+  - key: sections.system_capabilities.title
+    t: 系统功能
+    aliases:
+    - features.system_capabilities
+  - key: sections.system_capabilities.prompt
+    t: 访问设备和系统 API。
+    aliases:
+    - features.system_capabilities.description
+  - key: sections.other_tools.prompt
+    t: 其他 Web 平台相关工具。
+  - key: features.all_features.description
+    t: "此图表回顾了调查的所有功能问题。主条形图代表受访者的经验；然后根据受访者的情绪进一步细分。您可以更改分组以在两者之间切换。\n\n\n请注意，您还可以在每个功能子部分中找到相同数据的更具体细分。\n"
+  - key: features.forms_features
+    t: 表单体验与情绪
+    aliases:
+    - forms.forms_features
+  - key: features.interactivity_features
+    t: 交互性体验与情绪
+    aliases:
+    - interactivity.interactivity_features
+  - key: features.content_features
+    t: 内容体验与情绪
+    aliases:
+    - content.content_features
+  - key: features.system_capabilities_features
+    t: 系统功能体验与情绪
+    aliases:
+    - system_capabilities.system_capabilities_features
+  - key: features.performance_features
+    t: 性能体验与情绪
+    aliases:
+    - performance.performance_features
+  - key: features.graphics_multimedia_features
+    t: 图形与多媒体体验与情绪
+    aliases:
+    - graphics_multimedia.graphics_multimedia_features
+  - key: features.graphics_multimedia_features.short
+    t: 图形体验与情绪
+    aliases:
+    - graphics_multimedia.graphics_multimedia_features.short
+  - key: features.forms_pain_points.prompt
+    t: '想想各种表单控件（例如 `<input>`、`<textarea>`、`<select>`、`<button>` 等），
+  
+      行为（例如验证、自动完成），通过 JS 处理表单，编辑 API（例如 `contentEditable`）等。
+  
+      任何困扰您的问题都可以——浏览器支持、缺少功能、样式等。
+  
+      '
+    aliases:
+    - forms.forms_pain_points.prompt
+  - key: features.interactivity_pain_points.prompt
+    t: '浏览器不兼容或缺乏支持、缺少功能以及您面临的其他问题
+  
+      围绕交互元素和行为（表单除外）、DOM 操作、事件和相关 API。
+  
+      '
+    aliases:
+    - interactivity.interactivity_pain_points.prompt
+  - key: features.content_pain_points.prompt
+    t: '想想内容元素（iframe、标题、表格、章节）、机器可读数据、国际化和本地化等。
+  
+      缺少功能、浏览器不兼容以及您面临的其他问题都可以。
+  
+      '
+    aliases:
+    - content.content_pain_points.prompt
+  - key: features.graphics_pain_points
+    t: 图形与多媒体痛点
+    aliases:
+    - graphics_multimedia.graphics_pain_points
+  - key: features.graphics_pain_points.short
+    t: 图形痛点
+    aliases:
+    - graphics_multimedia.graphics_pain_points.short
+  - key: features.graphics_pain_points.question
+    t: 您在渲染图形、视频、动画和其他媒体方面有哪些痛点？
+    aliases:
+    - graphics_multimedia.graphics_pain_points.question
+  - key: features.graphics_pain_points.prompt
+    t: '想想围绕使用 Canvas、SVG、WebGL 和其他 API 渲染图形、渲染动画、图形性能、缺少图形基元或 API 等问题。
+  
+      '
+    aliases:
+    - graphics_multimedia.graphics_pain_points.prompt
+  - key: features.graphics_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.performance_pain_points
+    t: 性能痛点
+    aliases:
+    - performance.performance_pain_points
+  - key: features.performance_pain_points.question
+    t: 您在性能方面有哪些痛点？
+    aliases:
+    - performance.performance_pain_points.question
+  - key: features.performance_pain_points.prompt
+    t: '围绕糟糕的性能指标、页面加载缓慢、渲染延迟、动画或滚动卡顿等问题。
+  
+      '
+    aliases:
+    - performance.performance_pain_points.prompt
+  - key: features.performance_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.security_pain_points
+    t: 安全痛点
+    aliases:
+    - security.security_pain_points
+  - key: features.security_pain_points.question
+    t: 您在安全方面有哪些痛点？
+    aliases:
+    - security.security_pain_points.question
+  - key: features.security_pain_points.prompt
+    t: '待定
+  
+      '
+    aliases:
+    - security.security_pain_points.prompt
+  - key: features.security_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.using_web_components_pain_points.prompt
+    t: 使用您或他人制作的 Web 组件。缺少功能、浏览器不兼容等。
+  - key: features.making_web_components_pain_points.prompt
+    t: '是什么阻碍了您创建您设想的出色组件？缺少功能、浏览器不兼容等。
+  
+      '
+  - key: features.web_components_common_pain_points
+    t: Web 组件痛点
+    aliases:
+    - web_components.web_components_common_pain_points
+  - key: features.web_components_common_pain_points.question
+    t: 您在制作和使用 Web 组件方面最大的痛点是什么？
+    aliases:
+    - web_components.web_components_common_pain_points.question
+  - key: options.web_components_common_pain_points.complex_apis
+    t: 过于复杂
+  - key: options.web_components_common_pain_points.complex_apis.description
+    t: Web 组件 API 使用起来很痛苦/太低级/太复杂。
+  - key: options.web_components_common_pain_points.a11y_issues
+    t: 无障碍问题
+  - key: options.web_components_common_pain_points.a11y_issues.description
+    t: 焦点管理、ARIA 等很难实现。
+  - key: options.web_components_common_pain_points.i18n_issues
+    t: 本地化/国际化问题
+  - key: options.web_components_common_pain_points.i18n_issues.description
+    t: 很难制作能够适应页面语言环境或文本可定制的 Web 组件。
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity
+    t: Shadow DOM CSS 特异性低
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
+    t: '例如 `* { margin: 0 }` 会覆盖通过 `::slotted()`、`:host` 等设置的任何边距。
+  
+      '
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation
+    t: 过于严格的样式封装
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
+    t: 从外部设置 Shadow DOM 样式（反之亦然）太受限制。
+  - key: options.web_components_common_pain_points.overreliance_on_js
+    t: 过度依赖 JavaScript 和 SSR 问题
+  - key: options.web_components_common_pain_points.overreliance_on_js.description
+    t: 除非服务端渲染，否则 Web 组件需要 JavaScript 才能渲染，即使不是交互式的。
+  - key: options.web_components_common_pain_points.design_tokens_access
+    t: 访问设计令牌
+  - key: options.web_components_common_pain_points.design_tokens_access.description
+    t: 颜色、字体、间距等需要分别传达给每个组件。
+  - key: options.web_components_common_pain_points.native_element_extension
+    t: 扩展原生元素
+  - key: options.web_components_common_pain_points.native_element_extension.description
+    t: 原生元素需要完全重新创建才能添加一个功能。
+  - key: options.web_components_common_pain_points.slotted_descendants_style
+    t: 插槽后代样式
+  - key: options.web_components_common_pain_points.slotted_descendants_style.description
+    t: 插槽后代无法设置样式（例如无法执行 `::slotted(ul) > li`）。
+  - key: features.web_components_other_pain_points
+    t: 其他 Web 组件痛点
+    aliases:
+    - web_components.web_components_other_pain_points
+  - key: features.web_components_other_pain_points.question
+    aliases:
+    - web_components.web_components_other_pain_points.question
+    t: 制作和使用 Web 组件方面还有其他痛点吗？
+  - key: features.web_components_other_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: usage.component_strategies
+    t: HTML 复用
+  - key: usage.component_strategies.question
+    t: 您使用哪些策略来实现组件或以其他方式复用 HTML 代码？
+  - key: options.component_strategies.server_side_templating
+    t: 服务端模板
+  - key: options.component_strategies.server_side_templating.description
+    t: 通过 PHP、Node.js 等生成的服务端模板。
+  - key: options.component_strategies.build_time_templating
+    t: 构建时模板
+  - key: options.component_strategies.build_time_templating.description
+    t: Astro、Jekyll、其他静态站点生成器等。
+  - key: options.component_strategies.client_side_templating
+    t: 客户端模板
+  - key: options.component_strategies.client_side_templating.description
+    t: DOM 操作、jQuery、Handlebars 等。
+  - key: options.component_strategies.component_based_frameworks
+    t: 基于组件的 JavaScript 框架
+  - key: options.component_strategies.component_based_frameworks.description
+    t: React、Vue.js、Angular 等。
+  - key: options.component_strategies.web_components
+    t: Web 组件
+  - key: options.component_strategies.web_components.description
+    t: Web 组件，无论是否有辅助库。
+  - key: options.component_strategies.web_components_frameworks
+    t: Web 组件辅助库
+  - key: options.component_strategies.web_components_frameworks.description
+    t: Stencil、Lit、Polymer 等。
+  - key: options.component_strategies.copy_paste
+    t: 复制粘贴
+  - key: options.component_strategies.copy_paste.description
+    t: 从内部或外部来源复制粘贴代码片段。
+  - key: features.reasons_for_not_using_web_components
+    t: 不使用的原因
+  - key: features.reasons_for_not_using_web_components.question
+    t: 如果您目前*没有*使用 Web 组件，能告诉我们原因吗？
+  - key: options.reasons_for_not_using_web_components.not_interested
+    t: 不感兴趣，或者觉得没必要
+  - key: options.reasons_for_not_using_web_components.no_chance
+    t: 感兴趣，但还没机会使用
+  - key: options.reasons_for_not_using_web_components.negative_experience
+    t: 使用过，但体验不好
+  - key: options.reasons_for_not_using_web_components.use_frameworks_instead
+    t: 可以使用 JS 框架实现相同的功能
+  - key: options.reasons_for_not_using_web_components.compatibility_issues
+    t: 想用，但由于兼容性或支持问题而无法使用。
+  - key: features.system_capabilities_pain_points
+    t: 系统功能痛点
+    aliases:
+    - system_capabilities.system_capabilities_pain_points
+  - key: features.system_capabilities_pain_points.question
+    t: 您在访问原生系统和设备功能方面有哪些痛点？
+    aliases:
+    - system_capabilities.system_capabilities_pain_points.question
+  - key: features.system_capabilities_pain_points.prompt
+    t: '围绕访问设备或操作系统功能、与文件系统交互、匹配原生应用功能集等问题。
+  
+      '
+    aliases:
+    - system_capabilities.system_capabilities_pain_points.prompt
+  - key: features.system_capabilities_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.landmark_elements
+    t: 地标元素 (Landmark elements)
+  - key: features.tabindex_attribute
+    t: '`tabindex` 属性'
+  - key: features.respimg_attributes
+    t: '`srcset` 和 `sizes` 属性'
+  - key: features.controlslist_attribute
+    t: '`controlslist` 属性'
+  - key: features.content_security_policy
+    t: 内容安全策略 (CSP)
+  - key: features.focusgroup_attribute
+    t: '`focusgroup` 属性'
+  - key: features.shadow_dom
+    t: Shadow DOM
+  - key: features.declarative_shadow_dom
+    t: 声明式 Shadow DOM
+  - key: features.mapviewer_element
+    t: '`<mapviewer>` (内联 MapML)
+  
+      '
+  - key: features.formdata
+    t: FormData API
+  - key: features.customizable_select
+    t: 可自定义的 Select
+  - key: features.fetchpriority_attribute
+    t: '`fetchpriority` 属性'
+  - key: features.autocomplete_attribute
+    t: '`autocomplete` 属性'
+  - key: features.clipboard_api
+    t: 剪贴板 API
+  - key: features.custom_highlight_api
+    t: CSS Custom Highlight API
+  - key: features.intl_segmenter
+    t: '`Intl.Segmenter` API'
+  - key: features.filesystem_access
+    t: 文件系统访问 API
+  - key: features.badging_api
+    t: 徽章 API (Badging API)
+  - key: features.web_share_api
+    t: Web 分享 API
+  - key: features.launch_handler_api
+    t: 启动处理程序 API (Launch Handler API)
+  - key: features.file_handling_api
+    t: 文件处理 API
+  - key: features.window_controls_overlay
+    t: 窗口控件覆盖 API (Window Controls Overlay API)
+  - key: features.isolated_webapps
+    t: 隔离的 Web 应用 (Isolated Web Apps)
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+  - key: other_tools.validation_tools
+    t: 验证工具
+  - key: other_tools.validation_tools.question
+    t: 您经常使用哪些验证工具？
+  - key: other_tools.performance_tools
+    t: 性能工具
+  - key: other_tools.performance_tools.question
+    t: 您使用哪些工具和服务来跟踪和改进网站性能？
+  - key: options.performance_tools.browser_devtools
+    t: 浏览器开发者工具
+  - key: other_tools.analytics_tools
+    t: 分析工具
+  - key: other_tools.analytics_tools.question
+    t: 您使用哪些分析工具和服务来监控您的网站？
+  - key: usage.html_functionality_features.prompt
+    t: '您经常必须使用 JS 重新创建或增强的现有 HTML 功能。
+  
+      '
+  - key: usage.html_new_features
+    t: 新功能
+  - key: usage.html_new_features.question
+    t: 您对这些新功能和即将推出的功能中的哪一个最感兴趣？
+  - key: options.html_missing_elements.callout
+    t: 标注 (Callout)
+  - key: options.html_missing_elements.callout.description
+    t: 用于信息消息、错误、警告等的视觉上独特的文本块。
+  - key: options.html_missing_elements.datatable.description
+    t: 具有排序、过滤等功能的数据表。
+  - key: options.html_missing_elements.sortable_list
+    t: 可排序的拖放列表
+  - key: options.html_missing_elements.html_include
+    t: HTML 包含 (HTML include)
+  - key: options.html_missing_elements.html_include.description
+    t: 在文档中内联包含来自另一页面的内容的元素。
+  - key: options.html_missing_elements.range_slider
+    t: 范围滑块
+  - key: options.html_missing_elements.range_slider.description
+    t: 带有两个手柄的滑块，用于选择数字范围。
+  - key: options.html_missing_elements.charts
+    t: 图表/图形
+  - key: options.html_missing_elements.rich_text_editor
+    t: 富文本编辑器
+  - key: options.html_missing_elements.rich_code_block
+    t: 丰富代码块
+  - key: options.html_missing_elements.rich_code_block.description
+    t: 具有语法高亮、代码编辑、复制按钮等功能。
+  - key: options.html_missing_elements.footnotes
+    t: 脚注/旁注
+  - key: options.html_missing_elements.maps
+    t: 地图
+  - key: usage.design_system_strategies
+    t: 设计系统
+  - key: usage.design_system_strategies.question
+    t: 您是否使用以下任何设计系统策略来保持 UI 一致性？
+  - key: options.design_system_strategies.elements_components
+    t: 元素/组件
+  - key: options.design_system_strategies.elements_components.description
+    t: '可重用的构建块库，如按钮或下拉菜单，以任何技术实现（例如 React、Web 组件等）。
+  
+      '
+  - key: options.design_system_strategies.design_tokens
+    t: 设计令牌 (Design tokens)
+  - key: options.design_system_strategies.design_tokens.description
+    t: '用于颜色、间距和排版等事物的原子变量，例如 `--color-accent-dark`、`--font-heading` 等。
+  
+      '
+  - key: options.design_system_strategies.utilities
+    t: 实用程序类 (Utilities)
+  - key: options.design_system_strategies.utilities.description
+    t: '应用单个特定样式或行为的低级 CSS 类，例如 `.visually-hidden`、`.grid-2x2`、`.text-center` 等。
+  
+      '
+  - key: options.design_system_strategies.guidelines
+    t: 指南
+  - key: options.design_system_strategies.guidelines.description
+    t: '保持一致性并确保实现某些目标（无障碍、可用性等）的标准和最佳实践。
+  
+      '
+  - key: options.design_system_strategies.patterns
+    t: 模式
+  - key: options.design_system_strategies.patterns.description
+    t: '上述所有内容的可复制粘贴的高级排列，可解决常见的 UI/UX 问题，例如导航栏，甚至整个响应式页面布局。
+  
+      '
+  - key: usage.html_styling_issues
+    t: 样式问题
+  - key: usage.html_styling_issues.question
+    t: 您在设置样式或视觉自定义方面最纠结哪些元素？
+  - key: options.html_styling_issues.validation_errors
+    t: 验证错误
+  - key: options.html_styling_issues.fieldset_and_legend
+    t: '`<fieldset>` 和 `<legend>`
+  
+      '
+  - key: opinions.accessibility_is_valued
+    t: 无障碍
+  - key: opinions.accessibility_is_valued.question
+    t: 我的工作场所或专业环境重视无障碍性
+  - key: options.accessibility_is_valued.0
+    aliasFor: options.opinions.0
+  - key: options.accessibility_is_valued.1
+    aliasFor: options.opinions.1
+  - key: options.accessibility_is_valued.2
+    aliasFor: options.opinions.2
+  - key: options.accessibility_is_valued.3
+    aliasFor: options.opinions.3
+  - key: options.accessibility_is_valued.4
+    aliasFor: options.opinions.4
+  - key: opinions.keeping_informed_is_challenging
+    t: 保持消息灵通
+  - key: opinions.keeping_informed_is_challenging.question
+    t: 及时了解新的 Web 平台功能是一项挑战
+  - key: options.keeping_informed_is_challenging.0
+    aliasFor: options.opinions.0
+  - key: options.keeping_informed_is_challenging.1
+    aliasFor: options.opinions.1
+  - key: options.keeping_informed_is_challenging.2
+    aliasFor: options.opinions.2
+  - key: options.keeping_informed_is_challenging.3
+    aliasFor: options.opinions.3
+  - key: options.keeping_informed_is_challenging.4
+    aliasFor: options.opinions.4
+  - key: opinions.browser_interoperability_is_obstacle
+    t: 浏览器互操作性
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: 缺乏浏览器互操作性目前是 Web 开发的主要障碍
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+  - key: opinions.browser_interoperability_pace
+    t: 互操作性步伐
+  - key: opinions.browser_interoperability_pace.question
+    t: 在过去几年中，新的 Web 功能在浏览器中变得更加稳定的速度加快了
+  - key: options.browser_interoperability_pace.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_pace.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_pace.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_pace.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_pace.4
+    aliasFor: options.opinions.4
+  - key: opinions.web_platform_right_direction
+    t: Web 平台
+  - key: opinions.web_platform_right_direction.question
+    t: Web 平台总体上正朝着正确的方向发展
+  - key: options.web_platform_right_direction.0
+    aliasFor: options.opinions.0
+  - key: options.web_platform_right_direction.1
+    aliasFor: options.opinions.1
+  - key: options.web_platform_right_direction.2
+    aliasFor: options.opinions.2
+  - key: options.web_platform_right_direction.3
+    aliasFor: options.opinions.3
+  - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
+  - key: opinions.validation_is_important
+    t: HTML 验证
+  - key: opinions.validation_is_important.question
+    t: '确保我的 HTML 代码通过验证很重要
+  
+      '
+  - key: options.validation_is_important.0
+    aliasFor: options.opinions.0
+  - key: options.validation_is_important.1
+    aliasFor: options.opinions.1
+  - key: options.validation_is_important.2
+    aliasFor: options.opinions.2
+  - key: options.validation_is_important.3
+    aliasFor: options.opinions.3
+  - key: options.validation_is_important.4
+    aliasFor: options.opinions.4
+  - key: faq.how_long_will_survey_take_html
+    t: 回答调查需要多长时间？
+  - key: faq.how_long_will_survey_take_html.description
+    t: '根据您回答的问题数量（所有问题都可以跳过），填写调查问卷大约需要 10-15 分钟。
+  
+      '
+  - key: faq.who_should_take_survey_html
+    t: 谁应该参加这项调查？
+  - key: faq.who_should_take_survey_html.description
+    t: '这是一项开放式调查，针对任何制作网站或 Web 应用程序的人，无论是作为工作的一部分定期或偶尔制作，还是作为学生，或者只是为了好玩！
+  
+      '
+  - key: faq.data_used_html
+    t: 这些数据将如何使用？
+  - key: faq.data_used_html.description
+    t: '收集的所有数据将公开发布，供任何开发人员或公司查阅。浏览器供应商也[使用这些数据](https://web.dev/blog/interop-2024)来确定重点领域的优先级并为其路线图提供信息。
+  
+      '
+  - key: faq.survey_goals_html
+    t: 调查的目标是什么？
+  - key: faq.survey_goals_html.description
+    t: '调查的目标是衡量对新 HTML 功能和浏览器 API 的认识，并帮助开发人员跟踪其使用情况的演变。
+  
+      '

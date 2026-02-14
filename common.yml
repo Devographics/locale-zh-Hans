@@ -1880,3 +1880,268 @@ translations:
 
   - key: entity.learn_more
     t: 了解更多...
+
+  - key: general.survey_feedback
+    t: 留下反馈
+  - key: credits.survey_review
+    t: 问卷审查
+  - key: credits.conclusion
+    t: 结论
+  - key: general.back_to_survey
+    t: 返回问卷
+  - key: general.thanks1
+    t: '感谢填写问卷！你的数据已保存。
+
+      '
+  - key: thanks.score_statistics
+    t: '在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个，这使你位于所有受访者中的前 {knowledgeRankingFromTop}。做得好！
+
+      '
+  - key: thanks.score_statistics_noranking
+    t: '在问卷中提到的 {total} 个功能中，你使用了 {usage_count} 个，并且听说过另外 {awareness_count} 个。做得好！
+
+      '
+  - key: thanks.points
+    t: '分
+
+      '
+  - key: thanks.score_awareness_explanation
+    t: '为了公平起见，此百分比仅基于你可以表示你了解的 {awareness_total} 个功能计算
+
+      '
+  - key: finish.copy
+    t: 复制
+  - key: finish.copied
+    t: 已复制！
+  - key: finish.goal_heading
+    t: 感谢你参与调查！但我们仍然需要你的帮助……
+  - key: finish.goal_heading.description
+    t: 今年，我们希望获得至少 **{count} 份调查回复**，以使我们的数据更具代表性并解锁新的见解。
+  - key: finish.goal_currently
+    t: '目前：
+
+      '
+  - key: finish.goal_goal
+    t: '目标：
+
+      '
+  - key: finish.goal_responses
+    t: 份回复
+  - key: finish.share_colleagues
+    t: 1. 分享给朋友和同事
+  - key: finish.share_colleagues.description
+    t: 将其发布在 Slack、Discord、Teams 或你的开发者朋友聚集的任何地方。
+  - key: finish.share_social
+    t: 2. 分享到社交媒体
+  - key: general.language_code
+    t: '{language} 代码'
+  - key: sections.overview.title
+    t: 概览
+  - key: opinions.opinions_intro
+    t: 对于以下问题，请让我们知道您对每个陈述的同意程度。
+    aliases:
+    - worldview.opinions_intro
+  - key: options.features.na
+    t: 无
+  - key: options.experience.comments
+    t: 评论
+    aliases:
+    - options.sentiment.comments
+  - key: options.slider.0.description
+    t: 0%
+  - key: options.slider.1.description
+    t: 12.5%
+  - key: options.slider.2.description
+    t: 25%
+  - key: options.slider.3.description
+    t: 37.5%
+  - key: options.slider.4.description
+    t: 50%
+  - key: options.slider.5.description
+    t: 62.5%
+  - key: options.slider.6.description
+    t: 75%
+  - key: options.slider.7.description
+    t: 87.5%
+  - key: options.slider.8.description
+    t: 100%
+  - key: options.disability_status.visual_impairments.description
+    t: 失明、色盲等
+  - key: options.disability_status.hearing_impairments.description
+    t: 耳聋、耳鸣等
+  - key: options.disability_status.mobility_impairments.description
+    t: 关节炎、腕管综合症等
+  - key: options.disability_status.cognitive_impairments.description
+    t: 焦虑、阅读障碍、ADHD 等
+  - key: options.disability_status.neurodivergent_conditions
+    t: 神经多样性状况
+  - key: options.disability_status.neurodivergent_conditions.description
+    t: ADHD、自闭症谱系障碍、阅读障碍等
+  - key: options.disability_status.mental_health_conditions
+    t: 心理健康状况
+  - key: options.disability_status.mental_health_conditions.description
+    t: 焦虑、抑郁、PTSD 等
+  - key: options.disability_status.chronic_illnesses
+    t: 慢性疾病
+  - key: options.disability_status.chronic_illnesses.description
+    t: 糖尿病、自身免疫性疾病等
+  - id: career.job_status
+    t: 就业状况
+  - id: career.job_status.question
+    t: 以下哪项最能描述您当前的就业状况？
+  - id: options.job_status.employed_full_time
+    t: 全职工作
+  - id: options.job_status.freelance
+    t: 独立承包商、自由职业者或个体经营者
+  - id: options.job_status.employed_part_time
+    t: 兼职工作
+  - id: options.job_status.student_full_time
+    t: 全日制学生
+  - id: options.job_status.student_part_time
+    t: 兼职学生
+  - id: options.job_status.looking_for_job
+    t: 待业，但正在找工作
+  - id: options.job_status.not_employed_not_looking
+    t: 待业，且不找工作
+  - id: options.job_status.retired
+    t: 退休
+  - key: options.form_factors.pdf_export
+    t: PDF 导出
+  - key: options.industry_sector.automation
+    t: 自动化
+  - key: options.industry_sector.industrial
+    t: 工业
+  - key: options.industry_sector.music
+    t: 音乐
+  - key: resources.web_platform_resources
+    t: Web 平台资源
+    aliases:
+    - other_tools.web_platform_resources
+  - key: resources.web_platform_resources.question
+    t: 您参考哪些资源来了解 Web 平台功能？
+    aliases:
+    - other_tools.web_platform_resources.question
+  - key: options.learning_methods.ai_tools
+    t: AI 工具 (ChatGPT, Claude, 等)
+  - key: user_info.employment_status.question
+    t: 您目前的就业状况如何？
+  - key: options.employment_status.employed_full_time
+    t: 全职工作
+  - key: options.employment_status.freelance
+    t: 独立承包商、自由职业者或个体经营者
+  - key: options.employment_status.employed_part_time
+    t: 兼职工作
+  - key: options.employment_status.student_full_time
+    t: 全日制学生
+  - key: options.employment_status.student_part_time
+    t: 兼职学生
+  - key: options.employment_status.looking_for_job
+    t: 待业，但正在找工作
+  - key: options.employment_status.not_employed_not_looking
+    t: 待业，且不找工作
+  - key: options.employment_status.company_employee
+    t: 公司员工
+  - key: options.employment_status.unemployed
+    t: 失业
+  - key: options.employment_status.ceo_founder
+    t: CEO/创始人/企业家
+  - key: options.employment_status.freelance.short
+    t: 自由职业者/个体户
+  - key: options.employment_status.professor
+    t: 教授
+  - key: user_info.years_of_experience.prompt
+    t: 无论是作为专业人士、学生、业余爱好者等。
+    aliases:
+    - career.years_of_experience.prompt
+  - key: user_info.income_evolution
+    t: 收入变化
+  - key: user_info.income_evolution.question
+    t: 过去 12 个月您的总收入有何变化？
+  - key: options.income_evolution.increased
+    t: 增加
+  - key: options.income_evolution.stayed_same
+    t: 保持不变
+  - key: options.income_evolution.decreased
+    t: 减少
+  - key: user_info.disability_status.prompt
+    t: '请注意，这可能包括暂时性残疾或受伤。
+
+      '
+    aliases:
+    - health.disability_status.prompt
+  - key: user_info.how_did_user_find_out_about_the_survey.question
+    t: 您从哪里听说这个调查的？
+  - key: user_info.country.question
+    t: 您目前居住在哪里？
+  - key: user_info.receive_notifications.question
+    t: 您希望在调查结果发布时收到通知吗？
+  - key: user_info.did_you_run_into_technical_issues
+    t: 技术问题
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: 在进行此调查时，您是否遇到了什么技术问题？
+  - key: user_info.missing_questions
+    t: 缺失的问题
+  - key: user_info.missing_questions.question
+    t: 您希望调查中还能问到哪些其他问题？
+  - key: user_info.how_can_we_improve.question
+    t: 我们还能如何改进这项调查？
+  - key: user_info.why_did_you_take_the_survey
+    t: 调查动机
+    aliases:
+    - _user_metadata.why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey.question
+    t: 您参与这项调查的主要好处是什么？
+    aliases:
+    - _user_metadata.why_did_you_take_the_survey.question
+  - key: options.why_did_you_take_the_survey.stay_informed
+    t: 它帮助我保持知情并跟上生态系统的步伐。
+  - key: options.why_did_you_take_the_survey.interested_in_data
+    t: 我对结果数据和趋势感兴趣。
+  - key: options.why_did_you_take_the_survey.help_with_representation
+    t: 我想帮助使数据集更具代表性。
+  - key: options.why_did_you_take_the_survey.for_fun
+    t: 我出于好奇或只是为了好玩而参加。
+  - key: options.why_did_you_take_the_survey.affect_change
+    t: 我想让我的声音被听到并影响开发者生态系统。
+  - key: options.why_did_you_take_the_survey.gauge_my_knowledge
+    t: 我想评估我目前的知识水平。
+  - key: resources.newsletters
+    t: 通讯
+  - key: resources.newsletters.question
+    t: 您阅读哪些通讯来了解 Web 开发新闻？
+  - key: resources.courses
+    t: 课程与培训材料
+  - key: resources.courses.question
+    t: 您使用过哪些课程或培训材料（视频、书籍等）来学习 JavaScript？
+  - key: options.courses.na
+    t: 🚫 无
+  - key: resources.courses.placeholder
+    t: '课程/书籍/等 #{index}…
+
+      '
+  - key: resources.people.question
+    t: 您阅读、关注或只是想强调哪些人？
+  - key: resources.video_creators.question
+    t: 您关注哪些与编程相关的视频创作者（在 YouTube、Twitch 等上）？
+  - key: baseline.baseline
+    t: '基准:'
+  - key: baseline.learn_more
+    t: 了解更多
+  - key: baseline.support.false
+    t: 有限可用
+  - key: baseline.support.false.description
+    t: 仅在某些浏览器中受支持。
+  - key: baseline.support.low
+    t: 新近可用
+  - key: baseline.support.low.description
+    t: 在所有四个主要浏览器中均受支持。
+  - key: baseline.support.high
+    t: 广泛可用
+  - key: baseline.support.high.description
+    t: 自新近可用以来已过 30 个月。
+  - key: baseline.support.unknown
+    t: 未知
+  - key: baseline.support.unknown.description
+    t: 无可用基准数据。
+  - key: feature.experimental
+    t: 当前不支持的功能或提案
