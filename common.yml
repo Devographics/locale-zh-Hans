@@ -1931,11 +1931,11 @@ translations:
   - key: finish.goal_responses
     t: 份回复
   - key: finish.share_colleagues
-    t: 1. 分享给朋友和同事
+    t: 分享给朋友和同事
   - key: finish.share_colleagues.description
     t: 将其发布在 Slack、Discord、Teams 或你的开发者朋友聚集的任何地方。
   - key: finish.share_social
-    t: 2. 分享到社交媒体
+    t: 分享到社交媒体
   - key: general.language_code
     t: "{language} 代码"
   - key: sections.overview.title
